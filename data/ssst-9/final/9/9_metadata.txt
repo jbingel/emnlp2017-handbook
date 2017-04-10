@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#SMT error analysis and mapping to syntactic, semantic and structural fixes
+ShortPaperTitle#=%=#SMT error analysis and mapping to syntactic, semantic and structural fixes
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Nora Aranberri
+JobTitle#==#
+Organization#==#IXA Group
+University of the Basque Country
+Manuel Lardizabal 1, 20018 Donostia, Spain
+Abstract#==#This paper argues in favor of a linguistically-informed error classification
+for SMT to identify system weaknesses and map them to possible syntactic,
+semantic and structural fixes. We propose a scheme which includes both
+linguistic-oriented error categories as well as SMT-oriented edit errors, and
+evaluate
+an English-Spanish system and an English Basque system developed for a Q&A
+scenario in the IT domain. The classification, in our use-scenario, reveals
+great potential for fixes from lexical semantics techniques involving entity
+handling for IT-related names and user interface strings, word sense
+disambiguation for terminology, as well as argument structure for prepositions
+and syntactic parsing for various levels of reordering.
+Author{1}{Firstname}#=%=#Nora
+Author{1}{Lastname}#=%=#Aranberri
+Author{1}{Email}#=%=#nora.aranberri@ehu.eus
+Author{1}{Affiliation}#=%=#University of the Basque Country
+
+==========

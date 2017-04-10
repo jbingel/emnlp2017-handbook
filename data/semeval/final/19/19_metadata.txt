@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#UFPRSheffield: Contrasting Rule-based and Support Vector Machine Approaches to Time Expression Identification in Clinical TempEval
+ShortPaperTitle#=%=#Contrasting Rule-based and SVM Approaches to Time Expression Identification in Clinical TempEval
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Hegler Tissot
+JobTitle#==#
+Organization#==#Federal University of Parana
+Cel. Franc. H. dos Santos, 100
+Curitiba, PR 81531-980, Brazil
+Abstract#==#We present two approaches to time expression identification, as entered in to
+SemEval-2015 Task 6, Clinical TempEval. The first is a comprehensive rule-based
+approach that favoured recall, and which achieved the best recall for time
+expression identification in Clinical TempEval. The second is an SVM-based
+system built using readily available components, which was able to achieve a
+competitive F1 in a short development time. We discuss how the two approaches
+perform relative to each other, and how characteristics of the corpus affect
+the suitability of different approaches and their outcomes.
+Author{1}{Firstname}#=%=#Hegler
+Author{1}{Lastname}#=%=#Tissot
+Author{1}{Email}#=%=#hctissot@inf.ufpr.br
+Author{1}{Affiliation}#=%=#Federal University of Parana
+Author{2}{Firstname}#=%=#Genevieve
+Author{2}{Lastname}#=%=#Gorrell
+Author{2}{Email}#=%=#g.gorrell@shef.ac.uk
+Author{2}{Affiliation}#=%=#The University of Sheffield
+Author{3}{Firstname}#=%=#Angus
+Author{3}{Lastname}#=%=#Roberts
+Author{3}{Email}#=%=#angus.roberts@shef.ac.uk
+Author{3}{Affiliation}#=%=#The University of Sheffield
+Author{4}{Firstname}#=%=#Leon
+Author{4}{Lastname}#=%=#Derczynski
+Author{4}{Email}#=%=#leon.derczynski@shef.ac.uk
+Author{4}{Affiliation}#=%=#The University of Sheffield
+Author{5}{Firstname}#=%=#Marcos Didonet Del
+Author{5}{Lastname}#=%=#Fabro
+Author{5}{Email}#=%=#marcos.ddf@inf.ufpr.br
+Author{5}{Affiliation}#=%=#Federal University of Parana
+
+==========

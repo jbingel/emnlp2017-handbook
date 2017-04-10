@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#223
+FinalPaperTitle#=%=#CASSA: A Context-Aware Synonym Simplification Algorithm
+ShortPaperTitle#=%=#Context-Aware Synonym Simplification Algorithm
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Luz Rello
+JobTitle#==#
+Organization#==#2612 Newell-Simon Hall
+Carnegie Mellon School of Computer Science
+5000 Forbes Avenue
+Abstract#==#We present a new context-aware method for lexical simplification that uses two
+free lan- guage resources and real web frequencies. We compare it with the
+state-of-the-art method for lexical simplification in Spanish and the
+established simplification baseline, that is, the most frequent synonym. Our
+method improves upon the other methods in the detection of complex words, in
+meaning preservation, and in simplicity. Although we use Spanish, the method
+can be extended to other languages since it does not require alignment of
+parallel corpora.
+Author{1}{Firstname}#=%=#Ricardo
+Author{1}{Lastname}#=%=#Baeza-Yates
+Author{1}{Email}#=%=#ricardo.baeza@barcelonamedia.org
+Author{1}{Affiliation}#=%=#Yahoo! Labs
+Author{2}{Firstname}#=%=#Luz
+Author{2}{Lastname}#=%=#Rello
+Author{2}{Email}#=%=#luzrello@acm.org
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Julia
+Author{3}{Lastname}#=%=#Dembowski
+Author{3}{Email}#=%=#juliadembowski@googlemail.com
+Author{3}{Affiliation}#=%=#University of Saarland
+
+==========

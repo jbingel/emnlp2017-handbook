@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Practical issues in developing semantic frameworks for the analysis of verbal fluency data: A Norwegian data case study
+ShortPaperTitle#=%=#Practical issues in building semantic frameworks for verbal fluency analysis: A Norwegian case study
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Mark Rosenstein
+JobTitle#==#
+Organization#==#Pearson
+4940 Pearl East Circle, Suite 200
+Boulder, CO  80301
+U.S.A.
+Abstract#==#Background: Verbal fluency tasks, which require producing as many words in
+response to a cue in a fixed time, are widely used within clinical
+neuropsychology and in neuropsychological research. Although semantic word
+lists can be elicited, typically only the number of words related to the cue is
+interpreted thus ignoring any structure in the word sequences. Automated
+language techniques can provide a much needed framework for extracting and
+charting useful semantic relations in healthy individuals and understanding how
+cortical disorders disrupt these knowledge structures and the retrieval of
+information from them.
+Methods: One minute, animal category verbal fluency tests from 150 participants
+consisting of healthy individuals, patients with schizophrenia, and patients
+with bipolar disorder were transcribed. We discuss the issues involved in
+building and evaluating semantic frameworks and developing robust features to
+analyze this data. Specifically we investigate a Latent Semantic Analysis (LSA)
+semantic space to obtain semantic features, such as pairwise semantic
+similarity and clusters.
+Results and Discussion: An in-depth analysis of the framework is presented, and
+then results from two measures based on LSA semantic similarity illustrate how
+these automated techniques provide additional, clinically useful information
+beyond word list cardinality.
+Author{1}{Firstname}#=%=#Mark
+Author{1}{Lastname}#=%=#Rosenstein
+Author{1}{Email}#=%=#mark.rosenstein@pearson.com
+Author{1}{Affiliation}#=%=#Pearson
+Author{2}{Firstname}#=%=#Peter
+Author{2}{Lastname}#=%=#Foltz
+Author{2}{Email}#=%=#peter.foltz@pearson.com
+Author{2}{Affiliation}#=%=#Pearson
+Author{3}{Firstname}#=%=#Anja
+Author{3}{Lastname}#=%=#Vaskinn
+Author{3}{Email}#=%=#anja.vaskinn@psykologi.uio.no
+Author{3}{Affiliation}#=%=#Department of Psychology, University of Oslo, Oslo, Norway; NORMENT K.G. Jebsen Centre for Psychosis Research, Oslo University Hospital, Oslo, Norway
+Author{4}{Firstname}#=%=#Brita
+Author{4}{Lastname}#=%=#Elvevåg
+Author{4}{Email}#=%=#brita@elvevaag.net
+Author{4}{Affiliation}#=%=#Psychiatry Research Group, Department of Clinical Medicine, University of Tromsø, Norway; Norwegian Centre for Integrated Care and Telemedicine (NST), University Hospital of North Norway, Tromsø, Norway
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#Using Topic Modeling and Similarity Thresholds to Detect Events
+ShortPaperTitle#=%=#Using Topic Modeling and Similarity Thresholds to Detect Events
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Connie Yee
+JobTitle#==#
+Organization#==#Thomson Reuters
+3 Times Square
+New York, NY 10036, USA
+Abstract#==#This paper presents a Retrospective Event Detection algorithm, called
+Eventy-Topic Detection (ETD), which automatically generates topics that
+describe events in a large, temporal text corpus.  Our approach leverages the
+structure of the topic modeling framework, specifically the Latent Dirichlet
+Allocation (LDA), to generate topics which are then later labeled as
+Eventy-Topics or non-Eventy-Topics.  The system first runs daily LDA topic
+models, then calculates the cosine similarity between the topics of the daily
+topic models, and then runs our novel Bump-Detection algorithm.  Similar topics
+labeled as an Eventy-Topic are then grouped together.  The algorithm is
+demonstrated on two Terabyte sized corpuses - a Reuters News corpus and a
+Twitter corpus.  Our method is evaluated on a human annotated test set.  Our
+algorithm demonstrates its ability to accurately describe and label events in a
+temporal text corpus.
+Author{1}{Firstname}#=%=#Nathan
+Author{1}{Lastname}#=%=#Keane
+Author{1}{Email}#=%=#nathan.keane@thomsonreuters.com
+Author{1}{Affiliation}#=%=#Thomson Reuters
+Author{2}{Firstname}#=%=#Connie
+Author{2}{Lastname}#=%=#Yee
+Author{2}{Email}#=%=#connie.yee@thomsonreuters.com
+Author{2}{Affiliation}#=%=#Thomson Reuters
+Author{3}{Firstname}#=%=#Liang
+Author{3}{Lastname}#=%=#Zhou
+Author{3}{Email}#=%=#l.zhou@thomsonreuters.com
+Author{3}{Affiliation}#=%=#Thomson Reuters
+
+==========

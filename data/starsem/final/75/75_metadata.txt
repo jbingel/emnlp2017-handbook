@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#75
+FinalPaperTitle#=%=#Ideological Perspective Detection Using Semantic Features
+ShortPaperTitle#=%=#Ideological Perspective Detection Using Semantic Features
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Heba Elfardy
+JobTitle#==#
+Organization#==#Columbia University,
+New York, NY, 10027
+Abstract#==#In this paper, we propose the use of word sense disambiguation and latent
+semantic features to automatically identify a person's perspective from his/her
+written text. We run an Amazon Mechanical Turk experiment where we ask Turkers
+to answer a set of constrained and open-ended political questions drawn from
+the American National Election Studies (ANES). We then extract the proposed
+features from the answers to the open-ended questions and use them to  predict
+the answer to one of the constrained questions, namely, their preferred
+Presidential Candidate. In addition to this newly created dataset,  we also
+evaluate our proposed approach on  a second standard dataset of
+"Ideological-Debates". This latter dataset contains topics from four domains:
+Abortion, Creationism, Gun Rights and Gay-Rights.  Experimental results show
+that using word sense disambiguation and latent-semantics, whether separately
+or combined, beats the                                                  majority and
+random
+baselines
+on the
+cross-validation
+and held-out-test sets for both the ANES and the four domains of the
+"Ideological Debates" datasets. Moreover combining both feature sets
+outperforms a stronger                                                  unigram-only
+classification
+system.
+Author{1}{Firstname}#=%=#Heba
+Author{1}{Lastname}#=%=#Elfardy
+Author{1}{Email}#=%=#heba@cs.columbia.edu
+Author{1}{Affiliation}#=%=#Columbia University
+Author{2}{Firstname}#=%=#Mona
+Author{2}{Lastname}#=%=#Diab
+Author{2}{Email}#=%=#mtdiab@gwu.edu
+Author{2}{Affiliation}#=%=#GWU
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Callison-Burch
+Author{3}{Email}#=%=#ccb@upenn.edu
+Author{3}{Affiliation}#=%=#University of Pennsylvania
+
+==========

@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#47
+FinalPaperTitle#=%=#Unsupervised Entity Linking with Abstract Meaning Representation
+ShortPaperTitle#=%=#Unsupervised Entity Linking with Abstract Meaning Representation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Heng Ji
+JobTitle#==#
+Organization#==#Computer Science Department, Rensselaer Polytechnic Institute
+Abstract#==#Most successful Entity Linking (EL) methods aim to link mentions to their
+referent entities in a structured Knowledge Base (KB) by comparing their
+respective contexts, often using similarity measures. While the KB structure is
+given, current methods have suffered from impoverished information
+representations on the mention side. In this paper, we demonstrate the
+effectiveness of Abstract Meaning Representation (AMR) (Banarescu et al., 2013)
+to select high quality sets of entity ``collaborators'' to feed a simple
+similarity measure (Jaccard) to link entity mentions. Experimental results show
+that AMR captures contextual properties discriminative enough to make linking
+decisions, without the need for EL training data, and that system with AMR
+parsing output outperforms hand labeled traditional semantic roles as context
+representation for EL. Finally, we show promising preliminary results for using
+AMR to select sets of ``coherent'' entity mentions for collective entity
+linking.
+Author{1}{Firstname}#=%=#Xiaoman
+Author{1}{Lastname}#=%=#Pan
+Author{1}{Email}#=%=#panx2@rpi.edu
+Author{1}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{2}{Firstname}#=%=#Taylor
+Author{2}{Lastname}#=%=#Cassidy
+Author{2}{Email}#=%=#taylorcassidy64@gmail.com
+Author{2}{Affiliation}#=%=#Army Research Laboratory
+Author{3}{Firstname}#=%=#Ulf
+Author{3}{Lastname}#=%=#Hermjakob
+Author{3}{Email}#=%=#ulf@isi.edu
+Author{3}{Affiliation}#=%=#USC/ISI
+Author{4}{Firstname}#=%=#Heng
+Author{4}{Lastname}#=%=#Ji
+Author{4}{Email}#=%=#jih@rpi.edu
+Author{4}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{5}{Firstname}#=%=#Kevin
+Author{5}{Lastname}#=%=#Knight
+Author{5}{Email}#=%=#knight@isi.edu
+Author{5}{Affiliation}#=%=#USC/ISI
+
+==========

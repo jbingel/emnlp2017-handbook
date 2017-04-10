@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#122
+FinalPaperTitle#=%=#Samsung: Align-and-Differentiate Approach to Semantic Textual Similarity
+ShortPaperTitle#=%=#Samsung: Align-and-Differentiate Approach to Semantic Textual Similarity
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Justin Martineau
+JobTitle#==#
+Organization#==#Samsung Research America
+Abstract#==#This paper describes our Align-and-Differentiate approach to the SemEval 2015
+Task 2 competition for English Semantic Textual Similarity (STS) systems. Our
+submission achieved the top place on two of the five evaluation datasets. Our
+team placed 3rd among 28 participating teams, and our three runs ranked 4th,
+6th and 7th among the 73 runs submitted by the 28 teams. Our approach improves
+upon the UMBC PairingWords system by semantically differentiating
+distributionally similar terms. This novel addition improves results by 2.5
+points on the Pearson correlation measure.
+Author{1}{Firstname}#=%=#Lushan
+Author{1}{Lastname}#=%=#Han
+Author{1}{Email}#=%=#lushan.han@samsung.com
+Author{1}{Affiliation}#=%=#Samsung Research America
+Author{2}{Firstname}#=%=#Justin
+Author{2}{Lastname}#=%=#Martineau
+Author{2}{Email}#=%=#justin.m@samsung.com
+Author{2}{Affiliation}#=%=#Samsung Research America
+Author{3}{Firstname}#=%=#Doreen
+Author{3}{Lastname}#=%=#Cheng
+Author{3}{Email}#=%=#doreen.c@samsung.com
+Author{3}{Affiliation}#=%=#Samsung Research America
+Author{4}{Firstname}#=%=#Christopher
+Author{4}{Lastname}#=%=#Thomas
+Author{4}{Email}#=%=#c2.thomas@samsung.com
+Author{4}{Affiliation}#=%=#Samsung Research America
+
+==========

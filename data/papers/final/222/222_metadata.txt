@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#222
+FinalPaperTitle#=%=#Model Invertibility Regularization: Sequence Alignment With or Without Parallel Data
+ShortPaperTitle#=%=#Model Invertibility Regularization
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Tomer Levinboim
+JobTitle#==#
+Organization#==#University of Notre Dame
+Abstract#==#We present Model Invertibility Regularization MIR, 
+a method that jointly trains two directional sequence alignment models, 
+one in each direction, and takes into account the invertibility of the
+alignment task.
+
+By coupling the two models through their parameters
+(as opposed to through their inferences, as in Liang et al.'s Alignment by
+Agreement (\method{ABA}), and Ganchev et al.'s Posterior Regularization
+(\method{PostCAT})), our method seamlessly extends to all IBM-style word
+alignment models as well as to alignment without parallel data.
+
+Our proposed algorithm is mathematically sound and inherits convergence
+guarantees from EM.
+We evaluate MIR on two tasks:
+(1) On word alignment, applying MIR on fertility based models we attain higher
+F-scores than ABA and PostCAT. 
+(2) On Japanese-to-English back-transliteration without parallel data, applied
+to the decipherment model of Ravi and Knight, MIR learns sparser models that
+close the gap in whole-name error rate by 33% relative to a model trained on
+parallel data, and further, beats a previous approach by Mylonakis et al.
+Author{1}{Firstname}#=%=#Tomer
+Author{1}{Lastname}#=%=#Levinboim
+Author{1}{Email}#=%=#levinboim.tomer@gmail.com
+Author{1}{Affiliation}#=%=#University of Notre Dame
+Author{2}{Firstname}#=%=#Ashish
+Author{2}{Lastname}#=%=#Vaswani
+Author{2}{Email}#=%=#vaswani@usc.edu
+Author{2}{Affiliation}#=%=#University of Southern California Information Sciences Institute
+Author{3}{Firstname}#=%=#David
+Author{3}{Lastname}#=%=#Chiang
+Author{3}{Email}#=%=#dchiang@nd.edu
+Author{3}{Affiliation}#=%=#University of Notre Dame
+
+==========

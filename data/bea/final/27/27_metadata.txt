@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#The Jinan Chinese Learner Corpus
+ShortPaperTitle#=%=#The Jinan Chinese Learner Corpus
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Shervin Malmasi
+JobTitle#==#Author
+Organization#==#Macquarie University
+Abstract#==#We present the Jinan Chinese Learner Corpus, a large collection of L2 Chinese
+texts produced by learners that can be used for educational tasks. The present
+work introduces the data and provides a detailed description. Currently, the
+corpus contains approximately 6 million Chinese characters written by students
+from over 50 different L1 backgrounds. This is a large-scale corpus of learner
+Chinese texts which is freely available to researchers either through a web
+interface or as a set of raw texts. The data can be used in NLP tasks including
+automatic essay grading, language transfer analysis and error detection and
+correction. It can also be used in applied and corpus linguistics to support
+Second Language Acquisition (SLA) research and the development of pedagogical
+resources. Practical applications of the data and future directions are
+discussed.
+Author{1}{Firstname}#=%=#Maolin
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#wmljd@126.com
+Author{1}{Affiliation}#=%=#暨南大学华文学院
+Author{2}{Firstname}#=%=#Shervin
+Author{2}{Lastname}#=%=#Malmasi
+Author{2}{Email}#=%=#shervin.malmasi@students.mq.edu.au
+Author{2}{Affiliation}#=%=#Macquarie University
+Author{3}{Firstname}#=%=#Mingxuan
+Author{3}{Lastname}#=%=#Huang
+Author{3}{Email}#=%=#gxmingxh@163.com
+Author{3}{Affiliation}#=%=#Guangxi University of Finance and Economics
+
+==========

@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#40
+FinalPaperTitle#=%=#Non-canonical language is not harder to annotate than canonical language
+ShortPaperTitle#=%=#Non-canonical language is not harder to annotate than canonical language
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Barbara Plank
+JobTitle#==#
+Organization#==#University of Copenhagen
+Abstract#==#As researchers developing robust NLP for a wide range of text types, we are
+often confronted with the prejudice that annotation of non-canonical language
+(whatever that means) is somehow more arbitrary than annotation of canonical
+language. To investigate this, we present a small annotation study where
+annotators were asked, with minimal guidelines, to identify main predicates and
+arguments in sentences across five different domains, ranging from newswire to
+Twitter. Our study indicates that (at least such) annotation of non-canonical
+language is not harder. However, we also observe that agreements in social
+media domains correlate less with model confidence, suggesting that maybe
+annotators disagree for different reasons when annotating social media data.
+Author{1}{Firstname}#=%=#Barbara
+Author{1}{Lastname}#=%=#Plank
+Author{1}{Email}#=%=#bplank@gmail.com
+Author{1}{Affiliation}#=%=#University of Copenhagen
+Author{2}{Firstname}#=%=#Héctor
+Author{2}{Lastname}#=%=#Martínez Alonso
+Author{2}{Email}#=%=#alonso@hum.ku.dk
+Author{2}{Affiliation}#=%=#University of Copenhagen
+Author{3}{Firstname}#=%=#Anders
+Author{3}{Lastname}#=%=#Søgaard
+Author{3}{Email}#=%=#soegaard@hum.ku.dk
+Author{3}{Affiliation}#=%=#University of Copenhagen
+
+==========

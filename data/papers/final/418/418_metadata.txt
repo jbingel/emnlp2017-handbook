@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#418
+FinalPaperTitle#=%=#APRO: All-Pairs Ranking Optimization for MT Tuning
+ShortPaperTitle#=%=#APRO: All-Pairs Ranking Optimization for MT Tuning
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Markus Dreyer
+JobTitle#==#
+Organization#==#SDL Research
+Abstract#==#We present APRO, a new method for machine translation tuning that can handle
+large feature sets. As opposed to other popular methods (e.g., MERT, MIRA,
+PRO), which involve randomness and require multiple runs to obtain a reliable
+result, APRO gives the same result on any run, given initial feature weights.
+APRO follows the pairwise ranking approach of PRO (Hopkins and May, 2011), but
+instead of ranking a small sampled subset of pairs from the k- best list, APRO
+efficiently ranks all pairs. By obviating the need for manually determined
+sampling settings, we obtain more reliable results. APRO converges more quickly
+than PRO and gives similar or better translation results.
+Author{1}{Firstname}#=%=#Markus
+Author{1}{Lastname}#=%=#Dreyer
+Author{1}{Email}#=%=#markus.dreyer@gmail.com
+Author{1}{Affiliation}#=%=#SDL Language Weaver
+Author{2}{Firstname}#=%=#Yuanzhe
+Author{2}{Lastname}#=%=#Dong
+Author{2}{Email}#=%=#ydong@sdl.com
+Author{2}{Affiliation}#=%=#SDL Language Weaver
+
+==========

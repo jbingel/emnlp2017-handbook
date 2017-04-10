@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#hyp: A Toolkit for Representing, Manipulating, and Optimizing Hypergraphs
+ShortPaperTitle#=%=#hyp: A Toolkit for Representing, Manipulating, and Optimizing Hypergraphs
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Markus Dreyer
+JobTitle#==#
+Organization#==#SDL Research
+6060 Center Drive
+Suite 150
+Los Angeles, CA 90045
+Abstract#==#We present hyp, an open-source toolkit for the representation, manipulation,
+and optimization of weighted directed hypergraphs. hyp provides compose,
+project, invert functionality, k-best path algorithms, the inside and outside
+algorithms, and more. Finite-state machines are modeled as a special case of
+directed hypergraphs. hyp consists of a C++ API, as well as a command line
+tool, and is available for download at github.com/sdl-research/hyp.
+Author{1}{Firstname}#=%=#Markus
+Author{1}{Lastname}#=%=#Dreyer
+Author{1}{Email}#=%=#markus.dreyer@gmail.com
+Author{1}{Affiliation}#=%=#SDL Language Weaver
+Author{2}{Firstname}#=%=#Jonathan
+Author{2}{Lastname}#=%=#Graehl
+Author{2}{Email}#=%=#graehl@gmail.com
+Author{2}{Affiliation}#=%=#SDL Language Weaver
+
+==========

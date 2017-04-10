@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#MetaNet: Deep semantic automatic metaphor analysis
+ShortPaperTitle#=%=#MetaNet: Deep semantic automatic metaphor analysis
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ellen Dodge
+JobTitle#==#
+Organization#==#International Computer Science Institute
+1947 Center St., Ste. 600
+Berkeley, CA 94704
+Abstract#==#This paper describes a system that makes use of a repository of formalized
+frames and metaphors to automatically detect, categorize, and analyze
+expressions of metaphor in corpora.  The output of this system can be used as a
+basis for making further refinements to the system, as well as supporting deep
+semantic analysis of metaphor expressions in corpora. This in turn provides a
+way to ground and test empirical conceptual metaphor theory, as well as serving
+as a means to gain insights into the ways conceptual metaphors are expressed in
+language.
+Author{1}{Firstname}#=%=#Ellen
+Author{1}{Lastname}#=%=#Dodge
+Author{1}{Email}#=%=#edodge@icsi.berkeley.edu
+Author{1}{Affiliation}#=%=#International Computer Science Institute
+Author{2}{Firstname}#=%=#Jisup
+Author{2}{Lastname}#=%=#Hong
+Author{2}{Email}#=%=#jhong@icsi.berkeley.edu
+Author{2}{Affiliation}#=%=#International Computer Science Institute
+Author{3}{Firstname}#=%=#Elise
+Author{3}{Lastname}#=%=#Stickles
+Author{3}{Email}#=%=#elstickles@berkeley.edu
+Author{3}{Affiliation}#=%=#University of California, Berkeley
+
+==========

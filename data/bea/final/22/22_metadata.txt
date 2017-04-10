@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#Lark Trills for Language Drills: Text-to-speech technology for language learners
+ShortPaperTitle#=%=#Lark Trills for Language Drills
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Elena Volodina
+JobTitle#==#
+Organization#==#University of Gothenburg, Dpt of Swedish, Språkbanken
+Abstract#==#This paper reports on the development and the initial evaluation of a
+dictation&spelling prototype exercise for second language (L2) learners of
+Swedish based on text-to-speech (TTS) technology. Implemented on an already
+existing Intelligent Computer-Assisted Language Learning (ICALL) platform, the
+exercise has not only served as a test case for TTS in L2 environment, but has
+also shown a potential to train listening and orthographic skills, as well as
+has become a way of collecting learner-specific spelling errors into a
+database. Exercise generation re-uses well-annotated corpora, lexical
+resources, and text-to-speech technology with an accompanying talking head.
+Author{1}{Firstname}#=%=#Elena
+Author{1}{Lastname}#=%=#Volodina
+Author{1}{Email}#=%=#elena.volodina@svenska.gu.se
+Author{1}{Affiliation}#=%=#University of Gothenburg
+Author{2}{Firstname}#=%=#Dijana
+Author{2}{Lastname}#=%=#Pijetlovic
+Author{2}{Email}#=%=#dijana.pijetlovic@nuance.com
+Author{2}{Affiliation}#=%=#Nuance Communications Switzerland AG
+
+==========

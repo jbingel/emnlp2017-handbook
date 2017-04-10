@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#592
+FinalPaperTitle#=%=#Do We Really Need Lexical Information? Towards a Top-down Approach to Sentiment Analysis of Product Reviews
+ShortPaperTitle#=%=#Do We Really Need Lexical Information? A Top-down Approach to Sentiment Analysis of Product Reviews
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yulia Otmakhova
+JobTitle#==#
+Organization#==#Computational Linguistics Lab, Department of Linguistics, Seoul National University
+Gwanakro 1, Gwanak-gu, Seoul, 151-742, South Korea
+Abstract#==#Most of the current approaches to sentiment analysis of product reviews are
+dependent on lexical sentiment information and proceed in a bottom-up way,
+adding new layers of features to lexical data. In this paper, we maintain that
+a typical product review is not a bag of sentiments, but a narrative with an
+underlying structure and reoccurring patterns, which allows us to predict its
+sentiments knowing only its general polarity and discourse cues that occur in
+it. We hypothesize that knowing only the review’s score and its discourse
+patterns would allow us to accurately predict the sentiments of its individual
+sentences. The experiments we conducted prove this hypothesis and show a
+substantial improvement over the lexical baseline.
+Author{1}{Firstname}#=%=#Yulia
+Author{1}{Lastname}#=%=#Otmakhova
+Author{1}{Email}#=%=#julia.nixie@gmail.com
+Author{1}{Affiliation}#=%=#Seoul National University
+Author{2}{Firstname}#=%=#Hyopil
+Author{2}{Lastname}#=%=#Shin
+Author{2}{Email}#=%=#hpshin@snu.ac.kr
+Author{2}{Affiliation}#=%=#Seoul National University
+
+==========

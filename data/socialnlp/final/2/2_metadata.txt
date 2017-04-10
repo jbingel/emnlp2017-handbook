@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#A Language Detection System for Short Chats in Mobile Games
+ShortPaperTitle#=%=#A Language Detection System for Short Chats in Mobile Games
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Pidong Wang
+JobTitle#==#
+Organization#==#Machine Zone Inc.
+2225 East Bayshore Road, Suite 200
+Palo Alto, CA 94303, USA
+Abstract#==#Machine Translation system accuracies are often brought down due to inaccurate
+Language Detection (LD) of input phrases. The Language detection accuracy is
+further affected when the inputs are short and contain ungrammatical phrases,
+especially in a multilingual mobile game setting. Chat messages in mobile games
+are often short as they are typed on mobile devices and contain slang as a
+common communication preference. Previous work has shown that LD systems have a
+drop in accuracy when the inputs are short messages instead of long ones. This
+paper targets LD for short chat messages in mobile games. We propose a novel LD
+system which integrates text-based and user-based methods to achieve
+significantly better performance over current state-of-the-art LD systems.
+Author{1}{Firstname}#=%=#Pidong
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#wangpidong@gmail.com
+Author{1}{Affiliation}#=%=#Machine Zone
+Author{2}{Firstname}#=%=#Nikhil
+Author{2}{Lastname}#=%=#Bojja
+Author{2}{Email}#=%=#b.nikhil@gmail.com
+Author{2}{Affiliation}#=%=#Machine Zone
+Author{3}{Firstname}#=%=#Shivasankari
+Author{3}{Lastname}#=%=#Kannan
+Author{3}{Email}#=%=#skannan@machinezone.com
+Author{3}{Affiliation}#=%=#Machine Zone
+
+==========

@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Modeling fMRI time courses with linguistic structure at various grain sizes
+ShortPaperTitle#=%=#Modeling fMRI time courses with linguistic structure at various grain sizes
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#John T Hale
+JobTitle#==#
+Organization#==#Cornell University, Ithaca NY USA
+Abstract#==#Neuroimaging while participants listen to audiobooks provides a rich data
+source for theories of incremental parsing. We compare nested regression models
+of these data. These mixed-effects models incorporate linguistic predictors at
+various grain sizes ranging from part-of-speech bigrams,
+through surprisal on context-free treebank grammars, to incremental node counts
+in trees that are derived by Minimalist Grammars. The fine-grained structures
+make an independent contribution over and above coarser predictors. However,
+this result only obtains with time courses from anterior temporal lobe (aTL).
+In analogous time courses from inferior frontal gyrus, only n-grams improve
+upon a non-syntactic baseline. These results support the idea that aTL does
+combinatoric processing during naturalistic story comprehension, processing
+that bears a systematic relationship to linguistic structure.
+Author{1}{Firstname}#=%=#John
+Author{1}{Lastname}#=%=#Hale
+Author{1}{Email}#=%=#jthale@cornell.edu
+Author{1}{Affiliation}#=%=#Cornell University
+Author{2}{Firstname}#=%=#David
+Author{2}{Lastname}#=%=#Lutz
+Author{2}{Email}#=%=#del82@cornell.edu
+Author{2}{Affiliation}#=%=#Cornell University
+Author{3}{Firstname}#=%=#Wen-Ming
+Author{3}{Lastname}#=%=#Luh
+Author{3}{Email}#=%=#wenmingluh@cornell.edu
+Author{3}{Affiliation}#=%=#Cornell University
+Author{4}{Firstname}#=%=#Jonathan
+Author{4}{Lastname}#=%=#Brennan
+Author{4}{Email}#=%=#jobrenn@umich.edu
+Author{4}{Affiliation}#=%=#University of Michigan
+
+==========

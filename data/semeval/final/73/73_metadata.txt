@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#73
+FinalPaperTitle#=%=#SIEL: Aspect Based Sentiment Analysis in Reviews
+ShortPaperTitle#=%=#SIEL: Aspect Based Sentiment Analysis in Reviews
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Satarupa Guha
+JobTitle#==#
+Organization#==#Search and Information Extraction Lab,
+International Institute of Information Technology, Hyderabad,
+Gachibowli, Hyderabad, Telengana 500032
+Abstract#==#Following the footsteps of SemEval-2014 Task 4, SemEval-2015 too had a task
+dedicated to aspect-level sentiment analysis, which saw participation from over
+25 teams. In Aspect-based Sentiment Analysis (ABSA) the aim is to identify the
+aspects of entities and the sentiment expressed for each aspect. In this paper,
+we present a detailed description of our system, that stood 4th in Aspect
+Category subtask (slot 1), 7th in Opinion Target Expression subtask (slot 2)
+and 8th in Sentiment Polarity subtask (slot 3) on the Restaurant datasets.
+Author{1}{Firstname}#=%=#Satarupa
+Author{1}{Lastname}#=%=#Guha
+Author{1}{Email}#=%=#satarupa.guha@research.iiit.ac.in
+Author{1}{Affiliation}#=%=#International Institute of Information Technology, Hyderabad
+Author{2}{Firstname}#=%=#Aditya
+Author{2}{Lastname}#=%=#Joshi
+Author{2}{Email}#=%=#aditya.joshi@research.iiit.ac.in
+Author{2}{Affiliation}#=%=#International Institute of Information Technology, Hyderabad
+Author{3}{Firstname}#=%=#Vasudeva
+Author{3}{Lastname}#=%=#Varma
+Author{3}{Email}#=%=#vv@iiit.ac.in
+Author{3}{Affiliation}#=%=#
+
+==========

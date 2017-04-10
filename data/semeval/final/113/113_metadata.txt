@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#113
+FinalPaperTitle#=%=#SemEval-2015 Task 9: CLIPEval Implicit Polarity of Events
+ShortPaperTitle#=%=#SemEval-2015 Task 9: CLIPEval Implicit Polarity of Events
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Irene Russo
+JobTitle#==#
+Organization#==#ILC CNR 
+Viale Moruzzi 1
+56127 Pisa(Italy)
+Abstract#==#Sentiment analysis tends to focus on the polarity
+of words, combining their values to detect
+which portion of a text is opinionated.
+CLIPEval wants to promote a more holistic
+approach, looking at psychological researches
+that frame the connotations of words as the
+emotional values activated by them. The implicit
+polarity of events is just one aspect of
+connotative meaning and we address it with a
+task that is based on a dataset of sentences annotated
+as instantiations of pleasant and unpleasant
+events previously collected in psychological
+research as the ones on which human
+judgments converge.
+Author{1}{Firstname}#=%=#Irene
+Author{1}{Lastname}#=%=#Russo
+Author{1}{Email}#=%=#irene.russo@ilc.cnr.it
+Author{1}{Affiliation}#=%=#ILC CNR
+Author{2}{Firstname}#=%=#Tommaso
+Author{2}{Lastname}#=%=#Caselli
+Author{2}{Email}#=%=#t.caselli@vu.nl
+Author{2}{Affiliation}#=%=#VU Amsterdam
+Author{3}{Firstname}#=%=#Carlo
+Author{3}{Lastname}#=%=#Strapparava
+Author{3}{Email}#=%=#strappa@fbk.eu
+Author{3}{Affiliation}#=%=#FBK-irst
+
+==========

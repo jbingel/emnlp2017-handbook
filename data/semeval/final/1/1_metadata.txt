@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#IXAGroupEHUSpaceEval: (X-Space) A WordNet-based approach towards the Automatic Recognition of Spatial Information following the ISO-Space Annotation Scheme
+ShortPaperTitle#=%=#IXAGroupEHUSpaceEval: X-Space
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Haritz Salaberri
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper presents X-Space, a system that follows the ISO-Space annotation
+scheme in order to capture spatial information as well as our contribution to
+the SemEval-2015 task 8 (SpaceEval). Our system is the only participant system
+that reported results for all three evaluation configurations in SpaceEval.
+Author{1}{Firstname}#=%=#Haritz
+Author{1}{Lastname}#=%=#Salaberri
+Author{1}{Email}#=%=#hsalaberri@gmail.com
+Author{1}{Affiliation}#=%=#University of the Basque Country UPV_EHU
+Author{2}{Firstname}#=%=#Olatz
+Author{2}{Lastname}#=%=#Arregi
+Author{2}{Email}#=%=#olatz.arregi@ehu.eus
+Author{2}{Affiliation}#=%=#University of the Basque Country UPV_EHU
+Author{3}{Firstname}#=%=#Beñat
+Author{3}{Lastname}#=%=#Zapirain
+Author{3}{Email}#=%=#benat.zapirain@ehu.eus
+Author{3}{Affiliation}#=%=#University of the Basque Country UPV_EHU
+
+==========

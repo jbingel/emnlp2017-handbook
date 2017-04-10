@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#311
+FinalPaperTitle#=%=#Development of the Multilingual Semantic Annotation System
+ShortPaperTitle#=%=#Development of the Multilingual Semantic Annotation System
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Scott Piao
+JobTitle#==#
+Organization#==#School of Computing and Communications
+Lancaster University
+Lancaster LA1 4WA
+UK
+Abstract#==#This paper reports on our research to generate multilingual semantic lexical
+resources and develop multilingual semantic annotation software, which assigns
+each word in running text to a semantic category based on a lexical semantic
+classification scheme. Such tools have an important role in developing
+intelli-gent multilingual NLP, text mining and ICT systems. In this work, we
+aim to extend an existing English semantic annotation tool to cover a range of
+languages, namely Italian, Chinese and Brazilian Portuguese, by boot-strapping
+new semantic lexical resources via automatically translating existing English
+se-mantic lexicons into these languages. We used a set of bilingual
+dictionaries and word lists for this purpose. In our experiment, with minor
+manual improvement of the automatically generated semantic lexicons, the
+prototype tools based on the new lexicons achieved an average lexical coverage
+of 79.86% and an average annotation precision of 71.42% (if only precise
+annotations are considered) or 84.64% (if partially correct annotations are
+included) on the three languages. Our experiment demonstrates that it is
+feasible to rapidly develop prototype semantic annotation tools for new
+languages by automatically bootstrapping new semantic lexicons based on
+existing ones.
+Author{1}{Firstname}#=%=#Scott
+Author{1}{Lastname}#=%=#Piao
+Author{1}{Email}#=%=#s.piao@lancaster.ac.uk
+Author{1}{Affiliation}#=%=#School of Computing and Communications, Lancaster University
+Author{2}{Firstname}#=%=#Francesca
+Author{2}{Lastname}#=%=#Bianchi
+Author{2}{Email}#=%=#francesca.bianchi@unisalento.it
+Author{2}{Affiliation}#=%=#Department of Humanities, University of the Salento
+Author{3}{Firstname}#=%=#Carmen
+Author{3}{Lastname}#=%=#Dayrell
+Author{3}{Email}#=%=#c.dayrell@lancaster.ac.uk
+Author{3}{Affiliation}#=%=#Department of Sociology, Lancaster University
+Author{4}{Firstname}#=%=#Angela
+Author{4}{Lastname}#=%=#D'Egidio
+Author{4}{Email}#=%=#angela.degidio@unisalento.it
+Author{4}{Affiliation}#=%=#Department of Humanities, University of the Salento
+Author{5}{Firstname}#=%=#Paul
+Author{5}{Lastname}#=%=#Rayson
+Author{5}{Email}#=%=#p.rayson@lancaster.ac.uk
+Author{5}{Affiliation}#=%=#School of Computing and Communications, Lancaster University
+
+==========

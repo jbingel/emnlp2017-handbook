@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Splusplus: A Feature-Rich Two-stage Classifier for Sentiment Analysis of Tweets
+ShortPaperTitle#=%=#Splusplus: A Feature-Rich Two-stage Classifier for Sentiment Analysis of Tweets
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Li Dong
+JobTitle#==#
+Organization#==#State Key Laboratory of Software Development Environment
+G1130, New Main Building,
+Beihang University
+XueYuan Road No.37, HaiDian District, Beijing
+100191, China
+Abstract#==#This paper describes our sentiment classification system submitted to
+SemEval-2015 Task 10. In the message-level polarity classification subtask, we
+obtain the highest macro-averaged F1-scores on three out of six testing sets.
+Specifically, we build a two-stage classifier to predict the sentiment labels
+for tweets, which enables us to design different features for
+subjective/objective classification and positive/negative classification. In
+addition to n-grams, lexicons, word clusters, and twitter-specific features, we
+develop several deep learning methods to automatically extract features for the
+message-level sentiment classification task. Moreover, we propose a polarity
+boosting trick which improves the performance of our system.
+Author{1}{Firstname}#=%=#Li
+Author{1}{Lastname}#=%=#Dong
+Author{1}{Email}#=%=#donglixp@gmail.com
+Author{1}{Affiliation}#=%=#Beihang University
+Author{2}{Firstname}#=%=#Furu
+Author{2}{Lastname}#=%=#Wei
+Author{2}{Email}#=%=#fuwei@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research Asia
+Author{3}{Firstname}#=%=#Yichun
+Author{3}{Lastname}#=%=#Yin
+Author{3}{Email}#=%=#yichunyin@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+Author{4}{Firstname}#=%=#Ming
+Author{4}{Lastname}#=%=#Zhou
+Author{4}{Email}#=%=#mingzhou11@microsof.com
+Author{4}{Affiliation}#=%=#Microsoft Research
+Author{5}{Firstname}#=%=#Ke
+Author{5}{Lastname}#=%=#Xu
+Author{5}{Email}#=%=#kexu999@gmail.com
+Author{5}{Affiliation}#=%=#Beihang University
+
+==========

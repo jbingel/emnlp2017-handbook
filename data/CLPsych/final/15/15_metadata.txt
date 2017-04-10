@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Beyond LDA: Exploring Supervised Topic Modeling for Depression-Related Language in Twitter
+ShortPaperTitle#=%=#Beyond LDA: Exploring Supervised Topic Modeling for Depression-Related Language in Twitter
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Philip Resnik
+JobTitle#==#
+Organization#==#University of Maryland
+College Park, MD 20742
+Abstract#==#Topic models can yield insight into how depressed and non-depressed individuals
+use language differently. In this paper, we explore the use of supervised topic
+models in the analysis of linguistic signal for detecting depression, providing
+promising results using several models.
+Author{1}{Firstname}#=%=#Philip
+Author{1}{Lastname}#=%=#Resnik
+Author{1}{Email}#=%=#resnik@umd.edu
+Author{1}{Affiliation}#=%=#University of Maryland
+Author{2}{Firstname}#=%=#William
+Author{2}{Lastname}#=%=#Armstrong
+Author{2}{Email}#=%=#armstrow@umd.edu
+Author{2}{Affiliation}#=%=#University of Maryland
+Author{3}{Firstname}#=%=#Leonardo
+Author{3}{Lastname}#=%=#Claudino
+Author{3}{Email}#=%=#claudino@cs.umd.edu
+Author{3}{Affiliation}#=%=#University of Maryland
+Author{4}{Firstname}#=%=#Thang
+Author{4}{Lastname}#=%=#Nguyen
+Author{4}{Email}#=%=#daithang@umiacs.umd.edu
+Author{4}{Affiliation}#=%=#Umiacs, UMD
+Author{5}{Firstname}#=%=#Viet-An
+Author{5}{Lastname}#=%=#Nguyen
+Author{5}{Email}#=%=#vietan@cs.umd.edu
+Author{5}{Affiliation}#=%=#University of Maryland, College Park
+Author{6}{Firstname}#=%=#Jordan
+Author{6}{Lastname}#=%=#Boyd-Graber
+Author{6}{Email}#=%=#jordan.boyd.graber@colorado.edu
+Author{6}{Affiliation}#=%=#University of Colorado
+
+==========

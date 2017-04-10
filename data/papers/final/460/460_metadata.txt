@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#460
+FinalPaperTitle#=%=#Multitask Learning for Adaptive Quality Estimation of Automatically Transcribed Utterances
+ShortPaperTitle#=%=#Multitask Learning for Adaptive Quality Estimation of Automatically Transcribed Utterances
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#José Guilherme Camargo de Souza
+JobTitle#==#
+Organization#==#University of Trento
+Via Sommarive, 18 
+I-38123 
+Trento
+Italy
+Abstract#==#We investigate the problem of predicting the quality of automatic speech
+recognition (ASR) output under the following rigid constraints: i) reference
+transcriptions are not available, ii) confidence information about the system
+that produced the transcriptions is not accessible, and iii) training and test
+data come from multiple  domains. To cope with these constraints (typical of
+the constantly increasing amount of automatic transcriptions  that can be found
+on the Web), we propose a domain-adaptive approach based on multitask learning.
+Different algorithms and strategies are evaluated with English data coming from
+four domains, showing that the proposed approach can cope with the limitations
+of previously proposed single task learning methods.
+Author{1}{Firstname}#=%=#José G.
+Author{1}{Lastname}#=%=#C. de Souza
+Author{1}{Email}#=%=#desouza@fbk.eu
+Author{1}{Affiliation}#=%=#University of Trento and Fondazione Bruno Kessler
+Author{2}{Firstname}#=%=#Hamed
+Author{2}{Lastname}#=%=#Zamani
+Author{2}{Email}#=%=#hamedzamani@acm.org
+Author{2}{Affiliation}#=%=#University of Tehran
+Author{3}{Firstname}#=%=#Matteo
+Author{3}{Lastname}#=%=#Negri
+Author{3}{Email}#=%=#negri@fbk.eu
+Author{3}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{4}{Firstname}#=%=#Marco
+Author{4}{Lastname}#=%=#Turchi
+Author{4}{Email}#=%=#marco.turchi@gmail.com
+Author{4}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{5}{Firstname}#=%=#Falavigna
+Author{5}{Lastname}#=%=#Daniele
+Author{5}{Email}#=%=#falavi@fbk.eu
+Author{5}{Affiliation}#=%=#Fondazione Bruno Kessler
+
+==========

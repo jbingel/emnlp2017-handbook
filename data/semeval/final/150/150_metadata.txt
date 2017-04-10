@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#150
+FinalPaperTitle#=%=#ULisboa: Recognition and Normalization of Medical Concepts
+ShortPaperTitle#=%=#ULisboa: Recognition and Normalization of Medical Concepts
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#André Leal
+JobTitle#==#
+Organization#==#Faculdade de Ciências, Universidade de Lisboa, 1749-016 Lisboa, Portugal.
+Abstract#==#This paper describes a system developed for the disorder identification subtask
+within task 14 of SemEval 2015. The developed system is based on a chain of two
+modules, one for recognition and another for normalization. The recognition
+module is based on an adapted version of the Stanford NER system to train CRF
+models in order to recognize disorder mentions. CRF models were build based on
+a novel encoding of entity spans as token classifications to also consider
+non-continuous entities, along with a rich set of features based on (i) domain
+lexicons and (ii) Brown clusters inferred from a large collection of clinical
+texts. For disorder normalization, we (i) generated a non ambiguous dictionary
+of abbreviations from the labelled files, using it together with (ii) an
+heuristic method based on similarity search and (iii) a comparison method based
+on the information content of each disorder. The system achieved an F-measure
+of 0.740 (the second best), with a precision of 0.779, a recall of 0.705.
+Author{1}{Firstname}#=%=#André
+Author{1}{Lastname}#=%=#Leal
+Author{1}{Email}#=%=#leal.andre92@gmail.com
+Author{1}{Affiliation}#=%=#Faculdade de Ciências da Universidade de Lisboa
+Author{2}{Firstname}#=%=#Bruno
+Author{2}{Lastname}#=%=#Martins
+Author{2}{Email}#=%=#bruno.g.martins@ist.ul.pt
+Author{2}{Affiliation}#=%=#INESC-ID, Instituto Superior Técnico, Universidade de Lisboa, Portugal
+Author{3}{Firstname}#=%=#Francisco
+Author{3}{Lastname}#=%=#Couto
+Author{3}{Email}#=%=#fcouto@di.fc.ul.pt
+Author{3}{Affiliation}#=%=#LASIGE, Faculdade de Ciências, Universidade de Lisboa, Portugal
+
+==========

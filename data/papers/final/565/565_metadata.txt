@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#565
+FinalPaperTitle#=%=#Socially-Informed Timeline Generation for Complex Events
+ShortPaperTitle#=%=#Socially-Informed Timeline Generation for Complex Events
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Lu Wang
+JobTitle#==#
+Organization#==#Cornell University
+Ithaca, NY 14853, USA
+Abstract#==#Existing timeline generation systems for complex events consider only
+information from traditional media, ignoring the rich social context provided
+by user-generated content that reveals representative public interests or
+insightful opinions. We instead aim to generate socially-informed timelines
+that contain both news article summaries and selected user comments. We present
+an optimization framework designed to balance topical cohesion between the
+article and comment summaries along with their informativeness and coverage of
+the event. Automatic evaluations on real-world datasets that cover four complex
+events show that our system produces more informative timelines than
+state-of-the-art systems. In human evaluation, the associated comment summaries
+are furthermore rated more insightful than editor’s picks and comments ranked
+highly by users.
+Author{1}{Firstname}#=%=#Lu
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#luwang@cs.cornell.edu
+Author{1}{Affiliation}#=%=#Cornell University
+Author{2}{Firstname}#=%=#Claire
+Author{2}{Lastname}#=%=#Cardie
+Author{2}{Email}#=%=#cardie@cs.cornell.edu
+Author{2}{Affiliation}#=%=#Cornell University
+Author{3}{Firstname}#=%=#Galen
+Author{3}{Lastname}#=%=#Marchetti
+Author{3}{Email}#=%=#gjm97@cornell.edu
+Author{3}{Affiliation}#=%=#Cornell University
+
+==========

@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#82
+FinalPaperTitle#=%=#Sentence segmentation of aphasic speech
+ShortPaperTitle#=%=#Sentence segmentation of aphasic speech
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Kathleen Fraser
+JobTitle#==#
+Organization#==#
+Abstract#==#Automatic analysis of impaired speech for screening or diagnosis is a growing
+research field; however there are still many barriers to a fully automated
+approach. When automatic speech recognition is used to obtain the speech
+transcripts, sentence boundaries must be inserted before most measures of
+syntactic complexity can be computed. In this paper, we consider how language
+impairments can affect segmentation methods, and compare the results of
+computing syntactic complexity metrics on automatically and manually segmented
+transcripts. We find that the important boundary indicators and the resulting
+segmentation accuracy can vary depending on the type of impairment observed,
+but that results on patient data are generally similar to control data. We also
+find that a number of syntactic complexity metrics are robust to the types of
+segmentation errors that are typically made.
+Author{1}{Firstname}#=%=#Kathleen C.
+Author{1}{Lastname}#=%=#Fraser
+Author{1}{Email}#=%=#kfraser@cs.toronto.edu
+Author{1}{Affiliation}#=%=#University of Toronto
+Author{2}{Firstname}#=%=#Naama
+Author{2}{Lastname}#=%=#Ben-David
+Author{2}{Email}#=%=#naama@cs.toronto.edu
+Author{2}{Affiliation}#=%=#University of Toronto
+Author{3}{Firstname}#=%=#Graeme
+Author{3}{Lastname}#=%=#Hirst
+Author{3}{Email}#=%=#gh@cs.toronto.edu
+Author{3}{Affiliation}#=%=#University of Toronto
+Author{4}{Firstname}#=%=#Naida
+Author{4}{Lastname}#=%=#Graham
+Author{4}{Email}#=%=#naida.graham@utoronto.ca
+Author{4}{Affiliation}#=%=#University of Toronto
+Author{5}{Firstname}#=%=#Elizabeth
+Author{5}{Lastname}#=%=#Rochon
+Author{5}{Email}#=%=#elizabeth.rochon@utoronto.ca
+Author{5}{Affiliation}#=%=#University of Toronto
+
+==========

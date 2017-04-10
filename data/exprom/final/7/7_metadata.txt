@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#A Compositional Interpretation of Biomedical Event Factuality
+ShortPaperTitle#=%=#A Compositional Interpretation of Biomedical Event Factuality
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#We propose a compositional method to assess the factuality of biomedical events
+extracted from the literature. The composition procedure relies on the notion
+of semantic embedding and a fine-grained classification of extra-propositional
+phenomena, including modality and valence shifting, and a dictionary based on
+this classification. The event factuality is computed as a product of the
+extra-propositional operators that have scope over the event. We evaluate our
+approach on the GENIA event corpus enriched with certainty level and polarity
+annotations.
+The results indicate that our approach is effective in identifying the
+certainty level component of factuality and is less successful in recognizing
+the other element, negative polarity.
+Author{1}{Firstname}#=%=#Halil
+Author{1}{Lastname}#=%=#Kilicoglu
+Author{1}{Email}#=%=#kilicogluh@mail.nih.gov
+Author{1}{Affiliation}#=%=#National Library of Medicine
+Author{2}{Firstname}#=%=#Graciela
+Author{2}{Lastname}#=%=#Rosemblat
+Author{2}{Email}#=%=#rosemblat@mail.nih.gov
+Author{2}{Affiliation}#=%=#National Library of Medicine
+Author{3}{Firstname}#=%=#Michael
+Author{3}{Lastname}#=%=#Cairelli
+Author{3}{Email}#=%=#mike.cairelli@nih.gov
+Author{3}{Affiliation}#=%=#National Library of Medicine
+Author{4}{Firstname}#=%=#Thomas
+Author{4}{Lastname}#=%=#Rindflesch
+Author{4}{Email}#=%=#trindflesch@mail.nih.gov
+Author{4}{Affiliation}#=%=#National Library of Medicine
+
+==========

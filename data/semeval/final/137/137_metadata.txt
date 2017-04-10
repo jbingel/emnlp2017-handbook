@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#137
+FinalPaperTitle#=%=#UIR-PKU: Twitter-OpinMiner System for Sentiment Analysis in Twitter at SemEval 2015
+ShortPaperTitle#=%=#UIR-PKU: Twitter-OpinMiner System for Sentiment  Analysis in Twitter at SemEval 2015
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Binyang Li
+JobTitle#==#Associate Professor
+Organization#==#University of International Relations
+Abstract#==#Microblogs are considered as We-Media information with many real-time opinions.
+This paper presents a Twitter-OpinMiner system for Twitter sentiment analysis
+evaluation at SemEval 2015. Our approach stems from two different angles: topic
+detection for discovering the sentiment distribution on different topics and
+sentiment analysis based on a variety of features. Moreover, we also
+implemented intra-sentence discourse relations for polarity identification. We
+divided the discourse relations into 4 predefined categories, including
+continuation, contrast, condition, and cause. These relations could facilitate
+us to eliminate polarity ambiguities in compound sentences where both positive
+and negative sentiments are appearing. Based on the SemEval 2014 and SemEval
+2015 Twitter sentiment analysis task datasets, the experimental results show
+that the performance of Twitter-OpinMiner could effectively recognize
+opinionated messages and identify the polarities.
+Author{1}{Firstname}#=%=#Xu
+Author{1}{Lastname}#=%=#Han
+Author{1}{Email}#=%=#hanxu420@gmail.com
+Author{1}{Affiliation}#=%=#The Chinese University of Hong Kong
+Author{2}{Firstname}#=%=#Binyang
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#beyondlee1982@gmail.com
+Author{2}{Affiliation}#=%=#University of International Relations
+Author{3}{Firstname}#=%=#Jing
+Author{3}{Lastname}#=%=#Ma
+Author{3}{Email}#=%=#jma@se.cuhk.edu.hk
+Author{3}{Affiliation}#=%=#The Chinese University of Hong Kong
+Author{4}{Firstname}#=%=#Yuxiao
+Author{4}{Lastname}#=%=#Zhang
+Author{4}{Email}#=%=#yxzhang@pku.edu.cn
+Author{4}{Affiliation}#=%=#Peking University
+Author{5}{Firstname}#=%=#Gaoyan
+Author{5}{Lastname}#=%=#Ou
+Author{5}{Email}#=%=#gyou@pku.edu.cn
+Author{5}{Affiliation}#=%=#Peking University
+Author{6}{Firstname}#=%=#Tengjiao
+Author{6}{Lastname}#=%=#Wang
+Author{6}{Email}#=%=#tjwang@pku.edu.cn
+Author{6}{Affiliation}#=%=#Peking University
+Author{7}{Firstname}#=%=#Kam-fai
+Author{7}{Lastname}#=%=#Wong
+Author{7}{Email}#=%=#kfwong@se.cuhk.edu.hk
+Author{7}{Affiliation}#=%=#The Chinese University of Hong Kong
+
+==========

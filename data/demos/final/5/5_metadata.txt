@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#A Web Application for Automated Dialect Analysis
+ShortPaperTitle#=%=#A Web Application for Automated Dialect Analysis
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Sravana Reddy
+JobTitle#==#
+Organization#==#Dartmouth College, Hanover, NH 03755. USA.
+Abstract#==#Sociolinguists are regularly faced with the task of measuring phonetic features
+from speech, which involves manually transcribing  audio recordings -- a major
+bottleneck to analyzing large collections of data.  We harness automatic speech
+recognition to build an online end-to-end web application where users upload
+untranscribed speech collections and receive formant measurements of the vowels
+in their data. We demonstrate this tool by using it to automatically analyze
+President Barack Obama's vowel pronunciations.
+Author{1}{Firstname}#=%=#Sravana
+Author{1}{Lastname}#=%=#Reddy
+Author{1}{Email}#=%=#sravana@cs.dartmouth.edu
+Author{1}{Affiliation}#=%=#Dartmouth College
+Author{2}{Firstname}#=%=#James
+Author{2}{Lastname}#=%=#Stanford
+Author{2}{Email}#=%=#james.n.stanford@dartmouth.edu
+Author{2}{Affiliation}#=%=#Dartmouth College
+
+==========

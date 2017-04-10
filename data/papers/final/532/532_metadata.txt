@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#532
+FinalPaperTitle#=%=#Leveraging Small Multilingual Corpora for SMT Using Many Pivot Languages
+ShortPaperTitle#=%=#Leveraging Small Multilingual Corpora for SMT Using Many Pivot Languages
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Raj Dabre
+JobTitle#==#PhD Student
+Organization#==#Kurohashi-Kawahara Lab, Graduate School of Informatics, Kyoto University, Japan
+Abstract#==#We present our work on leveraging multilingual parallel corpora of small sizes
+for Statistical Machine Translation between Japanese and Hindi using multiple
+pivot languages. In our setting, the source and target part of the corpus
+remains the same, but we show that using several different pivot to extract
+phrase pairs from these source and target parts lead to large BLEU
+improvements. We focus on a variety of ways to exploit phrase tables generated
+using multiple pivots to support a direct source-target phrase table. Our main
+method uses the Multiple Decoding Paths (MDP) feature of Moses, which we
+empirically verify as the best compared to the other methods we used. We
+compare and contrast our various results to show that one can overcome the
+limitations of small corpora by using as many pivot languages as possible in a
+multilingual setting. Most importantly, we show that such pivoting aids in
+learning of additional phrase pairs which are not learned when the direct
+source-target corpus is small. We obtained improvements of up to 3 BLEU points
+using multiple pivots for Japanese to Hindi translation compared to when only
+one pivot is used. To the best of our knowledge, this work is also the first of
+its kind to attempt the simultaneous utilization of 7 pivot languages at
+decoding time.
+Author{1}{Firstname}#=%=#Raj
+Author{1}{Lastname}#=%=#Dabre
+Author{1}{Email}#=%=#prajdabre@gmail.com
+Author{1}{Affiliation}#=%=#Kyoto University
+Author{2}{Firstname}#=%=#Fabien
+Author{2}{Lastname}#=%=#Cromieres
+Author{2}{Email}#=%=#fabien.cromieres@gmail.com
+Author{2}{Affiliation}#=%=#Kyoto University
+Author{3}{Firstname}#=%=#Sadao
+Author{3}{Lastname}#=%=#Kurohashi
+Author{3}{Email}#=%=#kuro@i.kyoto-u.ac.jp
+Author{3}{Affiliation}#=%=#Kyoto University
+Author{4}{Firstname}#=%=#Pushpak
+Author{4}{Lastname}#=%=#Bhattacharyya
+Author{4}{Email}#=%=#pushpakbh@gmail.com
+Author{4}{Affiliation}#=%=#CSE Department, IIT Bombay
+
+==========

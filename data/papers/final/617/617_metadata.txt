@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#617
+FinalPaperTitle#=%=#Inferring Missing Entity Type Instances for Knowledge Base Completion: New Dataset and Methods
+ShortPaperTitle#=%=#Inferring Missing Entity Type Instances for Knowledge Base Completion
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Ming-Wei Chang
+JobTitle#==#
+Organization#==#Ming-Wei Chang, Microsoft Research
+Abstract#==#Most of previous work in knowledge base (KB) completion has focused on the
+problem of relation extraction. In this work, we focus on the task of inferring
+missing entity type instances in a KB, a fundamental task for KB competition
+yet receives little attention.
+
+Due to the novelty of this task, we construct a large-scale dataset and design
+an automatic evaluation methodology. Our knowledge base completion method uses
+information within the existing KB and external information from Wikipedia. We
+show that individual methods trained with a global objective that considers
+unobserved cells from both the entity and the type side gives consistently
+higher quality predictions compared to baseline methods. We also perform manual
+evaluation on a small subset of the data to verify the effectiveness of our
+knowledge base completion methods and the correctness of our proposed automatic
+evaluation method.
+Author{1}{Firstname}#=%=#Arvind
+Author{1}{Lastname}#=%=#Neelakantan
+Author{1}{Email}#=%=#arvindramanat@gmail.com
+Author{1}{Affiliation}#=%=#University of Massachusetts, Amherst
+Author{2}{Firstname}#=%=#Ming-Wei
+Author{2}{Lastname}#=%=#Chang
+Author{2}{Email}#=%=#minchang@microsoft.com
+Author{2}{Affiliation}#=%=#
+
+==========

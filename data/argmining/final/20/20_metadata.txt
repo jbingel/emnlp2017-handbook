@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#A Shared Task on Argumentation Mining in Newspaper Editorials
+ShortPaperTitle#=%=#A Shared Task on Argumentation Mining in Newspaper Editorials
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Kiesel
+JobTitle#==#
+Organization#==#Bauhaus-Universität Weimar
+Faculty of Media
+Bauhausstraße 11
+99423 Weimar, Germany
+Abstract#==#This paper proposes a shared task for the identification of the argumentative
+structure in newspaper editorials. By the term “argumentative structure” we
+refer to the sequence of argumentative units in the text along with the
+relations between them. The main contribution is a large-scale dataset with
+more than 200 annotated editorials, which shall help argumentation mining
+researchers to evaluate and compare their systems in a standardized manner. The
+paper details how we model and manually identify argumentative structures in
+order to build this evaluation resource. Altogether, we consider the proposed
+task as a constructive step towards improving writing assistance systems and
+debating technologies.
+Author{1}{Firstname}#=%=#Johannes
+Author{1}{Lastname}#=%=#Kiesel
+Author{1}{Email}#=%=#johannes.kiesel@uni-weimar.de
+Author{1}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{2}{Firstname}#=%=#Khalid
+Author{2}{Lastname}#=%=#Al Khatib
+Author{2}{Email}#=%=#khalid.alkhatib@uni-weimar.de
+Author{2}{Affiliation}#=%=#Bauhaus-Universität Weimar,  Faculty of Media
+Author{3}{Firstname}#=%=#Matthias
+Author{3}{Lastname}#=%=#Hagen
+Author{3}{Email}#=%=#matthias.hagen@uni-weimar.de
+Author{3}{Affiliation}#=%=#Bauhaus-Universität Weimar, Faculty of Media
+Author{4}{Firstname}#=%=#Benno
+Author{4}{Lastname}#=%=#Stein
+Author{4}{Email}#=%=#benno.stein@uni-weimar.de
+Author{4}{Affiliation}#=%=#Bauhaus-Universität Weimar, Faculty of Media
+
+==========

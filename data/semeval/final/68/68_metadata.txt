@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#68
+FinalPaperTitle#=%=#BLCUNLP: Corpus Pattern Analysis for Verbs Based on Dependency Chain
+ShortPaperTitle#=%=#CPA Parsing Based on Dependency Chain
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Dong Yu
+JobTitle#==#
+Organization#==#College of Information Science, Beijing Language and Culture University,No.15 Xueyuan Rd., Beijing, China.
+Abstract#==#We implemented a syntactic and semantic tagging system for SemEval 2015 Task
+15: Corpus Pattern Analysis. For syntactic tagging, we present a Dependency
+Chain Search Algorithm that is found to be effective at identifying
+structurally distant subjects and objects. Other syntactic labels are
+identified using rules defined over dependency parse structures and the output
+of a verb classification module. Semantic tagging is performed using a simple
+lexical mapping table combined with post-processing rules written over phrase
+structure constituent types and named entity information. The final score of
+our system is 0.530 F1, ranking second in this task.
+Author{1}{Firstname}#=%=#Yukun
+Author{1}{Lastname}#=%=#Feng
+Author{1}{Email}#=%=#fengyukun@blcu.edu.cn
+Author{1}{Affiliation}#=%=#Beijing Language and Culture University
+Author{2}{Firstname}#=%=#Qiao
+Author{2}{Lastname}#=%=#Deng
+Author{2}{Email}#=%=#dengqiao@blcu.edu.cn
+Author{2}{Affiliation}#=%=#Beijing Language and Culture University
+Author{3}{Firstname}#=%=#Dong
+Author{3}{Lastname}#=%=#Yu
+Author{3}{Email}#=%=#yudong_blcu@126.com
+Author{3}{Affiliation}#=%=#Beijing Language and Cultrual University
+
+==========

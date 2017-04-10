@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#385
+FinalPaperTitle#=%=#Unediting: Detecting Disfluencies Without Careful Transcripts
+ShortPaperTitle#=%=#Unediting: Detecting Disfluencies Without Careful Transcripts
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Victoria Zayats
+JobTitle#==#
+Organization#==#University of Washington
+185 Stevens Way
+Seattle, WA, 98195
+Abstract#==#Speech transcripts often only capture semantic content, omitting disfluencies
+that can be useful for analyzing social dynamics of a discussion. This work
+describes steps in building a model that can recover a large fraction of
+locations where disfluencies were present, by transforming carefully annotated
+text to match the standard transcription style, introducing a two-stage model
+for handling different types of disfluencies, and applying semi-supervised
+learning. Experiments show improvement in disfluency detection on Supreme Court
+oral arguments, nearly 23% improvement in F1.
+Author{1}{Firstname}#=%=#Victoria
+Author{1}{Lastname}#=%=#Zayats
+Author{1}{Email}#=%=#vzayats@uw.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Mari
+Author{2}{Lastname}#=%=#Ostendorf
+Author{2}{Email}#=%=#mo@ee.washington.edu
+Author{2}{Affiliation}#=%=#University of Washington
+Author{3}{Firstname}#=%=#Hannaneh
+Author{3}{Lastname}#=%=#Hajishirzi
+Author{3}{Email}#=%=#hannaneh@washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+
+==========

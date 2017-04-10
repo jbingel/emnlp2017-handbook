@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#94
+FinalPaperTitle#=%=#ValenTo: Sentiment Analysis of Figurative Language Tweets with Irony and Sarcasm
+ShortPaperTitle#=%=#ValenTo: Sentiment Analysis of Figurative Language Tweets with Irony and Sarcasm
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Delia Irazu Hernandez Farias
+JobTitle#==#
+Organization#==#Univesitat Politècnica de Valéncia
+Camino de Vera s/n
+Spain
+Abstract#==#This paper describes the system used by the ValenTo team in the Task 11,
+Sentiment Analysis of Figurative Language in Twitter, at SemEval
+2015. Our system used a regression model and additional external resources to
+assign polarity values. A distinctive feature of our approach is that we used
+not only word-sentiment lexicons providing polarity annotations, but also novel
+resources for dealing with emotions and psycholinguistic information.
+These are important aspects to tackle in figurative language such as irony and
+sarcasm, which were represented in the dataset.
+The system also exploited novel and standard structural features of tweets.
+Considering the different kinds of figurative language in the dataset our
+submission obtained good results in recognizing sentiment polarity in both
+ironic and sarcastic tweets.
+Author{1}{Firstname}#=%=#Delia Irazú
+Author{1}{Lastname}#=%=#Hernández Farías
+Author{1}{Email}#=%=#dhernandez1@dsic.upv.es
+Author{1}{Affiliation}#=%=#Universitat Politècnica de València
+Author{2}{Firstname}#=%=#Emilio
+Author{2}{Lastname}#=%=#Sulis
+Author{2}{Email}#=%=#emiliosulis@gmail.com
+Author{2}{Affiliation}#=%=#Dipartimento di Informatica di Torino
+Author{3}{Firstname}#=%=#Viviana
+Author{3}{Lastname}#=%=#Patti
+Author{3}{Email}#=%=#patti@di.unito.it
+Author{3}{Affiliation}#=%=#University of Turin, Dipartimento di Informatica
+Author{4}{Firstname}#=%=#Giancarlo
+Author{4}{Lastname}#=%=#Ruffo
+Author{4}{Email}#=%=#ruffo@di.unito.it
+Author{4}{Affiliation}#=%=#University of Turin, Dipartimento di Informatica
+Author{5}{Firstname}#=%=#Cristina
+Author{5}{Lastname}#=%=#Bosco
+Author{5}{Email}#=%=#bosco@di.unito.it
+Author{5}{Affiliation}#=%=#Dipartimento di Informatica - Università di Torino
+
+==========

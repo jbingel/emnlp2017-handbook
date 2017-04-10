@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Brahmi-Net: A transliteration and script conversion system for languages of the Indian subcontinent
+ShortPaperTitle#=%=#Brahmi-Net: A transliteration and script conversion system for languages of the Indian subcontinent
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Ratish Puduppully
+JobTitle#==#
+Organization#==#IIIT Hyderabad,
+Hyderabad- 500032
+Telangana,
+India
+Abstract#==#We present Brahmi-Net - an online system for transliteration and script
+conversion for all major Indian language pairs (306 pairs). The system covers
+13 Indo-Aryan languages, 4 Dravidian languages and English. For training the
+transliteration systems, we mined parallel transliteration corpora from
+parallel translation corpora using an unsupervised method and trained
+statistical transliteration systems using the mined corpora. Languages which do
+not have a parallel corpora are supported by transliteration through a bridge
+language. Our script conversion system supports conversion between all
+Brahmi-derived scripts as well as ITRANS romanization scheme. For this, we
+leverage co-ordinated Unicode ranges between Indic scripts and use an extended
+ITRANS encoding for transliterating between English and Indic scripts. The
+system also provides top-k transliterations and simultaneous transliteration
+into multiple output languages. We provide a Python as well as REST API to
+access these services. The API and the mined transliteration corpus are
+made available for research use under an open source license.
+Author{1}{Firstname}#=%=#Anoop
+Author{1}{Lastname}#=%=#Kunchukuttan
+Author{1}{Email}#=%=#anoopk@cse.iitb.ac.in
+Author{1}{Affiliation}#=%=#IIT Bombay
+Author{2}{Firstname}#=%=#Ratish
+Author{2}{Lastname}#=%=#Puduppully
+Author{2}{Email}#=%=#ratish.surendran@research.iiit.ac.in
+Author{2}{Affiliation}#=%=#IIIT Hyderabad
+Author{3}{Firstname}#=%=#Pushpak
+Author{3}{Lastname}#=%=#Bhattacharyya
+Author{3}{Email}#=%=#pushpakbh@gmail.com
+Author{3}{Affiliation}#=%=#CSE Department, IIT Bombay
+
+==========

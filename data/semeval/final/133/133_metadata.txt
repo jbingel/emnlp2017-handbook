@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#133
+FinalPaperTitle#=%=#Voltron: A Hybrid System For Answer Validation Based On Lexical And Distance Features
+ShortPaperTitle#=%=#Voltron: A Hybrid System For Answer Validation Based On Lexical And Distance Features
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Marina Kraeva
+JobTitle#==#
+Organization#==#Sofia University 'St. Kliment Ohridski'
+15 Tsar Osvoboditel Blvd,1504 Sofia
+Abstract#==#The purpose of this paper is to describe our submission to the SemEval-2015
+Task 3 on Answer Selection in Community Question Answering. We participated in
+subtask A, where the systems had to classify community answers for a given
+question as definitely relevant, potentially useful, or irrelevant. For every
+question-answer pair in the training data we extract a vector with a variety of
+features. These vectors are then fed to a MaxEnt classifier for training. Given
+a question and an answer the trained classifier outputs class probabilities for
+each of the three desired categories. The one with the highest probability is
+chosen. Our system scores better than the average score in subtask A of Task 3.
+Author{1}{Firstname}#=%=#Ivan
+Author{1}{Lastname}#=%=#Zamanov
+Author{1}{Email}#=%=#ivo.zamanov@gmail.com
+Author{1}{Affiliation}#=%=#SU "St. Kliment Ohridski"
+Author{2}{Firstname}#=%=#Marina
+Author{2}{Lastname}#=%=#Kraeva
+Author{2}{Email}#=%=#mvkraeva@gmail.com
+Author{2}{Affiliation}#=%=#Sofia University "St. Kliment Ohridski"
+Author{3}{Firstname}#=%=#Nelly
+Author{3}{Lastname}#=%=#Hateva
+Author{3}{Email}#=%=#nelly.hateva@gmail.com
+Author{3}{Affiliation}#=%=#Sofia University "St. Kliment Ohridski"
+Author{4}{Firstname}#=%=#Ivana
+Author{4}{Lastname}#=%=#Yovcheva
+Author{4}{Email}#=%=#ivana.yovcheva@gmail.com
+Author{4}{Affiliation}#=%=#FMI, Sofia University
+Author{5}{Firstname}#=%=#Ivelina
+Author{5}{Lastname}#=%=#Nikolova
+Author{5}{Email}#=%=#iva@lml.bas.bg
+Author{5}{Affiliation}#=%=#Bulgarian Academy of Sciences
+Author{6}{Firstname}#=%=#Galia
+Author{6}{Lastname}#=%=#Angelova
+Author{6}{Email}#=%=#galia@lml.bas.bg
+Author{6}{Affiliation}#=%=#Institute of Information and communication Technologies, Bulgarian Academy of Sciences
+
+==========

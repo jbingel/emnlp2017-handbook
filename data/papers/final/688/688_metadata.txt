@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#688
+FinalPaperTitle#=%=#Inflection Generation as Discriminative String Transduction
+ShortPaperTitle#=%=#Inflection Generation as Discriminative String Transduction
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Grzegorz Kondrak
+JobTitle#==#
+Organization#==#University of Alberta
+Abstract#==#We approach the task of morphological inflection generation as discriminative
+string transduction.  Our supervised system learns to generate word-forms from
+lemmas accompanied by morphological tags, and refines them by referring to the
+other forms within a paradigm.              Results of experiments on six diverse
+languages
+with varying amounts of training data demonstrate that our approach improves
+the state of the art in terms of predicting inflected word-forms.
+Author{1}{Firstname}#=%=#Garrett
+Author{1}{Lastname}#=%=#Nicolai
+Author{1}{Email}#=%=#nicolai@ualberta.ca
+Author{1}{Affiliation}#=%=#University of Alberta
+Author{2}{Firstname}#=%=#Colin
+Author{2}{Lastname}#=%=#Cherry
+Author{2}{Email}#=%=#colin.cherry@nrc-cnrc.gc.ca
+Author{2}{Affiliation}#=%=#NRC
+Author{3}{Firstname}#=%=#Grzegorz
+Author{3}{Lastname}#=%=#Kondrak
+Author{3}{Email}#=%=#gkondrak@ualberta.ca
+Author{3}{Affiliation}#=%=#University of Alberta
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#205
+FinalPaperTitle#=%=#Constraint-Based Models of Lexical Borrowing
+ShortPaperTitle#=%=#Constraint-Based Models of Lexical Borrowing
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yulia Tsvetkov
+JobTitle#==#
+Organization#==#Language Technologies Institute
+Carnegie Mellon University
+Pittsburgh, PA, 15213, USA
+Abstract#==#Linguistic borrowing is the phenomenon of transferring linguistic constructions
+(lexical, phonological, morphological, and syntactic) from a “donor”
+language to a “recipient” language as a result of contacts between
+communities speaking different languages. Borrowed words are found in all
+languages, and—in contrast to cognate relationships—borrowing relationships
+may exist across unrelated languages (for example, about 40% of Swahili’s
+vocabulary is borrowed from Arabic). In this paper, we develop a model of
+morpho-phonological transformations across languages with features based on
+universal constraints from Optimality Theory (OT). Compared to several
+standard—but linguistically naïve—baselines, our OT-inspired model obtains
+good performance with only a few dozen training examples, making this a
+cost-effective strategy for sharing lexical information across languages.
+Author{1}{Firstname}#=%=#Yulia
+Author{1}{Lastname}#=%=#Tsvetkov
+Author{1}{Email}#=%=#yulia.tsvetkov@gmail.com
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Waleed
+Author{2}{Lastname}#=%=#Ammar
+Author{2}{Email}#=%=#wammar@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Dyer
+Author{3}{Email}#=%=#cdyer@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

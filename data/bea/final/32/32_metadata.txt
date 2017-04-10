@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#32
+FinalPaperTitle#=%=#Identifying Patterns For Short Answer Scoring Using Graph-based Lexico-Semantic Text Matching
+ShortPaperTitle#=%=#Identifying Patterns For Short Answer Scoring Using Graph-based Lexico-Semantic Text Matching
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Lakshmi Ramachandran
+JobTitle#==#
+Organization#==#Pearson
+4940 Pearl East Circle, Boulder, Colorado 80301
+Abstract#==#Short answer scoring systems typically use regular expressions, templates or
+logic expressions to detect the presence of specific terms or concepts among
+student responses. Previous work has shown that manually developed regular
+expressions can provide effective scoring, however manual development can be
+quite time consuming. In this work we present a new approach that uses
+word-order graphs to identify important patterns from human-provided rubric
+texts and top-scoring student answers. The approach also uses semantic metrics
+to determine groups of related words, which can represent alternative answers.
+We evaluate our approach on two datasets: (1) the Kaggle Short Answer dataset,
+and (2) a short answer dataset provided by Mohler et al. (2011). We show that
+our automated approach performs better than the winning Kaggle entry and
+generalizes as a method to the Mohler dataset.
+Author{1}{Firstname}#=%=#Lakshmi
+Author{1}{Lastname}#=%=#Ramachandran
+Author{1}{Email}#=%=#imaksha@gmail.com
+Author{1}{Affiliation}#=%=#Pearson Knowledge Technologies
+Author{2}{Firstname}#=%=#Jian
+Author{2}{Lastname}#=%=#Cheng
+Author{2}{Email}#=%=#jian.cheng@analyticmeasures.com
+Author{2}{Affiliation}#=%=#Analytic Measures Inc.
+Author{3}{Firstname}#=%=#Peter
+Author{3}{Lastname}#=%=#Foltz
+Author{3}{Email}#=%=#peter.foltz@pearson.com
+Author{3}{Affiliation}#=%=#Pearson, University of Colorado
+
+==========

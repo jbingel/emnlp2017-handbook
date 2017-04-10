@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Never-Ending Multiword Expressions Learning
+ShortPaperTitle#=%=#Never-Ending Multiword Expressions Learning
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Helena de Medeiros Caseli
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper introduces NEMWEL, a system that performs Never-Ending MultiWord
+Expressions Learning. Instead of using a static corpus and classifier, NEMWEL
+applies supervised learning on automatically crawled news texts. Moreover, it
+uses its own results to periodically retrain the classifier, bootstrapping on
+its own results. In addition to a detailed description of the system's
+architechture and its modules, we report the results of a manual evaluation. It
+shows that NEMWEL is capable of learning new expressions over time with
+improved precision.
+Author{1}{Firstname}#=%=#Alexandre
+Author{1}{Lastname}#=%=#Rondon
+Author{1}{Email}#=%=#alex.crondon@gmail.com
+Author{1}{Affiliation}#=%=#Federal University of São Carlos
+Author{2}{Firstname}#=%=#Helena
+Author{2}{Lastname}#=%=#Caseli
+Author{2}{Email}#=%=#helenacaseli@dc.ufscar.br
+Author{2}{Affiliation}#=%=#Federal University of São Carlos
+Author{3}{Firstname}#=%=#Carlos
+Author{3}{Lastname}#=%=#Ramisch
+Author{3}{Email}#=%=#carlosramisch@gmail.com
+Author{3}{Affiliation}#=%=#LIF, Aix-Marseille Université
+
+==========

@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#76
+FinalPaperTitle#=%=#ELiRF: A SVM Approach for SA tasks in Twitter at SemEval-2015
+ShortPaperTitle#=%=#ELiRF: A SVM Approach for SA tasks in Twitter at SemEval-2015
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper describes our participation at tasks 10 (sub-task B, Message
+Polarity Classification) and 11 task (Sentiment Analysis of Figurative Language
+in Twitter) of Semeval2015.
+We describe the Support Vector Machine system we used in this competition. We
+also present the relevant feature set that we take into account in our models.
+Finally, we show the results we obtained in this competition and some
+conclusions.
+Author{1}{Firstname}#=%=#Mayte
+Author{1}{Lastname}#=%=#Giménez
+Author{1}{Email}#=%=#mgimenez@dsic.upv.es
+Author{1}{Affiliation}#=%=#UPV
+Author{2}{Firstname}#=%=#Ferran
+Author{2}{Lastname}#=%=#Pla
+Author{2}{Email}#=%=#fpla@dsic.upv.es
+Author{2}{Affiliation}#=%=#Universitat Politècnica de València
+Author{3}{Firstname}#=%=#Lluís-F.
+Author{3}{Lastname}#=%=#Hurtado
+Author{3}{Email}#=%=#lhurtado@dsic.upv.es
+Author{3}{Affiliation}#=%=#Universitat Politècnica de València
+
+==========

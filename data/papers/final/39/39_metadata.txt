@@ -1,0 +1,51 @@
+SubmissionNumber#=%=#39
+FinalPaperTitle#=%=#TopicCheck: Interactive Alignment for Assessing Topic Model Stability
+ShortPaperTitle#=%=#TopicCheck: Interactive Alignment for Assessing Topic Model Stability
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jason Chuang
+JobTitle#==#
+Organization#==#
+Abstract#==#Content analysis, a widely-applied social science research method, is
+increasingly being supplemented by topic modeling. However, while the discourse
+on content analysis centers heavily on reproducibility, computer scientists
+often focus more on scalability and less on coding reliability, leading to
+growing skepticism on the usefulness of topic models for automated content
+analysis. In response, we introduce TopicCheck, an interactive tool for
+assessing topic model stability. Our contributions are threefold. First, from
+established guidelines on reproducible content analysis, we distill a set of
+design requirements on how to computationally assess the stability of an
+automated coding process. Second, we devise an interactive alignment algorithm
+for matching latent topics from multiple models, and enable sensitivity
+evaluation across a large number of models. Finally, we demonstrate that our
+tool enables social scientists to gain novel insights into three active
+research questions.
+Author{1}{Firstname}#=%=#Jason
+Author{1}{Lastname}#=%=#Chuang
+Author{1}{Email}#=%=#jason@chuang.ca
+Author{1}{Affiliation}#=%=#N/A
+Author{2}{Firstname}#=%=#Margaret E.
+Author{2}{Lastname}#=%=#Roberts
+Author{2}{Email}#=%=#meroberts@ucsd.edu
+Author{2}{Affiliation}#=%=#University of California, San Diego
+Author{3}{Firstname}#=%=#Brandon M.
+Author{3}{Lastname}#=%=#Stewart
+Author{3}{Email}#=%=#bstewart@fas.harvard.edu
+Author{3}{Affiliation}#=%=#Harvard University
+Author{4}{Firstname}#=%=#Rebecca
+Author{4}{Lastname}#=%=#Weiss
+Author{4}{Email}#=%=#rjweiss@stanford.edu
+Author{4}{Affiliation}#=%=#Stanford University
+Author{5}{Firstname}#=%=#Dustin
+Author{5}{Lastname}#=%=#Tingley
+Author{5}{Email}#=%=#dtingley@gov.harvard.edu
+Author{5}{Affiliation}#=%=#Harvard University
+Author{6}{Firstname}#=%=#Justin
+Author{6}{Lastname}#=%=#Grimmer
+Author{6}{Email}#=%=#jgrimmer@stanford.edu
+Author{6}{Affiliation}#=%=#Stanford University
+Author{7}{Firstname}#=%=#Jeffrey
+Author{7}{Lastname}#=%=#Heer
+Author{7}{Email}#=%=#jheer@uw.edu
+Author{7}{Affiliation}#=%=#University of Washington
+
+==========

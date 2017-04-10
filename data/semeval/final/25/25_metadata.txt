@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#25
+FinalPaperTitle#=%=#HeidelToul: A Baseline Approach for Cross-document Event Ordering
+ShortPaperTitle#=%=#HeidelToul: A Baseline Approach for Cross-document Event Ordering
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Bilel Moulahi
+JobTitle#==#
+Organization#==#IRIT, University of Toulouse Paul Sabatier, 118 Route de Narbonne
+F-31062 TOULOUSE CEDEX 9, France
+Abstract#==#In this paper, we give an overview of our participation in the timeline
+generation task of SemEval-2015 (task 4, TimeLine: Cross-Document Event
+Ordering). The main goals of this new track are, given a collection of news
+articles and a so-called target entity, to determine events that are relevant
+for the entity, to resolve event coreferences, and to order the events
+chronologically. We addressed the sub-tasks, in which event mentions were
+provided, i.e., no additional event extraction was required. For this, we
+developed an ad-hoc approach based on a temporal tagger and a coreference
+resolution tool for entities. After determining relevant sentences, relevant
+events are extracted and anchored on a timeline. The evaluation conducted on
+three collections of news articles shows that our approach -- despite its
+simplicity -- achieves reasonable results and opens several promising issues
+for future work.
+Author{1}{Firstname}#=%=#Bilel
+Author{1}{Lastname}#=%=#Moulahi
+Author{1}{Email}#=%=#moulahi.bilel@gmail.com
+Author{1}{Affiliation}#=%=#IRIT, University of Toulouse Paul Sabatier
+Author{2}{Firstname}#=%=#Jannik
+Author{2}{Lastname}#=%=#Strötgen
+Author{2}{Email}#=%=#stroetgen@informatik.uni-heidelberg.de
+Author{2}{Affiliation}#=%=#Institute of Computer Science, Heidelberg University
+Author{3}{Firstname}#=%=#Michael
+Author{3}{Lastname}#=%=#Gertz
+Author{3}{Email}#=%=#gertz@informatik.uni-heidelberg.de
+Author{3}{Affiliation}#=%=#Institute of Computer Science, Heidelberg University
+Author{4}{Firstname}#=%=#Lynda
+Author{4}{Lastname}#=%=#Tamine
+Author{4}{Email}#=%=#lechani@irit.fr
+Author{4}{Affiliation}#=%=#IRIT, University of Toulouse Paul Sabatier
+
+==========

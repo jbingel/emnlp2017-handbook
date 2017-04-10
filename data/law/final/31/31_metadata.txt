@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Annotating Causal Language Using Corpus Lexicography of Constructions
+ShortPaperTitle#=%=#Annotating Causal Language Using Corpus Lexicography of Constructions
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Jesse Dunietz
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+Abstract#==#Detecting and analyzing causal language is essential to extracting semantic
+relationships. To that end, we present an annotation scheme for English causal
+language (not metaphysical causality), and discuss two methodologies for
+annotation. The first uses only a coding manual to train annotators in
+distinguishing causal from non-causal language. To address low inter-coder
+agreement, we adopted a second methodology, in which we first created a causal
+language "constructicon" based on corpus analysis, then required annotators
+only to annotate instances based on the constructicon. (This resembles the
+methodology used for annotating the FrameNet and PropBank corpora.) Our
+contributions, in addition to the annotation scheme itself, are methodological:
+we discuss when constructicon-based methodology is appropriate, and address the
+validity of annotation schemes that require expert-level metalinguistic
+awareness.
+Author{1}{Firstname}#=%=#Jesse
+Author{1}{Lastname}#=%=#Dunietz
+Author{1}{Email}#=%=#jdunietz@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Lori
+Author{2}{Lastname}#=%=#Levin
+Author{2}{Email}#=%=#lsl@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Jaime
+Author{3}{Lastname}#=%=#Carbonell
+Author{3}{Email}#=%=#jgc@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

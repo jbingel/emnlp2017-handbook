@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#87
+FinalPaperTitle#=%=#TeamUFAL: WSD+EL as Document Retrieval
+ShortPaperTitle#=%=#TeamUFAL: WSD+EL as Document Retrieval
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Roman Sudarikov
+JobTitle#==#
+Organization#==#Charles University in Prague
+Faculty of Mathematics and Physics
+Institute of Formal and Applied Linguistics
+Malostranske namˇestı 25, 11800 Praha 1, Czech Republic
+Abstract#==#This paper describes our system for SemEval-2015 Task 13: Multilingual
+All-Words Sense Disambiguation and Entity Linking. We have participated with
+our system in the sub-task which aims at monolingual all-words disambiguation
+and entity linking. Aside from system description, we pay closer attention to
+the evaluation of system outputs.
+Author{1}{Firstname}#=%=#Petr
+Author{1}{Lastname}#=%=#Fanta
+Author{1}{Email}#=%=#p.fanta@seznam.cz
+Author{1}{Affiliation}#=%=#Charles University in Prague, Faculty of Mathematics and Physics
+Author{2}{Firstname}#=%=#Roman
+Author{2}{Lastname}#=%=#Sudarikov
+Author{2}{Email}#=%=#sudarikov@ufal.mff.cuni.cz
+Author{2}{Affiliation}#=%=#Charles University in Prague, Faculty of Mathematics and Physics
+Author{3}{Firstname}#=%=#Ondrej
+Author{3}{Lastname}#=%=#Bojar
+Author{3}{Email}#=%=#bojar@ufal.mff.cuni.cz
+Author{3}{Affiliation}#=%=#Charles University in Prague, Faculty of Mathematics and Physics
+
+==========

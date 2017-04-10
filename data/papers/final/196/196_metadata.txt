@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#196
+FinalPaperTitle#=%=#Sign constraints on feature weights improve a joint model of word segmentation and phonology
+ShortPaperTitle#=%=#Sign constraints on feature weights improve a joint model of word segmentation and phonology
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Mark Johnson
+JobTitle#==#
+Organization#==#Macquarie University
+Abstract#==#This paper describes a joint model of word segmentation and phonological
+alternations, which takes unsegmented utterances as input and infers word
+segmentations and underlying phonological representations. The model is a
+Maximum Entropy or log-linear model, which can express a probabilistic version
+of Optimality Theory (OT; Prince 2004), a standard phonological framework. The 
+features in our model are inspired by OT's Markedness and Faithfulness
+constraints. Following the OT principle that such features indicate
+``violations'', we require their weights to be non-positive. We apply our model
+to a modified version of the Buckeye corpus (Pitt 2007) in which the only
+phonological alternations are deletions of word-final /d/ and /t/ segments. 
+The model sets a new state-of-the-art for this corpus for word segmentation,
+identification of underlying forms, and identification of /d/ and /t/
+deletions.  
+
+We also show that the OT-inspired sign constraints on feature weights are
+crucial for accurate identification of deleted /d/s; without them our model
+posits approximately 10 times more deleted underlying /d/s than appear in the
+manually annotated data.
+Author{1}{Firstname}#=%=#Mark
+Author{1}{Lastname}#=%=#Johnson
+Author{1}{Email}#=%=#Mark.Johnson@MQ.edu.au
+Author{1}{Affiliation}#=%=#Macquarie University
+Author{2}{Firstname}#=%=#Joe
+Author{2}{Lastname}#=%=#Pater
+Author{2}{Email}#=%=#pater@linguist.umass.edu
+Author{2}{Affiliation}#=%=#University of Massachusetts, Ahmerst
+Author{3}{Firstname}#=%=#Robert
+Author{3}{Lastname}#=%=#Staubs
+Author{3}{Email}#=%=#rstaubs@linguist.umass.edu
+Author{3}{Affiliation}#=%=#University of Massachusetts, Ahmerst
+Author{4}{Firstname}#=%=#Emmanuel
+Author{4}{Lastname}#=%=#Dupoux
+Author{4}{Email}#=%=#emmanuel.dupoux@gmail.com
+Author{4}{Affiliation}#=%=#École des Hautes Etudes en Sciences Sociales, ENS
+
+==========

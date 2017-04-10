@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#108
+FinalPaperTitle#=%=#AZMAT: Sentence Similarity Using Associative Matrices
+ShortPaperTitle#=%=#AZMAT: Sentence Similarity Using Associative Matrices
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Evan Jaffe
+JobTitle#==#
+Organization#==#Department of Linguistics
+The Ohio State University
+1712 Neil Ave.
+Columbus, OH 43210
+Abstract#==#This work uses recursive autoencoders (Socher et al., 2011), word embeddings
+(Pennington et al., 2014), associative matrices (Schuler, 2014) and lexical
+overlap features to model human judgments of sentential similarity on
+SemEval-2015 Task 2: English STS (Agirre et al., 2015). Results show a modest
+positive correlation between system predictions and human similarity scores,
+ranking 69th out of 74 submitted systems.
+Author{1}{Firstname}#=%=#Evan
+Author{1}{Lastname}#=%=#Jaffe
+Author{1}{Email}#=%=#jaffe.59@osu.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Lifeng
+Author{2}{Lastname}#=%=#Jin
+Author{2}{Email}#=%=#jin.544@osu.edu
+Author{2}{Affiliation}#=%=#The Ohio State University
+Author{3}{Firstname}#=%=#David
+Author{3}{Lastname}#=%=#King
+Author{3}{Email}#=%=#king.2138@osu.edu
+Author{3}{Affiliation}#=%=#The Ohio State University
+Author{4}{Firstname}#=%=#Marten
+Author{4}{Lastname}#=%=#van Schijndel
+Author{4}{Email}#=%=#vanschm@ling.osu.edu
+Author{4}{Affiliation}#=%=#The Ohio State University
+
+==========

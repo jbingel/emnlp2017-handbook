@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#115
+FinalPaperTitle#=%=#NeRoSim: A System for Measuring and Interpreting Semantic Textual Similarity
+ShortPaperTitle#=%=#NeRoSim: A System for Measuring and Interpreting Semantic Textual Similarity
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Rajendra Banjade
+JobTitle#==#
+Organization#==#The University of Memphis, Memphis, Tennessee, USA
+Abstract#==#We present in this paper our system developed for SemEval 2015 Shared Task 2
+(2a - English Semantic Textual Similarity, STS, and 2c - Interpretable
+Similarity) and the results of the submitted runs. For the English STS subtask,
+we used regression models combining a wide array of features including semantic
+similarity scores obtained from various methods. One of our runs achieved
+weighted mean correlation score of 0.784 for sentence similarity subtask (i.e.,
+English STS) and was ranked tenth among 74 runs submitted by 29 teams. For the
+interpretable similarity pilot task, we employed a rule-based approach blended
+with chunk alignment labeling and scoring based on semantic similarity
+features. Our system for interpretable text similarity was among the top three
+best performing systems.
+Author{1}{Firstname}#=%=#Rajendra
+Author{1}{Lastname}#=%=#Banjade
+Author{1}{Email}#=%=#rbanjade@memphis.edu
+Author{1}{Affiliation}#=%=#The University of Memphis
+Author{2}{Firstname}#=%=#Nobal Bikram
+Author{2}{Lastname}#=%=#Niraula
+Author{2}{Email}#=%=#nb.niraula@gmail.com
+Author{2}{Affiliation}#=%=#The University of Memphis
+Author{3}{Firstname}#=%=#Nabin
+Author{3}{Lastname}#=%=#Maharjan
+Author{3}{Email}#=%=#nmharjan@memphis.edu
+Author{3}{Affiliation}#=%=#The University of Memphis
+Author{4}{Firstname}#=%=#Vasile
+Author{4}{Lastname}#=%=#Rus
+Author{4}{Email}#=%=#vrus@memphis.edu
+Author{4}{Affiliation}#=%=#The University of Memphis
+Author{5}{Firstname}#=%=#Dan
+Author{5}{Lastname}#=%=#Stefanescu
+Author{5}{Email}#=%=#dstefanescu@gmail.com
+Author{5}{Affiliation}#=%=#Department of Computer Science, The University of Memphis
+Author{6}{Firstname}#=%=#Mihai
+Author{6}{Lastname}#=%=#Lintean
+Author{6}{Email}#=%=#linteanm@yahoo.com
+Author{6}{Affiliation}#=%=#The University of Memphis
+Author{7}{Firstname}#=%=#Dipesh
+Author{7}{Lastname}#=%=#Gautam
+Author{7}{Email}#=%=#dgautam@memphis.edu
+Author{7}{Affiliation}#=%=#The University of Memphis
+
+==========

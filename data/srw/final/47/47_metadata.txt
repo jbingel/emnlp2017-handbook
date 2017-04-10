@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#47
+FinalPaperTitle#=%=#Improving the Translation of Discourse Markers for Chinese into English
+ShortPaperTitle#=%=#Improving the Translation of Discourse Markers for Chinese into English
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#David Steele
+JobTitle#==#
+Organization#==#The University of Sheffield
+Department of Computer Science
+Regent Court (NLP LAB - Room G28)
+Sheffield, S1 4DP
+Abstract#==#Discourse markers (DMs) are ubiquitous cohesive
+devices used to connect what is said
+or written. However, across languages there
+is divergence in their usage, placement, and
+frequency, which is considered to be a major
+problem for machine translation (MT). This
+paper presents an overview of a proposed thesis,
+exploring the difficulties around DMs in
+MT, with a focus on Chinese and English.
+The thesis will examine two main areas: modelling
+cohesive devices within sentences and
+modelling discourse relations (DRs) across
+sentences. Initial experiments have shown
+promising results for building a prediction
+model that uses linguistically inspired features
+to help improve word alignments with respect
+to the implicit use of cohesive devices, which
+in turn leads to improved hierarchical phrase based
+MT.
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#Steele
+Author{1}{Email}#=%=#dbsteele1@sheffield.ac.uk
+Author{1}{Affiliation}#=%=#The University of Sheffield
+
+==========

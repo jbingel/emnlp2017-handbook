@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#58
+FinalPaperTitle#=%=#JAIST: Combining multiple features for Answer Selection in Community Question Answering
+ShortPaperTitle#=%=#JAIST: Combining multiple features for Answer Selection in Community Question Answering
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Tran Hung Quan
+JobTitle#==#
+Organization#==#Japan Advanced Institute of Science and Technology, 1-1 Asahidai, Nomi, Ishikawa 923-1292, Japan
+Abstract#==#In this paper, we describe our system for SemEval-2015 Task 3: Answer Selection
+in Community Question Answering. In this task, the systems are required to
+identify the good or potentially good answers from the answer thread in
+Community Question Answering collections. Our system combines 16 features
+belong to 5 groups to predict answer quality. Our final model achieves the best
+result in subtask A for English, both in accuracy and F1-score.
+Author{1}{Firstname}#=%=#Quan Hung
+Author{1}{Lastname}#=%=#Tran
+Author{1}{Email}#=%=#quanthdhcn@gmail.com
+Author{1}{Affiliation}#=%=#Japan Advance Institute of Science and Technology
+Author{2}{Firstname}#=%=#Vu
+Author{2}{Lastname}#=%=#Tran
+Author{2}{Email}#=%=#vu.tran@jaist.ac.jp
+Author{2}{Affiliation}#=%=#Japan Advance Institute of Science and Technology
+Author{3}{Firstname}#=%=#Tu
+Author{3}{Lastname}#=%=#Vu
+Author{3}{Email}#=%=#vuthanhtu.1991@gmail.com
+Author{3}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{4}{Firstname}#=%=#Minh
+Author{4}{Lastname}#=%=#Nguyen
+Author{4}{Email}#=%=#minhml@jaist.ac.jp
+Author{4}{Affiliation}#=%=#Japan Advance Institute of Science and Technology
+Author{5}{Firstname}#=%=#Son
+Author{5}{Lastname}#=%=#Bao Pham
+Author{5}{Email}#=%=#sonpb@vnu.edu.vn
+Author{5}{Affiliation}#=%=#University of Engineering and Technology, Vietnam National University, Hanoi
+
+==========

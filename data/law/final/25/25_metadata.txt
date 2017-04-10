@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#25
+FinalPaperTitle#=%=#Part of Speech Annotation of Intermediate Versions in the Keystroke Logged Translation Corpus
+ShortPaperTitle#=%=#Part of Speech Annotation of Intermediate Versions in the Keystroke Logged Translation Corpus
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Tatiana Serbina
+JobTitle#==#
+Organization#==#RWTH Aachen University
+Kármánstr. 17-19
+52062 Aachen
+Abstract#==#Translation process data contains non-canonical features such as incomplete
+word tokens, non-sequential string modifications and syntactically deficient
+structures. While these features are often removed for the final translation
+product, they are present in the unfolding text (i.e. intermediate translation
+versions). This paper describes tools developed to semi-automatically process
+intermediate versions of translation data to facilitate quantitative analysis
+of linguistic means employed in translation strategies. We examine the data
+from a translation experiment with the help of these tools.
+Author{1}{Firstname}#=%=#Tatiana
+Author{1}{Lastname}#=%=#Serbina
+Author{1}{Email}#=%=#serbina@anglistik.rwth-aachen.de
+Author{1}{Affiliation}#=%=#RWTH Aachen University
+Author{2}{Firstname}#=%=#Paula
+Author{2}{Lastname}#=%=#Niemietz
+Author{2}{Email}#=%=#niemietz@anglistik.rwth-aachen.de
+Author{2}{Affiliation}#=%=#RWTH Aachen University
+Author{3}{Firstname}#=%=#Matthias
+Author{3}{Lastname}#=%=#Fricke
+Author{3}{Email}#=%=#matthias.fricke@ima-zlw-ifu.rwth-aachen.de
+Author{3}{Affiliation}#=%=#RWTH Aachen University
+Author{4}{Firstname}#=%=#Philipp
+Author{4}{Lastname}#=%=#Meisen
+Author{4}{Email}#=%=#philipp.meisen@ima-zlw-ifu.rwth-aachen.de
+Author{4}{Affiliation}#=%=#RWTH Aachen University
+Author{5}{Firstname}#=%=#Stella
+Author{5}{Lastname}#=%=#Neumann
+Author{5}{Email}#=%=#neumann@anglistik.rwth-aachen.de
+Author{5}{Affiliation}#=%=#RWTH Aachen University
+
+==========

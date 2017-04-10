@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#134
+FinalPaperTitle#=%=#INESC-ID: Sentiment Analysis without Hand-Coded Features or Linguistic Resources using Embedding Subspaces
+ShortPaperTitle#=%=#INESC-ID: Sentiment Analysis without Hand-Coded Features or Linguistic Resources using Embeddings
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#silvio amir
+JobTitle#==#
+Organization#==#Instituto de Engenharia de Sistemas e Computadores Investigação e Desenvolvimento (INESC-ID)
+Rua Alves Redol 9 Lisbon, Portugal
+Abstract#==#We present the INESC-ID system for the message polarity classification task of
+SemEval 2015. The proposed system does not make use of any hand-coded features
+or linguistic resources. It relies on projecting pre-trained structured
+skip-gram word embeddings into a small subspace. The word embeddings can be
+obtained from large amounts of Twitter data in unsupervised form. The sentiment
+analysis supervised training is thus reduced to finding the optimal projection
+which can be carried out efficiently despite the little data available. We
+analyze in detail the proposed approach and show that a competitive system can
+be attained with only a few configuration parameters.
+Author{1}{Firstname}#=%=#Ramón
+Author{1}{Lastname}#=%=#Astudillo
+Author{1}{Email}#=%=#ramon@astudillo.com
+Author{1}{Affiliation}#=%=#INESC-ID/L2F
+Author{2}{Firstname}#=%=#Silvio
+Author{2}{Lastname}#=%=#Amir
+Author{2}{Email}#=%=#samir@inesc-id.pt
+Author{2}{Affiliation}#=%=#INESC-ID, IST
+Author{3}{Firstname}#=%=#Wang
+Author{3}{Lastname}#=%=#Ling
+Author{3}{Email}#=%=#wlin@inesc-id.pt
+Author{3}{Affiliation}#=%=#INESC-ID
+Author{4}{Firstname}#=%=#Bruno
+Author{4}{Lastname}#=%=#Martins
+Author{4}{Email}#=%=#bruno.g.martins@ist.utl.pt
+Author{4}{Affiliation}#=%=#IST and INESC-ID
+Author{5}{Firstname}#=%=#Mario J.
+Author{5}{Lastname}#=%=#Silva
+Author{5}{Email}#=%=#mjs@inesc-id.pt
+Author{5}{Affiliation}#=%=#IST/INESC-ID
+Author{6}{Firstname}#=%=#Isabel
+Author{6}{Lastname}#=%=#Trancoso
+Author{6}{Email}#=%=#isabel.trancoso@inesc-id.pt
+Author{6}{Affiliation}#=%=#INESC-ID / IST
+
+==========

@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Towards Developing an Annotation Scheme for Depressive Disorder Symptoms: A Preliminary Study using Twitter Data
+ShortPaperTitle#=%=#Towards Developing an Annotation Scheme for Depressive Disorder Symptoms
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Mike Conway
+JobTitle#==#
+Organization#==#Department of Biomedical Informatics
+421 Wakara Way
+University of Utah, Salt Lake City
+Abstract#==#Major depressive disorder is one of the most burdensome
+and debilitating diseases in the United
+States. In this pilot study, we present a new annotation
+scheme representing depressive symptoms
+and psycho-social stressors associated with
+major depressive disorder and report annotator
+agreement when applying the scheme to Twitter
+data.
+Author{1}{Firstname}#=%=#Danielle
+Author{1}{Lastname}#=%=#Mowery
+Author{1}{Email}#=%=#daniellemowery@gmail.com
+Author{1}{Affiliation}#=%=#University of Utah
+Author{2}{Firstname}#=%=#Craig
+Author{2}{Lastname}#=%=#Bryan
+Author{2}{Email}#=%=#craig.bryan@utah.edu
+Author{2}{Affiliation}#=%=#University of Utah
+Author{3}{Firstname}#=%=#Mike
+Author{3}{Lastname}#=%=#Conway
+Author{3}{Email}#=%=#michaelambroseconway@gmail.com
+Author{3}{Affiliation}#=%=#University of Utah
+
+==========

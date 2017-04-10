@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#CLPsych 2015 Shared Task: Depression and PTSD on Twitter
+ShortPaperTitle#=%=#CLPsych 2015 Shared Task: Depression and PTSD on Twitter
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Kristy H Seitz
+JobTitle#==#
+Organization#==#The Florida Institute of Human and Machine Cognition (IHMC)
+15 SE Osceola Ave
+Ocala, FL 34471
+Abstract#==#This paper presents a summary of the Computational Linguistics and Clinical
+Psychology (CLPsych) 2015 shared and unshared tasks. These tasks aimed to
+provide apples-to-apples comparisons of  various approaches to modeling
+language relevant to mental health from social media. The data used for these
+tasks is from Twitter users  who state a diagnosis of depression or post
+traumatic stress disorder (PTSD) and demographically-matched community
+controls.  The unshared task was a hackathon held at Johns Hopkins University
+in November 2014 to explore the data, and the shared task was conducted
+remotely, with each participating team submitted scores for  a held-back test
+set of users.  The shared task consisted of three binary classification
+experiments: (1) depression versus control, (2) PTSD versus control, and (3)
+depression versus PTSD. Classifiers were compared primarily via their average
+precision, though a number of other metrics are used along with this to allow a
+more nuanced interpretation of the performance measures.
+Author{1}{Firstname}#=%=#Glen
+Author{1}{Lastname}#=%=#Coppersmith
+Author{1}{Email}#=%=#glen@qntfy.io
+Author{1}{Affiliation}#=%=#Qntfy
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Dredze
+Author{2}{Email}#=%=#mdredze@cs.jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+Author{3}{Firstname}#=%=#Craig
+Author{3}{Lastname}#=%=#Harman
+Author{3}{Email}#=%=#charman@jhu.edu
+Author{3}{Affiliation}#=%=#Johns Hopkins University
+Author{4}{Firstname}#=%=#Kristy
+Author{4}{Lastname}#=%=#Hollingshead
+Author{4}{Email}#=%=#hollingk@gmail.com
+Author{4}{Affiliation}#=%=#IHMC
+Author{5}{Firstname}#=%=#Margaret
+Author{5}{Lastname}#=%=#Mitchell
+Author{5}{Email}#=%=#memitc@microsoft.com
+Author{5}{Affiliation}#=%=#Microsoft Research
+
+==========

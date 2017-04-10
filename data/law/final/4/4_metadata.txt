@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Across Languages and Genres: Creating a Universal Annotation Scheme for Textual Relations
+ShortPaperTitle#=%=#Across Languages and Genres: Creating a Universal Annotation Scheme for Textual Relations
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ekaterina Lapshionva-Koltunski
+JobTitle#==#
+Organization#==#
+Abstract#==#The present paper describes an attempt to create an interoperable scheme for
+the annotation of textual phenomena across languages and genres including
+non-canonical ones. The resulting scheme will be tested for a contrastive
+analysis of English, German and Czech, for which we expect the greatest
+differences in the degree of variation between non-canonical and canonical
+language. Such a kind of analysis requires annotated multilingual resources
+which are costly. Therefore, we make use of annotations already available in
+the resources for the three languages under analysis. As the annotations in
+these corpora are based on different conceptual and methodological backgrounds,
+we need an interoperable scheme that covers existing categories and at the same
+time allows a comparison of the resources. In this paper, we describe how this
+interoperable scheme was created and which problematic cases we had to
+consider.
+Author{1}{Firstname}#=%=#Ekaterina
+Author{1}{Lastname}#=%=#Lapshinova-Koltunski
+Author{1}{Email}#=%=#e.lapshinova@mx.uni-saarland.de
+Author{1}{Affiliation}#=%=#Universität des Saarlandes
+Author{2}{Firstname}#=%=#Anna
+Author{2}{Lastname}#=%=#Nedoluzhko
+Author{2}{Email}#=%=#nedoluzko@ufal.mff.cuni.cz
+Author{2}{Affiliation}#=%=#Charles University in Prague
+Author{3}{Firstname}#=%=#Kerstin Anna
+Author{3}{Lastname}#=%=#Kunz
+Author{3}{Email}#=%=#kerstin.kunz@iued.uni-heidelberg.de
+Author{3}{Affiliation}#=%=#Universität Heidelberg
+
+==========

@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#The complexity of finding the maximum spanning DAG and other restrictions for DAG parsing of natural language
+ShortPaperTitle#=%=#The complexity of DAG parsing of natural language
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Natalie Schluter
+JobTitle#==#postdoc
+Organization#==#Center for Language Technology, University of Copenhagen, Copenhagen, Denmark
+Abstract#==#Recently, there has been renewed interest in semantic dependency parsing, among
+which one of the paradigms focuses on parsing directed acyclic graphs (DAGs). 
+Consideration of the decoding problem in natural language semantic dependency
+parsing as finding a maximum spanning DAG of a weighted directed graph carries
+many complexities.  In particular, the computational complexity (and
+approximability) of the problem has not been addressed in the literature to
+date.  This paper helps to fill this gap, showing that this general problem is
+\textsf{APX}-hard, and is \textsf{NP}-hard even under the planar restriction,
+in the graph-theoretic sense.  On the other hand, we show that under the
+restriction of projectivity, the problem has a straightforward $O(n^3)$
+algorithm. We also give some empirical evidence of the algorithmic importance
+of these graph restrictions, on data from the SemEval 2014 task 8 on Broad
+Coverage Semantic Dependency Parsing.
+Author{1}{Firstname}#=%=#Natalie
+Author{1}{Lastname}#=%=#Schluter
+Author{1}{Email}#=%=#schluten@tcd.ie
+Author{1}{Affiliation}#=%=#University of Copenhagen
+
+==========

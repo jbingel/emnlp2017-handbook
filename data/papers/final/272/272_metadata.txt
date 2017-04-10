@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#272
+FinalPaperTitle#=%=#Sampling Techniques for Streaming Cross Document Coreference Resolution
+ShortPaperTitle#=%=#Sampling Techniques for Streaming Cross Document Coreference Resolution
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Luke Shrimpton
+JobTitle#==#
+Organization#==#The School of Informatics
+Informatics Forum
+10 Crichton Street
+Edinburgh
+EH8 9AB
+Abstract#==#We present the first truly streaming cross document coreference resolution
+(CDC) system. Processing infinite streams of mentions forces us to use a
+constant amount of memory and so we maintain a representative, fixed sized
+sample at all times. For the sample to be representative it should represent a
+large number of entities whilst taking into account both temporal recency and
+distant references. We introduce new sampling techniques that take into account
+a notion of streaming discourse (current mentions depend on previous mentions).
+Using the proposed sampling techniques we are able to get a CEAFe score within
+5% of a non-streaming system while using only 30% of the memory.
+Author{1}{Firstname}#=%=#Luke
+Author{1}{Lastname}#=%=#Shrimpton
+Author{1}{Email}#=%=#luke.shrimpton@ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Victor
+Author{2}{Lastname}#=%=#Lavrenko
+Author{2}{Email}#=%=#vlavrenk@inf.ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+Author{3}{Firstname}#=%=#Miles
+Author{3}{Lastname}#=%=#Osborne
+Author{3}{Email}#=%=#milesosb@gmail.com
+Author{3}{Affiliation}#=%=#Bloomberg
+
+==========

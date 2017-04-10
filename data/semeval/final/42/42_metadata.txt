@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#42
+FinalPaperTitle#=%=#UMDuluth-BlueTeam: SVCSTS - A Multilingual and Chunk Level Semantic Similarity System
+ShortPaperTitle#=%=#UMDuluth-BlueTeam: SVCSTS - A Multilingual and Chunk Level Semantic Similarity System
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#VISWANADH KUMAR REDDY VUGGUMUDI
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper describes SVCSTS, a system that was submitted in SemEval-2015 Task
+2: Semantic Textual Similarity(STS). The task has 3 subtasks viz., English STS,
+Spanish STS and Interpretable STS. SVCSTS approach uses Monolingual word
+aligner, supervised machine learning and Google and Bing translator API’s.
+Various runs of the system outperformed all other participating systems in
+Interpretable STS for non-chunked sentence input.
+Author{1}{Firstname}#=%=#Sakethram
+Author{1}{Lastname}#=%=#Karumuri
+Author{1}{Email}#=%=#karum006@d.umn.edu
+Author{1}{Affiliation}#=%=#University of Minnesota Duluth
+Author{2}{Firstname}#=%=#Viswanadh Kumar Reddy
+Author{2}{Lastname}#=%=#Vuggumudi
+Author{2}{Email}#=%=#vuggu001@d.umn.edu
+Author{2}{Affiliation}#=%=#University of Minnesota Duluth
+Author{3}{Firstname}#=%=#Sai Charan Raj
+Author{3}{Lastname}#=%=#Chitirala
+Author{3}{Email}#=%=#chiti001@d.umn.edu
+Author{3}{Affiliation}#=%=#University of Minnesota Duluth
+
+==========

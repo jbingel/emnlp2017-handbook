@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Semantic Interoperability for Cross-lingual and cross-document Event Detection
+ShortPaperTitle#=%=#Semantic Interoperability for Cross-lingual and cross-document Event Detection
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Piek Vossen
+JobTitle#==#
+Organization#==#VU University Amsterdam,
+De Boelelaan 1105, 1081HV Amsterdam, The Netherlands
+Abstract#==#We describe a system for event extraction across documents and languages. We
+devel- oped a framework for the interoperable se- mantic interpretation of
+mentions of events, participants, locations and time, as well as the relations
+between them. Furthermore, we use a common RDF model to represent instances of
+events, entities and normalised dates. Within this model, we define events as
+the combination of the predicate and its par- ticipants including its location
+and time. We convert multiple mentions of the same event in English, Spanish
+and Dutch to a single rep- resentation. We thus resolve cross-document event
+and entity coreference within a language but also across languages. We tested
+our sys- tem on a Wikinews corpus of 120 English ar- ticles that have been
+translated to Spanish and Dutch. We report on the cross-lingual cross- document
+event and entity extraction compar- ing the Spanish and Dutch output with
+respect to English.
+Author{1}{Firstname}#=%=#Piek
+Author{1}{Lastname}#=%=#Vossen
+Author{1}{Email}#=%=#piek.vossen@vu.nl
+Author{1}{Affiliation}#=%=#VU University Amsterdam
+Author{2}{Firstname}#=%=#Egoitz
+Author{2}{Lastname}#=%=#Laparra
+Author{2}{Email}#=%=#egoitz.laparra@ehu.es
+Author{2}{Affiliation}#=%=#University of Basque Country
+Author{3}{Firstname}#=%=#German
+Author{3}{Lastname}#=%=#Rigau
+Author{3}{Email}#=%=#german.rigau@ehu.es
+Author{3}{Affiliation}#=%=#UPV/EHU
+Author{4}{Firstname}#=%=#Itziar
+Author{4}{Lastname}#=%=#Aldabe
+Author{4}{Email}#=%=#itziar.aldabe@ehu.es
+Author{4}{Affiliation}#=%=#University of the Basque Country (UPV/EHU)
+
+==========

@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#552
+FinalPaperTitle#=%=#A Dynamic Programming Algorithm for Tree Trimming-based Text Summarization
+ShortPaperTitle#=%=#A Dynamic Programming Algorithm for Tree Trimming-based Text Summarization
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Masaaki Nishino
+JobTitle#==#
+Organization#==#NTT Communication Science Laboratories, NTT Corporation
+2-4, Hikaridai, Seika-cho, Soraku-gun, Kyoto 619-0237, Japan
+Abstract#==#Tree trimming is the problem of extracting an optimal subtree from an input
+ tree, and sentence extraction and sentence compression methods can be
+ formulated and solved as tree trimming problems. Previous approaches
+ require integer linear programming (ILP) solvers to obtain exact solutions.
+ The problem of this approach is that ILP solvers are black-boxes and have
+ no theoretical guarantee as to their computation complexity.  We propose a
+ dynamic programming (DP) algorithm for tree trimming problems whose running
+ time is O(NL log N), where N is the number of tree nodes and L
+ is the length limit.  Our algorithm exploits the zero-suppressed binary
+ decision diagram (ZDD), a data structure that represents a family of sets
+ as a directed acyclic graph, to represent the set of subtrees in a compact
+ form; the structure of ZDD permits the application of DP to obtain
+ exact solutions, and our algorithm is applicable to different tree trimming
+ problems.  Moreover, experiments show that our algorithm is faster than
+ state-of-the-art ILP solvers, and that it scales well to handle large
+ summarization problems.
+Author{1}{Firstname}#=%=#Masaaki
+Author{1}{Lastname}#=%=#Nishino
+Author{1}{Email}#=%=#nishino.masaaki@lab.ntt.co.jp
+Author{1}{Affiliation}#=%=#NTT Communication Science Laboratories
+Author{2}{Firstname}#=%=#Norihito
+Author{2}{Lastname}#=%=#Yasuda
+Author{2}{Email}#=%=#yasuda@erato.ist.hokudai.ac.jp
+Author{2}{Affiliation}#=%=#ERATO Minato Discrete Structure Manipulation System Project
+Author{3}{Firstname}#=%=#Tsutomu
+Author{3}{Lastname}#=%=#Hirao
+Author{3}{Email}#=%=#hirao.tsutomu@lab.ntt.co.jp
+Author{3}{Affiliation}#=%=#NTT Communication Science Labs.
+Author{4}{Firstname}#=%=#Shin-ichi
+Author{4}{Lastname}#=%=#Minato
+Author{4}{Email}#=%=#minato@ist.hokudai.ac.jp
+Author{4}{Affiliation}#=%=#Hokkaido University
+Author{5}{Firstname}#=%=#Masaaki
+Author{5}{Lastname}#=%=#Nagata
+Author{5}{Email}#=%=#nagata.masaaki@lab.ntt.co.jp
+Author{5}{Affiliation}#=%=#NTT Communication Science Laboratories
+
+==========

@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#306
+FinalPaperTitle#=%=#A Transition-based Algorithm for AMR Parsing
+ShortPaperTitle#=%=#A Transition-based Algorithm for AMR Parsing
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Chuan Wang
+JobTitle#==#
+Organization#==#Brandeis University,
+415 South Street, Waltham, MA 02453
+Abstract#==#We present a two-stage framework to parse a sentence into its Abstract Meaning
+Representation (AMR). We first use a dependency parser to generate a dependency
+tree for the sentence. In the second stage, we design a novel transition-based
+algorithm that transforms the dependency tree to an AMR graph. There are
+several advantages with this approach. First, the dependency parser can be
+trained on a training set much larger than the training set for the
+tree-to-graph algorithm, resulting in a more accurate AMR parser overall. Our
+parser yields an improvement of 5% absolute in F-measure over the best previous
+result. Second, the actions that we design are linguistically intuitive and
+capture the regularities in the mapping between the dependency structure and
+the AMR of a sentence. Third, our parser runs in nearly linear time in practice
+in spite of a worst-case complexity of O(n<sup>2</sup>).
+Author{1}{Firstname}#=%=#Chuan
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#cwang24@brandeis.edu
+Author{1}{Affiliation}#=%=#Brandeis University
+Author{2}{Firstname}#=%=#Nianwen
+Author{2}{Lastname}#=%=#Xue
+Author{2}{Email}#=%=#xuen@brandeis.edu
+Author{2}{Affiliation}#=%=#Brandeis University
+Author{3}{Firstname}#=%=#Sameer
+Author{3}{Lastname}#=%=#Pradhan
+Author{3}{Email}#=%=#pradhan@cemantix.org
+Author{3}{Affiliation}#=%=#cemantix.org
+
+==========

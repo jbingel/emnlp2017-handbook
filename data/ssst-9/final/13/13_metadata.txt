@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Semantics-based pretranslation for SMT using fuzzy matches
+ShortPaperTitle#=%=#Semantics-based pretranslation for SMT using fuzzy matches
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Tom Vanallemeersch
+JobTitle#==#
+Organization#==#Centre for Computational Linguistics, KU Leuven
+Blijde Inkomststraat 13
+B-3000 Leuven
+Belgium
+Abstract#==#Semantic knowledge has been adopted recently for SMT preprocessing, decoding
+and
+evaluation, in order to be able to compare sentences based on their meaning
+rather than on mere lexical and syntactic similarity. Little attention has been
+paid to semantic knowledge in the context of integrating fuzzy matches
+from a translation memory with SMT. We present work in progress which focuses
+on
+semantics-based pretranslation before decoding in SMT. This involves applying
+fuzzy matching metrics based on lexical semantics and semantic roles, aligning
+parse trees based on semantic roles, and pretranslating matching source
+sentence parts using aligned tree nodes.
+Author{1}{Firstname}#=%=#Tom
+Author{1}{Lastname}#=%=#Vanallemeersch
+Author{1}{Email}#=%=#tallem@ccl.kuleuven.be
+Author{1}{Affiliation}#=%=#Centre for Computational Linguistics, KU Leuven
+Author{2}{Firstname}#=%=#Vincent
+Author{2}{Lastname}#=%=#Vandeghinste
+Author{2}{Email}#=%=#vincent@ccl.kuleuven.be
+Author{2}{Affiliation}#=%=#Centre for Computational Linguistics, KU Leuven
+
+==========

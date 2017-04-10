@@ -1,0 +1,10 @@
+abbrev MWE
+type WORKSHOP
+title 11th Workshop on Multiword Expressions
+url TOBEFILLED-http://www.ets.org/research/conferences/nlp.html
+booktitle Proceedings of the 11th Workshop on Multiword Expressions
+month June
+year 2015
+location Denver, Colorado
+publisher Association for Computational Linguistics
+bib_url http://www.aclweb.org/anthology/W15-09%02d

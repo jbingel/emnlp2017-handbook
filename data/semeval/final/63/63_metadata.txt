@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#63
+FinalPaperTitle#=%=#LT3: Sentiment Analysis of Figurative Tweets: piece of cake #NotReally
+ShortPaperTitle#=%=#LT3: Sentiment Analysis of Figurative Tweets: piece of cake #NotReally
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Cynthia Van Hee
+JobTitle#==#
+Organization#==#Ghent University
+Groot-Brittanniëlaan 45
+9000 Ghent
+Belgium
+Abstract#==#This paper describes our contribution to the SemEval-2015 Task 11 on sentiment
+analysis of figurative language in Twitter. We considered two approaches,
+classification and regression, to provide fine-grained sentiment scores for a
+set of tweets that are rich in sarcasm, irony and metaphor. To this end, we
+combined a variety of standard lexical and syntactic features with specific
+features for capturing figurative content. All experiments were done using
+supervised learning with LIBSVM. For both runs, our system ranked fourth among
+fifteen submissions.
+Author{1}{Firstname}#=%=#Cynthia
+Author{1}{Lastname}#=%=#Van Hee
+Author{1}{Email}#=%=#Cynthia.Vanhee@UGent.be
+Author{1}{Affiliation}#=%=#LT3, Language and Translation Technology Team (Ghent University)
+Author{2}{Firstname}#=%=#Els
+Author{2}{Lastname}#=%=#Lefever
+Author{2}{Email}#=%=#els.lefever@ugent.be
+Author{2}{Affiliation}#=%=#LT3, Ghent University
+Author{3}{Firstname}#=%=#Veronique
+Author{3}{Lastname}#=%=#Hoste
+Author{3}{Email}#=%=#veronique.hoste@ugent.be
+Author{3}{Affiliation}#=%=#Ghent University
+
+==========

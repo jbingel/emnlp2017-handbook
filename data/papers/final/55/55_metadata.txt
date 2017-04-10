@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#55
+FinalPaperTitle#=%=#Transition-Based Syntactic Linearization
+ShortPaperTitle#=%=#Transition-Based Syntactic Linearization
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yijia Liu
+JobTitle#==#
+Organization#==#
+Abstract#==#Syntactic linearization algorithms take a bag of input words and a set of
+optional constraints, and construct an output sentence and its syntactic
+derivation simultaneously. The search problem is NP-hard, and the current best
+results are achieved by bottom-up best-first search.One drawback of the method
+is low efficiency; and there is no theoretical guarantee that a full sentence
+can be found within bounded time.We propose an alternative algorithm that
+constructs output structures from left to right using beam-search.The algorithm
+is based on incremental parsing algorithms. We extend the transition system so
+that word ordering is performed in addition to syntactic parsing, resulting in
+a linearization system that runs in guaranteed quadratic time. In standard
+evaluations, our system runs an order of magnitude faster than a
+state-of-the-art baseline using best-first search, with improved accuracies.
+Author{1}{Firstname}#=%=#Yijia
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Email}#=%=#oneplus.lau@gmail.com
+Author{1}{Affiliation}#=%=#Research Center for Social Computing and Information Retrieval, Harbin Institute of Technology
+Author{2}{Firstname}#=%=#Yue
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#yue_zhang@sutd.edu.sg
+Author{2}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{3}{Firstname}#=%=#Wanxiang
+Author{3}{Lastname}#=%=#Che
+Author{3}{Email}#=%=#wanxiang@gmail.com
+Author{3}{Affiliation}#=%=#Harbin Institute of Technology
+Author{4}{Firstname}#=%=#Bing
+Author{4}{Lastname}#=%=#Qin
+Author{4}{Email}#=%=#qinb@ir.hit.edu.cn
+Author{4}{Affiliation}#=%=#Harbin Institute of Technology
+
+==========

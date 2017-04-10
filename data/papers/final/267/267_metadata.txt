@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#267
+FinalPaperTitle#=%=#Echoes of Persuasion: The Effect of Euphony in Persuasive Communication
+ShortPaperTitle#=%=#Echoes of Persuasion: The Effect of Euphony in Persuasive Communication
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Carlo Strapparava
+JobTitle#==#
+Organization#==#
+Abstract#==#While the effect of various lexical, syntactic, semantic and stylistic features
+have been addressed in persuasive language from a computational point of view,
+the persuasive effect of phonetics has received little attention. By modeling a
+notion of euphony and analyzing four datasets comprising persuasive and
+non-persuasive sentences in different domains (political speeches, movie
+quotes, slogans and tweets), we explore the impact of sounds on different forms
+of persuasiveness. We conduct a series of analyses and prediction experiments
+within and across datasets. Our results highlight the positive role of phonetic
+devices on persuasion.
+Author{1}{Firstname}#=%=#Marco
+Author{1}{Lastname}#=%=#Guerini
+Author{1}{Email}#=%=#marco.guerini@trentorise.eu
+Author{1}{Affiliation}#=%=#Trento-Rise
+Author{2}{Firstname}#=%=#Gözde
+Author{2}{Lastname}#=%=#Özbal
+Author{2}{Email}#=%=#gozbalde@gmail.com
+Author{2}{Affiliation}#=%=#FBK-irst
+Author{3}{Firstname}#=%=#Carlo
+Author{3}{Lastname}#=%=#Strapparava
+Author{3}{Email}#=%=#strappa@fbk.eu
+Author{3}{Affiliation}#=%=#FBK-irst
+
+==========

@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Feature selection for automated speech scoring
+ShortPaperTitle#=%=#Feature selection for automated speech scoring
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Anastassia Loukina
+JobTitle#==#
+Organization#==#
+Abstract#==#Automated scoring systems used for the evaluation of spoken or written
+responses
+ in language assessments need to balance good empirical performance with the
+interpretability of the scoring models.
+We compare several methods of feature selection for such scoring systems and
+show that the use of shrinkage methods such as Lasso regression makes it
+possible to rapidly build models that both satisfy the requirements of validity
+and intepretability, crucial in assessment contexts as well as achieve good
+empirical performance.
+Author{1}{Firstname}#=%=#Anastassia
+Author{1}{Lastname}#=%=#Loukina
+Author{1}{Email}#=%=#aloukina@ets.org
+Author{1}{Affiliation}#=%=#Educational Testing Service
+Author{2}{Firstname}#=%=#Klaus
+Author{2}{Lastname}#=%=#Zechner
+Author{2}{Email}#=%=#kzechner@ets.org
+Author{2}{Affiliation}#=%=#ETS
+Author{3}{Firstname}#=%=#Lei
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Email}#=%=#lchen@ets.org
+Author{3}{Affiliation}#=%=#Educational Testing Service (ETS)
+Author{4}{Firstname}#=%=#Michael
+Author{4}{Lastname}#=%=#Heilman
+Author{4}{Email}#=%=#mheilman@civisanalytics.com
+Author{4}{Affiliation}#=%=#Civis Analytics
+
+==========

@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#125
+FinalPaperTitle#=%=#Incrementally Tracking Reference in Human/Human Dialogue Using Linguistic and Extra-Linguistic Information
+ShortPaperTitle#=%=#Incrementally Tracking Reference in Using Linguistic and Extra-Linguistic Information
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Casey Kennington
+JobTitle#==#
+Organization#==#Bielefeld University
+Universitätsstraße 25
+33619 Bielefeld Germany
+Abstract#==#A large part of human communication involves referring to entities in the world
+and often these entities are objects that are visually present for the
+interlocutors. A system that aims to resolve such references needs to tackle a
+complex task: objects and their visual features need to be determined, the
+referring expressions must be recognised, and extra-linguistic information such
+as eye gaze or pointing gestures need to be incorporated. Systems that can make
+use of such information sources exist, but have so far only been tested under
+very constrained settings, such as WOz interactions. In this paper, we apply to
+a more complex domain a reference resolution model that works incrementally
+(i.e., word by word), grounds words with visually present properties of objects
+(such as shape and size), and can incorporate extra-linguistic information. We
+find that the model works well compared to previous work on the same data,
+despite using fewer features. We conclude that the model shows potential for
+use in a real-time interactive dialogue system.
+Author{1}{Firstname}#=%=#Casey
+Author{1}{Lastname}#=%=#Kennington
+Author{1}{Email}#=%=#ckennington@cit-ec.uni-bielefeld.de
+Author{1}{Affiliation}#=%=#Bielefeld University
+Author{2}{Firstname}#=%=#Ryu
+Author{2}{Lastname}#=%=#Iida
+Author{2}{Email}#=%=#ryu.iida@nict.go.jp
+Author{2}{Affiliation}#=%=#National Institute of Information and Communications Technology
+Author{3}{Firstname}#=%=#Takenobu
+Author{3}{Lastname}#=%=#Tokunaga
+Author{3}{Email}#=%=#take@cs.titech.ac.jp
+Author{3}{Affiliation}#=%=#Tokyo Institute of Technology
+Author{4}{Firstname}#=%=#David
+Author{4}{Lastname}#=%=#Schlangen
+Author{4}{Email}#=%=#david.schlangen@uni-bielefeld.de
+Author{4}{Affiliation}#=%=#Bielefeld University
+
+==========

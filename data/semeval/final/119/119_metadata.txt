@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#119
+FinalPaperTitle#=%=#INESC-ID: A Regression Model for Large Scale Twitter Sentiment Lexicon Induction
+ShortPaperTitle#=%=#INESC-ID: A Regression Model for Large Scale Twitter Sentiment Lexicon Induction
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#silvio amir
+JobTitle#==#
+Organization#==#Instituto de Engenharia de Sistemas e Computadores Investigação e Desenvolvimento (INESC-ID)
+Rua Alves Redol 9 Lisbon, Portugal
+Abstract#==#We present the approach followed by INESC-ID in the SemEval 2015 Twitter
+Sentiment Analysis challenge, subtask E. The goal was to determine the strength
+of the association of Twitter terms with positive sentiment. Using two labeled
+lexicons, we trained a regression model to predict the sentiment polarity and
+intensity of words and phrases. Terms were represented as word embeddings
+induced in an unsupervised fashion from a corpus of tweets. Our system attained
+the top ranking submission, attesting the general adequacy of the proposed
+approach.
+Author{1}{Firstname}#=%=#Silvio
+Author{1}{Lastname}#=%=#Amir
+Author{1}{Email}#=%=#samir@inesc-id.pt
+Author{1}{Affiliation}#=%=#INESC-ID, IST
+Author{2}{Firstname}#=%=#Wang
+Author{2}{Lastname}#=%=#Ling
+Author{2}{Email}#=%=#wlin@inesc-id.pt
+Author{2}{Affiliation}#=%=#INESC-ID
+Author{3}{Firstname}#=%=#Ramón
+Author{3}{Lastname}#=%=#Astudillo
+Author{3}{Email}#=%=#ramon@astudillo.com
+Author{3}{Affiliation}#=%=#INESC-ID/L2F
+Author{4}{Firstname}#=%=#Bruno
+Author{4}{Lastname}#=%=#Martins
+Author{4}{Email}#=%=#bruno.g.martins@ist.utl.pt
+Author{4}{Affiliation}#=%=#IST and INESC-ID
+Author{5}{Firstname}#=%=#Mario J.
+Author{5}{Lastname}#=%=#Silva
+Author{5}{Email}#=%=#mjs@inesc-id.pt
+Author{5}{Affiliation}#=%=#IST/INESC-ID
+Author{6}{Firstname}#=%=#Isabel
+Author{6}{Lastname}#=%=#Trancoso
+Author{6}{Email}#=%=#isabel.trancoso@inesc-id.pt
+Author{6}{Affiliation}#=%=#INESC-ID / IST
+
+==========

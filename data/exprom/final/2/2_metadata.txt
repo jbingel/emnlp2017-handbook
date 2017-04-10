@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Filled Pauses in User-generated Content are Words with Extra-propositional Meaning
+ShortPaperTitle#=%=#Filled pauses in user-generated content are words with extra-propositional meaning
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ines Rehbein
+JobTitle#==#
+Organization#==#Potsdam University
+Abstract#==#In this paper, we present a corpus study investigating the use of the fillers
+äh (uh) and ähm (uhm) in informal spoken German youth language and in written
+text from social media. Our study shows that filled pauses occur in both
+corpora as markers of hesitations, corrections, repetitions and unfinished
+sentences, and that the form as well as the type of the fillers are distributed
+similarly in both registers. We present an analysis of fillers in written
+microblogs, illustrating that äh and ähm are used intentionally and can add a
+subtext to the message that is understandable to both author and reader. We
+thus argue that filled pauses in user-generated content from social media are
+words with extra-propositional meaning.
+Author{1}{Firstname}#=%=#Ines
+Author{1}{Lastname}#=%=#Rehbein
+Author{1}{Email}#=%=#irehbein@uni-potsdam.de
+Author{1}{Affiliation}#=%=#Potsdam University
+
+==========

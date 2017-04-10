@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#83
+FinalPaperTitle#=%=#Distributed Representations of Words to Guide Bootstrapped Entity Classifiers
+ShortPaperTitle#=%=#Distributed Representations of Words to Guide Bootstrapped Entity Classifiers
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Sonal Gupta
+JobTitle#==#
+Organization#==#
+Abstract#==#Bootstrapped classifiers iteratively generalize from a few seed examples or
+prototypes to other examples of target labels. However, sparseness of language
+and  limited supervision make the task difficult. We address this problem by
+using distributed vector representations of words to aid the generalization. We
+use the word vectors to expand entity sets used for training classifiers in a
+bootstrapped pattern-based entity extraction system. Our experiments show that
+the classifiers trained with the expanded sets perform better on entity
+extraction from four online forums, with 30% F1 improvement on one forum. The
+results suggest that distributed representations can provide good directions
+for generalization in a bootstrapping system.
+Author{1}{Firstname}#=%=#Sonal
+Author{1}{Lastname}#=%=#Gupta
+Author{1}{Email}#=%=#sonal@cs.stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Christopher D.
+Author{2}{Lastname}#=%=#Manning
+Author{2}{Email}#=%=#manning@cs.stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+
+==========

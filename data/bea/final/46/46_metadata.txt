@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#46
+FinalPaperTitle#=%=#Embarrassed or Awkward? Ranking Emotion Synonyms for ESL Learners' Appropriate Wording
+ShortPaperTitle#=%=#Embarrassed or Awkward? Ranking Emotion Synonyms for ESL Learners' Appropriate Wording
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Wei-Fan Chen
+JobTitle#==#
+Organization#==#Academia Sinica,
+128 Academia Road, Section 2, Nankang, 
+Taipei 11529, 
+Taiwan
+Abstract#==#We introduce a novel framework based on the probabilistic model for emotion
+wording assistance. The example sentences from the on-line dictionary,
+Vocabulary.com are utilized as the training data; and the writings in a
+designed ESL’s writing task are the testing cor-pus. The emotion events are
+captured by extracting patterns of the example sentences. Our approach learns
+the joint probability of contextual emotion events and the emotion words from
+the training corpus. After extracting patterns in the testing corpus, we then
+aggregate their probabilities to suggest the emotion word that describes the
+ESL’s context most appropriately. We evaluate the proposed approach by the
+NDCG@5 of the suggested words for the writings in the testing corpus. The
+experiment result shows our approach can more appropriately suggest the
+emotion words compared to SVM, PMI and two representative on-line reference
+tools, PIGAI and Thesaurus.
+Author{1}{Firstname}#=%=#Wei-Fan
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#viericwf@iis.sinica.edu.tw
+Author{1}{Affiliation}#=%=#Academia Sinica
+Author{2}{Firstname}#=%=#MeiHua
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Email}#=%=#chen.meihua@gmail.com
+Author{2}{Affiliation}#=%=#Department of Foreign Languages and Literature, Tunghai University
+Author{3}{Firstname}#=%=#Lun-Wei
+Author{3}{Lastname}#=%=#Ku
+Author{3}{Email}#=%=#lwku@iis.sinica.edu.tw
+Author{3}{Affiliation}#=%=#Academia Sinica
+
+==========

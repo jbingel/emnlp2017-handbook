@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#497
+FinalPaperTitle#=%=#Using Summarization to Discover Argument Facets in Online Idealogical Dialog
+ShortPaperTitle#=%=#Using Summarization to Discover Argument Facets in Dialog
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Amita
+JobTitle#==#
+Organization#==#University of California, Santa Cruz
+1156 High St, Santa Cruz, CA 95064
+Abstract#==#More and more of the information available
+on the web is dialogic, and a significant portion
+of it takes place in online forum conversations
+about current social and political topics.
+We aim to develop tools to summarize
+what these conversations are about. What are
+the CENTRAL PROPOSITIONS associated with
+different stances on an issue; what are the abstract
+objects under discussion that are central
+to a speaker’s argument? How can we recognize
+that two CENTRAL PROPOSITIONS realize
+the same FACET of the argument? We hypothesize
+that the CENTRAL PROPOSITIONS
+are exactly those arguments that people find
+most salient, and use human summarization
+as a probe for discovering them. We describe
+our corpus of human summaries of opinionated
+dialogs, then show how we can identify
+similar repeated arguments, and group them
+into FACETS across many discussions of a
+topic. We define a new task, ARGUMENT
+FACET SIMILARITY (AFS), and show that we
+can predict AFS with a .54 correlation score,
+versus an ngram system baseline of .39 and
+a semantic textual similarity system baseline
+of .45.
+Author{1}{Firstname}#=%=#Amita
+Author{1}{Lastname}#=%=#Misra
+Author{1}{Email}#=%=#amisra2@ucsc.edu
+Author{1}{Affiliation}#=%=#University of California, Santa Cruz
+Author{2}{Firstname}#=%=#Pranav
+Author{2}{Lastname}#=%=#Anand
+Author{2}{Email}#=%=#panand@ucsc.edu
+Author{2}{Affiliation}#=%=#University of California, Santa Cruz
+Author{3}{Firstname}#=%=#Jean E.
+Author{3}{Lastname}#=%=#Fox Tree
+Author{3}{Email}#=%=#foxtree@ucsc.edu
+Author{3}{Affiliation}#=%=#University of California, Santa Cruz
+Author{4}{Firstname}#=%=#Marilyn
+Author{4}{Lastname}#=%=#Walker
+Author{4}{Email}#=%=#maw@soe.ucsc.edu
+Author{4}{Affiliation}#=%=#University of California, Santa Cruz
+
+==========

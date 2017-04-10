@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#A computational linguistic approach to Spanish Golden Age Sonnets: metrical and semantic aspects
+ShortPaperTitle#=%=#A computational linguistic approach to Spanish Golden Age Sonnets: metrical and semantic aspects
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Borja Navarro-Colorado
+JobTitle#==#
+Organization#==#Universidad de Alicante.
+Carretera San Vicente del Raspeig s/n
+03690 San Vicente del Raspeig, Alicante (Spain)
+Abstract#==#Several computational linguistics techniques are applied to analyze a large
+corpus of Spanish sonnets from the 16th and 17th centuries. The analysis is
+focused on metrical and semantic aspects. First, we are developing a hybrid
+scansion system in order to extract and analyze rhythmical or metrical
+patterns. The possible metrical patterns of each verse are extracted with
+language-based rules. Then statistical rules are used to resolve ambiguities.
+Second, we are applying distributional semantic models in order to, on one
+hand, extract semantic regularities from sonnets, and on the other hand to
+group together sonnets and poets according to these semantic regularities.
+Besides these techniques, in this position paper we will show the objectives of
+the project and partial results.
+Author{1}{Firstname}#=%=#Borja
+Author{1}{Lastname}#=%=#Navarro
+Author{1}{Email}#=%=#borja@dlsi.ua.es
+Author{1}{Affiliation}#=%=#University of Alicante
+
+==========

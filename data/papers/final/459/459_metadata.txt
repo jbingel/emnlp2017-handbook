@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#459
+FinalPaperTitle#=%=#Embedding a Semantic Network in a Word Space
+ShortPaperTitle#=%=#Embedding a Semantic Network in a Word Space
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Richard Johansson
+JobTitle#==#
+Organization#==#Språkbanken, Department of Swedish, University of Gothenburg
+Box 200, SE-40530 Gothenburg, Sweden
+Abstract#==#We present a framework for using continuous-space vector
+representations of word meaning to derive new
+vectors representing the meaning of senses listed in a semantic
+network. It is a post-processing approach that can be applied to
+several types of word vector representations. It uses two ideas: first, that
+vectors
+for polysemous words can be decomposed into a mix of sense
+vectors; secondly, that the vector for a sense is kept
+similar to those of its neighbors in the network.
+This leads to a constrained optimization problem, and we present an
+approximation for the case when the distance
+function is the squared Euclidean.
+
+We applied this algorithm on a Swedish semantic network, and we
+evaluate the quality of the resulting sense representations
+extrinsically by showing that they give large improvements 
+when used in a classifier that creates lexical units for FrameNet frames.
+Author{1}{Firstname}#=%=#Richard
+Author{1}{Lastname}#=%=#Johansson
+Author{1}{Email}#=%=#richard.johansson@svenska.gu.se
+Author{1}{Affiliation}#=%=#University of Gothenburg
+Author{2}{Firstname}#=%=#Luis
+Author{2}{Lastname}#=%=#Nieto Piña
+Author{2}{Email}#=%=#luis.nieto.pina@svenska.gu.se
+Author{2}{Affiliation}#=%=#University of Gothenburg
+
+==========

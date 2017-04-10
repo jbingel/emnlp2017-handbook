@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#157
+FinalPaperTitle#=%=#BioinformaticsUA: Machine Learning and Rule-Based Recognition of Disorders and Clinical Attributes from Patient Notes
+ShortPaperTitle#=%=#BioinformaticsUA: ML and rule-based recognition of disorders and clinical attributes
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Sergio Matos
+JobTitle#==#
+Organization#==#DETI/IEETA
+University of Aveiro
+Campus Universitário de Santiago
+3810-193 Aveiro
+Portugal
+Abstract#==#Natural language processing and text analysis methods offer the potential of
+uncovering hidden associations from large amounts of un- processed texts. The
+SemEval-2015 Analysis of Clinical Text task aimed at fostering re- search on
+the application of these methods in the clinical domain. The proposed task
+consisted of disorder identification with normalization to SNOMED-CT concepts,
+and disorder attribute identification, or template filling.
+We participated in both sub-tasks, using a combination of machine-learning and
+rules for recognizing and normalizing disease mentions, and rule-based methods
+for template filling. We achieved an F-score of 71.2% in the entity recognition
+and normalization task, and a slot weighted accuracy of 69.5% in the template
+filling task.
+Author{1}{Firstname}#=%=#Sérgio
+Author{1}{Lastname}#=%=#Matos
+Author{1}{Email}#=%=#aleixomatos@ua.pt
+Author{1}{Affiliation}#=%=#DETI/IEETA, University of Aveiro, Portugal
+Author{2}{Firstname}#=%=#José
+Author{2}{Lastname}#=%=#Sequeira
+Author{2}{Email}#=%=#sequeira@ua.pt
+Author{2}{Affiliation}#=%=#DETI/IEETA, University of Aveiro, Portugal
+Author{3}{Firstname}#=%=#José Luís
+Author{3}{Lastname}#=%=#Oliveira
+Author{3}{Email}#=%=#jlo@ua.pt
+Author{3}{Affiliation}#=%=#DETI/IEETA, University of Aveiro, Portugal
+
+==========

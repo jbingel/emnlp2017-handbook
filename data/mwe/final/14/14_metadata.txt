@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#The Bare Necessities: Increasing Lexical Coverage for Multi-Word Domain Terms with Less Lexical Data
+ShortPaperTitle#=%=#Increasing Lexical Coverage for Multi-Word Domain Terms with Less Lexical Data
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Branimir Boguraev
+JobTitle#==#Research Staff Member
+Organization#==#IBM Thomas J. Watson Research Center
+P.O.Box 704,
+Yorktown Heights, NY 10598
+Abstract#==#We argue that many multi-word domain terms are not (and should not be regarded
+as)
+strictly atomic, especially from a parser's point of view.  We introduce the
+notion of
+Lexical Kernel Units (LKUs), and discuss some of their essential properties. 
+LKUs are
+building blocks for lexicalizations of domain concepts, and as such, can be
+used for
+compositional derivation of an open-ended set of domain terms.              Benefits
+from
+such an
+approach include reduction in size of the domain lexicon, improved coverage for
+domain
+terms, and improved accuracy for parsing.
+Author{1}{Firstname}#=%=#Branimir
+Author{1}{Lastname}#=%=#Boguraev
+Author{1}{Email}#=%=#bran@us.ibm.com
+Author{1}{Affiliation}#=%=#IBM Research
+Author{2}{Firstname}#=%=#Esme
+Author{2}{Lastname}#=%=#Manandise
+Author{2}{Email}#=%=#esme@us.ibm.com
+Author{2}{Affiliation}#=%=#IBM Thomas J. Watson Research Center
+Author{3}{Firstname}#=%=#Benjamin
+Author{3}{Lastname}#=%=#Segal
+Author{3}{Email}#=%=#bpsegal@us.ibm.com
+Author{3}{Affiliation}#=%=#IBM Thomas J. Watson Research Center
+
+==========

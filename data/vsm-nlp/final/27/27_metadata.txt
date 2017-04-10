@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#Semantic Information Extraction for Improved Word Embeddings
+ShortPaperTitle#=%=#Semantic Information Extraction for Improved Word Embeddings
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Gerard de Melo
+JobTitle#==#
+Organization#==#Tsinghua University
+IIIS, FIT 1-208
+Beijing, 100084
+China
+Abstract#==#Word embeddings have recently proven useful in a number of different
+applications that deal with natural language. Such embeddings succinctly
+reflect semantic similarities between words based on their sentence-internal
+contexts in large corpora. In this paper, we show that information extraction
+techniques provide valuable additional evidence of semantic relationships that
+can be exploited when producing word embeddings. We propose a joint model to
+train word embeddings both on regular context information and on more explicit
+semantic extractions. The word vectors obtained from such an augmented joint
+training show improved results on word similarity tasks, suggesting that they
+can be useful in applications that involve word meanings.
+Author{1}{Firstname}#=%=#Jiaqiang
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#cjq0707@gmail.com
+Author{1}{Affiliation}#=%=#Tsinghua University
+Author{2}{Firstname}#=%=#Gerard
+Author{2}{Lastname}#=%=#de Melo
+Author{2}{Email}#=%=#gerard@demelo.org
+Author{2}{Affiliation}#=%=#Tsinghua University
+
+==========

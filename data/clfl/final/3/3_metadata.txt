@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Gender-Based Vocation Identification in Swedish 19th Century Prose Fiction using Linguistic Patterns, NER and CRF Learning
+ShortPaperTitle#=%=#Gender-Based Vocation Identification in Swedish 19th Century Prose Fiction
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Dimitrios Kokkinakis
+JobTitle#==#
+Organization#==#University of Gothenburg
+Department of Swedish
+Box 200
+SE-405 30 Gothenburg
+Sweden
+Abstract#==#This paper investigates how literature could be used as a means to expand our
+understanding of history. By applying macroanalytic techniques we are aiming to
+investigate how women enter literature and particularly which functions do they
+assume, their working patterns and if we can spot differences in how often male
+and female characters are mentioned with various types of occupational titles
+(vocation) in Swedish literary texts. Modern historiography, and especially
+feminist and women’s history has emphasized a relative invisibility of
+women’s work and women workers. The reasons to this are manifold, and the
+extent, the margin of error in terms of women’s work activities is of course
+hard to assess. Therefore, vocation identification can be used as an indicator
+for such exploration and we present a hybrid system for automatic annotation of
+vocational signals in 19th century Swedish prose fiction. Beside vocations, the
+system also assigns gender (male, female or unknown) to the vocation words, a
+prerequisite for the goals of the study and future in-depth explorations of the
+corpora.
+Author{1}{Firstname}#=%=#Dimitrios
+Author{1}{Lastname}#=%=#Kokkinakis
+Author{1}{Email}#=%=#dimitrios.kokkinakis@svenska.gu.se
+Author{1}{Affiliation}#=%=#University of Gothenburg
+Author{2}{Firstname}#=%=#Ann
+Author{2}{Lastname}#=%=#Ighe
+Author{2}{Email}#=%=#ann.ighe@econhist.gu.se
+Author{2}{Affiliation}#=%=#School of Business, Economics and Law. University of Gothenburg.
+Author{3}{Firstname}#=%=#Mats
+Author{3}{Lastname}#=%=#Malm
+Author{3}{Email}#=%=#mats.malm@lir.gu.se
+Author{3}{Affiliation}#=%=#Department of Literature, History of Ideas, and Religion. University of Gothenburg.
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#105
+FinalPaperTitle#=%=#AMBRA: A Ranking Approach to Temporal Text Classification
+ShortPaperTitle#=%=#AMBRA: A Ranking Approach to Temporal Text Classification
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Marcos Zampieri
+JobTitle#==#
+Organization#==#Saarland University
+Abstract#==#This paper describes the AMBRA system, entered in the SemEval-2015 Task 7:
+`Diachronic Text Evaluation' subtasks one and two, which consist of predicting
+the date when a text was originally written. The task is valuable for
+applications in digital humanities, information systems, and historical
+linguistics. The novelty of this shared task consists of incorporating label
+uncertainty by assigning an interval within which the document was written,
+rather than assigning a clear time marker to each training document. To deal
+with non-linear effects and variable degrees of uncertainty, we reduce the
+problem to pairwise comparisons of the form is Document A older than Document
+B?, and propose a non-parametric way to transform the ordinal output into time
+intervals.
+Author{1}{Firstname}#=%=#Marcos
+Author{1}{Lastname}#=%=#Zampieri
+Author{1}{Email}#=%=#marcos.zampieri@uni-koeln.de
+Author{1}{Affiliation}#=%=#University of Cologne
+Author{2}{Firstname}#=%=#Alina Maria
+Author{2}{Lastname}#=%=#Ciobanu
+Author{2}{Email}#=%=#alina_ciobanu89@yahoo.com
+Author{2}{Affiliation}#=%=#Facultatea de Matematica si Informatica
+Author{3}{Firstname}#=%=#Vlad
+Author{3}{Lastname}#=%=#Niculae
+Author{3}{Email}#=%=#vlad@cs.cornell.edu
+Author{3}{Affiliation}#=%=#Cornell University
+Author{4}{Firstname}#=%=#Liviu P.
+Author{4}{Lastname}#=%=#Dinu
+Author{4}{Email}#=%=#liviu.p.dinu@gmail.com
+Author{4}{Affiliation}#=%=#University of Bucharest
+
+==========

@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#148
+FinalPaperTitle#=%=#Short Text Understanding by Leveraging Knowledge into Topic Model
+ShortPaperTitle#=%=#Short Text Understanding by Leveraging Knowledge into Topic Model
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#shansong yang
+JobTitle#==#student
+Organization#==#zhejiang university
+Hangzhou, zhejiang 310000, China
+Abstract#==#In this paper, we investigate the challenging task of understanding short text
+(STU task) by
+jointly considering topic modeling and knowledge incorporation. 
+Knowledge incorporation can solve the content sparsity problem effectively for
+topic modeling. Specifically, the phrase topic model is proposed to leverage
+the auto-mined knowledge, i.e., the phrases, to guide the generative process of
+short text. 
+Experimental results illustrate the effectiveness of the mechanism that
+utilizes knowledge
+to improve topic modeling’s performance.
+Author{1}{Firstname}#=%=#Shansong
+Author{1}{Lastname}#=%=#Yang
+Author{1}{Email}#=%=#yangshansong@zju.edu.cn
+Author{1}{Affiliation}#=%=#zhejiang university
+Author{2}{Firstname}#=%=#Weiming
+Author{2}{Lastname}#=%=#Lu
+Author{2}{Email}#=%=#luwm@zju.edu.cn
+Author{2}{Affiliation}#=%=#zhejiang university
+Author{3}{Firstname}#=%=#Dezhi
+Author{3}{Lastname}#=%=#Yang
+Author{3}{Email}#=%=#deathyyoung@zju.edu.cn
+Author{3}{Affiliation}#=%=#zhejiang university
+Author{4}{Firstname}#=%=#Liang
+Author{4}{Lastname}#=%=#Yao
+Author{4}{Email}#=%=#yaoliang@zju.edu.cn
+Author{4}{Affiliation}#=%=#zhejiang university
+Author{5}{Firstname}#=%=#Baogang
+Author{5}{Lastname}#=%=#Wei
+Author{5}{Email}#=%=#wbg@zju.edu.cn
+Author{5}{Affiliation}#=%=#zhejiang university
+
+==========

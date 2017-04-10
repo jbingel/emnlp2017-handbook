@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#218
+FinalPaperTitle#=%=#Semi-Supervised Word Sense Disambiguation Using Word Embeddings in General and Specific Domains
+ShortPaperTitle#=%=#Semi-Supervised Word Sense Disambiguation Using Word Embeddings in General and Specific Domains
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Hwee Tou Ng
+JobTitle#==#
+Organization#==#Department of Computer Science
+National University of Singapore
+13 Computing Drive
+Singapore 117417
+Abstract#==#One of the weaknesses of current supervised word sense disambiguation (WSD)
+systems is that they only treat a word as a discrete entity. However, a
+continuous-space representation of words (word embeddings) can provide valuable
+information and thus improve generalization accuracy. Since word embeddings are
+typically obtained from unlabeled data using unsupervised methods, this method
+can be seen as a semi-supervised word sense disambiguation approach. This paper
+investigates two ways of incorporating word embeddings in a word sense
+disambiguation setting and evaluates these two methods on some SensEval/SemEval
+lexical sample and all-words tasks and also a domain-specific lexical sample
+task. The obtained results show that such representations consistently improve
+the accuracy of the selected supervised WSD system. Moreover, our experiments
+on a domain-specific dataset show that our supervised baseline system beats the
+best knowledge-based systems by a large margin.
+Author{1}{Firstname}#=%=#Kaveh
+Author{1}{Lastname}#=%=#Taghipour
+Author{1}{Email}#=%=#kaveh.taghipour@gmail.com
+Author{1}{Affiliation}#=%=#National University of Singapore
+Author{2}{Firstname}#=%=#Hwee Tou
+Author{2}{Lastname}#=%=#Ng
+Author{2}{Email}#=%=#nght@comp.nus.edu.sg
+Author{2}{Affiliation}#=%=#National University of Singapore
+
+==========

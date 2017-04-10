@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#yiGou: A Semantic Text Similarity Computing System Based on SVM
+ShortPaperTitle#=%=#yiGou:STS Computing System
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Yang Liu
+JobTitle#==#Student
+Organization#==#Name: Harbin Institute of Technology, China
+Address: Harbin Institute of Technology, No.92, Xidazhi Street, Nangang District, Harbin City, Heilongjiang Province, China
+Abstract#==#This paper describes the yiGou system we developed to compute the semantic
+similarity of two English sentences, which we submitted to the SemEval 2015
+Task 2 (English subtask). The system uses a support vector machine model with
+literal similarity, shallow syntactic similarity, WordNet-based similarity and
+latent semantic similarity to predict the semantic similarity score of two
+short texts. In our experiments, WordNet-based and LSA-based features performed
+better than other features. Out of the 73 submitted runs, our two runs ranked
+38th and 42th, with mean Pearson correlation 0.7114 and 0.6964 respectively.
+Author{1}{Firstname}#=%=#Yang
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Email}#=%=#yliu@insun.hit.edu.cn
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology, China
+Author{2}{Firstname}#=%=#Chengjie
+Author{2}{Lastname}#=%=#Sun
+Author{2}{Email}#=%=#cjsun@insun.hit.edu.cn
+Author{2}{Affiliation}#=%=#Harbin Institute of Technology, China
+Author{3}{Firstname}#=%=#Lei
+Author{3}{Lastname}#=%=#Lin
+Author{3}{Email}#=%=#linl@insun.hit.edu.cn
+Author{3}{Affiliation}#=%=#Harbin Institute of Technology, China
+Author{4}{Firstname}#=%=#Xiaolong
+Author{4}{Lastname}#=%=#Wang
+Author{4}{Email}#=%=#wangxl@insun.hit.edu.cn
+Author{4}{Affiliation}#=%=#Harbin Institute of Technology, China
+
+==========

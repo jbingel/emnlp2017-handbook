@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#136
+FinalPaperTitle#=%=#An Incremental Algorithm for Transition-based CCG Parsing
+ShortPaperTitle#=%=#An Incremental Algorithm for Transition-based CCG Parsing
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Bharat Ram Ambati
+JobTitle#==#
+Organization#==#ILCC, School of Informatics, University of Edinburgh.
+Abstract#==#Incremental parsers have potential advantages for applications like language
+modeling for machine translation and speech recognition. We describe a new
+algorithm for incremental transition-based Combinatory Categorial Grammar
+parsing. As English CCGbank derivations are mostly right branching and
+non-incremental, we design our algorithm based on the dependencies resolved
+rather than the derivation. We introduce two new actions in the shift-reduce
+paradigm based on the idea of ‘revealing’ (Pareschi and Steedman, 1987) the
+required information during parsing. On the standard CCGbank test data, our
+algorithm achieved improvements of 0.88% in labeled and 2.0% in unlabeled
+F-score over a greedy non-incremental shift-reduce parser.
+Author{1}{Firstname}#=%=#Bharat Ram
+Author{1}{Lastname}#=%=#Ambati
+Author{1}{Email}#=%=#bharat.ambati@ed.ac.uk
+Author{1}{Affiliation}#=%=#ILCC, School of Informatics, University of Edinburgh
+Author{2}{Firstname}#=%=#Tejaswini
+Author{2}{Lastname}#=%=#Deoskar
+Author{2}{Email}#=%=#t.deoskar@gmail.com
+Author{2}{Affiliation}#=%=#University of Edinburgh
+Author{3}{Firstname}#=%=#Mark
+Author{3}{Lastname}#=%=#Johnson
+Author{3}{Email}#=%=#Mark.Johnson@MQ.edu.au
+Author{3}{Affiliation}#=%=#Macquarie University
+Author{4}{Firstname}#=%=#Mark
+Author{4}{Lastname}#=%=#Steedman
+Author{4}{Email}#=%=#steedman@inf.ed.ac.uk
+Author{4}{Affiliation}#=%=#University of Edinburgh
+
+==========

@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Reliable Lexical Simplification for Non-Native Speakers
+ShortPaperTitle#=%=#Reliable Lexical Simplification for Non-Native Speakers
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Gustavo Henrique Paetzold
+JobTitle#==#
+Organization#==#The University of Sheffield
+Western Bank
+Sheffield S10 2TN
+United Kingdom
+Abstract#==#Lexical Simplification is the task of modifying the lexical content of complex
+sentences in order to make them simpler. Due to the lack of reliable resources
+available for the task, most existing approaches have difficulties producing
+simplifications which are grammatical and that preserve the meaning of the
+original text. In order to improve on the state-of-the-art of this task, we
+propose user studies with non-native speakers, which will result in new,
+sizeable datasets, as well as novel ways of performing Lexical Simplification.
+The results of our first experiments show that new types of classifiers, along
+with the use of additional resources such as spoken text language models,
+produce the state-of-the-art results for the Lexical Simplification task of
+SemEval-2012.
+Author{1}{Firstname}#=%=#Gustavo
+Author{1}{Lastname}#=%=#Paetzold
+Author{1}{Email}#=%=#ghpaetzold@outlook.com
+Author{1}{Affiliation}#=%=#University of Sheffield
+
+==========

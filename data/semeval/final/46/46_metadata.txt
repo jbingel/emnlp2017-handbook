@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#46
+FinalPaperTitle#=%=#IOA: Improving SVM Based Sentiment Classification Through Post Processing
+ShortPaperTitle#=%=#IOA: Improving SVM Based Sentiment Classification Through Post Processing
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper describes our systems for
+expression-level and message-level sentiment
+analysis – two subtasks of SemEval-2015
+Task 10 on sentiment analysis in Twitter. First
+we built two baseline systems for the two subtasks
+using SVM with a variety of features.
+Then we improved the systems through model
+iteration and probability-output weighting
+respectively. Our submissions are ranked the
+3rd and 2nd among eleven teams on the 2015
+test set and progress test set in subtask A and
+the 7th and 4th among 40 teams on the two
+test sets respectively in subtask B.
+Author{1}{Firstname}#=%=#Peijia
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#lipeijia@hccl.ioa.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Acoustics , Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Weiqun
+Author{2}{Lastname}#=%=#Xu
+Author{2}{Email}#=%=#xuweiqun@hccl.ioa.ac.cn
+Author{2}{Affiliation}#=%=#Institute of Acoustics, Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Chenglong
+Author{3}{Lastname}#=%=#Ma
+Author{3}{Email}#=%=#mangchenglong@hccl.ioa.ac.cn
+Author{3}{Affiliation}#=%=#Institute of Acoustics, Chinese Academy of Sciences
+Author{4}{Firstname}#=%=#Jia
+Author{4}{Lastname}#=%=#Sun
+Author{4}{Email}#=%=#sunjia@hccl.ioa.ac.cn
+Author{4}{Affiliation}#=%=#Institute of Acoustics, Chinese Academy of Sciences
+Author{5}{Firstname}#=%=#Yonghong
+Author{5}{Lastname}#=%=#Yan
+Author{5}{Email}#=%=#yanyonghong@hccl.ioa.ac.cn
+Author{5}{Affiliation}#=%=#Institute of Acoustics, Chinese Academy of Sciences
+
+==========

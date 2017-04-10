@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#56
+FinalPaperTitle#=%=#BluLab: Temporal Information Extraction for the 2015 Clinical TempEval Challenge
+ShortPaperTitle#=%=#BluLab: Temporal Information Extraction for the 2015 Clinical TempEval Challenge
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Sumithra Velupillai
+JobTitle#==#
+Organization#==#Dept. of Computer and Systems Sciences (DSV)
+Stockholm University
+Postbox 7003
+164 07 Kista
+Sweden
+Abstract#==#The 2015 Clinical TempEval Challenge addressed the problem of temporal
+reasoning in the clinical domain by providing an annotated corpus of pathology
+and clinical notes related to colon cancer patients. The challenge consisted of
+six subtasks: TIMEX3 and event span detection, TIMEX3 and event attribute
+classification, document relation time and narrative container relation
+classification. Our BluLab team participated in all six subtasks. For the
+TIMEX3 and event subtasks, we developed a ClearTK support vector machine
+pipeline using mainly simple lexical features along with information from
+rule-based systems. For the relation subtasks, we employed a conditional random
+fields classification approach, with input from a rule-based system for the
+narrative container relation subtask. Our team ranked first for all TIMEX3 and
+event subtasks, as well as for the document relation subtask.
+Author{1}{Firstname}#=%=#Sumithra
+Author{1}{Lastname}#=%=#Velupillai
+Author{1}{Email}#=%=#sumithra@dsv.su.se
+Author{1}{Affiliation}#=%=#Dept. of Computer and Systems Sciences, Stockholm University
+Author{2}{Firstname}#=%=#Danielle L
+Author{2}{Lastname}#=%=#Mowery
+Author{2}{Email}#=%=#daniellemowery@gmail.com
+Author{2}{Affiliation}#=%=#Department of Biomedical Informatics, University of Utah
+Author{3}{Firstname}#=%=#Samir
+Author{3}{Lastname}#=%=#Abdelrahman
+Author{3}{Email}#=%=#samir.abdelrahman@utah.edu
+Author{3}{Affiliation}#=%=#Associate Professor
+Author{4}{Firstname}#=%=#Lee
+Author{4}{Lastname}#=%=#Christensen
+Author{4}{Email}#=%=#leenlp@q.com
+Author{4}{Affiliation}#=%=#Department of Biomedical Informatics, University of Utah
+Author{5}{Firstname}#=%=#Wendy
+Author{5}{Lastname}#=%=#Chapman
+Author{5}{Email}#=%=#wendy.chapman@utah.edu
+Author{5}{Affiliation}#=%=#
+
+==========

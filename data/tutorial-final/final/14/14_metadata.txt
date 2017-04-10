@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Hands-on Learning to Search for Structured Prediction
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#This tutorial has precisely one goal: an attendee should leave the tutorial
+with hands on experience writing small programs to perform structured
+prediction for a variety of tasks, like sequence labeling, dependency parsing
+and, time-permitting, more.
+Author{1}{Firstname}#=%=#Hal
+Author{1}{Lastname}#=%=#Daumé III
+Author{1}{Email}#=%=#me@hal3.name
+Author{1}{Affiliation}#=%=#UMD
+Author{2}{Firstname}#=%=#John
+Author{2}{Lastname}#=%=#Langford
+Author{2}{Email}#=%=#jl@hunch.net
+Author{2}{Affiliation}#=%=#MSR
+Author{3}{Firstname}#=%=#Kai-Wei
+Author{3}{Lastname}#=%=#Chang
+Author{3}{Email}#=%=#kchang10@uiuc.edu
+Author{3}{Affiliation}#=%=#University of Illinois
+Author{4}{Firstname}#=%=#He
+Author{4}{Lastname}#=%=#He
+Author{4}{Email}#=%=#hhe@cs.umd.edu
+Author{4}{Affiliation}#=%=#University of Maryland, College Park
+Author{5}{Firstname}#=%=#Sudha
+Author{5}{Lastname}#=%=#Rao
+Author{5}{Email}#=%=#raosudha@cs.umd.edu
+Author{5}{Affiliation}#=%=#University Of Maryland, College Park
+
+==========

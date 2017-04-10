@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#65
+FinalPaperTitle#=%=#Extending a Single-Document Summarizer to Multi-Document: a Hierarchical Approach
+ShortPaperTitle#=%=#Extending a Single-Document Summarizer to Multi-Document: a Hierarchical Approach
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Luís Marujo
+JobTitle#==#
+Organization#==#INESC-ID Lisboa
+Rua Alves Redol, 9, 1000-029 Lisboa, Portugal
+Abstract#==#The increasing amount of online content motivated the development of
+multi-document summarization methods. In this work, we explore straightforward
+approaches to extend 
+single-document summarization methods to multi-document summarization. The
+proposed methods are based on the hierarchical combination of single-document
+summaries, and achieves state of the art results.
+Author{1}{Firstname}#=%=#Luis
+Author{1}{Lastname}#=%=#Marujo
+Author{1}{Email}#=%=#lmarujo@cs.cmu.edu
+Author{1}{Affiliation}#=%=#LTI/CMU and INESC-ID/IST
+Author{2}{Firstname}#=%=#Ricardo
+Author{2}{Lastname}#=%=#Ribeiro
+Author{2}{Email}#=%=#ricardo.ribeiro@inesc-id.pt
+Author{2}{Affiliation}#=%=#ISCTE-IUL and INESC-ID
+Author{3}{Firstname}#=%=#David
+Author{3}{Lastname}#=%=#Martins de Matos
+Author{3}{Email}#=%=#david.matos@l2f.inesc-id.pt
+Author{3}{Affiliation}#=%=#INESC ID Lisboa, Instituto Superior Técnico, Universidade de Lisboa
+Author{4}{Firstname}#=%=#João
+Author{4}{Lastname}#=%=#Neto
+Author{4}{Email}#=%=#joao.neto@inesc-id.pt
+Author{4}{Affiliation}#=%=#L2F/INESC-ID/IST
+Author{5}{Firstname}#=%=#Anatole
+Author{5}{Lastname}#=%=#Gershman
+Author{5}{Email}#=%=#anatoleg@cs.cmu.edu
+Author{5}{Affiliation}#=%=#
+Author{6}{Firstname}#=%=#Jaime
+Author{6}{Lastname}#=%=#Carbonell
+Author{6}{Email}#=%=#jgc@cs.cmu.edu
+Author{6}{Affiliation}#=%=#
+
+==========

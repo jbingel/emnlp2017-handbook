@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#353
+FinalPaperTitle#=%=#Not All Character N-grams Are Created Equal: A Study in Authorship Attribution
+ShortPaperTitle#=%=#Not All Character N-grams Are Created Equal: A Study in Authorship Attribution
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Upendra Sapkota
+JobTitle#==#
+Organization#==#University of Alabama At Birmingham
+Birmingham, Alabama, 35205, USA
+Abstract#==#Character n-grams have been identified as the most successful feature in both
+single-domain and cross-domain Authorship Attribution (AA), but the reasons for
+their discriminative value were not fully understood. We identify subgroups of
+character n-grams that correspond to linguistic aspects commonly claimed to be
+covered by these features: morpho-syntax, thematic content and style. We
+evaluate the predictiveness of each of these groups in two AA settings: a
+single domain setting and a cross-domain setting where multiple topics are
+present. We demonstrate that character $n$-grams that capture information about
+affixes and punctuation account for almost all of the power of character
+n-grams as features. Our study contributes new insights into the use of n-grams
+for future AA work and other classification tasks.
+Author{1}{Firstname}#=%=#Upendra
+Author{1}{Lastname}#=%=#Sapkota
+Author{1}{Email}#=%=#upendra@cis.uab.edu
+Author{1}{Affiliation}#=%=#University of Alabama at Birmingham
+Author{2}{Firstname}#=%=#Steven
+Author{2}{Lastname}#=%=#Bethard
+Author{2}{Email}#=%=#bethard@cis.uab.edu
+Author{2}{Affiliation}#=%=#University of Alabama at Birmingham
+Author{3}{Firstname}#=%=#Manuel
+Author{3}{Lastname}#=%=#Montes
+Author{3}{Email}#=%=#mmontesg@inaoep.mx
+Author{3}{Affiliation}#=%=#INAOE
+Author{4}{Firstname}#=%=#Thamar
+Author{4}{Lastname}#=%=#Solorio
+Author{4}{Email}#=%=#solorio@cs.uh.edu
+Author{4}{Affiliation}#=%=#UH
+
+==========

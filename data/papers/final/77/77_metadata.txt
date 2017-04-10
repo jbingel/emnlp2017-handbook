@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#77
+FinalPaperTitle#=%=#Context-Dependent Automatic Response Generation Using Statistical Machine Translation Techniques
+ShortPaperTitle#=%=#Context-Dependent Automatic Response Generation Using Statistical Machine Translation Techniques
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Andrew Shin
+JobTitle#==#
+Organization#==#Tokyo Institute of Technology
+R2-720 Precision and Intelligence Lab, Tokyo Institute of Technology, 4259 Nagatsuta Midori-ku Yokohama, Japan
+Abstract#==#Developing a system that can automatically respond to a user's utterance has
+recently become a topic of research in natural language processing. However,
+most works on the topic take into account only a single preceding utterance to
+generate a response. Recent works demonstrate that the application of
+statistical machine translation (SMT) techniques towards monolingual dialogue
+setting, in which a response is treated as a translation of a stimulus, has a
+great potential, and we exploit the approach to tackle the context-dependent
+response generation task. We attempt to extract relevant and significant
+information from the wider contextual scope of the conversation, and
+incorporate it into the SMT techniques. We also discuss the advantages and
+limitations of this approach through our experimental results.
+Author{1}{Firstname}#=%=#Andrew
+Author{1}{Lastname}#=%=#Shin
+Author{1}{Email}#=%=#ravenyj@hotmail.com
+Author{1}{Affiliation}#=%=#Tokyo Institute of Technology
+Author{2}{Firstname}#=%=#Ryohei
+Author{2}{Lastname}#=%=#Sasano
+Author{2}{Email}#=%=#sasano@pi.titech.ac.jp
+Author{2}{Affiliation}#=%=#Tokyo Institute of Technology
+Author{3}{Firstname}#=%=#Hiroya
+Author{3}{Lastname}#=%=#Takamura
+Author{3}{Email}#=%=#takamura@pi.titech.ac.jp
+Author{3}{Affiliation}#=%=#Tokyo Institute of Technology
+Author{4}{Firstname}#=%=#Manabu
+Author{4}{Lastname}#=%=#Okumura
+Author{4}{Email}#=%=#oku@pi.titech.ac.jp
+Author{4}{Affiliation}#=%=#Tokyo Institute of Technology
+
+==========

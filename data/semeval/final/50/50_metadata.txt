@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#50
+FinalPaperTitle#=%=#UQeResearch: Semantic Textual Similarity Quantification
+ShortPaperTitle#=%=#Semantic Similarity Quantification
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Hamed Hassanzadeh
+JobTitle#==#
+Organization#==#The University of Queensland, St Lucia, QLD, Australia
+Abstract#==#This paper presents an approach for estimating the Semantic Textual Similarity
+of full English sentences as specified in Shared Task 2 of SemEval-2015. The
+semantic similarity of sentence pairs is quantified from three perspectives
+structural, syntactical, and semantic. The numerical representations of the
+derived similarity measures are then applied to train a regression ensemble.
+Although none of these three sets of measures is able to rep-resent the
+semantic similarity of two sentences individually, our experimental results
+show that the combination of these features can precisely assess the semantic
+similarity of the sentences. In the English subtask our system’s best result
+ranked 35 among 73 system runs with 0.7189 average Pearson correlation over
+five test sets. This was 0.08 correlation points less than the best submitted
+run.
+Author{1}{Firstname}#=%=#Hamed
+Author{1}{Lastname}#=%=#Hassanzadeh
+Author{1}{Email}#=%=#h.hassanzadeh@uq.edu.au
+Author{1}{Affiliation}#=%=#School of ITEE, The University of Queensland, St Lucia, QLD, Australia
+Author{2}{Firstname}#=%=#Tudor
+Author{2}{Lastname}#=%=#Groza
+Author{2}{Email}#=%=#t.groza@garvan.org.au
+Author{2}{Affiliation}#=%=#Garvan Institute of Medical Research, Darlinghurst, NSW, Australia
+Author{3}{Firstname}#=%=#Anthony
+Author{3}{Lastname}#=%=#Nguyen
+Author{3}{Email}#=%=#anthony.nguyen@csiro.au
+Author{3}{Affiliation}#=%=#Australian e-Health  Research Centre, CSIRO, Brisbane, QLD, Australia
+Author{4}{Firstname}#=%=#Jane
+Author{4}{Lastname}#=%=#Hunter
+Author{4}{Email}#=%=#jane@itee.uq.edu.au
+Author{4}{Affiliation}#=%=#School of ITEE, The University of Queensland, St Lucia, QLD, Australia
+
+==========

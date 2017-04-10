@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#LLT-PolyU: Identifying Sentiment Intensity in Ironic Tweets
+ShortPaperTitle#=%=#LLT-PolyU: Identifying Sentiment Intensity in Ironic Tweets
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Hongzhi Xu
+JobTitle#==#
+Organization#==#The Department of Chinese and Bilingual Studies, The Hong Kong Polytechnic University
+Abstract#==#In this paper, we describe the system we built for Task 11 of SemEval2015,
+which aims at identifying the sentiment intensity of figurative language in
+tweets. We use various features, including those specially concerned with the
+identification of irony and sarcasm. The features are evaluated through a
+decision tree regression model and a support vector regression model. The
+experiment result of the five-cross validation on the training data shows that
+the tree regression model outperforms the support vector regression model. The
+former is therefore used for the final evaluation of the task. The results show
+that our model performs especially well in predicting the sentiment intensity
+of tweets involving irony and sarcasm.
+Author{1}{Firstname}#=%=#Hongzhi
+Author{1}{Lastname}#=%=#Xu
+Author{1}{Email}#=%=#hongz.xu@gmail.com
+Author{1}{Affiliation}#=%=#The Hong Kong Polytechnic University
+Author{2}{Firstname}#=%=#Enrico
+Author{2}{Lastname}#=%=#Santus
+Author{2}{Email}#=%=#e.santus@connect.polyu.hk
+Author{2}{Affiliation}#=%=#The Hong Kong Polytechnic University
+Author{3}{Firstname}#=%=#Anna
+Author{3}{Lastname}#=%=#Laszlo
+Author{3}{Email}#=%=#mandarin1985@yahoo.de
+Author{3}{Affiliation}#=%=#The Hong Kong Polytechnic University
+Author{4}{Firstname}#=%=#Chu-Ren
+Author{4}{Lastname}#=%=#Huang
+Author{4}{Email}#=%=#churen.huang@polyu.edu.hk
+Author{4}{Affiliation}#=%=#The Hong Kong Polytechnic Universiy
+
+==========

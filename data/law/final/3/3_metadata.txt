@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Annotating Geographical Entities on Microblog Text
+ShortPaperTitle#=%=#Annotating Geographical Entities on Microblog Text
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Koji Matsuda
+JobTitle#==#
+Organization#==#Tohoku University
+6-6-05 Aramakiaza-Aoba, Aoba-ku, Sendai, 980-8579, Japan
+Abstract#==#This paper presents a discussion of the problems surrounding the task of
+annotating geographical entities on microblogs and reports the preliminary
+results of our efforts to annotate Japanese microblog texts. Unlike prior work,
+we not only annotate  geographical location entities but also facility
+entities, such as stations, restaurants, shopping stores, hospitals and
+schools.
+We discuss ways in which to build a gazetteer, the types of ambiguities that
+need to be considered, reasons why the annotator  tends to disagree, and the
+problems that need to be solved to automate the task of annotating the
+geographical entities. All the annotation data and the annotation guidelines
+are publicly available for research purposes from our web site.
+Author{1}{Firstname}#=%=#Koji
+Author{1}{Lastname}#=%=#Matsuda
+Author{1}{Email}#=%=#matsuda@ecei.tohoku.ac.jp
+Author{1}{Affiliation}#=%=#Tohoku University
+Author{2}{Firstname}#=%=#Akira
+Author{2}{Lastname}#=%=#Sasaki
+Author{2}{Email}#=%=#aki-s@ecei.tohoku.ac.jp
+Author{2}{Affiliation}#=%=#Tohoku University
+Author{3}{Firstname}#=%=#Naoaki
+Author{3}{Lastname}#=%=#Okazaki
+Author{3}{Email}#=%=#okazaki@ecei.tohoku.ac.jp
+Author{3}{Affiliation}#=%=#Tohoku University
+Author{4}{Firstname}#=%=#Kentaro
+Author{4}{Lastname}#=%=#Inui
+Author{4}{Email}#=%=#inui@ecei.tohoku.ac.jp
+Author{4}{Affiliation}#=%=#Tohoku University
+
+==========

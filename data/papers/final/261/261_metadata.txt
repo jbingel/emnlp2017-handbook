@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#261
+FinalPaperTitle#=%=#A Bayesian Model for Joint Learning of Categories and their Features
+ShortPaperTitle#=%=#A Bayesian Model for Joint Learning of Categories and their Features
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Lea Frermann
+JobTitle#==#
+Organization#==#University of Edinburgh, School of Informatics, 10 Crichton Street, Edinburgh, Midlothian EH8 9AB
+Abstract#==#Categories such as ANIMAL or FURNITURE
+are acquired at an early age and play an important role in processing,
+organizing, and conveying world knowledge. Theories of categorization largely
+agree that categories are
+characterized by features such as function
+or appearance and that feature and category
+acquisition go hand-in-hand, however previous work has considered these
+problems in
+isolation. We present the first model that
+jointly learns categories and their features.
+The set of features is shared across categories,
+and strength of association is inferred in a
+Bayesian framework. We approximate the
+learning environment with natural language
+text which allows us to evaluate performance
+on a large scale. Compared to highly engineered pattern-based approaches, our
+model
+is cognitively motivated, knowledge-lean, and
+learns categories and features which are perceived by humans as more
+meaningful.
+Author{1}{Firstname}#=%=#Lea
+Author{1}{Lastname}#=%=#Frermann
+Author{1}{Email}#=%=#l.frermann@sms.ed.ac.uk
+Author{1}{Affiliation}#=%=#School of Informatics, University of Edinburgh
+Author{2}{Firstname}#=%=#Mirella
+Author{2}{Lastname}#=%=#Lapata
+Author{2}{Email}#=%=#mlap@inf.ed.ac.uk
+Author{2}{Affiliation}#=%=#School of Informatics, University of Edinburgh
+
+==========

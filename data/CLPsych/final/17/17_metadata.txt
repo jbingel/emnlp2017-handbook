@@ -1,0 +1,55 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#The role of personality, age, and gender in tweeting about mental illness
+ShortPaperTitle#=%=#The role of personality, age, and gender in tweeting about mental illness
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#DPP
+JobTitle#==#
+Organization#==#
+Abstract#==#Mental illnesses, such as depression and post traumatic stress disorder (PTSD),
+are highly underdiagnosed globally. Populations sharing similar demographics
+and personality traits are known to be more at risk than others. In this study,
+we characterise the language use of users disclosing their mental illness on
+Twitter. Language-derived personality and demographic estimates show
+surprisingly strong performance in distinguishing  users that tweet a diagnosis
+of depression or PTSD from random controls, reaching an area under the
+receiver-operating characteristic curve -- AUC -- of around .8 in all our
+binary classification tasks. In fact, when distinguishing users disclosing
+depression from those disclosing PTSD, the single feature of estimated age
+shows nearly as strong performance (AUC = .806) as using thousands of topics
+(AUC =.819) or tens of thousands of n-grams (AUC =.812). We also find that
+differential language analyses, controlled for demographics, recover many
+symptoms associated with the mental illnesses in the clinical literature.
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Preoţiuc-Pietro
+Author{1}{Email}#=%=#danielpr@gmail.com
+Author{1}{Affiliation}#=%=#University of Pennsylvania
+Author{2}{Firstname}#=%=#Johannes
+Author{2}{Lastname}#=%=#Eichstaedt
+Author{2}{Email}#=%=#johannes.eichstaedt@gmail.com
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+Author{3}{Firstname}#=%=#Gregory
+Author{3}{Lastname}#=%=#Park
+Author{3}{Email}#=%=#gregoryjpark@gmail.com
+Author{3}{Affiliation}#=%=#University of Pennsylvania
+Author{4}{Firstname}#=%=#Maarten
+Author{4}{Lastname}#=%=#Sap
+Author{4}{Email}#=%=#maarten@sas.upenn.edu
+Author{4}{Affiliation}#=%=#University of Pennsylvania
+Author{5}{Firstname}#=%=#Laura
+Author{5}{Lastname}#=%=#Smith
+Author{5}{Email}#=%=#lksmith223@gmail.com
+Author{5}{Affiliation}#=%=#University of Pennsylvania
+Author{6}{Firstname}#=%=#Victoria
+Author{6}{Lastname}#=%=#Tobolsky
+Author{6}{Email}#=%=#victoria.tobolsky@gmail.com
+Author{6}{Affiliation}#=%=#University of Pennsylvania
+Author{7}{Firstname}#=%=#H. Andrew
+Author{7}{Lastname}#=%=#Schwartz
+Author{7}{Email}#=%=#hansens@seas.upenn.edu
+Author{7}{Affiliation}#=%=#University of Pennsylvania
+Author{8}{Firstname}#=%=#Lyle
+Author{8}{Lastname}#=%=#Ungar
+Author{8}{Email}#=%=#ungar@cis.upenn.edu
+Author{8}{Affiliation}#=%=#University of Pennsylvania
+
+==========

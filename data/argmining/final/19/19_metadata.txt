@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Argument Discovery and Extraction with the Argument Workbench
+ShortPaperTitle#=%=#Argument Discovery and Extraction with the Argument Workbench
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Adam Wyner
+JobTitle#==#Lecturer
+Organization#==#Department of Computing Science, University of Aberdeen, Meston Building, Meston Walk, Aberdeen, AB24 3UE, UK
+Abstract#==#The paper discusses the architecture and development of an Argument Workbench,
+which is a interactive, integrated, modular tool set to extract, reconstruct,
+and visualise arguments.  We consider a corpora with dispersed information
+across texts, making it essential to conceptually search for argument elements,
+topics, and terminology.  The Argument Workbench is a processing cascade,
+developed in collaboration with DebateGraph.  The tool supports an argument
+engineer to reconstruct arguments from textual sources, using information
+processed at one stage as input to a subsequent stage of analysis, and then
+building an argument graph.  We harvest and pre-process comments; highlight
+argument indicators, speech act and epistemic terminology; model topics; and
+identify domain terminology.  We use conceptual semantic search over the corpus
+to extract sentences relative to argument and domain terminology.  The argument
+engineer uses the extracts for the construction of arguments in DebateGraph.
+Author{1}{Firstname}#=%=#Adam
+Author{1}{Lastname}#=%=#Wyner
+Author{1}{Email}#=%=#azwyner@abdn.ac.uk
+Author{1}{Affiliation}#=%=#University of Aberdeen
+Author{2}{Firstname}#=%=#Wim
+Author{2}{Lastname}#=%=#Peters
+Author{2}{Email}#=%=#w.peters@dcs.shef.ac.uk
+Author{2}{Affiliation}#=%=#University of Sheffield
+Author{3}{Firstname}#=%=#David
+Author{3}{Lastname}#=%=#Price
+Author{3}{Email}#=%=#david@debategraph.org
+Author{3}{Affiliation}#=%=#DebateGraph
+
+==========

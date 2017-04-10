@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Opposition Relations among Verb Frames
+ShortPaperTitle#=%=#Opposition Relations among Verb Frames
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Anna Feltracco
+JobTitle#==#PhD Student
+Organization#==#Fondazione Bruno Kessler,
+via Sommarive 18
+Povo-Trento, Italy
+Abstract#==#In this paper we propose a scheme for annotating opposition relations among
+verb frames in lexical resources. The scheme is tested on the T-PAS resource,
+an inventory of typed predicate argument structures for Italian, conceived for
+both linguistic research and computational tasks. After discussing opposition
+relations from a linguistic point of view and listing the tags we decided to
+use, we report the results of the experiment we performed to test the
+annotation scheme, in terms of interannotation agreement and linguistic
+analysis of annotated data.
+Author{1}{Firstname}#=%=#Anna
+Author{1}{Lastname}#=%=#Feltracco
+Author{1}{Email}#=%=#anna.feltracco@gmail.com
+Author{1}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{2}{Firstname}#=%=#Elisabetta
+Author{2}{Lastname}#=%=#Jezek
+Author{2}{Email}#=%=#jezek@unipv.it
+Author{2}{Affiliation}#=%=#Università di Pavia
+Author{3}{Firstname}#=%=#Bernardo
+Author{3}{Lastname}#=%=#Magnini
+Author{3}{Email}#=%=#magnini@fbk.eu
+Author{3}{Affiliation}#=%=#FBK
+
+==========

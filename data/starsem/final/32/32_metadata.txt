@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#32
+FinalPaperTitle#=%=#Reading Between the Lines: Overcoming Data Sparsity for Accurate Classification of Lexical Relationships
+ShortPaperTitle#=%=#Overcoming Data Sparsity for Accurate Classification of Lexical Relationships
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Silvia Necsulescu
+JobTitle#==#
+Organization#==#
+Abstract#==#The lexical semantic relationships between word pairs are key features for many
+NLP tasks.  Most approaches for automatically classifying related word pairs
+are hindered by data sparsity because of their need to observe two words
+co-occurring for detecting the lexical relation holding between them. Even when
+mining very large corpora, not every related word pair co-occurs.  Using novel
+representations based on graphs and word embeddings, we present two systems
+that are able to predict relations between words, even those never found in the
+same
+sentence in a given corpus.  In two experiments, we demonstrate superior
+performance of both approaches over the state of the art, achieving significant
+gains in recall.
+Author{1}{Firstname}#=%=#Silvia
+Author{1}{Lastname}#=%=#Necsulescu
+Author{1}{Email}#=%=#silvia.necsulescu@upf.edu
+Author{1}{Affiliation}#=%=#Università Pompeu Fabra
+Author{2}{Firstname}#=%=#Sara
+Author{2}{Lastname}#=%=#Mendes
+Author{2}{Email}#=%=#sara.mendes@clul.ul.pt
+Author{2}{Affiliation}#=%=#Centro de Linguística da Universidade de Lisboa
+Author{3}{Firstname}#=%=#David
+Author{3}{Lastname}#=%=#Jurgens
+Author{3}{Email}#=%=#jurgens@cs.mcgill.ca
+Author{3}{Affiliation}#=%=#McGill University
+Author{4}{Firstname}#=%=#Núria
+Author{4}{Lastname}#=%=#Bel
+Author{4}{Email}#=%=#nuria.bel@upf.edu
+Author{4}{Affiliation}#=%=#Universitat Pompeu Fabra
+Author{5}{Firstname}#=%=#Roberto
+Author{5}{Lastname}#=%=#Navigli
+Author{5}{Email}#=%=#navigli@di.uniroma1.it
+Author{5}{Affiliation}#=%=#Sapienza University of Rome
+
+==========

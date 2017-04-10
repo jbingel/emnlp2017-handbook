@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Distributional Representations of Words for Short Text Classification
+ShortPaperTitle#=%=#Distributional Representations of Words for Short Text Classification
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Chenglong Ma
+JobTitle#==#
+Organization#==#The Key Laboratory of Speech Acoustics and Content Understanding
+Institute of Acoustics, Chinese Academy of Sciences
+No. 21 North 4th Ring West Road, Haidian District, 100190 Beijing, China
+Abstract#==#Traditional supervised learning approaches to common NLP tasks depend heavily
+on manual annotation, which is labor intensive and time consuming, and often
+suffer from data sparseness. In this paper we show how to mitigate the problems
+in short text classification (STC) through word embeddings – distributional
+representations of words learned from large unlabeled data. The word embeddings
+are trained from the entire English Wikipedia text. We assume that a short text
+document is a specific sample of one distribution in a Bayesian framework. A
+Gaussian process approach is used to model the distribution of words. The task
+of classification becomes a simple problem of selecting the most probable
+Gaussian distribution. This approach is compared with those based on the
+classical maximum entropy (MaxEnt) model and the Latent Dirichlet Allocation
+(LDA) approach. Our approach achieved better performance and also showed
+advantages in dealing with unseen words.
+Author{1}{Firstname}#=%=#Chenglong
+Author{1}{Lastname}#=%=#Ma
+Author{1}{Email}#=%=#machenglong@hccl.ioa.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Acoustics, Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Weiqun
+Author{2}{Lastname}#=%=#Xu
+Author{2}{Email}#=%=#xuweiqun@hccl.ioa.ac.cn
+Author{2}{Affiliation}#=%=#Institute of Acoustics, Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Peijia
+Author{3}{Lastname}#=%=#Li
+Author{3}{Email}#=%=#lipeijia@hccl.ioa.ac.cn
+Author{3}{Affiliation}#=%=#Institute of Acoustics , Chinese Academy of Sciences
+Author{4}{Firstname}#=%=#Yonghong
+Author{4}{Lastname}#=%=#Yan
+Author{4}{Email}#=%=#yonghong.yan@hccl.ioa.ac.cn
+Author{4}{Affiliation}#=%=#Chineses Academy of Sciences
+
+==========

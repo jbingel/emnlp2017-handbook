@@ -1,0 +1,51 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#A Corpus of Rich Metaphor Annotation
+ShortPaperTitle#=%=#A Corpus of Rich Metaphor Annotation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jonathan Gordon
+JobTitle#==#
+Organization#==#USC Information Sciences Institute
+4676 Admiralty Way #1001, Marina Del Rey, CA 90292
+Abstract#==#Metaphor is a central phenomenon of language, and thus a central problem for
+natural language understanding. Previous work on the analysis of metaphors has
+identified which target concepts are being thought of and described in terms of
+which source concepts, but this is not adequate to explain what motivates the
+use of particular metaphors. This work proposes the use of conceptual schemas
+to represent the underspecified scenarios that motivate a metaphoric mapping.
+To support the creation of systems that can understand metaphors in this way,
+we have created and are publicly releasing a corpus of manually validated
+metaphor annotations.
+Author{1}{Firstname}#=%=#Jonathan
+Author{1}{Lastname}#=%=#Gordon
+Author{1}{Email}#=%=#jgordon@isi.edu
+Author{1}{Affiliation}#=%=#USC Information Sciences Institute
+Author{2}{Firstname}#=%=#Jerry
+Author{2}{Lastname}#=%=#Hobbs
+Author{2}{Email}#=%=#hobbs@isi.edu
+Author{2}{Affiliation}#=%=#USC ISI
+Author{3}{Firstname}#=%=#Jonathan
+Author{3}{Lastname}#=%=#May
+Author{3}{Email}#=%=#jonmay@gmail.com
+Author{3}{Affiliation}#=%=#USC Information Sciences Institute
+Author{4}{Firstname}#=%=#Michael
+Author{4}{Lastname}#=%=#Mohler
+Author{4}{Email}#=%=#michael@languagecomputer.com
+Author{4}{Affiliation}#=%=#Language Computer Corp.
+Author{5}{Firstname}#=%=#Fabrizio
+Author{5}{Lastname}#=%=#Morbini
+Author{5}{Email}#=%=#morbini@ict.usc.edu
+Author{5}{Affiliation}#=%=#USC ICT
+Author{6}{Firstname}#=%=#Bryan
+Author{6}{Lastname}#=%=#Rink
+Author{6}{Email}#=%=#bryan@languagecomputer.com
+Author{6}{Affiliation}#=%=#
+Author{7}{Firstname}#=%=#Marc
+Author{7}{Lastname}#=%=#Tomlinson
+Author{7}{Email}#=%=#marc@languagecomputer.com
+Author{7}{Affiliation}#=%=#Language Computer
+Author{8}{Firstname}#=%=#Suzanne
+Author{8}{Lastname}#=%=#Wertheim
+Author{8}{Email}#=%=#worthwhileresearch@gmail.com
+Author{8}{Affiliation}#=%=#
+
+==========

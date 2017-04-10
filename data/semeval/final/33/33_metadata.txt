@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#33
+FinalPaperTitle#=%=#SemEval-2015 Task 6: Clinical TempEval
+ShortPaperTitle#=%=#SemEval-2015 Task 6: Clinical TempEval
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Steven Bethard
+JobTitle#==#
+Organization#==#University of Alabama at Birmingham
+Birmingham, AL 35294, USA
+Abstract#==#Clinical TempEval 2015 brought the temporal information extraction tasks of
+past TempEval campaigns to the clinical domain. Nine sub-tasks were included,
+covering problems in time expression identification, event expression
+identification and temporal relation identification. Participant systems were
+trained and evaluated on a corpus of clinical notes and pathology reports from
+the Mayo Clinic, annotated with an extension of TimeML for the clinical domain.
+Three teams submitted a total of 13 system runs, with the best systems
+achieving near-human performance on identifying events and times, but with a
+large performance gap still remaining for temporal relations.
+Author{1}{Firstname}#=%=#Steven
+Author{1}{Lastname}#=%=#Bethard
+Author{1}{Email}#=%=#bethard@cis.uab.edu
+Author{1}{Affiliation}#=%=#University of Alabama at Birmingham
+Author{2}{Firstname}#=%=#Leon
+Author{2}{Lastname}#=%=#Derczynski
+Author{2}{Email}#=%=#leon@dcs.shef.ac.uk
+Author{2}{Affiliation}#=%=#University of Sheffield
+Author{3}{Firstname}#=%=#Guergana
+Author{3}{Lastname}#=%=#Savova
+Author{3}{Email}#=%=#guergana.savova@childrens.harvard.edu
+Author{3}{Affiliation}#=%=#Harvard
+Author{4}{Firstname}#=%=#James
+Author{4}{Lastname}#=%=#Pustejovsky
+Author{4}{Email}#=%=#jamesp@cs.brandeis.edu
+Author{4}{Affiliation}#=%=#Brandeis University
+Author{5}{Firstname}#=%=#Marc
+Author{5}{Lastname}#=%=#Verhagen
+Author{5}{Email}#=%=#marc@cs.brandeis.edu
+Author{5}{Affiliation}#=%=#Brandeis University
+
+==========

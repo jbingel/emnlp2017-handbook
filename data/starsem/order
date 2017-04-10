@@ -1,0 +1,57 @@
+* Thursday, June 4, 2015
+= 08:50--10:30 Block 1 - Distributional semantics
++ 08:50--09:00 Welcome
+! 09:00--10:00 Playing ficles and running with the corbons: What (multimodal) distributional semantic models learn during their childhood %by Joint *SEM and SemEval keynote by Marco Baroni
+63 10:00--10:30  # Neural Networks for Integrating Compositional and Non-compositional Sentiment in Sentiment Composition
++ 10:30--11:00 Coffee break
+= 11:00--12:30 Block 2 - Distributional semantics
+69 11:00--11:30  # Compositional Distributional Semantics with Long Short Term Memory
+41 11:30--12:00  # A Hybrid Distributional and Knowledge-based Model of Lexical Semantics
+51 12:00--12:30  # Distributional semantics for ontology verification
++ 12:30--14:00 Lunch break
+= 14:00--15:30 Block 3 - Lexical semantics
+25 14:00--14:30  # Combining Seemingly Incompatible Corpora for Implicit Semantic Role Labeling
+87 14:30--15:00  # Identification of Caused Motion Construction
+81 15:00--15:30  # A Methodology for Word Sense Disambiguation at 90\% based on large-scale CrowdSourcing
++ 15:30--16:00 Coffee break
+= 16:00--17:00 Block 4 - Extra-propositional semantics
+60 16:00--16:30  # Learning Structures of Negations from Flat Annotations
+61 16:30--17:00  # A New Dataset and Evaluation for Belief/Factuality
+= 17:00--19:00 Poster session with lightning talks intro
+79   # Non-Orthogonal Explicit Semantic Analysis
+82   # Combining Mention Context and Hyperlinks from Wikipedia for Named Entity Disambiguation
+89   # Collective Document Classification with Implicit Inter-document Semantic Relationships
+38   # SGRank: Combining Statistical and Graphical Methods to Improve the State of the Art in Unsupervised Keyphrase Extraction
+31   # Towards Semantic Language Classification: Inducing and Clustering Semantic Association Networks from Europarl
+75   # Ideological Perspective Detection Using Semantic Features
+43   # Mapping Different Rhetorical Relation Annotations: A Proposal
+35   # Dissecting the Practical Lexical Function Model for Compositional Distributional Semantics
+53   # Event Extraction as Frame-Semantic Parsing
+33   # Competence in lexical semantics
+65   # Extending a Single-Document Summarizer to Multi-Document: a Hierarchical Approach
+32   # Reading Between the Lines: Overcoming Data Sparsity for Accurate Classification of Lexical Relationships
+30   # Multi-Level Alignments As An Extensible Representation Basis for Textual Entailment Algorithms
+7   # Leveraging Preposition Ambiguity to Assess Compositional Distributional Models of Semantics
+94   # Learning to predict script events from domain-specific text
+98   # Combining Open Source Annotators for Entity Linking through Weighted Voting
+62   # Automatic Generation of a Lexical Resource to support Semantic Role Labeling in Portuguese
+70   # Can Selectional Preferences Help Automatic Semantic Role Labeling?
+* Friday, June 5, 2015
+= 09:00--10:30 Block 1 - Semantics for applications
+! 09:00--10:00 60 Years Ago People Dreamed of Talking with a Machine. Are We Any Closer? %by Keynote by Preslav Nakov
+84 10:00--10:30  # Implicit Entity Recognition in Clinical Documents
++ 10:30--11:00 Coffee break
+= 11:00--12:00 Block 2 - Semantics for applications; Lexical resources and ontologies
+3 11:00--11:30  # A Distant Supervision Approach to Semantic Role Labeling
+44 11:30--12:00  # Discovering Hypernymy Relations using Text Layout
++ 12:00--13:30 Lunch break
+= 13:30--15:00 Block 3 - Formal semantics
+29 13:30--14:00  # The complexity of finding the maximum spanning DAG and other restrictions for DAG parsing of natural language
+50 14:00--14:30  # Incremental Semantic Construction Using Normal Form CCG Derivation
+83 14:30--15:00  # Dependency-Based Semantic Role Labeling using Convolutional Neural Networks
++ 15:00--15:30 Coffee break
+= 15:30--17:00 Block 4 - Discourse semantics
+15 15:30--16:00  # A State-of-the-Art Mention-Pair Model for Coreference Resolution
+42 16:00--16:30  # Resolving Discourse-Deictic Pronouns: A Two-Stage Approach to Do It
+55 16:30--17:00  # Graph-based Coherence Modeling For Assessing Readability
+= 17:00 Best Paper Award and closing

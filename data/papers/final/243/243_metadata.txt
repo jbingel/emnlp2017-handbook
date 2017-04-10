@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#243
+FinalPaperTitle#=%=#Expanding Paraphrase Lexicons by Exploiting Lexical Variants
+ShortPaperTitle#=%=#Expanding Paraphrase Lexicons by Exploiting Lexical Variants
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Atsushi Fujita
+JobTitle#==#
+Organization#==#National Institute of Information and Communications Technology
+3-5 Hikaridai, Seika-cho, Soraku-gun, Kyoto, 619-0289, Japan
+Abstract#==#This study tackles the problem of paraphrase acquisition: achieving high
+coverage as well as accuracy.  Our method first induces paraphrase patterns
+from given seed paraphrases, exploiting the generality of paraphrases exhibited
+by pairs of lexical variants, e.g., ``amendment'' and ``amending,'' in a fully
+empirical way.                          It then searches monolingual corpora for new
+paraphrases
+that
+match the patterns.  This can extract paraphrases comprising words that are
+completely different from those of the given seeds.  In experiments, our method
+expanded seed sets by factors of 42 to 206, gaining 84% to 208% more coverage
+than a previous method that generalizes only identical word forms.  Human
+evaluation through a paraphrase substitution test demonstrated that the newly
+acquired paraphrases retained reasonable quality, given substantially
+high-quality seeds.
+Author{1}{Firstname}#=%=#Atsushi
+Author{1}{Lastname}#=%=#Fujita
+Author{1}{Email}#=%=#fujita@paraphrasing.org
+Author{1}{Affiliation}#=%=#National Institute of Information and Communications Technology
+Author{2}{Firstname}#=%=#Pierre
+Author{2}{Lastname}#=%=#Isabelle
+Author{2}{Email}#=%=#Pierre.Isabelle@nrc.ca
+Author{2}{Affiliation}#=%=#National Research Council Canada
+
+==========

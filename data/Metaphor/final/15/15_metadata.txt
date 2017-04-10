@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Exploring Sensorial Features for Metaphor Identification
+ShortPaperTitle#=%=#Exploring Sensorial Features for Metaphor Identification
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Serra Sinem Tekiroğlu
+JobTitle#==#
+Organization#==#University of Trento
+Fondazione Bruno Kessler
+Trento, Italy
+Abstract#==#Language is the main communication device to represent the environment and
+share a common              understanding of the world that we perceive through our
+sensory
+organs. Therefore, each language might contain a great amount of sensorial
+elements to express the perceptions both in literal and figurative usage. To
+tackle the semantics of figurative language, several conceptual properties such
+as concreteness or imegeability are utilized. However, there is no attempt in
+the literature to analyze and benefit from the sensorial elements for
+figurative language processing. In this paper, we investigate the impact of
+sensorial features on metaphor identification. We utilize an existing lexicon
+associating English words to sensorial modalities and propose a novel technique
+to automatically discover these associations from a dependency-parsed corpus.
+In our experiments, we measure the contribution of the sensorial features to
+the metaphor identification task with respect to a state of the art model. The
+results demonstrate that sensorial features yield better performance and show
+good generalization properties.
+Author{1}{Firstname}#=%=#Serra Sinem
+Author{1}{Lastname}#=%=#Tekiroglu
+Author{1}{Email}#=%=#tekiroglu@fbk.eu
+Author{1}{Affiliation}#=%=#University of Trento, Fondazione Bruno Kessler
+Author{2}{Firstname}#=%=#Gözde
+Author{2}{Lastname}#=%=#Özbal
+Author{2}{Email}#=%=#gozbalde@gmail.com
+Author{2}{Affiliation}#=%=#FBK-irst
+Author{3}{Firstname}#=%=#Carlo
+Author{3}{Lastname}#=%=#Strapparava
+Author{3}{Email}#=%=#strappa@fbk.eu
+Author{3}{Affiliation}#=%=#FBK-irst
+
+==========

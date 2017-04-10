@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#44
+FinalPaperTitle#=%=#ECNU: Leveraging Word Embeddings to Boost Performance for Paraphrase in Twitter
+ShortPaperTitle#=%=#ECNU: Leveraging Word Embeddings to Boost Performance for Paraphrase in Twitter
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Zhao Jiang
+JobTitle#==#
+Organization#==#East China Normal University, Shanghai 200241, P. R. China
+Abstract#==#This paper describes our approaches to paraphrase recognition in Twitter
+organized as task 1 in Semantic Evaluation 2015. Lots of approaches have been
+proposed to address the paraphrasing task on conventional texts (surveyed in 
+(Madnani and Dorr, 2010)). In this work we examined the effectiveness of
+various linguistic features proposed in traditional paraphrasing task on
+informal texts, (i.e., Twitter), for example, string based, corpus based, and
+syntactic features, which served as input of a classification algorithm.
+Besides, we also proposed novel features based on distributed word
+representations, which were learned using deep learning paradigms. Results on
+test dataset show that our proposed features improve the performance by a
+margin of 1.9% in terms of F1-score and our team ranks third among 10 teams
+with 38 systems.
+Author{1}{Firstname}#=%=#Jiang
+Author{1}{Lastname}#=%=#Zhao
+Author{1}{Email}#=%=#51121201042@ecnu.cn
+Author{1}{Affiliation}#=%=#East China Normal University
+Author{2}{Firstname}#=%=#Man
+Author{2}{Lastname}#=%=#Lan
+Author{2}{Email}#=%=#mlan@cs.ecnu.edu.cn
+Author{2}{Affiliation}#=%=#East China Normal University
+
+==========

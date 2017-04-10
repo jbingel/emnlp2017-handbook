@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#37
+FinalPaperTitle#=%=#Natural Language Question Answering and Analytics for Diverse and Interlinked Datasets
+ShortPaperTitle#=%=#Natural Language Question Answering and Analytics for Diverse and Interlinked Datasets
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Dezhao Song
+JobTitle#==#
+Organization#==#Research and Development
+Thomson Reuters
+610 Opperman Drive
+Eagan, MN 55123
+USA
+Abstract#==#Previous systems for natural language questions over complex linked datasets
+require the user to enter a complete and well-formed question, and present the
+answers as raw lists of entities. Using a feature-based grammar with a full
+formal semantics, we have developed a system that is able to support rich
+autosuggest, and to deliver dynamically generated analytics for each result
+that it returns.
+Author{1}{Firstname}#=%=#Dezhao
+Author{1}{Lastname}#=%=#Song
+Author{1}{Email}#=%=#dezhao.song@thomsonreuters.com
+Author{1}{Affiliation}#=%=#Thomson Reuters
+Author{2}{Firstname}#=%=#Frank
+Author{2}{Lastname}#=%=#Schilder
+Author{2}{Email}#=%=#frank.schilder@thomsonreuters.com
+Author{2}{Affiliation}#=%=#Thomson Reuters
+Author{3}{Firstname}#=%=#Charese
+Author{3}{Lastname}#=%=#Smiley
+Author{3}{Email}#=%=#charese.smiley@thomsonreuters.com
+Author{3}{Affiliation}#=%=#Thomson Reuters
+Author{4}{Firstname}#=%=#Chris
+Author{4}{Lastname}#=%=#Brew
+Author{4}{Email}#=%=#chris.brew@thomsonreuters.com
+Author{4}{Affiliation}#=%=#Thomson Reuters
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#131
+FinalPaperTitle#=%=#SeNTU: Sentiment Analysis of Tweets by Combining a Rule-based Classifier with Supervised Learning
+ShortPaperTitle#=%=#SeNTU: Sentiment Analysis of Tweets by Combining a Rule-based Classifier with Supervised Learning
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Prerna Chikersal
+JobTitle#==#
+Organization#==#NAME:
+Nanyang Technological University
+ADDRESS:
+School of Computer Engineering
+Blk N4 (office: 02A-18), North Spine
+Nanyang Avenue, Nanyang Technological University
+Singapore 639798
+Abstract#==#We describe a Twitter sentiment analysis system developed by combining a
+rule-based classifier with supervised learning. We submitted our results for
+the message-level subtask in SemEval 2015 Task 10, and achieved a F1-score of
+57.06%. The rule-based classifier is based on rules that are dependent on the
+occurrences of emoticons and opinion words in tweets. Whereas, the Support
+Vector Machine (SVM) is trained on semantic, dependency, and sentiment lexicon
+based features. The tweets are classified as positive, negative or unknown by
+the rule-based classifier, and as positive, negative or neutral by the SVM. The
+results we obtained show that rules can help refine the SVM’s predictions.
+Author{1}{Firstname}#=%=#Prerna
+Author{1}{Lastname}#=%=#Chikersal
+Author{1}{Email}#=%=#prerna1@e.ntu.edu.sg
+Author{1}{Affiliation}#=%=#Nanyang Technological University
+Author{2}{Firstname}#=%=#Soujanya
+Author{2}{Lastname}#=%=#Poria
+Author{2}{Email}#=%=#sporia@ntu.edu.sg
+Author{2}{Affiliation}#=%=#Nanyang Technological University
+Author{3}{Firstname}#=%=#Erik
+Author{3}{Lastname}#=%=#Cambria
+Author{3}{Email}#=%=#cambria@ntu.edu.sg
+Author{3}{Affiliation}#=%=#Nanyang Technological University
+
+==========

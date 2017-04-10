@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Predicting Prepositions for SMT
+ShortPaperTitle#=%=#Predicting Prepositions for SMT
+NumberOfPages#=%=#2
+CopyrightSigned#=%=#Marion Weller
+JobTitle#==#
+Organization#==#IMS, Universität Stuttgart
+CIS, Ludwig-Maximilian Universität München
+Abstract#==#We present a translation system that models the selection 
+of prepositions in a target-side generation component. 
+This novel approach allows to model all subcategorized elements of a verb
+as either NPs or PPs according to target-side requirements and makes use 
+of both source and target side features.
+Author{1}{Firstname}#=%=#Marion
+Author{1}{Lastname}#=%=#Weller
+Author{1}{Email}#=%=#wellermn@ims.uni-stuttgart.de
+Author{1}{Affiliation}#=%=#Universität Stuttgart
+Author{2}{Firstname}#=%=#Alexander
+Author{2}{Lastname}#=%=#Fraser
+Author{2}{Email}#=%=#fraser@cis.uni-muenchen.de
+Author{2}{Affiliation}#=%=#Ludwig-Maximilians-Universität München
+Author{3}{Firstname}#=%=#Sabine
+Author{3}{Lastname}#=%=#Schulte im Walde
+Author{3}{Email}#=%=#schulte@ims.uni-stuttgart.de
+Author{3}{Affiliation}#=%=#University of Stuttgart
+
+==========

@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#54
+FinalPaperTitle#=%=#ICRC-HIT: A Deep Learning based Comment Sequence Labeling System for Answer Selection Challenge
+ShortPaperTitle#=%=#ICRC-HIT: A Deep Learning based Comment Sequence Labeling System for Answer Selection Challenge
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Xiaoqiang Zhou
+JobTitle#==#
+Organization#==#Intelligence Computing Research Center of Harbin Institute of Technology Shenzhen Graduate School
+HIT Campus of University Town of Shenzhen City, China
+Abstract#==#In this paper, we present a comment labeling system based on a deep learning
+strategy. We treat the answer selection task as a sequence labeling problem and
+propose recurrent convolution neural networks to recognize good comments. In
+the recurrent architecture of our system, our approach uses 2-dimensional
+convolutional neural networks to learn the distributed representation for
+question-comment pair, and assigns the labels to the comment sequence with a
+recurrent neural network over CNN. Compared with the conditional random fields
+based method, our approach performs better performance on Macro-F1 (53.82%),
+and achieves the highest accuracy (73.18%), F1-value (79.76%) on predicting the
+Good class in this answer selection challenge.
+Author{1}{Firstname}#=%=#Xiaoqiang
+Author{1}{Lastname}#=%=#Zhou
+Author{1}{Email}#=%=#xiaoqiang.jeseph@gmail.com
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology Shenzhen Graduate School
+Author{2}{Firstname}#=%=#Baotian
+Author{2}{Lastname}#=%=#Hu
+Author{2}{Email}#=%=#baotianchina@gmail.com
+Author{2}{Affiliation}#=%=#Harbin Institute of Technology Shenzhen Graduate School
+Author{3}{Firstname}#=%=#Jiaxin
+Author{3}{Lastname}#=%=#Lin
+Author{3}{Email}#=%=#dongshanjx@gmail.com
+Author{3}{Affiliation}#=%=#Harbin Institute of Technology Shenzhen Graduate school
+Author{4}{Firstname}#=%=#Yang
+Author{4}{Lastname}#=%=#xiang
+Author{4}{Email}#=%=#xiangyang.hitsz@gmail.com
+Author{4}{Affiliation}#=%=#Harbin Institute of Technology Shenzhen Graduate School
+Author{5}{Firstname}#=%=#Xiaolong
+Author{5}{Lastname}#=%=#Wang
+Author{5}{Email}#=%=#wangxl@insun.hit.edu.cn
+Author{5}{Affiliation}#=%=#Harbin Institute of Technology Shenzhen Graduate School
+
+==========

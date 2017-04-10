@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#448
+FinalPaperTitle#=%=#An In-depth Analysis of the Effect of Text Normalization in Social Media
+ShortPaperTitle#=%=#An In-depth Analysis of the Effect of Text Normalization in Social Media
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Tyler Baldwin
+JobTitle#==#
+Organization#==#IBM Research - Almaden
+650 Harry Rd.
+San Jose, CA 95120
+Abstract#==#Recent years have seen increased interest in text normalization in social
+media, as the informal writing styles found in Twitter and other social media
+data often cause problems for NLP applications. Unfortunately, most current
+approaches narrowly regard the normalization task as a ``one size fits all''
+task of replacing non-standard words with their standard counterparts.               
+   
+In this
+work we build a taxonomy of normalization edits and present a study of
+normalization to examine its effect on three different downstream applications
+(dependency parsing, named entity recognition, and text-to-speech synthesis).
+The results suggest that how the normalization task should be viewed is highly
+dependent on the targeted application.                    The results also show that
+normalization must be thought of as more than word replacement in order to
+produce results comparable to those seen on clean text.
+Author{1}{Firstname}#=%=#Tyler
+Author{1}{Lastname}#=%=#Baldwin
+Author{1}{Email}#=%=#baldwin.tyler.s@gmail.com
+Author{1}{Affiliation}#=%=#IBM Research - Almaden
+Author{2}{Firstname}#=%=#Yunyao
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#yunyaoli@us.ibm.com
+Author{2}{Affiliation}#=%=#IBM Research - Almaden
+
+==========

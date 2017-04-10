@@ -1,0 +1,73 @@
+﻿Hands-on Learning to Search for Structured Prediction
+Tutorial at NAACL 2015
+Hal Daumé III, John Lanford, Kai-Wei Chang, He He, Sudha Rao
+
+
+Description
+
+Many problems in natural language processing involve building outputs that are structured. The predominant approach to structured prediction is "global models" (such as conditional random fields), which have the advantage of clean underlying semantics at the cost of computational burdens and extreme difficulty in implementation. An alternative strategy is the "learning to search" (L2S) paradigm, in which the structured prediction task is cast as a sequential decision making process. One can then devise training-time algorithms that learn to make near optimal collective decisions. This paradigm has been gaining increasing traction over the past five years: most notably in dependency parsing (e.g., MaltParser, ClearNLP, etc.), but also much more broadly in less "sequential" tasks like entity/relation classification and even graph prediction problems found in social network analysis and computer vision.
+
+This tutorial has precisely one goal: an attendee should leave the tutorial with hands on experience writing small programs to perform structured prediction for a variety of tasks, like sequence labeling, dependency parsing and, time-permitting, more.
+
+This proposed tutorial is unique (to our knowledge) among ACL tutorials in this regard: half of the time spent will be in the style of a "flipped classroom" in which attendees get hands on experience writing structured predictors on their own or in small groups. All course materials (software, exercises, hints, solutions, etc., will be made available at least two weeks prior to the event so that students can download the required data ahead of time; we will also bring copies on USB in case there is a problem with the internet).
+
+The first half of the tutorial will be mostly "lecture" style, in which we will cover the basics of how learning to search works for structured prediction. The goal is to provide enough background information that students can understand how to write and debug their own predictors, but the emphasis will not be on how to build new machine learning algorithms. This will also include a brief tutorial on the basics of Vowpal Wabbit, to the extent necessary to understand its structured prediction interface. The second half of the tutorial will focus on hands-on exploration of structured prediction using the Vowpal Wabbit python "learning to search" interface; a preliminary python notebook explaining the interface can be viewed at http://tinyurl.com/pyvwsearch; an elaborated version of this notebook will serve as the backbone for the "hands on" part of the tutorial, paired with exercises.
+
+
+Prerequisites
+
+This tutorial assumes familiarity with very basic machine learning concepts such as the label/example framework of learning, over- and under-fitting, and online classification (e.g., stochastic gradient descent, perceptron).
+
+
+Relevance to ACL Community
+
+A large fraction of NLP problems are structured prediction tasks. Many are not solved using structured prediction techniques. Previously, this was because these techniques are difficult to use in practice for people who are not machine learning experts. The approach here reduces this barrier significantly. At the end of the tutorial, we aim for attendees to be able to go home, take an NLP problem they care about, and build a structured predictor for it in an afternoon.
+
+
+Brief Outline
+
+Part 1 (75m, mostly Hal and John):
+        10m  Machine learning background
+        20m  Structured prediction via learning to search
+               Key concepts: policies, roll-in, roll-out,
+                             conditioning on past decisions
+        20m  A specific algorithm
+               Dataset aggregation (DAgger) and variants
+        15m  Vowpal wabbit background
+        10m  Question period
+
+Coffee Break (30m)
+
+Part 2 (75m, all five tutorial presenters):
+        5m   Overview of flipped classroom
+        10m  Vowpal wabbit in python
+               Example creation and learning to search interface
+        10m  Introduction of the "challenge problem"
+        10m  On your own: build a sequence labeler
+               Following along the ipython notebook example
+        30m  On your own: solve the challenge problem
+        10m  Wrap-up, pointers to resources and open problems
+
+
+Instructors
+
+Hal Daumé III
+University of Maryland, me@hal3.name, http://hal3.name
+Hal Daumé III is an associate professor in Computer Science at the University of Maryland, College Park. He holds joint appointments in UMIACS and Linguistics. His primary research interest is in developing new learning algorithms for prototypical problems that arise in the context of language processing and artificial intelligence. This includes topics like structured prediction, domain adaptation and unsupervised learning; as well as multilingual modeling and affect analysis.
+
+John Langford
+Microsoft Research New York, jl@hunch.net, http://hunch.net
+John Langford is a machine learning research scientist. He is the author of the blog hunch.net and the principal developer of Vowpal Wabbit. John works at Microsoft Research New York, of which he was one of the founding members, and was previously affiliated with Yahoo! Research, Toyota Technological Institute, and IBM's Watson Research Center. He studied Physics and Computer Science at the California Institute of Technology, earning a double bachelor's degree in 1997, and received his Ph.D. in Computer Science from Carnegie Mellon University in 2002. He was the program co-chair for the 2012 International Conference on Machine Learning.
+
+Kai-Wei Chang
+University of Illinois at Urbana-Champaign, kchang10@illinois.edu, http://web.engr.illinois.edu/~kchang10
+Kai-Wei Chang is a doctoral candidate in Computer Science at the University of Illinois at Urbana-Champaign. His research interests lie in designing practical machine learning techniques for large and complex data and applying them to real world applications. He has been working on various topics in Machine learning and Natural Language Processing, including large-scale learning, structured learning, coreference resolution, and relation extraction. 
+
+He He
+University of Maryland, hhe@cs.umd.edu, http://www.umiacs.umd.edu/~hhe
+He He is a doctoral student in Computer Science at the University of Maryland, College Park. Her research interests focus on developing fast inference methods for structured prediction problems in machine learning and natural language processing, including features selection, dependency parsing and machine translation.
+
+Sudha Rao
+University of Maryland, raosudha@cs.umd.edu, https://languagescience.umd.edu/users/raosudha
+Sudha Rao is a doctoral student in Computer Science at the University of Maryland, College Park. Her research interests currently lie in exploring how semantic representations like Abstract Meaning Representation can be used in Machine Translation.
+

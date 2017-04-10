@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#560
+FinalPaperTitle#=%=#Randomized Greedy Inference for Joint Segmentation, POS Tagging and Dependency Parsing
+ShortPaperTitle#=%=#Randomized Greedy Inference for Joint Segmentation, POS Tagging and Dependency Parsing
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yuan Zhang
+JobTitle#==#
+Organization#==#CSAIL, MIT
+32 Vassar Street, Cambridge, MA 02139, USA
+Abstract#==#In this paper, we introduce a new approach for joint segmentation, POS tagging
+and dependency parsing. While joint modeling of these tasks addresses the issue
+of error propagation inherent in traditional pipeline architectures, it also
+complicates the inference task. Past research has addressed this challenge by
+placing constraints on the scoring function. In contrast, we propose an
+approach that can handle arbitrarily complex scoring functions. Specifically,
+we employ a randomized greedy algorithm that jointly predicts segmentations,
+POS tags and dependency trees. Moreover, this architecture readily handles
+different segmentation tasks, such as morphological segmentation for Arabic and
+word segmentation for Chinese. The joint model outperforms the state-of-the-art
+systems on three datasets, obtaining 2.1% TedEval absolute gain against the
+best published results in the 2013 SPMRL shared task.
+Author{1}{Firstname}#=%=#Yuan
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#yuanzh@csail.mit.edu
+Author{1}{Affiliation}#=%=#MIT
+Author{2}{Firstname}#=%=#Chengtao
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#ctli@mit.edu
+Author{2}{Affiliation}#=%=#MIT
+Author{3}{Firstname}#=%=#Regina
+Author{3}{Lastname}#=%=#Barzilay
+Author{3}{Email}#=%=#regina@csail.mit.edu
+Author{3}{Affiliation}#=%=#MIT
+Author{4}{Firstname}#=%=#Kareem
+Author{4}{Lastname}#=%=#Darwish
+Author{4}{Email}#=%=#kdarwish@qf.org.qa
+Author{4}{Affiliation}#=%=#Qatar Computing Research Institute, Qatar Foundation
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#RhymeDesign: A Tool for Analyzing Sonic Devices in Poetry
+ShortPaperTitle#=%=#RhymeDesign
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Nina McCurdy
+JobTitle#==#
+Organization#==#School of Computing
+University of Utah
+50 S. Central Campus Drive 
+Salt Lake City, UT 84112
+Abstract#==#The analysis of sound and sonic devices in poetry is the focus of much poetic
+scholarship, and poetry scholars are becoming increasingly interested in the
+role that computation might play in their research. Since the nature of such
+sonic analysis is unique, the associated tasks are not supported by standard
+text analysis techniques. We introduce a formalism for analyzing sonic devices
+in poetry. In addition, we present RhymeDesign, an open-source implementation
+of our formalism, through which poets and poetry scholars can explore their
+individual notion of rhyme.
+Author{1}{Firstname}#=%=#Nina
+Author{1}{Lastname}#=%=#McCurdy
+Author{1}{Email}#=%=#nina@cs.utah.edu
+Author{1}{Affiliation}#=%=#University of Utah
+Author{2}{Firstname}#=%=#Vivek
+Author{2}{Lastname}#=%=#Srikumar
+Author{2}{Email}#=%=#svivek@cs.utah.edu
+Author{2}{Affiliation}#=%=#University of Utah
+Author{3}{Firstname}#=%=#Miriah
+Author{3}{Lastname}#=%=#Meyer
+Author{3}{Email}#=%=#miriah@cs.utah.edu
+Author{3}{Affiliation}#=%=#University of Utah
+
+==========

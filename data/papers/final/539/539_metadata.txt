@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#539
+FinalPaperTitle#=%=#Translating Videos to Natural Language Using Deep Recurrent Neural Networks
+ShortPaperTitle#=%=#Translating Videos to Natural Language Using Deep Recurrent Neural Networks
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Subhashini Venugopalan
+JobTitle#==#Student
+Organization#==#University of Texas at Austin
+Abstract#==#Solving the visual symbol grounding problem has long been a goal of artificial
+intelligence. The field appears to be advancing closer to this goal with recent
+breakthroughs in deep learning for natural language grounding in static images.
+In this paper, we propose to translate videos directly to sentences using a
+unified deep neural network with both convolutional and recurrent structure.
+Described video datasets are scarce, and most existing methods have been
+applied to toy domains with a small vocabulary of possible words. By  
+transferring knowledge from 1.2M+ images with category labels and 100,000+
+images with captions, our method is able to
+create sentence descriptions of open-domain videos with large vocabularies. 
+We compare our approach with recent work using language generation metrics,
+subject, verb, and object prediction accuracy, and a human
+evaluation.
+Author{1}{Firstname}#=%=#Subhashini
+Author{1}{Lastname}#=%=#Venugopalan
+Author{1}{Email}#=%=#vsub@cs.utexas.edu
+Author{1}{Affiliation}#=%=#The University of Texas at Austin
+Author{2}{Firstname}#=%=#Huijuan
+Author{2}{Lastname}#=%=#Xu
+Author{2}{Email}#=%=#hxu1@cs.uml.edu
+Author{2}{Affiliation}#=%=#UMass Lowell
+Author{3}{Firstname}#=%=#Jeff
+Author{3}{Lastname}#=%=#Donahue
+Author{3}{Email}#=%=#jdonahue@eecs.berkeley.edu
+Author{3}{Affiliation}#=%=#UC Berkeley
+Author{4}{Firstname}#=%=#Marcus
+Author{4}{Lastname}#=%=#Rohrbach
+Author{4}{Email}#=%=#rohrbach@eecs.berkeley.edu
+Author{4}{Affiliation}#=%=#ICSI, UC Berkeley
+Author{5}{Firstname}#=%=#Raymond
+Author{5}{Lastname}#=%=#Mooney
+Author{5}{Email}#=%=#mooney@cs.utexas.edu
+Author{5}{Affiliation}#=%=#University of Texas at Austin
+Author{6}{Firstname}#=%=#Kate
+Author{6}{Lastname}#=%=#Saenko
+Author{6}{Email}#=%=#saenko@cs.uml.edu
+Author{6}{Affiliation}#=%=#UMass Lowell
+
+==========

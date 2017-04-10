@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Automatic Claim Negation: Why, How and When
+ShortPaperTitle#=%=#Automatic Claim Negation: Why, How and When
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yonatan Bilu
+JobTitle#==#
+Organization#==#IBM Research, Mount Carmel, Haifa, israel
+Abstract#==#The main goal of argumentation mining is to analyze argumentative structures
+within an argument-rich document, and reason about their composition. Recently,
+there is also interest in the more modest task of simply detecting claims
+(sometimes called conclusion) in general documents. In this work we ask how
+this set of detected claims can be augmented further, by adding to it the
+negation of each detected claim. This presents two NLP problems: how to
+automatically negate a Claim, and when such a negated Claim can plausibly be
+used. We present first steps into solving both these problems, using a
+rule-based approach for the former and a statistical one towards the latter.
+Author{1}{Firstname}#=%=#Yonatan
+Author{1}{Lastname}#=%=#Bilu
+Author{1}{Email}#=%=#yonatanb@il.ibm.com
+Author{1}{Affiliation}#=%=#IBM Research, Haifa
+Author{2}{Firstname}#=%=#Daniel
+Author{2}{Lastname}#=%=#Hershcovich
+Author{2}{Email}#=%=#Daniel.Hershcovich@il.ibm.com
+Author{2}{Affiliation}#=%=#IBM Research, Haifa
+Author{3}{Firstname}#=%=#Noam
+Author{3}{Lastname}#=%=#Slonim
+Author{3}{Email}#=%=#noams@il.ibm.com
+Author{3}{Affiliation}#=%=#IBM Research, Haifa
+
+==========

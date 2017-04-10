@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#123
+FinalPaperTitle#=%=#Multiview LSA: Representation Learning via Generalized CCA
+ShortPaperTitle#=%=#Multiview LSA: Representation Learning via Generalized CCA
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#pushpendre rastogi
+JobTitle#==#
+Organization#==#Johns Hopkins University
+Abstract#==#Multiview LSA (MVLSA) is a generalization of Latent Semantic Analysis (LSA)
+that supports the fusion of arbitrary views of data and relies on Generalized
+Canonical Correlation Analysis (GCCA). We present an algorithm for fast
+approximate computation of GCCA, which when coupled with methods for handling
+missing values, is general enough to approximate some recent algorithms for
+inducing vector representations of words. Experiments across a comprehensive
+collection of test-sets show our approach to be competitive with the state of
+the art.
+Author{1}{Firstname}#=%=#Pushpendre
+Author{1}{Lastname}#=%=#Rastogi
+Author{1}{Email}#=%=#pushpendre@jhu.edu
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Benjamin
+Author{2}{Lastname}#=%=#Van Durme
+Author{2}{Email}#=%=#vandurme@cs.jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+Author{3}{Firstname}#=%=#Raman
+Author{3}{Lastname}#=%=#Arora
+Author{3}{Email}#=%=#arora@cs.jhu.edu
+Author{3}{Affiliation}#=%=#Johns Hopkins University
+
+==========

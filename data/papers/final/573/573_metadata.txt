@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#573
+FinalPaperTitle#=%=#High-Order Low-Rank Tensors for Semantic Role Labeling
+ShortPaperTitle#=%=#High-Order Low-Rank Tensors for Semantic Role Labeling
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Tao Lei
+JobTitle#==#
+Organization#==#CSAIL, MIT
+32 Vassar St, Cambridge, MA 02139
+Abstract#==#This paper introduces a tensor-based approach to semantic role labeling (SRL).
+The motivation behind the approach is to automatically induce a compact feature
+representation for words and their relations, tailoring them to the task. In
+this sense, our dimensionality reduction method provides a clear alternative to
+the traditional feature engineering approach used in SRL. To capture meaningful
+interactions between the argument, predicate, their syntactic path and the
+corresponding role label, we compress each feature representation first to a
+lower dimensional space prior to assessing their interactions. This corresponds
+to using an overall cross-product feature representation and maintaining
+associated parameters as a four-way low-rank tensor. The tensor parameters are
+optimized for the SRL performance using standard online algorithms. Our
+tensor-based approach rivals the best performing system on the CoNLL-2009
+shared task. In addition, we demonstrate that adding the representation tensor
+to a competitive tensor-free model yields 2\% absolute increase in F-score.
+Author{1}{Firstname}#=%=#Tao
+Author{1}{Lastname}#=%=#Lei
+Author{1}{Email}#=%=#taolei@csail.mit.edu
+Author{1}{Affiliation}#=%=#MIT
+Author{2}{Firstname}#=%=#Yuan
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#yuanzh@csail.mit.edu
+Author{2}{Affiliation}#=%=#MIT
+Author{3}{Firstname}#=%=#Lluís
+Author{3}{Lastname}#=%=#Màrquez
+Author{3}{Email}#=%=#lmarquez@qf.org.qa
+Author{3}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{4}{Firstname}#=%=#Alessandro
+Author{4}{Lastname}#=%=#Moschitti
+Author{4}{Email}#=%=#moschitti@disi.unitn.it
+Author{4}{Affiliation}#=%=#Qatar Computing Research Institute (prof. in Computer Science at University of Trento)
+Author{5}{Firstname}#=%=#Regina
+Author{5}{Lastname}#=%=#Barzilay
+Author{5}{Email}#=%=#regina@csail.mit.edu
+Author{5}{Affiliation}#=%=#MIT
+
+==========

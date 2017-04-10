@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Event Categorization beyond Verb Senses
+ShortPaperTitle#=%=#Event Categorization beyond Verb Senses
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Aron Marvel
+JobTitle#==#
+Organization#==#Linguistics Department
+University at Buffalo
+609 Baldy Hall
+Buffalo, NY 14260 USA
+Abstract#==#Verb senses are often assumed to distinguish among different conceptual event
+categories. However, senses misrepresent the number of event categories
+expressed both within and across languages and event categories may be
+“named” by more than a word, i.e. a multi-word expression. Determining the
+nature and number of event categories in an event description requires an
+understanding of the parameters relevant for categorization. We propose a set
+of parameters for use in creating a Gold Standard of event categories and apply
+them to a corpus sample of 2000 sentences across 10 verbs. In doing so, we find
+an asymmetry between subjects and direct objects in their contributions to
+distinguishing event categories. We then explore methods of automating event
+categorization to approximate our Gold Standard through the use of hierarchical
+clustering and Latent Semantic Analysis.
+Author{1}{Firstname}#=%=#Aron
+Author{1}{Lastname}#=%=#Marvel
+Author{1}{Email}#=%=#aronmarv@buffalo.edu
+Author{1}{Affiliation}#=%=#University at Buffalo
+Author{2}{Firstname}#=%=#Jean-Pierre
+Author{2}{Lastname}#=%=#Koenig
+Author{2}{Email}#=%=#jpkoenig@buffalo.edu
+Author{2}{Affiliation}#=%=#University at Buffalo
+
+==========

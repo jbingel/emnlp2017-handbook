@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#591
+FinalPaperTitle#=%=#Transforming Dependencies into Phrase Structures
+ShortPaperTitle#=%=#Transforming Dependencies into Phrase Structures
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Lingpeng Kong
+JobTitle#==#Research Assistant
+Organization#==#Carnegie Mellon University
+5000 Forbes Ave
+Pittsburgh PA 15213
+Abstract#==#We present a new algorithm for transforming dependency parse trees into
+phrase-structure parse trees. We cast the problem as struc- tured prediction
+and learn a statistical model. Our algorithm is faster than traditional phrase-
+structure parsing and achieves 90.4% English parsing accuracy and 82.4% Chinese
+parsing accuracy, near to the state of the art on both benchmarks.
+Author{1}{Firstname}#=%=#Lingpeng
+Author{1}{Lastname}#=%=#Kong
+Author{1}{Email}#=%=#lingpenk@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Alexander M.
+Author{2}{Lastname}#=%=#Rush
+Author{2}{Email}#=%=#srush@csail.mit.edu
+Author{2}{Affiliation}#=%=#MIT
+Author{3}{Firstname}#=%=#Noah A.
+Author{3}{Lastname}#=%=#Smith
+Author{3}{Email}#=%=#nasmith@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

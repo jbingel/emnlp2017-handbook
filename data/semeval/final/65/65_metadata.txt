@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#65
+FinalPaperTitle#=%=#TALN-UPF: Taxonomy Learning Exploiting CRF-Based Hypernym Extraction on Encyclopedic Definitions
+ShortPaperTitle#=%=#TALN-UPF: Taxonomy Learning Exploiting CRF-Based Hypernym Extraction on Encyclopedic Definitions
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Luis Espinosa-Anke
+JobTitle#==#
+Organization#==#TALN
+Departament de Tecnologies de la Informació i les Comunicacions
+Universitat Pompeu Fabra
+C. Tànger, 122-140
+08018 Barcelona
+Abstract#==#This paper describes the system submitted by the TALN-UPF team to SEMEVAL Task
+17 (Taxonomy Extraction Evaluation). We present a method for automatically
+learning a taxonomy from a flat terminology, which benefits from a definition
+corpus obtained by querying the BabelNet semantic network. Then, we combine a
+machine-learning algorithm for term-hypernym extraction with
+linguistically-motivated heuristics for hypernym decomposition. Our approach
+performs well in terms of vertex coverage and newly added vertices, while it
+shows room for improvement in terms of graph topology, edge coverage and
+precision of novel edges
+Author{1}{Firstname}#=%=#Luis
+Author{1}{Lastname}#=%=#Espinosa Anke
+Author{1}{Email}#=%=#luis.espinosa@upf.edu
+Author{1}{Affiliation}#=%=#Universitat Pompeu Fabra
+Author{2}{Firstname}#=%=#Horacio
+Author{2}{Lastname}#=%=#Saggion
+Author{2}{Email}#=%=#horacio.saggion@upf.edu
+Author{2}{Affiliation}#=%=#UPF & University of Sheffield
+Author{3}{Firstname}#=%=#Francesco
+Author{3}{Lastname}#=%=#Ronzano
+Author{3}{Email}#=%=#francesco.ronzano@upf.edu
+Author{3}{Affiliation}#=%=#Universitat Pompeu Fabra
+
+==========

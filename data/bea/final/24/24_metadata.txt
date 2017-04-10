@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#Measuring Feature Diversity in Native Language Identification
+ShortPaperTitle#=%=#Measuring Feature Diversity in Native Language Identification
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Aoife Cahill
+JobTitle#==#
+Organization#==#
+Abstract#==#The task of Native Language Identification (NLI) is typically solved with
+machine learning methods, and systems make use of a wide variety of features.
+Some preliminary studies have been conducted to examine the effectiveness of
+individual features, however, no systematic study of feature interaction has
+been carried out. We propose a function to measure feature independence and
+analyze its effectiveness on a standard NLI corpus.
+Author{1}{Firstname}#=%=#Shervin
+Author{1}{Lastname}#=%=#Malmasi
+Author{1}{Email}#=%=#shervin.malmasi@students.mq.edu.au
+Author{1}{Affiliation}#=%=#Macquarie University
+Author{2}{Firstname}#=%=#Aoife
+Author{2}{Lastname}#=%=#Cahill
+Author{2}{Email}#=%=#acahill@ets.org
+Author{2}{Affiliation}#=%=#Educational Testing Service
+
+==========

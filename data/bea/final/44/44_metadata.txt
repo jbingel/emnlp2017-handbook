@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#44
+FinalPaperTitle#=%=#Using PEGWriting® to Support the Writing Motivation and Writing Quality of Eighth-Grade Students: A Quasi-Experimental Study
+ShortPaperTitle#=%=#Using PEGWriting® to Support the Writing Motivation and Writing Quality of Eighth-Grade Students
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Joshua Wilson
+JobTitle#==#
+Organization#==#University of Delaware
+School of Education
+213E Willard Hall
+Newark, DE 19716
+Abstract#==#A quasi-experimental study compared the effects of feedback condition on
+eighth-grade students’ writing motivation and writing achievement. Four
+classes of eighth-graders were assigned to a combined feedback condition in
+which they received feedback on their writing from their teacher and from an
+automated essay evaluation (AEE) system called PEGWriting®. Four other
+eighth-grade classes were assigned to a teacher feedback condition, in
+which they solely received feedback from their teacher via GoogleDocs. Results
+indicated that students in the combined PEGWriting+Teacher Feedback condition
+received feedback more quickly and indicated that they were more likely to
+solve problems in their writing. Equal writing quality was achieved between
+feedback groups even though teachers in the PEGWriting condition spent less
+time providing feedback to students than in the GoogleDocs condition. Results
+suggest that PEGWriting enabled teachers to offload certain aspects of the
+feedback process and promoted greater independence and persistence for
+students.
+Author{1}{Firstname}#=%=#Joshua
+Author{1}{Lastname}#=%=#Wilson
+Author{1}{Email}#=%=#joshwils@udel.edu
+Author{1}{Affiliation}#=%=#University of Delaware
+Author{2}{Firstname}#=%=#Trish
+Author{2}{Lastname}#=%=#Martin
+Author{2}{Email}#=%=#tmartin@measinc.com
+Author{2}{Affiliation}#=%=#Measurement Incorporated
+
+==========

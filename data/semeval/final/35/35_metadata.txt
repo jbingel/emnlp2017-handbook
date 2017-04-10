@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#Gradiant-Analytics: Training Polarity Shifters with CRFs for Message Level Polarity Detection
+ShortPaperTitle#=%=#Gradiant-Analytics: Training Polarity Shifters with CRFs for Message Level Polarity Detection
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Héctor Cerezo-Costas
+JobTitle#==#
+Organization#==#Gradiant Edif. CITEXVI, local 14. 
+Campus Universitario de Vigo
+36310 Vigo - Spain
+(www.gradiant.org)
+Abstract#==#In this paper we present our solution for obtaining sentiment at message-level
+of short sentences. The system combines the use of polarity dictionaries and
+Conditional Random Fields (CRFs) to obtain syntactic and semantic features,
+which are afterwards fed to a statistical classifier in order to obtain the
+sentence polarity. Our solution was evaluated in the SemEval 2015 Task 10,
+subtask B: Sentiment Analysis in Twitter, achieving competitive performance in
+all testsets.
+Author{1}{Firstname}#=%=#Héctor
+Author{1}{Lastname}#=%=#Cerezo-Costas
+Author{1}{Email}#=%=#hcerezo@gradiant.org
+Author{1}{Affiliation}#=%=#Gradiant - Gradiant Research and Development Center in Advanced Telecommunications
+Author{2}{Firstname}#=%=#Diego
+Author{2}{Lastname}#=%=#Celix-Salgado
+Author{2}{Email}#=%=#dcelix@gradiant.org
+Author{2}{Affiliation}#=%=#Gradiant - Galician Research and Development Center in Advanced Telecommunications
+
+==========

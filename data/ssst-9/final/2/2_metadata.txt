@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#METEOR-WSD: Improved Sense Matching in MT Evaluation
+ShortPaperTitle#=%=#METEOR-WSD: Improved Sense Matching in MT Evaluation
+NumberOfPages#=%=#3
+CopyrightSigned#=%=#Marianna Apidianaki
+JobTitle#==#
+Organization#==#LIMSI-CNRS
+Rue John von Neumann 
+91405 Orsay, France
+Abstract#==#We present an initial experiment in integrating a disambiguation step in MT
+evaluation. We show that accounting for sense distinctions helps METEOR
+establish better sense correspondences and improves its correlation with human
+judgments of translation quality.
+Author{1}{Firstname}#=%=#Marianna
+Author{1}{Lastname}#=%=#Apidianaki
+Author{1}{Email}#=%=#marianna.apidianaki@limsi.fr
+Author{1}{Affiliation}#=%=#LIMSI-CNRS
+Author{2}{Firstname}#=%=#Benjamin
+Author{2}{Lastname}#=%=#Marie
+Author{2}{Email}#=%=#benjamin.marie@limsi.fr
+Author{2}{Affiliation}#=%=#LIMSI-CNRS
+
+==========

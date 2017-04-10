@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#50
+FinalPaperTitle#=%=#Do Supervised Distributional Methods Really Learn Lexical Inference Relations?
+ShortPaperTitle#=%=#Do Supervised Distributional Methods Really Learn Lexical Inference Relations?
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Omer Levy
+JobTitle#==#
+Organization#==#
+Abstract#==#Distributional representations of words have been recently used in supervised
+settings for recognizing lexical inference relations between word pairs, such
+as hypernymy and entailment. We investigate a collection of these
+state-of-the-art methods, and show that they do not actually learn a relation
+between two words. Instead, they learn an independent property of a single word
+in the pair: whether that word is a ``prototypical hypernym''.
+Author{1}{Firstname}#=%=#Omer
+Author{1}{Lastname}#=%=#Levy
+Author{1}{Email}#=%=#omerlevy@cs.biu.ac.il
+Author{1}{Affiliation}#=%=#Bar-Ilan University
+Author{2}{Firstname}#=%=#Steffen
+Author{2}{Lastname}#=%=#Remus
+Author{2}{Email}#=%=#remus@cs.tu-darmstadt.de
+Author{2}{Affiliation}#=%=#TU Darmstadt
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Biemann
+Author{3}{Email}#=%=#biem@cs.tu-darmstadt.de
+Author{3}{Affiliation}#=%=#TU Darmstadt
+Author{4}{Firstname}#=%=#Ido
+Author{4}{Lastname}#=%=#Dagan
+Author{4}{Email}#=%=#dagan@cs.biu.ac.il
+Author{4}{Affiliation}#=%=#Bar-Ilan University
+
+==========

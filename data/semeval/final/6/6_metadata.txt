@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#USAAR-SHEFFIELD: Semantic Textual Similarity with Deep Regression and Machine Translation Evaluation Metrics
+ShortPaperTitle#=%=#USAAR-SHEFFIELD: STS with Deep Regression and MT Evaluation Metrics
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Liling
+JobTitle#==#
+Organization#==#Saarland University
+Abstract#==#This paper describes the USAAR-SHEFFIELD systems that participated in the
+Semantic Textual Similarity English task of SemEval-2015. We extend the work on
+using machine translation evaluation metrics in the STS task. Different from
+previous approaches, we regard the metrics' robustness across different text
+types and conflate the training data across different subcorpora. In addition,
+we introduce a novel deep regressor architecture and evaluated its efficiency
+in the STS task.
+Author{1}{Firstname}#=%=#Liling
+Author{1}{Lastname}#=%=#Tan
+Author{1}{Email}#=%=#alvations@gmail.com
+Author{1}{Affiliation}#=%=#Universität des Saarlandes
+Author{2}{Firstname}#=%=#Carolina
+Author{2}{Lastname}#=%=#Scarton
+Author{2}{Email}#=%=#carol.scarton@gmail.com
+Author{2}{Affiliation}#=%=#University of Sheffield
+Author{3}{Firstname}#=%=#Lucia
+Author{3}{Lastname}#=%=#Specia
+Author{3}{Email}#=%=#l.specia@sheffield.ac.uk
+Author{3}{Affiliation}#=%=#University of Sheffield
+Author{4}{Firstname}#=%=#Josef
+Author{4}{Lastname}#=%=#van Genabith
+Author{4}{Email}#=%=#Josef.Van_Genabith@dfki.de
+Author{4}{Affiliation}#=%=#DFKI
+
+==========

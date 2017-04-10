@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#671
+FinalPaperTitle#=%=#Joint Generation of Transliterations from Multiple Representations
+ShortPaperTitle#=%=#Joint Generation of Transliterations from Multiple Representations
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Grzegorz Kondrak
+JobTitle#==#
+Organization#==#University of Alberta
+Abstract#==#Machine transliteration is often referred to as phonetic translation.
+We show that transliterations incorporate information from both
+spelling and pronunciation, and propose an effective model for joint
+transliteration generation from both representations. We further
+generalize this model to include transliterations from other
+languages, and enhance it with re-ranking and lexicon features. We
+demonstrate substantial improvements in transliteration accuracy on
+several datasets.
+Author{1}{Firstname}#=%=#Lei
+Author{1}{Lastname}#=%=#Yao
+Author{1}{Email}#=%=#lyao1@ualberta.ca
+Author{1}{Affiliation}#=%=#University of Alberta
+Author{2}{Firstname}#=%=#Grzegorz
+Author{2}{Lastname}#=%=#Kondrak
+Author{2}{Email}#=%=#gkondrak@ualberta.ca
+Author{2}{Affiliation}#=%=#University of Alberta
+
+==========

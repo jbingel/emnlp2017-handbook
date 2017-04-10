@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#182
+FinalPaperTitle#=%=#SWAT-CMW: Classification of Twitter Emotional Polarity using a Multiple-Classifier Decision Schema and Enhanced Emotion Tagging
+ShortPaperTitle#=%=#SWAT-CMW: Classification of Twitter Emotional Polarity using a Multiple-Classifier Decision Schema
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Richard Wicentowski
+JobTitle#==#
+Organization#==#500 College Avenue
+Swarthmore, PA 19081
+Abstract#==#In this paper, we describe our approach to Semeval 2015 task 10 subtask B,
+message level sentiment detection. Our system implements a variety of
+classifiers and data preparation techniques from previous work. The set of
+features and classifiers used in the final system produced consistently strong
+results using cross-validation on the provided training data. Our final system
+achieved an F-score of 57.60 on the provided test data. The overall best
+performing system had an F-score of 64.84.
+Author{1}{Firstname}#=%=#Riley
+Author{1}{Lastname}#=%=#Collins
+Author{1}{Email}#=%=#rcollin4@cs.swarthmore.edu
+Author{1}{Affiliation}#=%=#Swarthmore College
+Author{2}{Firstname}#=%=#Daniel
+Author{2}{Lastname}#=%=#May
+Author{2}{Email}#=%=#dmay1@cs.swarthmore.edu
+Author{2}{Affiliation}#=%=#Swarthmore College
+Author{3}{Firstname}#=%=#Noah
+Author{3}{Lastname}#=%=#Weinthal
+Author{3}{Email}#=%=#nweinth1@cs.swarthmore.edu
+Author{3}{Affiliation}#=%=#Swarthmore College
+Author{4}{Firstname}#=%=#Richard
+Author{4}{Lastname}#=%=#Wicentowski
+Author{4}{Email}#=%=#richardw@cs.swarthmore.edu
+Author{4}{Affiliation}#=%=#Swarthmore College
+
+==========

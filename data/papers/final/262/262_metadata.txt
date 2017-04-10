@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#262
+FinalPaperTitle#=%=#Continuous Adaptation to User Feedback for Statistical Machine Translation
+ShortPaperTitle#=%=#Continuous Adaptation to User Feedback for SMT
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Blain Frederic
+JobTitle#==#
+Organization#==#LIUM - University of Le Mans
+Avenue Laennec
+72085 LE MANS CEDEX 9
+FRANCE
+Abstract#==#This paper gives a detailed experiment feedback of different approaches to
+adapt a statistical machine translation system towards a targeted translation
+project, using only small amounts of parallel in-domain data. The experiments
+were performed by professional translators under realistic conditions of work
+using a computer assisted translation tool. 
+We analyze the influence of these adaptations on the translator productivity
+and on the overall post-editing effort. We show that significant improvements
+can be obtained by using the presented adaptation techniques.
+Author{1}{Firstname}#=%=#Frédéric
+Author{1}{Lastname}#=%=#Blain
+Author{1}{Email}#=%=#frederic.blain@lium.univ-lemans.fr
+Author{1}{Affiliation}#=%=#University of Le Mans
+Author{2}{Firstname}#=%=#Fethi
+Author{2}{Lastname}#=%=#Bougares
+Author{2}{Email}#=%=#fethi.bougares@lium.univ-lemans.fr
+Author{2}{Affiliation}#=%=#LIUM- University of Le Mans
+Author{3}{Firstname}#=%=#Amir
+Author{3}{Lastname}#=%=#Hazem
+Author{3}{Email}#=%=#amir.hazem@univ-nantes.fr
+Author{3}{Affiliation}#=%=#Post-Doc
+Author{4}{Firstname}#=%=#Loïc
+Author{4}{Lastname}#=%=#Barrault
+Author{4}{Email}#=%=#loic.barrault@lium.univ-lemans.fr
+Author{4}{Affiliation}#=%=#LIUM, University of Le Mans
+Author{5}{Firstname}#=%=#Holger
+Author{5}{Lastname}#=%=#Schwenk
+Author{5}{Email}#=%=#holger.schwenk@lium.univ-lemans.fr
+Author{5}{Affiliation}#=%=#University of Le Mans
+
+==========

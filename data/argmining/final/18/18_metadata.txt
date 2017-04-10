@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Identifying Prominent Arguments in Online Debates Using Semantic Textual Similarity
+ShortPaperTitle#=%=#Identifying Prominent Arguments in Online Debates Using Semantic Textual Similarity
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jan Snajder
+JobTitle#==#
+Organization#==#Faculty of Electrical Engineering and Computing
+University of Zagreb
+Abstract#==#Online debates sparkle argumentative discussions from which generally accepted
+arguments often emerge. We consider the task of unsupervised identification of
+prominent argument in online debates. As a first step, in this paper we perform
+a cluster analysis using semantic textual similarity to detect similar
+arguments. We perform a preliminary cluster evaluation and error analysis based
+on cluster-class matching against a manually labeled dataset.
+Author{1}{Firstname}#=%=#Filip
+Author{1}{Lastname}#=%=#Boltužić
+Author{1}{Email}#=%=#filip.boltuzic@fer.hr
+Author{1}{Affiliation}#=%=#University of Zagreb, FER
+Author{2}{Firstname}#=%=#Jan
+Author{2}{Lastname}#=%=#Šnajder
+Author{2}{Email}#=%=#jan.snajder@fer.hr
+Author{2}{Affiliation}#=%=#University of Zagreb, Faculty of Electrical Engineering and Computing, Unska 3, 10000 Zagreb
+
+==========

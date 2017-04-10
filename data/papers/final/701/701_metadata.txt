@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#701
+FinalPaperTitle#=%=#Key Female Characters in Film Have More to Talk About Besides Men: Automating the Bechdel Test
+ShortPaperTitle#=%=#Automating the Bechdel Test
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Apoorv Agarwal
+JobTitle#==#
+Organization#==#Columbia University, NY, 10025, USA
+Abstract#==#The Bechdel test is a sequence of three questions designed to assess the
+presence of women in movies. Many believe that because women are seldom
+represented in film as strong leaders and thinkers, viewers associate weaker
+stereotypes with women. In this paper, we present a computational approach to
+automate the task of finding whether a movie passes or fails the Bechdel test.
+This allows us to study the key differences in language use and in the
+importance of roles of women in movies that pass the test versus the movies
+that fail the test. Our experiments confirm that in movies that fail the test,
+women are in fact portrayed as less-central and less-important characters.
+Author{1}{Firstname}#=%=#Apoorv
+Author{1}{Lastname}#=%=#Agarwal
+Author{1}{Email}#=%=#apoorv@cs.columbia.edu
+Author{1}{Affiliation}#=%=#Columbia University
+Author{2}{Firstname}#=%=#Jiehan
+Author{2}{Lastname}#=%=#Zheng
+Author{2}{Email}#=%=#jiehan.zheng@duke.edu
+Author{2}{Affiliation}#=%=#Duke University
+Author{3}{Firstname}#=%=#Shruti
+Author{3}{Lastname}#=%=#Kamath
+Author{3}{Email}#=%=#svk2113@columbia.edu
+Author{3}{Affiliation}#=%=#
+Author{4}{Firstname}#=%=#Sriramkumar
+Author{4}{Lastname}#=%=#Balasubramanian
+Author{4}{Email}#=%=#sb3457@columbia.edu
+Author{4}{Affiliation}#=%=#
+Author{5}{Firstname}#=%=#Shirin
+Author{5}{Lastname}#=%=#Ann Dey
+Author{5}{Email}#=%=#sad2166@columbia.edu
+Author{5}{Affiliation}#=%=#Columbia University
+
+==========

@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#135
+FinalPaperTitle#=%=#WarwickDCS: From Phrase-Based to Target-Specific Sentiment Recognition
+ShortPaperTitle#=%=#WarwickDCS: From Phrase-Based to Target-Specific Sentiment Recognition
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Richard Townsend
+JobTitle#==#
+Organization#==#Department of Computer Science
+University of Warwick
+Coventry 
+CV4 7AL
+United Kingdom
+Abstract#==#We present and appraise several systems for polarity detection at the phrase
+and document levels, both of which use a novel combination of lexica,
+traditional NLP, and deep learning features. We also analyse techniques based
+on syntactic parsing to handle subtask C.
+Author{1}{Firstname}#=%=#Richard
+Author{1}{Lastname}#=%=#Townsend
+Author{1}{Email}#=%=#richard@sentimentron.co.uk
+Author{1}{Affiliation}#=%=#University of Warwick
+Author{2}{Firstname}#=%=#Adam
+Author{2}{Lastname}#=%=#Tsakalidis
+Author{2}{Email}#=%=#A.Tsakalidis@warwick.ac.uk
+Author{2}{Affiliation}#=%=#University of Warwick
+Author{3}{Firstname}#=%=#Yiwei
+Author{3}{Lastname}#=%=#Zhou
+Author{3}{Email}#=%=#Yiwei.Zhou@warwick.ac.uk
+Author{3}{Affiliation}#=%=#University of Warwick
+Author{4}{Firstname}#=%=#Bo
+Author{4}{Lastname}#=%=#Wang
+Author{4}{Email}#=%=#Bo.Wang@warwick.ac.uk
+Author{4}{Affiliation}#=%=#University of Warwick
+Author{5}{Firstname}#=%=#Maria
+Author{5}{Lastname}#=%=#Liakata
+Author{5}{Email}#=%=#maria.liakata@gmail.com
+Author{5}{Affiliation}#=%=#University of Warwick
+Author{6}{Firstname}#=%=#Arkaitz
+Author{6}{Lastname}#=%=#Zubiaga
+Author{6}{Email}#=%=#A.Zubiaga@warwick.ac.uk
+Author{6}{Affiliation}#=%=#University of Warwick
+Author{7}{Firstname}#=%=#Alexandra
+Author{7}{Lastname}#=%=#Cristea
+Author{7}{Email}#=%=#acristea@dcs.warwick.ac.uk
+Author{7}{Affiliation}#=%=#University of Warwick
+Author{8}{Firstname}#=%=#Rob
+Author{8}{Lastname}#=%=#Procter
+Author{8}{Email}#=%=#rob.procter@warwick.ac.uk
+Author{8}{Affiliation}#=%=#University of Warwick
+
+==========

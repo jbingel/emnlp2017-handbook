@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#107
+FinalPaperTitle#=%=#FCICU: The Integration between Sense-Based Kernel and Surface-Based Methods to Measure Semantic Textual Similarity
+ShortPaperTitle#=%=#Sense-Based Kernel and Surface-Based Methods Integration to Measure Semantic Textual Similarity
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Basma Hassan
+JobTitle#==#Assistant Lecturer
+Organization#==#Faculty of Computers and Information, Fayoum University
+Fayoum - Egypt
+Abstract#==#This paper describes FCICU team participation in SemEval 2015 for Semantic
+Textual Similarity challenge. Our main contribution is to propose a word-sense
+similarity method using BabelNet relationships. In the English subtask
+challenge, we submitted three systems (runs) to assess the proposed method. In
+Run1, we used our proposed method coupled with a string kernel mapping function
+to calculate the textual similarity. In Run2, we used the method with a tree
+kernel function. In Run3, we averaged Run1 with a previously proposed
+surface-based approach as a kind of integration. The three runs are ranked
+41st, 57th, and 20th of 73 systems, with mean correlation 0.702, 0.597, and
+0.759 respectively. For the interpretable task, we submitted a modified version
+of Run1 achieving mean F1 0.846, 0.461, 0.722, and 0.44 for alignment, type,
+score, and score with type respectively.
+Author{1}{Firstname}#=%=#Basma
+Author{1}{Lastname}#=%=#Hassan
+Author{1}{Email}#=%=#bhassan@fayoum.edu.eg
+Author{1}{Affiliation}#=%=#Fayoum University
+Author{2}{Firstname}#=%=#Samir
+Author{2}{Lastname}#=%=#AbdelRahman
+Author{2}{Email}#=%=#s.abdelrahman@fci-cu.edu.eg
+Author{2}{Affiliation}#=%=#Cairo University
+Author{3}{Firstname}#=%=#Reem
+Author{3}{Lastname}#=%=#Bahgat
+Author{3}{Email}#=%=#r.bahgat@fci-cu.edu.eg
+Author{3}{Affiliation}#=%=#Cairo University
+
+==========

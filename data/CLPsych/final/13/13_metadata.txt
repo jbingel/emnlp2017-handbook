@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#A Computer Program for Tracking the Evolution of a Psychotherapy Treatment
+ShortPaperTitle#=%=#A Computer Program for Tracking the Evolution of a Psychotherapy Treatment
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Bernard Maskit
+JobTitle#==#
+Organization#==#
+Abstract#==#Describing troubling events and images and reflecting on their emotional
+meanings are central components of most psychotherapies. The computer system
+described here tracks the occurrence and intensity of narration or imagery
+within transcribed therapy sessions and over the course of treatments; it
+likewise tracks the extent to which language denoting appraisal and logical
+thought occurs. The Discourse Attributes Analysis Program (DAAP) is a computer
+text analysis system that uses several dictionaries, including the Weighted
+Referential Activity Dictionary (WRAD), designed to detect verbal communication
+of emotional images and events, and the Reflection Dictionary (REF), designed
+to detect verbal communication denoting cognitive appraisal, as well as other
+dictionaries. For each dictionary and each turn of speech, DAAP uses a moving
+weighted average of dictionary weights, together with a fold-over procedure, to
+produce a smooth density function that graphically illustrates the rise and
+fall of each underlying psychological variable. These density functions are
+then used to produce several new measures, including measures of the vividness
+of descriptions of images or events, and a measure of the extent to which
+descriptions of events or images and reflection on their meaning occur
+separately.
+Author{1}{Firstname}#=%=#Bernard
+Author{1}{Lastname}#=%=#Maskit
+Author{1}{Email}#=%=#daap@optonline.net
+Author{1}{Affiliation}#=%=#Stony Brook University
+Author{2}{Firstname}#=%=#Wilma
+Author{2}{Lastname}#=%=#Bucci
+Author{2}{Email}#=%=#wbucci@optonline.net
+Author{2}{Affiliation}#=%=#Adelphi University
+Author{3}{Firstname}#=%=#Sean
+Author{3}{Lastname}#=%=#Murphy
+Author{3}{Email}#=%=#smurph1@gmail.com
+Author{3}{Affiliation}#=%=#New York Psychoanalytic Society and Institute
+
+==========

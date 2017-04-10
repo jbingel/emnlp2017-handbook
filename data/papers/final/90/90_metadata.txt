@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#90
+FinalPaperTitle#=%=#LCCT: A Semi-supervised Model for Sentiment Classification
+ShortPaperTitle#=%=#LCCT: A Semi-supervised Model for Sentiment Classification
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Min Yang
+JobTitle#==#
+Organization#==#Department of Computer Science, The University of Hong Kong, Pokfulam, Hong Kong
+Abstract#==#Analyzing public opinions towards products, services and social events is an
+important but challenging task. An accurate sentiment analyzer should take both
+lexicon-level information and corpus-level information into account. It also
+needs to exploit the domain-specific knowledge and utilize the common knowledge
+shared across domains. In addition, we want the algorithm being able to deal
+with missing labels and learning from incomplete sentiment lexicons. This paper
+presents a LCCT (Lexicon-based and Corpus-based, Co-Training) model for
+semi-supervised sentiment classification. The proposed method combines the idea
+of lexicon-based learning and corpus-based learning in a unified co-training
+framework. It is capable of incorporating both domain-specific and
+domain-independent knowledge. Extensive experiments show that it achieves very
+competitive classification accuracy, even with a small portion of labeled data.
+Comparing to state-of-the-art sentiment classification methods, the LCCT
+approach exhibits significantly better performances on a variety of datasets in
+both English and Chinese.
+Author{1}{Firstname}#=%=#Min
+Author{1}{Lastname}#=%=#Yang
+Author{1}{Email}#=%=#min.yang1129@gmail.com
+Author{1}{Affiliation}#=%=#The University of Hong Kong
+Author{2}{Firstname}#=%=#Wenting
+Author{2}{Lastname}#=%=#Tu
+Author{2}{Email}#=%=#wttu@cs.hku.hk
+Author{2}{Affiliation}#=%=#The University of Hong Kong
+Author{3}{Firstname}#=%=#Ziyu
+Author{3}{Lastname}#=%=#Lu
+Author{3}{Email}#=%=#zylu@cs.hku.hk
+Author{3}{Affiliation}#=%=#The University of Hong Kong
+Author{4}{Firstname}#=%=#Wenpeng
+Author{4}{Lastname}#=%=#Yin
+Author{4}{Email}#=%=#mr.yinwenpeng@gmail.com
+Author{4}{Affiliation}#=%=#University of Munich
+Author{5}{Firstname}#=%=#Kam-Pui
+Author{5}{Lastname}#=%=#Chow
+Author{5}{Email}#=%=#chow@cs.hku.hk
+Author{5}{Affiliation}#=%=#The University of Hong Kong
+
+==========

@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#44
+FinalPaperTitle#=%=#Discovering Hypernymy Relations using Text Layout
+ShortPaperTitle#=%=#Discovering Hypernymy Relations using Text Layout
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jean-Philippe Fauconnier
+JobTitle#==#
+Organization#==#Institut de Recherche en Informatique de Toulouse (IRIT)
+118, Route de Narbonne
+31062 Toulouse, France
+Abstract#==#Hypernymy relation acquisition has been widely investigated, especially because
+taxonomies, which often constitute the backbone structure of semantic resources
+are structured using this type of relations. Although lots of approaches have
+been dedicated to this task, most of them analyze only the written text.
+However relations between not necessarily contiguous textual units can be
+expressed, thanks to typographical or dispositional markers. Such relations,
+which are out of reach of standard NLP tools, have been investigated in well
+specified layout contexts. Our aim is to improve the relation extraction task
+considering both the plain text and the layout. We are proposing here a method
+which combines layout, discourse and terminological analyses, and performs a
+structured prediction. We focused on textual structures which correspond to a
+well defined discourse structure and which often bear hypernymy relations. This
+type of structure encompasses titles and sub-titles, or enumerative structures.
+The results achieve a precision of about 60%.
+Author{1}{Firstname}#=%=#Jean-Philippe
+Author{1}{Lastname}#=%=#Fauconnier
+Author{1}{Email}#=%=#jean-philippe.fauconnier@irit.fr
+Author{1}{Affiliation}#=%=#IRIT
+Author{2}{Firstname}#=%=#Mouna
+Author{2}{Lastname}#=%=#Kamel
+Author{2}{Email}#=%=#mouna.kamel@irit.fr
+Author{2}{Affiliation}#=%=#IRIT
+
+==========

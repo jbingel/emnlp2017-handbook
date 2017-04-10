@@ -1,0 +1,88 @@
+SubmissionNumber#=%=#61
+FinalPaperTitle#=%=#A New Dataset and Evaluation for Belief/Factuality
+ShortPaperTitle#=%=#A New Dataset and Evaluation for Belief/Factuality
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Vinodkumar Prabhakaran
+JobTitle#==#
+Organization#==#Columbia University
+Abstract#==#The terms “belief” and “factuality” both refer
+to the intention of the writer to present the
+propositional content of an utterance as firmly
+believed by the writer, not firmly believed, or
+having some other status. This paper presents
+an ongoing annotation effort and an associated
+evaluation.
+Author{1}{Firstname}#=%=#Vinodkumar
+Author{1}{Lastname}#=%=#Prabhakaran
+Author{1}{Email}#=%=#vinod@cs.columbia.edu
+Author{1}{Affiliation}#=%=#Columbia University
+Author{2}{Firstname}#=%=#Tomas
+Author{2}{Lastname}#=%=#By
+Author{2}{Email}#=%=#tby@ihmc.us
+Author{2}{Affiliation}#=%=#IHMC
+Author{3}{Firstname}#=%=#Julia
+Author{3}{Lastname}#=%=#Hirschberg
+Author{3}{Email}#=%=#julia@cs.columbia.edu
+Author{3}{Affiliation}#=%=#Columbia University
+Author{4}{Firstname}#=%=#Owen
+Author{4}{Lastname}#=%=#Rambow
+Author{4}{Email}#=%=#rambow@ccls.columbia.edu
+Author{4}{Affiliation}#=%=#Columbia University
+Author{5}{Firstname}#=%=#Samira
+Author{5}{Lastname}#=%=#Shaikh
+Author{5}{Email}#=%=#samirashaikh@gmail.com
+Author{5}{Affiliation}#=%=#SUNY - University at Albany
+Author{6}{Firstname}#=%=#Tomek
+Author{6}{Lastname}#=%=#Strzalkowski
+Author{6}{Email}#=%=#tomek@albany.edu
+Author{6}{Affiliation}#=%=#SUNY Albany
+Author{7}{Firstname}#=%=#Jennifer
+Author{7}{Lastname}#=%=#Tracey
+Author{7}{Email}#=%=#garjen@ldc.upenn.edu
+Author{7}{Affiliation}#=%=#LDC
+Author{8}{Firstname}#=%=#Michael
+Author{8}{Lastname}#=%=#Arrigo
+Author{8}{Email}#=%=#marrigo@ldc.upenn.edu
+Author{8}{Affiliation}#=%=#LDC
+Author{9}{Firstname}#=%=#Rupayan
+Author{9}{Lastname}#=%=#Basu
+Author{9}{Email}#=%=#rb3034@columbia.edu
+Author{9}{Affiliation}#=%=#Columbia University
+Author{10}{Firstname}#=%=#Micah
+Author{10}{Lastname}#=%=#Clark
+Author{10}{Email}#=%=#mclark@ihmc.us
+Author{10}{Affiliation}#=%=#IHMC
+Author{11}{Firstname}#=%=#Adam
+Author{11}{Lastname}#=%=#Dalton
+Author{11}{Email}#=%=#adalton@ihmc.us
+Author{11}{Affiliation}#=%=#IHMC
+Author{12}{Firstname}#=%=#Mona
+Author{12}{Lastname}#=%=#Diab
+Author{12}{Email}#=%=#mtdiab@gwu.edu
+Author{12}{Affiliation}#=%=#GWU
+Author{13}{Firstname}#=%=#Louise
+Author{13}{Lastname}#=%=#Guthrie
+Author{13}{Email}#=%=#louise@dcs.shef.ac.uk
+Author{13}{Affiliation}#=%=#University of Sheffield
+Author{14}{Firstname}#=%=#Anna
+Author{14}{Lastname}#=%=#Prokofieva
+Author{14}{Email}#=%=#prokofieva@cs.columbia.edu
+Author{14}{Affiliation}#=%=#Columbia University
+Author{15}{Firstname}#=%=#Stephanie
+Author{15}{Lastname}#=%=#Strassel
+Author{15}{Email}#=%=#strassel@ldc.upenn.edu
+Author{15}{Affiliation}#=%=#Linguistic Data Consortium, University of Pennsylvania
+Author{16}{Firstname}#=%=#Gregory
+Author{16}{Lastname}#=%=#Werner
+Author{16}{Email}#=%=#gwerner@gwu.edu
+Author{16}{Affiliation}#=%=#George Washington University
+Author{17}{Firstname}#=%=#Yorick
+Author{17}{Lastname}#=%=#Wilks
+Author{17}{Email}#=%=#ywilks@ihmc.us
+Author{17}{Affiliation}#=%=#Florida Institute of Human and Machine Cognition
+Author{18}{Firstname}#=%=#Janyce
+Author{18}{Lastname}#=%=#Wiebe
+Author{18}{Email}#=%=#wiebe@cs.pitt.edu
+Author{18}{Affiliation}#=%=#University of Pittsburgh
+
+==========

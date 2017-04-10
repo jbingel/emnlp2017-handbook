@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#64
+FinalPaperTitle#=%=#PRHLT: Combination of Deep Autoencoders with Classification and Regression Techniques for SemEval-2015 Task 11
+ShortPaperTitle#=%=#PRHLT: Comb. of Deep Autoencoders with Classif. and Regression Techniques for SemEval-2015 Task 11
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Jon Ander Gómez
+JobTitle#==#
+Organization#==#PRHLT Research Center
+Universitat Politècnica de València
+Abstract#==#This paper presents the system we developed for Task 11 of SemEval 2015. Our
+system had two stages: The first one was based on deep autoencoders for
+extracting features to compactly represent tweets. The next stage consisted of
+a classifier or a regression function for estimating the polarity value
+assigned to a given tweet. We tested several techniques in order to choose the
+ones with the highest accuracy. Finally, three regression techniques revealed
+as the best ones for assigning the polarity value to tweets. We presented six
+runs corresponding to three regression different techniques in combination with
+two variants of the autoencoder, one with input as bags of words and another
+with input as bags of character 3-grams.
+Author{1}{Firstname}#=%=#Parth
+Author{1}{Lastname}#=%=#Gupta
+Author{1}{Email}#=%=#pgupta@dsic.upv.es
+Author{1}{Affiliation}#=%=#Technical University of Valencia
+Author{2}{Firstname}#=%=#Jon Ander
+Author{2}{Lastname}#=%=#Gómez
+Author{2}{Email}#=%=#jon@dsic.upv.es
+Author{2}{Affiliation}#=%=#Universitat Politècnica de València
+
+==========

@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#426
+FinalPaperTitle#=%=##WhyIStayed, #WhyILeft: Microblogging to Make Sense of Domestic Abuse
+ShortPaperTitle#=%=##WhyIStayed, #WhyILeft: Microblogging to Make Sense of Domestic Abuse
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#J Nicolas Schrading
+JobTitle#==#
+Organization#==#Kate Gleason College of Engineering, Rochester Institute of Technology
+1 Lomb Memorial Dr.
+Rochester, NY 14623
+Abstract#==#In September 2014, Twitter users unequivocally reacted to the Ray Rice assault
+scandal by unleashing personal stories of domestic abuse via the hashtags
+#WhyIStayed or #WhyILeft. We explore at a macro-level firsthand accounts of
+domestic abuse from a substantial, balanced corpus of tweeted instances
+designated with these tags. To seek insights into the reasons victims give for
+staying in vs. leaving abusive relationships, we analyze the corpus using
+linguistically motivated methods. We also report on an annotation study for
+corpus assessment. We perform classification, contributing a classifier that
+discriminates between the two hashtags exceptionally well at 82% accuracy with
+a substantial error reduction over its baseline.
+Author{1}{Firstname}#=%=#Nicolas
+Author{1}{Lastname}#=%=#Schrading
+Author{1}{Email}#=%=#jxs8172@rit.edu
+Author{1}{Affiliation}#=%=#Rochester Institute of Technology
+Author{2}{Firstname}#=%=#Cecilia
+Author{2}{Lastname}#=%=#Ovesdotter Alm
+Author{2}{Email}#=%=#coagla@rit.edu
+Author{2}{Affiliation}#=%=#Rochester Institute of Technology
+Author{3}{Firstname}#=%=#Raymond
+Author{3}{Lastname}#=%=#Ptucha
+Author{3}{Email}#=%=#rwpeec@rit.edu
+Author{3}{Affiliation}#=%=#Rochester Institute of Technology
+Author{4}{Firstname}#=%=#Christopher
+Author{4}{Lastname}#=%=#Homan
+Author{4}{Email}#=%=#cmh@cs.rit.edu
+Author{4}{Affiliation}#=%=#Rochester Institute of Technology
+
+==========

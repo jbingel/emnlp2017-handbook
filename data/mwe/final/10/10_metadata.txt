@@ -1,0 +1,54 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Annotation and Extraction of Multiword Expressions in Turkish Treebanks
+ShortPaperTitle#=%=#Annotation and Extraction of Multiword Expressions in Turkish Treebanks
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Kübra ADALI
+JobTitle#==#
+Organization#==#ISTANBUL TECHNICAL UNIVERSITY
+Abstract#==#Multiword expressions (MWEs) presents particular
+and distinctive semantic properties
+hence, their automatic extraction receives special
+attention from the natural language processing
+(NLP) and corpus linguistics community,
+and is still an active research area. Unfortunately,
+the creation of necessary resources
+for this task is quite rigorous and many languages
+suffer from the lack of these; as in
+the case for Turkish. This study presents
+our MWE annotations on recently introduced
+Turkish Treebanks, which focuses on annotating
+various types of linguistic units and expressions,
+including named entities, numerical
+expressions, idiomatic phrases, verb phrases
+with auxiliaries and duplications. The paper
+aims to provide a benchmark and shed light
+for further MWE extraction research for Turkish.
+To this end, the paper also introduces
+our experimental results with seven baseline
+approaches, a dependency parser and a previously
+introduced rule-based extractor on these
+annotated corpora. Our highest performances
+achieved over these resources are about 60%
+F-scores.
+Author{1}{Firstname}#=%=#Gülşen
+Author{1}{Lastname}#=%=#Eryiğit
+Author{1}{Email}#=%=#gulsenc@itu.edu.tr
+Author{1}{Affiliation}#=%=#Istanbul Technical University
+Author{2}{Firstname}#=%=#Kübra
+Author{2}{Lastname}#=%=#ADALI
+Author{2}{Email}#=%=#kubraadali@gmail.com
+Author{2}{Affiliation}#=%=#
+Author{3}{Firstname}#=%=#Dilara
+Author{3}{Lastname}#=%=#Torunoğlu-Selamet
+Author{3}{Email}#=%=#dilaratorunoglu661@gmail.com
+Author{3}{Affiliation}#=%=#Istanbul Technical University
+Author{4}{Firstname}#=%=#Umut
+Author{4}{Lastname}#=%=#Sulubacak
+Author{4}{Email}#=%=#sulubacak@itu.edu.tr
+Author{4}{Affiliation}#=%=#Istanbul Technical University
+Author{5}{Firstname}#=%=#Tuğba
+Author{5}{Lastname}#=%=#Pamay
+Author{5}{Email}#=%=#pamay@itu.edu.tr
+Author{5}{Affiliation}#=%=#Istanbul Technical University
+
+==========

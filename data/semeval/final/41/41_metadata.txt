@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#41
+FinalPaperTitle#=%=#FBK-HLT: A New Framework for Semantic Textual Similarity
+ShortPaperTitle#=%=#FBK-HLT: A New Framework for Semantic Textual Similarity
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Ngoc Phuoc An Vo
+JobTitle#==#
+Organization#==#Fondazione Bruno Kessler (FBK), Trento, Italy
+University of Trento, Italy
+Abstract#==#This paper reports the description and performance of our system, FBK-HLT,
+participating in the SemEval 2015, Task#2 "Semantic Textual Similarity (STS)",
+English subtask. We submitted three runs with different hypothesis in combining
+typical features (lexical similarity, string similarity, word n-grams, etc)
+with syntactic structure features, resulting in different sets of features. The
+results evaluated on both STS 2014 and 2015 datasets prove our hypothesis of
+building a STS system taking into consideration of syntactic information. We
+outperform the best system on STS 2014 datasets and achieve a very competitive
+result to the best system on STS 2015 datasets.
+Author{1}{Firstname}#=%=#Ngoc Phuoc An
+Author{1}{Lastname}#=%=#Vo
+Author{1}{Email}#=%=#ngoc@fbk.eu
+Author{1}{Affiliation}#=%=#HLT-FBK, Trento
+Author{2}{Firstname}#=%=#Simone
+Author{2}{Lastname}#=%=#Magnolini
+Author{2}{Email}#=%=#magnolini@fbk.eu
+Author{2}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{3}{Firstname}#=%=#Octavian
+Author{3}{Lastname}#=%=#Popescu
+Author{3}{Email}#=%=#o.popescu@us.ibm.com
+Author{3}{Affiliation}#=%=#IBM Research
+
+==========

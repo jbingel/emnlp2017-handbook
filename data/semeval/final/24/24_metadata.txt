@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#HLTC-HKUST: A Neural Network Paraphrase Classifier using Translation Metrics, Semantic Roles and Lexical Similarity Features
+ShortPaperTitle#=%=#A paraphrase Classifier using Translation Metrics, Semantic and Lexical Similarity Features
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Dario Bertero
+JobTitle#==#
+Organization#==#Human Language Technology Center
+Department of Electronic and Computer Engineering
+The Hong Kong University of Science and Technology, Clear Water Bay, Hong Kong
+Abstract#==#This paper describes the system developed by our team (HLTC-HKUST) for task 1
+of SemEval 2015 workshop about paraphrase classification and semantic
+similarity in Twitter. We trained a neural network classifier over a range of
+features that includes translation metrics, lexical and syntactic similarity
+score and semantic features based on semantic roles. The neural network was
+trained taking into consideration in the objective function the six different
+similarity levels provided in the corpus, in order to give as output a more
+fine-grained estimation of the similarity level of the two sentences, as
+required by subtask 2. With an F-score of $0.651$ in the binary paraphrase
+classification subtask 1, and a Pearson coefficient of $0.697$ for the sentence
+similarity subtask 2, we achieved respectively the 6th place and the 3rd place,
+above the average of what obtained by the other contestants.
+Author{1}{Firstname}#=%=#Dario
+Author{1}{Lastname}#=%=#Bertero
+Author{1}{Email}#=%=#dbertero@ust.hk
+Author{1}{Affiliation}#=%=#Human Language Technology Center, The Hong Kong University of Science and Technology
+Author{2}{Firstname}#=%=#Pascale
+Author{2}{Lastname}#=%=#Fung
+Author{2}{Email}#=%=#pascale@ece.ust.hk
+Author{2}{Affiliation}#=%=#Human Language Technology Center, The Hong Kong University of Science and Technology
+
+==========

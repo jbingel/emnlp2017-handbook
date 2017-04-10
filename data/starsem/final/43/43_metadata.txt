@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#43
+FinalPaperTitle#=%=#Mapping Different Rhetorical Relation Annotations: A Proposal
+ShortPaperTitle#=%=#Mapping Different Rhetorical Relation Annotations: A Proposal
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Farah Benamara
+JobTitle#==#
+Organization#==#IRIT. Université Paul Sabatier
+Abstract#==#Annotation efforts have resulted in the availability of a number of corpora
+with rhetorical relation information. The corpora, unfortunately, are annotated
+under different theoretical approaches and have different hierarchies of
+relations. In addition, new sets of rhetorical relations have been proposed to
+account for language variation. The types of relations, however, tend to
+overlap or be related in specific ways. We believe that differences across
+approaches are minimal, and a unified set of relations that works across
+languages is possible. This paper details a new taxonomy of relations organized
+in four top level-classes  with a total of 26 relations. 
+We propose a mapping between existing annotations and show that our taxonomy is
+robust across theories, and can be applied to multiple languages.
+Author{1}{Firstname}#=%=#Farah
+Author{1}{Lastname}#=%=#Benamara
+Author{1}{Email}#=%=#benamara@irit.fr
+Author{1}{Affiliation}#=%=#IRIT, Toulouse University
+Author{2}{Firstname}#=%=#Maite
+Author{2}{Lastname}#=%=#Taboada
+Author{2}{Email}#=%=#mtaboada@sfu.ca
+Author{2}{Affiliation}#=%=#SFU, Vancouver
+
+==========

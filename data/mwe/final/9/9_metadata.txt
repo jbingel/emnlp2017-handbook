@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#A Method of Accounting Bigrams in Topic Models
+ShortPaperTitle#=%=#A Method of Accounting Bigrams in Topic Models
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Michael
+JobTitle#==#
+Organization#==#Yandex, 119021, Russian Federation, Moscow, Leo Tolstoy Street, 16
+Abstract#==#The paper describes the results of an empirical study of integrating bigram
+collocations and similarities between them and unigrams into topic models.
+First of all, we propose a novel algorithm PLSA-SIM that is a modification of
+the original algorithm PLSA. It incorporates bigrams and maintains
+relationships between unigrams and bigrams based on their component structure.
+Then we analyze a variety of word association measures in order to integrate
+top-ranked bigrams into topic models. All experiments were conducted on four
+text collections of different domains and languages. The experiments
+distinguish a subgroup of tested measures that produce top-ranked bigrams,
+which demonstrate significant improvement of topic models quality for all
+collections, when integrated into PLSA-SIM algorithm.
+Author{1}{Firstname}#=%=#Michael
+Author{1}{Lastname}#=%=#Nokel
+Author{1}{Email}#=%=#mnokel@gmail.com
+Author{1}{Affiliation}#=%=#Lomonosov Moscow State University
+Author{2}{Firstname}#=%=#Natalia
+Author{2}{Lastname}#=%=#Loukachevitch
+Author{2}{Email}#=%=#louk_nat@mail.ru
+Author{2}{Affiliation}#=%=#Lomonosov Moscow State University
+
+==========

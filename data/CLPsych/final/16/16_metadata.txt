@@ -1,0 +1,56 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Automated morphological analysis of clinical language samples
+ShortPaperTitle#=%=#Automated morphological analysis of clinical language samples
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Kyle Gorman
+JobTitle#==#
+Organization#==#Center for Spoken Language Understanding
+Oregon Health & Science University
+Portland, OR
+Abstract#==#Quantitative analysis of clinical language samples is a powerful tool for
+assessing and screening developmental language impairments, but requires
+extensive manual transcription, annotation, and calculation, resulting in
+error-prone results and clinical underutilization. We describe a system that
+performs automated morphological analysis needed to calculate statistics such
+as the mean length of utterance in morphemes (MLUM), so that these statistics
+can be computed directly from orthographic transcripts. Estimates of MLUM
+computed by this system are closely comparable to those produced by manual
+annotation. Our system can be used in conjunction with other automated
+annotation techniques, such as maze detection. This work represents an
+important first step towards increased automation of language sample analysis,
+and towards attendant benefits of automation, including clinical greater
+utilization and reduced variability in care delivery.
+Author{1}{Firstname}#=%=#Kyle
+Author{1}{Lastname}#=%=#Gorman
+Author{1}{Email}#=%=#gormanky@ohsu.edu
+Author{1}{Affiliation}#=%=#Oregon Health & Science University
+Author{2}{Firstname}#=%=#Steven
+Author{2}{Lastname}#=%=#Bedrick
+Author{2}{Email}#=%=#bedricks@ohsu.edu
+Author{2}{Affiliation}#=%=#Oregon Health & Science University
+Author{3}{Firstname}#=%=#Geza
+Author{3}{Lastname}#=%=#Kiss
+Author{3}{Email}#=%=#geza.kiss@cslu.ogi.edu
+Author{3}{Affiliation}#=%=#CSLU, OHSU
+Author{4}{Firstname}#=%=#Eric
+Author{4}{Lastname}#=%=#Morley
+Author{4}{Email}#=%=#morleye@gmail.com
+Author{4}{Affiliation}#=%=#CSLU - Oregon Health & Science University
+Author{5}{Firstname}#=%=#Rosemary
+Author{5}{Lastname}#=%=#Ingham
+Author{5}{Email}#=%=#inghamr@ohsu.edu
+Author{5}{Affiliation}#=%=#Oregon Health & Science University
+Author{6}{Firstname}#=%=#Metrah
+Author{6}{Lastname}#=%=#Mohammed
+Author{6}{Email}#=%=#mohammem@ohsu.edu
+Author{6}{Affiliation}#=%=#Oregon Health & Science University
+Author{7}{Firstname}#=%=#Katina
+Author{7}{Lastname}#=%=#Papadakis
+Author{7}{Email}#=%=#papadaki@ohsu.edu
+Author{7}{Affiliation}#=%=#Oregon Health & Science University
+Author{8}{Firstname}#=%=#Jan
+Author{8}{Lastname}#=%=#van Santen
+Author{8}{Email}#=%=#vansantj@ohsu.edu
+Author{8}{Affiliation}#=%=#Oregon Health & Science University
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#179
+FinalPaperTitle#=%=#CoMiC: Adapting a Short Answer Assessment System for Answer Selection
+ShortPaperTitle#=%=#CoMiC: Adapting a Short Answer Assessment System for Answer Selection
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Ramon Ziai
+JobTitle#==#
+Organization#==#Universität Tübingen
+Sonderforschungsbereich 833
+Nauklerstraße 35
+72074 Tübingen
+Germany
+Abstract#==#Open forum threads exhibit a great variability in the quality and quantity of
+the answers they attract, making it difficult to manually moderate and separate
+relevant from irrelevant content. The goal of SemEval 2015 Task 3 (Subtask A,
+English) is to build systems that automatically distinguish between relevant
+and irrelevant content in forum threads.
+
+We extend a short answer assessment system to build relations between forum
+questions and answers with respect to similarity, question type, and answer
+content. The features are used in a sequence classifier to account for the
+conversation character of threads. The performance of this approach is modest
+in comparison to the other task participants and also to the per-
+formance the system usually reaches in short answer assessment. However, the
+new features implemented for this task are a first step in developing more
+fine-grained question-answer features and identifying relevant answers.
+Author{1}{Firstname}#=%=#Björn
+Author{1}{Lastname}#=%=#Rudzewitz
+Author{1}{Email}#=%=#brzdwtz@sfs.uni-tuebingen.de
+Author{1}{Affiliation}#=%=#Universität Tübingen
+Author{2}{Firstname}#=%=#Ramon
+Author{2}{Lastname}#=%=#Ziai
+Author{2}{Email}#=%=#rziai@sfs.uni-tuebingen.de
+Author{2}{Affiliation}#=%=#Universität Tübingen
+
+==========

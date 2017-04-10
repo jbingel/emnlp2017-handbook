@@ -1,0 +1,13 @@
+abbrev bea
+type Workshop
+title The Tenth Workshop on Innovative Use of NLP for Building Educational Appications
+url http://www.cs.rochester.edu/~tetreaul/naacl-bea10.html
+booktitle Proceedings of the Tenth Workshop on Innovative Use of NLP for Building Educational Applications
+month June
+year 2015
+location Denver, Colorado
+publisher Association for Computational Linguistics
+chairs Joel Tetreault (Yahoo Labs)
+chairs Jill Burstein (Educational Testing Service)
+chairs Claudia Leacock (McGraw-Hill Education/CTB)
+bib_url http://www.aclweb.org/anthology/W15-06%02d

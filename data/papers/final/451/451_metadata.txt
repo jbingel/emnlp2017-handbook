@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#451
+FinalPaperTitle#=%=#Template Kernels for Dependency Parsing
+ShortPaperTitle#=%=#Template Kernels for Dependency Parsing
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Hillel Taub-Tabib
+JobTitle#==#
+Organization#==#The Hebrew University, 
+The Edmond J. Safra Campus - Givat Ram
+Jerusalem 9190401
+Israel
+Abstract#==#A common approach to dependency parsing is scoring a parse via a linear
+function of a set of indicator features. These features are typically manually
+constructed from templates that are applied to parts of the parse tree. The
+templates define which properties of a part should combine to create features.
+Existing approaches consider only a small subset of the possible combinations,
+due to statistical and computational efficiency considerations. In this work we
+present a novel kernel which facilitates efficient parsing with feature
+representations corresponding to a much larger set of combinations. 
+We integrate the kernel into a parse reranking system and demonstrate its
+effectiveness on four languages from the CoNLL-X shared task.
+Author{1}{Firstname}#=%=#Hillel
+Author{1}{Lastname}#=%=#Taub-Tabib
+Author{1}{Email}#=%=#hillel.t@gmail.com
+Author{1}{Affiliation}#=%=#The Hebrew University of Jerusalem
+Author{2}{Firstname}#=%=#Yoav
+Author{2}{Lastname}#=%=#Goldberg
+Author{2}{Email}#=%=#yoav.goldberg@gmail.com
+Author{2}{Affiliation}#=%=#Bar Ilan University
+Author{3}{Firstname}#=%=#Amir
+Author{3}{Lastname}#=%=#Globerson
+Author{3}{Email}#=%=#amir.globerson@mail.huji.ac.il
+Author{3}{Affiliation}#=%=#Hebrew University
+
+==========

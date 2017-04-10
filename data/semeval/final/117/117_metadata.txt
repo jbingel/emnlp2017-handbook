@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#117
+FinalPaperTitle#=%=#DsUniPi: An SVM-based Approach for Sentiment Analysis of Figurative Language on Twitter
+ShortPaperTitle#=%=#DsUniPi: An SVM-based Approach for Sentiment Analysis of Figurative Language on Twitter
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Christos Doulkeridis
+JobTitle#==#
+Organization#==#Department of Digital Systems
+University of Piraeus
+Karaoli & Dimitriou 80
+18534 Piraeus Greece
+Abstract#==#The DsUniPi team participated in the SemEval 2015 Task#11: Sentiment Analysis
+of Figurative Language in Twitter. The proposed approach employs syntactical
+and morphological features, which indicate sentiment polarity in both
+figurative and non-figurative tweets. These features were combined with others
+that indicate presence of figurative language in order to fine-grain the
+predicted sentiment. The method is supervised and makes use of structured
+knowledge resources, such as SentiWordNet sentiment lexicon for assigning
+sentiment score to words and WordNet for calculating word similarity. We have
+experimented with different classification algorithms (Naïve Bayes, Decision
+trees, and Support Vector Machines), and the best results were achieved by an
+SVM classifier with linear kernel.
+Author{1}{Firstname}#=%=#Maria
+Author{1}{Lastname}#=%=#Karanasou
+Author{1}{Email}#=%=#karanasou@gmail.com
+Author{1}{Affiliation}#=%=#University of Piraeus
+Author{2}{Firstname}#=%=#Christos
+Author{2}{Lastname}#=%=#Doulkeridis
+Author{2}{Email}#=%=#cdoulk@unipi.gr
+Author{2}{Affiliation}#=%=#University of Piraeus
+Author{3}{Firstname}#=%=#Maria
+Author{3}{Lastname}#=%=#Halkidi
+Author{3}{Email}#=%=#mhalk@unipi.gr
+Author{3}{Affiliation}#=%=#University of Piraeus
+
+==========

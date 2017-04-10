@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#104
+FinalPaperTitle#=%=#Swiss-Chocolate: Combining Flipout Regularization and Random Forests with Artificially Built Subsystems to Boost Text-Classification for Sentiment
+ShortPaperTitle#=%=#Combining Flipout and Random Forests with Artificial Subsystems to Boost Sentiment-Classification
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Fatih Uzdilli
+JobTitle#==#
+Organization#==#
+Abstract#==#We describe a classifier for predicting message-level sentiment of English
+micro- blog messages from Twitter. This paper describes our submission to the
+SemEval- 2015 competition (Task 10). Our approach is to combine several
+variants of our previous year’s SVM system into one meta-classifier, which
+was then trained using a random forest. The main idea is that the
+meta-classifier allows the combination of the strengths and overcome some of
+the weaknesses of the artificially-built individual classifiers, and adds
+additional non-linearity. We were also able to improve the linear classifiers
+by using a new regularization technique we call flipout.
+Author{1}{Firstname}#=%=#Fatih
+Author{1}{Lastname}#=%=#Uzdilli
+Author{1}{Email}#=%=#uzdi@zhaw.ch
+Author{1}{Affiliation}#=%=#ZHAW Zurich University of Applied Sciences
+Author{2}{Firstname}#=%=#Martin
+Author{2}{Lastname}#=%=#Jaggi
+Author{2}{Email}#=%=#jaggi@inf.ethz.ch
+Author{2}{Affiliation}#=%=#ETH Zurich
+Author{3}{Firstname}#=%=#Dominic
+Author{3}{Lastname}#=%=#Egger
+Author{3}{Email}#=%=#dominicegger@bluewin.ch
+Author{3}{Affiliation}#=%=#ZHAW Zurich University of Applied Sciences
+Author{4}{Firstname}#=%=#Pascal
+Author{4}{Lastname}#=%=#Julmy
+Author{4}{Email}#=%=#pascal.julmy@gmail.com
+Author{4}{Affiliation}#=%=#ZHAW Zurich University of Applied Sciences
+Author{5}{Firstname}#=%=#Leon
+Author{5}{Lastname}#=%=#Derczynski
+Author{5}{Email}#=%=#leon@dcs.shef.ac.uk
+Author{5}{Affiliation}#=%=#University of Sheffield
+Author{6}{Firstname}#=%=#Mark
+Author{6}{Lastname}#=%=#Cieliebak
+Author{6}{Email}#=%=#ciel@zhaw.ch
+Author{6}{Affiliation}#=%=#ZHAW Zurich University of Applied Sciences
+
+==========

@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Chinese CogBank: Where to See the Cognitive Features of Chinese Words
+ShortPaperTitle#=%=#Chinese CogBank: Where to See the Cognitive Features of Chinese Words
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Bin Li
+JobTitle#==#
+Organization#==#1.School of Chinese Language and Literature, Nanjing Normal University, Nanjing, PR China; 2.Department of Computer Science, Brandeis University,MA, USA
+Abstract#==#Dear Editor,
+I don't know if my paper's type is long or short. Indeed I want it to be long.
+But if you find it not long enough, just take it as short. Thank you!
+Author{1}{Firstname}#=%=#Bin
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#libin.njnu@gmail.com
+Author{1}{Affiliation}#=%=#1.School of Chinese Language and Literature, Nanjing Normal University, Nanjing, PR China; 2.Department of Computer Science, Brandeis University,MA, USA
+Author{2}{Firstname}#=%=#Xiaopeng
+Author{2}{Lastname}#=%=#Bai
+Author{2}{Email}#=%=#xpbai@brandeis.edu
+Author{2}{Affiliation}#=%=#Department of Computer Science, Brandeis University,MA, USA
+Author{3}{Firstname}#=%=#Siqi
+Author{3}{Lastname}#=%=#Yin
+Author{3}{Email}#=%=#nnuyinsiqi@126.com
+Author{3}{Affiliation}#=%=#School of Chinese Language and Literature, Nanjing Normal University, Nanjing, PR China
+Author{4}{Firstname}#=%=#Jie
+Author{4}{Lastname}#=%=#Xu
+Author{4}{Email}#=%=#xujie.njnu@gmail.com
+Author{4}{Affiliation}#=%=#School of Chinese Language and Literature, Nanjing Normal University, Nanjing, PR China
+
+==========

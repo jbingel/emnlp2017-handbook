@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#147
+FinalPaperTitle#=%=#TAKELAB: Medical Information Extraction and Linking with MINERAL
+ShortPaperTitle#=%=#TAKELAB: Medical Information Extraction and Linking with MINERAL
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Goran Glavaš
+JobTitle#==#
+Organization#==#University of Zagreb, 
+Faculty of Electrical Engineering and Computing,
+Text Analysis and Knowledge Engineering Group,
+Unska 3, 10000 Zagreb, Croatia
+Abstract#==#Medical texts are filled with mentions of diseases, disorders, and other
+clinical conditions, with many different surface forms relating to the same
+condition. We describe MINERAL, a system for extraction and normalization of
+disease mentions in clinical text, with which we participated in the Task 14 of
+SemEval 2015 evaluation campaign. MINERAL relies on a conditional random
+fields-based model with a rich set of features for mention detection, and a
+semantic textual similarity measure for entity linking. MINERAL reaches joint
+extraction and linking performance of 75.9% relaxed F1-score (strict score of
+72.7%) and ranks fourth among 16 participating teams.
+Author{1}{Firstname}#=%=#Goran
+Author{1}{Lastname}#=%=#Glavaš
+Author{1}{Email}#=%=#gogo.glavas@gmail.com
+Author{1}{Affiliation}#=%=#University of Zagreb
+
+==========

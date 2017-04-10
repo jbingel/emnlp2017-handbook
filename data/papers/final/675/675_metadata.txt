@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#675
+FinalPaperTitle#=%=#Cross-lingual Text Classification Using Topic-Dependent Word Probabilities
+ShortPaperTitle#=%=#Cross-lingual Text Classification
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Daniel Andrade
+JobTitle#==#
+Organization#==#Knowledge Discovery Research Laboratories, NEC,
+1753, Shimonumabe, Nakahara-ku, Kawasaki,
+Kanagawa 211-8666, Japan
+Abstract#==#Cross-lingual text classification is a major challenge in natural language
+processing, since often training data is available in only one language (target
+language), but not available for the language of the document we want to
+classify (source language).
+Here, we propose a method that only requires a bilingual dictionary to bridge
+the language gap.
+Our proposed probabilistic model allows us to estimate translation
+probabilities that are conditioned on the whole source document. The assumption
+of our probabilistic model is that each document can be characterized by a
+distribution over topics that help to solve the translation ambiguity of single
+words. Using the derived translation probabilities, we then calculate the
+expected word frequency of each word type in the target language. Finally,
+these expected word frequencies can be used to classify the source text with
+any classifier that was trained using only target language documents.
+Our experiments confirm the usefulness of our proposed method.
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Andrade
+Author{1}{Email}#=%=#s-andrade@cj.jp.nec.com
+Author{1}{Affiliation}#=%=#NEC Research
+Author{2}{Firstname}#=%=#Kunihiko
+Author{2}{Lastname}#=%=#Sadamasa
+Author{2}{Email}#=%=#k-sadamasa@az.jp.nec.com
+Author{2}{Affiliation}#=%=#NEC Research
+Author{3}{Firstname}#=%=#Akihiro
+Author{3}{Lastname}#=%=#Tamura
+Author{3}{Email}#=%=#a-tamura@ah.jp.nec.com
+Author{3}{Affiliation}#=%=#NEC Research
+Author{4}{Firstname}#=%=#Masaaki
+Author{4}{Lastname}#=%=#Tsuchida
+Author{4}{Email}#=%=#m-tsuchida@cq.jp.nec.com
+Author{4}{Affiliation}#=%=#NEC Research
+
+==========

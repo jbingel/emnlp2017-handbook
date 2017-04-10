@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#37
+FinalPaperTitle#=%=#Automated Evaluation of Scientific Writing: AESW Shared Task Proposal
+ShortPaperTitle#=%=#Automated Evaluation of Scientific Writing: AESW Shared Task Proposal
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Vidas Daudaravicius
+JobTitle#==#
+Organization#==#VTeX
+Mokslininku 2a
+Vilnius, Lithuania
+Abstract#==#The goal of the Automated Evaluation of Scientific Writing (AESW) Shared Task
+is to analyze the linguistic characteristics of scientific writing to promote
+the development of automated writing evaluation tools that can assist authors
+in writing scientific papers. The proposed task is to predict whether a given
+sentence requires editing to ensure its "fit" with the scientific writing
+genre. We describe the proposed task, training, development, and test data
+sets, and evaluation metrics.
+Author{1}{Firstname}#=%=#Vidas
+Author{1}{Lastname}#=%=#Daudaravicius
+Author{1}{Email}#=%=#vidas.daudaravicius@vtex.lt
+Author{1}{Affiliation}#=%=#VTEX
+
+==========

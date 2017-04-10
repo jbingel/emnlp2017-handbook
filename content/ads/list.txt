@@ -1,0 +1,25 @@
+Platinum: full page (4.5 x 7.5)
+Gold: half page (4.5 x 4)
+Silver: quarter page (4.5 x 2)
+Bronze: quarter page (4.5 x 2)
+Supporters: no ad
+
+------------
+Platinum
+- Bloomberg
+
+Gold
+- Google
+- Goldman Sachs
+- A9
+
+Silver
+- SDL
+- Nuance
+
+Bronze
+- Yahoo Labs
+
+Supporters
+- UW Computational Linguistics
+- Digital roots

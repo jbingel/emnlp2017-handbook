@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#94
+FinalPaperTitle#=%=#Learning to predict script events from domain-specific text
+ShortPaperTitle#=%=#Learning to predict script events from domain-specific text
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Rachel Rudinger
+JobTitle#==#
+Organization#==#Johns Hopkins University
+Baltimore, MD 21218
+Abstract#==#The automatic induction of scripts (Schank and Abelson, 1977) from text has
+been the focus of many recent works. Most statistical approaches have focused
+on open-domain script acquisition, in which a large number of scripts may be
+learned, but the acquisition of any particular set of scripts is not
+guaranteed. For many specialized applications, however, knowledge of a few
+relevant scripts may be more useful than knowledge of many irrelevant scripts.
+In this paper, we employ a variety of known script-learning methods to learn
+Schank and Abelson’s canonical restaurant script, using a novel dataset of
+restaurant narratives we have compiled from a website called “Dinners from
+Hell.” Our models learn narrative chains, script-like structures that we
+evaluate with the “narrative cloze” task (Chambers and Jurafsky, 2008). Our
+results suggest that applying these techniques to a domain-specific dataset may
+be a reasonable way to learn domain-specific scripts.
+Author{1}{Firstname}#=%=#Rachel
+Author{1}{Lastname}#=%=#Rudinger
+Author{1}{Email}#=%=#rudinger@jhu.edu
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Vera
+Author{2}{Lastname}#=%=#Demberg
+Author{2}{Email}#=%=#vera@coli.uni-saarland.de
+Author{2}{Affiliation}#=%=#Saarland University
+Author{3}{Firstname}#=%=#Ashutosh
+Author{3}{Lastname}#=%=#Modi
+Author{3}{Email}#=%=#ashutosh@coli.uni-sb.de
+Author{3}{Affiliation}#=%=#University of Saarland
+Author{4}{Firstname}#=%=#Benjamin
+Author{4}{Lastname}#=%=#Van Durme
+Author{4}{Email}#=%=#vandurme@cs.jhu.edu
+Author{4}{Affiliation}#=%=#JHU
+Author{5}{Firstname}#=%=#Manfred
+Author{5}{Lastname}#=%=#Pinkal
+Author{5}{Email}#=%=#pinkal@coli.uni-sb.de
+Author{5}{Affiliation}#=%=#Saarland University
+
+==========

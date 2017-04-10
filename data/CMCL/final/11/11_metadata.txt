@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Utility-based evaluation metrics for models of language acquisition: A look at speech segmentation
+ShortPaperTitle#=%=#Utility-based evaluation for language acquisition models
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Lawrence Phillips
+JobTitle#==#
+Organization#==#University of California, Irvine
+Irvine, CA 92697
+Abstract#==#Models of language acquisition are typically evaluated against a “gold
+standard” meant to represent adult linguistic knowledge, such as orthographic
+words for the task of speech segmentation. Yet adult knowledge is rarely the
+target knowledge for the stage of acquisition being modeled, making the gold
+standard an imperfect evaluation metric. To supplement the gold standard
+evaluation metric, we propose an alternative utility-based metric that measures
+whether the acquired knowledge facilitates future learning. We take the task of
+speech segmentation as a case study, assessing previously proposed models of
+segmentation on their ability to generate output that (i) enables creation of
+language-specific segmentation cues that rely on stress patterns, and (ii)
+assists the subsequent acquisition task of learning word meanings. We find that
+behavior that maximizes gold standard performance does not necessarily maximize
+the utility of the acquired knowledge, highlighting the benefit of multiple
+evaluation metrics.
+Author{1}{Firstname}#=%=#Lawrence
+Author{1}{Lastname}#=%=#Phillips
+Author{1}{Email}#=%=#lawphill@uci.edu
+Author{1}{Affiliation}#=%=#University of California, Irvine
+Author{2}{Firstname}#=%=#Lisa
+Author{2}{Lastname}#=%=#Pearl
+Author{2}{Email}#=%=#lpearl@uci.edu
+Author{2}{Affiliation}#=%=#University of California, Irvine
+
+==========

@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#Initial Steps for Building a Lexicon of Adjectives with Scalemates
+ShortPaperTitle#=%=#Initial Steps for Building a Lexicon of Adjectives with Scalemates
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Bryan Wilkinson
+JobTitle#==#
+Organization#==#University of Maryland, Baltimore County
+1000 Hilltop Circle
+Baltimore, MD 21250
+Abstract#==#This paper describes work in progress to use clustering to create a lexicon of
+words that engage in the lexico-semantic relationship known as grading. While
+other resources like thesauri and taxonomies exist detailing relationships such
+as synonymy, antonymy, and hyponymy, we do not know of any thorough resource
+for grading. This work focuses on identifying the words that may participate in
+this relationship, paving the way for the creation of a true grading lexicon
+later.
+Author{1}{Firstname}#=%=#Bryan
+Author{1}{Lastname}#=%=#Wilkinson
+Author{1}{Email}#=%=#bwilk1@umbc.edu
+Author{1}{Affiliation}#=%=#University of Maryland, Baltimore County
+
+==========

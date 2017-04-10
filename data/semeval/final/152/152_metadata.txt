@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#152
+FinalPaperTitle#=%=#SemEval-2015 Task 10: Sentiment Analysis in Twitter
+ShortPaperTitle#=%=#SemEval-2015 Task 10: Sentiment Analysis in Twitter
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Preslav Nakov
+JobTitle#==#Senior Scientist
+Organization#==#Qatar Computing Research Institute
+Tornado Tower floor 10
+P.O.box 5825
+Doha, Qatar
+Abstract#==#In this paper, we describe the 2015 iteration of the SemEval shared task on
+Sentiment Analysis in Twitter.                                      This was the most
+popular
+sentiment
+analysis
+shared task to date with more than 40 teams participating in each of the last
+three years. This year's shared task competition consisted of five sentiment
+prediction subtasks. Two were reruns from previous years: (A) sentiment
+expressed by a phrase in the context of a tweet, and (B) overall sentiment of a
+tweet. We further included three new subtasks asking to predict (C) the
+sentiment towards a topic in a single tweet, (D) the overall sentiment towards
+a topic in a set of tweets, and (E) the degree of prior polarity of a phrase.
+Author{1}{Firstname}#=%=#Sara
+Author{1}{Lastname}#=%=#Rosenthal
+Author{1}{Email}#=%=#sara@cs.columbia.edu
+Author{1}{Affiliation}#=%=#Columbia University
+Author{2}{Firstname}#=%=#Preslav
+Author{2}{Lastname}#=%=#Nakov
+Author{2}{Email}#=%=#preslav.nakov@gmail.com
+Author{2}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{3}{Firstname}#=%=#Svetlana
+Author{3}{Lastname}#=%=#Kiritchenko
+Author{3}{Email}#=%=#svetlana.kiritchenko@nrc-cnrc.gc.ca
+Author{3}{Affiliation}#=%=#NRC
+Author{4}{Firstname}#=%=#Saif
+Author{4}{Lastname}#=%=#Mohammad
+Author{4}{Email}#=%=#saif.mohammad@nrc-cnrc.gc.ca
+Author{4}{Affiliation}#=%=#
+Author{5}{Firstname}#=%=#Alan
+Author{5}{Lastname}#=%=#Ritter
+Author{5}{Email}#=%=#ritter.1492@osu.edu
+Author{5}{Affiliation}#=%=#The Ohio State University
+Author{6}{Firstname}#=%=#Veselin
+Author{6}{Lastname}#=%=#Stoyanov
+Author{6}{Email}#=%=#ves@cs.jhu.edu
+Author{6}{Affiliation}#=%=#Facebook
+
+==========

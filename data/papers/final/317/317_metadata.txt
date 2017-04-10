@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#317
+FinalPaperTitle#=%=#Idest: Learning a Distributed Representation for Event Patterns
+ShortPaperTitle#=%=#Idest: Learning a Distributed Representation for Event Patterns
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Enrique Alfonseca
+JobTitle#==#Research Manager
+Organization#==#Google Inc
+Abstract#==#This paper describes Idest, a new method for learning paraphrases of event
+patterns. It is based on a new neural network architecture that only relies on
+the weak supervision signal that comes from the news published on the same day
+and mention the same real-world entities. It can generalize across extractions
+from different dates to produce a robust paraphrase model for event patterns
+that can also capture meaningful representations for rare patterns. We compare
+it with two state-of-the-art systems and show that it can attain comparable
+quality when trained on a small dataset. Its generalization capabilities also
+allow it to leverage much more data, leading to substantial quality
+improvements.
+Author{1}{Firstname}#=%=#Sebastian
+Author{1}{Lastname}#=%=#Krause
+Author{1}{Email}#=%=#sebastian.krause@dfki.de
+Author{1}{Affiliation}#=%=#German Research Center for Artificial Intelligence
+Author{2}{Firstname}#=%=#Enrique
+Author{2}{Lastname}#=%=#Alfonseca
+Author{2}{Email}#=%=#enrique.alfonseca@gmail.com
+Author{2}{Affiliation}#=%=#Google
+Author{3}{Firstname}#=%=#Katja
+Author{3}{Lastname}#=%=#Filippova
+Author{3}{Email}#=%=#katjaf@google.com
+Author{3}{Affiliation}#=%=#Google
+Author{4}{Firstname}#=%=#Daniele
+Author{4}{Lastname}#=%=#Pighin
+Author{4}{Email}#=%=#daniele.pighin@gmail.com
+Author{4}{Affiliation}#=%=#Google Inc
+
+==========

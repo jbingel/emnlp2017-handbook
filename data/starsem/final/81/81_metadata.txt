@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#81
+FinalPaperTitle#=%=#A Methodology for Word Sense Disambiguation at 90\% based on large-scale CrowdSourcing
+ShortPaperTitle#=%=#A Methodology for Word Sense Disambiguation at 90\% based on large-scale CrowdSourcing
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Word Sense Disambiguation has been stuck for many years. In this paper
+we explore the use of large-scale crowdsourcing to cluster senses that
+are often confused by non-expert annotators. We show that we can
+increase performance at will: our in-domain experiment involving 45
+highly polysemous nouns, verbs and adjective (9.8 senses on average),
+yields an average accuracy of 92.6 using a supervised classifier for
+an average polysemy of 6.1. Our proposal has the advantage of being
+cost-effective and being able to both produce different levels of
+granularity. Our analysis shows that the error reduction with respect
+to fine-grained senses is higher, and manual inspection show that the
+clusters are sensible when compared to those of OntoNotes.
+Author{1}{Firstname}#=%=#Oier
+Author{1}{Lastname}#=%=#Lopez de Lacalle
+Author{1}{Email}#=%=#oier.lopezdelacalle@gmail.com
+Author{1}{Affiliation}#=%=#University of the Basque Country
+Author{2}{Firstname}#=%=#Eneko
+Author{2}{Lastname}#=%=#Agirre
+Author{2}{Email}#=%=#e.agirre@ehu.eus
+Author{2}{Affiliation}#=%=#University of the Basque Country (UPV/EHU)
+
+==========

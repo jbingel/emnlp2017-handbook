@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#45
+FinalPaperTitle#=%=#ECNU: Using Traditional Similarity Measurements and Word Embedding for Semantic Textual Similarity Estimation
+ShortPaperTitle#=%=#Using Traditional Similarity Measurements and Word Embedding for Semantic Textual Similarity
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Zhao Jiang
+JobTitle#==#
+Organization#==#East China Normal University, Shanghai 200241, P. R. China
+Abstract#==#This paper reports our submissions to semantic textual similarity task, i.e.,
+task 2 in Semantic Evaluation 2015. We built our systems using various
+traditional features, such as string-based, corpus-based and syntactic
+similarity metrics, as well as novel similarity measures based on distributed
+word representations, which were trained using deep learning paradigms. Since
+the training and test datasets consist of instances collected from various
+domains, three different strategies of the usage of training datasets were
+explored: (1) use all available training datasets and build a unified
+supervised model for all test datasets; (2) select the most similar training
+dataset and separately construct a individual model for each test set; (3)
+adopt multi-task learning framework to make full use of available training
+sets. Results on the test datasets show that using all datasets as training set
+achieves the best averaged performance and our best system ranks 15 out of 73.
+Author{1}{Firstname}#=%=#Jiang
+Author{1}{Lastname}#=%=#Zhao
+Author{1}{Email}#=%=#51121201042@ecnu.cn
+Author{1}{Affiliation}#=%=#East China Normal University
+Author{2}{Firstname}#=%=#Man
+Author{2}{Lastname}#=%=#Lan
+Author{2}{Email}#=%=#mlan@cs.ecnu.edu.cn
+Author{2}{Affiliation}#=%=#East China Normal University
+Author{3}{Firstname}#=%=#Jun Feng
+Author{3}{Lastname}#=%=#Tian
+Author{3}{Email}#=%=#10112130275@ecnu.cn
+Author{3}{Affiliation}#=%=#East China Normal University
+
+==========

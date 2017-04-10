@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#148
+FinalPaperTitle#=%=#TMUNSW: Identification of Disorders and Normalization to SNOMED-CT Terminology in Unstructured Clinical Notes
+ShortPaperTitle#=%=#TMUNSW: Identification of Disorders and Normalization to SNOMED-CT Terminology
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Jitendra Jonnagaddala
+JobTitle#==#
+Organization#==#School of Public Health and Community Medicine,
+Asia-Pacific Ubiquitous Healthcare Research Centre,
+Prince of Wales Clinical School,
+University of New South Wales
+Sydney 2031, Australia
+Abstract#==#Unstructured clinical notes are rich sources for valuable patient information.
+Information extraction techniques can be employed to extract this valuable
+information, which in turn can be used to discover new knowledge. Named entity
+recognition and normalization are the basic tasks involved in information
+extraction. In this paper, identification of disorder named entities and the
+mapping of identified disorder entities to SNOMED-CT terminology using UMLS
+Metathesaurus is presented. A supervised linear chain conditional random field
+model based on sets of features to predict disorder mentions is used in
+conjunction with MetaMap to identify and normalize disorders. Error analysis
+conclude that recall of the developed system can be significantly increased by
+adding more features during model development and also by using frame based
+approach for handling disjoint entities.
+Author{1}{Firstname}#=%=#Jitendra
+Author{1}{Lastname}#=%=#Jonnagaddala
+Author{1}{Email}#=%=#z3339253@unsw.edu.au
+Author{1}{Affiliation}#=%=#UNSW Australia
+Author{2}{Firstname}#=%=#Siaw-Teng
+Author{2}{Lastname}#=%=#Liaw
+Author{2}{Email}#=%=#siaw@unsw.edu.au
+Author{2}{Affiliation}#=%=#UNSW Australia
+Author{3}{Firstname}#=%=#Pradeep
+Author{3}{Lastname}#=%=#Ray
+Author{3}{Email}#=%=#p.ray@unsw.edu.au
+Author{3}{Affiliation}#=%=#UNSW Australia
+Author{4}{Firstname}#=%=#Manish
+Author{4}{Lastname}#=%=#Kumar
+Author{4}{Email}#=%=#manish.kumar@unsw.edu.au
+Author{4}{Affiliation}#=%=#UNSW Australia
+Author{5}{Firstname}#=%=#Hong-Jie
+Author{5}{Lastname}#=%=#Dai
+Author{5}{Email}#=%=#hjdai@tmu.edu.tw
+Author{5}{Affiliation}#=%=#Taipei Medical University
+
+==========

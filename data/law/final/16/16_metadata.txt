@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#On Grammaticality in the Syntactic Annotation of Learner Language
+ShortPaperTitle#=%=#On Grammaticality in the Syntactic Annotation of Learner Language
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Markus Dickinson
+JobTitle#==#Associate Professor
+Organization#==#Department of Linguistics
+Indiana University
+Bloomington, IN USA 47405
+Abstract#==#We examine some non-canonical annotation categories that license missing
+material (ellipses and enumerations).  In extending these categories to learner
+data, the distinctions seem to require an annotator to determine whether a
+sentence is grammatical or not when deciding between particular analyses.  We
+unpack the assumptions surrounding the annotation of learner language and how
+these particular phenomena compare to competing analyses, pointing out the
+implications for annotation practice and second language analysis.
+Author{1}{Firstname}#=%=#Markus
+Author{1}{Lastname}#=%=#Dickinson
+Author{1}{Email}#=%=#md7@indiana.edu
+Author{1}{Affiliation}#=%=#Indiana University
+Author{2}{Firstname}#=%=#Marwa
+Author{2}{Lastname}#=%=#Ragheb
+Author{2}{Email}#=%=#mragheb@indiana.edu
+Author{2}{Affiliation}#=%=#Indiana University
+
+==========

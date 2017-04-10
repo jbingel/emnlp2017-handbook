@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#38
+FinalPaperTitle#=%=#VectorSLU: A Continuous Word Vector Approach to Answer Selection in Community Question Answering Systems
+ShortPaperTitle#=%=#VectorSLU: A Continuous Word Vector Approach to Answer Selection in Community Question Answering
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Mitra Mohtarami
+JobTitle#==#
+Organization#==#MIT Computer Science and Artificial Intelligence Laboratory, Cambridge, MA 02139, USA
+Abstract#==#Continuous word and phrase vectors have proven useful in a number of
+NLP tasks. Here we describe our experience using them as a source of features
+for the SemEval-2015 task 3, consisting of two community question answering
+subtasks: Answer Selection for categorizing answers as "potential", "good", and
+"bad" with regards to their corresponding questions; and YES/NO inference for
+predicting a "yes", "no", or "unsure" response to a YES/NO question using all
+of its "good" answers. Our system ranked 6th and 1st in the English answer
+selection and YES/NO inference subtasks respectively, and 2nd in the Arabic
+answer selection subtask.
+Author{1}{Firstname}#=%=#Yonatan
+Author{1}{Lastname}#=%=#Belinkov
+Author{1}{Email}#=%=#belinkov@csail.mit.edu
+Author{1}{Affiliation}#=%=#MIT Computer Science and Artificial Intelligence Lab
+Author{2}{Firstname}#=%=#Mitra
+Author{2}{Lastname}#=%=#Mohtarami
+Author{2}{Email}#=%=#mitra@csail.mit.edu
+Author{2}{Affiliation}#=%=#MIT Computer Science and Artificial Intelligence Lab
+Author{3}{Firstname}#=%=#Scott
+Author{3}{Lastname}#=%=#Cyphers
+Author{3}{Email}#=%=#cyphers@csail.mit.edu
+Author{3}{Affiliation}#=%=#MIT Computer Science and Artificial Intelligence Lab
+Author{4}{Firstname}#=%=#James
+Author{4}{Lastname}#=%=#Glass
+Author{4}{Email}#=%=#glass@csail.mit.edu
+Author{4}{Affiliation}#=%=#MIT Computer Science and Artificial Intelligence Lab
+
+==========

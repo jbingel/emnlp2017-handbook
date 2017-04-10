@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Dependency Link Embeddings: Continuous Representations of Syntactic Substructures
+ShortPaperTitle#=%=#Dependency Link Embeddings: Continuous Representations of Syntactic Substructures
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#MOHIT BANSAL
+JobTitle#==#
+Organization#==#Toyota Technological Institute at Chicago
+6045 S. Kenwood Ave.
+Chicago, Illinois 60637
+USA
+Abstract#==#We present a simple method to learn continuous representations of dependency
+substructures (links), with the motivation of directly working with
+higher-order, structured embeddings and their hidden relationships, and also to
+avoid the millions of sparse, template-based word-cluster features in
+dependency parsing.  These link embeddings allow a significantly smaller and
+simpler set of unary features for dependency parsing, while maintaining
+improvements similar to state-of-the-art, n-ary word-cluster features, and also
+stacking over them. Moreover, these link vectors (made publicly available) are
+directly portable as off-the-shelf, dense, syntactic features in various NLP
+tasks. As one example, we incorporate them into constituent parse reranking,
+where their small feature set again matches the performance of standard
+non-local, manually-defined features, and also stacks over them.
+Author{1}{Firstname}#=%=#Mohit
+Author{1}{Lastname}#=%=#Bansal
+Author{1}{Email}#=%=#mbansal@ttic.edu
+Author{1}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#62
+FinalPaperTitle#=%=#Computational Exploration to Linguistic Structures of Future: Classification and Categorization
+ShortPaperTitle#=%=#Computational Exploration to Linguistic Structures of Future: Classification and Categorization
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Many languages, like English, lack a future tense, which makes the automatic
+identification of future reference a challenge. In this research we extend
+Latent Dirichlet allocation (LDA) for use in the identification of future
+referring sentences. Building off a set of hand designed rules, we trained a
+ADAGRAD classifier to be able automatically detect sentences referring to the
+future. Uni-bi-trigram and syntactic rule mixed feature was found to provide
+the highest accuracy. Latent Dirichlet Allocation (LDA) indicated the existence
+of four major categories future orientation. Lastly, the results of these
+analyses were found to correlate with a range of behavioral measures, offering
+evidence in support of the psychological reality of the categories.
+Author{1}{Firstname}#=%=#Aiming
+Author{1}{Lastname}#=%=#Ni
+Author{1}{Email}#=%=#anie@emory.edu
+Author{1}{Affiliation}#=%=#Emory University
+Author{2}{Firstname}#=%=#Jinho D.
+Author{2}{Lastname}#=%=#Choi
+Author{2}{Email}#=%=#jinho.choi@emory.edu
+Author{2}{Affiliation}#=%=#Emory University
+Author{3}{Firstname}#=%=#Jason
+Author{3}{Lastname}#=%=#Shepard
+Author{3}{Email}#=%=#jason.s.shepard@emory.edu
+Author{3}{Affiliation}#=%=#Emory University
+Author{4}{Firstname}#=%=#Phillip
+Author{4}{Lastname}#=%=#Wolff
+Author{4}{Email}#=%=#pwolff@emory.edu
+Author{4}{Affiliation}#=%=#Emory University
+
+==========

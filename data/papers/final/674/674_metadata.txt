@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#674
+FinalPaperTitle#=%=#Personalized Page Rank for Named Entity Disambiguation
+ShortPaperTitle#=%=#Personalized Page Rank for Named Entity Disambiguation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Maria
+JobTitle#==#
+Organization#==#New York University, 251 Mercer Street, New York, NY 10012
+Abstract#==#The task of Named Entity Disambiguation is to map entity mentions in the
+document to their correct entries in some knowledge base. We present a novel
+graph-based disambiguation approach based on Personalized PageRank (PPR) that
+combines local and global evidence for disambiguation and effectively filters
+out noise introduced by in- correct candidates. Experiments show that our
+method outperforms state-of-the-art ap- proaches by achieving 91.7% in micro-
+and 89.9% in macroaccuracy on a dataset of 27.8K named entity mentions.
+Author{1}{Firstname}#=%=#Maria
+Author{1}{Lastname}#=%=#Pershina
+Author{1}{Email}#=%=#masha.pershina@gmail.com
+Author{1}{Affiliation}#=%=#New York University
+Author{2}{Firstname}#=%=#Yifan
+Author{2}{Lastname}#=%=#He
+Author{2}{Email}#=%=#yhe@cs.nyu.edu
+Author{2}{Affiliation}#=%=#New York University
+Author{3}{Firstname}#=%=#Ralph
+Author{3}{Lastname}#=%=#Grishman
+Author{3}{Email}#=%=#grishman@cs.nyu.edu
+Author{3}{Affiliation}#=%=#New York University
+
+==========

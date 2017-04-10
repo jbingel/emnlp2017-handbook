@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#207
+FinalPaperTitle#=%=#Morphological Modeling for Machine Translation of English-Iraqi Arabic Spoken Dialogs
+ShortPaperTitle#=%=#Morphological Modeling for Machine Translation of English-Iraqi Arabic Spoken Dialogs
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Katrin Kirchhoff
+JobTitle#==#
+Organization#==#University of Washington
+Seattle, WA, USA
+Abstract#==#This paper addresses the problem of morphological modeling in
+statistical speech-to-speech translation for English to Iraqi
+Arabic. An analysis of user data from a real-time MT-based dialog
+system showed that generating correct verbal inflections is a key
+problem for this language pair. We approach this problem by enriching
+the training data with morphological information derived from
+source-side dependency parses. We analyze the performance of several
+parsers as well as the effect on different types of translation
+models.  Our method achieves an improvement of more than a full BLEU
+point and a significant increase in verbal inflection accuracy; at the
+same time, it is computationally inexpensive and does not rely on
+target-language linguistic tools.
+Author{1}{Firstname}#=%=#Katrin
+Author{1}{Lastname}#=%=#Kirchhoff
+Author{1}{Email}#=%=#katrin@ee.washington.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Yik-Cheung
+Author{2}{Lastname}#=%=#Tam
+Author{2}{Email}#=%=#yik-cheung.tam@sri.com
+Author{2}{Affiliation}#=%=#SRI International
+Author{3}{Firstname}#=%=#Colleen
+Author{3}{Lastname}#=%=#Richey
+Author{3}{Email}#=%=#colleen@speech.sri.com
+Author{3}{Affiliation}#=%=#SRI International
+Author{4}{Firstname}#=%=#Wen
+Author{4}{Lastname}#=%=#Wang
+Author{4}{Email}#=%=#wen.wang@sri.com
+Author{4}{Affiliation}#=%=#SRI International
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#103
+FinalPaperTitle#=%=#SemEval-2015 Task 1: Paraphrase and Semantic Similarity in Twitter (PIT)
+ShortPaperTitle#=%=#SemEval-2015 Task 1: Paraphrase and Semantic Similarity in Twitter (PIT)
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#In this shared task, we present evaluations on two related tasks Paraphrase
+Identification (PI) and Semantic Textual Similarity (SS) systems for the
+Twitter data. Given a pair of sentences, participants will be asked to produce
+a binary yes/no judgement or a graded score to measure their semantic
+equivalence. The task features a newly constructed Twitter Paraphrase Corpus
+that contains 18,762 sentence pairs.  A total of 19 teams participated,
+submitting 36 runs to the PI task and 26 runs to the SS task. The evaluation
+shows encouraging results and open challenges for future research. The best
+systems scored a F1-measure of 0.674 for the PI task and a Pearson correlation
+of 0.619 for the SS task respectively, comparing to a strong baseline using
+logistic regression model of 0.589 F1 and 0.511 Pearson; and the best SS
+systems can often reach >0.80 Pearson on well-formed text. This shared task
+also provides insights into the relation between the PI and SS tasks and
+suggests the importance to bringing these two research areas together. We make
+all the data, baseline systems and evaluation scripts publicly available.
+Author{1}{Firstname}#=%=#Wei
+Author{1}{Lastname}#=%=#Xu
+Author{1}{Email}#=%=#xwe@cis.upenn.edu
+Author{1}{Affiliation}#=%=#University of Pennsylvania
+Author{2}{Firstname}#=%=#Chris
+Author{2}{Lastname}#=%=#Callison-Burch
+Author{2}{Email}#=%=#ccb@upenn.edu
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+Author{3}{Firstname}#=%=#Bill
+Author{3}{Lastname}#=%=#Dolan
+Author{3}{Email}#=%=#billdol@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research
+
+==========

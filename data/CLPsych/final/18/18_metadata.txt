@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#From ADHD to SAD: Analyzing the Language of Mental Health on Twitter through Self-Reported Diagnoses
+ShortPaperTitle#=%=#From ADHD to SAD: Analyzing the Language of Mental Health on Twitter through Self-Reported Diagnoses
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Glen Coppersmith
+JobTitle#==#
+Organization#==#Qntfy
+Wilmington DE, USA
+Abstract#==#Many significant challenges exist for the mental health field, but one in
+particular is a lack of data available to guide research. Language provides a
+natural lens for studying mental health – much existing work and therapy have
+strong linguistic components, so the creation of a large, varied,
+language-centric dataset could provide significant grist for the field of
+mental health research. We examine a broad range of mental health conditions in
+Twitter data by identifying self-reported statements of diagnosis. We
+systematically explore language differences between ten conditions with respect
+to the general population, and to each other. Our aim is to provide guidance
+and a roadmap for where deeper exploration is likely to be fruitful.
+Author{1}{Firstname}#=%=#Glen
+Author{1}{Lastname}#=%=#Coppersmith
+Author{1}{Email}#=%=#glen@qntfy.io
+Author{1}{Affiliation}#=%=#Qntfy
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Dredze
+Author{2}{Email}#=%=#mdredze@cs.jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+Author{3}{Firstname}#=%=#Craig
+Author{3}{Lastname}#=%=#Harman
+Author{3}{Email}#=%=#craig@craigharman.net
+Author{3}{Affiliation}#=%=#Johns Hopkins University
+Author{4}{Firstname}#=%=#Kristy
+Author{4}{Lastname}#=%=#Hollingshead
+Author{4}{Email}#=%=#hollingk@gmail.com
+Author{4}{Affiliation}#=%=#IHMC
+
+==========

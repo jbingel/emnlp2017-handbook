@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#74
+FinalPaperTitle#=%=#MathLingBudapest: Concept Networks for Semantic Similarity
+ShortPaperTitle#=%=#MathLingBudapest: Concept Networks for Semantic Similarity
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Gábor Recski
+JobTitle#==#
+Organization#==#Research Institutte for Linguistics, Hungarian Academy of Sciences
+Benczúr u. 33
+1068 Budapest, Hungary
+Abstract#==#We present our approach to measuring semantic similarity of sentence pairs used
+in Semeval 2015 tasks 1 and 2. We adopt the sentence alignment framework of
+(Han et al. 2013) and experiment with several measures of word similarity. We
+hybridize the common vector-based models with definition graphs from the 4lang
+concept dictionary and devise a measure of graph similarity that yields good
+results on training data. We did not address the specific challenges posed by
+Twitter data, and this is reflected in placing 11th from 30 in Task~1, but our
+systems perform fairly well on the generic datasets of Task~2, with the hybrid
+approach placing 11th among 78 runs.
+Author{1}{Firstname}#=%=#Gábor
+Author{1}{Lastname}#=%=#Recski
+Author{1}{Email}#=%=#recski@mokk.bme.hu
+Author{1}{Affiliation}#=%=#Research Institute for Linguistics, Hungarian Academy of Sciences
+Author{2}{Firstname}#=%=#Judit
+Author{2}{Lastname}#=%=#Ács
+Author{2}{Email}#=%=#judit@sch.bme.hu
+Author{2}{Affiliation}#=%=#Budapest University of Technology and Economics, Hungarian Academy of Sciences
+
+==========

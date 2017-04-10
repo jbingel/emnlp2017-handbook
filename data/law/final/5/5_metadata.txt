@@ -1,0 +1,51 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Correction Annotation for Non-Native Arabic Texts: Guidelines and Corpus
+ShortPaperTitle#=%=#Correction Annotation for Non-Native Arabic Texts: Guidelines and Corpus
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Wajdi Zaghouani
+JobTitle#==#
+Organization#==#​Carnegie Mellon University-Qatar, Education City
+PO Box 24866, Doha, Qatar
+Abstract#==#We present our correction annotation guidelines to create a manually corrected
+non-native (L2) Arabic corpus. We develop our approach by extending an L1
+large-scale Arabic corpus and its manual  corrections, to include manually
+corrected non-native Arabic learner essays. 
+
+Our overarching goal is to use the annotated corpus to develop components for
+automatic detection and correction of  language errors                    that can be
+used
+to
+help Standard Arabic learners (native and non-native) improve the quality of
+the Arabic text they produce. The created corpus of L2 text manual corrections
+is the largest to date. We evaluate our guidelines using inter-annotator
+agreement and show a high degree of consistency.
+Author{1}{Firstname}#=%=#Wajdi
+Author{1}{Lastname}#=%=#Zaghouani
+Author{1}{Email}#=%=#wajdiz@cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Nizar
+Author{2}{Lastname}#=%=#Habash
+Author{2}{Email}#=%=#nizar.habash@nyu.edu
+Author{2}{Affiliation}#=%=#New York University Abu Dhabi
+Author{3}{Firstname}#=%=#Houda
+Author{3}{Lastname}#=%=#Bouamor
+Author{3}{Email}#=%=#hbouamor@qatar.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Alla
+Author{4}{Lastname}#=%=#Rozovskaya
+Author{4}{Email}#=%=#ar3366@columbia.edu
+Author{4}{Affiliation}#=%=#Columbia University
+Author{5}{Firstname}#=%=#Behrang
+Author{5}{Lastname}#=%=#Mohit
+Author{5}{Email}#=%=#behrang@cmu.edu
+Author{5}{Affiliation}#=%=#Carnegie Mellon University
+Author{6}{Firstname}#=%=#Abeer
+Author{6}{Lastname}#=%=#Heider
+Author{6}{Email}#=%=#abeer.heider@qu.edu.qa
+Author{6}{Affiliation}#=%=#Qatar University
+Author{7}{Firstname}#=%=#Kemal
+Author{7}{Lastname}#=%=#Oflazer
+Author{7}{Email}#=%=#ko@cs.cmu.edu
+Author{7}{Affiliation}#=%=#Carnegie Mellon University - Qatar
+
+==========

@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#146
+FinalPaperTitle#=%=#UWM: A Simple Baseline Method for Identifying Attributes of Disease and Disorder Mentions in Clinical Text
+ShortPaperTitle#=%=#UWM: A Simple Baseline Method for Identifying Attributes of Disease and Disorder Mentions
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#NA
+Abstract#==#In this paper the system that was developed by Team UWM for the Task 14 of
+SemEval 2015 competition is described. Task 14 included two tasks: Task 1 was
+identification of disorder mentions and their normalization, and Task 2 was
+identification of the following attributes for                    disorder mentions:
+the
+CUI of
+the disorder, negation indicator, subject, uncertainty indicator, course,
+severity, conditional, generic indicator, and body location. For Task 1, an
+earlier system was applied that uses Conditional Random Fields (CRFs) for
+disorder recognition and learned edit distance patterns for normalization. Task
+2 was implemented by a simple method that finds the attribute terms around the
+disease mentions by matching them in the training data. Among all participants
+Team UWM was ranked fourth in Task 1, fourth in Task 2A (over gold-standard
+mentions) and third in Task 2B (over extracted mentions).
+Author{1}{Firstname}#=%=#Omid
+Author{1}{Lastname}#=%=#Ghiasvand
+Author{1}{Email}#=%=#ghiasva2@uwm.edu
+Author{1}{Affiliation}#=%=#University of Wisconsin-Milwaukee
+Author{2}{Firstname}#=%=#Rohit
+Author{2}{Lastname}#=%=#Kate
+Author{2}{Email}#=%=#katerj@uwm.edu
+Author{2}{Affiliation}#=%=#University of Wisconsin-Milwaukee
+
+==========

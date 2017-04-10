@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#38
+FinalPaperTitle#=%=#SGRank: Combining Statistical and Graphical Methods to Improve the State of the Art in Unsupervised Keyphrase Extraction
+ShortPaperTitle#=%=#SGRank: Combining Statistical and Graphical Methods for Improved Keyphrase Extraction
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Soheil Danesh
+JobTitle#==#
+Organization#==#
+Abstract#==#Keyphrase extraction is a fundamental technique in natural language processing.
+It enables documents to be mapped to a concise set of phrases that can be used
+for indexing, clustering, ontology building, auto-tagging and other information
+organization schemes. Two major families of unsupervised keyphrase extraction
+algorithms may be characterized as statistical and graph-based. We present a
+hybrid statistical-graphical algorithm that capitalizes on the heuristics of
+both families of algorithms and is able to outperform the state of the art in
+unsupervised keyphrase extraction on several datasets.
+Author{1}{Firstname}#=%=#Soheil
+Author{1}{Lastname}#=%=#Danesh
+Author{1}{Email}#=%=#soheildb@gmail.com
+Author{1}{Affiliation}#=%=#University of Colorado Boulder
+Author{2}{Firstname}#=%=#Tamara
+Author{2}{Lastname}#=%=#Sumner
+Author{2}{Email}#=%=#sumner@colorado.edu
+Author{2}{Affiliation}#=%=#University of Colorado, Boulder
+Author{3}{Firstname}#=%=#James H.
+Author{3}{Lastname}#=%=#Martin
+Author{3}{Email}#=%=#james.martin@colorado.edu
+Author{3}{Affiliation}#=%=#University of Colorado Boulder
+
+==========

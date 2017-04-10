@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#651
+FinalPaperTitle#=%=#Reserating the awesometastic: An automatic extension of the WordNet taxonomy for novel terms
+ShortPaperTitle#=%=#Reserating the awesometastic: An automatic extension of the WordNet taxonomy for novel terms
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#David Jurgens
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper presents CROWN, an automatically constructed extension of
+WordNet that augments its taxonomy with novel lemmas from
+Wiktionary. CROWN fills the important gap in WordNet's lexicon for slang,
+technical, and rare lemmas, and more than doubles its current size.  In two
+evaluations, we demonstrate that the construction procedure is accurate and has
+a significant impact on a WordNet-based algorithm encountering novel lemmas.
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#Jurgens
+Author{1}{Email}#=%=#jurgens@cs.mcgill.ca
+Author{1}{Affiliation}#=%=#McGill University
+Author{2}{Firstname}#=%=#Mohammad Taher
+Author{2}{Lastname}#=%=#Pilehvar
+Author{2}{Email}#=%=#pilehvar@di.uniroma1.it
+Author{2}{Affiliation}#=%=#Sapienza University of Rome
+
+==========

@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#Dissecting the Practical Lexical Function Model for Compositional Distributional Semantics
+ShortPaperTitle#=%=#Dissecting the Practical Lexical Function Model for Compositional Distributional Semantics
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jason Utt
+JobTitle#==#
+Organization#==#Institut für Maschinelle Sprachverarbeitung
+University of Stuttgart
+Pfaffenwaldring 5b
+70569 Stuttgart
+Germany
+Abstract#==#The Practical Lexical Function model (PLF) is a recently proposed
+  compositional distributional semantic model which provides an
+  elegant account of composition, striking a balance between
+  expressiveness and robustness and performing at the
+  state-of-the-art.
+
+  In this paper, we identify an inconsistency in PLF between the objective
+function
+  at training and the prediction at testing which leads to an over-counting of
+the predicate's
+  contribution to the meaning of the phrase. We investigate two possible
+solutions
+  and find that one solution (exclusion of simple lexical vector at test time)
+  significantly improves performance on two out of the three
+  composition datasets.
+Author{1}{Firstname}#=%=#Abhijeet
+Author{1}{Lastname}#=%=#Gupta
+Author{1}{Email}#=%=#abhijeet.gupta@ims.uni-stuttgart.de
+Author{1}{Affiliation}#=%=#University of Stuttgart
+Author{2}{Firstname}#=%=#Jason
+Author{2}{Lastname}#=%=#Utt
+Author{2}{Email}#=%=#uttjn@ims.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#University of Stuttgart
+Author{3}{Firstname}#=%=#Sebastian
+Author{3}{Lastname}#=%=#Padó
+Author{3}{Email}#=%=#pado@ims.uni-stuttgart.de
+Author{3}{Affiliation}#=%=#Stuttgart University
+
+==========

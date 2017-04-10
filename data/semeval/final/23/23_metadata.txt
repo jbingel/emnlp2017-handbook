@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#NTNU: An Unsupervised Knowledge Approach for Taxonomy Extraction
+ShortPaperTitle#=%=#An Unsupervised Knowledge Approach for Taxonomy Extraction
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Bamfa Ceesay
+JobTitle#==#
+Organization#==#National Taiwan Normal University
+No. 88, Tingz Chou Road, Section 4, Taipei 116, Taiwan, R.O.C.
+Abstract#==#Taxonomy structures are important tools in the science of classification of
+things or concepts, including the principles that underlie such classification.
+This paper presents an approach to the problem of taxonomy construction from
+texts focusing on the hyponym-hypernym relation between two terms. Given a set
+of terms in a particular domain, the approach in this study uses Wikipedia and
+WordNet as knowledge sources and applies the information extraction methods to
+analyze and establish the hyponym-hypernym relationship between two terms.  Our
+system is ranked fourth among the participating systems in SemEval-2015 task
+17.
+Author{1}{Firstname}#=%=#Bamfa
+Author{1}{Lastname}#=%=#Ceesay
+Author{1}{Email}#=%=#bmfceesay@gmail.com
+Author{1}{Affiliation}#=%=#Natinal Taiwan Normal University
+Author{2}{Firstname}#=%=#Wen
+Author{2}{Lastname}#=%=#Juan Hou
+Author{2}{Email}#=%=#emilyhou@csie.ntnu.edu.tw
+Author{2}{Affiliation}#=%=#National Taiwan Normal University
+
+==========

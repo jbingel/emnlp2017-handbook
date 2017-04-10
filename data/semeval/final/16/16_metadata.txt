@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#V3: Unsupervised Aspect Based Sentiment Analysis for SemEval2015 Task 12
+ShortPaperTitle#=%=#V3: Unsupervised Aspect Based Sentiment Analysis for SemEval2015 Task 12
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Aitor García-Pablos
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper presents our participation in SemEval 2015 task 12 (Aspect Based
+Sentiment Analysis). We participated employing only unsupervised or
+weakly-supervised approaches. Our attempt is based on requiring the minimum
+annotated or hand-crafted content, and avoids training a model using the
+provided training set. We use a continuous word representations (Word2Vec) to
+leverage in-domain semantic similarities of words for many of the involved
+subtasks.
+Author{1}{Firstname}#=%=#Aitor
+Author{1}{Lastname}#=%=#García Pablos
+Author{1}{Email}#=%=#agarciap@vicomtech.org
+Author{1}{Affiliation}#=%=#Vicomtech-IK4
+Author{2}{Firstname}#=%=#Montse
+Author{2}{Lastname}#=%=#Cuadros
+Author{2}{Email}#=%=#mcuadros@vicomtech.org
+Author{2}{Affiliation}#=%=#Vicomtech-IK4
+Author{3}{Firstname}#=%=#German
+Author{3}{Lastname}#=%=#Rigau
+Author{3}{Email}#=%=#german.rigau@ehu.es
+Author{3}{Affiliation}#=%=#UPV/EHU
+
+==========

@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#158
+FinalPaperTitle#=%=#SemEval 2015, Task 7: Diachronic Text Evaluation
+ShortPaperTitle#=%=#SemEval 2015, Task 7: Diachronic Text Evaluation
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Torsten Zesch
+JobTitle#==#Chair
+Organization#==#Language Technology Lab
+University of Duisburg-Essen
+Abstract#==#In this paper we describe a novel task, namely the Diachronic Text Evaluation
+task. A corpus of snippets which contain relevant infor- mation for the time
+when the text was created is extracted from a large collection of newspa- pers
+published between 1,700 and 2,010. The task, subdivided in three subtasks,
+requires the automatic system to identify the time interval when the piece of
+news was written. The intervals come in three grades: fine, medium and coarse
+according to their length. The systems participating in the tasks have proved
+that this a doable task with very interesting possible continuations.
+Author{1}{Firstname}#=%=#Octavian
+Author{1}{Lastname}#=%=#Popescu
+Author{1}{Email}#=%=#o.popescu@us.ibm.com
+Author{1}{Affiliation}#=%=#IBM Research
+Author{2}{Firstname}#=%=#Carlo
+Author{2}{Lastname}#=%=#Strapparava
+Author{2}{Email}#=%=#strappa@fbk.eu
+Author{2}{Affiliation}#=%=#FBK-irst
+
+==========

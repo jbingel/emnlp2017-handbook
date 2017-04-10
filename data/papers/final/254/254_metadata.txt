@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#254
+FinalPaperTitle#=%=#Movie Script Summarization as Graph-based Scene Extraction
+ShortPaperTitle#=%=#Movie Script Summarization as Graph-based Scene Extraction
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Philip John Gorinski
+JobTitle#==#
+Organization#==#Institute for Language, Cognition and Computation
+School of Informatics, University of Edinburgh
+10 Crichton Street, Edinburgh EH8 9AB
+Abstract#==#In this paper we study the task of movie script summarization, which we argue
+could enhance script browsing, give readers a rough idea of the script's
+plotline, and speed up reading time. We formalize the process of generating a
+shorter version of a screenplay as the task of finding an optimal chain of
+scenes. We develop a graph-based model that selects a chain by jointly
+optimizing its logical progression, diversity, and importance. Human evaluation
+based on a question-answering task shows that our model produces summaries
+which are more informative compared to competitive baselines.
+Author{1}{Firstname}#=%=#Philip John
+Author{1}{Lastname}#=%=#Gorinski
+Author{1}{Email}#=%=#p.j.gorinski@sms.ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Mirella
+Author{2}{Lastname}#=%=#Lapata
+Author{2}{Email}#=%=#mlap@inf.ed.ac.uk
+Author{2}{Affiliation}#=%=#School of Informatics, University of Edinburgh
+
+==========

@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#666
+FinalPaperTitle#=%=#Shared common ground influences information density in microblog texts
+ShortPaperTitle#=%=#Shared common ground influences information density in microblog texts
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Gabriel Doyle
+JobTitle#==#
+Organization#==#Stanford University
+455 Jordan Hall
+Stanford, CA 94305
+Abstract#==#If speakers use language rationally, they should structure their messages to
+achieve approximately uniform information density (UID), in order to optimize
+transmission via a noisy channel. Previous work identified a consistent
+increase in linguistic information across sentences in text as a signature of
+the UID hypothesis. This increase was derived from a predicted increase in
+context, but the context itself was not quantified. We use microblog texts from
+Twitter, tied to a single shared event (the baseball World Series), to quantify
+both linguistic and non-linguistic context. By tracking changes in contextual
+information, we predict and identify gradual and rapid changes in information
+content in response to in-game events. These findings lend further support to
+the UID hypothesis and highlights the importance of non-linguistic common
+ground for language production and processing.
+Author{1}{Firstname}#=%=#Gabriel
+Author{1}{Lastname}#=%=#Doyle
+Author{1}{Email}#=%=#gdoyle@stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Frank
+Author{2}{Email}#=%=#mcfrank@stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+
+==========

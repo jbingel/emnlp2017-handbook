@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#167
+FinalPaperTitle#=%=#Digital Leafleting: Extracting Structured Data from Multimedia Online Flyers
+ShortPaperTitle#=%=#Digital Leafleting: Extracting Structured Data from Multimedia Online Flyers
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Marketing materials such as flyers and other infographics are a vast online
+resource. In a number of industries, such as the commercial real estate
+industry, they are in fact the only authoritative source of information.
+Companies attempting to organize commercial real estate inventories spend a
+significant amount of resources on manual data entry of this information. In
+this work, we propose a method for extracting structured data from free-form
+commercial real estate flyers in PDF and HTML formats. We modeled the problem
+as text categorization and Named Entity Recognition (NER) tasks and applied a
+supervised machine learning approach (Support Vector Machines). Our dataset
+consists of more than 2,200 commercial real estate flyers and associated
+manually entered structured data, which was used to automatically create
+training datasets. Traditionally, text categorization and NER approaches are
+based on textual information only. However, information in visually rich
+formats such as PDF and HTML is often conveyed by a combination of textual and
+visual features. Large fonts, visually salient colors, and positioning often
+indicate the most relevant pieces of information. We applied novel features
+based on visual characteristics in addition to traditional text features and
+show that performance improved significantly for both the text categorization
+and NER tasks.
+Author{1}{Firstname}#=%=#Emilia
+Author{1}{Lastname}#=%=#Apostolova
+Author{1}{Email}#=%=#emilia.aposto@gmail.com
+Author{1}{Affiliation}#=%=#BrokerSavant Inc.
+Author{2}{Firstname}#=%=#Payam
+Author{2}{Lastname}#=%=#Pourashraf
+Author{2}{Email}#=%=#ppourashraf@gmail.com
+Author{2}{Affiliation}#=%=#DePaul University
+Author{3}{Firstname}#=%=#Jeffrey
+Author{3}{Lastname}#=%=#Sack
+Author{3}{Email}#=%=#jeff.sack@gmail.com
+Author{3}{Affiliation}#=%=#BrokerSavant Inc.
+
+==========

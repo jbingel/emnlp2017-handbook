@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#450
+FinalPaperTitle#=%=#“You’re Mr. Lebowski, I’m the Dude”: Inducing Address Term Formality in Signed Social Networks
+ShortPaperTitle#=%=#“You’re Mr. Lebowski, I’m the Dude”: Inducing Address Term Formality in Signed Social Networks
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jacob Eisenstein
+JobTitle#==#
+Organization#==#School of Interactive Computing
+  Georgia Institute of Technology
+  85 5th Street NW, Atlanta, Georgia 30332
+Abstract#==#We present an unsupervised model for inducing signed social networks from the
+content exchanged across network edges. Inference in this model solves three
+problems simultaneously: (1) identifying the sign of each edge; (2)
+characterizing the distribution over content for each edge type; (3) estimating
+weights for triadic features that map to theoretical models such as structural
+balance. We apply this model to the problem of inducing the social function of
+address terms, such as Madame, comrade, and dude. On a dataset of movie
+scripts, our system obtains a coherent clustering of address terms, while at
+the same time making intuitively plausible judgments of the formality of social
+relations in each film. As an additional contribution, we provide a
+bootstrapping technique for identifying and tagging address terms in dialogue.
+Author{1}{Firstname}#=%=#Vinodh
+Author{1}{Lastname}#=%=#Krishnan
+Author{1}{Email}#=%=#krishnan.vinodh@gmail.com
+Author{1}{Affiliation}#=%=#Georgia Institute of Technology
+Author{2}{Firstname}#=%=#Jacob
+Author{2}{Lastname}#=%=#Eisenstein
+Author{2}{Email}#=%=#jacobe@gmail.com
+Author{2}{Affiliation}#=%=#Georgia Institute of Technology
+
+==========

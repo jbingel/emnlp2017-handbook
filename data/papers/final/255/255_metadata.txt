@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#255
+FinalPaperTitle#=%=#Fast and Accurate Preordering for SMT using Neural Networks
+ShortPaperTitle#=%=#Fast and Accurate Preordering for SMT using Neural Networks
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Adrià de Gispert
+JobTitle#==#
+Organization#==#SDL Research
+East Road, Cambridge CB1 1BH
+United Kingdom
+Abstract#==#We propose the use of neural networks to model source-side preordering for
+faster and better statistical machine translation. The neural network trains a
+logistic regression model to predict whether two sibling nodes of the
+source-side parse tree should be swapped in order to obtain a more monotonic
+parallel corpus, based on samples extracted from the word-aligned parallel
+corpus.  For multiple language pairs and domains, we show that this yields the
+best reordering performance against other state-of-the-art techniques,
+resulting in improved translation quality and very fast decoding.
+Author{1}{Firstname}#=%=#Adrià
+Author{1}{Lastname}#=%=#de Gispert
+Author{1}{Email}#=%=#agispert@sdl.com
+Author{1}{Affiliation}#=%=#SDL Research
+Author{2}{Firstname}#=%=#Gonzalo
+Author{2}{Lastname}#=%=#Iglesias
+Author{2}{Email}#=%=#gonzalo.iglesias.iglesias@gmail.com
+Author{2}{Affiliation}#=%=#SDL
+Author{3}{Firstname}#=%=#Bill
+Author{3}{Lastname}#=%=#Byrne
+Author{3}{Email}#=%=#bill.byrne@eng.cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+
+==========

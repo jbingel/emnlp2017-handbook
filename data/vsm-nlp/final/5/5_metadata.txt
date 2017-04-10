@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#A Multi-classifier Approach to support Coreference Resolution in a Vector Space Model
+ShortPaperTitle#=%=#A Multi-classifier Approach to support Coreference Resolution in a Vector Space Model
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Ana Zelaia
+JobTitle#==#
+Organization#==#Faculty of Informatics
+University of the Basque Country (UPV/EHU)
+Manuel Lardizabal, 1
+20018 Donostia-San Sebastian
+Basque Country, Spain
+Abstract#==#In this paper a different machine learning approach is presented to deal with
+the coreference resolution task. This approach consists of a multi-classifier
+system that classifies mention-pairs in a reduced dimensional vector space. The
+vector representation for mention-pairs is generated using a rich set of
+linguistic features. The SVD technique is used to generate the reduced
+dimensional vector space. 
+
+The approach is applied to the OntoNotes v4.0 Release Corpus for the
+column-format files used in CONLL-2011 coreference resolution shared task. The
+results obtained show that the reduced dimensional representation obtained by
+SVD is very adequate to appropriately classify mention-pair vectors. Moreover,
+we can state that the multi-classifier plays an important role in improving the
+results.
+Author{1}{Firstname}#=%=#Ana
+Author{1}{Lastname}#=%=#Zelaia
+Author{1}{Email}#=%=#ana.zelaia@ehu.eus
+Author{1}{Affiliation}#=%=#University of the Basque Country UPV/EHU
+Author{2}{Firstname}#=%=#Olatz
+Author{2}{Lastname}#=%=#Arregi
+Author{2}{Email}#=%=#olatz.arregi@ehu.eus
+Author{2}{Affiliation}#=%=#University of the Basque Country UPV/EHU
+Author{3}{Firstname}#=%=#Basilio
+Author{3}{Lastname}#=%=#Sierra
+Author{3}{Email}#=%=#b.sierra@ehu.eus
+Author{3}{Affiliation}#=%=#University of the Basque Country
+
+==========

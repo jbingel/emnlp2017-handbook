@@ -1,0 +1,71 @@
+SubmissionNumber#=%=#428
+FinalPaperTitle#=%=#Extracting Human Temporal Orientation from Facebook Language
+ShortPaperTitle#=%=#Extracting Human Temporal Orientation from Facebook Language
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#H Andrew schwartz
+JobTitle#==#
+Organization#==#University of Pennsylvania
+3701 Market St. Suite 219
+Philadelphia, PA 19130
+Abstract#==#People vary widely in their temporal orientation --- how often they emphasize
+the 
+past, present, and future --- and this affects their finances, health, and
+happiness. Traditionally, temporal orientation has been assessed by self-report
+questionnaires. In this paper, we develop a novel behavior-based assessment
+using human language on Facebook. We first create a past, present, and future
+message classifier, engineering features and evaluating a variety of
+classification techniques. Our message classifier achieves an accuracy of
+71.8%, compared with 52.8% from the most frequent class and 58.6% from a model
+based entirely on time expression features. We quantify a users’ overall
+temporal orientation based on their distribution of messages and validate it
+against known human correlates: conscientiousness, age, and gender. We then
+explore social scientific questions, finding novel associations with the
+factors openness to experience, satisfaction with life, depression, IQ, and
+one’s number of friends. Further, demonstrating how one can track orientation
+over time, we find differences in future orientation around birthdays.
+Author{1}{Firstname}#=%=#H. Andrew
+Author{1}{Lastname}#=%=#Schwartz
+Author{1}{Email}#=%=#hansens@seas.upenn.edu
+Author{1}{Affiliation}#=%=#University of Pennsylvania
+Author{2}{Firstname}#=%=#Gregory
+Author{2}{Lastname}#=%=#Park
+Author{2}{Email}#=%=#gregoryjpark@gmail.com
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+Author{3}{Firstname}#=%=#Maarten
+Author{3}{Lastname}#=%=#Sap
+Author{3}{Email}#=%=#maarten@sas.upenn.edu
+Author{3}{Affiliation}#=%=#University of Pennsylvania
+Author{4}{Firstname}#=%=#Evan
+Author{4}{Lastname}#=%=#Weingarten
+Author{4}{Email}#=%=#ewein@wharton.upenn.edu
+Author{4}{Affiliation}#=%=#University of Pennsylvania
+Author{5}{Firstname}#=%=#Johannes
+Author{5}{Lastname}#=%=#Eichstaedt
+Author{5}{Email}#=%=#johannes.eichstaedt@gmail.com
+Author{5}{Affiliation}#=%=#University of Pennsylvania
+Author{6}{Firstname}#=%=#Margaret
+Author{6}{Lastname}#=%=#Kern
+Author{6}{Email}#=%=#mkern@sas.upenn.edu
+Author{6}{Affiliation}#=%=#University of Pennsylvania
+Author{7}{Firstname}#=%=#David
+Author{7}{Lastname}#=%=#Stillwell
+Author{7}{Email}#=%=#contact@davidstillwell.co.uk
+Author{7}{Affiliation}#=%=#
+Author{8}{Firstname}#=%=#Michal
+Author{8}{Lastname}#=%=#Kosinski
+Author{8}{Email}#=%=#michal@michalkosinski.com
+Author{8}{Affiliation}#=%=#Cambridge University
+Author{9}{Firstname}#=%=#Jonah
+Author{9}{Lastname}#=%=#Berger
+Author{9}{Email}#=%=#jberger@wharton.upenn.edu
+Author{9}{Affiliation}#=%=#University of Pennsylvania
+Author{10}{Firstname}#=%=#Martin
+Author{10}{Lastname}#=%=#Seligman
+Author{10}{Email}#=%=#marty@psych.upenn.edu
+Author{10}{Affiliation}#=%=#University of Pennsylvania
+Author{11}{Firstname}#=%=#Lyle
+Author{11}{Lastname}#=%=#Ungar
+Author{11}{Email}#=%=#ungar@cis.upenn.edu
+Author{11}{Affiliation}#=%=#University of Pennsylvania
+
+==========

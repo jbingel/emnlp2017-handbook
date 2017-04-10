@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#468
+FinalPaperTitle#=%=#Two/Too Simple Adaptations of Word2Vec for Syntax Problems
+ShortPaperTitle#=%=#Two/Too Simple Adaptations of Word2Vec for Syntax Problems
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Wang Ling
+JobTitle#==#
+Organization#==#
+Abstract#==#We present two simple modifications to the models in the popular Word2Vec tool,
+in order to generate embeddings more suited to tasks involving syntax. The main
+issue with the original models is the fact that they are insensitive to word
+order. While order independence is useful for inducing semantic
+representations, this leads to suboptimal results when they are used to solve
+syntax-based problems. We show improvements in part-of-speech tagging and
+dependency parsing using our proposed models.
+Author{1}{Firstname}#=%=#Wang
+Author{1}{Lastname}#=%=#Ling
+Author{1}{Email}#=%=#wanglin1122@gmail.com
+Author{1}{Affiliation}#=%=#CMU-LTI & INESC-ID
+Author{2}{Firstname}#=%=#Chris
+Author{2}{Lastname}#=%=#Dyer
+Author{2}{Email}#=%=#cdyer@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Alan W
+Author{3}{Lastname}#=%=#Black
+Author{3}{Email}#=%=#awb@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Isabel
+Author{4}{Lastname}#=%=#Trancoso
+Author{4}{Email}#=%=#isabel.trancoso@inesc-id.pt
+Author{4}{Affiliation}#=%=#INESC-ID
+
+==========

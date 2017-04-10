@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#Multi-Level Alignments As An Extensible Representation Basis for Textual Entailment Algorithms
+ShortPaperTitle#=%=#Multi-Level Alignments As An Extensible Representation Basis for Textual Entailment Algorithms
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Tae-Gil Noh
+JobTitle#==#
+Organization#==#Department of Computational Linguistics, INF 325, 69120 Heidelberg, Germany
+Abstract#==#A major problem in research on Textual Entailment (TE) is the high
+implementation effort for TE systems. Recently, interoperable standards for
+annotation and preprocessing have been proposed. In contrast, the algorithmic
+level remains unstandardized, which makes component re-use in this area very
+difficult in practice. In this paper, we introduce multi-level alignments as a
+central, powerful representation for TE algorithms that encourages modular,
+reusable, multilingual algorithm development. We demonstrate that a pilot
+open-source implementation of multi-level alignment with minimal features
+competes with state-of-the-art open-source TE engines in three languages.
+Author{1}{Firstname}#=%=#Tae-Gil
+Author{1}{Lastname}#=%=#Noh
+Author{1}{Email}#=%=#noh@cl.uni-heidelberg.de
+Author{1}{Affiliation}#=%=#Dept. Computer Linguistics, Heidelberg University
+Author{2}{Firstname}#=%=#Sebastian
+Author{2}{Lastname}#=%=#Padó
+Author{2}{Email}#=%=#pado@ims.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#Stuttgart University
+Author{3}{Firstname}#=%=#Vered
+Author{3}{Lastname}#=%=#Shwartz
+Author{3}{Email}#=%=#vered1986@gmail.com
+Author{3}{Affiliation}#=%=#Bar-Ilan University
+Author{4}{Firstname}#=%=#Ido
+Author{4}{Lastname}#=%=#Dagan
+Author{4}{Email}#=%=#dagan@cs.biu.ac.il
+Author{4}{Affiliation}#=%=#Bar-Ilan University
+Author{5}{Firstname}#=%=#Vivi
+Author{5}{Lastname}#=%=#Nastase
+Author{5}{Email}#=%=#nastase@fbk.eu
+Author{5}{Affiliation}#=%=#FBK
+Author{6}{Firstname}#=%=#Kathrin
+Author{6}{Lastname}#=%=#Eichler
+Author{6}{Email}#=%=#kathrin.eichler@dfki.de
+Author{6}{Affiliation}#=%=#DFKI GmbH, Alt-Moabit 91c, 10559 Berlin
+Author{7}{Firstname}#=%=#Lili
+Author{7}{Lastname}#=%=#Kotlerman
+Author{7}{Email}#=%=#lili.dav@gmail.com
+Author{7}{Affiliation}#=%=#Bar Ilan University
+Author{8}{Firstname}#=%=#Meni
+Author{8}{Lastname}#=%=#Adler
+Author{8}{Email}#=%=#meni.adler@gmail.com
+Author{8}{Affiliation}#=%=#Bar-Ilan University
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Fusion of Compositional Network-based and Lexical Function Distributional Semantic Models
+ShortPaperTitle#=%=#Fusion of Compositional Network-based and Lexical Function Distributional Semantic Models
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Spiros Georgiladakis
+JobTitle#==#
+Organization#==#National Technical University of Athens, Greece
+Abstract#==#Distributional Semantic Models (DSMs) have been successful at modeling the
+meaning of individual words, with interest recently shifting to compositional
+structures, i.e., phrases and sentences. Network-based DSMs represent and
+handle semantics via operators applied on word neighborhoods, i.e., semantic
+graphs containing a target's most similar words. We extend network-based DSMs
+to address compositionality using an activation model (motivated by
+psycholinguistics) that operates on the fused neighborhoods of variable size
+activation. The proposed method is evaluated against and combined with the
+lexical function method proposed by (Baroni and Zamparelli, 2010). We show
+that, by fusing a network-based with a lexical function model, performance
+gains can be achieved.
+Author{1}{Firstname}#=%=#Spiros
+Author{1}{Lastname}#=%=#Georgiladakis
+Author{1}{Email}#=%=#sgeorgil@central.ntua.gr
+Author{1}{Affiliation}#=%=#National Technical University of Athens
+Author{2}{Firstname}#=%=#Elias
+Author{2}{Lastname}#=%=#Iosif
+Author{2}{Email}#=%=#iosife@central.ntua.gr
+Author{2}{Affiliation}#=%=#School of ECE, National Technical University of Athens
+Author{3}{Firstname}#=%=#Alexandros
+Author{3}{Lastname}#=%=#Potamianos
+Author{3}{Email}#=%=#apotam@gmail.com
+Author{3}{Affiliation}#=%=#National Technical University of Athens
+
+==========

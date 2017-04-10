@@ -1,0 +1,24 @@
+* June 4, 2015
++ 08:55--09:00 Opening Remarks
+= 09:00--10:30 Session 1
+! 09:00--10:00 Invited Talk %by Philipp Koehn
+1 10:00--10:30  # Harmonizing word alignments and syntactic structures for extracting phrasal translation equivalents
+= 10:30--11:00 Coffee Break
+= 11:00--12:30 Session 2
+3 11:00--11:30  # Non-projective Dependency-based Pre-Reordering with Recurrent Neural Network for Machine Translation
+4 11:30--12:00  # Translating Negation: Induction, Search And Model Errors
+9 12:00--12:30  # SMT error analysis and mapping to syntactic, semantic and structural fixes
+= 12:30--13:55 Lunch Break
+= 13:55--14:30 Session 3
++ 13:55--14:00 QTLeap Best Paper Award
+7 14:00--14:30  # Unsupervised False Friend Disambiguation Using Contextual Word Clusters and Parallel Word Alignments
+= 14:30--15:30 Session 4:  Posters
+2 14:30--14:35  # METEOR-WSD: Improved Sense Matching in MT Evaluation
+5 14:35--14:40  # Analyzing English-Spanish Named-Entity enhanced Machine Translation
+6 14:40--14:45  # Predicting Prepositions for SMT
+12 14:45--14:50  # Translation reranking using source phrase dependency features
+13 14:50--14:55  # Semantics-based pretranslation for SMT using fuzzy matches
+= 15:30--16:00 Coffee Break
+= 16:00--17:00 Session 5
+10 16:00--16:30  # What Matters Most in Morphologically Segmented SMT Models?
+11 16:30--17:00  # Improving Chinese-English PropBank Alignment

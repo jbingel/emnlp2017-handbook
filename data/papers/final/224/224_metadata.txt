@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#224
+FinalPaperTitle#=%=#LR Parsing for LCFRS
+ShortPaperTitle#=%=#LR Parsing for LCFRS
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Wolfgang Maier
+JobTitle#==#
+Organization#==#University of Düsseldorf
+Universitätsstr. 1, 40225 Düsseldorf, Germany
+Abstract#==#LR parsing is a popular parsing strategy for variants of Context-Free Grammar
+(CFG). It has also been used for mildly context-sensitive formalisms, such as
+Tree-Adjoining Grammar. In this paper, we present the first LR-style parsing
+algorithm for Linear Context-Free Rewriting Systems (LCFRS), a mildly
+context-sensitive extension of CFG which has received considerable attention in
+the last years.
+Author{1}{Firstname}#=%=#Laura
+Author{1}{Lastname}#=%=#Kallmeyer
+Author{1}{Email}#=%=#kallmeyer@phil.uni-duesseldorf.de
+Author{1}{Affiliation}#=%=#University of Duesseldorf
+Author{2}{Firstname}#=%=#Wolfgang
+Author{2}{Lastname}#=%=#Maier
+Author{2}{Email}#=%=#maierw@hhu.de
+Author{2}{Affiliation}#=%=#University of Düsseldorf
+
+==========

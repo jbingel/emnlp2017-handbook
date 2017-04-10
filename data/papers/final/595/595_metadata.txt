@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#595
+FinalPaperTitle#=%=#Déjà Image-Captions: A Corpus of Expressive Descriptions in Repetition
+ShortPaperTitle#=%=#Déjà Image-Captions: A Corpus of Expressive Descriptions in Repetition
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jianfu Chen
+JobTitle#==#
+Organization#==#Stony Brook University, Stony Brook, NY, 11794
+Abstract#==#We present a new approach to harvesting a large-scale, high quality
+image-caption corpus that makes a better use of already existing web data with
+no additional human efforts. The key idea is to focus on Déjà Image-Captions:
+naturally existing image descriptions that are repeated almost verbatim – by
+more than one individual for different images. The resulting corpus provides
+association structure between 4 million images with 180K unique captions,
+capturing a rich spectrum of everyday narratives including figurative and
+pragmatic language. Exploring the use of the new corpus, we also present new
+conceptual tasks of visually situated paraphrasing, creative image captioning,
+and creative visual paraphrasing.
+Author{1}{Firstname}#=%=#Jianfu
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#txjchen@gmail.com
+Author{1}{Affiliation}#=%=#Stony Brook University
+Author{2}{Firstname}#=%=#Polina
+Author{2}{Lastname}#=%=#Kuznetsova
+Author{2}{Email}#=%=#pvkuznet@gmail.com
+Author{2}{Affiliation}#=%=#Stony Brook University
+Author{3}{Firstname}#=%=#David
+Author{3}{Lastname}#=%=#Warren
+Author{3}{Email}#=%=#warren@cs.stonybrook.edu
+Author{3}{Affiliation}#=%=#Stony Brook University
+Author{4}{Firstname}#=%=#Yejin
+Author{4}{Lastname}#=%=#Choi
+Author{4}{Email}#=%=#yejin@cs.washington.edu
+Author{4}{Affiliation}#=%=#University of Washington
+
+==========

@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Visualizing Poetry with SPARSAR – Visual Maps from Poetic Content
+ShortPaperTitle#=%=#Visualizing Poetry with SPARSAR – Visual Maps from Poetic Content
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Rodolfo Delmonte
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper we present a specific application of SPARSAR, a system for poetry
+analysis and TextToSpeech “expressive reading”. We will focus on the
+graphical
+output organized at three macro levels, a Phonetic Relational View where
+phonetic and phonological features are highlighted; a Poetic Relational View
+that accounts for a poem rhyming and metrical structure; and a Semantic
+Relational View that shows semantic and pragmatic relations in the poem. We
+will also discuss how colours may be used appropriately to account for the
+overall underlying attitude expressed in the poem, whether directed to sadness
+or to happiness. This is done following traditional approaches which assume
+that the underlying feeling of a poem is strictly related to the sounds
+conveyed by the words besides their meaning. This will be shown using part of
+Shakespeare’s Sonnets.
+Author{1}{Firstname}#=%=#Rodolfo
+Author{1}{Lastname}#=%=#Delmonte
+Author{1}{Email}#=%=#delmont@unive.it
+Author{1}{Affiliation}#=%=#Ca' Foscari University Venice
+
+==========

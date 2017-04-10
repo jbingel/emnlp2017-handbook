@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#453
+FinalPaperTitle#=%=#Prosodic boundary information helps unsupervised word segmentation
+ShortPaperTitle#=%=#Prosodic boundary information helps unsupervised word segmentation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Bogdan Ludusan
+JobTitle#==#
+Organization#==#
+Abstract#==#It is well known that prosodic information is used by infants in early language
+acquisition. In particular, prosodic boundaries have been shown to help infants
+with sentence and word-level segmentation. In this study, we extend an
+unsupervised method for word segmentation to include information about prosodic
+boundaries. The boundary information used was either derived from oracle data
+(hand-annotated), or extracted automatically with a system that employs only
+acoustic cues for boundary detection. The approach was tested on two different
+languages, English and Japanese, and the results show that boundary information
+helps word segmentation in both cases. The performance gain obtained for two
+typologically distinct languages shows the robustness of prosodic information
+for word segmentation. Furthermore, the improvements are not limited to the use
+of oracle information, similar performances being obtained also with
+automatically extracted boundaries.
+Author{1}{Firstname}#=%=#Bogdan
+Author{1}{Lastname}#=%=#Ludusan
+Author{1}{Email}#=%=#bogdan.ludusan@ens.fr
+Author{1}{Affiliation}#=%=#LSCP - EHESS/ENS/CNRS, Paris
+Author{2}{Firstname}#=%=#Gabriel
+Author{2}{Lastname}#=%=#Synnaeve
+Author{2}{Email}#=%=#gabriel.synnaeve@gmail.com
+Author{2}{Affiliation}#=%=#Ecole Normale Superieure
+Author{3}{Firstname}#=%=#Emmanuel
+Author{3}{Lastname}#=%=#Dupoux
+Author{3}{Email}#=%=#emmanuel.dupoux@gmail.com
+Author{3}{Affiliation}#=%=#LSCP - EHESS/ENS/CNRS, Paris
+
+==========

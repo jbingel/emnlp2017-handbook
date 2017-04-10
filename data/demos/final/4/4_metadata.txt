@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Lean Question Answering over Freebase from Scratch
+ShortPaperTitle#=%=#Lean Question Answering over Freebase from Scratch
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Xuchen Yao
+JobTitle#==#
+Organization#==#kitt.ai
+2157 N Northlake Way Suite 110
+Seattle, WA 98103
+Abstract#==#For the task of question answering (QA) over Freebase on the WebQuestions
+dataset (Berant et al., 2013), we found that 85% of all questions (in the
+training set) can be directly answered via a single binary relation. Thus we
+turned this task into slot-filling for <question topic, relation, answer>
+tuples: predicting relations to get answers given a question’s topic. We
+design efficient data structures to identify question topics organically from
+46 million Freebase topic names, without employing any NLP processing tools.
+Then we present a lean QA system that runs in real time (in offline batch
+testing it answered two thousand questions in 51 seconds on a laptop). The
+system also achieved 7.8% better F1 score (harmonic mean of average precision
+and recall) than the previous state of the art.
+Author{1}{Firstname}#=%=#Xuchen
+Author{1}{Lastname}#=%=#Yao
+Author{1}{Email}#=%=#xuchenyao@gmail.com
+Author{1}{Affiliation}#=%=#kitt.ai
+
+==========

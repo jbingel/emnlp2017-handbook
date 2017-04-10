@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#A Computational Approach for Generating Toulmin Model Argumentation
+ShortPaperTitle#=%=#A Computational Approach for Generating Toulmin Model Argumentation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Paul Reisert
+JobTitle#==#
+Organization#==#Tohoku University
+6-6 Aramaki Aza Aoba, Aobaku, Sendai, Miyagi 980-8579, Japan
+Abstract#==#Automatic generation of arguments is an important task that can be useful for
+many applications. For instance, the ability to generate coherent arguments
+during a debate can be useful when determining strengths of supporting
+evidence. However, with limited technologies that automatically generate
+arguments, the development of computational models for debates, as well as
+other areas, is becoming increasingly important. For this task, we focused on a
+promising argumentation model: the Toulmin model. The Toulmin model is both
+well-structured and general, and has been shown to be useful for policy
+debates. In this preliminary work we attempted to generate, with a given topic
+motion keyword or phrase, Toulmin model arguments by developing a computational
+model for detecting arguments spanned across multiple documents. This paper
+discusses our subjective results, observations, and future work.
+Author{1}{Firstname}#=%=#Paul
+Author{1}{Lastname}#=%=#Reisert
+Author{1}{Email}#=%=#preisert@ecei.tohoku.ac.jp
+Author{1}{Affiliation}#=%=#Tohoku University
+Author{2}{Firstname}#=%=#Naoya
+Author{2}{Lastname}#=%=#Inoue
+Author{2}{Email}#=%=#naoya-i@ecei.tohoku.ac.jp
+Author{2}{Affiliation}#=%=#Tohoku University
+Author{3}{Firstname}#=%=#Naoaki
+Author{3}{Lastname}#=%=#Okazaki
+Author{3}{Email}#=%=#okazaki@ecei.tohoku.ac.jp
+Author{3}{Affiliation}#=%=#Tohoku University
+Author{4}{Firstname}#=%=#Kentaro
+Author{4}{Lastname}#=%=#Inui
+Author{4}{Email}#=%=#inui@ecei.tohoku.ac.jp
+Author{4}{Affiliation}#=%=#Tohoku University
+
+==========

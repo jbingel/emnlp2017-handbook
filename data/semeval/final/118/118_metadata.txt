@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#118
+FinalPaperTitle#=%=#HLT-FBK: a Complete Temporal Processing System for QA TempEval
+ShortPaperTitle#=%=#HLT-FBK: a Complete Temporal Processing System for QA TempEval
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Paramita Mirza
+JobTitle#==#
+Organization#==#FBK, Trento, Italy
+Abstract#==#The HLT-FBK system is a suite of SVMs-based classification models for
+extracting time expressions, events and temporal relations, each with a set of
+features obtained with the NewsReader NLP pipeline. HLT-FBK's best system runs
+ranked 1st in all three domains, with a recall of 0.30 over all domains. Our
+attempts on increasing recall by considering all SRL predicates as events as
+well as utilizing event co-reference information in extracting temporal links
+result in significant improvements.
+Author{1}{Firstname}#=%=#Paramita
+Author{1}{Lastname}#=%=#Mirza
+Author{1}{Email}#=%=#paramita@fbk.eu
+Author{1}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{2}{Firstname}#=%=#Anne-Lyse
+Author{2}{Lastname}#=%=#Minard
+Author{2}{Email}#=%=#minard@fbk.eu
+Author{2}{Affiliation}#=%=#FBK
+
+==========

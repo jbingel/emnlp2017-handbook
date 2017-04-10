@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#125
+FinalPaperTitle#=%=#SWATAC: A Sentiment Analyzer using One-Vs-Rest Logistic Regression
+ShortPaperTitle#=%=#SWATAC: A Sentiment Analyzer using One-Vs-Rest Logistic Regression
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Richard Wicentowski
+JobTitle#==#
+Organization#==#500 College Avenue
+Swarthmore, PA 19081
+Abstract#==#This paper describes SWATAC, a system built for SemEval-2015's Task 10 Subtask
+B, namely the Message Polarity Classification Task. Given a tweet, the system
+classifies the sentiment as either positive, negative, or neutral. Several
+preprocessing tasks such as negation detection, spell checking, and
+tokenization are performed to enhance lexical information. The features are
+then augmented with external sentiment lexicons. Classification is done with
+Logistic Regression using a one-vs-rest configuration. For the test runs, the
+system was trained using only the provided training tweets. The classifier was
+successful, with an F1 score of 58.43 on the official 2015 test data, and an F1
+score of 66.64 on the Twitter 2014 progress data.
+Author{1}{Firstname}#=%=#Yousef
+Author{1}{Lastname}#=%=#Alhessi
+Author{1}{Email}#=%=#yalhess1@swarthmore.edu
+Author{1}{Affiliation}#=%=#Swarthmore College
+Author{2}{Firstname}#=%=#Richard
+Author{2}{Lastname}#=%=#Wicentowski
+Author{2}{Email}#=%=#richardw@cs.swarthmore.edu
+Author{2}{Affiliation}#=%=#Swarthmore College
+
+==========

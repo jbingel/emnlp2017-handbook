@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#533
+FinalPaperTitle#=%=#A Hybrid Generative/Discriminative Approach To Citation Prediction
+ShortPaperTitle#=%=#A Hybrid Generative/Discriminative Approach To Citation Prediction
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Chris Tanner
+JobTitle#==#
+Organization#==#Brown University
+CIT - 4th Floor
+115 Waterman St.
+Providence, RI  02912
+Abstract#==#Text documents of varying nature (e.g., summary documents written by analysts
+or published, scientific papers) often cite others as a means of providing
+evidence to support a claim, attributing credit, or referring the reader to
+related work. We address the problem of predicting a document's cited sources
+by introducing a novel, discriminative approach which combines a content-based
+generative model (LDA) with author-based features. Further, our classifier is
+able to learn the importance and quality of each topic within our corpus --
+which can be useful beyond this task -- and preliminary results suggest its
+metric is competitive with other standard metrics (Topic Coherence). Our
+flagship system, Logit-Expanded, provides state-of-the-art performance on the
+largest corpus ever used for this task.
+Author{1}{Firstname}#=%=#Chris
+Author{1}{Lastname}#=%=#Tanner
+Author{1}{Email}#=%=#christanner@cs.brown.edu
+Author{1}{Affiliation}#=%=#Brown University
+Author{2}{Firstname}#=%=#Eugene
+Author{2}{Lastname}#=%=#Charniak
+Author{2}{Email}#=%=#ec@cs.brown.edu
+Author{2}{Affiliation}#=%=#Brown University
+
+==========

@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Event analysis for information extraction from business-based technical documents
+ShortPaperTitle#=%=#Event analysis for information extraction from business-based technical documents
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Bell Manrique Losada
+JobTitle#==#
+Organization#==#Universidad de Medellín
+Abstract#==#Event identification plays a crucial role in several natural language
+processing applica-tions such as information extraction, question answering,
+and text analysis. In this paper, we describe a novel approach for analyzing
+events, their distribution, and the event men-tions from a corpus of unlabeled
+business-based technical documents—a specific genre. In order to infer such
+mentions, we analyze the subject-verb-object structure for semi-automatically
+extracting several lexical, syn-tactic, and semantic features for each event
+mention from the corpus. Extracting event mentions allows us to cast grouping
+together the mentions with same features and propose properties leading to the
+differences of the specific genre. The obtained results are used for supporting
+an event-centered processing level, from an automated machine for pro-cessing
+texts.
+Author{1}{Firstname}#=%=#Bell
+Author{1}{Lastname}#=%=#Manrique-Losada
+Author{1}{Email}#=%=#bmanrique@udem.edu.co
+Author{1}{Affiliation}#=%=#Universidad de Medellín
+Author{2}{Firstname}#=%=#Carlos Mario
+Author{2}{Lastname}#=%=#Zapata Jaramillo
+Author{2}{Email}#=%=#cmzapata@unal.edu.co
+Author{2}{Affiliation}#=%=#Universidad Nacional de Colombia
+
+==========

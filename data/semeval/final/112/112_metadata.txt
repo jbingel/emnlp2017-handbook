@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#112
+FinalPaperTitle#=%=#UPF-taln: SemEval 2015 Tasks 10 and 11. Sentiment Analysis of Literal and Figurative Language in Twitter
+ShortPaperTitle#=%=#UPF-taln: SemEval 2015 Tasks 10 and 11
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Francesco Barbieri
+JobTitle#==#
+Organization#==#Universitat Pompeu Fabra,
+Tànger building (Comunication-Poblenou campus),
+Tànger, 122-140,
+08018 Barcelona, 
+Spain
+Abstract#==#In this paper, we describe the approach used by the UPF-taln team for tasks 10
+and 11 of SemEval 2015 that respectively focused on "Sentiment Analysis in
+Twitter" and "Sentiment Analysis of Figurative Language in Twitter". Our
+approach achieved satisfactory results in the figurative language analysis
+task, obtaining the second best result. In task 10, our approach obtained
+acceptable performances. We experimented with both word-based features and
+domain-independent intrinsic word features. We exploited two machine learning
+methods: the supervised algorithm Support Vector Machine for task 10, and
+Random-Sub-Space with M5P as base algorithm for task 11.
+Author{1}{Firstname}#=%=#Francesco
+Author{1}{Lastname}#=%=#Barbieri
+Author{1}{Email}#=%=#francesco.barbieri@upf.edu
+Author{1}{Affiliation}#=%=#Pompeu Fabra University, Barcelona
+Author{2}{Firstname}#=%=#Francesco
+Author{2}{Lastname}#=%=#Ronzano
+Author{2}{Email}#=%=#francesco.ronzano@upf.edu
+Author{2}{Affiliation}#=%=#TALN Research Group, Universitat Pompeu Fabra, Barcelona
+Author{3}{Firstname}#=%=#Horacio
+Author{3}{Lastname}#=%=#Saggion
+Author{3}{Email}#=%=#horacio.saggion@upf.edu
+Author{3}{Affiliation}#=%=#UPF & University of Sheffield
+
+==========

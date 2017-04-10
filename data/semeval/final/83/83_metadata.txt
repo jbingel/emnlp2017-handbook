@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#83
+FinalPaperTitle#=%=#MITRE: Seven Systems for Semantic Similarity in Tweets
+ShortPaperTitle#=%=#MITRE: Seven Systems for Semantic Similarity in Tweets
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jeffrey Zarrella
+JobTitle#==#
+Organization#==#7515 Colshire Dr
+McLean, VA 22102
+Abstract#==#This paper describes MITRE’s participation in the Paraphrase and Semantic
+Similarity in Twitter task (SemEval-2015 Task 1). This effort placed first in
+Semantic Similarity and second in Paraphrase Identification with scores of
+Pearson’s r of 61.9%, F1 of 66.7%, and maxF1 of 72.4%. We detail the
+approaches we explored including mixtures of string matching metrics,
+alignments using tweet-specific distributed word representations, recurrent
+neural networks for modeling similarity with those alignments, and distance
+measurements on pooled latent semantic features. Logistic regression is used to
+tie the systems together into the ensembles submitted for evaluation.
+Author{1}{Firstname}#=%=#Guido
+Author{1}{Lastname}#=%=#Zarrella
+Author{1}{Email}#=%=#jzarrella@mitre.org
+Author{1}{Affiliation}#=%=#The MITRE Corporation
+Author{2}{Firstname}#=%=#John
+Author{2}{Lastname}#=%=#Henderson
+Author{2}{Email}#=%=#jhndrsn@mitre.org
+Author{2}{Affiliation}#=%=#The MITRE Corporation
+Author{3}{Firstname}#=%=#Elizabeth M.
+Author{3}{Lastname}#=%=#Merkhofer
+Author{3}{Email}#=%=#emerkhofer@mitre.org
+Author{3}{Affiliation}#=%=#The MITRE Corporation
+Author{4}{Firstname}#=%=#Laura
+Author{4}{Lastname}#=%=#Strickhart
+Author{4}{Email}#=%=#lstrickhart@mitre.org
+Author{4}{Affiliation}#=%=#The MITRE Corporation
+
+==========

@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Putting Feelings into Words: Cross-Linguistic Markers of the Referential Process
+ShortPaperTitle#=%=#Putting Feelings into Words: Cross-Linguistic Markers of the Referential Process
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Sean Murphy
+JobTitle#==#
+Organization#==#New York Psychoanalytic Society and Institute
+247 East 82nd Street
+New York, NY 10028, USA
+Abstract#==#The use of language to convey emotional experience is of significant importance
+to the process of psychotherapy, the diagnosis of problems with emotion and
+memory, and more generally to any communication that aims to evoke a feeling in
+the recipient.              Bucci's theory of the referential process (1997) concerns
+three
+phases whereby a person activates emotional, or bodily experience (Arousal
+Phase), conveys the images and events associated with it (Symbolizing Phase),
+and reconsiders them (Reorganizing Phase). The Symbolizing Phase is the major
+focus of this study and is operationalized by a measure called referential
+activity (RA) based on judges' ratings of the concreteness, specifcity, clarity
+and imagery of language style.              Computational models of RA have
+previously been
+created in several languages, however, due to the complexity of modeling RA,
+different modeling strategies have been employed for each language and common
+features that predict RA across languages are not well understood.  Working
+from previous computational models developed in English and Italian, this study
+specifies a new model of predictors common to both languages that correlates
+between r = .36 and.45 with RA.  The components identified support the
+construct validity of the referential process and may facilitate the
+development of measures in other languages.
+Author{1}{Firstname}#=%=#Sean
+Author{1}{Lastname}#=%=#Murphy
+Author{1}{Email}#=%=#smurphy1@gmail.com
+Author{1}{Affiliation}#=%=#New York Psychoanalytic Society and Institute
+Author{2}{Firstname}#=%=#Bernard
+Author{2}{Lastname}#=%=#Maskit
+Author{2}{Email}#=%=#daap@optonline.net
+Author{2}{Affiliation}#=%=#Stony Brook University
+Author{3}{Firstname}#=%=#Wilma
+Author{3}{Lastname}#=%=#Bucci
+Author{3}{Email}#=%=#wbucci@optonline.net
+Author{3}{Affiliation}#=%=#Adelphi University
+
+==========

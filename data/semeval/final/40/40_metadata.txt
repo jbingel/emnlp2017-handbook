@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#40
+FinalPaperTitle#=%=#FBK-HLT: An Effective System for Paraphrase Identification and Semantic Similarity in Twitter
+ShortPaperTitle#=%=#FBK-HLT: An Effective System for Paraphrase Identification and Semantic Similarity in Twitter
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Ngoc Phuoc An Vo
+JobTitle#==#
+Organization#==#Fondazione Bruno Kessler (FBK), Trento, Italy
+University of Trento, Italy
+Abstract#==#This paper reports the description and performance of our system, FBK-HLT,
+participating in the SemEval 2015, Task#1 "Paraphrase and Semantic Similarity
+in Twitter", for both subtasks. We submitted two runs with different
+classifiers in combining typical features (lexical similarity, string
+similarity, word n-grams, etc) with machine translation metrics and edit
+distance features. We outperform the baseline system and achieve a very
+competitive result to the best system on the first subtask. Eventually, we are
+ranked 4th out of 18 teams participating in subtask
+"Paraphrase Identification".
+Author{1}{Firstname}#=%=#Ngoc Phuoc An
+Author{1}{Lastname}#=%=#Vo
+Author{1}{Email}#=%=#ngoc@fbk.eu
+Author{1}{Affiliation}#=%=#HLT-FBK, Trento
+Author{2}{Firstname}#=%=#Simone
+Author{2}{Lastname}#=%=#Magnolini
+Author{2}{Email}#=%=#magnolini@fbk.eu
+Author{2}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{3}{Firstname}#=%=#Octavian
+Author{3}{Lastname}#=%=#Popescu
+Author{3}{Email}#=%=#o.popescu@us.ibm.com
+Author{3}{Affiliation}#=%=#IBM Research
+
+==========

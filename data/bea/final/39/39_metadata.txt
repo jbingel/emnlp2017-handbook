@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#39
+FinalPaperTitle#=%=#Automatic morphological analysis of learner Hungarian
+ShortPaperTitle#=%=#Automatic morphological analysis of learner Hungarian
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Scott Ledbetter
+JobTitle#==#
+Organization#==#Indiana University
+Abstract#==#In this paper, we describe a morphological analyzer for learner Hungarian,
+built upon limited grammatical knowledge of Hungarian. The rule-based analyzer
+requires very few resources and is flexible enough to do both morphological
+analysis and error detection, in addition to some unknown word handling.  As
+this is work-in-progress, we demonstrate its current capabilities, some areas
+where analysis needs to be improved, and an initial foray into how the system
+output can support the analysis of interlanguage grammars.
+Author{1}{Firstname}#=%=#Scott
+Author{1}{Lastname}#=%=#Ledbetter
+Author{1}{Email}#=%=#saledbet@indiana.edu
+Author{1}{Affiliation}#=%=#Indiana University
+Author{2}{Firstname}#=%=#Markus
+Author{2}{Lastname}#=%=#Dickinson
+Author{2}{Email}#=%=#md7@indiana.edu
+Author{2}{Affiliation}#=%=#Indiana University
+
+==========

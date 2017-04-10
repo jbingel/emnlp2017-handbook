@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#Mental Illness Detection at the World Well-Being Project for the CLPsych 2015 Shared Task
+ShortPaperTitle#=%=#Mental Illness Detection at the World Well-Being Project for the CLPsych 2015 Shared Task
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#This article is a system description and report on the submission of the World
+Well-Being Project from the University of Pennsylvania in the 'CLPsych 2015'
+shared task. The goal of the shared task was to automatically determine Twitter
+users who self-reported having one of two mental illnesses: post traumatic
+stress disorder (PTSD) and depression. Our system employs user metadata and
+textual features derived from Twitter posts. To reduce the feature space and
+avoid data sparsity, we consider several word clustering approaches. We explore
+the use of linear classifiers based on different feature sets as well as a
+combination use a linear ensemble. This method is agnostic of illness specific
+features, such as lists of medicines, thus making it readily applicable in
+other scenarios. Our approach ranked second in all tasks on average precision
+and showed best results at .1 false positive rates.
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Preoţiuc-Pietro
+Author{1}{Email}#=%=#danielpr@gmail.com
+Author{1}{Affiliation}#=%=#University of Pennsylvania
+Author{2}{Firstname}#=%=#Maarten
+Author{2}{Lastname}#=%=#Sap
+Author{2}{Email}#=%=#maarten@sas.upenn.edu
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+Author{3}{Firstname}#=%=#H. Andrew
+Author{3}{Lastname}#=%=#Schwartz
+Author{3}{Email}#=%=#hansens@seas.upenn.edu
+Author{3}{Affiliation}#=%=#University of Pennsylvania
+Author{4}{Firstname}#=%=#Lyle
+Author{4}{Lastname}#=%=#Ungar
+Author{4}{Email}#=%=#ungar@cis.upenn.edu
+Author{4}{Affiliation}#=%=#University of Pennsylvania
+
+==========

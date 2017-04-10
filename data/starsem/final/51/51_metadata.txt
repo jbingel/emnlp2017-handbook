@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#51
+FinalPaperTitle#=%=#Distributional semantics for ontology verification
+ShortPaperTitle#=%=#Distributional semantics for ontology verification
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Julien Corman
+JobTitle#==#PhD student
+Organization#==#IRIT
+118 Route de Narbonne
+31062 TOULOUSE CEDEX 9
+FRANCE
+Abstract#==#As they grow in size, OWL ontologies tend to comprise intuitively incompatible
+statements, even when they remain logically consistent. This is true in
+particular of lightweight ontologies, especially the ones which aggregate
+knowledge from different sources. The article investigates how distributional
+semantics can help detect and repair violation of common sense in consistent
+ontologies, based on the identification of consequences which are unlikely to
+hold if the rest of the ontology does. A score evaluating the plausibility for
+a consequence to hold with regard to distributional evidence is defined, as
+well as several methods in order to decide which statements should be
+preferably amended or discarded. A conclusive evaluation is also provided,
+which consists in extending an input ontology with randomly generated
+statements, before trying to discard them automatically.
+Author{1}{Firstname}#=%=#Julien
+Author{1}{Lastname}#=%=#Corman
+Author{1}{Email}#=%=#julien.corman@irit.fr
+Author{1}{Affiliation}#=%=#IRIT
+Author{2}{Firstname}#=%=#Laure
+Author{2}{Lastname}#=%=#Vieu
+Author{2}{Email}#=%=#laure.vieu@irit.fr
+Author{2}{Affiliation}#=%=#IRIT-CNRS-Toulouse University
+Author{3}{Firstname}#=%=#Nathalie
+Author{3}{Lastname}#=%=#Aussenac-Gilles
+Author{3}{Email}#=%=#nathalie.aussenac-gilles@irit.fr
+Author{3}{Affiliation}#=%=#CNRS - IRIT
+
+==========

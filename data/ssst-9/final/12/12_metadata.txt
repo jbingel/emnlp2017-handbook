@@ -1,0 +1,18 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Translation reranking using source phrase dependency features
+ShortPaperTitle#=%=#Translation reranking using source phrase dependency features
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Antonio Valerio Miceli Barone
+JobTitle#==#PhD student
+Organization#==#Dipartimento di Informatica, Università di Pisa
+Largo B. Pontecorvo, 3
+56127 Pisa, Italy
+Abstract#==#We describe a n-best reranking model based on features that combine source-side
+dependency syntactical information and segmentation and alignment information.
+Specifically, we consider segmentation-aware "phrase dependency" features.
+Author{1}{Firstname}#=%=#Antonio Valerio
+Author{1}{Lastname}#=%=#Miceli Barone
+Author{1}{Email}#=%=#av_miceli_barone@yahoo.it
+Author{1}{Affiliation}#=%=#University of Pisa, Italy
+
+==========

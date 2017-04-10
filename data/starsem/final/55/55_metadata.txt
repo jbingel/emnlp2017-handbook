@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#55
+FinalPaperTitle#=%=#Graph-based Coherence Modeling For Assessing Readability
+ShortPaperTitle#=%=#Graph-based Coherence Modeling For Assessing Readability
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Mohsen Mesgar
+JobTitle#==#
+Organization#==#HITS gGmbH
+Heidelberg Institute for Theoretical Studies
+
+Schloss-Wolfsbrunnenweg 35
+69118 Heidelberg
+Germany
+Abstract#==#Readability depends on many factors ranging from shallow features like word
+length to semantic ones like coherence. We introduce novel graph-based
+coherence features based on frequent subgraphs and compare their ability to
+assess the readability of Wall Street Journal articles. In contrast to Pitler
+and Nenkova (2008) some of our graph-based features are significantly
+correlated with human judgments. We
+outperform Pitler and Nenkova (2008) in the readability ranking task by more
+than 5% accuracy thus establishing a new state-of-the-art on this dataset.
+Author{1}{Firstname}#=%=#Mohsen
+Author{1}{Lastname}#=%=#Mesgar
+Author{1}{Email}#=%=#mohsen.mesgar@h-its.org
+Author{1}{Affiliation}#=%=#Heidelberg Institute for Theoretical Studies
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Strube
+Author{2}{Email}#=%=#michael.strube@h-its.org
+Author{2}{Affiliation}#=%=#Heidelberg Institute for Theoretical Studies
+
+==========

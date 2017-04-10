@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#161
+FinalPaperTitle#=%=#Turku: Semantic Dependency Parsing as a Sequence Classification
+ShortPaperTitle#=%=#Turku: Semantic Dependency Parsing as a Sequence Classification
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Jenna Kanerva
+JobTitle#==#
+Organization#==#University of Turku
+Turku, Finland
+Abstract#==#This paper presents the University of Turku entry to the SemEval-2015
+task on Broad-Coverage Semantic Dependency Parsing. The system uses an
+existing transition-based parser as a sequence classifier to jointly
+predict all arguments of one candidate predicate at a time. Compared
+to our 2014 entry, the 2015 system gains about 3pp in terms of F-score
+for a fraction of the development time. Depending on the subtask, the
+difference between our entry and the winning system ranges between 1
+and 5pp.
+Author{1}{Firstname}#=%=#Jenna
+Author{1}{Lastname}#=%=#Kanerva
+Author{1}{Email}#=%=#jmnybl@utu.fi
+Author{1}{Affiliation}#=%=#University of Turku
+Author{2}{Firstname}#=%=#Juhani
+Author{2}{Lastname}#=%=#Luotolahti
+Author{2}{Email}#=%=#mjluot@utu.fi
+Author{2}{Affiliation}#=%=#University of Turku
+Author{3}{Firstname}#=%=#Filip
+Author{3}{Lastname}#=%=#Ginter
+Author{3}{Email}#=%=#ginter@cs.utu.fi
+Author{3}{Affiliation}#=%=#University of Turku
+
+==========

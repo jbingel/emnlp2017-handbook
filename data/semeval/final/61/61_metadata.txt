@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#61
+FinalPaperTitle#=%=#VUA-background : When to Use Background Information to Perform Word Sense Disambiguation
+ShortPaperTitle#=%=#VUA-background : When to Use Background Information to Perform Word Sense Disambiguation
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Marten Postma
+JobTitle#==#PhD
+Organization#==#Free University of Amsterdam, De Boelelaan 1105, 1081 HV Amsterdam
+Abstract#==#We present in this paper our submission to task 13 of SemEval2015, which makes
+use
+of background information and external resources (DBpedia and Wikipedia) to
+automatically
+disambiguate texts. Our approach follows two routes for disambiguation: one
+route
+is proposed by a state–of–the–art WSD system, and the other one by the
+predominant
+sense information extracted in an unsupervised way from an automatically built
+background
+corpus. We reached 4th position in terms of F1-score in task number 13 of
+SemEval2015:
+“Multilingual All-Words Sense Disambiguation and Entity Linking” (Moro and
+Navigli, 2015). All the software and code created for this approach is publicly
+available
+on GitHub (https://github.com/cltl/vua-wsd-sem2015).
+Author{1}{Firstname}#=%=#Marten
+Author{1}{Lastname}#=%=#Postma
+Author{1}{Email}#=%=#m.c.postma@vu.nl
+Author{1}{Affiliation}#=%=#VU University Amsterdam
+Author{2}{Firstname}#=%=#Ruben
+Author{2}{Lastname}#=%=#Izquierdo
+Author{2}{Email}#=%=#ruben.izquierdobevia@vu.nl
+Author{2}{Affiliation}#=%=#VU University Amsterdam
+Author{3}{Firstname}#=%=#Piek
+Author{3}{Lastname}#=%=#Vossen
+Author{3}{Email}#=%=#p.t.j.m.vossen@vu.nl
+Author{3}{Affiliation}#=%=#VU University Amsterdam
+
+==========

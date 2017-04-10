@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Recursive Neural Networks for Coding Therapist and Patient Behavior in Motivational Interviewing
+ShortPaperTitle#=%=#Recursive Neural Networks for Coding Therapist and Patient Behavior in Motivational Interviewing
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Mike Tanana
+JobTitle#==#
+Organization#==#University of Utah, Salt Lake City, UT
+Abstract#==#Motivational Interviewing (MI) is an efficacioustreatment for substance use
+disorders and other problem behaviors (Lundahl and Burke, 2009). However,
+little is known about the specific mechanisms that drive therapeutic change. A
+growing body of research has focused on coding within-session language to
+better understand how therapist and patient language mutually influence each
+other and predict successful (or unsuccessful) treatment outcomes. These
+studies typically use human raters, requiring considerable financial, time, and
+training costs for conducting such research. This paper describes the
+development and testing of a recursive neural network (RNN) model for rating
+78,977 therapist and patient talk turns across 356 MI sessions. We assessed the
+accuracy of RNNs in predicting human ratings for client speech and compared
+them to standard n gram models. The RNN model showed improvement over ngram
+models for some codes, but overall, all of the models performed well below
+human reliability, demonstrating the difficulty of the
+task.
+Author{1}{Firstname}#=%=#Michael
+Author{1}{Lastname}#=%=#Tanana
+Author{1}{Email}#=%=#michael.tanana@utah.edu
+Author{1}{Affiliation}#=%=#University of Utah
+Author{2}{Firstname}#=%=#Kevin
+Author{2}{Lastname}#=%=#Hallgren
+Author{2}{Email}#=%=#kevinhallgren@gmail.com
+Author{2}{Affiliation}#=%=#University of Washington
+Author{3}{Firstname}#=%=#Zac
+Author{3}{Lastname}#=%=#Imel
+Author{3}{Email}#=%=#zac.imel@utah.edu
+Author{3}{Affiliation}#=%=#University of Utah
+Author{4}{Firstname}#=%=#David
+Author{4}{Lastname}#=%=#Atkins
+Author{4}{Email}#=%=#datkins@u.washington.edu
+Author{4}{Affiliation}#=%=#University of Washington
+Author{5}{Firstname}#=%=#Padhraic
+Author{5}{Lastname}#=%=#Smyth
+Author{5}{Email}#=%=#smyth@ics.uci.edu
+Author{5}{Affiliation}#=%=#University of California, Irvine
+Author{6}{Firstname}#=%=#Vivek
+Author{6}{Lastname}#=%=#Srikumar
+Author{6}{Email}#=%=#svivek@cs.utah.edu
+Author{6}{Affiliation}#=%=#University of Utah
+
+==========

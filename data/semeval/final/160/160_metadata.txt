@@ -1,0 +1,74 @@
+SubmissionNumber#=%=#160
+FinalPaperTitle#=%=#SemEval-2015 Task 2: Semantic Textual Similarity, English, Spanish and Pilot on Interpretability
+ShortPaperTitle#=%=#SemEval-2015 Task 2: Semantic Textual Similarity, English, Spanish and Pilot on Interpretability
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#eneko
+JobTitle#==#
+Organization#==#University of the Basque Country
+20008 Donostia
+Basque country
+Abstract#==#In semantic textual similarity (STS), systems rate the degree of semantic
+equivalence between two text snippets. This year, the participants were
+challenged with new datasets in English and Spanish. The annotations for both
+subtasks leveraged crowdsourcing. The English subtask attracted 29 teams with
+74 system runs, and the Spanish subtask engaged 7 teams participating with 16
+system runs. In addition, this year we ran a pilot task on interpretable STS,
+where the systems needed to add an explanatory layer, that is, they had to
+align the chunks in the sentence pair, explicitly annotating the kind of
+relation and the score of the chunk pair. The train and test data were manually
+annotated by an expert, and included headline and image sentence pairs from
+previous years. 7 teams participated with 29 runs.
+Author{1}{Firstname}#=%=#Eneko
+Author{1}{Lastname}#=%=#Agirre
+Author{1}{Email}#=%=#e.agirre@ehu.eus
+Author{1}{Affiliation}#=%=#University of the Basque Country (UPV/EHU)
+Author{2}{Firstname}#=%=#Carmen
+Author{2}{Lastname}#=%=#Banea
+Author{2}{Email}#=%=#carmen.banea@gmail.com
+Author{2}{Affiliation}#=%=#University of Michigan
+Author{3}{Firstname}#=%=#Claire
+Author{3}{Lastname}#=%=#Cardie
+Author{3}{Email}#=%=#cardie@cs.cornell.edu
+Author{3}{Affiliation}#=%=#Cornell University
+Author{4}{Firstname}#=%=#Daniel
+Author{4}{Lastname}#=%=#Cer
+Author{4}{Email}#=%=#danielcer@acm.org
+Author{4}{Affiliation}#=%=#Google
+Author{5}{Firstname}#=%=#Mona
+Author{5}{Lastname}#=%=#Diab
+Author{5}{Email}#=%=#mtdiab@gwu.edu
+Author{5}{Affiliation}#=%=#GWU
+Author{6}{Firstname}#=%=#Aitor
+Author{6}{Lastname}#=%=#Gonzalez-Agirre
+Author{6}{Email}#=%=#aitor.gonzalezagirre@gmail.com
+Author{6}{Affiliation}#=%=#University of the Basque Country (UPV/EHU)
+Author{7}{Firstname}#=%=#Weiwei
+Author{7}{Lastname}#=%=#Guo
+Author{7}{Email}#=%=#weiwei@cs.columbia.edu
+Author{7}{Affiliation}#=%=#Columbia University
+Author{8}{Firstname}#=%=#Inigo
+Author{8}{Lastname}#=%=#Lopez-Gazpio
+Author{8}{Email}#=%=#inigo.lopez@ehu.es
+Author{8}{Affiliation}#=%=#University of the Basque Country (UPV/EHU)
+Author{9}{Firstname}#=%=#Montse
+Author{9}{Lastname}#=%=#Maritxalar
+Author{9}{Email}#=%=#montse.maritxalar@ehu.es
+Author{9}{Affiliation}#=%=#University of the Basque Country
+Author{10}{Firstname}#=%=#Rada
+Author{10}{Lastname}#=%=#Mihalcea
+Author{10}{Email}#=%=#mihalcea@umich.edu
+Author{10}{Affiliation}#=%=#University of Michigan
+Author{11}{Firstname}#=%=#German
+Author{11}{Lastname}#=%=#Rigau
+Author{11}{Email}#=%=#german.rigau@ehu.es
+Author{11}{Affiliation}#=%=#UPV/EHU
+Author{12}{Firstname}#=%=#Larraitz
+Author{12}{Lastname}#=%=#Uria
+Author{12}{Email}#=%=#larraitz.uria@ehu.eus
+Author{12}{Affiliation}#=%=#University of the Basque Country
+Author{13}{Firstname}#=%=#Janyce
+Author{13}{Lastname}#=%=#Wiebe
+Author{13}{Email}#=%=#wiebe@cs.pitt.edu
+Author{13}{Affiliation}#=%=#University of Pittsburgh
+
+==========

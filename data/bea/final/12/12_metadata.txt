@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Evaluating the performance of Automated Text Scoring systems
+ShortPaperTitle#=%=#Evaluating the performance of Automated Text Scoring systems
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#HELEN YANNAKOUDAKIS
+JobTitle#==#
+Organization#==#
+Abstract#==#Various measures have been used to evaluate the effectiveness of automated text
+scoring (ATS) systems with respect to a human gold standard. However, there is
+no systematic study comparing the efficacy of these metrics under different
+experimental conditions. In this paper we first argue that measures of
+agreement are more appropriate than measures of association (i.e., correlation)
+for measuring the effectiveness of ATS systems. We then present a thorough
+review and analysis of frequently used measures of agreement. We outline
+desirable properties for measuring the effectiveness of an ATS system, and
+experimentally demonstrate using both synthetic and real ATS data, that some
+commonly used mea-
+sures (e.g., Cohen’s kappa) lack these properties. Finally, we identify the
+most appropriate measures of agreement and present general recommendations for
+best evaluation practices.
+Author{1}{Firstname}#=%=#Helen
+Author{1}{Lastname}#=%=#Yannakoudakis
+Author{1}{Email}#=%=#helen.yannakoudakis@cl.cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Ronan
+Author{2}{Lastname}#=%=#Cummins
+Author{2}{Email}#=%=#ron.cummins@gmail.com
+Author{2}{Affiliation}#=%=#
+
+==========

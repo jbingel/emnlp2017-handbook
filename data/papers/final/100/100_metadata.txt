@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#100
+FinalPaperTitle#=%=#Unsupervised Morphology Induction Using Word Embeddings
+ShortPaperTitle#=%=#Unsupervised Morphology Induction Using Word Embeddings
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Radu Soricut
+JobTitle#==#
+Organization#==#Google Inc.
+1600 Amphitheatre Pkwy.
+Mountain View, CA 94043, USA
+Abstract#==#We present a language agnostic, unsupervised method for inducing morphological
+transformations between words. The method relies on certain regularities
+manifest in high-dimensional vector spaces. We show that this method is capable
+of discovering a wide range of morphological rules, which in turn are used to
+build morphological analyzers. We evaluate this method across six different
+languages and nine datasets, and show significant improvements across all
+languages.
+Author{1}{Firstname}#=%=#Radu
+Author{1}{Lastname}#=%=#Soricut
+Author{1}{Email}#=%=#radu.soricut@gmail.com
+Author{1}{Affiliation}#=%=#Google Inc
+Author{2}{Firstname}#=%=#Franz
+Author{2}{Lastname}#=%=#Och
+Author{2}{Email}#=%=#franzjosefoch@gmail.com
+Author{2}{Affiliation}#=%=#Human Longevity, Inc.
+
+==========

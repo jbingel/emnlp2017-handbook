@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#103
+FinalPaperTitle#=%=#Multilingual Open Relation Extraction Using Cross-lingual Projection
+ShortPaperTitle#=%=#Multilingual Open Relation Extraction Using Cross-lingual Projection
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Manaal Faruqui
+JobTitle#==#
+Organization#==#CMU
+Abstract#==#Open domain relation extraction systems identify relation and argument phrases 
+  in a sentence without relying on any underlying schema. However, current 
+  state-of-the-art relation extraction systems are
+  available only for English because of their heavy reliance on 
+  linguistic tools such as part-of-speech taggers and dependency parsers. We 
+  present a cross-lingual annotation projection method for
+  language independent relation extraction. We evaluate our method
+  on a manually annotated test set and present results on three
+  typologically different languages. We release these manual annotations and
+  extracted relations in ten languages from Wikipedia.
+Author{1}{Firstname}#=%=#Manaal
+Author{1}{Lastname}#=%=#Faruqui
+Author{1}{Email}#=%=#manaalfar@gmail.com
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Shankar
+Author{2}{Lastname}#=%=#Kumar
+Author{2}{Email}#=%=#shankarkumar@google.com
+Author{2}{Affiliation}#=%=#Google
+
+==========

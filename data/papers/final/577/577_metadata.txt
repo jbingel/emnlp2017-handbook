@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#577
+FinalPaperTitle#=%=#Word Embedding-based Antonym Detection using Thesauri and Distributional Information
+ShortPaperTitle#=%=#Word Embedding-based Antonym Detection using Thesauri and Distributional Information
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Masataka Ono
+JobTitle#==#
+Organization#==#Toyota Technological Institute
+2-12-1 Hisakata, Tempaku-ku, Nagoya, Japan
+Abstract#==#This paper proposes a novel approach to train word embeddings to capture
+antonyms. Word embeddings have shown to capture synonyms and analogies. Such
+word embeddings, however, cannot capture antonyms since they depend on the
+distributional hypothesis. Our approach utilizes supervised synonym and antonym
+information from thesauri, as well as distributional information from
+large-scale unlabelled text data. The evaluation results on the
+GRE antonym question task show that our model outperforms the state-of-the-art
+systems and it can answer the antonym questions in the F-score of 89%.
+Author{1}{Firstname}#=%=#Masataka
+Author{1}{Lastname}#=%=#Ono
+Author{1}{Email}#=%=#bellwer99@gmail.com
+Author{1}{Affiliation}#=%=#Toyota Technological Institute
+Author{2}{Firstname}#=%=#Makoto
+Author{2}{Lastname}#=%=#Miwa
+Author{2}{Email}#=%=#makoto-miwa@toyota-ti.ac.jp
+Author{2}{Affiliation}#=%=#Toyota Technological Institute
+Author{3}{Firstname}#=%=#Yutaka
+Author{3}{Lastname}#=%=#Sasaki
+Author{3}{Email}#=%=#yutaka.sasaki@toyota-ti.ac.jp
+Author{3}{Affiliation}#=%=#Toyota Technological Institute
+
+==========

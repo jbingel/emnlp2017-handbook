@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#607
+FinalPaperTitle#=%=#A Comparison of Word Similarity Performance Using Explanatory and Non-explanatory Texts
+ShortPaperTitle#=%=#A Comparison of Word Similarity Performance Using Explanatory and Non-explanatory Texts
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Lifeng Jin
+JobTitle#==#
+Organization#==#The Ohio State University
+1712 Neil Avenue, Columbus Ohio, 43210
+Abstract#==#Vectorial representations derived from large current events datasets such as
+Google News have been shown to perform well on word similarity tasks. This
+paper shows vectorial representations derived from substantially smaller
+explanatory text datasets such as English Wikipedia and Simple English
+Wikipedia preserve enough lexical semantic information to make these kinds of
+category judgments with equal or better accuracy. Analysis shows these results
+are driven by a prevalence of commonsense facts in explanatory text. These
+positive results for small datasets suggest vectors derived from slower but
+more accurate deep parsers may be practical for lexical semantic applications.
+Author{1}{Firstname}#=%=#Lifeng
+Author{1}{Lastname}#=%=#Jin
+Author{1}{Email}#=%=#jin.544@osu.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#William
+Author{2}{Lastname}#=%=#Schuler
+Author{2}{Email}#=%=#schuler@ling.osu.edu
+Author{2}{Affiliation}#=%=#The Ohio State University
+
+==========

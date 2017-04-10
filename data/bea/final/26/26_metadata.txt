@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#26
+FinalPaperTitle#=%=#Task-Independent Features for Automated Essay Grading
+ShortPaperTitle#=%=#Task-Independent Features for Automated Essay Grading
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Torsten Zesch
+JobTitle#==#
+Organization#==#Language Technology Lab
+University of Duisburg-Essen
+Abstract#==#Automated scoring of student essays is increasingly used to reduce manual
+grading effort. State-of-the-art approaches use supervised machine learning
+which makes it complicated to transfer a system trained on one task to another.
+We investigate which currently used features are task-independent and evaluate
+their transferability on English and German datasets. We find that, by using
+our task-independent feature set, models transfer better between tasks. We also
+find that the transfer works even better between tasks of the same type.
+Author{1}{Firstname}#=%=#Torsten
+Author{1}{Lastname}#=%=#Zesch
+Author{1}{Email}#=%=#torsten.zesch@uni-due.de
+Author{1}{Affiliation}#=%=#Language Technology Lab, University of Duisburg-Essen
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Wojatzki
+Author{2}{Email}#=%=#michael.wojatzki@stud.uni-due.de
+Author{2}{Affiliation}#=%=#Language Technology Lab, University of Duisburg-Essen
+Author{3}{Firstname}#=%=#Dirk
+Author{3}{Lastname}#=%=#Scholten-Akoun
+Author{3}{Email}#=%=#dirk.scholten@uni-due.de
+Author{3}{Affiliation}#=%=#ZLB, University of Duisburg-Essen
+
+==========

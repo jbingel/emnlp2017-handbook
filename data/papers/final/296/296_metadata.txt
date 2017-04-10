@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#296
+FinalPaperTitle#=%=#I Can Has Cheezburger? A Nonparanormal Approach to Combining Textual and Visual Information for Predicting and Generating Popular Meme Descriptions
+ShortPaperTitle#=%=#I Can Has Cheezburger? A Nonparanormal Approach to Predicting and Generating Popular Memes
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#William Yang Wang
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+5000 Forbes Ave.,
+Pittsburgh, PA 15232
+Abstract#==#The advent of social media has brought Internet memes, a unique social
+phenomenon, to the front stage of the Web. Embodied in the form of images with
+text descriptions, little do we know about the ``language of memes''. In this
+paper, we statistically study the correlations among popular memes and their
+wordings, and generate meme descriptions from raw images. To do this, we take a
+multimodal approach---we propose a robust nonparanormal model to learn the
+stochastic dependencies among the image, the candidate descriptions, and the
+popular votes. In experiments, we show that combining text and vision helps
+identifying popular meme descriptions; that our nonparanormal model is able to
+learn dense and continuous vision features jointly with sparse and discrete
+text features in a principled manner, outperforming various competitive
+baselines; that our system can generate meme descriptions using a simple
+pipeline.
+Author{1}{Firstname}#=%=#William Yang
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#ww@cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Miaomiao
+Author{2}{Lastname}#=%=#Wen
+Author{2}{Email}#=%=#mwen@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Evidence of syntactic working memory usage in MEG data
+ShortPaperTitle#=%=#Evidence of syntactic working memory usage in MEG data
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Marten van Schijndel
+JobTitle#==#
+Organization#==#Department of Linguistics
+The Ohio State University
+222 Oxley Hall, 1712 Neil Avenue
+Columbus OH, 43210-1298
+Abstract#==#While reading times are often used to measure working memory load, frequency
+effects (such as surprisal or n-gram frequencies) also have strong confounding
+effects on reading times. This work uses a naturalistic audio corpus with
+magnetoencephalographic (MEG) annotations to measure working memory load during
+sentence processing. Alpha oscillations in posterior regions of the brain have
+been found to correlate with working memory load in non-linguistic tasks
+(Jensen et al., 2002), and the present study extends these findings to working
+memory load caused by syntactic center embeddings. Moreover, this work finds
+that frequency effects in naturally-occurring stimuli do not significantly
+contribute to neural oscillations in any frequency band, which suggests that
+many modeling claims could be tested on this sort of data even without
+controlling for frequency effects.
+Author{1}{Firstname}#=%=#Marten
+Author{1}{Lastname}#=%=#van Schijndel
+Author{1}{Email}#=%=#vanschm@ling.osu.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Brian
+Author{2}{Lastname}#=%=#Murphy
+Author{2}{Email}#=%=#brian.murphy@qub.ac.uk
+Author{2}{Affiliation}#=%=#Queen's University Belfast
+Author{3}{Firstname}#=%=#William
+Author{3}{Lastname}#=%=#Schuler
+Author{3}{Email}#=%=#schuler@ling.osu.edu
+Author{3}{Affiliation}#=%=#The Ohio State University
+
+==========

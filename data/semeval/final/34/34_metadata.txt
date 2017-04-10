@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#34
+FinalPaperTitle#=%=#GTI: An Unsupervised Approach for Sentiment Analysis in Twitter
+ShortPaperTitle#=%=#GTI: An Unsupervised Approach for Sentiment Analysis in Twitter
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Milagros Fernández-Gavilanes
+JobTitle#==#
+Organization#==#AtlantTIC Centre, School of Telecommunication Engineering, University of Vigo
+36310 Vigo, Spain
+Abstract#==#This paper presents the approach of the GTI Research Group to SemEval-2015 task
+10 on Sentiment Analysis in Twitter, or more specifically, subtasks A
+(Contextual Polarity Disambiguation) and B (Message Polarity Classification).
+We followed an unsupervised dependency parsing-based approach using a sentiment
+lexicon, created by means of an automatic polarity expansion algorithm and
+Natural Language Processing techniques. These techniques involve the use of
+linguistic peculiarities, such as the detection of polarity conflicts or
+adversative/concessive subordinate clauses. The results obtained confirm the
+competitive and robust performance of the system.
+Author{1}{Firstname}#=%=#Milagros
+Author{1}{Lastname}#=%=#Fernández-Gavilanes
+Author{1}{Email}#=%=#milagros.fernandez@gti.uvigo.es
+Author{1}{Affiliation}#=%=#AtlantTIC Centre - University of Vigo
+Author{2}{Firstname}#=%=#Tamara
+Author{2}{Lastname}#=%=#Álvarez-López
+Author{2}{Email}#=%=#talvarez@gti.uvigo.es
+Author{2}{Affiliation}#=%=#AtlantTIC Centre, School of Telecommunication Engineering, University of Vigo
+Author{3}{Firstname}#=%=#Jonathan
+Author{3}{Lastname}#=%=#Juncal-Martínez
+Author{3}{Email}#=%=#jonijm@gti.uvigo.es
+Author{3}{Affiliation}#=%=#AtlantTIC Centre, School of Telecommunication Engineering, University of Vigo
+Author{4}{Firstname}#=%=#Enrique
+Author{4}{Lastname}#=%=#Costa-Montenegro
+Author{4}{Email}#=%=#kike@gti.uvigo.es
+Author{4}{Affiliation}#=%=#AtlantTIC Centre, School of Telecommunication Engineering, University of Vigo
+Author{5}{Firstname}#=%=#Francisco Javier
+Author{5}{Lastname}#=%=#González-Castaño
+Author{5}{Email}#=%=#javier@det.uvigo.es
+Author{5}{Affiliation}#=%=#AtlantTIC Centre, School of Telecommunication Engineering, University of Vigo
+
+==========

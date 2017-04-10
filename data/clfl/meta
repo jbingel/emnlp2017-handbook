@@ -1,0 +1,14 @@
+abbrev CLfL
+type Workshop
+title Fourth Workshop on  Computational Linguistics for Literature
+url https://sites.google.com/site/clfl2015/
+booktitle Proceedings of the Fourth Workshop on  Computational Linguistics for Literature
+month June
+year 2015
+location Denver, Colorado, USA
+publisher Association for Computational Linguistics
+chairs Anna Feldman (Montclair State University)
+chairs Anna Kazantseva (University of Ottawa)
+chairs Stan Szpakowicz (University of Ottawa)
+chairs Corina Koolen (Universiteit van Amsterdam)
+bib_url http://www.aclweb.org/anthology/W15-07%02d

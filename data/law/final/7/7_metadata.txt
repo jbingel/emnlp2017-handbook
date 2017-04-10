@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Developing Language-tagged Corpora for Code-switching Tweets
+ShortPaperTitle#=%=#Developing Language-tagged Corpora for Code-switching Tweets
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Thamar Solorio
+JobTitle#==#
+Organization#==#University of Houston, Houston, TX, 77004, USA
+Abstract#==#Code-switching, where a speaker switches between languages mid-utterance, is
+frequently used by multilingual populations worldwide.
+Despite its prevalence, limited effort has been devoted to develop
+computational approaches or even basic linguistic resources to support research
+into the processing of such mixed-language data.
+We present a user-centric approach to collecting code-switched utterances from
+social media posts, and develop language universal guidelines for the
+annotation of code-switched data.
+We also present results for several baseline language identification models on
+our corpora and demonstrate that language identification in code-switched text
+is a difficult task that calls for deeper investigation.
+Author{1}{Firstname}#=%=#Suraj
+Author{1}{Lastname}#=%=#Maharjan
+Author{1}{Email}#=%=#mhjsuraj@gmail.com
+Author{1}{Affiliation}#=%=#The University of Houston
+Author{2}{Firstname}#=%=#Elizabeth
+Author{2}{Lastname}#=%=#Blair
+Author{2}{Email}#=%=#eablair@uab.edu
+Author{2}{Affiliation}#=%=#University of Alabama at Birmingham
+Author{3}{Firstname}#=%=#Steven
+Author{3}{Lastname}#=%=#Bethard
+Author{3}{Email}#=%=#bethard@cis.uab.edu
+Author{3}{Affiliation}#=%=#University of Alabama at Birmingham
+Author{4}{Firstname}#=%=#Thamar
+Author{4}{Lastname}#=%=#Solorio
+Author{4}{Email}#=%=#solorio@cs.uh.edu
+Author{4}{Affiliation}#=%=#UH
+
+==========

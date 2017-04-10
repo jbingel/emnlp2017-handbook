@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#69
+FinalPaperTitle#=%=#Robust Morphological Tagging with Word Representations
+ShortPaperTitle#=%=#Morphological Tagging with Word Representations
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Thomas Müller
+JobTitle#==#
+Organization#==#Centrum für Informations- und Sprachverarbeitung
+Ludwig-Maximilians-Universität
+Oettingenstraße 67, 1. OG, Flügel C
+80538 München
+Abstract#==#We present a comparative investigation of word representations for
+part-of-speech
+and morphological tagging, focusing on scenarios with considerable differences
+between
+training and test data where a robust approach is necessary. Instead of
+adapting the model
+towards a specific domain we aim to build a robust model across domains. We
+developed
+a test suite for robust tagging consisting of six languages and different
+domains. We find that representations similar to Brown clusters perform best
+for POS tagging and that word representations based on linguistic morphological
+analyzers perform best for morphological tagging.
+Author{1}{Firstname}#=%=#Thomas
+Author{1}{Lastname}#=%=#Müller
+Author{1}{Email}#=%=#muellets@cis.lmu.de
+Author{1}{Affiliation}#=%=#CIS, University of  Munich
+Author{2}{Firstname}#=%=#Hinrich
+Author{2}{Lastname}#=%=#Schuetze
+Author{2}{Email}#=%=#inquiries@cislmu.org
+Author{2}{Affiliation}#=%=#CIS, University of Munich
+
+==========

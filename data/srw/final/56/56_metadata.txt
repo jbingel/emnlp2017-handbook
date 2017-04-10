@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#56
+FinalPaperTitle#=%=#Semantics-based Graph Approach to Complex Question-Answering
+ShortPaperTitle#=%=#Semantics-based Graph Approach to Complex Question-Answering
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Jinho D. Choi
+JobTitle#==#
+Organization#==#Emory University
+Atlanta, GA 30322, USA
+Abstract#==#This paper suggests an architectural approach of representing knowledge graph
+for complex question-answering. There are four kinds of entity relations added
+to our knowledge graph: syntactic dependencies, semantic role labels, named
+entities, and coreference links, which can be effectively applied to answer
+complex questions. As a proof of concept, we demonstrate how our knowledge
+graph can be used to solve complex questions such as arithmetics. Our
+experiment shows a promising result on solving arithmetic questions, achieving
+the 3-folds cross-validation score of 71.75%.
+Author{1}{Firstname}#=%=#Tomasz
+Author{1}{Lastname}#=%=#Jurczyk
+Author{1}{Email}#=%=#tomasz.jurczyk@emory.edu
+Author{1}{Affiliation}#=%=#
+Author{2}{Firstname}#=%=#Jinho D.
+Author{2}{Lastname}#=%=#Choi
+Author{2}{Email}#=%=#jinho.choi@emory.edu
+Author{2}{Affiliation}#=%=#Emory University
+
+==========

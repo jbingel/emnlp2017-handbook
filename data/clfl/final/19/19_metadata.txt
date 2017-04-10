@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Identifying Literary Texts with Bigrams
+ShortPaperTitle#=%=#Identifying Literary Texts with Bigrams
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Andreas van Cranenburgh
+JobTitle#==#
+Organization#==#Huygens ING, Royal Dutch Academy of Sciences
+P.O. box 90754, 2509 LT,
+The Hague, The Netherlands
+Abstract#==#We study perceptions of literariness in a set of contemporary Dutch novels.
+Experiments with machine learning models show that it is possible to
+automatically distinguish novels that are seen as highly literary from those
+that are seen as less literary, using surprisingly simple textual features. The
+most discriminating features of our classification model indicate that genre
+might be a confounding factor, but a regression model shows that we can also
+explain variation between highly literary novels from less literary ones within
+genre.
+Author{1}{Firstname}#=%=#Andreas
+Author{1}{Lastname}#=%=#van Cranenburgh
+Author{1}{Email}#=%=#andreas.van.cranenburgh@huygens.knaw.nl
+Author{1}{Affiliation}#=%=#University of Amsterdam
+Author{2}{Firstname}#=%=#Corina
+Author{2}{Lastname}#=%=#Koolen
+Author{2}{Email}#=%=#c.w.koolen@uva.nl
+Author{2}{Affiliation}#=%=#University of Amsterdam
+
+==========

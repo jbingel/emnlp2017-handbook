@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Identifying Argumentation Schemes in Genetics Research Articles
+ShortPaperTitle#=%=#Identifying Argumentation Schemes in Genetics Research Articles
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Nancy Green
+JobTitle#==#
+Organization#==#Department of Computer Science
+University of North Carolina Greensboro
+Greensboro, NC 27402
+Abstract#==#This paper presents preliminary work on identification of argumentation
+schemes, i.e., identifying premises, conclusion and name of argumentation
+scheme, in arguments for scientific claims in genetics research articles. The
+goal is to develop annotation guidelines for creating corpora for argumentation
+mining research. This paper gives the specification of ten semantically
+distinct argumentation schemes based on analysis of argumentation in several
+journal articles. In addition, it presents an empirical study on readers’
+ability to recognize some of the argumentation schemes.
+Author{1}{Firstname}#=%=#Nancy
+Author{1}{Lastname}#=%=#Green
+Author{1}{Email}#=%=#nlgreen@uncg.edu
+Author{1}{Affiliation}#=%=#University of North Carolina Greensboro
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#142
+FinalPaperTitle#=%=#TeamHCMUS: Analysis of Clinical Text
+ShortPaperTitle#=%=#TeamHCMUS: Analysis of Clinical Text
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Nghia
+JobTitle#==#
+Organization#==#University of Science, Ho Chi Minh City, Vietnam
+227 Nguyen Van Cu, Dist 5 HCMC, Vietnam
+Abstract#==#We developed a system to participate in shared tasks on the analyzing clinical
+text. Our system approaches are both machine learning-based and rule-based. We
+applied the machine learning-based approach for Task 1: disorder
+identification, and the rule-based approach for Task 2: template slot filling
+for the disorder. In Task 1, we developed a supervised conditional random
+fields model that was based on a rich set of features, and used for predicting
+disorder mentions. In Task 2, we based on the dependency tree to build a rule
+set. This rule set was extracted from the training data and applied to fill
+values of disorder attribute types on the test data. The evaluation on the test
+data showed that our system achieved the F-score of 0.656 (0.685 in case of
+relaxed score) for Task 1 and the F*WA of 0.576 for Task 2A and the F*WA of
+0.671 for Task 2B.
+Author{1}{Firstname}#=%=#Nghia
+Author{1}{Lastname}#=%=#Huynh
+Author{1}{Email}#=%=#huynhnghiavn@gmail.com
+Author{1}{Affiliation}#=%=#University of Science, HoChiMinh City, VietNam
+Author{2}{Firstname}#=%=#Quoc
+Author{2}{Lastname}#=%=#Ho
+Author{2}{Email}#=%=#hbquoc@fit.hcmus.edu.vn
+Author{2}{Affiliation}#=%=#University of Science, HoChiMinh City, VietNam
+
+==========

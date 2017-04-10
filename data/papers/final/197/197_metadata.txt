@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#197
+FinalPaperTitle#=%=#Unsupervised Most Frequent Sense Detection using Word Embeddings
+ShortPaperTitle#=%=#Unsupervised Most Frequent Sense Detection using Word Embeddings
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#An acid test for any new Word Sense Disambiguation (WSD) algorithm is its
+performance against the Most Frequent Sense (MFS). The field of WSD has found
+the MFS baseline very hard to beat. Clearly, if WSD researchers had access to
+MFS values, their striving to better this heuristic will push the WSD frontier.
+However, getting MFS values requires sense marked corpus in enormous amount,
+which is out of bounds for most languages, even if their WordNets are
+available. In this paper, we propose an unsupervised method for MFS detection
+from the untagged corpora, which exploits word embeddings. \textit{We compare
+the word embeddings of a word with all its sense embeddings and obtain the
+predominant sense with the highest similarity.} We observe significant
+performance gain for Hindi WSD over the WordNet First Sense (WFS) baseline. As
+for English, the SemCor baseline is bettered for those words whose frequency is
+greater than 2. Our approach is language and domain independent.
+Author{1}{Firstname}#=%=#Sudha
+Author{1}{Lastname}#=%=#Bhingardive
+Author{1}{Email}#=%=#bhingardivesudha@gmail.com
+Author{1}{Affiliation}#=%=#CSE Department, IIT Bombay
+Author{2}{Firstname}#=%=#Dhirendra
+Author{2}{Lastname}#=%=#Singh
+Author{2}{Email}#=%=#dhiru.research@gmail.com
+Author{2}{Affiliation}#=%=#CSE Department, IIT Bombay
+Author{3}{Firstname}#=%=#Rudramurthy
+Author{3}{Lastname}#=%=#V
+Author{3}{Email}#=%=#rudramurthy.iisc@gmail.com
+Author{3}{Affiliation}#=%=#student
+Author{4}{Firstname}#=%=#Hanumant
+Author{4}{Lastname}#=%=#Redkar
+Author{4}{Email}#=%=#hanumantredkar@gmail.com
+Author{4}{Affiliation}#=%=#Research Engineer, CSE Department, IIT Bombay
+Author{5}{Firstname}#=%=#Pushpak
+Author{5}{Lastname}#=%=#Bhattacharyya
+Author{5}{Email}#=%=#pushpakbh@gmail.com
+Author{5}{Affiliation}#=%=#CSE Department, IIT Bombay
+
+==========

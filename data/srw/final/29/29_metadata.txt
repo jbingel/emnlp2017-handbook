@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#Benchmarking Machine Translated Sentiment Analysis for Arabic Tweets
+ShortPaperTitle#=%=#Benchmarking Machine Translated Sentiment Analysis for Arabic Tweets
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Eshrag Refaee
+JobTitle#==#PhD Student
+Organization#==#Heriot-Watt University
+Riccarton
+Edinburgh EH11 1UE
+United Kingdom
+Abstract#==#Traditional approaches to Sentiment Analysis (SA) rely on large annotated data
+sets or wide-coverage sentiment lexica, and as such often perform poorly on
+under-resourced languages. This paper presents empirical evidence of an
+efficient SA approach using freely available machine translation (MT) systems
+to translate Arabic tweets to English, which we then label for sentiment using
+a state-of-the-art English SA system. We show that this approach significantly
+outperforms a number of standard approaches on a gold-standard heldout data
+set, and performs equally well compared to more cost-intense methods with 76%
+accuracy. This confirms MT-based SA as a cheap and effective alternative to
+building a fully fledged SA system when dealing with under-resourced languages.
+Author{1}{Firstname}#=%=#Eshrag
+Author{1}{Lastname}#=%=#Refaee
+Author{1}{Email}#=%=#eshragrefaee@gmail.com
+Author{1}{Affiliation}#=%=#Heriot-Watt University
+Author{2}{Firstname}#=%=#Verena
+Author{2}{Lastname}#=%=#Rieser
+Author{2}{Email}#=%=#v.t.rieser@hw.ac.uk
+Author{2}{Affiliation}#=%=#Heriot-Watt University
+
+==========

@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#140
+FinalPaperTitle#=%=#UTD: Ensemble-Based Spatial Relation Extraction
+ShortPaperTitle#=%=#UTD: Ensemble-Based Spatial Relation Extraction
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Jennifer D
+JobTitle#==#
+Organization#==#
+Abstract#==#SpaceEval (SemEval 2015 Task 8), which concerns spatial information extraction,
+builds on the spatial role identification tasks introduced in SemEval 2012 and
+used in SemEval 2013. Among the host of subtasks presented in SpaceEval, we
+participated in subtask 3a, which focuses solely on spatial relation
+extraction. Unlike existing approaches to spatial relation extraction, we adopt
+an ensemble of binary classifiers for the task, where each classifier in our
+ensemble focuses on identifying a unique type of spatial relation. Our system
+was ranked first in the official evaluation, achieving an overall spatial
+relation extraction F-score of 84.5%.
+Author{1}{Firstname}#=%=#Jennifer
+Author{1}{Lastname}#=%=#D'Souza
+Author{1}{Email}#=%=#jld082000@utdallas.edu
+Author{1}{Affiliation}#=%=#University of Texas at Dallas
+Author{2}{Firstname}#=%=#Vincent
+Author{2}{Lastname}#=%=#Ng
+Author{2}{Email}#=%=#vince@hlt.utdallas.edu
+Author{2}{Affiliation}#=%=#University of Texas at Dallas
+
+==========

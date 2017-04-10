@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#154
+FinalPaperTitle#=%=#SUDOKU: Treating Word Sense Disambiguation & Entitiy Linking as a Deterministic Problem - via an Unsupervised & Iterative Approach
+ShortPaperTitle#=%=#SUDOKU: Treating Word Sense Disambiguation & Entitiy Linking as a Deterministic Problem
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Steve Manion
+JobTitle#==#
+Organization#==#University of Canterbury, 20 Kirkwood Ave, Upper Riccarton, Christchurch 8041, New Zealand
+Abstract#==#SUDOKU's submissions to SemEval Task 13 treats Word Sense Disambiguation (WSD)
+and Entity Linking (EL) as a deterministic problem that exploits two key
+attributes of open-class words as constraints -- their degree of polysemy and
+their part of speech. This is an extension and further validation of the
+results achieved by Manion & Sainudiin (2014). SUDOKU's three submissions are
+incremental in the use of the two aforementioned constraints. Run1 has no
+constraints and disambiguates all lemmas in one pass. Run2 disambiguates lemmas
+at increasing degrees of polysemy, leaving the most polysemous until last. Run3
+is identical to Run2, with the additional constraint of disambiguating all
+named entities and nouns first before other types of open-class words (verbs,
+adjectives, and adverbs). Over all-domains, for English Run2 and Run3 were
+placed second and third. For Spanish Run2, Run3, and Run1 were placed first,
+second, and third respectively. For Italian Run1 was placed first with Run2 and
+Run3 placed second equal.
+Author{1}{Firstname}#=%=#Steve L.
+Author{1}{Lastname}#=%=#Manion
+Author{1}{Email}#=%=#slmanion@gmail.com
+Author{1}{Affiliation}#=%=#University of Canterbury
+
+==========

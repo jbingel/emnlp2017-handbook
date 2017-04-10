@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#670
+FinalPaperTitle#=%=#Improving unsupervised vector-space thematic fit evaluation via role-filler prototype clustering
+ShortPaperTitle#=%=#Improving unsupervised vector-space thematic fit evaluation via role-filler prototype clustering
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Clayton Greenberg
+JobTitle#==#
+Organization#==#Saarland University
+Campus C7 4
+66123 Saarbruecken
+Germany
+Abstract#==#Most recent unsupervised methods in vector space semantics for assessing
+thematic fit (e.g. Erk, 2007;
+Baroni and Lenci, 2010; Sayeed and Demberg, 2014) create prototypical
+role-fillers without performing word sense disambiguation.  This leads to a
+kind of sparsity problem: candidate role-fillers for different
+senses of the verb end up being measured by the same “yardstick”, the
+single prototypical role-filler.
+
+In this work, we use three different feature spaces to construct robust
+unsupervised models of distributional semantics. We show that correlation with
+human judgements on thematic fit estimates can be improved consistently by
+clustering typical role-fillers and then calculating similarities of candidate
+role-fillers with these cluster centroids. The suggested methods can be used in
+any vector space model that constructs a prototype vector from a non-trivial
+set of typical vectors.
+Author{1}{Firstname}#=%=#Clayton
+Author{1}{Lastname}#=%=#Greenberg
+Author{1}{Email}#=%=#claytong@coli.uni-saarland.de
+Author{1}{Affiliation}#=%=#Saarland University
+Author{2}{Firstname}#=%=#Asad
+Author{2}{Lastname}#=%=#Sayeed
+Author{2}{Email}#=%=#asayeed@mbl.ca
+Author{2}{Affiliation}#=%=#Saarland University
+Author{3}{Firstname}#=%=#Vera
+Author{3}{Lastname}#=%=#Demberg
+Author{3}{Email}#=%=#vera@coli.uni-saarland.de
+Author{3}{Affiliation}#=%=#Saarland University
+
+==========

@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#The University of Maryland CLPsych 2015 Shared Task System
+ShortPaperTitle#=%=#The UMD CLPsych 2015 Shared Task System
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Philip Resnik
+JobTitle#==#
+Organization#==#University of Maryland
+College Park, MD 20742
+Abstract#==#This paper summarizes the University of Maryland contribution to the CLPsych
+2015 shared task.
+Author{1}{Firstname}#=%=#Philip
+Author{1}{Lastname}#=%=#Resnik
+Author{1}{Email}#=%=#resnik@umd.edu
+Author{1}{Affiliation}#=%=#University of Maryland
+Author{2}{Firstname}#=%=#William
+Author{2}{Lastname}#=%=#Armstrong
+Author{2}{Email}#=%=#armstrow@umd.edu
+Author{2}{Affiliation}#=%=#University of Maryland
+Author{3}{Firstname}#=%=#Leonardo
+Author{3}{Lastname}#=%=#Claudino
+Author{3}{Email}#=%=#claudino@cs.umd.edu
+Author{3}{Affiliation}#=%=#University of Maryland, College Park
+Author{4}{Firstname}#=%=#Thang
+Author{4}{Lastname}#=%=#Nguyen
+Author{4}{Email}#=%=#daithang@umiacs.umd.edu
+Author{4}{Affiliation}#=%=#Umiacs, UMD
+
+==========

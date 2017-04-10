@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Paraphrase Identification and Semantic Similarity in Twitter with Simple Features
+ShortPaperTitle#=%=#Paraphrase Identification and Semantic Similarity in Twitter with Simple Features
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ngoc Phuoc An Vo
+JobTitle#==#
+Organization#==#Fondazione Bruno Kessler (FBK), Trento, Italy
+University of Trento, Italy
+Abstract#==#Paraphrase Identification and Semantic Similarity are two different yet well
+related tasks in NLP. There are many studies on these two tasks extensively on
+structured texts in the past. However, with the strong rise of social media
+data, studying these tasks on unstructured texts, particularly, social texts in
+Twitter is very interesting as it could be more com- plicated problems to deal
+with. We investigate and find a set of simple features which enables us to
+achieve very competitive performance on both tasks in Twitter data.
+Interestingly, we also confirm the significance of using word alignment
+techniques from evaluation metrics in machine translation in the overall
+performance of these tasks.
+Author{1}{Firstname}#=%=#Ngoc Phuoc An
+Author{1}{Lastname}#=%=#Vo
+Author{1}{Email}#=%=#ngoc@fbk.eu
+Author{1}{Affiliation}#=%=#HLT-FBK, Trento
+Author{2}{Firstname}#=%=#Simone
+Author{2}{Lastname}#=%=#Magnolini
+Author{2}{Email}#=%=#magnolini@fbk.eu
+Author{2}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{3}{Firstname}#=%=#Octavian
+Author{3}{Lastname}#=%=#Popescu
+Author{3}{Email}#=%=#o.popescu@us.ibm.com
+Author{3}{Affiliation}#=%=#IBM Research
+
+==========

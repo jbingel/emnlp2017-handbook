@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#496
+FinalPaperTitle#=%=#Learning Translation Models from Monolingual Continuous Representations
+ShortPaperTitle#=%=#Learning Translation Models from Monolingual Continuous Representations
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Kai Zhao
+JobTitle#==#
+Organization#==#Graduate Center, City University of New York
+365 Fifth Ave, New York NY, 11373
+Abstract#==#Translation models often fail to generate good translations for infrequent
+words or phrases. Previous work attacked this problem by inducing new
+translation rules from monolingual data with a semi-supervised algorithm.
+However, this approach does not scale very well since it is very
+computationally expensive to generate new translation rules for only a few
+thousand sentences. We propose a much faster and simpler method that directly
+hallucinates translation rules for infrequent phrases based on phrases with
+similar continuous representations for which a translation is known. To speed
+up the retrieval of similar phrases, we investigate approximated nearest
+neighbor search with redundant bit vectors which we find to be three times
+faster and significantly more accurate than locality sensitive hashing. Our
+approach of learning new translation rules improves a phrase-based
+baseline by up to 1.6 BLEU on Arabic-English translation, it is three-orders of
+magnitudes faster than existing semi-supervised methods and 0.5 BLEU more
+accurate.
+Author{1}{Firstname}#=%=#Kai
+Author{1}{Lastname}#=%=#Zhao
+Author{1}{Email}#=%=#kzhao.hf@gmail.com
+Author{1}{Affiliation}#=%=#Graduate Center, CUNY
+Author{2}{Firstname}#=%=#Hany
+Author{2}{Lastname}#=%=#Hassan
+Author{2}{Email}#=%=#hanyh@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research
+Author{3}{Firstname}#=%=#Michael
+Author{3}{Lastname}#=%=#Auli
+Author{3}{Email}#=%=#michael.auli@gmail.com
+Author{3}{Affiliation}#=%=#Microsoft Research
+
+==========

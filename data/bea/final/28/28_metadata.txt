@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#Annotation and Classification of Argumentative Writing Revisions
+ShortPaperTitle#=%=#Annotation and Classification of Argumentative Writing Revisions
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Fan Zhang
+JobTitle#==#
+Organization#==#University of Pittsburgh
+210 South Bouquet Street, Pittsburgh, PA, 15260
+Abstract#==#This paper explores the annotation and classification of students' revision
+behaviors in argumentative writing. A  sentence-level revision schema is
+proposed to capture why and how students make revisions. Based on the proposed
+schema, a small corpus of student essays and revisions was annotated. Studies
+show that manual annotation is reliable with the schema and the annotated
+information  helpful for revision analysis. Furthermore, features and methods
+are explored for the automatic classification of revisions. Intrinsic
+evaluations demonstrate promising performance in high-level revision
+classification (surface vs. text-based). Extrinsic evaluations demonstrate that
+our method for automatic revision classification can be used to predict a
+writer's improvement.
+Author{1}{Firstname}#=%=#Fan
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#faz23@pitt.edu
+Author{1}{Affiliation}#=%=#University of Pittsburgh
+Author{2}{Firstname}#=%=#Diane
+Author{2}{Lastname}#=%=#Litman
+Author{2}{Email}#=%=#litman@cs.pitt.edu
+Author{2}{Affiliation}#=%=#University of Pittsburgh
+
+==========

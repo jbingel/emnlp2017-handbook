@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Argument Extraction from News
+ShortPaperTitle#=%=#Argument Extraction from News
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Georgios Petasis
+JobTitle#==#Associate Researcher
+Organization#==#Institute of Informatics and Telecommunications,
+National Centre for Scientific Research (N.C.S.R.) "Demokritos",
+GR-153 10, P.O. BOX 60228, Aghia Paraskevi, Athens, Greece
+Abstract#==#Argument extraction is the task of identifying arguments, along with their
+components in text. Arguments can be usually decomposed into a claim and one
+or more premises justifying it. The proposed approach tries to identify
+segments that represent argument elements (claims and premises) on social Web
+texts (mainly news and blogs) in the Greek language, for a small set of
+thematic domains, including articles on politics, economics, culture,
+various social issues, and sports. The proposed approach exploits distributed
+representations of words, extracted from a large non-annotated corpus. Among
+the novel aspects of this work is the thematic domain itself which relates to
+social Web, in contrast to traditional research in the area, which
+concentrates mainly on law documents and scientific publications. The huge
+increase of social web communities, along with their user tendency to debate,
+makes the identification of arguments in these texts a necessity. In
+addition, a new manually annotated corpus has been constructed that can be
+used freely for research purposes. Evaluation results are quite promising,
+suggesting that distributed representations can contribute positively to the
+task of argument extraction.
+Author{1}{Firstname}#=%=#Christos
+Author{1}{Lastname}#=%=#Sardianos
+Author{1}{Email}#=%=#sardianos@hua.gr
+Author{1}{Affiliation}#=%=#Dept. of Informatics and Telematics, Harokopio University of Athens
+Author{2}{Firstname}#=%=#Ioannis Manousos
+Author{2}{Lastname}#=%=#Katakis
+Author{2}{Email}#=%=#gkatakis@iit.demokritos.gr
+Author{2}{Affiliation}#=%=#Institute of Informatics and Telecommunications, NCSR "Demokritos", Greece
+Author{3}{Firstname}#=%=#Georgios
+Author{3}{Lastname}#=%=#Petasis
+Author{3}{Email}#=%=#petasis@iit.demokritos.gr
+Author{3}{Affiliation}#=%=#NCSR "Demokritos"
+Author{4}{Firstname}#=%=#Vangelis
+Author{4}{Lastname}#=%=#Karkaletsis
+Author{4}{Email}#=%=#vangelis@iit.demokritos.gr
+Author{4}{Affiliation}#=%=#NCSR "Demokritos"
+
+==========

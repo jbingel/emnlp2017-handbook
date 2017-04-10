@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Extracting Argument and Domain Words for Identifying Argument Components in Texts
+ShortPaperTitle#=%=#Extracting Argument and Domain Words for Identifying Argument Components in Texts
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Huy V. Nguyen
+JobTitle#==#
+Organization#==#University of Pittsburgh
+Pittsburgh, PA
+Abstract#==#Argument mining studies in natural language text often use lexical (e.g.
+n-grams) and syntactic (e.g. grammatical production rules) features with all
+possible values. In prior work on a corpus of academic essays, we demonstrated
+that such large and sparse feature spaces can cause difficulty for feature
+selection and proposed a method to design a more compact feature space. The
+proposed feature design is based on post-processing a topic model to extract
+argument and domain words. In this paper we investigate the generality of this
+approach, by applying our methodology to a new corpus of persuasive essays. Our
+experiments show that replacing  n-grams and syntactic rules with features and
+constraints using extracted  argument and domain words significantly improves
+argument mining performance for persuasive essays.
+Author{1}{Firstname}#=%=#Huy
+Author{1}{Lastname}#=%=#Nguyen
+Author{1}{Email}#=%=#hvn3@pitt.edu
+Author{1}{Affiliation}#=%=#University of Pittsburgh
+Author{2}{Firstname}#=%=#Diane
+Author{2}{Lastname}#=%=#Litman
+Author{2}{Email}#=%=#litman@cs.pitt.edu
+Author{2}{Affiliation}#=%=#University of Pittsburgh
+
+==========

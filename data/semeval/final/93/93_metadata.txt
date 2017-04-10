@@ -1,0 +1,21 @@
+SubmissionNumber#=%=#93
+FinalPaperTitle#=%=#UNIBA: Sentiment Analysis of English Tweets Combining Micro-blogging, Lexicon and Semantic Features
+ShortPaperTitle#=%=#UNIBA: Sentiment Analysis of English Tweets Combining Micro-blogging, Lexicon and Semantic Features
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Nicole Novielli
+JobTitle#==#
+Organization#==#Dipartimento di Informatica, Università degli Studi di Bari - via Orabona, 4 - 70125 Bari (Italy)
+Abstract#==#This paper describes the UNIBA team participation in the Sentiment Analysis in
+Twitter task (Task 10) at SemEval-2015. We propose a supervised approach
+relying on keyword, lexicon and micro-blogging features as well as
+representation of tweets in a word space.
+Author{1}{Firstname}#=%=#Pierpaolo
+Author{1}{Lastname}#=%=#Basile
+Author{1}{Email}#=%=#pierpaolo.basile@uniba.it
+Author{1}{Affiliation}#=%=#Department of Computer Science, University of Bari Aldo Moro
+Author{2}{Firstname}#=%=#Nicole
+Author{2}{Lastname}#=%=#Novielli
+Author{2}{Email}#=%=#nicole.novielli@uniba.it
+Author{2}{Affiliation}#=%=#Department of Computer Science, University of Bari Aldo Moro
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#Oracle and Human Baselines for Native Language Identification
+ShortPaperTitle#=%=#Oracle and Human Baselines for Native Language Identification
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Shervin Malmasi
+JobTitle#==#Author
+Organization#==#Macquarie University
+Abstract#==#We examine different ensemble methods, including an oracle, to estimate the
+upper limit of classification accuracy for Native Language Identification
+(NLI). The oracle outperforms state-of-the-art systems by over 10% and results
+indicate that for many misclassified texts the correct class label receives a
+significant portion of the ensemble votes, often being the runner-up.  We also
+present a pilot study of human performance for NLI, the first such experiment.
+While some participants achieve modest results on our simplified setup with
+5 L1s, they did not outperform our NLI system, and this performance gap is
+likely to widen on the standard NLI setup.
+Author{1}{Firstname}#=%=#Shervin
+Author{1}{Lastname}#=%=#Malmasi
+Author{1}{Email}#=%=#shervin.malmasi@students.mq.edu.au
+Author{1}{Affiliation}#=%=#Macquarie University
+Author{2}{Firstname}#=%=#Joel
+Author{2}{Lastname}#=%=#Tetreault
+Author{2}{Email}#=%=#tetreaul@gmail.com
+Author{2}{Affiliation}#=%=#Yahoo Labs
+Author{3}{Firstname}#=%=#Mark
+Author{3}{Lastname}#=%=#Dras
+Author{3}{Email}#=%=#mark.dras@mq.edu.au
+Author{3}{Affiliation}#=%=#Macquarie University
+
+==========

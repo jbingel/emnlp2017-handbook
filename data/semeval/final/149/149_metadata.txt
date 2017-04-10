@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#149
+FinalPaperTitle#=%=#UtahPOET: Disorder Mention Identification and Context Slot Filling with Cognitive Inspiration
+ShortPaperTitle#=%=#UtahPOET: Disorder Mention Identification and Context Slot Filling with Cognitive Inspiration
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Kristina Doing-Harris
+JobTitle#==#
+Organization#==#University of Utah
+421 Wakara Way, Suite 120
+Salt Lake City, Ut 84121
+Abstract#==#We describe the performance of UtahPOET on SemEval 2015 Task 14. UtahPOET is a
+cognitively inspired system designed to extract semantic content from general
+clinical texts. We find that our system performs much better on the context
+slot-filling aspects of Tasks 2A and 2B than the disorder CUI mapping of Tasks
+1 and 2B or the body location CUI mapping of Task 2B. Our problems with CUI
+mapping suggested several possible system improvements. An alteration in the
+correspondence between the system architecture and psycholinguistic findings is
+also indicated.
+Author{1}{Firstname}#=%=#Kristina
+Author{1}{Lastname}#=%=#Doing-Harris
+Author{1}{Email}#=%=#kristina.doing-harris@utah.edu
+Author{1}{Affiliation}#=%=#University of Utah
+Author{2}{Firstname}#=%=#Sean
+Author{2}{Lastname}#=%=#Igo
+Author{2}{Email}#=%=#sean.igo@utah.edu
+Author{2}{Affiliation}#=%=#University of Utah
+Author{3}{Firstname}#=%=#Jianlin
+Author{3}{Lastname}#=%=#Shi
+Author{3}{Email}#=%=#jianlin.shi@utah.edu
+Author{3}{Affiliation}#=%=#University of Utah
+Author{4}{Firstname}#=%=#John
+Author{4}{Lastname}#=%=#Hurdle
+Author{4}{Email}#=%=#john.hurdle@utah.edu
+Author{4}{Affiliation}#=%=#University of Utah
+
+==========

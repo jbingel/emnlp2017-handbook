@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#77
+FinalPaperTitle#=%=#Webis: An Ensemble for Twitter Sentiment Detection
+ShortPaperTitle#=%=#Webis: An Ensemble for Twitter Sentiment Detection
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Matthias Hagen
+JobTitle#==#
+Organization#==#Bauhaus-Universität Weimar
+Abstract#==#We reproduce four Twitter sentiment classification approaches that participated
+in previous SemEval editions with diverse feature sets. The reproduced
+approaches are combined in an ensemble, averaging the individual classifiers'
+confidence scores for the three classes (positive, neutral, negative) and
+deciding sentiment polarity based on these averages. The experimental
+evaluation on SemEval~data shows our re-implementations to slightly outperform
+their respective originals. Moreover, not too surprisingly, the ensemble of the
+reproduced approaches serves as a strong baseline in the current edition where
+it is top-ranked on the 2015 test set.
+Author{1}{Firstname}#=%=#Matthias
+Author{1}{Lastname}#=%=#Hagen
+Author{1}{Email}#=%=#matthias.hagen@uni-weimar.de
+Author{1}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{2}{Firstname}#=%=#Martin
+Author{2}{Lastname}#=%=#Potthast
+Author{2}{Email}#=%=#martin.potthast@uni-weimar.de
+Author{2}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{3}{Firstname}#=%=#Michel
+Author{3}{Lastname}#=%=#Büchner
+Author{3}{Email}#=%=#michel.buechner@uni-weimar.de
+Author{3}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{4}{Firstname}#=%=#Benno
+Author{4}{Lastname}#=%=#Stein
+Author{4}{Email}#=%=#benno.stein@uni-weimar.de
+Author{4}{Affiliation}#=%=#Bauhaus Universität Weimar
+
+==========

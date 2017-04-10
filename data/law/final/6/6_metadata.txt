@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Annotating the Implicit Content of Sluices
+ShortPaperTitle#=%=#Annotating the Implicit Content of Sluices
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Pranav Anand
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper reports on an effort to develop a linguistically-informed annotation
+scheme for sluicing (Ross, 1969), ellipsis that leaves behind a wh-phrase. We
+describe a scheme for annotating the elided content, both in terms of a free
+text representation and its degree of correspondence with its antecedent. We
+demonstrate that we can achieve reasonable IAA (Krippendorff's alpha between
+.78 and .88 across eight annotation types) and describe some of the novel
+patterns that have arisen from this effort
+Author{1}{Firstname}#=%=#Pranav
+Author{1}{Lastname}#=%=#Anand
+Author{1}{Email}#=%=#panand@ucsc.edu
+Author{1}{Affiliation}#=%=#University of California, Santa Cruz
+Author{2}{Firstname}#=%=#Jim
+Author{2}{Lastname}#=%=#McCloskey
+Author{2}{Email}#=%=#mcclosk@ucsc.edu
+Author{2}{Affiliation}#=%=#University of California, Santa Cruz
+
+==========

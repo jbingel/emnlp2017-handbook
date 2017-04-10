@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#106
+FinalPaperTitle#=%=#RTM-DCU: Predicting Semantic Similarity with Referential Translation Machines
+ShortPaperTitle#=%=#RTM-DCU: Predicting Semantic Similarity with Referential Translation Machines
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#ERGUN BICICI
+JobTitle#==#
+Organization#==#ADAPT CNGL Centre for Global Intelligent Content
+School of Computing
+Faculty of Engineering and Computing
+Dublin City University, Dublin, Ireland.
+Abstract#==#We use referential translation machines (RTMs) for predicting the semantic
+similarity of text.
+RTMs are a computational model effectively judging monolingual and bilingual
+similarity while identifying 
+translation acts between any two data sets with respect to interpretants.
+RTMs pioneer a language independent approach to all similarity tasks and remove
+the need to access any task or domain 
+specific information or resource.
+RTMs become the 2nd system out of 13 systems participating in Paraphrase and
+Semantic Similarity in Twitter, 6th out of 
+16 submissions in Semantic Textual Similarity Spanish, and 50th out of 73
+submissions in Semantic Textual Similarity 
+English.
+Author{1}{Firstname}#=%=#Ergun
+Author{1}{Lastname}#=%=#Bicici
+Author{1}{Email}#=%=#ergun.bicici@dcu.ie
+Author{1}{Affiliation}#=%=#ADAPT CNGL Centre for Global Intelligent Content, Dublin City University
+
+==========

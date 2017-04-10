@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#634
+FinalPaperTitle#=%=#Weakly Supervised Slot Tagging with Partially Labeled Sequences from Web Search Click Logs
+ShortPaperTitle#=%=#Weakly Supervised Slot Tagging with Partially Labeled Sequences from Web Search Click Logs
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Young-Bum Kim
+JobTitle#==#Scientist
+Organization#==#Microsoft Corporation, One Microsoft Way
+Redmond, WA 98052-6399
+Abstract#==#In this paper, we apply a weakly-supervised
+learning approach for slot tagging using con-
+ditional random fields by exploiting web
+search click logs. We extend the constrained
+lattice training of Täckström et al. (2013) to
+non-linear conditional random fields in which
+latent variables mediate between observations
+and labels. When combined with a novel
+initialization scheme that leverages unlabeled
+data, we show that our method gives signifi-
+cant improvement over strong supervised and
+weakly-supervised baselines.
+Author{1}{Firstname}#=%=#Young-Bum
+Author{1}{Lastname}#=%=#Kim
+Author{1}{Email}#=%=#ybkim@microsoft.com
+Author{1}{Affiliation}#=%=#Microsoft
+Author{2}{Firstname}#=%=#Minwoo
+Author{2}{Lastname}#=%=#Jeong
+Author{2}{Email}#=%=#minwoo.jeong@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft
+Author{3}{Firstname}#=%=#Karl
+Author{3}{Lastname}#=%=#Stratos
+Author{3}{Email}#=%=#stratos@cs.columbia.edu
+Author{3}{Affiliation}#=%=#Columbia University
+Author{4}{Firstname}#=%=#Ruhi
+Author{4}{Lastname}#=%=#Sarikaya
+Author{4}{Email}#=%=#ruhi.sarikaya@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft
+
+==========

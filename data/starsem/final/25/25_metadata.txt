@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#25
+FinalPaperTitle#=%=#Combining Seemingly Incompatible Corpora for Implicit Semantic Role Labeling
+ShortPaperTitle#=%=#Combining Seemingly Incompatible Corpora for Implicit Semantic Role Labeling
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Sebastian Pado
+JobTitle#==#
+Organization#==#
+Abstract#==#Implicit semantic role labeling, the task of retrieving locally unrealized
+arguments from wider discourse context, is a knowledge-intensive task. At the
+same time, the annotated corpora that exist are all small and scattered across
+different annotation frameworks, genres, and classes of predicates. Previous
+work has treated these corpora as incompatible with one another, and has
+concentrated on
+optimizing the exploitation of single corpora. In this paper, we show that
+corpus combination is effective after all when the differences between corpora
+are bridged with domain adaptation methods. When we combine the SemEval-2010
+Task 10 and Gerber and Chai noun corpora, we obtain substantially improved
+performance on both corpora, for all roles and parts of speech. We also present
+new insights into the properties of the implicit semantic role labeling task.
+Author{1}{Firstname}#=%=#Parvin Sadat
+Author{1}{Lastname}#=%=#Feizabadi
+Author{1}{Email}#=%=#feizabadi@cl.uni-heidelberg.de
+Author{1}{Affiliation}#=%=#Heidelberg University
+Author{2}{Firstname}#=%=#Sebastian
+Author{2}{Lastname}#=%=#Padó
+Author{2}{Email}#=%=#pado@ims.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#Stuttgart University
+
+==========

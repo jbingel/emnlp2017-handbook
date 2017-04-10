@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#278
+FinalPaperTitle#=%=#HEADS: Headline Generation as Sequence Prediction Using an Abstract Feature-Rich Space
+ShortPaperTitle#=%=#HEADS: Headline Generation as Sequence Prediction
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Carlos A. Colmenares
+JobTitle#==#Software Engineer
+Organization#==#Google Switzerland GmbH
+Brandschenke St 110, 8002 Zurich
+Abstract#==#Automatic headline generation is a sub-task of document summarization with many
+reported applications. In this study we present a sequence-prediction technique
+for learning how editors title their news stories. The introduced technique
+models the problem as a discrete optimization task in a feature-rich space. In
+this space the global optimum can be found in polynomial time by means of
+dynamic programming. We train and test our model on an extensive corpus of
+financial news, and compare it against a number of baselines by using standard
+metrics from the document summarization domain, as well as some new ones
+proposed in this work. We also assess the readability and informativeness of
+the generated titles through human evaluation. The obtained results are very
+appealing and substantiate the soundness of the approach.
+Author{1}{Firstname}#=%=#Carlos A.
+Author{1}{Lastname}#=%=#Colmenares
+Author{1}{Email}#=%=#crcarlos@google.com
+Author{1}{Affiliation}#=%=#Google Inc.
+Author{2}{Firstname}#=%=#Marina
+Author{2}{Lastname}#=%=#Litvak
+Author{2}{Email}#=%=#marinal@sce.ac.il
+Author{2}{Affiliation}#=%=#Shamoon College of Engineering
+Author{3}{Firstname}#=%=#Amin
+Author{3}{Lastname}#=%=#Mantrach
+Author{3}{Email}#=%=#amantrach@yahoo-inc.com
+Author{3}{Affiliation}#=%=#Yahoo Labs
+Author{4}{Firstname}#=%=#Fabrizio
+Author{4}{Lastname}#=%=#Silvestri
+Author{4}{Email}#=%=#silvestr@yahoo-inc.com
+Author{4}{Affiliation}#=%=#Yahoo Labs
+
+==========

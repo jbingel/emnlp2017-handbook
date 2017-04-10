@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#163
+FinalPaperTitle#=%=#LIST-LUX: Disorder Identiﬁcation from Clinical Texts
+ShortPaperTitle#=%=#LIST-LUX: Disorder Identiﬁcation from Clinical Texts
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Asma Ben Abacha
+JobTitle#==#
+Organization#==#Luxembourg Institute for Science and Technology (LIST), 29, avenue John F. Kennedy, L-1855 Kirchberg, Luxembourg.
+Abstract#==#This paper describes our participation in task 14 of SemEval 2015. This task
+focuses on the analysis of clinical texts and includes: (i) the recognition of
+the span of a disorder mention and (ii) its normalization to a unique concept
+identiﬁer in the UMLS/SNOMED-CT terminology. We propose a two-step approach
+which relies ﬁrst on Conditional Random Fields to detect textual mentions of
+disorders using different lexical, syntactic, orthographic and semantic
+features such as ontologies and, second, on a similarity measure and SNOMED to
+determine the relevant CUI. We present and discuss the obtained results on the
+development corpus and the ofﬁcial test corpus.
+Author{1}{Firstname}#=%=#Asma
+Author{1}{Lastname}#=%=#Ben Abacha
+Author{1}{Email}#=%=#asma.benabacha@list.lu
+Author{1}{Affiliation}#=%=#LIST
+Author{2}{Firstname}#=%=#Aikaterini
+Author{2}{Lastname}#=%=#Karanasiou
+Author{2}{Email}#=%=#aikaterini.karanasiou@list.lu
+Author{2}{Affiliation}#=%=#LIST
+Author{3}{Firstname}#=%=#Yassine
+Author{3}{Lastname}#=%=#Mrabet
+Author{3}{Email}#=%=#yassine.mrabet@list.lu
+Author{3}{Affiliation}#=%=#LIST
+Author{4}{Firstname}#=%=#Julio Cesar
+Author{4}{Lastname}#=%=#Dos Reis
+Author{4}{Email}#=%=#julio.dosreis@ic.unicamp.br
+Author{4}{Affiliation}#=%=#University of Campinas, Brazil
+
+==========

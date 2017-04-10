@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#GutenTag: an NLP-driven Tool for Digital Humanities Research in the Project Gutenberg Corpus
+ShortPaperTitle#=%=#GutenTag: an NLP-driven Tool for Digital Humanities Research
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Julian Brooke
+JobTitle#==#
+Organization#==#University of Toronto
+Toronto, ON, Canada
+Abstract#==#This paper introduces a software tool, GutenTag, which is aimed at giving
+literary researchers direct access to NLP techniques for the analysis of texts
+in the Project Gutenberg corpus. We discuss several facets of the tool,
+including the handling of formatting and structure, the use and expansion of
+metadata which is used to identify relevant subcorpora of interest, and a
+general tagging framework which is intended to cover a wide variety of future
+NLP modules. Our hope that the shared ground created by this tool will help
+create new kinds of interaction between the computational linguistics and
+digital humanities communities, to the benefit of both.
+Author{1}{Firstname}#=%=#Julian
+Author{1}{Lastname}#=%=#Brooke
+Author{1}{Email}#=%=#jbrooke@cs.toronto.edu
+Author{1}{Affiliation}#=%=#University of Toronto
+Author{2}{Firstname}#=%=#Adam
+Author{2}{Lastname}#=%=#Hammond
+Author{2}{Email}#=%=#adam.hammond@uoguelph.ca
+Author{2}{Affiliation}#=%=#University of Guelph
+Author{3}{Firstname}#=%=#Graeme
+Author{3}{Lastname}#=%=#Hirst
+Author{3}{Email}#=%=#gh@cs.toronto.edu
+Author{3}{Affiliation}#=%=#University of Toronto
+
+==========

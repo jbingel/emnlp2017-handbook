@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#143
+FinalPaperTitle#=%=#UTU: Adapting Biomedical Event Extraction System to Disorder Attribute Detection
+ShortPaperTitle#=%=#UTU: Adapting Biomedical Event Extraction System to Disorder Attribute Detection
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Kai Hakala
+JobTitle#==#
+Organization#==#Department of Information Technology, University of Turku, FI-20014 Turun yliopisto, Finland
+Abstract#==#In this paper we describe our entry to the SemEval 2015 clinical text analysis
+task. We participated only in the disorder attribute detection task 2a. Our
+main goal was to assess how well an information extraction system
+originally developed for a different task and domain can be utilized in this
+task. Our system, based on SVM and CRF classifiers, showed promising results,
+placing 3rd out of 6 participants in this task with performance of 0.857
+measured in weighted accuracy, the official evaluation metric.
+Author{1}{Firstname}#=%=#Kai
+Author{1}{Lastname}#=%=#Hakala
+Author{1}{Email}#=%=#kahaka@utu.fi
+Author{1}{Affiliation}#=%=#Department of Information Technology, University of Turku
+
+==========

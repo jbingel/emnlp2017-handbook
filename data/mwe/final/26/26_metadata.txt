@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#26
+FinalPaperTitle#=%=#The Impact of Multiword Expression Compositionality on Machine Translation Evaluation
+ShortPaperTitle#=%=#The Impact of Multiword Expression Compositionality on Machine Translation Evaluation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Paul Cook
+JobTitle#==#Assistant Professor
+Organization#==#Faculty of Computer Science
+University of New Brunswick
+P.O. Box 4400
+Fredericton, NB E3B 5A3
+Abstract#==#In this paper, we present the first attempt to integrate predicted
+  compositionality scores of multiword expressions into automatic machine
+translation
+  evaluation, in integrating compositionality scores for English noun
+  compounds into the TESLA machine translation evaluation metric. The
+  attempt is marginally successful, and we speculate on whether a
+  larger-scale attempt is likely to have greater impact.
+Author{1}{Firstname}#=%=#Bahar
+Author{1}{Lastname}#=%=#Salehi
+Author{1}{Email}#=%=#bsalehi@student.unimelb.edu.au
+Author{1}{Affiliation}#=%=#The University of Melbourne
+Author{2}{Firstname}#=%=#Nitika
+Author{2}{Lastname}#=%=#Mathur
+Author{2}{Email}#=%=#nmathur@student.unimelb.edu.au
+Author{2}{Affiliation}#=%=#The University of Melbourne
+Author{3}{Firstname}#=%=#Paul
+Author{3}{Lastname}#=%=#Cook
+Author{3}{Email}#=%=#paul.cook@unb.ca
+Author{3}{Affiliation}#=%=#University of New Brunswick
+Author{4}{Firstname}#=%=#Timothy
+Author{4}{Lastname}#=%=#Baldwin
+Author{4}{Email}#=%=#tb@ldwin.net
+Author{4}{Affiliation}#=%=#The University of Melbourne
+
+==========

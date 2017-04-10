@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#127
+FinalPaperTitle#=%=#SemEval-2015 Task 8: SpaceEval
+ShortPaperTitle#=%=#SemEval-2015 Task 8: SpaceEval
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#James Pustejovsky
+JobTitle#==#
+Organization#==#Computer Science Department
+Brandeis University
+Waltham, MA 02453 USA
+Abstract#==#Human languages exhibit a variety of strategies
+for communicating spatial information,
+including toponyms, spatial nominals, locations
+that are described in relation to other locations,
+and movements along paths. SpaceEval
+is a combined information extraction and
+classification task with the goal of identifying
+and categorizing such spatial information.
+In this paper, we describe the SpaceEval task,
+annotation schema, and corpora, and evaluate
+the performance of several supervised and
+semi-supervised machine learning systems developed
+with the goal of automating this task.
+Author{1}{Firstname}#=%=#James
+Author{1}{Lastname}#=%=#Pustejovsky
+Author{1}{Email}#=%=#jamesp@cs.brandeis.edu
+Author{1}{Affiliation}#=%=#Brandeis University
+Author{2}{Firstname}#=%=#Parisa
+Author{2}{Lastname}#=%=#Kordjamshidi
+Author{2}{Email}#=%=#kordjam@illinois.edu
+Author{2}{Affiliation}#=%=#University of Illinois
+Author{3}{Firstname}#=%=#Marie-Francine
+Author{3}{Lastname}#=%=#Moens
+Author{3}{Email}#=%=#sien.moens@cs.kuleuven.be
+Author{3}{Affiliation}#=%=#KU Leuven
+Author{4}{Firstname}#=%=#Aaron
+Author{4}{Lastname}#=%=#Levine
+Author{4}{Email}#=%=#aclevine@brandeis.edu
+Author{4}{Affiliation}#=%=#Brandeis University
+Author{5}{Firstname}#=%=#Seth
+Author{5}{Lastname}#=%=#Dworman
+Author{5}{Email}#=%=#sdworman@brandeis.edu
+Author{5}{Affiliation}#=%=#Brandeis University
+Author{6}{Firstname}#=%=#Zachary
+Author{6}{Lastname}#=%=#Yocum
+Author{6}{Email}#=%=#zyocum@brandeis.edu
+Author{6}{Affiliation}#=%=#Brandeis University
+
+==========

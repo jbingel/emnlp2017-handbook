@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#60
+FinalPaperTitle#=%=#Morphological Paradigms: Computational Structure and Unsupervised Learning
+ShortPaperTitle#=%=#Morphological Paradigms: Computational Structure and Unsupervised Learning
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Jackson L Lee
+JobTitle#==#
+Organization#==#University of Chicago, Dept of Linguistics
+1115 East 58th Street, Chicago IL 60637
+Abstract#==#This thesis explores the computational structure of morphological paradigms
+from the perspective of unsupervised learning. Three topics are studied: (i)
+stem identification, (ii) paradigmatic similarity, and (iii) paradigm
+induction. All the three topics progress in terms of the scope of data in
+question. The first and second topics explore structure when morphological
+paradigms are given, first within a paradigm and then across paradigms. The
+third topic asks where morphological paradigms come from in the first place,
+and explores strategies of paradigm induction from child-directed speech. This
+research is of interest to linguists and natural language processing
+researchers, for both theoretical questions and applied areas.
+Author{1}{Firstname}#=%=#Jackson
+Author{1}{Lastname}#=%=#Lee
+Author{1}{Email}#=%=#jsllee@uchicago.edu
+Author{1}{Affiliation}#=%=#University of Chicago
+
+==========

@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Bilingual English-Czech Valency Lexicon Linked to a Parallel Corpus
+ShortPaperTitle#=%=#Bilingual English-Czech Valency Lexicon Linked to a Parallel Corpus
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Jan Hajic
+JobTitle#==#
+Organization#==#Jan Hajic
+Charles University in Prague
+UFAL MFF
+Malostranske nam. 25
+11800 Prague 1
+Czech Republic
+Abstract#==#This paper presents a resource and the associated annotation process used in a
+project of interlinking Czech and English verbal translational equivalents
+based on a parallel, richly annotated dependency treebank containing also
+valency and semantic roles, namely the Prague Czech-English Dependency
+Treebank. One of the main aims of this project is to create a high-quality and
+relatively large empirical base which could be used both for linguistic
+comparative research as well as for natural language processing applications,
+such as machine translation or cross-language sense disambiguation. This paper
+describes the resulting lexicon, CzEngVallex, and the process of building it,
+as well some interesting observations and statistics already obtained.
+Author{1}{Firstname}#=%=#Zdenka
+Author{1}{Lastname}#=%=#Uresova
+Author{1}{Email}#=%=#uresova@ufal.mff.cuni.cz
+Author{1}{Affiliation}#=%=#Charles University in Prague
+Author{2}{Firstname}#=%=#Ondřej
+Author{2}{Lastname}#=%=#Dušek
+Author{2}{Email}#=%=#odusek@ufal.mff.cuni.cz
+Author{2}{Affiliation}#=%=#Charles University in Prague
+Author{3}{Firstname}#=%=#Eva
+Author{3}{Lastname}#=%=#Fucikova
+Author{3}{Email}#=%=#fucikova@ufal.mff.cuni.cz
+Author{3}{Affiliation}#=%=#Charles university in Prague
+Author{4}{Firstname}#=%=#Jan
+Author{4}{Lastname}#=%=#Hajic
+Author{4}{Email}#=%=#hajic@ufal.mff.cuni.cz
+Author{4}{Affiliation}#=%=#Charles University in Prague
+Author{5}{Firstname}#=%=#Jana
+Author{5}{Lastname}#=%=#Sindlerova
+Author{5}{Email}#=%=#sindlerova@ufal.mff.cuni.cz
+Author{5}{Affiliation}#=%=#UFAL MFF Charles University in Prague
+
+==========

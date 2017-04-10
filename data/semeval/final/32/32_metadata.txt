@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#32
+FinalPaperTitle#=%=#LT3: A Multi-modular Approach to Automatic Taxonomy Construction
+ShortPaperTitle#=%=#LT3: A Multi-modular Approach to Automatic Taxonomy Construction
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Els Lefever
+JobTitle#==#
+Organization#==#Ghent University
+Groot-Brittanniëlaan, 45
+9000 Gent
+Belgium
+Abstract#==#This paper describes our contribution to the SemEval-2015 task 17 on "Taxonomy
+Extraction Evaluation".
+We propose a hypernym detection system combining three modules: a
+lexico-syntactic pattern matcher, a morpho-syntactic analyzer and a module
+retrieving hypernym relations from structured lexical resources.
+Our system ranked first in the competition when considering the gold standard
+and manual evaluation, and second in the overall ranking.In addition, the
+experimental results show that all modules contribute to finding hypernym
+relations between terms.
+Author{1}{Firstname}#=%=#Els
+Author{1}{Lastname}#=%=#Lefever
+Author{1}{Email}#=%=#els.lefever@ugent.be
+Author{1}{Affiliation}#=%=#LT3, Ghent University
+
+==========

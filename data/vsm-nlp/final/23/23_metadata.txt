@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#Neural word embeddings with multiplicative feature interactions for tensor-based compositions
+ShortPaperTitle#=%=#Neural word embeddings with multiplicative feature interactions for tensor-based compositions
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Joo-Kyung Kim
+JobTitle#==#
+Organization#==#The Ohio State University, 
+Columbus, OH 43210, USA
+Abstract#==#Categorical compositional distributional models unify compositional formal
+semantic models and distributional models by composing phrases with
+tensor-based methods from vector representations. For the tensor-based
+compositions, Milajevs et al. (2014) showed that word vectors obtained from the
+continuous bag-of-words (CBOW) model are competitive with those from
+co-occurrence based models. However, because word vectors from the CBOW model
+are trained assuming additive interactions between context words, the word
+composition used for the training mismatches to the tensor-based methods used
+for evaluating the actual compositions including point-wise multiplication and
+tensor product of context vectors. In this work, we show whether the word
+embeddings from extended CBOW models using multiplication or tensor product
+between context words, reflecting the actual composition methods, can show
+better performance than those from the baseline CBOW model in actual tasks of
+compositions with multiplication or tensor-based methods.
+Author{1}{Firstname}#=%=#Joo-Kyung
+Author{1}{Lastname}#=%=#Kim
+Author{1}{Email}#=%=#kimjook@cse.ohio-state.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Marie-Catherine
+Author{2}{Lastname}#=%=#de Marneffe
+Author{2}{Email}#=%=#mcdm@ling.ohio-state.edu
+Author{2}{Affiliation}#=%=#The Ohio State University
+Author{3}{Firstname}#=%=#Eric
+Author{3}{Lastname}#=%=#Fosler-Lussier
+Author{3}{Email}#=%=#fosler@cse.ohio-state.edu
+Author{3}{Affiliation}#=%=#The Ohio State University
+
+==========

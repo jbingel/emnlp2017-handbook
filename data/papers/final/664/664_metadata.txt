@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#664
+FinalPaperTitle#=%=#Entity Linking for Spoken Language
+ShortPaperTitle#=%=#Entity Linking for Spoken Language
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Adrian Benton
+JobTitle#==#
+Organization#==#Human Language Technology Center of Excellence
+Johns Hopkins University
+810 Wyman Park Drive
+Baltimore, MD 21211
+Abstract#==#Research on entity linking has considered a broad range of text, including
+newswire, blogs and web documents in multiple languages. However, the problem
+of entity linking for spoken language remains unexplored. Spoken language
+obtained from automatic speech recognition systems poses different types of
+challenges for entity linking; transcription errors can distort the context,
+and named entities tend to have high error rates. We propose features to
+mitigate these errors and  evaluate the impact of ASR errors on entity linking
+using a new corpus of entity linked broadcast news transcripts.
+Author{1}{Firstname}#=%=#Adrian
+Author{1}{Lastname}#=%=#Benton
+Author{1}{Email}#=%=#adrian.benton@gmail.com
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Dredze
+Author{2}{Email}#=%=#mdredze@cs.jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+
+==========

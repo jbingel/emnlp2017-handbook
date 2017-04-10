@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#407
+FinalPaperTitle#=%=#Optimizing Multivariate Performance Measures for Learning Relation Extraction Models
+ShortPaperTitle#=%=#Optimizing Multivariate Performance Measures for Learning Relation Extraction Models
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Ajay Nagesh
+JobTitle#==#
+Organization#==#IIT Bombay
+Dept. of Computer Science,
+KReSIT Building, IIT Bombay, Powai, Mumbai. India. PIN: 400076
+Abstract#==#We describe a novel max-margin learning approach to optimize non-linear
+performance measures for  distantly-supervised relation extraction models. Our
+approach can be generally used to learn latent variable models under
+multivariate non-linear performance measures, such as F_β-score. Our approach
+interleaves Concave-Convex Procedure (CCCP) for populating  latent variables
+with dual decomposition to factorize the original hard problem into smaller
+independent sub-problems. The experimental results demonstrate that our
+learning algorithm is more effective than the ones commonly used in the
+literature for distant supervision of information extraction models. On several
+data conditions, we show that our method outperforms the baseline and results
+in up to 8.5% improvement in the F_1-score.
+Author{1}{Firstname}#=%=#Gholamreza
+Author{1}{Lastname}#=%=#Haffari
+Author{1}{Email}#=%=#reza.haffari@gmail.com
+Author{1}{Affiliation}#=%=#Monash University
+Author{2}{Firstname}#=%=#Ajay
+Author{2}{Lastname}#=%=#Nagesh
+Author{2}{Email}#=%=#ajaynagesh@cse.iitb.ac.in
+Author{2}{Affiliation}#=%=#IIT Bombay
+Author{3}{Firstname}#=%=#Ganesh
+Author{3}{Lastname}#=%=#Ramakrishnan
+Author{3}{Email}#=%=#ganesh@cse.iitb.ac.in
+Author{3}{Affiliation}#=%=#Department of Computer Science and Engineering, Indian Institute of Technology Bombay
+
+==========

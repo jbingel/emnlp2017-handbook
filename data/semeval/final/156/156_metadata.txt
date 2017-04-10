@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#156
+FinalPaperTitle#=%=#TATO: Leveraging on Multiple Strategies for Semantic Textual Similarity
+ShortPaperTitle#=%=#TATO: Leveraging on Multiple Strategies for Semantic Textual Similarity
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Tu Thanh Vu
+JobTitle#==#Student
+Organization#==#University of Engineering and Technology, Vietnam National University, Hanoi, Vietnam
+
+E3 Building, 144 Xuan Thuy Street, Cau Giay, Hanoi, Vietnam
+Abstract#==#In this paper, we describe the TATO system which participated in the
+SemEval-2015 Task 2a: “Semantic Textual Similarity (STS) for English”. Our
+system is trained on published datasets from the previous competitions. Based
+on some machine learning techniques, it combines multiple similarity measures
+of varying complexity ranging from simple lexical and syntactic similarity
+measures to complex semantic similarity ones to compute semantic textual
+similarity. Our final model consists of a simple linear combination of about 30
+main features out of a numerous number of features experimented. The results
+are promising, with Pearson’s coefficients on each individual dataset ranging
+from 0.6796 to 0.8167 and an overall weighted mean score of 0.7422, well above
+the task baseline system.
+Author{1}{Firstname}#=%=#Tu Thanh
+Author{1}{Lastname}#=%=#Vu
+Author{1}{Email}#=%=#tuvt@vnu.edu.vn
+Author{1}{Affiliation}#=%=#University of Engineering and Technology, Vietnam National University, Hanoi
+Author{2}{Firstname}#=%=#Quan Hung
+Author{2}{Lastname}#=%=#Tran
+Author{2}{Email}#=%=#quanthdhcn@gmail.com
+Author{2}{Affiliation}#=%=#Japan Advance Institute of Science and Technology
+Author{3}{Firstname}#=%=#Son Bao
+Author{3}{Lastname}#=%=#Pham
+Author{3}{Email}#=%=#sonpb@vnu.edu.vn
+Author{3}{Affiliation}#=%=#University of Engineering and Technology, Vietnam National University, Hanoi
+
+==========

@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#HITSZ-ICRC: Exploiting Classification Approach for Answer Selection in Community Question Answering
+ShortPaperTitle#=%=#HITSZ-ICRC: Exploiting Classification Approach for Answer Selection in Community Question Answering
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Yongshuai Hou
+JobTitle#==#
+Organization#==#Harbin Institute of Technology Shenzhen Graduate School
+HIT Campus, The University Town of Shenzhen, Xili, Nanshan District, Shenzhen, Shenzhen, Guangdong, 518055, China
+Abstract#==#This paper describes the participation of the HITSZ-ICRC team on the Answer
+Selection Challenge in SemEval-2015. Our team participated in English subtask
+A, English subtask B and Arabic task. Two approaches, ensemble learning and
+hierarchical classification were proposed for answer selection in each task.
+Bag-of-words features, lexical features and non-textual features were employed.
+For the Arabic task, features were extracted from both Arabic data and English
+data that translated from the Arabic data. Evaluation demonstrated that the
+proposed methods were effective, achieving a macro-averaged F1 of 56.41% (rank
+2nd) in English subtask A, 53.60 % (rank 3rd) in English subtask B and 67.70%
+(rank 3rd) in Arabic task, respectively.
+Author{1}{Firstname}#=%=#Yongshuai
+Author{1}{Lastname}#=%=#Hou
+Author{1}{Email}#=%=#yongshuai.hou@gmail.com
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology Shenzhen Graduate School
+Author{2}{Firstname}#=%=#Cong
+Author{2}{Lastname}#=%=#Tan
+Author{2}{Email}#=%=#viptancong@gmail.com
+Author{2}{Affiliation}#=%=#Harbin Institute of Technology Shenzhen Graduate School
+Author{3}{Firstname}#=%=#Xiaolong
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#wangxl@insun.hit.edu.cn
+Author{3}{Affiliation}#=%=#Harbin Institute of Technology Shenzhen Graduate School
+Author{4}{Firstname}#=%=#Yaoyun
+Author{4}{Lastname}#=%=#Zhang
+Author{4}{Email}#=%=#xiaoni5122@gmail.com
+Author{4}{Affiliation}#=%=#Harbin Institute of Technology Shenzhen Graduate School
+Author{5}{Firstname}#=%=#Jun
+Author{5}{Lastname}#=%=#Xu
+Author{5}{Email}#=%=#hit.xujun@gmail.com
+Author{5}{Affiliation}#=%=#Harbin Institute of Technology Shenzhen Graduate School
+Author{6}{Firstname}#=%=#Qingcai
+Author{6}{Lastname}#=%=#Chen
+Author{6}{Email}#=%=#qingcai.chen@gmail.com
+Author{6}{Affiliation}#=%=#Harbin Institute of Technology Shenzhen Graduate School
+
+==========

@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#315
+FinalPaperTitle#=%=#A Linear-Time Transition System for Crossing Interval Trees
+ShortPaperTitle#=%=#A Linear-Time Transition System for Crossing Interval Trees
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Emily Pitler
+JobTitle#==#
+Organization#==#Google, Inc.
+76 Ninth Avenue
+New York, NY 10011
+Abstract#==#We define a restricted class of non-projective trees that 1) covers many
+natural language sentences; and 2) can be parsed exactly with a generalization
+of the popular arc-eager system for projective trees (Nivre, 2003). Crucially,
+this generalization only adds constant overhead in run-time and space keeping
+the parser’s total run-time linear in the worst case. In empirical
+experiments, our proposed transition-based parser is more accurate on average
+than both the arc-eager system or the swap-based system, an unconstrained
+non-projective transition system with a worst-case quadratic runtime (Nivre,
+2009).
+Author{1}{Firstname}#=%=#Emily
+Author{1}{Lastname}#=%=#Pitler
+Author{1}{Email}#=%=#emily.pitler@gmail.com
+Author{1}{Affiliation}#=%=#Google, Inc.
+Author{2}{Firstname}#=%=#Ryan
+Author{2}{Lastname}#=%=#McDonald
+Author{2}{Email}#=%=#ryanmcd@gmail.com
+Author{2}{Affiliation}#=%=#Google
+
+==========

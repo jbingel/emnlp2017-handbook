@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#80
+FinalPaperTitle#=%=#SpRL-CWW: Spatial Relation Classification with Independent Multi-class Models
+ShortPaperTitle#=%=#SpRL-CWW: Spatial Relation Classification with Independent Multi-class Models
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Eric Nichols
+JobTitle#==#
+Organization#==#Honda Research Institute Japan Co., Ltd.
+8-1 Honcho, Wako, Saitama
+JAPAN, 351-0188
+Abstract#==#In this paper we describe the SpRL-CWW entry into SemEval 2015: Task 8
+SpaceEval. It detects spatial and motion relations as defined by the ISO-Space
+specifications in two phases: (1) it detects spatial elements and
+spatial/motion signals with a CRF model that uses a combination of distributed
+word representations and lexico-syntactic features; (2) given relation
+candidate tuples, it simultaneously detects relation types and labels the
+spatial roles of participating elements by using a combination of syntactic and
+semantic features in independent multi-class classification models for each
+relation type. In evaluation on the shared task data, our system performed
+particularly well on detection of elements and relations in unannotated data.
+Author{1}{Firstname}#=%=#Eric
+Author{1}{Lastname}#=%=#Nichols
+Author{1}{Email}#=%=#e.nichols@jp.honda-ri.com
+Author{1}{Affiliation}#=%=#Honda Research Institute Japan
+Author{2}{Firstname}#=%=#Fadi
+Author{2}{Lastname}#=%=#Botros
+Author{2}{Email}#=%=#fnmbotro@ucalgary.ca
+Author{2}{Affiliation}#=%=#University of Calgary
+
+==========

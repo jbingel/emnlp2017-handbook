@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#126
+FinalPaperTitle#=%=#Learning to parse with IAA-weighted loss
+ShortPaperTitle#=%=#Learning to parse with IAA-weighted loss
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Barbara Plank
+JobTitle#==#
+Organization#==#University of Copenhagen
+Abstract#==#Natural language processing (NLP) annotation projects employ guidelines to
+maximize inter-annotator agreement (IAA), and models are estimated assuming
+that there is one single ground truth. However, not all disagreement is noise,
+and in fact some of it may contain valuable linguistic information. We
+integrate such information in the training of a cost-sensitive dependency
+parser. 
+We introduce five different factorizations of IAA and the corresponding loss
+functions, and evaluate these across six different languages. We obtain robust
+improvements across the board using a factorization that considers dependency
+labels and directionality. The best method-dataset combination reaches an
+average overall error reduction of 6.4% in labeled attachment score.
+Author{1}{Firstname}#=%=#Héctor
+Author{1}{Lastname}#=%=#Martínez Alonso
+Author{1}{Email}#=%=#alonso@hum.ku.dk
+Author{1}{Affiliation}#=%=#University of Copenhagen
+Author{2}{Firstname}#=%=#Barbara
+Author{2}{Lastname}#=%=#Plank
+Author{2}{Email}#=%=#bplank@gmail.com
+Author{2}{Affiliation}#=%=#University of Copenhagen
+Author{3}{Firstname}#=%=#Arne
+Author{3}{Lastname}#=%=#Skjærholt
+Author{3}{Email}#=%=#arnskj@ifi.uio.no
+Author{3}{Affiliation}#=%=#University of Oslo
+Author{4}{Firstname}#=%=#Anders
+Author{4}{Lastname}#=%=#Søgaard
+Author{4}{Email}#=%=#soegaard@hum.ku.dk
+Author{4}{Affiliation}#=%=#University of Copenhagen
+
+==========

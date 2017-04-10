@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Identifying Various Kinds of Event Mentions in K-Parser Output
+ShortPaperTitle#=%=#Identifying Various Kinds of Event Mentions in K-Parser Output
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Arpit Sharma
+JobTitle#==#
+Organization#==#Arizona State University, Tempe, AZ 85281, USA
+Abstract#==#In this paper we show how our semantic parser (Knowledge Parser or K-Parser)
+identifies various kinds of event mentions in the input text. The types include
+recursive (complex) and non recursive event mentions. K-Parser outputs each
+event mention in form of an acyclic graph with root nodes as the verbs that
+drive those events. The children nodes of the verbs represent the entities
+participating in the events, and their conceptual classes. The on-line demo of
+the system is available at http://kparser.org
+Author{1}{Firstname}#=%=#Arpit
+Author{1}{Lastname}#=%=#Sharma
+Author{1}{Email}#=%=#asharm73@asu.edu
+Author{1}{Affiliation}#=%=#Arizona State University
+Author{2}{Firstname}#=%=#Nguyen
+Author{2}{Lastname}#=%=#Vo
+Author{2}{Email}#=%=#vohanguyen@gmail.com
+Author{2}{Affiliation}#=%=#Arizona State University
+Author{3}{Firstname}#=%=#Somak
+Author{3}{Lastname}#=%=#Aditya
+Author{3}{Email}#=%=#saditya1@asu.edu
+Author{3}{Affiliation}#=%=#Arizona State University
+Author{4}{Firstname}#=%=#Chitta
+Author{4}{Lastname}#=%=#Baral
+Author{4}{Email}#=%=#chitta@asu.edu
+Author{4}{Affiliation}#=%=#Arizona State University
+
+==========

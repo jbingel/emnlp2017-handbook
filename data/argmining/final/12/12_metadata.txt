@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Towards Detecting Counter-considerations in Text
+ShortPaperTitle#=%=#Towards Detecting Counter-considerations in Text
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Andreas Peldszus
+JobTitle#==#
+Organization#==#
+Abstract#==#Argumentation mining obviously involves finding support relations between
+statements, but many interesting instances of argumentation also contain
+counter-considerations, which the author mentions in order to preempt possible
+objections by the readers. A counter-consideration in monologue text thus
+involves a switch of perspective toward an imaginary „opponent“. We present
+a classification approach to classifying counter-considerations and apply it to
+two different corpora: a selection of very short argumentative texts produced
+in a text generation experiment, and a set of newspaper commentaries. As
+expected, the latter pose more difficulties, which we investigate in a brief
+error anaylsis.
+Author{1}{Firstname}#=%=#Andreas
+Author{1}{Lastname}#=%=#Peldszus
+Author{1}{Email}#=%=#peldszus@uni-potsdam.de
+Author{1}{Affiliation}#=%=#University of Potsdam
+Author{2}{Firstname}#=%=#Manfred
+Author{2}{Lastname}#=%=#Stede
+Author{2}{Email}#=%=#stede@uni-potsdam.de
+Author{2}{Affiliation}#=%=#University of Potsdam
+
+==========

@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#The Impact of Training Data on Automated Short Answer Scoring Performance
+ShortPaperTitle#=%=#The Impact of Training Data on Automated Short Answer Scoring Performance
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Nitin Madnani
+JobTitle#==#
+Organization#==#Educational Testing Service, Princeton, NJ, USA
+Abstract#==#Automatic evaluation of written responses to content-focused assessment items
+(automated short answer scoring) is a challenging educational application of
+natural language processing. It is often addressed using supervised machine
+learning by estimating models to predict human scores from detailed linguistic
+features such as word n-grams. However, training data (i.e., human-scored
+responses) can be difficult to acquire. In this paper, we conduct experiments
+using scored responses to 44 prompts from 5 diverse datasets in order to better
+understand how training set size and other factors relate to system
+performance. We believe this will help future researchers and practitioners
+working on short answer scoring to answer practically important questions such
+as, “How much training data do I need?”
+Author{1}{Firstname}#=%=#Michael
+Author{1}{Lastname}#=%=#Heilman
+Author{1}{Email}#=%=#mheilman@civisanalytics.com
+Author{1}{Affiliation}#=%=#Civis Analytics
+Author{2}{Firstname}#=%=#Nitin
+Author{2}{Lastname}#=%=#Madnani
+Author{2}{Email}#=%=#nmadnani@ets.org
+Author{2}{Affiliation}#=%=#Educational Testing Service
+
+==========

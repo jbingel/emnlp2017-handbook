@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#130
+FinalPaperTitle#=%=#ECNU: Using Multiple Sources of CQA-based Information for Answers Selection and YES/NO Response Inference
+ShortPaperTitle#=%=#Using Multiple Sources of CQA-based Information for Answers Selection and YES/NO Response Inference
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Liang Yi
+JobTitle#==#
+Organization#==#East China Normal University, Shanghai 200241, China
+Abstract#==#This paper reports our submissions to community question answering task in
+SemEval 2015, which consists of two subtasks: (1) predict the quality of
+answers to given question as good, bad, or potentially relevant and (2)
+identify yes, no or unsure response to a given YES/NO question based on the
+good answers identified by subtask 1. For both subtasks, we adopted supervised
+classification method and examined the effects of heterogeneous features
+generated from community question answering data, such as bag-of-words, string
+matching, semantic similarity, answerer information, answer-specific features,
+question-specific features, etc. Our submitted primary systems ranked the forth
+and the second for the two subtasks of English data respectively.
+Author{1}{Firstname}#=%=#Liang
+Author{1}{Lastname}#=%=#Yi
+Author{1}{Email}#=%=#51121201035@ecnu.cn
+Author{1}{Affiliation}#=%=#East China Normal University
+Author{2}{Firstname}#=%=#JianXiang
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#51141201062@ecnu.cn
+Author{2}{Affiliation}#=%=#East China Normal University
+Author{3}{Firstname}#=%=#Man
+Author{3}{Lastname}#=%=#Lan
+Author{3}{Email}#=%=#mlan@cs.ecnu.edu.cn
+Author{3}{Affiliation}#=%=#East China Normal University
+
+==========

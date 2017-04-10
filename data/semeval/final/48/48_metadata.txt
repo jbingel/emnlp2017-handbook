@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#48
+FinalPaperTitle#=%=#CMILLS: Adapting Semantic Role Labeling Features to Dependency Parsing
+ShortPaperTitle#=%=#Adapting SRL Features to Dependency Parsing
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Chad Mills
+JobTitle#==#
+Organization#==#University of Washington
+Guggenheim Hall, 4th Floor
+Seattle, WA 98195, USA
+Abstract#==#We describe a system for semantic role labeling adapted to a dependency parsing
+framework. Verb arguments are predicted over nodes in a dependency parse tree
+instead of nodes in a phrase-structure parse tree. Our system participated in
+SemEval-2015 shared Task 15, Subtask 1: CPA parsing and achieved an F-score of
+0.516. We adapted features from prior semantic role labeling work to the
+dependency parsing paradigm, using a series of supervised classifiers to
+identify arguments of a verb and then assigning syntactic and semantic labels.
+We found that careful feature selection had a major impact on system
+performance. However, sparse training data still led rule-based systems like
+the baseline to be more effective than learning-based approaches.
+Author{1}{Firstname}#=%=#Chad
+Author{1}{Lastname}#=%=#Mills
+Author{1}{Email}#=%=#cmills@outlook.com
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Gina-Anne
+Author{2}{Lastname}#=%=#Levow
+Author{2}{Email}#=%=#levow@uw.edu
+Author{2}{Affiliation}#=%=#University of Washington
+
+==========

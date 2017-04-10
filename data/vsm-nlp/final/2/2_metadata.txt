@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#A Simple Word Embedding Model for Lexical Substitution
+ShortPaperTitle#=%=#A Simple Word Embedding Model for Lexical Substitution
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#oren melamud
+JobTitle#==#phd student
+Organization#==#Bar-Ilan University
+Ramat-Gan, Israel
+Abstract#==#The lexical substitution task requires identifying meaning-preserving
+substitutes for a target word instance in a given sentential context.
+Since its introduction in SemEval-2007, various models addressed this
+challenge, mostly in an unsupervised setting.
+In this work we propose a simple model for lexical substitution, which is based
+on the popular skip-gram word embedding model. The novelty of our approach is
+in leveraging explicitly the context embeddings generated within the skip-gram
+model, which were so far considered only as an internal component of the
+learning process.
+Our model is efficient, very simple to implement, and at the same time achieves
+state-of-the-art results on lexical substitution tasks in an unsupervised
+setting.
+Author{1}{Firstname}#=%=#Oren
+Author{1}{Lastname}#=%=#Melamud
+Author{1}{Email}#=%=#melamuo@cs.biu.ac.il
+Author{1}{Affiliation}#=%=#Bar Ilan University
+Author{2}{Firstname}#=%=#Omer
+Author{2}{Lastname}#=%=#Levy
+Author{2}{Email}#=%=#omerlevy@cs.biu.ac.il
+Author{2}{Affiliation}#=%=#Bar-Ilan University
+Author{3}{Firstname}#=%=#Ido
+Author{3}{Lastname}#=%=#Dagan
+Author{3}{Email}#=%=#dagan@cs.biu.ac.il
+Author{3}{Affiliation}#=%=#Bar-Ilan University
+
+==========

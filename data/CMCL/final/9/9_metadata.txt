@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Verb polysemy and frequency effects in thematic fit modeling
+ShortPaperTitle#=%=#Verb polysemy and frequency effects in thematic fit modeling
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Clayton Greenberg
+JobTitle#==#
+Organization#==#Saarland University
+Campus C7 1
+66123 Saarbruecken
+Abstract#==#While several data sets for evaluating thematic
+fit of verb-role-filler triples exist, they do not
+control for verb polysemy. Thus, it is unclear
+how verb polysemy affects human ratings of
+thematic fit and how best to model that. We
+present a new dataset of human ratings on high
+vs. low-polysemy verbs matched for verb frequency,
+together with high vs. low-frequency
+and well-fitting vs. poorly-fitting patient role-fillers.
+Our analyses show that low-polysemy
+verbs produce stronger thematic fit judgements
+than verbs with higher polysemy. Role-filler
+frequency, on the other hand, had little
+effect on ratings. We show that these results
+can best be modeled in a vector space using a
+clustering technique to create multiple prototype
+vectors representing different “senses” of
+the verb.
+Author{1}{Firstname}#=%=#Clayton
+Author{1}{Lastname}#=%=#Greenberg
+Author{1}{Email}#=%=#claytong@coli.uni-saarland.de
+Author{1}{Affiliation}#=%=#Saarland University
+Author{2}{Firstname}#=%=#Vera
+Author{2}{Lastname}#=%=#Demberg
+Author{2}{Email}#=%=#vera@coli.uni-saarland.de
+Author{2}{Affiliation}#=%=#Saarland University
+Author{3}{Firstname}#=%=#Asad
+Author{3}{Lastname}#=%=#Sayeed
+Author{3}{Email}#=%=#asayeed@mbl.ca
+Author{3}{Affiliation}#=%=#Saarland University
+
+==========

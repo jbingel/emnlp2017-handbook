@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#145
+FinalPaperTitle#=%=#Riga: from FrameNet to Semantic Frames with C6.0 Rules
+ShortPaperTitle#=%=#Riga: from FrameNet to Semantic Frames with C6.0 Rules
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Guntis Barzdins
+JobTitle#==#author
+Organization#==#University of Latvia
+Rainis Blvd 29, Riga LV-1459, Latvia
+Abstract#==#For the purposes of SemEval-2015 Task-18 on the semantic dependency parsing we
+combined the best-performing closed track ap-proach from the SemEval-2014
+competition with state-of-the-art techniques for FrameNet semantic parsing. In
+the closed track our system ranked third for the semantic graph accuracy and
+first for exact labeled match of complete semantic graphs. These results can be
+attributed to the high accuracy of the C6.0 rule-based sense labeler adapted
+from the FrameNet parser. To handle large SemEval training data the C6.0
+algorithm was extended to provide multi-class classification and to use fast
+greedy search without significant accuracy loss compared to exhaustive search.
+A method for improved FrameNet parsing using semantic graphs is proposed.
+Author{1}{Firstname}#=%=#Guntis
+Author{1}{Lastname}#=%=#Barzdins
+Author{1}{Email}#=%=#guntis@latnet.lv
+Author{1}{Affiliation}#=%=#University of Latvia
+Author{2}{Firstname}#=%=#Peteris
+Author{2}{Lastname}#=%=#Paikens
+Author{2}{Email}#=%=#peteris.paikens@lumii.lv
+Author{2}{Affiliation}#=%=#University of Latvia
+Author{3}{Firstname}#=%=#Didzis
+Author{3}{Lastname}#=%=#Gosko
+Author{3}{Email}#=%=#didzis.gosko@lumii.lv
+Author{3}{Affiliation}#=%=#University of Latvia
+
+==========

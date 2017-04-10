@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Combining Argument Mining Techniques
+ShortPaperTitle#=%=#Combining Argument Mining Techniques
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#John Lawrence
+JobTitle#==#
+Organization#==#University of Dundee, Dundee, DD1 4HN
+United Kingdom
+Abstract#==#In this paper, we look at three different methods of extracting the
+argumentative structure from a piece of natural language text. These methods
+cover linguistic features, changes in the topic being discussed and a
+supervised machine learning approach to identify the components of
+argumentation schemes, patterns of human reasoning which have been detailed
+extensively in philosophy and psychology. For each of these approaches we
+achieve results comparable to those previously reported, whilst at the same
+time achieving a more detailed argument structure. Finally, we use the results
+from these individual techniques to apply them in combination, further
+improving the argument structure identification.
+Author{1}{Firstname}#=%=#John
+Author{1}{Lastname}#=%=#Lawrence
+Author{1}{Email}#=%=#johnlawrence@computing.dundee.ac.uk
+Author{1}{Affiliation}#=%=#University of Dundee
+Author{2}{Firstname}#=%=#Chris
+Author{2}{Lastname}#=%=#Reed
+Author{2}{Email}#=%=#c.a.reed@dundee.ac.uk
+Author{2}{Affiliation}#=%=#University of Dundee
+
+==========

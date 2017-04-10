@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#Learning Kernels for Semantic Clustering: A Deep Approach
+ShortPaperTitle#=%=#Learning Kernels for Semantic Clustering
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Ignacio Arroyo-Fernández
+JobTitle#==#
+Organization#==#Universidad Nacional Autónoma de México (UNAM)
+Abstract#==#In this thesis proposal we present a novel semantic embedding method, which
+aims at consistently performing semantic clustering at sentence level. Taking
+into account special aspects of Vector Space Models (VSMs), we propose to learn
+reproducing kernels in classification tasks. By this way, capturing spectral
+features from data is possible. These features make it theoretically plausible
+to model semantic similarity criteria in Hilbert spaces, i.e. the embedding
+spaces. We could improve the semantic assessment over embeddings, which are
+criterion-derived representations from traditional semantic vectors. The
+learned kernel could be easily transferred to clustering methods, where the
+Multi-Class Imbalance Problem is considered (e.g. semantic clustering of
+definitions of terms).
+Author{1}{Firstname}#=%=#Ignacio
+Author{1}{Lastname}#=%=#Arroyo-Fernández
+Author{1}{Email}#=%=#iarroyof@iingen.unam.mx
+Author{1}{Affiliation}#=%=#Universidad Nacional Autónoma de México
+
+==========

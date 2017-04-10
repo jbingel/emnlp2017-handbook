@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#NLANGP: Supervised Machine Learning System for Aspect Category Classification and Opinion Target Extraction
+ShortPaperTitle#=%=#NLANGP: Machine Learning System for Aspect Category Classification and Opinion Target Extraction
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Zhiqiang Toh
+JobTitle#==#
+Organization#==#Institute for Infocomm Research
+1 Fusionopolis Way
+#21-01 Connexis (South Tower)
+Singapore 138632
+Abstract#==#This paper describes our system used in the Aspect Based Sentiment Analysis
+Task 12 of SemEval-2015. Our system is based on two supervised machine learning
+algorithms: sigmoidal feedforward network to train binary classifiers for
+aspect category classification (Slot 1), and Conditional Random Fields to train
+classifiers for opinion target extraction (Slot 2). We extract a variety of
+lexicon and syntactic features, as well as cluster features induced from
+unlabeled data. Our system achieves state-of-the-art performances, ranking 1st
+for three of the evaluations (Slot 1 for both restaurant and laptop domains,
+and Slot 1 & 2) and 2nd for Slot 2 evaluation.
+Author{1}{Firstname}#=%=#Zhiqiang
+Author{1}{Lastname}#=%=#Toh
+Author{1}{Email}#=%=#ztoh@i2r.a-star.edu.sg
+Author{1}{Affiliation}#=%=#Institute for Infocomm Research
+Author{2}{Firstname}#=%=#Jian
+Author{2}{Lastname}#=%=#Su
+Author{2}{Email}#=%=#sujian@i2r.a-star.edu.sg
+Author{2}{Affiliation}#=%=#Institute for Infocomm Research
+
+==========

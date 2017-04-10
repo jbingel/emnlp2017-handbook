@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Why Read if You Can Scan? Trigger Scoping Strategy for Biographical Fact Extraction
+ShortPaperTitle#=%=#Trigger Scoping Strategy for Biographical Fact Extraction
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Dian Yu
+JobTitle#==#student
+Organization#==#Rensselaer Polytechnic Institute
+Abstract#==#The rapid growth of information sources
+brings a unique challenge to biographical
+information extraction: how to find specific
+facts without having to read all the words.
+An effective solution is to follow the human
+scanning strategy which keeps a specific
+keyword in mind and searches within a
+specific scope. In this paper, we mimic a
+scanning process to extract biographical
+facts: we use event and relation triggers as
+keywords, identify their scopes and apply
+type constraints to extract answers within the
+scope of a trigger. Experiments demonstrate
+that our approach outperforms state-of-the-art
+methods up to 26% absolute gain in F-score
+without using any syntactic analysis or
+external knowledge bases.
+Author{1}{Firstname}#=%=#Dian
+Author{1}{Lastname}#=%=#Yu
+Author{1}{Email}#=%=#yudiandoris@gmail.com
+Author{1}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{2}{Firstname}#=%=#Heng
+Author{2}{Lastname}#=%=#Ji
+Author{2}{Email}#=%=#jih@rpi.edu
+Author{2}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{3}{Firstname}#=%=#Sujian
+Author{3}{Lastname}#=%=#Li
+Author{3}{Email}#=%=#lisujian@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+Author{4}{Firstname}#=%=#Chin-Yew
+Author{4}{Lastname}#=%=#Lin
+Author{4}{Email}#=%=#cyl@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Research Asia
+
+==========

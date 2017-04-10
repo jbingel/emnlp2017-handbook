@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Audience size and contextual effects on information density in Twitter conversations
+ShortPaperTitle#=%=#Audience size and contextual effects on information density in Twitter conversations
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Gabriel Doyle
+JobTitle#==#
+Organization#==#Stanford University Dept. of Psychology
+Jordan Hall, 450 Serra Mall
+Stanford, CA 94305
+Abstract#==#The ``uniform information density'' (UID) hypothesis proposes that language
+producers aim for a constant rate of information flow within a message, and
+research on monologue-like written texts has found evidence for UID in
+production.  We consider conversational messages, using a large corpus of
+tweets, and look for UID behavior.  We do not find evidence of UID behavior,
+and even find context effects that are opposite that of previous,
+monologue-based research.  We propose that a more collaborative conception of
+information density and careful consideration of channel noise may be needed in
+the information-theoretic framework for conversation.
+Author{1}{Firstname}#=%=#Gabriel
+Author{1}{Lastname}#=%=#Doyle
+Author{1}{Email}#=%=#gdoyle@stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Frank
+Author{2}{Email}#=%=#mcfrank@stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+
+==========

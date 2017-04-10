@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Translating Literary Text between Related Languages using SMT
+ShortPaperTitle#=%=#Translating Literary Text between Related Languages using SMT
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Antonio Toral
+JobTitle#==#
+Organization#==#ADAPT Research Centre
+School of Computing
+Dublin City University
+Dublin, Ireland
+Abstract#==#We explore the feasibility of applying machine
+translation (MT) to the translation of literary
+texts. To that end, we measure the translata-
+bility of literary texts by analysing parallel
+corpora and measuring the degree of freedom
+of the translations and the narrowness of the
+domain. We then explore the use of domain
+adaptation to translate a novel between two re-
+lated languages, Spanish and Catalan. This
+is the first time that specific MT systems are
+built to translate novels. Our best system out-
+performs a strong baseline by 4.61 absolute
+points (9.38% relative) in terms of BLEU and
+is corroborated by other automatic evaluation
+metrics. We provide evidence that MT can
+be useful to assist with the translation of nov-
+els between closely-related languages, namely
+(i) the translations produced by our best sys-
+tem are equal to the ones produced by a pro-
+fessional human translator in almost 20% of
+cases with an additional 10% requiring at most
+5 character edits, and (ii) a complementary hu-
+man evaluation shows that over 60% of the
+translations are perceived to be of the same (or
+even higher) quality by native speakers.
+Author{1}{Firstname}#=%=#Antonio
+Author{1}{Lastname}#=%=#Toral
+Author{1}{Email}#=%=#atoral@computing.dcu.ie
+Author{1}{Affiliation}#=%=#Dublin City Unversity
+Author{2}{Firstname}#=%=#Andy
+Author{2}{Lastname}#=%=#Way
+Author{2}{Email}#=%=#away@computing.dcu.ie
+Author{2}{Affiliation}#=%=#Dublin City University
+
+==========

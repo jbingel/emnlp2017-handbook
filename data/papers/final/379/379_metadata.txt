@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#379
+FinalPaperTitle#=%=#Ontologically Grounded Multi-sense Representation Learning for Semantic Vector Space Models
+ShortPaperTitle#=%=#Ontologically Grounded Multi-sense Representation Learning for Semantic Vector Space Models
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Sujay Kumar Jauhar
+JobTitle#==#
+Organization#==#Language Technologies Institute
+School of Computer Science
+Carnegie Mellon University
+Pittsburgh, PA 15213, USA
+Abstract#==#Words are polysemous. However, most approaches to representation learning for
+lexical semantics assign a single vector to every surface word type. Meanwhile,
+lexical ontologies such as WordNet provide a source of complementary knowledge
+to distributional information, including a word sense inventory. In this paper
+we propose two novel and general approaches for generating sense-specific word
+embeddings that are grounded in an ontology. The first applies graph smoothing
+as a post-processing step to tease the vectors of different senses apart, and
+is applicable to any vector space model. The second adapts predictive maximum
+likelihood models that learn word embeddings with latent variables representing
+senses grounded in an specified ontology. Empirical results on lexical semantic
+tasks show that our approaches effectively captures information from both the
+ontology and distributional statistics. Moreover, in most cases our
+sense-specific models outperform other models we compare against.
+Author{1}{Firstname}#=%=#Sujay Kumar
+Author{1}{Lastname}#=%=#Jauhar
+Author{1}{Email}#=%=#sjauhar@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Chris
+Author{2}{Lastname}#=%=#Dyer
+Author{2}{Email}#=%=#cdyer@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Eduard
+Author{3}{Lastname}#=%=#Hovy
+Author{3}{Email}#=%=#hovy@cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#534
+FinalPaperTitle#=%=#Unsupervised POS Induction with Word Embeddings
+ShortPaperTitle#=%=#Unsupervised POS Induction with Word Embeddings
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Chu-Cheng Lin
+JobTitle#==#
+Organization#==#Language Technologies Institute
+5000 Forbes Ave
+Pittsburgh PA 15213
+USA
+Abstract#==#Unsupervised word embeddings have been shown to be valuable as features in
+supervised learning problems; however, their role in unsupervised problems has
+been less thoroughly explored. In this paper, we show that embeddings can
+likewise add value to the problem of unsupervised POS induction. In two
+representative models of POS induction, we replace multinomial distributions
+over the vocabulary with multivariate Gaussian distributions over word
+embeddings and observe consistent improvements in eight languages. We also
+analyze the effect of various choices while inducing word embeddings on
+"downstream" POS induction results.
+Author{1}{Firstname}#=%=#Chu-Cheng
+Author{1}{Lastname}#=%=#Lin
+Author{1}{Email}#=%=#chuchenl@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Waleed
+Author{2}{Lastname}#=%=#Ammar
+Author{2}{Email}#=%=#wammar@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Dyer
+Author{3}{Email}#=%=#cdyer@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Lori
+Author{4}{Lastname}#=%=#Levin
+Author{4}{Email}#=%=#lsl@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

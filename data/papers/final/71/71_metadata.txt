@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#71
+FinalPaperTitle#=%=#Bag-of-Words Forced Decoding for Cross-Lingual Information Retrieval
+ShortPaperTitle#=%=#Bag-of-Words Forced Decoding for Cross-Lingual Information Retrieval
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Stefan Riezler
+JobTitle#==#Professor
+Organization#==#Department of Computational Linguistics, Heidelberg University, 69120 Heidelberg, Germany
+Abstract#==#Current approaches to cross-lingual information retrieval (CLIR) rely on
+standard retrieval models into which query translations by statistical machine
+translation (SMT) are integrated at varying degree. In this paper, we present
+an attempt to turn this situation on its head: Instead of the retrieval aspect,
+we emphasize the translation component in CLIR. We perform search by using an
+SMT decoder in forced decoding mode to produce a bag-of-words representation of
+the target documents to be ranked. The SMT model is extended by
+retrieval-specific features that are optimized jointly with standard
+translation features for a ranking objective. We find significant gains over
+the state-of-the-art in a large-scale evaluation on cross-lingual search in the
+domains patents and Wikipedia.
+Author{1}{Firstname}#=%=#Felix
+Author{1}{Lastname}#=%=#Hieber
+Author{1}{Email}#=%=#hieber@cl.uni-heidelberg.de
+Author{1}{Affiliation}#=%=#Heidelberg University
+Author{2}{Firstname}#=%=#Stefan
+Author{2}{Lastname}#=%=#Riezler
+Author{2}{Email}#=%=#riezler@cl.uni-heidelberg.de
+Author{2}{Affiliation}#=%=#Heidelberg University
+
+==========

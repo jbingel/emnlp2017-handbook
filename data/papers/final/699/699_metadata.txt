@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#699
+FinalPaperTitle#=%=#English orthography is not "close to optimal"
+ShortPaperTitle#=%=#English orthography is not "close to optimal"
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Garrett Nicolai
+JobTitle#==#
+Organization#==#University of Alberta
+Abstract#==#In spite of the apparent irregularity of the English spelling system, Chomsky
+and Halle (1968) characterize it as “near optimal”. We investigate this
+assertion using computational techniques and resources. We design an algorithm
+to generate word spellings that maximize both phonemic transparency and
+morphological consistency. Experimental results demonstrate that the
+constructed system is much closer to optimality than the traditional English
+orthography.
+Author{1}{Firstname}#=%=#Garrett
+Author{1}{Lastname}#=%=#Nicolai
+Author{1}{Email}#=%=#nicolai@ualberta.ca
+Author{1}{Affiliation}#=%=#University of Alberta
+Author{2}{Firstname}#=%=#Grzegorz
+Author{2}{Lastname}#=%=#Kondrak
+Author{2}{Email}#=%=#gkondrak@ualberta.ca
+Author{2}{Affiliation}#=%=#University of Alberta
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#114
+FinalPaperTitle#=%=#UNIBA: Combining Distributional Semantic Models and Sense Distribution for Multilingual All-Words Sense Disambiguation and Entity Linking
+ShortPaperTitle#=%=#UNIBA: Exploiting Distributional Semantic Models for Multilingual Disambiguation and Entity Linking
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Pierpaolo Basile
+JobTitle#==#
+Organization#==#Department of Computer Science
+University of Bari Aldo Moro
+Via, E. Orabona, 4 - 70125 Bari (Italy)
+Abstract#==#This paper describes the participation of the UNIBA team in the Task 13 of
+SemEval-2015 about Multilingual All-Words Sense Disambiguation and Entity
+Linking. 
+We propose an algorithm able to disambiguate both word senses and named
+entities by combining the simple Lesk approach with information coming from
+both a distributional semantic model and usage frequency of meanings. The
+results for both English and Italian show satisfactory performance.
+Author{1}{Firstname}#=%=#Pierpaolo
+Author{1}{Lastname}#=%=#Basile
+Author{1}{Email}#=%=#pierpaolo.basile@uniba.it
+Author{1}{Affiliation}#=%=#Department of Computer Science, University of Bari Aldo Moro
+Author{2}{Firstname}#=%=#Annalina
+Author{2}{Lastname}#=%=#Caputo
+Author{2}{Email}#=%=#annalina.caputo@uniba.it
+Author{2}{Affiliation}#=%=#Department of Computer Science - University of Bari Aldo Moro
+Author{3}{Firstname}#=%=#Giovanni
+Author{3}{Lastname}#=%=#Semeraro
+Author{3}{Email}#=%=#giovanni.semeraro@uniba.it
+Author{3}{Affiliation}#=%=#Department of Computer Science - University of Bari Aldo Moro
+
+==========

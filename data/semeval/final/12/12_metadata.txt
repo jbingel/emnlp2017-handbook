@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#CICBUAPnlp: Graph-Based Approach for Answer Selection in Community Question Answering Task
+ShortPaperTitle#=%=#CICBUAPnlp: Graph-Based Approach for Answer Selection in Community Question Answering Task
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Helena Gómez Adorno
+JobTitle#==#
+Organization#==#Center for Computing Research - National Polytechnic Institute
+Av. Juan de Dios Bátiz C.P. 07738, Mexico City, Mexico
+Abstract#==#This paper describes our approach for the Community Question Answering Task,
+which was presented at the SemEval 2015. The system should read a given
+question and identify good, potentially relevant, and bad answers for that
+question. Our approach transforms the answers of the training set into a graph
+based representation for each answer class, which contains lexical,
+morphological, and syntactic features. The answers in the test set are also
+transformed into the graph based representation individually. After this,
+different paths are traversed in the training and test sets in order to find
+relevant features of the graphs. As a result of this procedure, the system
+constructs several vectors of features: one for each traversed graph. Finally,
+a cosine  similarity is calculated between the vectors in order to find the
+class that best matches a given answer. Our system was developed for the
+English language only, and it obtained an accuracy of 53.74 for subtask A and
+44.0 for subtask B.
+Author{1}{Firstname}#=%=#Helena
+Author{1}{Lastname}#=%=#Gomez
+Author{1}{Email}#=%=#helena.adorno@gmail.com
+Author{1}{Affiliation}#=%=#Center for Computing Reseach - Instituto Politecnico Nacional
+Author{2}{Firstname}#=%=#Darnes
+Author{2}{Lastname}#=%=#Vilariño
+Author{2}{Email}#=%=#dvilarinoayala@gmail.com
+Author{2}{Affiliation}#=%=#Benemérita Universidad Autónoma de Puebla
+Author{3}{Firstname}#=%=#David
+Author{3}{Lastname}#=%=#Pinto
+Author{3}{Email}#=%=#dpinto@cs.buap.mx
+Author{3}{Affiliation}#=%=#Benemérita Universidad Autónoma de Puebla
+Author{4}{Firstname}#=%=#Grigori
+Author{4}{Lastname}#=%=#Sidorov
+Author{4}{Email}#=%=#sidorov@cic.ipn.mx
+Author{4}{Affiliation}#=%=#http://www.cic.ipn.mx/
+
+==========

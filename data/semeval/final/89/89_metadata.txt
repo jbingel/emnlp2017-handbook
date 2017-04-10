@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#89
+FinalPaperTitle#=%=#Shiraz: A Proposed List Wise Approach to Answer Validation
+ShortPaperTitle#=%=#Shiraz: A Proposed List Wise Approach to Answer Validation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#
+Abstract#==#‎Answer Validation is an important step in Automatic Question Answering
+systems and nowadays by spreading Community Question Answering systems it is
+known as an important task by itself‎. ‎Previous works just considered it
+as a binary classification problem in which they try to find the best answer
+among all the candidate answers for a question‎. Accordingly, they do not
+consider the possible unique information which may have been included other
+answers‎. ‎This can be considered by having a multiclass label
+classification problem, it is not only able to find the best answer but also
+can find "potentially good", "bad", and etc‎. ‎answers too‎. By doing so,
+it is fully expected to extract and rate ‎all the necessary information from
+existing candidates to help questioner to find the best ‎and general answer
+for his question‎. ‎This work tries to consider some features which are
+gained from importance of comments of the questioner‎. ‎Finally‎, ‎by
+using a good classifier‎, ‎we try to overcome this problem‎. ‎The
+designed system participated in subtask A of the Semeval-2015 Task 3‎. ‎The
+primary submission ranked at the 5th and 7th places in four class label and
+three class label evaluation‎, ‎accordingly‎.
+Author{1}{Firstname}#=%=#Amin
+Author{1}{Lastname}#=%=#Heydari Alashty
+Author{1}{Email}#=%=#mnheydari@yahoo.com
+Author{1}{Affiliation}#=%=#Shiraz University
+Author{2}{Firstname}#=%=#Saeed
+Author{2}{Lastname}#=%=#Rahmani
+Author{2}{Email}#=%=#s.rahmani.ce@gmail.com
+Author{2}{Affiliation}#=%=#Shiraz University
+Author{3}{Firstname}#=%=#Meysam
+Author{3}{Lastname}#=%=#Roostaee
+Author{3}{Email}#=%=#mroostaee@shirazu.ac.ir
+Author{3}{Affiliation}#=%=#Shiraz University
+Author{4}{Firstname}#=%=#Mostafa
+Author{4}{Lastname}#=%=#Fakhrahmad
+Author{4}{Email}#=%=#mfakhrahmad@yahoo.com
+Author{4}{Affiliation}#=%=#Shiraz University
+
+==========

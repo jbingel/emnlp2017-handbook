@@ -1,0 +1,54 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Short Text Clustering via Convolutional Neural Networks
+ShortPaperTitle#=%=#Short Text Clustering via Convolutional Neural Networks
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Jiaming Xu
+JobTitle#==#
+Organization#==#Name: Institute of Automation, Chinese Academy of Sciences
+Address: No.95 Zhongguancun East Road, Haidian District, Beijing.
+Abstract#==#Short text clustering has become an increasing important task with the
+popularity of social media, and it is a challenging problem due to its
+sparseness of text representation. In this paper, we propose a Short Text
+Clustering via Convolutional neural networks (abbr. to STCC), which is more
+beneficial for clustering by considering one constraint on learned features
+through a self-taught learning framework without using any external
+tags/labels. First, we embed the original keyword features into compact binary
+codes with a locality-preserving constraint. Then, word embeddings are explored
+and fed into convolutional neural networks to learn deep feature
+representations, with the output units fitting the pre-trained binary code in
+the training process. After obtaining the learned representations, we use
+K-means to cluster them. Our extensive experimental study on two public short
+text datasets shows that the deep feature representation learned by our
+approach can achieve a significantly better performance than some other
+existing features, such as term frequency-inverse document frequency, Laplacian
+eigenvectors and average embedding, for clustering.
+Author{1}{Firstname}#=%=#Jiaming
+Author{1}{Lastname}#=%=#Xu
+Author{1}{Email}#=%=#jiaming.xu@ia.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Peng
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#peng.wang@ia.ac.cn
+Author{2}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Guanhua
+Author{3}{Lastname}#=%=#Tian
+Author{3}{Email}#=%=#guanhua.tian@ia.ac.cn
+Author{3}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{4}{Firstname}#=%=#Bo
+Author{4}{Lastname}#=%=#Xu
+Author{4}{Email}#=%=#boxu@ia.ac.cn
+Author{4}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{5}{Firstname}#=%=#Jun
+Author{5}{Lastname}#=%=#Zhao
+Author{5}{Email}#=%=#jzhao@nlpr.ia.ac.cn
+Author{5}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{6}{Firstname}#=%=#Fangyuan
+Author{6}{Lastname}#=%=#Wang
+Author{6}{Email}#=%=#fangyuan.wang@ia.ac.cn
+Author{6}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{7}{Firstname}#=%=#Hongwei
+Author{7}{Lastname}#=%=#Hao
+Author{7}{Email}#=%=#hongwei.hao@ia.ac.cn
+Author{7}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+
+==========

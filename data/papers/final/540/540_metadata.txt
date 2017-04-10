@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#540
+FinalPaperTitle#=%=#Because Syntax Does Matter: Improving Predicate-Argument Structures Parsing with Syntactic Features
+ShortPaperTitle#=%=#Because Syntax Does Matter: Improving Predicate-Argument Structures Parsing with Syntactic Features
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Corentin Ribeyre
+JobTitle#==#
+Organization#==#Université Paris 7 Diderot
+5 Rue Thomas
+75013 PARIS
+Abstract#==#Parsing full-fledged predicate-argument structures in a deep syntax framework
+requires graphs to be predicted. Using the DeepBank (Flickinger et al., 2012)
+and the Predicate-Argument Structure treebank (Miyao and Tsujii, 2005) as a
+test field, we show how transition-based parsers, extended to handle connected
+graphs, benefit from the use of topologically different syntactic features such
+as dependencies, tree fragments, spines or syntactic paths, bringing a much
+needed context to the parsing models, improving notably over long distance
+dependencies and elided coordinate structures. By confirming this positive
+impact on an accurate 2nd-order graph-based parser (Martins and Almeida, 2014),
+we establish a new state-of-the-art on these data sets.
+Author{1}{Firstname}#=%=#Corentin
+Author{1}{Lastname}#=%=#Ribeyre
+Author{1}{Email}#=%=#corentin.ribeyre@gmail.com
+Author{1}{Affiliation}#=%=#Univ. Paris Diderot - INRIA - ALPAGE
+Author{2}{Firstname}#=%=#Eric
+Author{2}{Lastname}#=%=#Villemonte de la Clergerie
+Author{2}{Email}#=%=#Eric.De_La_Clergerie@inria.fr
+Author{2}{Affiliation}#=%=#INRIA
+Author{3}{Firstname}#=%=#Djamé
+Author{3}{Lastname}#=%=#Seddah
+Author{3}{Email}#=%=#djame.seddah@gmail.com
+Author{3}{Affiliation}#=%=#Université Paris Sorbonne (Paris IV)
+
+==========

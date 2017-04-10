@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#144
+FinalPaperTitle#=%=#IHS-RD-Belarus: Identification and Normalization of Disorder Concepts in Clinical Notes
+ShortPaperTitle#=%=#IHS-RD-Belarus: Identification and Normalization of Disorder Concepts in Clinical Notes
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Maryna Chernyshevich
+JobTitle#==#Principal Linguist Developer
+Organization#==#131 Starovilenskaya St, 220123, Minsk, Belarus
+Abstract#==#This paper describes clinical disorder recognition and encoding system
+submitted by IHS R&D Belarus team at the SemEval-2015 shared task related to
+analysis of clinical texts. Our system is based on IHS Goldfire Linguistic
+Processor and uses a rich set of lexical, syntactic and semantic features. The
+proposed system consists of two components: a CRF-based approach to recognize
+disorder entities and empirical ranking to encode disorders to UMLS CUIs.
+Evaluation on the test data set showed that our system achieved the F-measure
+of 0.898 for entity recognition and the F-measure of 0.793 for UMLS CUI
+encoding. The combined score for whole task is 0.690 (rank 17 out of 40
+submissions).
+Author{1}{Firstname}#=%=#Maryna
+Author{1}{Lastname}#=%=#Chernyshevich
+Author{1}{Email}#=%=#Marina.Chernyshevich@ihs.com
+Author{1}{Affiliation}#=%=#IHS Inc. / IHS Global Belarus
+Author{2}{Firstname}#=%=#Vadim
+Author{2}{Lastname}#=%=#Stankevitch
+Author{2}{Email}#=%=#Vadim.Stankevitch@ihs.com
+Author{2}{Affiliation}#=%=#IHS Inc. / IHS Global Belarus
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#582
+FinalPaperTitle#=%=#Matching Citation Text and Cited Spans in Biomedical Literature: a Search-Oriented Approach
+ShortPaperTitle#=%=#Matching Citation Text and Cited Spans in Biomedical Literature: a Search-Oriented Approach
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Arman Cohan
+JobTitle#==#
+Organization#==#Georgetown University
+37th and O Streets, NW
+Washington D.C. 20057
+Abstract#==#Citation sentences (citances) to a reference ar- ticle have been extensively
+studied for sum- marization tasks. However, citances might not accurately
+represent the content of the cited article, as they often fail to capture the
+con- text of the reported findings and can be af- fected by epistemic value
+drift. Following the intuition behind the TAC (Text Analysis Conference) 2014
+Biomedical Summarization track, we propose a system that identifies text spans
+in the reference article that are related to a given citance. We refer to this
+problem as citance-reference spans matching. We ap- proach the problem as a
+retrieval task; in this paper, we detail a comparison of different ci- tance
+reformulation methods and their combi- nations. While our results show
+improvement over the baseline (up to 25.9%), their absolute magnitude implies
+that there is ample room for future improvement.
+Author{1}{Firstname}#=%=#Arman
+Author{1}{Lastname}#=%=#Cohan
+Author{1}{Email}#=%=#arman@ir.cs.georgetown.edu
+Author{1}{Affiliation}#=%=#Georgetown University
+Author{2}{Firstname}#=%=#Luca
+Author{2}{Lastname}#=%=#Soldaini
+Author{2}{Email}#=%=#luca@ir.cs.georgetown.edu
+Author{2}{Affiliation}#=%=#Georgetown University
+Author{3}{Firstname}#=%=#Nazli
+Author{3}{Lastname}#=%=#Goharian
+Author{3}{Email}#=%=#nazli@ir.cs.georgetown.edu
+Author{3}{Affiliation}#=%=#Georgetown University
+
+==========

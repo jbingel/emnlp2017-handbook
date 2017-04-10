@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#109
+FinalPaperTitle#=%=#CPH: Sentiment analysis of Figurative Language on Twitter #easypeasy #not
+ShortPaperTitle#=%=#CPH: Sentiment analysis of Figurative Language on Twitter #easypeasy #not
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Barbara Plank
+JobTitle#==#
+Organization#==#University of Copenhagen
+Abstract#==#This paper describes the details of our system submitted to the SemEval 2015
+shared task on sentiment analysis of figurative language on Twitter. We tackle
+the problem as regression task and combine several base systems using stacked
+generalization (Wolpert, 1992). An initial analysis revealed that the data is
+heavily biased, and a general sentiment analysis system (GSA) performs poorly
+on it. However, GSA proved helpful on the test data, which contains an
+estimated 25% non-figurative tweets. Our best system, a stacking system with
+backoff to GSA, ranked 4th on the final test data (Cosine 0.661, MSE 3.404).
+Author{1}{Firstname}#=%=#Sarah
+Author{1}{Lastname}#=%=#McGillion
+Author{1}{Email}#=%=#sarah.alice.mcgillion@gmail.com
+Author{1}{Affiliation}#=%=#University of Copenhagen
+Author{2}{Firstname}#=%=#Héctor
+Author{2}{Lastname}#=%=#Martínez Alonso
+Author{2}{Email}#=%=#alonso@hum.ku.dk
+Author{2}{Affiliation}#=%=#University of Copenhagen
+Author{3}{Firstname}#=%=#Barbara
+Author{3}{Lastname}#=%=#Plank
+Author{3}{Email}#=%=#bplank@gmail.com
+Author{3}{Affiliation}#=%=#University of Copenhagen
+
+==========

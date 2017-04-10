@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#529
+FinalPaperTitle#=%=#The Unreasonable Effectiveness of Word Representations for Twitter Named Entity Recognition
+ShortPaperTitle#=%=#The Unreasonable Effectiveness of Word Representations for Twitter NER
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#
+Abstract#==#Named entity recognition (NER) systems trained on newswire perform very badly
+when tested on Twitter. Signals that were reliable in copy-edited text
+disappear almost entirely in Twitter's informal chatter, requiring the
+construction of specialized models. Using well-understood techniques, we set
+out to improve Twitter NER performance when given a small set of annotated
+training tweets. To leverage unlabeled tweets, we build Brown clusters and word
+vectors, enabling generalizations across distributionally similar words. To
+leverage annotated newswire data, we employ an importance weighting scheme.
+Taken all together, we establish a new state-of-the-art on two common test
+sets. Though it is well-known that word representations are useful for NER,
+supporting experiments have thus far focused on newswire data. We emphasize the
+effectiveness of representations on Twitter NER, and demonstrate that their
+inclusion can improve performance by up to 20 F1.
+Author{1}{Firstname}#=%=#Colin
+Author{1}{Lastname}#=%=#Cherry
+Author{1}{Email}#=%=#colin.cherry@nrc-cnrc.gc.ca
+Author{1}{Affiliation}#=%=#NRC
+Author{2}{Firstname}#=%=#Hongyu
+Author{2}{Lastname}#=%=#Guo
+Author{2}{Email}#=%=#Hongyu.Guo@nrc-cnrc.gc.ca
+Author{2}{Affiliation}#=%=#NRC
+
+==========

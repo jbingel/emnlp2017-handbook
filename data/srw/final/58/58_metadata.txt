@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#58
+FinalPaperTitle#=%=#Recognizing Textual Entailment using Dependency Analysis and Machine Learning
+ShortPaperTitle#=%=#Recognizing Textual Entailment using Dependency Analysis and Machine Learning
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Nidhi Sharma
+JobTitle#==#
+Organization#==#Indian Institute of Technology Delhi
+Hauz Khas, New Delhi, India - 110016
+Abstract#==#This paper presents a machine learning system that uses dependency-based
+features and lexical features for recognizing textual entailment. The system
+first generates a frame-based structured representation of the sentences using
+dependency relations obtained from Stanford Dependency parser. This structured
+representation is then used to evaluate a set of lexical and syntactic
+features. These features are simple and intuitive; easy to comprehend and
+evaluate. The system evaluates the feature values automatically without any
+manual effort or intervention. The performance of the proposed system is
+evaluated by performing experiments on RTE1, RTE2 and RTE3 datasets. Decision
+trees are found to outperform other classifiers while SVM classifier using an
+RBF kernel shows comparable performance. Additionally, a comparative study of
+the current system with other ML-based systems for RTE to check the performance
+of the proposed system is also carried out. The dependency-based heuristics and
+lexical features from the current system have resulted in significant
+improvement in accuracy over existing state-of-art ML-based solutions for RTE.
+A task-based analysis of the current system for RTE1 dataset is also performed
+which, shows improved performance as compared to similar study performed by
+different researchers in the past.
+Author{1}{Firstname}#=%=#Nidhi
+Author{1}{Lastname}#=%=#Sharma
+Author{1}{Email}#=%=#cs5080219@cse.iitd.ac.in
+Author{1}{Affiliation}#=%=#Indian Institute of Technology Delhi
+Author{2}{Firstname}#=%=#Richa
+Author{2}{Lastname}#=%=#Sharma
+Author{2}{Email}#=%=#anz087535@cse.iitd.ac.in
+Author{2}{Affiliation}#=%=#Indian Institute of Technology Delhi
+Author{3}{Firstname}#=%=#Kanad K.
+Author{3}{Lastname}#=%=#Biswas
+Author{3}{Email}#=%=#kkb@cse.iitd.ac.in
+Author{3}{Affiliation}#=%=#Indian Institute of Technology Delhi
+
+==========

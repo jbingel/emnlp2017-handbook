@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#647
+FinalPaperTitle#=%=#Paradigm classification in supervised learning of morphology
+ShortPaperTitle#=%=#Paradigm classification in supervised learning of morphology
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Mans Hulden
+JobTitle#==#
+Organization#==#University of Colorado Boulder
+Boulder, CO
+USA
+Abstract#==#Supervised morphological paradigm learning by identifying and aligning the
+longest common subsequence found in inflection tables has recently been
+proposed as a simple yet competitive way to induce morphological patterns.  We
+combine this non-probabilistic strategy of inflection table generalization with
+a discriminative classifier to permit the reconstruction of complete inflection
+tables of unseen words.  Our system learns morphological paradigms from labeled
+examples of inflection patterns (inflection tables) and then produces
+inflection tables from unseen lemmas or base forms.  We evaluate the approach
+on datasets covering 11 different languages and show that this approach results
+in consistently higher accuracies vis-à-vis other methods on the same task,
+thus indicating that the general method is a viable approach to quickly
+creating high-accuracy morphological resources.
+Author{1}{Firstname}#=%=#Malin
+Author{1}{Lastname}#=%=#Ahlberg
+Author{1}{Email}#=%=#malin.ahlberg@svenska.gu.se
+Author{1}{Affiliation}#=%=#University of Gothenburg
+Author{2}{Firstname}#=%=#Markus
+Author{2}{Lastname}#=%=#Forsberg
+Author{2}{Email}#=%=#markus.forsberg@svenska.gu.se
+Author{2}{Affiliation}#=%=#University of Gothenburg
+Author{3}{Firstname}#=%=#Mans
+Author{3}{Lastname}#=%=#Hulden
+Author{3}{Email}#=%=#mhulden@email.arizona.edu
+Author{3}{Affiliation}#=%=#University of Colorado Boulder
+
+==========

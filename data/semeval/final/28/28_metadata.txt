@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#KELabTeam: A Statistical Approach on Figurative Language Sentiment Analysis in Twitter
+ShortPaperTitle#=%=#KELabTeam: A Statistical Approach on Figurative Language Sentiment Analysis in Twitter
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Hoang Long Nguyen
+JobTitle#==#
+Organization#==#Yeungnam University, 280, Daehak-ro, Gyeongsan-si, Gyeongsangbuk-do, Korea
+Abstract#==#In this paper, we propose a new statistical method on sentiment analysis of
+figurative language with the short texts (called tweets) collected from Twitter
+for the SemEval-2015 Task 11. Particularly, the proposed model focuses on
+classifying the tweets into three categories (i.e., sarcastic, ironic, and
+metaphorical tweet) by extracting two main features (i.e., term features and
+emotion patterns). Our experiments have been conducted with two datasets, which
+are Trial set (1000 tweets) and Test set (4000 tweets). As a result, the
+proposed method have shown that the performance (measured by the cosine
+similarity) on the Trail set is about 74%, and on the Test set is about 90%
+with sarcastic tweets, and 89% with ironic tweets.
+Author{1}{Firstname}#=%=#Hoang Long
+Author{1}{Lastname}#=%=#Nguyen
+Author{1}{Email}#=%=#longnh238@gmail.com
+Author{1}{Affiliation}#=%=#Yeungnam University
+Author{2}{Firstname}#=%=#Trung Duc
+Author{2}{Lastname}#=%=#Nguyen
+Author{2}{Email}#=%=#duc.nguyentrung@gmail.com
+Author{2}{Affiliation}#=%=#Yeungnam University
+Author{3}{Firstname}#=%=#Dosam
+Author{3}{Lastname}#=%=#Hwang
+Author{3}{Email}#=%=#dosamhwang@gmail.com
+Author{3}{Affiliation}#=%=#Yeungnam University
+Author{4}{Firstname}#=%=#Jason J.
+Author{4}{Lastname}#=%=#Jung
+Author{4}{Email}#=%=#j2jung@gmail.com
+Author{4}{Affiliation}#=%=#Chung-Ang University
+
+==========

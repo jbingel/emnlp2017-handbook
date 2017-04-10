@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#59
+FinalPaperTitle#=%=#ROB: Using Semantic Meaning to Recognize Paraphrases
+ShortPaperTitle#=%=#ROB: Using Semantic Meaning to Recognize Paraphrases
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Rob van der Goot
+JobTitle#==#
+Organization#==#University of Groningen
+Oude Kijk in 't Jatstraat 26
+9712 EK Groningen
+Nederland
+Abstract#==#Paraphrase recognition is the task of identifying whether two pieces of natural
+language represent similar meanings. This paper describes a system
+participating in the shared task 1 of SemEval 2015, which is about paraphrase
+detection and semantic similarity in twitter. Our approach is to exploit
+semantically meaningful features to detect paraphrases. An existing
+state-of-the-art model for predicting semantic similarity is adapted to this
+task.
+
+A wide variety of features is used, ranging from different types of models, to
+lexical over lap and synset overlap. A maximum entropy classifier is then
+trained on these features. In addition to the detection of paraphrases, a
+similarity score is also predicted, using the probabilities of the classifier.
+To improve the results, normalization is used as preprocessing step.
+
+Our final system achieves a F1 score of 0.620 (10th out of 18 teams), and a
+Pearson correlation of 0.515 (6th out of 13 teams).
+Author{1}{Firstname}#=%=#Rob
+Author{1}{Lastname}#=%=#van der Goot
+Author{1}{Email}#=%=#robvanderg@live.nl
+Author{1}{Affiliation}#=%=#University of Groningen
+Author{2}{Firstname}#=%=#Gertjan
+Author{2}{Lastname}#=%=#van Noord
+Author{2}{Email}#=%=#g.j.m.van.noord@rug.nl
+Author{2}{Affiliation}#=%=#University of Groningen
+
+==========

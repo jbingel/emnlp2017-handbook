@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#82
+FinalPaperTitle#=%=#Combining Mention Context and Hyperlinks from Wikipedia for Named Entity Disambiguation
+ShortPaperTitle#=%=#Combining Mention Context and Hyperlinks from Wikipedia for Named Entity Disambiguation
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Ander
+JobTitle#==#
+Organization#==#Ixa Taldea, UPV/EHU University of the Basque Country
+Abstract#==#Named entity disambiguation is the task of linking entity mentions
+  to their intended referent, as represented in a Knowledge Base,
+  usually derived from Wikipedia. In this paper, we combine local
+  mention context and global hyperlink structure from Wikipedia in a
+probabilistic
+  framework. We test our method in eight datasets, improving the
+  state-of-the-art results in five. Our results show that the two
+  models of context, namely, words in the context and
+  hyperlink pathways to other entities in the context,
+  are complementary. Our results are not tuned to any of the datasets,
+  showing that it is robust to out-of-domain scenarios, and that
+  further improvements are possible.
+Author{1}{Firstname}#=%=#Ander
+Author{1}{Lastname}#=%=#Barrena
+Author{1}{Email}#=%=#ander.barrena@ehu.es
+Author{1}{Affiliation}#=%=#UBC
+Author{2}{Firstname}#=%=#Aitor
+Author{2}{Lastname}#=%=#Soroa
+Author{2}{Email}#=%=#a.soroa@ehu.es
+Author{2}{Affiliation}#=%=#assistant lecturer
+Author{3}{Firstname}#=%=#Eneko
+Author{3}{Lastname}#=%=#Agirre
+Author{3}{Email}#=%=#e.agirre@ehu.eus
+Author{3}{Affiliation}#=%=#University of the Basque Country (UPV/EHU)
+
+==========

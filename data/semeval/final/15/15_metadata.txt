@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#IIIT-H at SemEval 2015: Twitter Sentiment Analysis -- The Good, the Bad and the Neutral!
+ShortPaperTitle#=%=#IIIT-H at SemEval 2015: Twitter Sentiment Analysis -- The Good, the Bad and the Neutral!
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Ayushi Dalmia
+JobTitle#==#
+Organization#==#International Institute of Information Technology, Hyderabad
+Gachibowli, Telengana-500032
+Abstract#==#This paper describes the system that was submitted to SemEval2015 Task 10:
+Sentiment Analysis in Twitter. We participated in the Subtask B: Message
+Polarity Classification. The task is a message level classification of tweets
+into positive, negative and neutral sentiments.
+
+Our model is primarily a supervised one which comprises of well designed
+features fed into an SVM classifier. In previous runs of this task, it was
+found that lexicons played an important role in determining the sentiment of a
+tweet. We use existing lexicons to extract lexicon specific features. The
+lexicon based features are further augmented by tweet specific features. We
+also improve our system by using acronym and emoticon dictionary.
+
+The proposed system achieves an F1 score of 59.83 and 67.04 on the Test Data
+and Progress Data respectively. This places us at the 18th position for the
+Test Dataset and the 16th position for the Progress Test Dataset.
+Author{1}{Firstname}#=%=#Ayushi
+Author{1}{Lastname}#=%=#Dalmia
+Author{1}{Email}#=%=#ayushi.dalmia@research.iiit.ac.in
+Author{1}{Affiliation}#=%=#International Institute of Information Technology, Hyderabad
+Author{2}{Firstname}#=%=#Manish
+Author{2}{Lastname}#=%=#Gupta
+Author{2}{Email}#=%=#manish.gupta@iiit.ac.in
+Author{2}{Affiliation}#=%=#International Institute of Information Technology, Hyderabad
+Author{3}{Firstname}#=%=#Vasudeva
+Author{3}{Lastname}#=%=#Varma
+Author{3}{Email}#=%=#vv@iiit.ac.in
+Author{3}{Affiliation}#=%=#International Institute of Information Technology, Hyderabad
+
+==========

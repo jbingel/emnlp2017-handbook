@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#26
+FinalPaperTitle#=%=#Distributed Word Representations Improve NER for e-Commerce
+ShortPaperTitle#=%=#Distributed Word Representations Improve NER for e-Commerce
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Mahesh Joshi
+JobTitle#==#
+Organization#==#eBay Inc.
+2065 Hamilton Ave.
+San Jose, CA, 95125, USA
+Abstract#==#This paper presents a case study of using distributed word representations,
+  \texttt{word2vec} in particular, for improving performance of Named Entity
+  Recognition for the e-Commerce domain. We also demonstrate that
+  distributed word representations trained on a smaller amount of in-domain
+  data are more effective than word vectors trained on very large amount of
+  out-of-domain data, and that their combination gives the best results.
+Author{1}{Firstname}#=%=#Mahesh
+Author{1}{Lastname}#=%=#Joshi
+Author{1}{Email}#=%=#joshimahesh@gmail.com
+Author{1}{Affiliation}#=%=#eBay Inc.
+Author{2}{Firstname}#=%=#Ethan
+Author{2}{Lastname}#=%=#Hart
+Author{2}{Email}#=%=#ejhart@ebay.com
+Author{2}{Affiliation}#=%=#eBay Inc.
+Author{3}{Firstname}#=%=#Mirko
+Author{3}{Lastname}#=%=#Vogel
+Author{3}{Email}#=%=#miavogel@ebay.com
+Author{3}{Affiliation}#=%=#eBay Inc.
+Author{4}{Firstname}#=%=#Jean-David
+Author{4}{Lastname}#=%=#Ruvini
+Author{4}{Email}#=%=#Jean-David.Ruvini@ebay.com
+Author{4}{Affiliation}#=%=#eBay Inc.
+
+==========

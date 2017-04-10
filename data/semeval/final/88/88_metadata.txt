@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#88
+FinalPaperTitle#=%=#DCU: Using Distributional Semantics and Domain Adaptation for the Semantic Textual Similarity SemEval-2015 Task 2
+ShortPaperTitle#=%=#DCU: Using Distributional Semantics and Domain Adaptation for the Semantic Textual Similarity Task
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Piyush
+JobTitle#==#
+Organization#==#ADAPT Centre
+School of Computing
+Dublin City University
+Dublin, Ireland
+Abstract#==#We describe the work carried out by the DCU team on the Semantic Textual
+Similarity task at SemEval-2015. We learn a regression model to predict a
+semantic similarity score between a sentence pair. Our system exploits
+distributional semantics in combination with tried-and-tested features from
+previous tasks in order to compute sentence similarity. Our team submitted 3
+runs for each of the five English test sets. For two of the test sets, belief
+and headlines, our best system ranked second and fourth out of the 73 submitted
+systems. Our best submission averaged over all test sets ranked 26 out of the
+73 systems.
+Author{1}{Firstname}#=%=#Piyush
+Author{1}{Lastname}#=%=#Arora
+Author{1}{Email}#=%=#parora@computing.dcu.ie
+Author{1}{Affiliation}#=%=#Dublin City University
+Author{2}{Firstname}#=%=#Chris
+Author{2}{Lastname}#=%=#Hokamp
+Author{2}{Email}#=%=#chokamp@computing.dcu.ie
+Author{2}{Affiliation}#=%=#Dublin City University
+Author{3}{Firstname}#=%=#Jennifer
+Author{3}{Lastname}#=%=#Foster
+Author{3}{Email}#=%=#jfoster@computing.dcu.ie
+Author{3}{Affiliation}#=%=#Dublin City University
+Author{4}{Firstname}#=%=#Gareth
+Author{4}{Lastname}#=%=#Jones
+Author{4}{Email}#=%=#gareth.jones@computing.dcu.ie
+Author{4}{Affiliation}#=%=#Dublin City University
+
+==========

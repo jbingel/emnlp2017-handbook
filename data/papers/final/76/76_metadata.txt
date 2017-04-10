@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#76
+FinalPaperTitle#=%=#Retrofitting Word Vectors to Semantic Lexicons
+ShortPaperTitle#=%=#Retrofitting Word Vectors to Semantic Lexicons
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Manaal Faruqui
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+Pittsburgh PA 15213
+Abstract#==#Vector space word representations are learned from distributional information
+of words
+in large corpora. Although such statistics are semantically informative, they
+disregard the valuable information that is contained in semantic lexicons such
+as WordNet, FrameNet, and the Paraphrase Database.
+This paper proposes a method for refining vector space representations using
+relational information from semantic lexicons by encouraging linked words to
+have similar vector representations, and it makes no assumptions about how the
+input vectors were constructed. Evaluated on a battery of standard lexical
+semantic evaluation tasks in several languages, we obtain substantial
+improvements starting with a variety of word vector models. Our refinement
+method outperforms prior techniques for incorporating semantic lexicons into
+the word vector training algorithms.
+Author{1}{Firstname}#=%=#Manaal
+Author{1}{Lastname}#=%=#Faruqui
+Author{1}{Email}#=%=#manaalfar@gmail.com
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Jesse
+Author{2}{Lastname}#=%=#Dodge
+Author{2}{Email}#=%=#jessed@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Sujay Kumar
+Author{3}{Lastname}#=%=#Jauhar
+Author{3}{Email}#=%=#sjauhar@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Chris
+Author{4}{Lastname}#=%=#Dyer
+Author{4}{Email}#=%=#cdyer@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+Author{5}{Firstname}#=%=#Eduard
+Author{5}{Lastname}#=%=#Hovy
+Author{5}{Email}#=%=#hovy@cmu.edu
+Author{5}{Affiliation}#=%=#Carnegie Mellon University
+Author{6}{Firstname}#=%=#Noah A.
+Author{6}{Lastname}#=%=#Smith
+Author{6}{Email}#=%=#nasmith@cs.cmu.edu
+Author{6}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

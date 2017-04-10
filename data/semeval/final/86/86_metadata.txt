@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#86
+FinalPaperTitle#=%=#UNITN: Training Deep Convolutional Neural Network for Twitter Sentiment Classification
+ShortPaperTitle#=%=#UNITN: Training Deep Convolutional Neural Network for Twitter Sentiment Classification
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#University of Trento
+via Sommarive, 5
+Povo, Italy 38123
+Abstract#==#This paper describes our deep learning system for sentiment analysis of tweets.
+The main contribution of this work is a process to initialize the parameter
+weights of the convolutional neural network, which is crucial to train an
+accurate model while avoiding the need to inject any additional features.
+Briefly, we use an unsupervised neural language model to initialize word
+embeddings that are further tuned by our deep learning model on a distant
+supervised corpus. At a final stage, the pre-trained parameters of the network
+are used to initialize the model which is then trained on the supervised
+training data from Semeval-2015.
+According to results on the official test sets, our model ranks 1st in the
+phrase-level subtask A (among 11 teams) and 2nd on the message-level subtask B
+(among 40 teams). Interestingly, computing an average rank over all six test
+sets (official              and five progress test sets) puts our system 1st in both
+subtasks A and B.
+Author{1}{Firstname}#=%=#Aliaksei
+Author{1}{Lastname}#=%=#Severyn
+Author{1}{Email}#=%=#severyn@disi.unitn.it
+Author{1}{Affiliation}#=%=#University of Trento
+Author{2}{Firstname}#=%=#Alessandro
+Author{2}{Lastname}#=%=#Moschitti
+Author{2}{Email}#=%=#moschitti@disi.unitn.it
+Author{2}{Affiliation}#=%=#Qatar Computing Research Institute (prof. in Computer Science at University of Trento)
+
+==========

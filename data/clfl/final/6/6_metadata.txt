@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#AUTOMATED TRANSLATION OF A LITERARY WORK: A PILOT STUDY
+ShortPaperTitle#=%=#AUTOMATED TRANSLATION OF A LITERARY WORK: A PILOT STUDY
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Laurent Besacier
+JobTitle#==#
+Organization#==#Univ. Grenoble - Alpes
+UJF - BP 53
+F-38041 Grenoble Cedex 9
+France
+Abstract#==#Current machine translation (MT) techniques are continuously improving. In
+specific areas, post-editing (PE) can enable the production of high-quality
+translations relatively quickly. But is it feasible to translate a literary
+work (fiction, short story, etc) using such an MT+PE pipeline? This paper
+offers an initial response to this question. An essay by the American writer
+Richard Powers, currently not available in French, is automatically
+translated and post-edited and then revised by non-professional translators. In
+addition to presenting experimental evaluation results of the MT+PE pipeline
+(MT system used, automatic evaluation), we also discuss the quality of the
+translation output from the perspective of a panel of readers (who read the
+translated short story in French, and answered a survey afterwards). Finally,
+some remarks of the official French translator of R. Powers, requested on this
+occasion, are given at the end of this article.
+Author{1}{Firstname}#=%=#Laurent
+Author{1}{Lastname}#=%=#Besacier
+Author{1}{Email}#=%=#laurent.besacier@imag.fr
+Author{1}{Affiliation}#=%=#LIG
+Author{2}{Firstname}#=%=#Lane
+Author{2}{Lastname}#=%=#Schwartz
+Author{2}{Email}#=%=#dowobeha@gmail.com
+Author{2}{Affiliation}#=%=#University of Illinois
+
+==========

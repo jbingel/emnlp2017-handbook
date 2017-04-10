@@ -1,0 +1,13 @@
+abbrev EVENTS
+type WORKSHOP
+title The 3rd Workshop on EVENTS: Definition, Detection, Coreference, and Representation
+url https://sites.google.com/site/wsevents2015/
+booktitle Proceedings of the The 3rd Workshop on EVENTS: Definition, Detection, Coreference, and Representation
+month June
+year 2015
+location TOBEFILLED-Ann Arbor, Michigan
+publisher Association for Computational Linguistics
+chairs Eduard Hovy (Carnegie Mellon University)
+chairs Teruko Mitamura (Carnegie Mellon University)
+chairs Martha Palmer (University of Colorado)
+bib_url http://www.aclweb.org/anthology/W15-08%02d

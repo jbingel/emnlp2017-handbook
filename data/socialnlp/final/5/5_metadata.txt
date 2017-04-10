@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Long Nights, Rainy Days, and Misspent Youth: Automatically Extracting and Categorizing Occasions Associated with Consumer Products.
+ShortPaperTitle#=%=#Automatically Extracting and Categorizing Occasions Associated with Consumer Products.
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#David Bracewell
+JobTitle#==#
+Organization#==#Oculus360
+16301 Quorum Dr.
+Suite 100B
+Addison, TX 75001
+Abstract#==#One way in which marketers gain insights about consumers is by identifying the
+occasions in which consumers use their products and which are invoked by their
+products. Identifying occasions helps in consumer segmentation,  answering why
+consumers purchase a product, and  where and when they use it. Additionally,
+the types of occasions a consumer participates in and the social settings
+surrounding those occasions provide insights into the consumer's personality
+and sociocultural self. Insights such as these are required for understanding
+consumer behavior, which marketers need to better design and sell their
+products.  In this paper, we describe a methodology for extracting and
+categorizing occasions from product reviews, product descriptions, and forum
+posts. We examine using a maximum entropy markov model (MEMM) and a linear
+chain conditional random field (CRF) for extraction and find the CRF results in
+a 72.4% F1-measure. Extracted occasions are categorized as one of six
+high-level types (Celebratory, Special, Seasonal, Temporal, Weather-Related,
+and Other) using a support vector machine with an 88.5% macro-averaged
+F1-measure.
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#Bracewell
+Author{1}{Email}#=%=#david@davidbracewell.com
+Author{1}{Affiliation}#=%=#Oculus360
+
+==========

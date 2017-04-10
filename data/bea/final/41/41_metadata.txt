@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#41
+FinalPaperTitle#=%=#Interpreting Questions with a Log-Linear Ranking Model in a Virtual Patient Dialogue System
+ShortPaperTitle#=%=#Interpreting Questions with a Log-Linear Ranking Model in a Virtual Patient Dialogue System
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Evan Jaffe
+JobTitle#==#
+Organization#==#
+Abstract#==#We present a log-linear ranking model for interpreting questions in a virtual
+patient dialogue system and demonstrate that it substantially outperforms a
+more typical multiclass classifier model using the same information. The full
+model makes use of weighted and concept-based matching features that together
+yield a 15% error reduction over a strong lexical overlap baseline. The
+accuracy of the
+ranking model approaches that of an extensively handcrafted pattern matching
+system, promising to reduce the authoring burden and make it possible to use
+confidence estimation in choosing dialogue acts; at the same time, the
+effectiveness of the concept-based features indicates that manual development
+resources can be productively employed with the approach in developing concept
+hierarchies.
+Author{1}{Firstname}#=%=#Evan
+Author{1}{Lastname}#=%=#Jaffe
+Author{1}{Email}#=%=#jaffe.59@osu.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#White
+Author{2}{Email}#=%=#mwhite@ling.osu.edu
+Author{2}{Affiliation}#=%=#The Ohio State University
+Author{3}{Firstname}#=%=#William
+Author{3}{Lastname}#=%=#Schuler
+Author{3}{Email}#=%=#schuler@ling.ohio-state.edu
+Author{3}{Affiliation}#=%=#The Ohio State University
+Author{4}{Firstname}#=%=#Eric
+Author{4}{Lastname}#=%=#Fosler-Lussier
+Author{4}{Email}#=%=#fosler@cse.ohio-state.edu
+Author{4}{Affiliation}#=%=#The Ohio State University
+Author{5}{Firstname}#=%=#Alex
+Author{5}{Lastname}#=%=#Rosenfeld
+Author{5}{Email}#=%=#alexbrosenfeld@gmail.com
+Author{5}{Affiliation}#=%=#University of Texas at Austin
+Author{6}{Firstname}#=%=#Douglas
+Author{6}{Lastname}#=%=#Danforth
+Author{6}{Email}#=%=#Doug.Danforth@osumc.edu
+Author{6}{Affiliation}#=%=#The Ohio State University
+
+==========

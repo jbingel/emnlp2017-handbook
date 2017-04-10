@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Screening Twitter Users for Depression and PTSD with Lexical Decision Lists
+ShortPaperTitle#=%=#Screening Twitter Users for Depression and PTSD with Lexical Decision Lists
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Ted Pedersen
+JobTitle#==#
+Organization#==#1114 Kirby Drive
+320 Heller Hall
+Duluth, MN 55812
+Abstract#==#This paper describes various systems from the University of Minnesota, Duluth
+that participated in the CLPsych 2015 shared task. These systems learned
+decision lists based on lexical features found in training data. These systems 
+typically had average precision in the range of .70 -- .76, whereas a random
+baseline attained .47 -- .49.
+Author{1}{Firstname}#=%=#Ted
+Author{1}{Lastname}#=%=#Pedersen
+Author{1}{Email}#=%=#tpederse@d.umn.edu
+Author{1}{Affiliation}#=%=#University of Minnesota, Duluth
+
+==========

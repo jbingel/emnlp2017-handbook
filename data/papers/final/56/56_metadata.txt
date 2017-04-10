@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#56
+FinalPaperTitle#=%=#Modeling Word Meaning in Context with Substitute Vectors
+ShortPaperTitle#=%=#Modeling Word Meaning in Context with Substitute Vectors
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#oren melamud
+JobTitle#==#phd student
+Organization#==#Bar-Ilan University Ramat Gan, 5290002 Israel
+Abstract#==#Context representations are a key element in distributional models of word
+meaning.
+In contrast to typical representations based on neighboring words, a recently
+proposed approach suggests to represent a context of a target word by a
+substitute vector, comprising the potential fillers for the target word slot in
+that context.
+In this work we first propose a variant of substitute vectors, which we find
+particularly suitable for measuring context similarity.
+Then, we propose a novel model for representing word meaning in context based
+on this context representation.
+Our model outperforms state-of-the-art results on lexical substitution tasks in
+an unsupervised setting.
+Author{1}{Firstname}#=%=#Oren
+Author{1}{Lastname}#=%=#Melamud
+Author{1}{Email}#=%=#melamuo@cs.biu.ac.il
+Author{1}{Affiliation}#=%=#Bar Ilan University
+Author{2}{Firstname}#=%=#Ido
+Author{2}{Lastname}#=%=#Dagan
+Author{2}{Email}#=%=#dagan@cs.biu.ac.il
+Author{2}{Affiliation}#=%=#Bar-Ilan University
+Author{3}{Firstname}#=%=#Jacob
+Author{3}{Lastname}#=%=#Goldberger
+Author{3}{Email}#=%=#Jacob.Goldberger@biu.ac.il
+Author{3}{Affiliation}#=%=#Bar-Ilan University
+
+==========

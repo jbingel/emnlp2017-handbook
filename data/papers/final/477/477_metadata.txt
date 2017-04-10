@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#477
+FinalPaperTitle#=%=#Aligning Sentences from Standard Wikipedia to Simple Wikipedia
+ShortPaperTitle#=%=#Aligning Sentences from Standard Wikipedia to Simple Wikipedia
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Hannaneh Hajishirzi
+JobTitle#==#
+Organization#==#University of Washington, Seattle, WA
+Abstract#==#This work improves monolingual sentence alignment for text simplification,
+specifically for text in standard and simple Wikipedia. We introduce a method
+that improves over past efforts by using a greedy (vs. ordered) search over the
+document and a word-level se- mantic similarity score based on Wiktionary (vs.
+WordNet) that also accounts for structural similarity through syntactic
+dependencies. Experiments show improved performance on a hand-aligned set, with
+the largest gain coming from structural similarity. Resulting datasets of
+manually and automatically aligned sentence pairs are made available.
+Author{1}{Firstname}#=%=#William
+Author{1}{Lastname}#=%=#Hwang
+Author{1}{Email}#=%=#wshwang@ee.washington.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Hannaneh
+Author{2}{Lastname}#=%=#Hajishirzi
+Author{2}{Email}#=%=#hannaneh@washington.edu
+Author{2}{Affiliation}#=%=#University of Washington
+Author{3}{Firstname}#=%=#Mari
+Author{3}{Lastname}#=%=#Ostendorf
+Author{3}{Email}#=%=#mo@ee.washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+Author{4}{Firstname}#=%=#Wei
+Author{4}{Lastname}#=%=#Wu
+Author{4}{Email}#=%=#weiwuuw@uw.edu
+Author{4}{Affiliation}#=%=#University of Washington
+
+==========

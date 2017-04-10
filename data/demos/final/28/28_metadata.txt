@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#Enhancing Instructor-Student and Student-Student Interactions with Mobile Interfaces and Summarization
+ShortPaperTitle#=%=#Enhancing Instructor and Student Interactions with Mobile Interfaces and Summarization
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Wencan Luo
+JobTitle#==#
+Organization#==#University of Pittsburgh
+210 South Bouquet Street, Pittsburgh, PA 15260
+Abstract#==#Educational research has demonstrated that asking students to respond to
+reflection prompts can increase interaction between instructors and students,
+which in turn can improve both teaching and learning especially in large
+classrooms. However, administering an instructor's prompts, collecting the
+students' responses, and summarizing these responses for both instructors and
+students is challenging and expensive. To address these challenges, we have
+developed an application called CourseMIRROR (Mobile In-situ Reflections and
+Review with Optimized Rubrics).  CourseMIRROR uses a mobile interface to
+administer prompts and collect reflective responses for a set of
+instructor-assigned course lectures. After collection, CourseMIRROR
+automatically summarizes the reflections with an extractive phrase
+summarization method, using a clustering algorithm to rank extracted phrases by
+student coverage. Finally, CourseMIRROR presents the phrase summary to both
+instructors and students to help them understand the difficulties and
+misunderstandings encountered.
+Author{1}{Firstname}#=%=#Wencan
+Author{1}{Lastname}#=%=#Luo
+Author{1}{Email}#=%=#wencanluo.cn@gmail.com
+Author{1}{Affiliation}#=%=#University of Pittsburgh
+Author{2}{Firstname}#=%=#Xiangmin
+Author{2}{Lastname}#=%=#Fan
+Author{2}{Email}#=%=#xiangmin@cs.pitt.edu
+Author{2}{Affiliation}#=%=#University of Pittsburgh
+Author{3}{Firstname}#=%=#Muhsin
+Author{3}{Lastname}#=%=#Menekse
+Author{3}{Email}#=%=#muhsin@pitt.edu
+Author{3}{Affiliation}#=%=#University of Pittsburgh
+Author{4}{Firstname}#=%=#Jingtao
+Author{4}{Lastname}#=%=#Wang
+Author{4}{Email}#=%=#jingtaow@cs.pitt.edu
+Author{4}{Affiliation}#=%=#University of Pittsburgh
+Author{5}{Firstname}#=%=#Diane
+Author{5}{Lastname}#=%=#Litman
+Author{5}{Email}#=%=#litman@cs.pitt.edu
+Author{5}{Affiliation}#=%=#University of Pittsburgh
+
+==========

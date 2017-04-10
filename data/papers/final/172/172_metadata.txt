@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#172
+FinalPaperTitle#=%=#Multi-Target Machine Translation with Multi-Synchronous Context-free Grammars
+ShortPaperTitle#=%=#Multi-Target Machine Translation with Multi-Synchronous Context-free Grammars
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Graham Neubig
+JobTitle#==#
+Organization#==#
+Abstract#==#We propose a method for simultaneously translating from a single source
+language to multiple target languages T1, T2, etc. The motivation behind this
+method is that if we only have a weak language model for T1 and translations in
+T1 and T2 are associated, we can use the information from a strong language
+model over T2 to disambiguate the translations in T1, providing better
+translation results. As a specific framework to realize multi-target
+translation, we expand the formalism of synchronous context-free grammars to
+handle multiple targets, and describe methods for rule extraction, scoring,
+pruning, and search with these models. Experiments find that multi-target
+translation with a strong language model in a similar second target language
+can provide gains of up to 0.8-1.5 BLEU points.
+Author{1}{Firstname}#=%=#Graham
+Author{1}{Lastname}#=%=#Neubig
+Author{1}{Email}#=%=#neubig@is.naist.jp
+Author{1}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{2}{Firstname}#=%=#Philip
+Author{2}{Lastname}#=%=#Arthur
+Author{2}{Email}#=%=#philip.arthur.om0@is.naist.jp
+Author{2}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{3}{Firstname}#=%=#Kevin
+Author{3}{Lastname}#=%=#Duh
+Author{3}{Email}#=%=#kevinduh@is.naist.jp
+Author{3}{Affiliation}#=%=#Nara Institute of Science and Technology
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Conditional Random Fields for Identifying Appropriate Types of Support for Propositions in Online User Comments
+ShortPaperTitle#=%=#CRFs for Identifying Appropriate Types of Support for Propositions in Online User Comments
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Joonsuk Park
+JobTitle#==#
+Organization#==#Department of Computer Science
+Cornell University
+Ithaca, New York 14850, USA
+Abstract#==#Park and Cardie (2014) proposed a novel task of automatically identifying
+appropriate types of support for propositions comprising online user comments,
+as an essential step toward automated analysis of the adequacy of supporting
+information. While multiclass Support Vector Machines (SVMs) proved to work
+reasonably well, they do not exploit the sequential nature of the problem: For
+instance, verifiable experiential propositions tend to appear together, because
+a personal narrative typically spans multiple propositions. According to our
+experiments, however, Conditional Random Fields (CRFs) degrade the overall
+performance, and we discuss potential fixes to this problem. Nonetheless, we
+observe that the F1 score with respect to the unverifiable proposition class is
+increased. Also, semi-supervised CRFs with posterior regularization trained on
+75% labeled training data can closely match the performance of a supervised CRF
+trained on the same training data with the remaining 25% labeled as well.
+Author{1}{Firstname}#=%=#Joonsuk
+Author{1}{Lastname}#=%=#Park
+Author{1}{Email}#=%=#jpark@cs.cornell.edu
+Author{1}{Affiliation}#=%=#Cornell University
+Author{2}{Firstname}#=%=#Arzoo
+Author{2}{Lastname}#=%=#Katiyar
+Author{2}{Email}#=%=#arzoo@cs.cornell.edu
+Author{2}{Affiliation}#=%=#Cornell University
+Author{3}{Firstname}#=%=#Bishan
+Author{3}{Lastname}#=%=#Yang
+Author{3}{Email}#=%=#bishan@cs.cornell.edu
+Author{3}{Affiliation}#=%=#Cornell University
+
+==========

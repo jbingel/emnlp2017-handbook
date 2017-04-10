@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#673
+FinalPaperTitle#=%=#Chinese Event Coreference Resolution: An Unsupervised Probabilistic Model Rivaling Supervised Resolvers
+ShortPaperTitle#=%=#Chinese Event Coreference Resolution: An Unsupervised Model Rivaling Supervised Resolvers
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Chen Chen
+JobTitle#==#
+Organization#==#The University of Texas at Dallas
+800 W. Campbell Rd., MS EC31
+Richardson, TX 75080, USA
+Abstract#==#Recent work has successfully leveraged the
+semantic information extracted from lexical
+knowledge bases such as WordNet and
+FrameNet to improve English event coreference
+resolvers. The lack of comparable resources
+in other languages, however, has made
+the design of high-performance non-English
+event coreference resolvers, particularly those
+employing unsupervised models, very difficult.
+We propose a generative model for the
+under-studied task of Chinese event coreference
+resolution that rivals its supervised counterparts
+in performance when evaluated on the
+ACE 2005 corpus.
+Author{1}{Firstname}#=%=#Chen
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#yzcchen@gmail.com
+Author{1}{Affiliation}#=%=#University of Texas at Dallas
+Author{2}{Firstname}#=%=#Vincent
+Author{2}{Lastname}#=%=#Ng
+Author{2}{Email}#=%=#vince@hlt.utdallas.edu
+Author{2}{Affiliation}#=%=#University of Texas at Dallas
+
+==========

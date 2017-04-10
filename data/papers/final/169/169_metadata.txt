@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#169
+FinalPaperTitle#=%=#Towards a standard evaluation method for grammatical error detection and correction
+ShortPaperTitle#=%=#Towards a standard evaluation method for grammatical error detection and correction
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Mariano Felice
+JobTitle#==#
+Organization#==#ALTA Institute
+Computer Laboratory
+University of Cambridge
+15 JJ Thomson Avenue
+Cambridge CB3 0FD
+United Kingdom
+Abstract#==#We present a novel evaluation method for grammatical error correction that
+addresses problems with previous approaches and scores systems in terms of
+improvement on the original text. Our method evaluates corrections at the token
+level using a globally optimal alignment between the source, a system
+hypothesis and a reference. Unlike the M<sup>2</sup> Scorer, our method
+provides scores for both detection and correction and is sensitive to different
+types of edit operations.
+Author{1}{Firstname}#=%=#Mariano
+Author{1}{Lastname}#=%=#Felice
+Author{1}{Email}#=%=#mariano.felice@cl.cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Ted
+Author{2}{Lastname}#=%=#Briscoe
+Author{2}{Email}#=%=#ejb@cl.cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+
+==========

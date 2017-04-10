@@ -1,0 +1,269 @@
+* Monday, June 1, 2015
++ 07:30--08:45 Registration and Breakfast
++ 08:45--09:00 Welcome to NAACL HLT 2015
++ 09:00--10:10 Invited Talk: "Big data pragmatics!", or, "Putting the ACL in computational social science", or, if you think these title alternatives could turn people on, turn people off, or otherwise have an effect, this talk might be for you %by Lillian Lee
++ 10:10--10:40 Break
+= 10:40--12:20 Session 1A: Semantics (Long Papers) %chair Poon, Hoifung
+455 10:40--11:05  # Unsupervised Induction of Semantic Roles within a Reconstruction-Error Minimization Framework
+550 11:05--11:30  # Predicate Argument Alignment using a Global Coherence Model
+670 11:30--11:55  # Improving unsupervised vector-space thematic fit evaluation via role-filler prototype clustering
+411 11:55--12:20  # A Compositional and Interpretable Semantic Space
+= 10:40--12:20 Session 1B: Tagging, Chunking, Syntax and Parsing (Long + TACL Papers) %chair Smith, Noah A.
+560 10:40--11:05  # Randomized Greedy Inference for Joint Segmentation, POS Tagging and Dependency Parsing
+136 11:05--11:30  # An Incremental Algorithm for Transition-based CCG Parsing
+540 11:30--11:55  # Because Syntax Does Matter: Improving Predicate-Argument Structures Parsing with Syntactic Features
+488/TACL 11:55--12:20 # TACL-488: Exploring Compositional Architectures and Word Vector Representations for Prepositional Phrase Attachment %by Yonatan Belinkov, Tao Lei, Regina Barzilay, Amir Globerson
+= 10:40--12:20 Session 1C: Information Retrieval, Text Categorization, Topic Modeling (Long Papers) %chair Boyd-Graber, Jordan
+533 10:40--11:05  # A Hybrid Generative/Discriminative Approach To Citation Prediction
+634 11:05--11:30  # Weakly Supervised Slot Tagging with Partially Labeled Sequences from Web Search Click Logs
+353 11:30--11:55  # Not All Character N-grams Are Created Equal: A Study in Authorship Attribution
+73 11:55--12:20  # Effective Use of Word Order for Text Categorization with Convolutional Neural Networks
++ 12:20--14:00 Lunch
+= 14:00--15:15 Session 2A: Generation and Summarization (Long Papers) %chair Liu, Fei
+55 14:00--14:25  # Transition-Based Syntactic Linearization
+87 14:25--14:50  # Extractive Summarisation Based on Keyword Profile and Language Model
+278 14:50--15:15  # HEADS: Headline Generation as Sequence Prediction Using an Abstract Feature-Rich Space
+= 14:00--15:15 Session 2B: Language and Vision (Long Papers) %chair Choi, Yejin
+182 14:00--14:25  # What___s Cookin___? Interpreting Cooking Videos using Text, Speech and Vision
+356 14:25--14:50  # Combining Language and Vision with a Multimodal Skip-gram Model
+420 14:50--15:15  # Discriminative Unsupervised Alignment of Natural Language Instructions with Corresponding Video Segments
+= 14:00--15:15 Session 2C: NLP for Web, Social Media and Social Sciences (Long Papers) %chair Zhang, Tong
+39 14:00--14:25  # TopicCheck: Interactive Alignment for Assessing Topic Model Stability
+524 14:25--14:50  # Inferring latent attributes of Twitter users with label regularization
+575 14:50--15:15  # A Neural Network Approach to Context-Sensitive Generation of Conversational Responses
+
+= 15:15--16:00 Session 3A: Generation and Summarization (Short Papers) %chair Liu, Fei
+32 15:15--15:30  # How to Make a Frenemy: Multitape FSTs for Portmanteau Generation
+477 15:30--15:45  # Aligning Sentences from Standard Wikipedia to Simple Wikipedia
+570 15:45--16:00  # Inducing Lexical Style Properties for Paraphrase and Genre Differentiation
+
+= 15:15--16:00 Session 3B: Information Extraction and Question Answering (Short Papers) %chair Choi, Yejin
+664 15:15--15:30  # Entity Linking for Spoken Language
+446 15:30--15:45  # Spinning Straw into Gold: Using Free Text to Train Monolingual Alignment Models for Non-factoid Question Answering
+674 15:45--16:00  # Personalized Page Rank for Named Entity Disambiguation
+
+= 15:15--16:00 Session 3C: Machine Learning for NLP (Short Papers) %chair Zhang, Tong
+227 15:15--15:30  # When and why are log-linear models self-normalizing?
+631 15:30--15:45  # Deep Multilingual Correlation for Improved Word Embeddings
+689 15:45--16:00  # Disfluency Detection with a Semi-Markov Model and Prosodic Features
+
++ 16:00--16:30 Break
++ 16:30--18:00 One minute madness (Long + TACL papers)
++ 18:00--19:30 Poster session 1A: Long + TACL papers
+69    # Robust Morphological Tagging with Word Representations
+123   # Multiview LSA: Representation Learning via Generalized CCA
+125   # Incrementally Tracking Reference in Human/Human Dialogue Using Linguistic and Extra-Linguistic Information
+167   # Digital Leafleting: Extracting Structured Data from Multimedia Online Flyers
+169   # Towards a standard evaluation method for grammatical error detection and correction
+205   # Constraint-Based Models of Lexical Borrowing
+229   # Jointly Modeling Inter-Slot Relations by Random Walk on Knowledge Graphs for Unsupervised Spoken Language Understanding
+232   # Interpreting Compound Noun Phrases Using Web Search Queries
+243   # Expanding Paraphrase Lexicons by Exploiting Lexical Variants
+263   # Lexicon-Free Conversational Speech Recognition with Neural Networks
+315   # A Linear-Time Transition System for Crossing Interval Trees
+367   # Data-driven sentence generation with non-isomorphic trees
+379   # Ontologically Grounded Multi-sense Representation Learning for Semantic Vector Space Models
+421   # Subsentential Sentiment on a Shoestring: A Crosslingual Analysis of Compositional Classification
+497   # Using Summarization to Discover Argument Facets in Online Idealogical Dialog
+521   # Incorporating Word Correlation Knowledge into Topic Modeling
+525   # Active Learning with Rationales for Text Classification
+529   # The Unreasonable Effectiveness of Word Representations for Twitter Named Entity Recognition
+531   # Inferring Temporally-Anchored Spatial Knowledge from Semantic Roles
+541   # Is Your Anchor Going Up or Down? Fast and Accurate Supervised Topic Models
+557   # Grounded Semantic Parsing for Complex Knowledge Extraction
+589   # Using External Resources and Joint Learning for Bigram Weighting in ILP-Based Multi-Document Summarization
+591   # Transforming Dependencies into Phrase Structures
+595   # D__j__ Image-Captions: A Corpus of Expressive Descriptions in Repetition
+605   # Improving the Inference of Implicit Discourse Relations via Classifying Explicit Discourse Connectives
+617   # Inferring Missing Entity Type Instances for Knowledge Base Completion: New Dataset and Methods
+697   # Pragmatic Neural Language Modelling in Machine Translation
+699   # English orthography is not "close to optimal"
+701   # Key Female Characters in Film Have More to Talk About Besides Men: Automating the Bechdel Test
+255/TACL # TACL-255: Dense Event Ordering with a Multi-Pass Architecture %by Nathanael Chambers, Taylor Cassidy, Bill McDowell, and Steven Bethard
+371/TACL # TACL-371: Unsupervised Discovery of Biographical Structure from Text %by David Bamman and Noah A. Smith
+381/TACL # TACL-381: Locally Non-Linear Learning for Statistical Machine Translation via Discretization and Structured Regularization %by Jonathan H. Clark, Chris Dyer, and Alon Lavie
+385/TACL # TACL-385: 2-Slave Dual Decomposition for Generalized High Order CRFs %by Xian Qian and Yang Liu
+403/TACL # TACL-403: SPRITE: Generalizing Topic Models with Structured Priors %by Michael J. Paul and Mark Dredze
+429/TACL # TACL-429: Learning Strictly Local Subsequential Functions %by Jane Chandlee, Remi Eyraud and Jeffrey Heinz
+485/TACL # TACL-485: A sense-topic model for WSI with unsupervised data enrichment %by Jing Wang, Mohit Bansal, Kevin Gimpel, Brian D. Ziebart, and Clement T. Yu
++ 19:30--21:00 Poster session 1B: Long + TACL papers
+56    # Modeling Word Meaning in Context with Substitute Vectors
+90    # LCCT: A Semi-supervised Model for Sentiment Classification
+116   # Empty Category Detection With Joint Context-Label Embeddings
+150   # NASARI: a Novel Approach to a Semantically-Aware Representation of Items
+172   # Multi-Target Machine Translation with Multi-Synchronous Context-free Grammars
+178   # Using Zero-Resource Spoken Term Discovery for Ranked Retrieval
+196   # Sign constraints on feature weights improve a joint model of word segmentation and phonology
+218   # Semi-Supervised Word Sense Disambiguation Using Word Embeddings in General and Specific Domains
+222   # Model Invertibility Regularization: Sequence Alignment With or Without Parallel Data
+226   # Continuous Space Representations of Linguistic Typology and their Application to Phylogenetic Inference
+274   # Diamonds in the Rough: Event Extraction from Imperfect Microblog Data
+296   # I Can Has Cheezburger? A Nonparanormal Approach to Combining Textual and Visual Information for Predicting and Generating Popular Meme Descriptions
+298   # Unsupervised Dependency Parsing: Let's Use Supervised Parsers
+306   # A Transition-based Algorithm for AMR Parsing
+322   # The Geometry of Statistical Machine Translation
+336   # Unsupervised Multi-Domain Adaptation with Feature Embeddings
+404   # Latent Domain Word Alignment for Heterogeneous Corpora
+428   # Extracting Human Temporal Orientation from Facebook Language
+438   # Cost Optimization in Crowdsourcing Translation: Low cost translations made even cheaper
+448   # An In-depth Analysis of the Effect of Text Normalization in Social Media
+460   # Multitask Learning for Adaptive Quality Estimation of Automatically Transcribed Utterances
+552   # A Dynamic Programming Algorithm for Tree Trimming-based Text Summarization
+578   # Sentiment after Translation: A Case-Study on Arabic Social Media Posts
+586   # Corpus-based discovery of semantic intensity scales
+590   # Dialogue focus tracking for zero pronoun resolution
+648   # Solving Hard Coreference Problems
+452/TACL # TACL-452: Reasoning about Quantities in Natural Language %by Subhro Roy, Tim Vieira, and Dan Roth
+472/TACL #  TACL-472: Learning Constraints for Information Structure Analysis of Scientific Documents %by Yufan Guo, Roi Reichart, and Anna Korhonen
+
+* Tuesday, June 2, 2015
++ 07:30--09:00 Registration and Breakfast
+= 09:00--10:40 Session 4A: Dialogue and Spoken Language Processing (Long Papers) %chair Walker, Marilyn
+490 09:00--09:25  # Semantic Grounding in Dialogue for Complex Problem Solving
+661 09:25--09:50  # Learning Knowledge Graphs for Question Answering through Conversational Dialog
+82 09:50--10:15  # Sentence segmentation of aphasic speech
+89 10:15--10:40  # Semantic parsing of speech using grammars learned with weak supervision
+= 09:00--10:40 Session 4B: Machine Learning for NLP (Long Papers) %chair Subramanya, Amarnag
+288 09:00--09:25  # Early Gains Matter: A Case for Preferring Generative over Discriminative Crowdsourcing Models
+407 09:25--09:50  # Optimizing Multivariate Performance Measures for Learning Relation Extraction Models
+156 09:50--10:15  # Convolutional Neural Network for Paraphrase Identification
+176 10:15--10:40  # Representation Learning Using Multi-Task Deep Neural Networks for Semantic Classification and Information Retrieval
+= 09:00--10:40 Session 4C: Phonology, Morphology and Word Segmentation (Long Papers) %chair Daum\IeC {\'e} III, Hal
+688 09:00--09:25  # Inflection Generation as Discriminative String Transduction
+452 09:25--09:50  # Penalized Expectation Propagation for Graphical Models over Strings
+671 09:50--10:15  # Joint Generation of Transliterations from Multiple Representations
+453 10:15--10:40  # Prosodic boundary information helps unsupervised word segmentation
++ 10:40--11:15 Break
+= 11:15--12:30 Session 5A: Semantics (Short Papers) %chair Gildea, Daniel
+281 11:15--11:30  # So similar and yet incompatible: Toward the automated identification of semantically compatible words
+50 11:30--11:45  # Do Supervised Distributional Methods Really Learn Lexical Inference Relations?
+558 11:45--12:00  # A Word Embedding Approach to Predicting the Compositionality of Multiword Expressions
+577 12:00--12:15  # Word Embedding-based Antonym Detection using Thesauri and Distributional Information
+607 12:15--12:30  # A Comparison of Word Similarity Performance Using Explanatory and Non-explanatory Texts
+= 11:15--12:30 Session 5B: Machine Translation (Short Papers) %chair Chiang, David
+207 11:15--11:30  # Morphological Modeling for Machine Translation of English-Iraqi Arabic Spoken Dialogs
+262 11:30--11:45  # Continuous Adaptation to User Feedback for Statistical Machine Translation
+275 11:45--12:00  # Normalized Word Embedding and Orthogonal Transform for Bilingual Word Translation
+255 12:00--12:15  # Fast and Accurate Preordering for SMT using Neural Networks
+418 12:15--12:30  # APRO: All-Pairs Ranking Optimization for MT Tuning
+= 11:15--12:30 Session 5C: Morphology, Syntax, Multilinguality, and Applications (Short Papers) %chair Lewis, William
+647 11:15--11:30  # Paradigm classification in supervised learning of morphology
+508 11:30--11:45  # Shift-Reduce Constituency Parsing with Dynamic Programming and POS Tag Lattice
+513 11:45--12:00  # Unsupervised Code-Switching for Multilingual Historical Document Transcription
+582 12:00--12:15  # Matching Citation Text and Cited Spans in Biomedical Literature: a Search-Oriented Approach
+350 12:15--12:30  # Effective Feature Integration for Automated Short Answer Scoring
++ 12:30--14:00 Lunch
+= 14:00--15:15 Session 6A: Generation and Summarization (Long Papers) %chair Xu, Wei
+565 14:00--14:25  # Socially-Informed Timeline Generation for Complex Events
+254 14:25--14:50  # Movie Script Summarization as Graph-based Scene Extraction
+567 14:50--15:15  # Toward Abstractive Summarization Using Semantic Representations
+= 14:00--15:15 Session 6B: Discourse and Coreference (Long Papers) %chair Nenkova, Ani
+36 14:00--14:25  # Encoding World Knowledge in the Evaluation of Local Coherence
+673 14:25--14:50  # Chinese Event Coreference Resolution: An Unsupervised Probabilistic Model Rivaling Supervised Resolvers
+535 14:50--15:15  # Removing the Training Wheels: A Coreference Dataset that Entertains Humans and Challenges Computers
+= 14:00--15:15 Session 6C: Information Extraction and Question Answering (Long Papers) %chair Vanderwende, Lucy
+476 14:00--14:25  # Injecting Logical Background Knowledge into Embeddings for Relation Extraction
+47 14:25--14:50  # Unsupervised Entity Linking with Abstract Meaning Representation
+317 14:50--15:15  # Idest: Learning a Distributed Representation for Event Patterns
++ 15:15--15:45 Break
+
+= 15:45--17:00 Session 7A: Semantics (Long + TACL Papers) %chair He, Xiaodong
+573 15:45--16:10  # High-Order Low-Rank Tensors for Semantic Role Labeling
+398/TACL 16:10--16:35 TACL-398: Large-scale Semantic Parsing without Question-Answer Pairs %by Siva Reddy, Mirella Lapata, and Mark Steedman
+457/TACL 16:35--17:00 TACL-457: A Large Scale Evaluation of Distributional Semantic Models: Parameters, Interactions and Model Selection %by Gabriella Lapesa and Stefan Evert
+
+= 15:45--17:00 Session 7B: Information Extraction and Question Answering (Long + TACL Papers) %chair Ng, Vincent
+369 15:45--16:10  # Lexical Event Ordering with an Edge-Factored Model
+494/TACL 16:10--16:35 # TACL-494: Entity disambiguation with web links %by Andrew Chisholm and Ben Hachey
+412/TACL 16:35--17:00 # TACL-412: A Joint Model for Entity Analysis: Coreference, Typing, and Linking %by Greg Durrett and Dan Klein
+
+= 15:45--17:00 Session 7C: Machine Translation (Long Papers) %chair Hassan, Hany
+71 15:45--16:10  # Bag-of-Words Forced Decoding for Cross-Lingual Information Retrieval
+293 16:10--16:35  # Accurate Evaluation of Segment-level Machine Translation Metrics
+532 16:35--17:00  # Leveraging Small Multilingual Corpora for SMT Using Many Pivot Languages
+
++ 17:00--18:30 Poster session 2A (Short papers)
+77    # Context-Dependent Automatic Response Generation Using Statistical Machine Translation Techniques
+83    # Distributed Representations of Words to Guide Bootstrapped Entity Classifiers
+103   # Multilingual Open Relation Extraction Using Cross-lingual Projection
+145   # Exploiting Text and Network Context for Geolocation of Social Media Users
+197   # Unsupervised Most Frequent Sense Detection using Word Embeddings
+217   # Chain Based RNN for Relation Classification
+223   # CASSA: A Context-Aware Synonym Simplification Algorithm
+237   # Mining for unambiguous instances to adapt part-of-speech taggers to new domains
+305   # On the Automatic Learning of Sentiment Lexicons
+311   # Development of the Multilingual Semantic Annotation System
+385   # Unediting: Detecting Disfluencies Without Careful Transcripts
+427   # Type-Driven Incremental Semantic Parsing with Polymorphism
+451   # Template Kernels for Dependency Parsing
+459   # Embedding a Semantic Network in a Word Space
+501   # Identification and Characterization of Newsworthy Verbs in World News
+545   # Enhancing Sumerian Lemmatization by Unsupervised Named-Entity Recognition
+611   # Improving Update Summarization via Supervised ILP and Sentence Reranking
+651   # Reserating the awesometastic: An automatic extension of the WordNet taxonomy for novel terms
+669   # Everyone Likes Shopping! Multi-class Product Categorization for e-Commerce
+675   # Cross-lingual Text Classification Using Topic-Dependent Word Probabilities
++ 18:30--20:00 Poster session 2B (Short papers)
+8     # Why Read if You Can Scan? Trigger Scoping Strategy for Biographical Fact Extraction
+30    # Response-based Learning for Machine Translation of Open-domain Database Queries
+34    # Lachmannian Archetype Reconstruction for Ancient Manuscript Corpora
+122   # Multi-Task Word Alignment Triangulation for Low-Resource Languages
+126   # Learning to parse with IAA-weighted loss
+142   # Automatic cognate identification with gap-weighted string subsequences.
+148   # Short Text Understanding by Leveraging Knowledge into Topic Model
+158   # Discriminative Phrase Embedding for Paraphrase Identification
+206   # Combining Word Embeddings and Feature Embeddings for Fine-grained Relation Extraction
+224   # LR Parsing for LCFRS
+228   # Simple task-specific bilingual word embeddings
+272   # Sampling Techniques for Streaming Cross Document Coreference Resolution
+282   # Clustering Sentences with Density Peaks for Multi-document Summarization
+338   # Large-Scale Native Language Identification with Cross-Corpus Evaluation
+384   # Unsupervised Sparse Vector Densification for Short Text Similarity
+426   # #WhyIStayed, #WhyILeft: Microblogging to Make Sense of Domestic Abuse
+444   # Morphological Word-Embeddings
+458   # Recognizing Social Constructs from Textual Conversation
+468   # Two/Too Simple Adaptations of Word2Vec for Syntax Problems
+488   # Random Walks and Neural Network Language Models on Knowledge Bases
+492   # Estimating Numerical Attributes by Bringing Together Fragmentary Clues
+534   # Unsupervised POS Induction with Word Embeddings
+642   # Extracting Information about Medication Use from Veterinary Discussions
+650   # MPQA 3.0: An Entity/Event-Level Sentiment Corpus
+706   # GPU-Friendly Local Regression for Voice Conversion
++ 20:00--23:00 Social Event
+
+* Wednesday, June 3, 2015
++ 07:30--09:00 Registration and Breakfast
++ 09:00--10:10 Invited Talk: "A Quest for Visual Intelligence in Computers" %by Fei-fei Li
++ 10:10--10:40 Break
+= 10:40--11:55 Session 8A: NLP for Web, Social Media and Social Sciences (Long + TACL Papers) %chair Resnik, Philip
+351 10:40--11:05  # Testing and Comparing Computational Approaches for Identifying the Language of Framing in Political News
+498/TACL 11:05--11:30 TACL-498: Extracting Lexically Divergent Paraphrases from Twitter %by Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan, and Yangfeng Ji
+267 11:30--11:55  # Echoes of Persuasion: The Effect of Euphony in Persuasive Communication
+= 10:40--11:55 Session 8B: Language and Vision (Long + TACL Papers) %chair Zettlemoyer, Luke
+539 10:40--11:05  # Translating Videos to Natural Language Using Deep Recurrent Neural Networks
+276/TACL 11:05--11:30 TACL-276: A Bayesian Model of Grounded Color Semantics %by Brian McMahan and Matthew Stone
+238 11:30--11:55  # Learning to Interpret and Describe Abstract Scenes
+= 10:40--11:55 Session 8C: Machine Translation (Long + TACL Papers) %chair Mi, Haitao
+44 10:40--11:05  # A Comparison of Update Strategies for Large-Scale Maximum Expected BLEU Training
+555/TACL 11:05--11:30 TACL-555: Gappy Pattern Matching on GPUs for On-Demand Extraction of Hierarchical Translation Grammars %by Hua He, Jimmy Lin, and Adam Lopez
+496 11:30--11:55  # Learning Translation Models from Monolingual Continuous Representations
++ 11:55--13:00 Lunch
++ 13:00--14:00 Business Meeting
+= 14:00--15:15 Session 9A: Lexical Semantics and Sentiment Analysis (Long Papers) %chair Mohammed, Saif
+401 14:00--14:25  # A Corpus and Model Integrating Multiword Expressions and Supersenses
+375 14:25--14:50  # Good News or Bad News: Using Affect Control Theory to Analyze Readers' Reaction Towards News Articles
+592 14:50--15:15  # Do We Really Need Lexical Information? Towards a Top-down Approach to Sentiment Analysis of Product Reviews
+= 14:00--15:15 Session 9B: NLP-enabled Technology (Long + TACL Papers) %chair O'Connor, Brendan
+506 14:00--14:25  # How to Memorize a Random 60-Bit String
+384/TACL 14:25--14:50 TACL-384: Building a State-of-the-Art Grammatical Error Correction System %by Alla Rozovskaya and Dan Roth
+414/TACL 14:50--15:15 TACL-414: Predicting the Difficulty of Language Proficiency Tests %by Lisa Beinborn, Torsten Zesch, and Iryna Gurevych
+= 14:00--15:15 Session 9C: Linguistic and Psycholinguistic Aspects of CL (Long Papers) %chair Schuler, William
+261 14:00--14:25  # A Bayesian Model for Joint Learning of Categories and their Features
+666 14:25--14:50  # Shared common ground influences information density in microblog texts
+454 14:50--15:15  # Hierarchic syntax improves reading time prediction
++ 15:15--15:45 Break
++ 15:45--17:15 Best Paper Session %chair Claire Cardie
+76 15:45--16:15  # Retrofitting Word Vectors to Semantic Lexicons
+450 16:15--16:45  # ___You___re Mr. Lebowski, I___m the Dude___: Inducing Address Term Formality in Signed Social Networks
+100 16:45--17:15  # Unsupervised Morphology Induction Using Word Embeddings
++ 17:15--17:30 Best Paper Awards and Closing Remarks

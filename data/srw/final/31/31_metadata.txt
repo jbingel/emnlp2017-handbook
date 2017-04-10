@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Narrowing the Loop: Integration of Resources and Linguistic Dataset Development with Interactive Machine Learning
+ShortPaperTitle#=%=#Narrowing the Loop:-Integration of Resources and Linguistic Dataset Development with Interactive ML
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Seid Muhie Yimam
+JobTitle#==#
+Organization#==#FG Language Technology, Department of Computer Science, Technische Universität Darmstadt
+Abstract#==#This thesis proposal sheds light on the role of interactive machine learning
+and implicit user feedback for manual annotation tasks and semantic writing aid
+applications. First we focus on the cost-effective annotation of training data
+using an interactive machine learning approach by conducting an experiment for
+sequence tagging of German named entity recognition. To show the effectiveness
+of the approach, we further carry out a sequence tagging task on Amharic
+part-of-speech and are able to significantly reduce time used for annotation.
+The second research direction is to systematically integrate different NLP
+resources for our new semantic writing aid tool using again an interactive
+machine learning approach to provide contextual paraphrase suggestions. We
+develop a baseline system where three lexical resources are combined to provide
+paraphrasing in context and show that combining resources is a promising
+direction.
+Author{1}{Firstname}#=%=#Seid Muhie
+Author{1}{Lastname}#=%=#Yimam
+Author{1}{Email}#=%=#seidymam@gmail.com
+Author{1}{Affiliation}#=%=#TU Darmstadt, Language Technology
+
+==========

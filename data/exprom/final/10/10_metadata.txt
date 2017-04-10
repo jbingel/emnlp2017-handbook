@@ -1,0 +1,15 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Limits of Natural Logic
+ShortPaperTitle#=%=#Limits of Natural Logic
+NumberOfPages#=%=#1
+CopyrightSigned#=%=#Lauri Larttunen
+JobTitle#==#Professor
+Organization#==#Stanford University
+210 Panama St. Stanford, CA 94305, USA
+Abstract#==#This is the abstract of the invited talk by Lauri Karttunen.
+Author{1}{Firstname}#=%=#Lauri
+Author{1}{Lastname}#=%=#Karttunen
+Author{1}{Email}#=%=#laurik@stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+
+==========

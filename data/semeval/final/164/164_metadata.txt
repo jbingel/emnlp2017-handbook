@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#164
+FinalPaperTitle#=%=#Peking: Building Semantic Dependency Graphs with a Hybrid Parser
+ShortPaperTitle#=%=#Peking: Building Semantic Dependency Graphs with a Hybrid Parser
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Weiwei Sun
+JobTitle#==#
+Organization#==#Institute of Computer Science and Technology, Peking University
+Zhongguancun North Street #128, Beijing, P. R. China.
+Abstract#==#This paper is a description of our system for SemEval-2015 Task 18:
+Broad-Coverage Semantic Dependency Parsing. 
+We implement a hybrid parser which benefit from both transition-based and
+graph-based parsing approaches.
+In particular, the tree approximation method is explored to take advantage of
+well-studied tree parsing techniques. 
+Evaluation on multilingual data sets demonstrates that
+considerably good semantic analysis can be automatically built by applying 
+state-of-the-art data-driven parsing techniques.
+Author{1}{Firstname}#=%=#Yantao
+Author{1}{Lastname}#=%=#Du
+Author{1}{Email}#=%=#duyantao@pku.edu.cn
+Author{1}{Affiliation}#=%=#Institute of Computer Science and Technology of Peking University
+Author{2}{Firstname}#=%=#Fan
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#zhangf717@gmail.com
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Xun
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Email}#=%=#zhangxunah@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+Author{4}{Firstname}#=%=#Weiwei
+Author{4}{Lastname}#=%=#Sun
+Author{4}{Email}#=%=#ws@pku.edu.cn
+Author{4}{Affiliation}#=%=#Peking University
+Author{5}{Firstname}#=%=#Xiaojun
+Author{5}{Lastname}#=%=#Wan
+Author{5}{Email}#=%=#wanxiaojun@pku.edu.cn
+Author{5}{Affiliation}#=%=#Peking University
+
+==========

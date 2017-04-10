@@ -1,0 +1,55 @@
+SubmissionNumber#=%=#84
+FinalPaperTitle#=%=#Implicit Entity Recognition in Clinical Documents
+ShortPaperTitle#=%=#Implicit Entity Recognition in Clinical Documents
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Sujan Perera
+JobTitle#==#
+Organization#==#Kno.e.sis, 377 Joshi Research Center, 3640 Colonel Glenn Highway, Dayton, OH 45435
+Abstract#==#With the increasing automation of health care information processing, it has
+become crucial to extract meaningful information from textual notes in
+electronic medical records. One of the key challenges is to extract and
+normalize entity mentions. State-of-the-art approaches have focused on the
+recognition of entities that are explicitly mentioned in a sentence. However,
+clinical documents often contain phrases that indicate the entities but do not
+contain their names. We term those implicit entity mentions and introduce the
+problem of implicit entity recognition (IER) in clinical documents. We propose
+a solution to IER that leverages entity definitions from a knowledge base to
+create entity models, projects sentences to the entity models and identifies
+implicit entity mentions by evaluating semantic similarity between sentences
+and entity models. The evaluation with 857 sentences selected for 8 different
+entities shows that our algorithm outperforms the most closely related
+unsupervised solution. The similarity value calculated by our algorithm proved
+to be an effective feature in a supervised learning setting, helping it to
+improve over the baselines, and achieving F1 scores of .81 and .73 for
+different classes of implicit mentions. Our gold standard annotations are made
+available to encourage further research in the area of IER.
+Author{1}{Firstname}#=%=#Sujan
+Author{1}{Lastname}#=%=#Perera
+Author{1}{Email}#=%=#sujan@knoesis.org
+Author{1}{Affiliation}#=%=#Kno.e.sis Center, Wright State University
+Author{2}{Firstname}#=%=#Pablo
+Author{2}{Lastname}#=%=#Mendes
+Author{2}{Email}#=%=#pnmendes@us.ibm.com
+Author{2}{Affiliation}#=%=#IBM Research
+Author{3}{Firstname}#=%=#Amit
+Author{3}{Lastname}#=%=#Sheth
+Author{3}{Email}#=%=#amit.sheth@wright.edu
+Author{3}{Affiliation}#=%=#Kno.e.sis - Wright State University
+Author{4}{Firstname}#=%=#Krishnaprasad
+Author{4}{Lastname}#=%=#Thirunarayan
+Author{4}{Email}#=%=#tkprasad@knoesis.org
+Author{4}{Affiliation}#=%=#Kno.e.sis - Wright State University
+Author{5}{Firstname}#=%=#Adarsh
+Author{5}{Lastname}#=%=#Alex
+Author{5}{Email}#=%=#adarsh@knoesis.org
+Author{5}{Affiliation}#=%=#Kno.e.sis - Wright State University
+Author{6}{Firstname}#=%=#Christopher
+Author{6}{Lastname}#=%=#Heid
+Author{6}{Email}#=%=#caheid2@gmail.com
+Author{6}{Affiliation}#=%=#Boonshoft School of Medicine - Wright State University
+Author{7}{Firstname}#=%=#Greg
+Author{7}{Lastname}#=%=#Mott
+Author{7}{Email}#=%=#mott11@wright.edu
+Author{7}{Affiliation}#=%=#Boonshoft School of Medicine - Wright State University
+
+==========

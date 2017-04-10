@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#41
+FinalPaperTitle#=%=#What I’ve learned about annotating informal text (and why you shouldn’t take my word for it)
+ShortPaperTitle#=%=#What I’ve learned about annotating informal text (and why you shouldn’t take my word for it)
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Nathan Schneider
+JobTitle#==#
+Organization#==#University of Edinburgh
+School of Informatics
+10 Crichton Street
+Edinburgh EH8 9AB
+United Kingdom
+Abstract#==#In conjunction with this year’s LAW theme, “Syntactic Annotation of
+Non-canonical Language” (NCL), I have been asked to weigh in on several
+important questions faced by anyone wishing to create annotated resources of
+NCLs. 
+
+My experience with syntactic annotation of non-canonical language falls under
+an effort undertaken at Carnegie Mellon University with the aim of building an
+NLP pipeline for syntactic analysis of Twitter text. We designed a
+linguistically-grounded annotation scheme, applied it to tweets, and then
+trained statistical analyzers—first for part-of-speech (POS) tags (Gimpel et
+al., 2011; Owoputi et al., 2012), then for parses (Schneider et al., 2013; Kong
+et al., 2014). I will review some of the salient points from this work in
+addressing the broader questions about annotation methodology.
+Author{1}{Firstname}#=%=#Nathan
+Author{1}{Lastname}#=%=#Schneider
+Author{1}{Email}#=%=#nschneid@inf.ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+
+==========

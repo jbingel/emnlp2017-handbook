@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#545
+FinalPaperTitle#=%=#Enhancing Sumerian Lemmatization by Unsupervised Named-Entity Recognition
+ShortPaperTitle#=%=#Enhancing Sumerian Lemmatization by Unsupervised Named-Entity Recognition
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Yudong Liu
+JobTitle#==#
+Organization#==#Western Washington University, Computer Science Department, 516 High St., Bellingham, WA, 98225
+Abstract#==#Lemmatization for the Sumerian language, compared to the modern languages, is
+much more challenging due to that it is a long dead language, highly skilled
+language experts are extremely scarce and more and more Sumerian texts are
+coming out. This paper describes how our unsupervised Sumerian named-entity
+recognition (NER) system helps to improve the lemmatization of the Cuneiform
+Digital Library Initiative (CDLI), a specialist database of cuneiform texts,
+from the Ur III period. Experiments show that a promising improvement in
+personal name annotation in such texts and a substantial reduction in expert
+annotation effort can be achieved by leveraging our system with minimal seed
+annotation.
+Author{1}{Firstname}#=%=#Yudong
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Email}#=%=#yudong.liu@wwu.edu
+Author{1}{Affiliation}#=%=#Western Washington University
+Author{2}{Firstname}#=%=#Clinton
+Author{2}{Lastname}#=%=#Burkhart
+Author{2}{Email}#=%=#burkhac@students.wwu.edu
+Author{2}{Affiliation}#=%=#Western Washington University
+Author{3}{Firstname}#=%=#James
+Author{3}{Lastname}#=%=#Hearne
+Author{3}{Email}#=%=#james.hearne@wwu.edu
+Author{3}{Affiliation}#=%=#Western Washington University
+Author{4}{Firstname}#=%=#Liang
+Author{4}{Lastname}#=%=#Luo
+Author{4}{Email}#=%=#luol@students.wwu.edu
+Author{4}{Affiliation}#=%=#Western Washington University
+
+==========

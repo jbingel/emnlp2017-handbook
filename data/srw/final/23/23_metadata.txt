@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#Entity/Event-Level Sentiment Detection and Inference
+ShortPaperTitle#=%=#Entity/Event-Level Sentiment Detection and Inference
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Lingjia Deng
+JobTitle#==#
+Organization#==#Intelligent Systems Program
+University of Pittsburgh
+5113 Sennott Square
+210 South Bouquet Street
+Pittsburgh, PA 15260
+Abstract#==#Most of the work in sentiment analysis and opinion mining focuses on extracting
+explicit sentiments. Opinions may be expressed implicitly via inference rules
+over explicit sentiments. In this thesis, we incorporate the inference rules as
+constraints in joint prediction models, to develop an entity/event-level
+sentiment analysis system which aims at detecting both explicit and implicit
+sentiments expressed among entities and events in the text, especially focusing
+on but not limited to sentiments toward events that positively or negatively
+affect entities (+/-effect events).
+Author{1}{Firstname}#=%=#Lingjia
+Author{1}{Lastname}#=%=#Deng
+Author{1}{Email}#=%=#lingjiadeng@gmail.com
+Author{1}{Affiliation}#=%=#University of Pittsburgh
+
+==========

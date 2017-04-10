@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#UFRGS: Identifying Categories and Targets in Customer Reviews
+ShortPaperTitle#=%=#UFRGS: Identifying Categories and Targets in Customer Reviews
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Anderson Kauer
+JobTitle#==#
+Organization#==#Institute of Informatics - UFRGS
+Porto Alegre - RS - Brazil
+Abstract#==#This paper reports on our participation at SemEval-2015 Task 12, which was
+devoted to Aspect-Based Sentiment Analysis.
+Participants were required to identify the category (entity and attribute), the
+opinion target, and polarity from the texts of customer reviews.
+The system we built relies on classification algorithms to identify aspect
+categories and on a set of rules to identify the opinion target.
+We propose a two-phase classification approach for category identification and
+use a simple method for polarity detection.
+Our results outperform the baseline in many cases meaning that our system could
+be used as an alternative for aspect classification.
+Author{1}{Firstname}#=%=#Anderson
+Author{1}{Lastname}#=%=#Kauer
+Author{1}{Email}#=%=#andersonkauer@gmail.com
+Author{1}{Affiliation}#=%=#Institute of Informatics - UFRGS
+Author{2}{Firstname}#=%=#Viviane
+Author{2}{Lastname}#=%=#Moreira
+Author{2}{Email}#=%=#viviane@inf.ufrgs.br
+Author{2}{Affiliation}#=%=#Institute of Informatics - UFRGS
+
+==========

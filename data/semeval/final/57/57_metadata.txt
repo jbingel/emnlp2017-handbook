@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#57
+FinalPaperTitle#=%=#EliXa: A Modular and Flexible ABSA Platform
+ShortPaperTitle#=%=#EliXa: A Modular and Flexible ABSA Platform
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Iñaki San Vicente
+JobTitle#==#
+Organization#==#Elhuyar Foundation
+
+Osinalde industrialdea 3
+Usurbil, 20170, Spain
+Abstract#==#This paper presents a supervised Aspect Based Sentiment Analysis (ABSA) system.
+Our aim is to develop a modular platform which allows to easily conduct
+experiments by replacing the modules or adding new features. We obtain the best
+result in the Opinion Target Extraction (OTE) task (slot 2) using an
+off-the-shelf sequence labeler. The target polarity classification (slot 3) is
+addressed by means of a multiclass SVM algorithm which includes lexical based
+features such as the polarity values obtained from domain and open polarity
+lexicons. The system obtains accuracies of 0.70 and 0.73 for the restaurant and
+laptop domain respectively, and performs second best in the out-of-domain
+hotel, achieving an accuracy of 0.80.
+Author{1}{Firstname}#=%=#Iñaki
+Author{1}{Lastname}#=%=#San Vicente
+Author{1}{Email}#=%=#i.sanvicente@elhuyar.com
+Author{1}{Affiliation}#=%=#Elhuyar Foundation / IXA - UPV-EHU
+Author{2}{Firstname}#=%=#Xabier
+Author{2}{Lastname}#=%=#Saralegi
+Author{2}{Email}#=%=#x.saralegi@elhuyar.com
+Author{2}{Affiliation}#=%=#Elhuyar Foundation
+Author{3}{Firstname}#=%=#Rodrigo
+Author{3}{Lastname}#=%=#Agerri
+Author{3}{Email}#=%=#rodrigo.agerri@ehu.eus
+Author{3}{Affiliation}#=%=#IXA NLP Group, University of the Basque Country (UPV/EHU)
+
+==========

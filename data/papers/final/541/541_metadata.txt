@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#541
+FinalPaperTitle#=%=#Is Your Anchor Going Up or Down? Fast and Accurate Supervised Topic Models
+ShortPaperTitle#=%=#Is Your Anchor Going Up or Down? Fast and Accurate Supervised Topic Models
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Thang Nguyen
+JobTitle#==#
+Organization#==#University of Maryland, College Park
+Abstract#==#Topic models provide insights into document collections, and their
+  supervised extensions also capture associated document level
+  metadata such as sentiment. However, inferring such models from data
+  is often slow and cannot scale to big data.  We build upon the
+  ``anchor'' method for learning topic models to capture the
+  relationship between metadata and latent topics by extending the
+  vector space representation of word cooccurrence to include
+  metadata specific dimensions.  These additional dimensions reveal
+  new anchor words that reflect specific combinations of metadata and
+  topic.  We show that these new latent representations predict
+  sentiment as accurately as supervised topic models, and we find these
+  representations  more quickly without sacrificing
+  interpretability.
+Author{1}{Firstname}#=%=#Thang
+Author{1}{Lastname}#=%=#Nguyen
+Author{1}{Email}#=%=#daithang@umiacs.umd.edu
+Author{1}{Affiliation}#=%=#University of Maryland
+Author{2}{Firstname}#=%=#Jordan
+Author{2}{Lastname}#=%=#Boyd-Graber
+Author{2}{Email}#=%=#jordan.boyd.graber@colorado.edu
+Author{2}{Affiliation}#=%=#University of Colorado
+Author{3}{Firstname}#=%=#Jeffrey
+Author{3}{Lastname}#=%=#Lund
+Author{3}{Email}#=%=#jefflund@gmail.com
+Author{3}{Affiliation}#=%=#Brigham Young University
+Author{4}{Firstname}#=%=#Kevin
+Author{4}{Lastname}#=%=#Seppi
+Author{4}{Email}#=%=#kseppi@cs.byu.edu
+Author{4}{Affiliation}#=%=#Brigham Young University
+Author{5}{Firstname}#=%=#Eric
+Author{5}{Lastname}#=%=#Ringger
+Author{5}{Email}#=%=#ringger@cs.byu.edu
+Author{5}{Affiliation}#=%=#Brigham Young University
+
+==========

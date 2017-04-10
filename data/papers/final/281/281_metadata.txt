@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#281
+FinalPaperTitle#=%=#So similar and yet incompatible: Toward the automated identification of semantically compatible words
+ShortPaperTitle#=%=#So similar and yet incompatible: Toward automated identification of semantically compatible words
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Germán Kruszewski
+JobTitle#==#
+Organization#==#University of Trento, Italy
+Abstract#==#We introduce the challenge of detecting semantically compatible words, that is,
+words that can potentially refer to the same thing (cat and hindrance are
+compatible, cat and dog are not), arguing for its central role in many semantic
+tasks. We present a publicly available data-set of human compatibility ratings,
+and a neural-network model that takes distributional embeddings of words
+as input and learns alternative embeddings that perform the compatibility
+detection task quite well.
+Author{1}{Firstname}#=%=#Germán
+Author{1}{Lastname}#=%=#Kruszewski
+Author{1}{Email}#=%=#german.kruszewski@unitn.it
+Author{1}{Affiliation}#=%=#University of Trento
+Author{2}{Firstname}#=%=#Marco
+Author{2}{Lastname}#=%=#Baroni
+Author{2}{Email}#=%=#marco.baroni@unitn.it
+Author{2}{Affiliation}#=%=#University of Trento
+
+==========

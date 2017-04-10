@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#Generating Reference Texts for Short Answer Scoring Using Graph-based Summarization
+ShortPaperTitle#=%=#Generating Reference Texts for Short Answer Scoring Using Graph-based Summarization
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Lakshmi Ramachandran
+JobTitle#==#
+Organization#==#Pearson
+4940 Pearl East Circle, Boulder, Colorado 80301
+Abstract#==#Automated scoring of short answers often involves matching a student’s
+response against one or more sample reference texts. Each reference text
+provided contains very specific instances of correct responses and may not
+cover the variety of possibly correct responses. Finding or hand-creating
+additional references can be very time consuming and expensive. In order to
+overcome this problem we propose a technique to generate alternative reference
+texts by summarizing the content of top-scoring student responses. We use a
+graph-based cohesion technique that extracts the most representative answers
+from among the top-scorers. We also use a state-of-the-art extractive
+summarization tool called MEAD. The extracted set of responses may be used as
+alternative reference texts to score student responses. We evaluate this
+approach on short answer data from Semeval 2013's Joint Student Response
+Analysis task.
+Author{1}{Firstname}#=%=#Lakshmi
+Author{1}{Lastname}#=%=#Ramachandran
+Author{1}{Email}#=%=#imaksha@gmail.com
+Author{1}{Affiliation}#=%=#Pearson Knowledge Technologies
+Author{2}{Firstname}#=%=#Peter
+Author{2}{Lastname}#=%=#Foltz
+Author{2}{Email}#=%=#peter.foltz@pearson.com
+Author{2}{Affiliation}#=%=#Pearson, University of Colorado
+
+==========

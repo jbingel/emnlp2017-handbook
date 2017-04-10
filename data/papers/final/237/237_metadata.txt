@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#237
+FinalPaperTitle#=%=#Mining for unambiguous instances to adapt part-of-speech taggers to new domains
+ShortPaperTitle#=%=#Mining for unambiguous instances to adapt POS taggers to new domains
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Dirk Hovy
+JobTitle#==#
+Organization#==#University of Copenhagen
+Abstract#==#We present a simple, yet effective approach to adapt part-of-speech (POS)
+taggers to new domains. Our approach only requires a dictionary and large
+amounts of unlabeled target data. The idea is to use the dictionary to mine the
+unlabeled target data for unambiguous word sequences, thus effectively
+collecting labeled target data. We add the mined instances to available labeled
+newswire data to train a POS tagger for the target domain. The induced models
+significantly improve tagging accuracy on held-out test sets across three
+domains (Twitter, spoken language, and search queries). We also present results
+for Dutch, Spanish and Portuguese Twitter data, and provide two novel
+manually-annotated test sets.
+Author{1}{Firstname}#=%=#Dirk
+Author{1}{Lastname}#=%=#Hovy
+Author{1}{Email}#=%=#mail@dirkhovy.com
+Author{1}{Affiliation}#=%=#Center for Language Technology, University of Copenhagen
+Author{2}{Firstname}#=%=#Barbara
+Author{2}{Lastname}#=%=#Plank
+Author{2}{Email}#=%=#bplank@gmail.com
+Author{2}{Affiliation}#=%=#University of Copenhagen
+Author{3}{Firstname}#=%=#Héctor
+Author{3}{Lastname}#=%=#Martínez Alonso
+Author{3}{Email}#=%=#alonso@hum.ku.dk
+Author{3}{Affiliation}#=%=#University of Copenhagen
+Author{4}{Firstname}#=%=#Anders
+Author{4}{Lastname}#=%=#Søgaard
+Author{4}{Email}#=%=#soegaard@hum.ku.dk
+Author{4}{Affiliation}#=%=#University of Copenhagen
+
+==========

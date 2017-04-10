@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Modeling the Statistical Idiosyncrasy of Multiword Expressions
+ShortPaperTitle#=%=#Modeling the Statistical Idiosyncrasy of Multiword Expressions
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Meghdad Farahmand
+JobTitle#==#
+Organization#==#Computer Science Centre - University of Geneva
+Geneva, Switzerland
+Abstract#==#The focus of this work is statistical idiosyncrasy (or collocational weight) as
+a discriminant property of multiword expressions. We formalize and model this
+property, compile a 2-class dataset of MWE and non-MWE examples, and evaluate
+our models on this dataset. We present a possible empirical implementation of
+collocational weight and study its effects on identification and extraction of
+MWEs. Our models prove to be more effective than baselines in identifying
+noun-noun MWEs.
+Author{1}{Firstname}#=%=#Meghdad
+Author{1}{Lastname}#=%=#Farahmand
+Author{1}{Email}#=%=#meghdad.farahmand@gmail.com
+Author{1}{Affiliation}#=%=#University of Geneva
+Author{2}{Firstname}#=%=#Joakim
+Author{2}{Lastname}#=%=#Nivre
+Author{2}{Email}#=%=#joakim.nivre@lingfil.uu.se
+Author{2}{Affiliation}#=%=#Uppsala University
+
+==========

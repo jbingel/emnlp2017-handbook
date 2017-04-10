@@ -1,0 +1,12 @@
+abbrev Tutorials
+type Tutorials
+title Tutorial Abstracts
+url http://naacl.org/naacl-hlt-2015/tutorials.html
+booktitle Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Tutorial Abstracts
+month May--June
+year 2015
+location Denver, Colorado
+publisher Association for Computational Linguistics
+chairs Yang Liu (University of Texas at Dallas)
+chairs Thamar Solorio (University of Houston)
+bib_url http://www.aclweb.org/anthology/N15-4%03d

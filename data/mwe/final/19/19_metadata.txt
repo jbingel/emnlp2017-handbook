@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Clustering-based Approach to Multiword Expression Extraction and Ranking
+ShortPaperTitle#=%=#Clustering-based Approach to Multiword Expression Extraction and Ranking
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Elena Tutubalina
+JobTitle#==#
+Organization#==#Kazan Federal University
+420008, 18 Kremlyovskaya st., Kazan, Russia
+Abstract#==#We present a domain-independent clustering-based approach for automatic
+extraction of multiword expressions (MWEs). The method combines statistical
+information from a general-purpose corpus and texts from Wikipedia articles. We
+incorporate association measures via dimensions of data points to cluster MWEs
+and then compute the ranking score for each MWE based on the closest exemplar
+assigned to a cluster. Evaluation results, achieved for two languages, show
+that a combination of association measures gives an improvement in the ranking
+of MWEs compared with simple counts of co-occurrence frequencies and purely
+statistical measures.
+Author{1}{Firstname}#=%=#Elena
+Author{1}{Lastname}#=%=#Tutubalina
+Author{1}{Email}#=%=#tlenusik@gmail.com
+Author{1}{Affiliation}#=%=#Kazan Federal University
+
+==========

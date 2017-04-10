@@ -1,0 +1,56 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#From Light to Rich ERE: Annotation of Entities, Relations, and Events
+ShortPaperTitle#=%=#From Light to Rich ERE: Annotation of Entities, Relations, and Events
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ann Bies
+JobTitle#==#
+Organization#==#
+Abstract#==#We describe the evolution of the Entities, Relations and Events (ERE)
+annotation task, created to support research and technology development within
+the DARPA DEFT program. We begin by describing the specification for Light ERE
+annotation, including the motivation for the task within the context of DEFT.
+We discuss the transition from Light ERE to a more complex Rich ERE
+specification, enabling more comprehensive treatment of phenomena of interest
+to DEFT.
+Author{1}{Firstname}#=%=#Zhiyi
+Author{1}{Lastname}#=%=#Song
+Author{1}{Email}#=%=#zhiyi@ldc.upenn.edu
+Author{1}{Affiliation}#=%=#Linguistic Data Consortium
+Author{2}{Firstname}#=%=#Ann
+Author{2}{Lastname}#=%=#Bies
+Author{2}{Email}#=%=#bies@ldc.upenn.edu
+Author{2}{Affiliation}#=%=#Linguistic Data Consortium, University of Pennsylvania
+Author{3}{Firstname}#=%=#Stephanie
+Author{3}{Lastname}#=%=#Strassel
+Author{3}{Email}#=%=#strassel@ldc.upenn.edu
+Author{3}{Affiliation}#=%=#Linguistic Data Consortium, University of Pennsylvania
+Author{4}{Firstname}#=%=#Tom
+Author{4}{Lastname}#=%=#Riese
+Author{4}{Email}#=%=#riese@ldc.upenn.edu
+Author{4}{Affiliation}#=%=#Linguistic Data Consortium
+Author{5}{Firstname}#=%=#Justin
+Author{5}{Lastname}#=%=#Mott
+Author{5}{Email}#=%=#jmott@ldc.upenn.edu
+Author{5}{Affiliation}#=%=#Linguistic Data Consortium
+Author{6}{Firstname}#=%=#Joe
+Author{6}{Lastname}#=%=#Ellis
+Author{6}{Email}#=%=#joellis@ldc.upenn.edu
+Author{6}{Affiliation}#=%=#Linguistic Data Consortium
+Author{7}{Firstname}#=%=#Jonathan
+Author{7}{Lastname}#=%=#Wright
+Author{7}{Email}#=%=#jdwright@ldc.upenn.edu
+Author{7}{Affiliation}#=%=#University of Pennsylvania
+Author{8}{Firstname}#=%=#Seth
+Author{8}{Lastname}#=%=#Kulick
+Author{8}{Email}#=%=#skulick@seas.upenn.edu
+Author{8}{Affiliation}#=%=#Linguistic Data Consortium, University of Pennsylvania
+Author{9}{Firstname}#=%=#Neville
+Author{9}{Lastname}#=%=#Ryant
+Author{9}{Email}#=%=#nryant@gmail.com
+Author{9}{Affiliation}#=%=#Linguistic Data Consortium
+Author{10}{Firstname}#=%=#Xiaoyi
+Author{10}{Lastname}#=%=#Ma
+Author{10}{Email}#=%=#xma@ldc.upenn.edu
+Author{10}{Affiliation}#=%=#LDC
+
+==========

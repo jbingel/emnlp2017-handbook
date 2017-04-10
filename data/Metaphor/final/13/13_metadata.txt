@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#High-Precision Abductive Mapping of Multilingual Metaphors
+ShortPaperTitle#=%=#High-Precision Abductive Mapping of Multilingual Metaphors
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jonathan Gordon
+JobTitle#==#
+Organization#==#USC Information Sciences Institute
+4676 Admiralty Way #1001
+Marina Del Rey, CA 90292
+Abstract#==#Metaphor is a cognitive phenomenon exhibited in language, where one conceptual
+domain (the target) is thought of in terms of another (the source). The first
+level of metaphor interpretation is the mapping of linguistic metaphors to
+pairs of source and target concepts. Based on the abductive approach to
+metaphor interpretation proposed by Hobbs (1992) and implemented in the
+open-source Metaphor-ADP system (Ovchinnikova et al., 2014), we present work to
+automatically learn knowledge bases to support high-precision conceptual
+metaphor mapping in English, Spanish, Farsi, and Russian
+Author{1}{Firstname}#=%=#Jonathan
+Author{1}{Lastname}#=%=#Gordon
+Author{1}{Email}#=%=#jgordon@isi.edu
+Author{1}{Affiliation}#=%=#USC Information Sciences Institute
+Author{2}{Firstname}#=%=#Jerry
+Author{2}{Lastname}#=%=#Hobbs
+Author{2}{Email}#=%=#hobbs@isi.edu
+Author{2}{Affiliation}#=%=#USC ISI
+Author{3}{Firstname}#=%=#Jonathan
+Author{3}{Lastname}#=%=#May
+Author{3}{Email}#=%=#jonmay@gmail.com
+Author{3}{Affiliation}#=%=#USC Information Sciences Institute
+Author{4}{Firstname}#=%=#Fabrizio
+Author{4}{Lastname}#=%=#Morbini
+Author{4}{Email}#=%=#morbini@ict.usc.edu
+Author{4}{Affiliation}#=%=#USC ICT
+
+==========

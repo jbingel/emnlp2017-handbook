@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#142
+FinalPaperTitle#=%=#Automatic cognate identification with gap-weighted string subsequences.
+ShortPaperTitle#=%=#Automatic cognate identification with gap-weighted string subsequences.
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Taraka Rama
+JobTitle#==#Graduate student
+Organization#==#Språkbanken, University of Gothenburg, Box 200, Gothenburg, Sweden
+Abstract#==#In this paper, we describe the problem of cognate identification in NLP. We
+introduce the idea of gap-weighted subsequences for discriminating cognates
+from non-cognates. We also propose a scheme to integrate phonetic features into
+the feature vectors for cognate identification. We show that subsequence based
+features perform better than state-of-the-art classifier for the purpose of
+cognate identification. The contribution of this paper is the use of
+subsequence features for cognate identification.
+Author{1}{Firstname}#=%=#Taraka
+Author{1}{Lastname}#=%=#Rama
+Author{1}{Email}#=%=#taraka.rama.kasicheyanula@gu.se
+Author{1}{Affiliation}#=%=#University of Gothenburg
+
+==========

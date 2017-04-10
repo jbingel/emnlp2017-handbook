@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#336
+FinalPaperTitle#=%=#Unsupervised Multi-Domain Adaptation with Feature Embeddings
+ShortPaperTitle#=%=#Unsupervised Multi-Domain Adaptation with Feature Embeddings
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yi Yang
+JobTitle#==#
+Organization#==#School of Interactive Computing
+Georgia Institute of Technology
+Atlanta, GA 30308
+Abstract#==#Representation learning is the dominant technique for unsupervised domain
+adaptation, but existing approaches have two major weaknesses. First, they
+often require the specification of ``pivot features'' that generalize across
+domains, which are selected by task-specific heuristics. We show that a novel
+but simple feature embedding approach provides better performance, by
+exploiting the feature template structure common in NLP problems. Second,
+unsupervised domain adaptation is typically treated as a task of moving from a
+single source to a single target domain. In reality, test data may be diverse,
+relating to the training data in some ways but not others. We propose an
+alternative formulation, in which each instance has a vector of domain
+attributes, can be used to learn distill the domain-invariant properties of
+each feature.
+Author{1}{Firstname}#=%=#Yi
+Author{1}{Lastname}#=%=#Yang
+Author{1}{Email}#=%=#yiyang@gatech.edu
+Author{1}{Affiliation}#=%=#Georgia Institute of Technology
+Author{2}{Firstname}#=%=#Jacob
+Author{2}{Lastname}#=%=#Eisenstein
+Author{2}{Email}#=%=#jacobe@gmail.com
+Author{2}{Affiliation}#=%=#Georgia Institute of Technology
+
+==========

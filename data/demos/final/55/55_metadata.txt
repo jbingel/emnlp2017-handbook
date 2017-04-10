@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#55
+FinalPaperTitle#=%=#Question Answering System using Multiple Information Source and Open Type Answer Merge
+ShortPaperTitle#=%=#Question Answering System using Multiple Information Source and Open Type Answer Merge
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Seonyeong Park
+JobTitle#==#MS candidate (graduated student)
+Organization#==#Intelligent Software Lab, Department of Computer Science and Engineering, POSTECH, San 31, Hyoja-Dong, Nam-Gu, Pohang-Si, 790-784, South Korea
+Abstract#==#This paper presents a multi-strategy and multi-source question answering (QA)
+system that can use multiple strategies to both answer natural language (NL)
+questions and respond to keywords. We use multiple information sources
+including curated knowledge base, raw text, auto-generated triples, and NL
+processing results. We develop open semantic answer type detector for answer
+merging and improve previous developed single QA modules such as knowledge base
+based QA, information retrieval based QA.
+Author{1}{Firstname}#=%=#Seonyeong
+Author{1}{Lastname}#=%=#Park
+Author{1}{Email}#=%=#sypark322@postech.ac.kr
+Author{1}{Affiliation}#=%=#POSTECH
+Author{2}{Firstname}#=%=#Soonchoul
+Author{2}{Lastname}#=%=#Kwon
+Author{2}{Email}#=%=#theincluder@postech.ac.kr
+Author{2}{Affiliation}#=%=#POSTECH
+Author{3}{Firstname}#=%=#Byungsoo
+Author{3}{Lastname}#=%=#Kim
+Author{3}{Email}#=%=#bsmail90@postech.ac.kr
+Author{3}{Affiliation}#=%=#POSTECH
+Author{4}{Firstname}#=%=#Sangdo
+Author{4}{Lastname}#=%=#Han
+Author{4}{Email}#=%=#hansd@postech.ac.kr
+Author{4}{Affiliation}#=%=#POSTECH
+Author{5}{Firstname}#=%=#Hyosup
+Author{5}{Lastname}#=%=#Shim
+Author{5}{Email}#=%=#hyosupshim@postech.ac.kr
+Author{5}{Affiliation}#=%=#POSTECH
+Author{6}{Firstname}#=%=#Gary Geunbae
+Author{6}{Lastname}#=%=#Lee
+Author{6}{Email}#=%=#gblee@postech.ac.kr
+Author{6}{Affiliation}#=%=#POSTECH
+
+==========

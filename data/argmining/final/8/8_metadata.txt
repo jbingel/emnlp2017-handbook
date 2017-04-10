@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Linking the Thoughts: Analysis of Argumentation Structures in Scientific Publications
+ShortPaperTitle#=%=#Argumentation Structures in Scientific Publications
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Judith Eckle-Kohler
+JobTitle#==#
+Organization#==#UKP Lab, Technische Universität Darmstadt,
+Hochschulstraße 10, DE-64289 Darmstadt
+Abstract#==#This paper presents the results of an annotation study focused on the
+fine-grained analysis of argumentation structures in scientific publications.
+Our new annotation scheme specifies four types of binary argumentative
+relations between sentences, resulting in the representation of arguments as
+small graph structures. We developed an annotation tool that supports the
+annotation of such graphs and carried out an annotation study with four
+annotators on 24 scientific articles from the domain of educational research.
+For calculating the inter-annotator agreement, we adapted existing measures and
+developed a novel graph-based agreement measure which reflects the semantic
+similarity of different annotation graphs.
+Author{1}{Firstname}#=%=#Christian
+Author{1}{Lastname}#=%=#Kirschner
+Author{1}{Email}#=%=#christian-kirschner@web.de
+Author{1}{Affiliation}#=%=#Knowledge Discovery in Scientific Literature (KDSL), German Institute for Educational Research (DIPF),  Ubiquitous Knowledge Processing Lab (UKP-TUDA), Department of Computer Science, Technische Universität Darmstadt
+Author{2}{Firstname}#=%=#Judith
+Author{2}{Lastname}#=%=#Eckle-Kohler
+Author{2}{Email}#=%=#eckle-kohler@ukp.informatik.tu-darmstadt.de
+Author{2}{Affiliation}#=%=#Technische Universität Darmstadt
+Author{3}{Firstname}#=%=#Iryna
+Author{3}{Lastname}#=%=#Gurevych
+Author{3}{Email}#=%=#gurevych@ukp.informatik.tu-darmstadt.de
+Author{3}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+
+==========

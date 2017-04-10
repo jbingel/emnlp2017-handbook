@@ -1,0 +1,59 @@
+SubmissionNumber#=%=#60
+FinalPaperTitle#=%=#SemEval-2015 Task 15: A CPA dictionary-entry-building task
+ShortPaperTitle#=%=#SemEval-2015 Task 15: A CPA dictionary-entry-building task
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Vít Baisa
+JobTitle#==#
+Organization#==#Masaryk University
+Faculty of Informatics
+Botanicka 68a
+Brno 602 00
+Czech Republic
+Abstract#==#This paper describes the first SemEval task to explore the use of Natural
+Language Processing systems for building dictionary entries, within the
+framework of Corpus Pattern Analysis. CPA is a corpus-driven technique which
+provides tools and resources to identify and represent unambiguously the main
+semantic patterns in which words are used. This task draws on the Pattern
+Dictionary of English Verbs (http://www.pdev.org.uk), for the targeted lexical
+entries, and on the British National Corpus for the input text.
+
+Dictionary entry building is split into three subtasks which all start from a
+concordance sample: 1) CPA parsing, where arguments and their syntactic and
+semantic categories have to be identified, 2) CPA clustering, in which
+sentences with similar patterns have to be clustered and 3) CPA automatic
+lexicography where the structure of patterns have to be constructed
+automatically.
+
+Subtask 1 attracted 3 teams, though none could beat the baseline (rule-based
+system). Subtask 2 attracted 2 teams, one of which beat the baseline
+(majority-class classifier).  Subtask 3 did not attract any participant. 
+
+The task has produced a major semantic multi-dataset resource which includes
+data for 121 verbs and about 17,000 annotated sentences, and which is freely
+accessible.
+Author{1}{Firstname}#=%=#Vít
+Author{1}{Lastname}#=%=#Baisa
+Author{1}{Email}#=%=#vit.baisa@gmail.com
+Author{1}{Affiliation}#=%=#Masaryk University
+Author{2}{Firstname}#=%=#Jane
+Author{2}{Lastname}#=%=#Bradbury
+Author{2}{Email}#=%=#j.bradbury3@wlv.ac.uk
+Author{2}{Affiliation}#=%=#University of Wolverhampton
+Author{3}{Firstname}#=%=#Silvie
+Author{3}{Lastname}#=%=#Cinkova
+Author{3}{Email}#=%=#cinkova@ufal.mff.cuni.cz
+Author{3}{Affiliation}#=%=#Charles University in Prague, Faculty of Mathematics and Physics, Institute of Formal and Applied Linguistics
+Author{4}{Firstname}#=%=#Ismail
+Author{4}{Lastname}#=%=#El Maarouf
+Author{4}{Email}#=%=#elmaarouf.ismail@yahoo.fr
+Author{4}{Affiliation}#=%=#RIILP, University of Wolverhampton
+Author{5}{Firstname}#=%=#Adam
+Author{5}{Lastname}#=%=#Kilgarriff
+Author{5}{Email}#=%=#adam@lexmasterclass.com
+Author{5}{Affiliation}#=%=#Lexical Computing Ltd
+Author{6}{Firstname}#=%=#Octavian
+Author{6}{Lastname}#=%=#Popescu
+Author{6}{Email}#=%=#o.popescu@us.ibm.com
+Author{6}{Affiliation}#=%=#IBM Research
+
+==========

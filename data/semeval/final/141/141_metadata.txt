@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#141
+FinalPaperTitle#=%=#CLaC-SentiPipe: SemEval2015 Subtasks 10 B,E, and Task 11
+ShortPaperTitle#=%=#CLaC-SentiPipe
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Sabine Bergler
+JobTitle#==#
+Organization#==#Concordia University
+Abstract#==#CLaC Labs participated in two shared tasks for SemEval2015, Task 10 (subtasks B
+and E) and Task 11. The underlying system configuration is nearly identical and
+consists of two major components: a large Twitter lexicon compiled from tweets
+that carry certain selected hashtags (assumed to guarantee a sentiment
+polarity) and then inducing that same polarity for the words that occur in the
+tweets. We also use standard sentiment lexica and combine the results. The
+lexical sentiment features are further differentiated according to some
+linguistic contexts in which their triggers occur, including bigrams, negation,
+modality, and dependency triples. We studied feature combinations
+comprehensively for their interoperability and effectiveness on different
+datasets using the exhaustive feature combination technique of (Shareghi and
+Bergler, 2013a; Shareghi and Bergler, 2013b). For Subtask 10B we used a SVM,
+and a decision tree regressor for Task 11. The resulting systems ranked ninth
+for Subtask 10B, fourth for Subtask 10E, and first for Task 11.
+Author{1}{Firstname}#=%=#Canberk
+Author{1}{Lastname}#=%=#Özdemir
+Author{1}{Email}#=%=#ozdemir.berkin@gmail.com
+Author{1}{Affiliation}#=%=#Concordia University
+Author{2}{Firstname}#=%=#Sabine
+Author{2}{Lastname}#=%=#Bergler
+Author{2}{Email}#=%=#bergler@cse.concordia.ca
+Author{2}{Affiliation}#=%=#Concordia University
+
+==========

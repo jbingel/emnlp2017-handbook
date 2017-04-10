@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#Semantic Annotation of Japanese Functional Expressions and its Impact on Factuality Analysis
+ShortPaperTitle#=%=#Semantic Annotation of Japanese Functional Expressions and its Impact on Factuality Analysis
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yudai Kamioka
+JobTitle#==#
+Organization#==#Tohoku University
+Graduate School of Information Sciences
+Communication Science Laboratory
+6-6-05 Aramaki Aza Aoba, Aobaku, Sendai, Miyagi 980-8579, Japan
+Abstract#==#Recognizing the meaning of functional expressions is essential for natural
+language understanding. This is a difficult task, owing to the lack of a
+sufficient corpus for machine learning and evaluation. In this study, we design
+a new annotation scheme and construct a corpus containing 2,327 Japanese
+sentences and 8,775 functional expressions. Our scheme achieves high
+inter-annotator agreement with kappa score of 0.85. In the experiments, we
+confirmed that machine learning-based functional expression analysis
+contributes to factuality analysis.
+Author{1}{Firstname}#=%=#Yudai
+Author{1}{Lastname}#=%=#Kamioka
+Author{1}{Email}#=%=#yudai.k@ecei.tohoku.ac.jp
+Author{1}{Affiliation}#=%=#Tohoku University
+Author{2}{Firstname}#=%=#Kazuya
+Author{2}{Lastname}#=%=#Narita
+Author{2}{Email}#=%=#narita@ecei.tohoku.ac.jp
+Author{2}{Affiliation}#=%=#Tohoku University
+Author{3}{Firstname}#=%=#Junta
+Author{3}{Lastname}#=%=#Mizuno
+Author{3}{Email}#=%=#junta-m@nict.go.jp
+Author{3}{Affiliation}#=%=#NICT
+Author{4}{Firstname}#=%=#Miwa
+Author{4}{Lastname}#=%=#Kanno
+Author{4}{Email}#=%=#meihe@ecei.tohoku.ac.jp
+Author{4}{Affiliation}#=%=#Tohoku University
+Author{5}{Firstname}#=%=#Kentaro
+Author{5}{Lastname}#=%=#Inui
+Author{5}{Email}#=%=#inui@ecei.tohoku.ac.jp
+Author{5}{Affiliation}#=%=#Tohoku University
+
+==========

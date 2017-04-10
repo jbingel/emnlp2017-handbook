@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Game-Changing Event Definition and Detection in an eSports Corpus
+ShortPaperTitle#=%=#Game-Changing Event Definition and Detection in an eSports Corpus
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Emily Olshefski
+JobTitle#==#
+Organization#==#
+Abstract#==#Despite the growing cultural presence of eSports, no corpus contains this genre
+of entertainment. This paper presents how a preliminary corpus was created from
+broadcast speech from a professional game of the eSport Counter-Strike: Global
+Offensive (CS:GO). The corpus was initially annotated following the Automatic
+Contact Extraction (ACE) event subtype definitions for game-changing events:
+deaths, injuries, and attacks. Event subtype definitions were modified for
+further annotation to detect a wider range of game-changing events otherwise
+not defined by ACE. A high degree of inter-annotator agreement for most event
+subtypes suggests that modifying event subtype definitions for an eSports
+corpus is necessary to detect the breadth of game-changing events.
+Author{1}{Firstname}#=%=#Emily
+Author{1}{Lastname}#=%=#Olshefski
+Author{1}{Email}#=%=#olshefskie1@montclair.edu
+Author{1}{Affiliation}#=%=#Montclair State University
+
+==========

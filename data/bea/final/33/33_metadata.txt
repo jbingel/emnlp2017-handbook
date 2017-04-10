@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#33
+FinalPaperTitle#=%=#Using NLP to Support Scalable Assessment of Short Free Text Responses
+ShortPaperTitle#=%=#Using NLP to Support Scalable Assessment of Short Free Text Responses
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Alistair Willis
+JobTitle#==#
+Organization#==#The Open University
+Walton Hall
+Milton Keynes
+MK7 6AA
+UK
+Abstract#==#Marking student responses to short answer questions raises particular issues
+for human markers, as well as for automatic marking systems. In this paper we
+present the Amati system, which aims to help human markers improve the speed
+and accuracy of their marking. Amati supports an educator in incrementally
+developing a set of automatic marking rules, which can then be applied to
+larger question sets or used for automatic marking. We show that using this
+system allows markers to develop mark schemes which closely match the
+judgements of a human expert, with the benefits of consistency, scalability and
+traceability afforded by an automated marking system. We also consider some
+difficult cases for automatic marking, and look at some of the computational
+and linguistic properties of these cases.
+Author{1}{Firstname}#=%=#Alistair
+Author{1}{Lastname}#=%=#Willis
+Author{1}{Email}#=%=#alistair.willis@open.ac.uk
+Author{1}{Affiliation}#=%=#The Open University
+
+==========

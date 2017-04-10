@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Design and Annotation of the First Italian Corpus for Text Simplification
+ShortPaperTitle#=%=#Design and Annotation of the First Italian Corpus for Text Simplification
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Giulia Venturi
+JobTitle#==#
+Organization#==#ItaliaNLP Lab - Istituto di Linguistica Computazionale "Antonio Zampolli" (ILC), CNR
+Abstract#==#In this paper, we present design and construction of the first Italian corpus
+for automatic and semi--automatic text simplification. In line with current
+approaches, we propose a new annotation scheme specifically conceived to
+identify the typology of changes an original sentence undergoes when it is
+manually simplified. Such a scheme has been applied to two aligned Italian
+corpora, containing original texts with corresponding simplified versions,
+selected as representative of two different manual simplification strategies
+and addressing different target reader populations. Each corpus was annotated
+with the operations foreseen in the annotation scheme, covering different
+levels of linguistic description. Annotation results were analysed with the
+final aim of capturing peculiarities and differences of the different
+simplification strategies pursued in the two corpora.
+Author{1}{Firstname}#=%=#Dominique
+Author{1}{Lastname}#=%=#Brunato
+Author{1}{Email}#=%=#dominique.brunato@ilc.cnr.it
+Author{1}{Affiliation}#=%=#Istituto di Linguistica Computazionale "Antonio Zampolli" (ILC-CNR)
+Author{2}{Firstname}#=%=#Felice
+Author{2}{Lastname}#=%=#Dell'Orletta
+Author{2}{Email}#=%=#felice.dellorletta@ilc.cnr.it
+Author{2}{Affiliation}#=%=#Istituto di Linguistica Computazionale "A. Zampolli" (ILC-CNR)
+Author{3}{Firstname}#=%=#Giulia
+Author{3}{Lastname}#=%=#Venturi
+Author{3}{Email}#=%=#giulia.venturi@ilc.cnr.it
+Author{3}{Affiliation}#=%=#Istituto di Linguistica Computazionale "Antonio Zampolli"
+Author{4}{Firstname}#=%=#Simonetta
+Author{4}{Lastname}#=%=#Montemagni
+Author{4}{Email}#=%=#simonetta.montemagni@ilc.cnr.it
+Author{4}{Affiliation}#=%=#Istituto di Linguistica Computazionale "Antonio Zampolli"
+
+==========

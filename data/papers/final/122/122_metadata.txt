@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#122
+FinalPaperTitle#=%=#Multi-Task Word Alignment Triangulation for Low-Resource Languages
+ShortPaperTitle#=%=#Multi-Task Word Alignment Triangulation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Tomer Levinboim
+JobTitle#==#
+Organization#==#University of Notre Dame
+Abstract#==#We present a multi-task learning approach that jointly trains 
+three word alignment models over disjoint bitexts of three languages 
+- source, target and pivot.
+Our approach builds upon model triangulation, following Wang et
+al., which approximates a source-target model 
+by combining source-pivot and pivot-target models.
+We develop a MAP-EM algorithm that uses triangulation as a prior, 
+and show how to extend it to a multi-task setting.
+On a low-resource Czech-English corpus, using French as the pivot, 
+our multi-task learning approach more than doubles the gains 
+in both F- and BLEU scores compared to the interpolation approach of Wang et
+al.
+Further experiments reveal that the choice of pivot language does not
+significantly effect performance.
+Author{1}{Firstname}#=%=#Tomer
+Author{1}{Lastname}#=%=#Levinboim
+Author{1}{Email}#=%=#levinboim.tomer@gmail.com
+Author{1}{Affiliation}#=%=#University of Notre Dame
+Author{2}{Firstname}#=%=#David
+Author{2}{Lastname}#=%=#Chiang
+Author{2}{Email}#=%=#dchiang@nd.edu
+Author{2}{Affiliation}#=%=#University of Notre Dame
+
+==========

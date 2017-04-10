@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#43
+FinalPaperTitle#=%=#Automatically Scoring Freshman Writing: A Preliminary Investigation
+ShortPaperTitle#=%=#Automatically Scoring Freshman Writing: A Preliminary Investigation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Courtney Napoles
+JobTitle#==#
+Organization#==#Johns Hopkins University
+3400 N Charles St
+Baltimore MD 21218
+Abstract#==#In this work, we explore applications of automatic essay scoring (AES) to a
+corpus of essays written by college freshmen and discuss the challenges we
+faced. While most AES systems evaluate highly constrained writing, we developed
+a system that handles open-ended, long-form writing.  We present a novel corpus
+for this task, containing more than 3,000 essays and drafts written for a
+freshman writing course. We describe statistical analysis of the corpus and
+identify problems with automatically scoring this type of data. Finally, we
+demonstrate how to overcome grader bias by using a multi-task setup, and
+predict scores as well as human graders on a different dataset. Finally, we
+discuss how AES can help teachers assign more uniform grades.
+Author{1}{Firstname}#=%=#Courtney
+Author{1}{Lastname}#=%=#Napoles
+Author{1}{Email}#=%=#cdnapoles@gmail.com
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Chris
+Author{2}{Lastname}#=%=#Callison-Burch
+Author{2}{Email}#=%=#ccb@upenn.edu
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+
+==========

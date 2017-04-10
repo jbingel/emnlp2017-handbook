@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#350
+FinalPaperTitle#=%=#Effective Feature Integration for Automated Short Answer Scoring
+ShortPaperTitle#=%=#Effective Feature Integration for Automated Short Answer Scoring
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Keisuke Sakaguchi
+JobTitle#==#
+Organization#==#Keisuke Sakaguchi,
+Center for Language and Speech Processing,
+Johns Hopkins University,
+Hackerman Hall 226,
+3400 North Charles Street,
+Baltimore, MD, 21218
+Abstract#==#A major opportunity for NLP to have a real-world impact is in helping educators
+score student writing, particularly content-based writing (i.e., the task of
+automated short answer scoring).  A major challenge in this enterprise is that
+scored responses to a particular question (i.e., labeled data) are valuable for
+modeling but limited in quantity.  Additional information from the scoring
+guidelines for humans, such as exemplars for each score level and descriptions
+of key concepts, can also be used.  Here, we explore methods for integrating
+scoring guidelines and labeled responses, and we find that stacked
+generalization (Wolpert, 1992) improves performance, especially for
+small training sets.
+Author{1}{Firstname}#=%=#Keisuke
+Author{1}{Lastname}#=%=#Sakaguchi
+Author{1}{Email}#=%=#keisuke@cs.jhu.edu
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Heilman
+Author{2}{Email}#=%=#mheilman@civisanalytics.com
+Author{2}{Affiliation}#=%=#Civis Analytics
+Author{3}{Firstname}#=%=#Nitin
+Author{3}{Lastname}#=%=#Madnani
+Author{3}{Email}#=%=#nmadnani@ets.org
+Author{3}{Affiliation}#=%=#Educational Testing Service
+
+==========

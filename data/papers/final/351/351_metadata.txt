@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#351
+FinalPaperTitle#=%=#Testing and Comparing Computational Approaches for Identifying the Language of Framing in Political News
+ShortPaperTitle#=%=#Approaches for Identifying Framing in Political News
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Eric P. S. Baumer
+JobTitle#==#
+Organization#==#Cornell University
+Ithaca, NY 14853
+Abstract#==#The subconscious influence of framing on perceptions of political issues is
+well-document in political science and communication research. A related line
+of work suggests that drawing attention to framing may help reduce such framing
+effects by enabling frame reflection, critical examination of the framing
+underlying an issue. However, definite guidance on how to identify framing does
+not exist. This paper presents a technique for identifying frame-invoking
+language. The paper first describes a human subjects pilot study that explores
+how individuals identify framing and informs the design of our technique. The
+paper then describes our data collection and annotation approach. Results show
+that the best performing classifiers achieve performance comparable to that of
+human annotators, and they indicate which aspects of language most pertain to
+framing. Both technical and theoretical implications are discussed.
+Author{1}{Firstname}#=%=#Eric
+Author{1}{Lastname}#=%=#Baumer
+Author{1}{Email}#=%=#ericpsb@cornell.edu
+Author{1}{Affiliation}#=%=#Cornell University
+Author{2}{Firstname}#=%=#Elisha
+Author{2}{Lastname}#=%=#Elovic
+Author{2}{Email}#=%=#epe9@cornell.edu
+Author{2}{Affiliation}#=%=#Cornell University
+Author{3}{Firstname}#=%=#Ying
+Author{3}{Lastname}#=%=#Qin
+Author{3}{Email}#=%=#yq37@cornell.edu
+Author{3}{Affiliation}#=%=#Cornell University
+Author{4}{Firstname}#=%=#Francesca
+Author{4}{Lastname}#=%=#Polletta
+Author{4}{Email}#=%=#polletta@uci.edu
+Author{4}{Affiliation}#=%=#University of California, Irvine
+Author{5}{Firstname}#=%=#Geri
+Author{5}{Lastname}#=%=#Gay
+Author{5}{Email}#=%=#gkg1@cornell.edu
+Author{5}{Affiliation}#=%=#Cornell University
+
+==========

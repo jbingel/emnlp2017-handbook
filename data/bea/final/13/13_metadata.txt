@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Automated Scoring of Picture-based Story Narration
+ShortPaperTitle#=%=#Automated Scoring of Picture-based Story Narration
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Swapna Somasundaran
+JobTitle#==#
+Organization#==#
+Abstract#==#This work investigates linguistically motivated features for automatically
+scoring a spoken picture-based narration task. Specifically, we  build scoring
+models with features for story development, language use and  task relevance of
+the response. Results show that combinations of these features outperform a
+baseline system that uses state of the art speech-only features, and that best
+results are obtained by combining the linguistic and speech features.
+Author{1}{Firstname}#=%=#Swapna
+Author{1}{Lastname}#=%=#Somasundaran
+Author{1}{Email}#=%=#swapna.sundaran@gmail.com
+Author{1}{Affiliation}#=%=#Educational Testing Services
+Author{2}{Firstname}#=%=#Chong Min
+Author{2}{Lastname}#=%=#Lee
+Author{2}{Email}#=%=#clee001@ets.org
+Author{2}{Affiliation}#=%=#Educational Testing Service
+Author{3}{Firstname}#=%=#Martin
+Author{3}{Lastname}#=%=#Chodorow
+Author{3}{Email}#=%=#martin.chodorow@gmail.com
+Author{3}{Affiliation}#=%=#Hunter College of CUNY
+Author{4}{Firstname}#=%=#Xinhao
+Author{4}{Lastname}#=%=#Wang
+Author{4}{Email}#=%=#xwang002@ets.org
+Author{4}{Affiliation}#=%=#Educational Testing Service
+
+==========

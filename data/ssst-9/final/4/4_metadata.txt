@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Translating Negation: Induction, Search And Model Errors
+ShortPaperTitle#=%=#Translating Negation: Induction, Search And Model Errors
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Federico Fancellu
+JobTitle#==#
+Organization#==#School of Informatics
+University of Edinburgh
+11 Crichton Street, EH8 9AB Edinburgh, U.K.
+Abstract#==#Statistical Machine Translation systems show considerably worse performance in
+translating negative sentences than positive ones (Fancellu and Webber, 2014;
+Wetzel and Bond, 2012). Various techniques have addressed the problem of
+translating negation, but their underlying assumptions have never been
+validated by a proper error analysis. A related paper (Fancellu and Webber,
+2015) reports on a manual error analysis of the kinds of errors involved in
+translating negation. The present paper presents ongoing work to discover their
+causes by considering which, if any, are induction, search or model errors. We
+show that standard oracle decoding techniques provide little help due to the
+locality of negation scope and their reliance on a single reference. We are
+working to address these weaknesses using a chart analysis based on oracle
+hypotheses, guided by the negation elements contained in a source span and by
+how these elements are expected to be translated at each decoding step.
+Preliminary results show chart analysis is able to give a more in-depth
+analysis of the above errors and better explains the results of the manual
+analysis.
+Author{1}{Firstname}#=%=#Federico
+Author{1}{Lastname}#=%=#Fancellu
+Author{1}{Email}#=%=#f.fancellu@sms.ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Bonnie
+Author{2}{Lastname}#=%=#Webber
+Author{2}{Email}#=%=#bonnie.webber@ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+
+==========

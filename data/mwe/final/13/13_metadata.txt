@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Phrase translation using a bilingual dictionary and n-gram data: A case study from Vietnamese to English
+ShortPaperTitle#=%=#Phrase translation from Vietnamese to English
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Khang Nhut Lam
+JobTitle#==#
+Organization#==#University of Colorado
+1420 Austin Bluffs Pkwy, Colorado Springs, 
+CO 80918, USA
+Abstract#==#Past approaches to translate a phrase in a language L1 to a language L2 using a
+dictionary based approach require grammar rules to restructure initial
+translations. This paper introduces a novel method without using any grammar
+rules to translate a given phrase in L1, which does not exist in the
+dictionary, to L2. We require at least one L1–L2 bilingual dictionary
+and n-gram data in L2. The average manual evaluation score of our translations
+is 4.29/5.00, which implies very high quality.
+Author{1}{Firstname}#=%=#Khang Nhut
+Author{1}{Lastname}#=%=#Lam
+Author{1}{Email}#=%=#klam2@uccs.edu
+Author{1}{Affiliation}#=%=#University of Colorado at Colorado Springs
+Author{2}{Firstname}#=%=#Feras
+Author{2}{Lastname}#=%=#Al Tarouti
+Author{2}{Email}#=%=#faltarou@uccs.edu
+Author{2}{Affiliation}#=%=#University of Colorado at Colorado Springs
+Author{3}{Firstname}#=%=#Jugal
+Author{3}{Lastname}#=%=#Kalita
+Author{3}{Email}#=%=#jkalita@uccs.edu
+Author{3}{Affiliation}#=%=#University of Colorado at Colorado Springs
+
+==========

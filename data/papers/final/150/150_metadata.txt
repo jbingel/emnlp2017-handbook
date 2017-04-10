@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#150
+FinalPaperTitle#=%=#NASARI: a Novel Approach to a Semantically-Aware Representation of Items
+ShortPaperTitle#=%=#NASARI: a Novel Approach to a Semantically-Aware Representation of Items
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#M. T. Pilehvar
+JobTitle#==#
+Organization#==#Sapienza University of Rome
+Abstract#==#The semantic representation of individual word senses and concepts is of
+fundamental importance to several applications in Natural Language Processing.
+To date, concept modeling techniques have in the main based their
+representation either on lexicographic resources, such as WordNet, or on
+encyclopedic resources, such as Wikipedia. We propose a vector representation
+technique that combines the complementary knowledge of both these types of
+resource. Thanks to its use of explicit semantics combined with a novel
+cluster-based dimensionality reduction and an effective weighting scheme, our
+representation attains state-of-the-art performance on multiple datasets in two
+standard benchmarks: word similarity and sense clustering. We are releasing our
+vector representations at http://lcl.uniroma1.it/nasari/.
+Author{1}{Firstname}#=%=#José
+Author{1}{Lastname}#=%=#Camacho-Collados
+Author{1}{Email}#=%=#collados@di.uniroma1.it
+Author{1}{Affiliation}#=%=#Sapienza University of Rome
+Author{2}{Firstname}#=%=#Mohammad Taher
+Author{2}{Lastname}#=%=#Pilehvar
+Author{2}{Email}#=%=#pilehvar@di.uniroma1.it
+Author{2}{Affiliation}#=%=#Sapienza University of Rome
+Author{3}{Firstname}#=%=#Roberto
+Author{3}{Lastname}#=%=#Navigli
+Author{3}{Email}#=%=#navigli@di.uniroma1.it
+Author{3}{Affiliation}#=%=#Sapienza University of Rome
+
+==========

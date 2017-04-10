@@ -1,0 +1,111 @@
+NAACL Tutorial on Social Media Predictive Analytics
+
+Abstract:
+
+The recent explosion of social media services like Twitter, Google+ and Facebook
+has led to an interest in social media predictive analytics – automatically inferring hidden
+information from the large amounts of freely available content. It has a number
+of applications, including: online targeted advertising, personalized marketing, large-scale
+passive polling and real-time live polling, personalized recommendation systems
+and search, and real-time healthcare analytics etc.
+
+In this tutorial, we will describe how to build a variety of social media predictive analytics
+for inferring latent user properties from a Twitter network including demographic
+traits, personality, interests, emotions and opinions etc. Our methods will address several
+important aspects of social media such as: dynamic, streaming nature of the data,
+multi-relationality in social networks, data collection and annotation biases, data and
+model sharing, generalization of the existing models, data drift, and scalability to other
+languages.
+
+We will start with an overview of the existing approaches for social media predictive
+analytics. We will describe the state-of-the-art static (batch) models and features.
+We will then present models for streaming (online) inference from single and multiple
+data streams; and formulate a latent attribute prediction task as a sequence-labeling
+problem. Finally, we present several techniques for dynamic (iterative) learning and
+prediction using active learning setup with rationale annotation and filtering.
+The tutorial will conclude with a practice session focusing on walk-through examples
+for predicting latent user properties e.g., political preferences, income, education
+level, life satisfaction and emotions emanating from user communications on Twitter.
+
+Outline:
+
+I. Overview of the existing approaches for social media analytics (15 mins)
+
+II. Static (Batch) Prediction (30 mins)
+ Classifiers: user-based vs. tweet-based predictions
+ Features: lexical, network structure, affect, behavior etc.
+ Homophily and attribute assortativity
+ Generalization of the classifiers
+
+III. Streaming (Online) Inference (30 mins)
+ Bayes' rule: iterative Bayesian updates
+ Predictions from multiple data streams
+ Batch vs. online performance
+ Data collection/annotation biases and classification performance
+ User attribute prediction task as a sequence labeling problem
+
+IV. Dynamic (Iterative) Learning and Prediction (30 mins)
+ Iterative batch retraining with and without rationale filtering
+ Active learning with and without oracle annotations
+ Active learning with interactive iterative rationale annotations
+
+Break (15 mins)
+
+V. Practice session: building analytics for inferring user demographics, personality,
+emotions and opinions (1 hour)
+ Data and annotation schema description (data and models will be released)
+ Walk-through python examples for static inference – extracting features,
+ training, testing for tweet-based e.g., emotions, opinions and user-based 
+ e.g., demographic predictions.
+ Walk-through python examples for streaming inference from multiple data
+ streams e.g., friends, followers, user-mentions, retweets etc.
+
+This tutorial assumes basic knowledge of probability, machine learning (supervised
+classification, regression, and feature engineering) and basic coding skills in Python.
+
+Organizers:
+
+Svitlana Volkova, Ph.D. Candidate, Center for Language and Speech Processing,
+Johns Hopkins University, Baltimore, MD, svitlana@jhu.edu.
+
+Svitlana is a Ph.D. Candidate in Computer Science at the Center for Language and
+Speech Processing, Johns Hopkins University. She works on machine learning
+and natural language processing techniques for social media predictive analytics.
+She develops batch and streaming (dynamic) models for automatically inferring
+psycho-demographic profiles from social media data streams, fine-grained emotion
+detection and sentiment analysis for under-explored languages and dialects in microblogs,
+effective interactive and iterative rationale annotation via crowdsourcing.
+
+Benjamin Van Durme, Human Language Technology Center of Excellence, Center
+for Language and Speech Processing, Johns Hopkins University, Baltimore, MD,
+vandurme@cs.jhu.edu.
+
+Benjamin Van Durme is the Chief Lead of Text Research at the Human Language
+Technology Center of Excellence, and an Assistant Research Professor at the Center
+for Language and Speech Processing. He works on natural language processing
+(specifically computational semantics), predictive analytics in social media and
+streaming/randomized algorithms.
+
+David Yarowsky, Professor, Center for Language and Speech Processing, Johns Hopkins
+University, Baltimore, MD, yarowsky@jhu.edu.
+
+David Yarowsky is a Professor at the Center for Language and Speech Processing,
+Johns Hopkins University. His research interests include natural language processing
+and spoken language systems, machine translation, information retrieval, very
+large text databases and machine learning. His research focuses on word sense
+disambiguation, minimally supervised induction algorithms in NLP, and multilingual
+natural language processing.
+
+Yoram Bachrach, Researcher, Microsoft Research, Cambridge, UK,
+yobach@microsoft.com.
+
+Yoram Bachrach is a researcher in the Online Services and Advertising group at
+Microsoft Research Cambridge UK. His research area is artificial intelligence (AI),
+focusing on multi-agent systems and computational game theory. Computational
+game theory combines the theoretical foundations of economics and game theory
+with creative solutions from AI and computer science.
+
+Three of the four organizers co-led a workshop on Social Dynamics and Personal Attributes
+in Social Media at ACL 2014. Two of four organizers developed a demo system
+for predicting later user properties from texts published in social media presented at
+AAAI 2015.

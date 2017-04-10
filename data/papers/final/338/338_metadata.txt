@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#338
+FinalPaperTitle#=%=#Large-Scale Native Language Identification with Cross-Corpus Evaluation
+ShortPaperTitle#=%=#Large-Scale Native Language Identification with Cross-Corpus Evaluation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Shervin Malmasi
+JobTitle#==#Author
+Organization#==#Macquarie University
+Abstract#==#We present a large-scale Native Language Identification (NLI) experiment on new
+data, with a focus on cross-corpus evaluation to identify corpus- and
+genre-independent language transfer features. We test a new corpus and show it
+is comparable to other NLI corpora and suitable for this task. Cross-corpus
+evaluation on two large corpora achieves good accuracy and evidences the
+existence of reliable language transfer features, but lower performance also
+suggests that NLI models are not completely portable across corpora. Finally,
+we present a brief case study of features distinguishing Japanese learners'
+English writing, demonstrating the presence of cross-corpus and cross-genre
+language transfer features that are highly applicable to SLA and ESL research.
+Author{1}{Firstname}#=%=#Shervin
+Author{1}{Lastname}#=%=#Malmasi
+Author{1}{Email}#=%=#shervin.malmasi@students.mq.edu.au
+Author{1}{Affiliation}#=%=#Macquarie University
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Dras
+Author{2}{Email}#=%=#mark.dras@mq.edu.au
+Author{2}{Affiliation}#=%=#Macquarie University
+
+==========

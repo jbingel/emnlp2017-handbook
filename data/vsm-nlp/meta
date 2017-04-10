@@ -1,0 +1,14 @@
+abbrev VSM-NLP
+type Workshop
+title The 1st Workshop on Vector Space Modeling for Natural Language Processing
+url http://naacl15vs.github.io
+booktitle Proceedings of the 1st Workshop on Vector Space Modeling for Natural Language Processing
+month June
+year 2015
+location Denver, Colorado
+publisher Association for Computational Linguistics
+chairs Phil Blunsom (University of Oxford)
+chairs Shay Cohen (University of Edinburgh)
+chairs Paramveer Dhillon (Massachusetts Institute of Technology)
+chairs Percy Liang (Stanford University)
+bib_url TOBEFILLED-http://www.aclweb.org/anthology/W/W05/W05-02%02d

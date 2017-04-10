@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#75
+FinalPaperTitle#=%=#AMRITA_CEN@SemEval-2015: Paraphrase Detection for Twitter using Unsupervised Feature Learning with Recursive Autoencoders
+ShortPaperTitle#=%=#Paraphrase Detection for Twitter Corpus using Recursive Deep Learning
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Mahalakshmi Shanmuga Sundaram
+JobTitle#==#Student
+Organization#==#Center for Excellence in Computational Engineering and Networking,
+Amrita Vishwa Vidyapeetham
+Coimbatore.
+Abstract#==#We explore using recursive autoencoders for SemEval 2015 Task 1: Paraphrase and
+Semantic Similarity in Twitter. Our paraphrase detection system makes use of
+phrase-structure parse tree embeddings that are then provided as input to a
+conventional supervised classification model. We achieve an F1 score of 0.45 on
+paraphrase identification and a Pearson correlation of 0.303 on computing
+semantic similarity.
+Author{1}{Firstname}#=%=#Mahalakshmi
+Author{1}{Lastname}#=%=#Shanumuga Sundaram
+Author{1}{Email}#=%=#mahalakshmisklu@gmail.com
+Author{1}{Affiliation}#=%=#Student
+Author{2}{Firstname}#=%=#Anand Kumar
+Author{2}{Lastname}#=%=#Madasamy
+Author{2}{Email}#=%=#m_anandkumar@cb.amrita.edu
+Author{2}{Affiliation}#=%=#Assistant Professor
+Author{3}{Firstname}#=%=#Soman
+Author{3}{Lastname}#=%=#Kotti Padannayil
+Author{3}{Email}#=%=#kp_soman@amrita.edu
+Author{3}{Affiliation}#=%=#Head of the Department
+
+==========

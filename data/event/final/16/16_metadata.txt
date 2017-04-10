@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Evaluation Algorithms for Event Nugget Detection : A Pilot Study
+ShortPaperTitle#=%=#Evaluation Algorithms for Event Nugget Detection : A Pilot Study
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Zhengzhong Liu
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+5000 Forbes Avenue
+Pittsburgh, PA 15213, USA
+Abstract#==#Event Mention detection is the first step in textual event understanding.
+Proper evaluation is important for modern natural language processing tasks. In
+this paper, we present our evaluation algorithm and results during the Event
+Mention Evaluation pilot study. We analyze the problems of evaluating multiple
+event mention attributes and discontinuous event mention spans. In addition, we
+identify a few limitations in the evaluation algorithm and propose some
+potential improvements.
+Author{1}{Firstname}#=%=#Zhengzhong
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Email}#=%=#liu@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Teruko
+Author{2}{Lastname}#=%=#Mitamura
+Author{2}{Email}#=%=#teruko@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Eduard
+Author{3}{Lastname}#=%=#Hovy
+Author{3}{Email}#=%=#hovy@cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

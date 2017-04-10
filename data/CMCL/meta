@@ -1,0 +1,12 @@
+abbrev CMCL
+type WORKSHOP
+title Sixth Workshop on Cognitive Modeling and Computational Linguistics
+url http://cmcl.mit.edu
+booktitle Proceedings of the 6th Workshop on Cognitive Modeling and Computational Linguistics
+month June
+year 2015
+location Denver, Colorado
+publisher Association for Computational Linguistics
+chairs Tim O'Donnell (Massachusetts Institute of Technology)
+chairs Marten van Schijndel (The Ohio State University)
+bib_url http://www.aclweb.org/anthology/W15-11%02d

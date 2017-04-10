@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#84
+FinalPaperTitle#=%=#UCD : Diachronic Text Classification with Character, Word, and Syntactic N-grams
+ShortPaperTitle#=%=#UCD : Diachronic Text Classification with Character, Word, and Syntactic N-grams
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Terrence Szymanski
+JobTitle#==#
+Organization#==#Insight Centre for Data Analytics
+O'Brien Centre for Science
+University College Dublin
+Belfield, Dublin 4, 
+Ireland
+Abstract#==#We present our submission to SemEval-2015 Task 7: Diachronic Text Evaluation,
+in which we approach the task of assigning a date to a text as a multi-class
+classification problem. We extract n-gram features from the text at the letter,
+word, and syntactic level, and use these to train a classifier on date-labeled
+training data. We also incorporate date probabilities of syntactic features as
+estimated from a very large external corpus of books. Our system achieved the
+highest performance of all systems on subtask 2: identifying texts by specific
+time language use.
+Author{1}{Firstname}#=%=#Terrence
+Author{1}{Lastname}#=%=#Szymanski
+Author{1}{Email}#=%=#terrence.szymanski@ucd.ie
+Author{1}{Affiliation}#=%=#University College Dublin, Ireland
+Author{2}{Firstname}#=%=#Gerard
+Author{2}{Lastname}#=%=#Lynch
+Author{2}{Email}#=%=#gerard.lynch@ucd.ie
+Author{2}{Affiliation}#=%=#University College Dublin, Ireland
+
+==========

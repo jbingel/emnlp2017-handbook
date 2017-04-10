@@ -1,0 +1,61 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Understanding Cultural Conflicts using Metaphors and Sociolinguistic Measures of Influence
+ShortPaperTitle#=%=#Understanding Cultural Conflicts using Metaphors and Sociolinguistic Measures of Influence
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#SAMIRA SHAIKH
+JobTitle#==#
+Organization#==#STATE UNIVERSITY OF NEW YORK - UNIVERSITY AT ALBANY
+Abstract#==#In this article, we outline a novel approach to the automated analysis of
+cross-cultural conflicts through the discovery and classification of the
+metaphors used by the protagonist parties involved in the conflict. We
+demonstrate the feasibility of this approach on a prototypical conflict
+surrounding the appropriate management and oversight of gun-ownership in the
+United States. In addition, we present a way of incorporating sociolinguistic
+measures of influence in discourse to draw further insights from complex data.
+The results presented in this article should be considered as illustrative of
+the types of analyses that can be obtained using our methodology; however, no
+attempt was made to rigorously validate the specific findings reported here. We
+address open issues such as how our approach could be generalized to analyze
+cross-cultural conflicts around the world.
+Author{1}{Firstname}#=%=#Samira
+Author{1}{Lastname}#=%=#Shaikh
+Author{1}{Email}#=%=#samirashaikh@gmail.com
+Author{1}{Affiliation}#=%=#SUNY - University at Albany
+Author{2}{Firstname}#=%=#Tomek
+Author{2}{Lastname}#=%=#Strzalkowski
+Author{2}{Email}#=%=#tomek@albany.edu
+Author{2}{Affiliation}#=%=#SUNY Albany
+Author{3}{Firstname}#=%=#Sarah
+Author{3}{Lastname}#=%=#Taylor
+Author{3}{Email}#=%=#taylmail59@gmail.com
+Author{3}{Affiliation}#=%=#Sarah M Taylor Consulting LLC
+Author{4}{Firstname}#=%=#John
+Author{4}{Lastname}#=%=#Lien
+Author{4}{Email}#=%=#jlien@albany.edu
+Author{4}{Affiliation}#=%=#SUNY - University at Albany
+Author{5}{Firstname}#=%=#Ting
+Author{5}{Lastname}#=%=#Liu
+Author{5}{Email}#=%=#ting.tim.liu@gmail.com
+Author{5}{Affiliation}#=%=#ILS, University at Albany
+Author{6}{Firstname}#=%=#George Aaron
+Author{6}{Lastname}#=%=#Broadwell
+Author{6}{Email}#=%=#gbroadwell@albany.edu
+Author{6}{Affiliation}#=%=#SUNY - University at Albany
+Author{7}{Firstname}#=%=#Laurie
+Author{7}{Lastname}#=%=#Feldman
+Author{7}{Email}#=%=#lfeldman@albany.edu
+Author{7}{Affiliation}#=%=#SUNY - University at Albany
+Author{8}{Firstname}#=%=#Boris
+Author{8}{Lastname}#=%=#Yamrom
+Author{8}{Email}#=%=#yamrom@optonline.net
+Author{8}{Affiliation}#=%=#SUNY - University at Albany
+Author{9}{Firstname}#=%=#Kit
+Author{9}{Lastname}#=%=#Cho
+Author{9}{Email}#=%=#kitwcho@gmail.com
+Author{9}{Affiliation}#=%=#SUNY - University at Albany
+Author{10}{Firstname}#=%=#Yuliya
+Author{10}{Lastname}#=%=#Peshkova
+Author{10}{Email}#=%=#yuliya.peshkova@gmail.com
+Author{10}{Affiliation}#=%=#SUNY - University at Albany
+
+==========

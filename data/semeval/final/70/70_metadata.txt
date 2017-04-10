@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#70
+FinalPaperTitle#=%=#SemEval-2015 Task 13: Multilingual All-Words Sense Disambiguation and Entity Linking
+ShortPaperTitle#=%=#SemEval-2015 Task 13: Multilingual All-Words Sense Disambiguation and Entity Linking
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Andrea Moro
+JobTitle#==#
+Organization#==#Dipartimento di Informatica,
+Sapienza Università di Roma,
+Viale Regina Elena 295, 00161 Roma, Italy
+Abstract#==#In this paper we present the Multilingual All-Words
+Sense Disambiguation and Entity Linking task. Word Sense Disambiguation (WSD)
+and Entity Linking (EL) 
+are well-known problems in the Natural Language
+Processing field and both address the lexical ambiguity of language. Their main
+difference lies in the kind of meaning inventories that are used: EL uses
+encyclopedic knowledge,
+while WSD uses lexicographic information. Our aim with this task is to analyze
+whether, and if so, how, using
+a resource that integrates both kinds
+of inventories (i.e., BabelNet 2.5.1) might enable WSD and EL to be solved by
+means of similar (even, the same)
+methods. Moreover, we investigate this task in a multilingual
+setting and for some specific domains.
+Author{1}{Firstname}#=%=#Andrea
+Author{1}{Lastname}#=%=#Moro
+Author{1}{Email}#=%=#moro@di.uniroma1.it
+Author{1}{Affiliation}#=%=#Sapienza University of Rome
+Author{2}{Firstname}#=%=#Roberto
+Author{2}{Lastname}#=%=#Navigli
+Author{2}{Email}#=%=#navigli@di.uniroma1.it
+Author{2}{Affiliation}#=%=#Sapienza University of Rome
+
+==========

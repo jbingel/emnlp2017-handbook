@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#650
+FinalPaperTitle#=%=#MPQA 3.0: An Entity/Event-Level Sentiment Corpus
+ShortPaperTitle#=%=#MPQA 3.0: An Entity/Event-Level Sentiment Corpus
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Lingjia Deng
+JobTitle#==#
+Organization#==#Intelligent Systems Program
+University of Pittsburgh
+5113 Sennott Square
+210 South Bouquet Street
+Pittsburgh, PA 15260
+Abstract#==#This paper presents an annotation scheme for adding entity and event target
+annotations to the MPQA corpus, a rich span-annotated opinion corpus. The new
+corpus promises to be a valuable new resource for developing systems for
+entity/event-level sentiment analysis. Such systems, in turn, would be valuable
+in NLP applications such as Automatic Question Answering. We introduce the idea
+of entity and event targets (eTargets), describe the annotation scheme, and
+present the results of an agreement study.
+Author{1}{Firstname}#=%=#Lingjia
+Author{1}{Lastname}#=%=#Deng
+Author{1}{Email}#=%=#lingjiadeng@gmail.com
+Author{1}{Affiliation}#=%=#University of Pittsburgh
+Author{2}{Firstname}#=%=#Janyce
+Author{2}{Lastname}#=%=#Wiebe
+Author{2}{Email}#=%=#wiebe@cs.pitt.edu
+Author{2}{Affiliation}#=%=#University of Pittsburgh
+
+==========

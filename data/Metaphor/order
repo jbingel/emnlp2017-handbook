@@ -1,0 +1,27 @@
+# Edit this file: 
+# reorder the lines that correspond to papers 
+#   and modify time slot, e.g. 9:00--9:30 
+# add lines for 
+#   start of new day, format: * DAY
+#   session headline, format: = HEADLINE 
+#   additional items, format: + TIME DESCRIPTION
+* Friday, June 5, 2015
++ 9:00--9:05  Opening remarks
+! 9:05--10:05 Invited talk: "Metaphor in lexical resources" %by Susan Windisch Brown and James H. Martin and Martha Palmer
+= Session 1
+7 10:05--10:30 # Effects of Situational Factors on Metaphor Detection in an Online Discussion Forum
++ 10:30--11:00 Coffee break
+= Session 2
+9 11:00--11:25 # Supervised Word-Level Metaphor Detection: Experiments with Concreteness and Re-weighting of Examples
+10 11:25--11:50 # Modeling the interaction between sensory and affective meanings for detecting metaphor
+15 11:50--12:15 # Exploring Sensorial Features for Metaphor Identification
+14 12:15--12:40 # MetaNet: Deep semantic automatic metaphor analysis
++ 12:40--14:15 Lunch
+= Session 3
+13 14:15--14:40 # High-Precision Abductive Mapping of Multilingual Metaphors
+12 14:40--15:05 # A Corpus of Rich Metaphor Annotation
+11 15:05--15:30 # Understanding Cultural Conflicts using Metaphors and Sociolinguistic Measures of Influence
++ 15:30--16:00 Coffee break
+= Session 4
+6 16:00--16:25 # Chinese CogBank: Where to See the Cognitive Features of Chinese Words
+5 16:25--16:50 # Fighting Words and Antagonistic Worlds

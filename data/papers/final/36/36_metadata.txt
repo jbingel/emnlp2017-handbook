@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#36
+FinalPaperTitle#=%=#Encoding World Knowledge in the Evaluation of Local Coherence
+ShortPaperTitle#=%=#Encoding World Knowledge in the Evaluation of Local Coherence
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Muyu Zhang
+JobTitle#==#
+Organization#==#Harbin Institute of Technology; 92, Xidazhi Street, Harbin, Heilongjiang, China, 150001
+
+(Currently visiting University of Toronto; Toronto, Ontario, CANADA, M5S 3G4)
+Abstract#==#Previous work on text coherence was primarily based on matching multiple
+mentions of the same entity in different parts of the text; therefore, it
+misses the contribution from semantically related but not necessarily
+coreferential entities (e.g., Gates and Microsoft). In this paper, we capture
+such semantic relatedness by leveraging world knowledge (e.g., Gates is the
+person who created Microsoft), and use two existing evaluation frameworks.
+First, in the unsupervised framework, we introduce semantic relatedness as an
+enrichment to the original graph-based model of Guinaudeau and Strube (2013).
+In addition, we incorporate semantic relatedness as additional features into
+the popular entity-based model of Barzilay and Lapata (2008). Across both
+frameworks, our enriched model with semantic relatedness outperforms the
+original methods, especially on short documents.
+Author{1}{Firstname}#=%=#Muyu
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#myzhang@ir.hit.edu.cn
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology
+Author{2}{Firstname}#=%=#Vanessa Wei
+Author{2}{Lastname}#=%=#Feng
+Author{2}{Email}#=%=#weifeng@cs.toronto.edu
+Author{2}{Affiliation}#=%=#University of Toronto
+Author{3}{Firstname}#=%=#Bing
+Author{3}{Lastname}#=%=#Qin
+Author{3}{Email}#=%=#qinb@ir.hit.edu.cn
+Author{3}{Affiliation}#=%=#Harbin Institute of Technology
+Author{4}{Firstname}#=%=#Graeme
+Author{4}{Lastname}#=%=#Hirst
+Author{4}{Email}#=%=#gh@cs.toronto.edu
+Author{4}{Affiliation}#=%=#University of Toronto
+Author{5}{Firstname}#=%=#Ting
+Author{5}{Lastname}#=%=#Liu
+Author{5}{Email}#=%=#tliu72@vip.126.com
+Author{5}{Affiliation}#=%=#Harbin Institute of Technology
+Author{6}{Firstname}#=%=#Jingwen
+Author{6}{Lastname}#=%=#Huang
+Author{6}{Email}#=%=#jwhuang@ir.hit.edu.cn
+Author{6}{Affiliation}#=%=#Harbin Institute of Technology
+
+==========

@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#282
+FinalPaperTitle#=%=#Clustering Sentences with Density Peaks for Multi-document Summarization
+ShortPaperTitle#=%=#Clustering Sentences with Density Peaks for Multi-document Summarization
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Yang Zhang
+JobTitle#==#
+Organization#==#Building A-Room 327.  
+Peking University, Shenzhen Graduate School.
+University Town, Nanshan District
+Shenzhen 518055, P.R.China
+Abstract#==#Multi-document Summarization (MDS) is of great value to many real world
+applications. Many scoring models are proposed to select appropriate sentences
+from documents to form the summary, in which the clusterbased methods are
+popular. In this work, we propose a unified sentence scoring model which
+measures representativeness and diversity at the same time. Experimental
+results on DUC04 demonstrate that our MDS method outperforms the DUC04 best
+method and the existing cluster-based methods, and it yields close results
+compared to the state-of-the-art generic MDS methods. Advantages of the
+proposed MDS method are two-fold: (1) The density peaks clustering algorithm is
+adopted, which is effective and fast. (2) No external resources such as Wordnet
+and Wikipedia or complex language parsing algorithms is used, making
+reproduction and deployment very easy in
+real environment.
+Author{1}{Firstname}#=%=#Yang
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#ecezhangy@sz.pku.edu.cn
+Author{1}{Affiliation}#=%=#Shenzhen Graduate School,Peking University
+Author{2}{Firstname}#=%=#Yunqing
+Author{2}{Lastname}#=%=#Xia
+Author{2}{Email}#=%=#yunqing.xia@gmail.com
+Author{2}{Affiliation}#=%=#Tsinghua University
+Author{3}{Firstname}#=%=#Yi
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Email}#=%=#yi.liu@imsl.org.cn
+Author{3}{Affiliation}#=%=#IMSL Shenzhen Key Lab
+Author{4}{Firstname}#=%=#Wenmin
+Author{4}{Lastname}#=%=#Wang
+Author{4}{Email}#=%=#wangwm@ece.pku.edu.cn
+Author{4}{Affiliation}#=%=#Peking University
+
+==========

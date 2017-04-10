@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Computational cognitive modeling of inflectional verb morphology in Spanish-speakers for the characterization and diagnosis of Alzheimer's Disease
+ShortPaperTitle#=%=#Computational cognitive modeling of inflectional verb morphology in Alzheimer's Disease
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#M. Dolores del Castillo
+JobTitle#==#Tenured scientist
+Organization#==#Centro de Automática y Robótica, Spanish National Research Council (CSIC)
+Ctra. Campo Real km 0.200 - La Poveda.
+28500 Arganda del Rey, Madrid.
+Spain
+Abstract#==#Alzheimer's Disease, as other mental and neurological disorders, is difficult
+to diagnose since it affects several cognitive abilities shared with other
+impairments. Current diagnostic mainly consists of neuropsychological tests and
+history obtained from the patient and relatives. In this paper we propose a
+methodology for the characterization of probable AD based on the computational
+cognitive modeling of a language function in order to capture the internal
+mechanisms of the impaired brain. Parameters extracted from the model allow a
+better characterization of this illness than using only behavioral data.
+Author{1}{Firstname}#=%=#M. Dolores
+Author{1}{Lastname}#=%=#del Castillo
+Author{1}{Email}#=%=#md.delcastillo@csic.es
+Author{1}{Affiliation}#=%=#Spanish National Research Council (CSIC)
+Author{2}{Firstname}#=%=#J. Ignacio
+Author{2}{Lastname}#=%=#Serrano
+Author{2}{Email}#=%=#jignacio.serrano@csic.es
+Author{2}{Affiliation}#=%=#Spanish National Research Council
+Author{3}{Firstname}#=%=#Jesús
+Author{3}{Lastname}#=%=#Oliva
+Author{3}{Email}#=%=#jesus.oliva1984@gmail.com
+Author{3}{Affiliation}#=%=#BBVA Data&Analytics
+
+==========

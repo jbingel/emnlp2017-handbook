@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#SHELLFBK: An Information Retrieval-based System For Multi-Domain Sentiment Analysis
+ShortPaperTitle#=%=#SHELLFBK: An Information Retrieval-based System For Multi-Domain Sentiment Analysis
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Mauro Dragoni
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper describes the SHELLFBK system
+that participated in SemEval 2015 Tasks 9,
+10 and 11. Our system takes a supervised
+approach that builds on techniques from information
+retrieval. The algorithm populates
+an inverted index with pseudo-documents that
+encode dependency parse relationships extracted
+from the sentences in the training set.
+Each record stored in the index is annotated
+with the polarity and domain of the sentence
+it represents. When the polarity or domain of
+a new sentence has to be computed, the new
+sentence is converted to a query that is used
+to retrieve the most similar sentences from the
+training set. The retrieved instances are scored
+for relevance to the query. The most relevant
+training instant is used to assign a polarity
+and domain label to the new sentence. While
+the results on well-formed sentences are encouraging,
+the performance obtained on short
+texts like tweets demonstrate that more work
+is needed in this area.
+Author{1}{Firstname}#=%=#Mauro
+Author{1}{Lastname}#=%=#Dragoni
+Author{1}{Email}#=%=#dragoni@fbk.eu
+Author{1}{Affiliation}#=%=#Fondazione Bruno Kessler
+
+==========

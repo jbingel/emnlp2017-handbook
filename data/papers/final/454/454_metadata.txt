@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#454
+FinalPaperTitle#=%=#Hierarchic syntax improves reading time prediction
+ShortPaperTitle#=%=#Hierarchic syntax improves reading time prediction
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Marten van Schijndel
+JobTitle#==#
+Organization#==#Department of Linguistics
+The Ohio State University
+Abstract#==#Previous work has debated whether humans make use of hierarchic syntax when
+processing language (Frank and Bod, 2011; Fossum and Levy, 2012). This paper
+uses an eye-tracking corpus to demonstrate that hierarchic syntax significantly
+improves reading time prediction over a strong n-gram baseline. This study
+shows that an interpolated 5-gram baseline can be made stronger by combining
+n-gram statistics over entire eye-tracking regions rather than simply using the
+last n-gram in each region, but basic hierarchic syntactic measures are still
+able to achieve significant improvements over this improved baseline.
+Author{1}{Firstname}#=%=#Marten
+Author{1}{Lastname}#=%=#van Schijndel
+Author{1}{Email}#=%=#vanschm@ling.osu.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#William
+Author{2}{Lastname}#=%=#Schuler
+Author{2}{Email}#=%=#schuler@ling.osu.edu
+Author{2}{Affiliation}#=%=#The Ohio State University
+
+==========

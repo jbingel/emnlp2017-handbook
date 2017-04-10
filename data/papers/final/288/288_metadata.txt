@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#288
+FinalPaperTitle#=%=#Early Gains Matter: A Case for Preferring Generative over Discriminative Crowdsourcing Models
+ShortPaperTitle#=%=#Generative vs. Discriminative Crowdsourcing Models
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Paul Felt
+JobTitle#==#
+Organization#==#3346 TMCB
+Computer Science Department
+Brigham Young University
+Provo, UT 84602
+Abstract#==#In modern practice, labeling a dataset often involves 
+aggregating annotator judgments obtained from crowdsourcing. 
+State-of-the-art aggregation is performed via inference on probabilistic 
+models, some of which are data-aware, meaning that they leverage 
+features of the data (e.g., words in a document) in addition to annotator
+judgments. 
+Previous work largely prefers 
+discriminatively trained conditional models. 
+This paper demonstrates that a data-aware crowdsourcing 
+model incorporating a generative multinomial data model enjoys 
+a strong competitive advantage over its discriminative log-linear 
+counterpart in the typical crowdsourcing setting. That 
+is, the generative approach is better except when 
+the annotators are highly accurate in which case simple 
+majority vote is often sufficient. 
+Additionally, we present a novel mean-field variational inference algorithm 
+for the generative model that significantly improves on the 
+previously reported state-of-the-art for that model. 
+We validate our conclusions on six text classification datasets with 
+both human-generated and synthetic annotations.
+Author{1}{Firstname}#=%=#Paul
+Author{1}{Lastname}#=%=#Felt
+Author{1}{Email}#=%=#paul.lewis.felt@gmail.com
+Author{1}{Affiliation}#=%=#Brigham Young University
+Author{2}{Firstname}#=%=#Kevin
+Author{2}{Lastname}#=%=#Black
+Author{2}{Email}#=%=#kevinblack100@gmail.com
+Author{2}{Affiliation}#=%=#Brigham Young University
+Author{3}{Firstname}#=%=#Eric
+Author{3}{Lastname}#=%=#Ringger
+Author{3}{Email}#=%=#ringger@cs.byu.edu
+Author{3}{Affiliation}#=%=#Brigham Young University
+Author{4}{Firstname}#=%=#Kevin
+Author{4}{Lastname}#=%=#Seppi
+Author{4}{Email}#=%=#kseppi@cs.byu.edu
+Author{4}{Affiliation}#=%=#Brigham Young University
+Author{5}{Firstname}#=%=#Robbie
+Author{5}{Lastname}#=%=#Haertel
+Author{5}{Email}#=%=#robbie_haertel@byu.edu
+Author{5}{Affiliation}#=%=#Brigham Young University
+
+==========

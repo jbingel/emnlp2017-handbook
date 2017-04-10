@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#535
+FinalPaperTitle#=%=#Removing the Training Wheels: A Coreference Dataset that Entertains Humans and Challenges Computers
+ShortPaperTitle#=%=#Removing the Training Wheels: A Coreference Dataset that Entertains Humans and Challenges Computers
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Anupam Guha
+JobTitle#==#
+Organization#==#University of Maryland, College Park, MD, USA, 20742
+Abstract#==#Coreference is a core NLP problem. However, newswire data, the primary source
+of existing coreference data, lack the richness necessary to truly solve
+coreference. We present a new domain with denser references---quiz bowl
+questions---that is challenging and enjoyable to humans, and we use the quiz
+bowl community to develop a new coreference dataset, together with an
+annotation framework that can tag any text data with coreferences and named
+entities. We also successfully integrate active learning into this annotation
+pipeline to collect documents maximally useful to coreference models.
+State-of-the-art coreference systems underperform a simple classifier on our
+new dataset, motivating non-newswire data for future coreference research.
+Author{1}{Firstname}#=%=#Anupam
+Author{1}{Lastname}#=%=#Guha
+Author{1}{Email}#=%=#aguha@cs.umd.edu
+Author{1}{Affiliation}#=%=#University of Maryland
+Author{2}{Firstname}#=%=#Mohit
+Author{2}{Lastname}#=%=#Iyyer
+Author{2}{Email}#=%=#m.iyyer@gmail.com
+Author{2}{Affiliation}#=%=#University of Maryland, College Park
+Author{3}{Firstname}#=%=#Danny
+Author{3}{Lastname}#=%=#Bouman
+Author{3}{Email}#=%=#dannybb@gmail.com
+Author{3}{Affiliation}#=%=#University of Maryland
+Author{4}{Firstname}#=%=#Jordan
+Author{4}{Lastname}#=%=#Boyd-Graber
+Author{4}{Email}#=%=#jordan.boyd.graber@colorado.edu
+Author{4}{Affiliation}#=%=#University of Colorado
+
+==========

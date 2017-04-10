@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Scoring Persuasive Essays Using Opinions and their Targets
+ShortPaperTitle#=%=#Scoring Persuasive Essays Using Opinions and  Targets
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Noura Farra
+JobTitle#==#
+Organization#==#Columbia University
+New York, NY 10027
+Abstract#==#In this work, we investigate whether the analysis
+of opinion expressions can help in scoring
+persuasive essays. For this, we develop systems
+that predict holistic essay scores based on
+features extracted from opinion expressions,
+topical elements, and their combinations. Experiments
+on test taker essays show that essay
+scores produced using opinion features are indeed
+correlated with human scores. Moreover,
+we find that combining opinions with their targets
+(what the opinions are about) produces
+the best result when compared to using only
+opinions or only topics.
+Author{1}{Firstname}#=%=#Noura
+Author{1}{Lastname}#=%=#Farra
+Author{1}{Email}#=%=#noura@cs.columbia.edu
+Author{1}{Affiliation}#=%=#Columbia University, Department of Computer Science
+Author{2}{Firstname}#=%=#Swapna
+Author{2}{Lastname}#=%=#Somasundaran
+Author{2}{Email}#=%=#swapna.sundaran@gmail.com
+Author{2}{Affiliation}#=%=#Educational Testing Services
+Author{3}{Firstname}#=%=#Jill
+Author{3}{Lastname}#=%=#Burstein
+Author{3}{Email}#=%=#jburstein@ets.org
+Author{3}{Affiliation}#=%=#ETS
+
+==========

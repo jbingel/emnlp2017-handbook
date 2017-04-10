@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Judging the Quality of Automatically Generated Gap-fill Question using Active Learning
+ShortPaperTitle#=%=#Judging the Quality of Automatically Generated Gap-fill Question using Active Learning
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Nobal B Niraula
+JobTitle#==#
+Organization#==#The University of Memphis
+Memphis, TN, 38152, USA
+Abstract#==#In this paper, we propose to use active learning for training classifiers to
+judge the quality of gap-fill questions. Gap-fill questions are widely used for
+assessments in education contexts because they can be graded automatically
+while offering reliable assessment of learners' knowledge level if
+appropriately calibrated. Active learning is a machine learning framework which
+is typically used when unlabeled data is abundant but annotation is slow and
+expensive. This is the case in many Natural Language Processing tasks,
+including automated question generation, which is our focus. A key task in
+automated question generation is judging the quality of the generated
+questions. Classifiers can be build to address this tasks which typically are
+trained on human labeled data. Our evaluation results suggest that the use of
+active learning leads to accurate classifiers for judging the quality of
+gap-fill questions while keeping the annotation costs in check. We are not
+aware of any previous effort that uses active learning for question generation.
+Author{1}{Firstname}#=%=#Nobal Bikram
+Author{1}{Lastname}#=%=#Niraula
+Author{1}{Email}#=%=#nb.niraula@gmail.com
+Author{1}{Affiliation}#=%=#The University of Memphis
+Author{2}{Firstname}#=%=#Vasile
+Author{2}{Lastname}#=%=#Rus
+Author{2}{Email}#=%=#vrus@memphis.edu
+Author{2}{Affiliation}#=%=#The University of Memphis
+
+==========

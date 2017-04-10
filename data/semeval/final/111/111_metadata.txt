@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#111
+FinalPaperTitle#=%=#TJUdeM: A Combination Classifier for Aspect Category Detection and Sentiment Polarity Classification
+ShortPaperTitle#=%=#TJUdeM: A Combination Classifier for Aspect Category Detection and Sentiment Polarity Classification
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Zhifei Zhang
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper describes the system we submitted to In-domain ABSA subtask of
+SemEval 2015 shared task on aspect-based sentiment analysis that includes
+aspect category detection and sentiment polarity classification. For the aspect
+category detection, we combined an SVM classifier with implicit aspect
+indicators. For the sentiment polarity classification, we combined an SVM
+classifier with a lexicon-based polarity classifier. Our system outperforms the
+baselines on both the laptop and restaurant domains and ranks above average on
+the laptop domain.
+Author{1}{Firstname}#=%=#Zhifei
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#zhifei.zzh@gmail.com
+Author{1}{Affiliation}#=%=#University of Montreal
+Author{2}{Firstname}#=%=#Jian-Yun
+Author{2}{Lastname}#=%=#Nie
+Author{2}{Email}#=%=#nie@iro.umontreal.ca
+Author{2}{Affiliation}#=%=#University of Montreal
+Author{3}{Firstname}#=%=#Hongling
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#hlwang@suda.edu.cn
+Author{3}{Affiliation}#=%=#Soochow University
+
+==========

@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#421
+FinalPaperTitle#=%=#Subsentential Sentiment on a Shoestring: A Crosslingual Analysis of Compositional Classification
+ShortPaperTitle#=%=#Subsentential Sentiment on a Shoestring: A Crosslingual Analysis of Compositional Classification
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yannick Versley
+JobTitle#==#
+Organization#==#Universität Heidelberg
+Abstract#==#Sentiment analysis has undergone a shift from
+document-level analysis, where labels express
+the sentiment of a whole document or whole sentence,
+to subsentential approaches, which assess the
+contribution of individual phrases, in particular
+including the composition of sentiment terms and
+phrases such as negators and intensifiers.
+Starting from a small sentiment treebank modeled
+after the Stanford Sentiment Treebank of
+Socher et al. (2013), we investigate suitable
+methods to perform compositional sentiment
+classification for German in a data-scarce
+setting, harnessing cross-lingual methods as well
+as existing general-domain lexical resources.
+Author{1}{Firstname}#=%=#Michael
+Author{1}{Lastname}#=%=#Haas
+Author{1}{Email}#=%=#haas@cl.uni-heidelberg.de
+Author{1}{Affiliation}#=%=#Univ Heidelberg
+Author{2}{Firstname}#=%=#Yannick
+Author{2}{Lastname}#=%=#Versley
+Author{2}{Email}#=%=#versley@cl.uni-heidelberg.de
+Author{2}{Affiliation}#=%=#University of Heidelberg
+
+==========

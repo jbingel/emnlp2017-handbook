@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#And That's A Fact: Distinguishing Factual and Emotional Argumentation in Online Dialogue
+ShortPaperTitle#=%=#And That's A Fact: Distinguishing Factual and Emotional Argumentation in Online Dialogue
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Shereen Oraby
+JobTitle#==#
+Organization#==#Natural Language and Dialogue Systems Lab
+University of California, Santa Cruz
+Santa Cruz, CA 95064
+Abstract#==#We investigate the characteristics of factual and emotional argumentation
+styles observed in online debates. Using an annotated set of FACTUAL and
+FEELING debate forum posts, we extract patterns that are highly correlated with
+factual and emotional arguments, and then apply a bootstrapping methodology to
+find new patterns in a larger pool of unannotated forum posts. This process
+automatically produces a large set of patterns representing linguistic
+expressions that are highly correlated with factual and emotional language.
+Finally, we analyze the most discriminating patterns to better understand the
+defining characteristics of factual and emotional arguments.
+Author{1}{Firstname}#=%=#Shereen
+Author{1}{Lastname}#=%=#Oraby
+Author{1}{Email}#=%=#soraby@ucsc.edu
+Author{1}{Affiliation}#=%=#University of California Santa Cruz
+Author{2}{Firstname}#=%=#Lena
+Author{2}{Lastname}#=%=#Reed
+Author{2}{Email}#=%=#lireed@ucsc.edu
+Author{2}{Affiliation}#=%=#University of California Santa Cruz
+Author{3}{Firstname}#=%=#Ryan
+Author{3}{Lastname}#=%=#Compton
+Author{3}{Email}#=%=#rcompton@ucsc.edu
+Author{3}{Affiliation}#=%=#University of California Santa Cruz
+Author{4}{Firstname}#=%=#Ellen
+Author{4}{Lastname}#=%=#Riloff
+Author{4}{Email}#=%=#riloff@cs.utah.edu
+Author{4}{Affiliation}#=%=#University of Utah
+Author{5}{Firstname}#=%=#Marilyn
+Author{5}{Lastname}#=%=#Walker
+Author{5}{Email}#=%=#mawalker@ucsc.edu
+Author{5}{Affiliation}#=%=#University of California Santa Cruz
+Author{6}{Firstname}#=%=#Steve
+Author{6}{Lastname}#=%=#Whittaker
+Author{6}{Email}#=%=#swhittak@ucsc.edu
+Author{6}{Affiliation}#=%=#University of California Santa Cruz
+
+==========

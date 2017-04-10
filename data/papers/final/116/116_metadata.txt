@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#116
+FinalPaperTitle#=%=#Empty Category Detection With Joint Context-Label Embeddings
+ShortPaperTitle#=%=#Empty Category Detection With Joint Context-Label Embeddings
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Xun Wang
+JobTitle#==#
+Organization#==#2-4 Hikaridai, Seika-cho, Kyoto 619-0237 JAPAN
+Abstract#==#This paper presents a novel technique for empty category (EC) detection using
+distributed word representations. We formulate it as an annotation task. We
+explore the hidden layer of a neural network by mapping both the distributed
+representations of the contexts of ECs and EC types to a low dimensional space.
+In the testing phase, using the model learned from annotated data, we project
+the context of a possible EC position to the same space and further compare it
+with the representations of EC types. The closet EC type is assigned to the
+candidate position. Experiments on Chinese Treebank prove the effectiveness of
+the proposed method. We improve the precision by about 6 point on a subset of
+Chinese Treebank, which is a new state-of-the-art performance on CTB.
+Author{1}{Firstname}#=%=#Xun
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#wang.xun@lab.ntt.co.jp
+Author{1}{Affiliation}#=%=#NTT Communication Science Laboratories
+Author{2}{Firstname}#=%=#Katsuhito
+Author{2}{Lastname}#=%=#Sudoh
+Author{2}{Email}#=%=#sudoh.katsuhito@lab.ntt.co.jp
+Author{2}{Affiliation}#=%=#NTT Communication Science Laboratories / Kyoto University
+Author{3}{Firstname}#=%=#Masaaki
+Author{3}{Lastname}#=%=#Nagata
+Author{3}{Email}#=%=#nagata.masaaki@lab.ntt.co.jp
+Author{3}{Affiliation}#=%=#+81-774-93-5235
+
+==========

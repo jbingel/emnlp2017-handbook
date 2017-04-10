@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#98
+FinalPaperTitle#=%=#Combining Open Source Annotators for Entity Linking through Weighted Voting
+ShortPaperTitle#=%=#Combining Open Source Annotators for Entity Linking through Weighted Voting
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Pablo Ruiz
+JobTitle#==#
+Organization#==#Laboratoire LATTICE (CNRS, École Normale Supérieure, U Paris 3)
+1, rue Maurice Arnoux
+92120 Montrouge, France
+Abstract#==#An English entity linking workflow is presented, which combines the
+annotations of five public open source entity linking services. The annotations
+are
+combined through a weighted voting scheme inspired by the ROVER method, which
+had not been previously tested on entity linking outputs. The combined results
+improved
+over each individual system’s results, as evaluated on four different golden
+sets.
+Author{1}{Firstname}#=%=#Pablo
+Author{1}{Lastname}#=%=#Ruiz
+Author{1}{Email}#=%=#pabloruizfabo@gmail.com
+Author{1}{Affiliation}#=%=#LATTICE Lab, ENS
+Author{2}{Firstname}#=%=#Thierry
+Author{2}{Lastname}#=%=#Poibeau
+Author{2}{Email}#=%=#thierry.poibeau@ens.fr
+Author{2}{Affiliation}#=%=#CNRS, ENS, Univ Paris 3
+
+==========

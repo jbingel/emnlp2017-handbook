@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#229
+FinalPaperTitle#=%=#Jointly Modeling Inter-Slot Relations by Random Walk on Knowledge Graphs for Unsupervised Spoken Language Understanding
+ShortPaperTitle#=%=#Modeling Inter-Slot Relations by Random Walk on Knowledge Graphs for Spoken Language Understanding
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yun-Nung Chen
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+5000 Forbes Ave, Pittsburgh, PA 15213
+Abstract#==#A key challenge of designing coherent semantic ontology for spoken language
+understanding is to consider inter-slot relations. In practice, however, it is
+difficult for domain experts and professional annotators to define a coherent
+slot set, while considering various lexical, syntactic, and semantic
+dependencies. In this paper, we exploit the typed syntactic dependency theory
+for unsupervised induction and filling of semantics slots in spoken dialogue
+systems. More specifically, we build two knowledge graphs: a slot-based
+semantic graph, and a word-based lexical graph. To jointly consider
+word-to-word, word-to-slot, and slot-to-slot relations, we use a random walk
+inference algorithm to combine the two knowledge graphs, guided by dependency
+grammars. The experiments show that considering inter-slot relations is crucial
+for generating a more coherent and compete slot set, resulting in a better
+spoken language understanding model, while enhancing the interpretability of
+semantic slots.
+Author{1}{Firstname}#=%=#Yun-Nung
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#yvchen@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#William Yang
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#ww@cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Alexander
+Author{3}{Lastname}#=%=#Rudnicky
+Author{3}{Email}#=%=#air@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#WSD-games: a Game-Theoretic Algorithm for Unsupervised Word Sense Disambiguation
+ShortPaperTitle#=%=#WSD-games: a Game Theoretic Algorithm for Unsupervised WSD
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Rocco Tripodi
+JobTitle#==#
+Organization#==#Ca' Foscari University
+Dorsoduro 3246, 30123 - Venezia, Italy
+Abstract#==#In this paper we present an unsupervised approach to word sense disambiguation
+based on evolutionary game theory. In our algorithm each word to be
+disambiguated is represented as a node on a graph and each sense as a class.
+The algorithm performs a consistent class assignment of senses according to the
+similarity information of each word with the others, so that similar words are
+constrained to similar classes. The dynamics of the system are formulated in
+terms of a non cooperative multi-player game, where the players are the data
+points to decide their class memberships and equilibria correspond to
+consistent labeling of the data.
+Author{1}{Firstname}#=%=#Rocco
+Author{1}{Lastname}#=%=#Tripodi
+Author{1}{Email}#=%=#rocco.trip@gmail.com
+Author{1}{Affiliation}#=%=#Ca' Foscari University of Venice
+Author{2}{Firstname}#=%=#Marcello
+Author{2}{Lastname}#=%=#Pelillo
+Author{2}{Email}#=%=#pelillo@unive.it
+Author{2}{Affiliation}#=%=#Ca' Foscari University of Venice
+
+==========

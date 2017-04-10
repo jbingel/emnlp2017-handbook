@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#44
+FinalPaperTitle#=%=#A Comparison of Update Strategies for Large-Scale Maximum Expected BLEU Training
+ShortPaperTitle#=%=#A Comparison of Update Strategies for Large-Scale Maximum Expected BLEU Training
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Joern Wuebker
+JobTitle#==#Researcher
+Organization#==#RWTH Aachen University
+Lehrstuhl fuer Informatik 6
+Abstract#==#This work presents a flexible and efficient discriminative training approach
+for 
+statistical machine translation.
+We propose to use the RPROP algorithm for optimizing a maximum expected 
+BLEU objective and experimentally compare it to several other updating schemes.
+It proves to be more efficient and effective
+than the previously proposed growth transformation technique and
+also yields better results than stochastic gradient descent and AdaGrad.
+We also report strong empirical results on two large scale tasks, namely BOLT
+Chinese->English and WMT German->English, where our final systems
+outperform results reported by Setiawan and Zhou (2013)
+and on matrix.statmt.org. On the WMT task, discriminative
+training is performed on the full training data of 4M sentence pairs,
+which is unsurpassed in the literature.
+Author{1}{Firstname}#=%=#Joern
+Author{1}{Lastname}#=%=#Wuebker
+Author{1}{Email}#=%=#wuebker@i6.informatik.rwth-aachen.de
+Author{1}{Affiliation}#=%=#RWTH Aachen University
+Author{2}{Firstname}#=%=#Sebastian
+Author{2}{Lastname}#=%=#Muehr
+Author{2}{Email}#=%=#muehr@i6.informatik.rwth-aachen.de
+Author{2}{Affiliation}#=%=#RWTH Aachen University
+Author{3}{Firstname}#=%=#Patrick
+Author{3}{Lastname}#=%=#Lehnen
+Author{3}{Email}#=%=#lehnen@i6.informatik.rwth-aachen.de
+Author{3}{Affiliation}#=%=#RWTH Aachen University
+Author{4}{Firstname}#=%=#Stephan
+Author{4}{Lastname}#=%=#Peitz
+Author{4}{Email}#=%=#stephan.peitz@rwth-aachen.de
+Author{4}{Affiliation}#=%=#RWTH Aachen University
+Author{5}{Firstname}#=%=#Hermann
+Author{5}{Lastname}#=%=#Ney
+Author{5}{Email}#=%=#ney@cs.rwth-aachen.de
+Author{5}{Affiliation}#=%=#RWTH Aachen University
+
+==========

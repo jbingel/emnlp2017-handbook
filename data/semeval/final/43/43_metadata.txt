@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#43
+FinalPaperTitle#=%=#SemantiKLUE: Semantic Textual Similarity with Maximum Weight Matching
+ShortPaperTitle#=%=#SemantiKLUE: Semantic Textual Similarity with Maximum Weight Matching
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Nataliia Plotnikova
+JobTitle#==#
+Organization#==#FAU Erlangen-Nürnberg
+Abstract#==#This paper describes the SemantiKLUE system (Proisl et al., 2014) used for the
+SemEval-2015 shared task on Semantic Textual Similarity (STS) for English. The
+system was developed for SemEval-2013 and extended for SemEval-2014, where it
+participated in three tasks and ranked 13th out of 38 submissions for the
+English STS task. While this year’s submission ranks 46th out of 73, further
+experiments on the selection of training data led to notable improvements
+showing that the system could have achieved rank 22 out of 73. We report a
+detailed analysis of those training selection experiments in which we tested
+different combinations of all the available STS datasets, as well as results of
+a qualitative analysis conducted on a sample of the sentence pairs for which
+SemantiKLUE gave wrong STS predictions.
+Author{1}{Firstname}#=%=#Nataliia
+Author{1}{Lastname}#=%=#Plotnikova
+Author{1}{Email}#=%=#nataliia.plotnikova@fau.de
+Author{1}{Affiliation}#=%=#FAU Erlangen-Nürnberg
+Author{2}{Firstname}#=%=#Gabriella
+Author{2}{Lastname}#=%=#Lapesa
+Author{2}{Email}#=%=#gabriella.lapesa@fau.de
+Author{2}{Affiliation}#=%=#FAU Erlangen-Nürnberg
+Author{3}{Firstname}#=%=#Thomas
+Author{3}{Lastname}#=%=#Proisl
+Author{3}{Email}#=%=#thomas.proisl@fau.de
+Author{3}{Affiliation}#=%=#FAU Erlangen-Nürnberg
+Author{4}{Firstname}#=%=#Stefan
+Author{4}{Lastname}#=%=#Evert
+Author{4}{Email}#=%=#stefan.evert@fau.de
+Author{4}{Affiliation}#=%=#FAU Erlangen-Nürnberg
+
+==========

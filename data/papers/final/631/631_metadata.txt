@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#631
+FinalPaperTitle#=%=#Deep Multilingual Correlation for Improved Word Embeddings
+ShortPaperTitle#=%=#Deep Multilingual Correlation for Improved Word Embeddings
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Ang Lu
+JobTitle#==#
+Organization#==#Tsinghua University
+Beijing, 100084
+China
+Abstract#==#Word embeddings have been found useful
+for many NLP tasks, including part-of-speech
+tagging, named entity recognition, and parsing.
+Adding multilingual context when learning
+embeddings can improve their quality,
+for example via canonical correlation analysis
+(CCA) on embeddings fromtwo languages. In
+this paper, we extend this idea to learn deep
+non-linear transformations of word embeddings
+of the two languages, using the recently
+proposed deep canonical correlation analysis.
+The resulting embeddings, when evaluated
+on multiple word and bigram similarity
+tasks, consistently improve over monolingual
+embeddings and over embeddings transformed
+with linear CCA.
+Author{1}{Firstname}#=%=#Ang
+Author{1}{Lastname}#=%=#Lu
+Author{1}{Email}#=%=#lva11@mails.tsinghua.edu.cn
+Author{1}{Affiliation}#=%=#Tsinghua University
+Author{2}{Firstname}#=%=#Weiran
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#weiranwang@ttic.edu
+Author{2}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+Author{3}{Firstname}#=%=#Mohit
+Author{3}{Lastname}#=%=#Bansal
+Author{3}{Email}#=%=#mbansal@ttic.edu
+Author{3}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+Author{4}{Firstname}#=%=#Kevin
+Author{4}{Lastname}#=%=#Gimpel
+Author{4}{Email}#=%=#kgimpel@ttic.edu
+Author{4}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+Author{5}{Firstname}#=%=#Karen
+Author{5}{Lastname}#=%=#Livescu
+Author{5}{Email}#=%=#klivescu@ttic.edu
+Author{5}{Affiliation}#=%=#TTI-Chicago
+
+==========

@@ -1,0 +1,11 @@
+abbrev *SEM2015
+type CONFERENCE
+title Fourth Joint Conference on Lexical and Computational Semantics
+url https://sites.google.com/site/starsem2015/
+booktitle Proceedings of the Fourth Joint Conference on Lexical and Computational Semantics
+month June
+year 2015
+location Denver, Colorado
+publisher Association for Computational Linguistics
+chairs Martha Palmer (University of Colorado Boulder)
+bib_url http://www.aclweb.org/anthology/S15-1%03d

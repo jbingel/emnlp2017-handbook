@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#217
+FinalPaperTitle#=%=#Chain Based RNN for Relation Classification
+ShortPaperTitle#=%=#Chain Based RNN for Relation Classification
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Javid Ebrahimi
+JobTitle#==#
+Organization#==#Department of Computer and Information Science, University of Oregon,
+Eugene, Oregon 97403, USA
+Abstract#==#We present a novel approach for relation classification, using a recursive
+neural network (RNN), based on the shortest path between two entities in a
+dependency graph. Previous works on RNN are based on constituency-based parsing
+because phrasal nodes in a parse tree can capture compositionality in a
+sentence. Compared with constituency-based parse trees, dependency graphs can
+represent relations more compactly. This is particularly important in sentences
+with distant entities, where the parse tree spans words that are not relevant
+to the relation. In such cases RNN cannot be trained effectively in a timely
+manner. However, due to the lack of phrasal nodes in dependency graphs,
+application of RNN is not straightforward. In order to tackle this problem, we
+utilize dependency constituent units called chains. Our experiments on two
+relation classification datasets show that Chain based RNN provides a shallower
+network, which performs considerably faster and achieves better classification
+results.
+Author{1}{Firstname}#=%=#Javid
+Author{1}{Lastname}#=%=#Ebrahimi
+Author{1}{Email}#=%=#jebivid@gmail.com
+Author{1}{Affiliation}#=%=#University of Oregon
+Author{2}{Firstname}#=%=#Dejing
+Author{2}{Lastname}#=%=#Dou
+Author{2}{Email}#=%=#dou@cs.uoregon.edu
+Author{2}{Affiliation}#=%=#University of Oregon
+
+==========

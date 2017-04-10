@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#83
+FinalPaperTitle#=%=#Dependency-Based Semantic Role Labeling using Convolutional Neural Networks
+ShortPaperTitle#=%=#Dependency-Based Semantic Role Labeling using Convolutional Neural Networks
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#William R. Foland Jr
+JobTitle#==#
+Organization#==#Itinitek Ltd.
+5345 Dunraven Circle
+Golden, Co. 80403
+Abstract#==#We describe a semantic role labeler with state- of-the-art performance and low
+computational requirements, which uses convolutional and time-domain neural
+networks. The system is designed to work with features derived from a
+dependency parser output. Various system options and architectural details are
+discussed. Incremental experiments were run to explore the benefits of adding
+increasingly more com- plex dependency-based features to the system; results
+are presented for both in-domain and out-of-domain datasets.
+Author{1}{Firstname}#=%=#William
+Author{1}{Lastname}#=%=#Foland
+Author{1}{Email}#=%=#william.foland@colorado.edu
+Author{1}{Affiliation}#=%=#University of Colorado
+Author{2}{Firstname}#=%=#James
+Author{2}{Lastname}#=%=#Martin
+Author{2}{Email}#=%=#james.martin@colorado.edu
+Author{2}{Affiliation}#=%=#Professor
+
+==========

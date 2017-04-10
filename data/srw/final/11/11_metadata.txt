@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Analyzing Newspaper Crime Reports for Identification of Safe Transit Paths
+ShortPaperTitle#=%=#Analyzing Newspaper Crime Reports for Identification of Safe Transit Paths
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Vasu Sharma
+JobTitle#==#Student
+Organization#==#Indian Institute of Technology, Kanpur
+Kanpur-208016
+Abstract#==#In the present situation, where every day we come across one or the other
+crime, it is of prime importance to ensure ones safety. Any measure which could
+ensure ones safety is certain to pay for itself.
+An automated system which can suggest the safest path between any two locations
+in the city avoiding crime prone areas will be of utmost importance for the
+society. In this paper, we propose a method to find the safest path between two
+locations, based on the geographical
+model of crime intensities. We consider the police records and news articles
+for finding crime density of different areas of the city.
+It is essential to consider news articles as there is a significant delay in
+updating police crime records. We address this problem by updating the crime
+intensities based on current news feeds. Based on the updated crime
+intensities, we identify the safest path. It is this real time updation of
+crime intensities which makes our model way better than the models that are
+presently in use.  Our model would also inform the user of crime sprees and
+spurt of crimes in a particular area thereby ensuring that user avoids these
+crime hot spots.
+Author{1}{Firstname}#=%=#Vasu
+Author{1}{Lastname}#=%=#Sharma
+Author{1}{Email}#=%=#sharma.vasu55@gmail.com
+Author{1}{Affiliation}#=%=#Indian Institute of Technology, Kanpur
+Author{2}{Firstname}#=%=#Rajat
+Author{2}{Lastname}#=%=#Kulshreshtha
+Author{2}{Email}#=%=#rk.kuls@gmail.com
+Author{2}{Affiliation}#=%=#Indian Institute of Technology, Guwahati
+Author{3}{Firstname}#=%=#Puneet
+Author{3}{Lastname}#=%=#Singh
+Author{3}{Email}#=%=#pun.singh92@gmail.com
+Author{3}{Affiliation}#=%=#Indian Institute of Technology, Kanpur
+Author{4}{Firstname}#=%=#Nishant
+Author{4}{Lastname}#=%=#Agrawal
+Author{4}{Email}#=%=#nash007@gmail.com
+Author{4}{Affiliation}#=%=#International Institute of Information Technology, Hyderabad
+Author{5}{Firstname}#=%=#Akshay
+Author{5}{Lastname}#=%=#Kumar
+Author{5}{Email}#=%=#akshay.kumar2011@vit.ac.in
+Author{5}{Affiliation}#=%=#Vellore Institute of Technology, Chennai
+
+==========

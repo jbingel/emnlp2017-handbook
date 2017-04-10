@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#521
+FinalPaperTitle#=%=#Incorporating Word Correlation Knowledge into Topic Modeling
+ShortPaperTitle#=%=#Incorporating Word Correlation Knowledge into Topic Modeling
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Pengtao Xie
+JobTitle#==#
+Organization#==#Carnegie Mellon Universiy,
+5000 Forbes Ave, Pittsburgh, PA, 15213
+Abstract#==#This paper studies how to incorporate the external word correlation knowledge
+to improve the coherence of topic modeling. Existing topic models assume words
+are generated independently and lack the mechanism to utilize the rich
+similarity relationships among words to learn coherent topics. To solve this
+problem, we build a Markov Random Field (MRF) regularized Latent Dirichlet
+Allocation (LDA) model, which define a MRF on the latent topic layer of LDA to
+encourage words labeled as similar to share the same topic label. Under our
+model, the topic assignment of each word is not independent, but rather
+affected by the topic labels of its correlated words. Similar words have better
+chance to be put into the same topic due to the regularization of MRF, hence
+the coherence of topics can be boosted. In addition, our model can accommodate
+the subtlety that whether two words are similar depends on which topic they
+appear in, which allows word with multiple senses to be put into different
+topics properly. We derive a variational inference method to infer the
+posterior probabilities and learn model parameters and present techniques to
+deal with the hard-to-compute partition function in MRF. Experiments on two
+datasets demonstrate the effectiveness of our model.
+Author{1}{Firstname}#=%=#Pengtao
+Author{1}{Lastname}#=%=#Xie
+Author{1}{Email}#=%=#pengtaox@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Diyi
+Author{2}{Lastname}#=%=#Yang
+Author{2}{Email}#=%=#diyiy@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Eric
+Author{3}{Lastname}#=%=#Xing
+Author{3}{Email}#=%=#epxing@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

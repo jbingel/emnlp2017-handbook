@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#A Deep Architecture for Non-Projective Dependency Parsing
+ShortPaperTitle#=%=#A Deep Architecture for Non-Projective Dependency Parsing
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Erick Rocha Fonseca
+JobTitle#==#
+Organization#==#University of São Paulo
+Avenida Trabalhador São-carlense, 400
+São Carlos, SP, Brazil
+Abstract#==#Graph-based dependency parsing algorithms commonly employ features up to third
+order in an attempt to capture richer syntactic relations. However, each level
+and each feature combination must be defined manually. Besides that, input
+features are usually represented as huge, sparse binary vectors, offering
+limited generalization. In this work, we present a deep architecture for
+dependency parsing based on a convolutional neural network. It can examine the
+whole sentence structure before scoring each head/modifier candidate pair, and
+uses dense embeddings as input. Our model is still under ongoing work,
+achieving 91.6% unlabeled attachment score in the Penn Treebank.
+Author{1}{Firstname}#=%=#Erick
+Author{1}{Lastname}#=%=#Fonseca
+Author{1}{Email}#=%=#erickrfonseca@gmail.com
+Author{1}{Affiliation}#=%=#University of São Paulo
+Author{2}{Firstname}#=%=#Sandra
+Author{2}{Lastname}#=%=#Aluísio
+Author{2}{Email}#=%=#sandra@icmc.usp.br
+Author{2}{Affiliation}#=%=#University of São Paulo
+
+==========

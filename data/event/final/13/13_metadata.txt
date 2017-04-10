@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Word Sense Disambiguation via PropStore and OntoNotes for Event Mention Detection
+ShortPaperTitle#=%=#Word Sense Disambiguation via PropStore and OntoNotes for Event Mention Detection
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Xuezhe Ma
+JobTitle#==#
+Organization#==#Language Technologies Institute
+Carnegie Mellon University
+5000 Forbes Ave, Pittsburgh, PA, 15213, USA
+Abstract#==#In this paper, we propose a novel approach for Word Sense Disambiguation (WSD)
+of verbs, which can be directly applied to event mention detection task to
+classify event types. By using PropStore, a database of relations between
+words, our approach disambiguates senses of verbs by utilizing the information
+of verbs that appear in similar syntactic contexts. Importantly, the resource
+our approach requires is only a word sense dictionary, without any annotated
+sentences, or structures and relations between different senses (e.g. WordNet).
+Our approach can be extended to disambiguate senses of words in other types of
+part-of-speech besides verbs.
+Author{1}{Firstname}#=%=#Nicolas R
+Author{1}{Lastname}#=%=#Fauceglia
+Author{1}{Email}#=%=#nicolas.fauceglia@gmail.com
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Yiu-Chang
+Author{2}{Lastname}#=%=#Lin
+Author{2}{Email}#=%=#yiuchanl@cs.cmu.edu
+Author{2}{Affiliation}#=%=#
+Author{3}{Firstname}#=%=#Xuezhe
+Author{3}{Lastname}#=%=#Ma
+Author{3}{Email}#=%=#xuezhem@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Language Technologies Institute, Carnegie Mellon University
+Author{4}{Firstname}#=%=#Eduard
+Author{4}{Lastname}#=%=#Hovy
+Author{4}{Email}#=%=#hovy@cmu.edu
+Author{4}{Affiliation}#=%=#CMU
+
+==========

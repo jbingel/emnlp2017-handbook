@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Towards relation based Argumentation Mining
+ShortPaperTitle#=%=#Towards relation based Argumentation Mining
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Lucas Carstens
+JobTitle#==#
+Organization#==#Imperial College London
+London SW7 2AZ
+United Kingdom
+Abstract#==#We advocate a relation based approach to Argumentation Mining. Our focus lies
+on the extraction of argumentative relations instead of the identification of
+arguments, themselves. By classifying pairs of sentences according to the
+relation that holds between them we are able to identify sentences that may be
+factual when considered in isolation, but carry argumentative meaning when read
+in context. We describe scenarios in which this is useful, as well as a corpus
+of annotated sentence pairs we are developing to provide a testbed for this
+approach.
+Author{1}{Firstname}#=%=#Lucas
+Author{1}{Lastname}#=%=#Carstens
+Author{1}{Email}#=%=#lc1310@imperial.ac.uk
+Author{1}{Affiliation}#=%=#Imperial College London
+Author{2}{Firstname}#=%=#Francesca
+Author{2}{Lastname}#=%=#Toni
+Author{2}{Email}#=%=#ft@imperial.ac.uk
+Author{2}{Affiliation}#=%=#Imperial College London
+
+==========

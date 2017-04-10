@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Encoding event structure in Urdu/Hindi VerbNet
+ShortPaperTitle#=%=#Encoding event structure in Urdu/Hindi VerbNet
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Annette Hautli-Janisz
+JobTitle#==#
+Organization#==#University of Konstanz
+Abstract#==#We propose a new kind of event structure representation for computational
+linguistics, based on the theoretical framework of First-Phase Syntax
+(Ramchand, 2008). We show that the approach not only gives a theoretically
+well-motivated set of subevents and related semantic roles, it also posits the
+levels of representation needed for analyzing a linguistic phenomenon that has
+repeatedly caused problems in computational systems, namely the treatment of
+complex predication. In particular, we look at V+V complex predicates in
+Urdu/Hindi and show that Ramchand’s subevent decomposition implemented in a
+VerbNet-style resource allows for a consistent semantic analysis of these
+complex events. We also show how the proposed event representation can be added
+to existing resources in the language, in particular the Hindi-Urdu Treebank
+and Hindi PropBank.
+Author{1}{Firstname}#=%=#Annette
+Author{1}{Lastname}#=%=#Hautli-Janisz
+Author{1}{Email}#=%=#annette.hautli@uni-konstanz.de
+Author{1}{Affiliation}#=%=#University of Konstanz
+Author{2}{Firstname}#=%=#Tracy Holloway
+Author{2}{Lastname}#=%=#King
+Author{2}{Email}#=%=#tracyhollowayking@gmail.com
+Author{2}{Affiliation}#=%=#eBay Inc
+Author{3}{Firstname}#=%=#Gilian
+Author{3}{Lastname}#=%=#Ramchand
+Author{3}{Email}#=%=#gillian.ramchand@uit.no
+Author{3}{Affiliation}#=%=#University of Tromsø
+
+==========

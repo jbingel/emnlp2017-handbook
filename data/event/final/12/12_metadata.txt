@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Detecting Causally Embedded Structures Using an Evolutionary Algorithm
+ShortPaperTitle#=%=#Detecting Causally Embedded Structures Using an Evolutionary Algorithm
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Chen Li
+JobTitle#==#
+Organization#==#Department of Linguistics 
+University of Illinois at Urbana-Champaign 
+4080 Foreign Language Building 
+707 S Mathews Avenue, MC-168 
+Urbana, IL 61801
+Abstract#==#Causality is an important relation among events and entities. 
+Embedded causal structures represent an important class, expressing
+complex causal chains; but they are traditionally difficult to uncover
+automatically. In this paper we propose a method for the efficient
+identification and extraction of embedded causal relations with minimal
+supervision, by combining a representation of structured language data with
+modified prototype theory specifically suited to the data type. We then utilize
+a form of genetic algorithm specifically adapted for our purpose to locate the
+likely candidate linguistic structures that contain causal chains. With this
+procedure, we were able to identify many embedded structures with complex
+causal chains in two corpora of different genres, applying this algorithm as a
+ranking procedure for all structures in the data. We obtained 79.5% percision
+for top quantiles of both of our datasets (BNC & novels).
+Author{1}{Firstname}#=%=#Chen
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#chenli@illinois.edu
+Author{1}{Affiliation}#=%=#University of Illinois
+Author{2}{Firstname}#=%=#Roxana
+Author{2}{Lastname}#=%=#Girju
+Author{2}{Email}#=%=#girju@illinois.edu
+Author{2}{Affiliation}#=%=#University of Illinois
+
+==========

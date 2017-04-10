@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#153
+FinalPaperTitle#=%=#ezDI: A Supervised NLP System for Clinical Narrative Analysis
+ShortPaperTitle#=%=#ezDI: A supervised NLP System for Clinical Narrative Analysis
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Parth Pathak
+JobTitle#==#
+Organization#==#12806 Townepark Way
+Louisville, Kentucky 40243
+Ph (866) 473-5655
+Abstract#==#This paper describes the approach used by ezDI at the SemEval 2015 Task-14:
+"Analysis of Clinical Text". The task was divided into two embedded tasks.
+Task-1 required determining disorder boundaries (including the discontiguous
+ones) from a given set of clinical notes and normalizing the disorders by
+assigning a unique CUI from the UMLS/SNOMEDCT. Task-2 was about finding
+different type of modifiers for given disorder mention. Task-2 was divided
+further into two subtasks. In subtask-2a, gold set of disorder was already
+provided and system needed to just fill modifier types in to the pre-specified
+slots. Subtask 2b did not provide any gold set of disorders and both the
+disorders and its related modifiers are to be identified by the system itself.
+In Task-1 our system was ranked first with F-score of 0.757 for Strict
+evaluation and 0.788 for relaxed evaluation. In both Task-2a and 2b our system
+was placed second with weighted F-score of 0.88 and 0.795 respectively.
+Author{1}{Firstname}#=%=#Parth
+Author{1}{Lastname}#=%=#Pathak
+Author{1}{Email}#=%=#parth.s.pathak@gmail.com
+Author{1}{Affiliation}#=%=#ezDI
+Author{2}{Firstname}#=%=#Pinal
+Author{2}{Lastname}#=%=#Patel
+Author{2}{Email}#=%=#pinal.p@ezdi.us
+Author{2}{Affiliation}#=%=#ezDI
+Author{3}{Firstname}#=%=#Vishal
+Author{3}{Lastname}#=%=#Panchal
+Author{3}{Email}#=%=#vishal.p@ezdi.us
+Author{3}{Affiliation}#=%=#ezDI
+Author{4}{Firstname}#=%=#Sagar
+Author{4}{Lastname}#=%=#Soni
+Author{4}{Email}#=%=#sagar.s@ezdi.us
+Author{4}{Affiliation}#=%=#ezDI
+Author{5}{Firstname}#=%=#Kinjal
+Author{5}{Lastname}#=%=#Dani
+Author{5}{Email}#=%=#kinjal.d@ezdi.us
+Author{5}{Affiliation}#=%=#ezDI
+Author{6}{Firstname}#=%=#Amrish
+Author{6}{Lastname}#=%=#Patel
+Author{6}{Email}#=%=#amrish.p@ezdi.us
+Author{6}{Affiliation}#=%=#ezDI
+Author{7}{Firstname}#=%=#Narayan
+Author{7}{Lastname}#=%=#Choudhary
+Author{7}{Email}#=%=#narayan.c@ezdi.us
+Author{7}{Affiliation}#=%=#ezDI
+
+==========

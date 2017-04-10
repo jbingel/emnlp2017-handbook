@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#586
+FinalPaperTitle#=%=#Corpus-based discovery of semantic intensity scales
+ShortPaperTitle#=%=#Corpus-based discovery of semantic intensity scales
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Chaitanya Shivade
+JobTitle#==#Graduate Research Associate
+Organization#==#The Ohio State University
+Columbus, OH 43210, USA.
+Abstract#==#Gradable terms such as brief, lengthy and extended illustrate varying degrees
+of a scale and can therefore participate in comparative constructs. Knowing the
+set of words that can be compared on the same scale and the associated ordering
+between them (brief < lengthy < extended) is very useful for a variety of
+lexical semantic tasks. Current techniques to derive such an ordering rely on
+WordNet to determine which words belong on the same scale and are limited to
+adjectives. Here we describe an extension to recent work: we investigate a
+fully automated pipeline to extract gradable terms from a corpus, group them
+into clusters reflecting the same scale and establish an ordering among them.
+This methodology reduces the amount of required handcrafted knowledge, and can
+infer gradability of words independent of their part of speech. Our approach
+infers an ordering for adjectives with comparable performance to previous work,
+but also for adverbs with an accuracy of 71%. We find that the technique is
+useful for inferring such rankings among words across different domains, and
+present an example using biomedical text.
+Author{1}{Firstname}#=%=#Chaitanya
+Author{1}{Lastname}#=%=#Shivade
+Author{1}{Email}#=%=#shivade@cse.ohio-state.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Marie-Catherine
+Author{2}{Lastname}#=%=#de Marneffe
+Author{2}{Email}#=%=#mcdm@ling.ohio-state.edu
+Author{2}{Affiliation}#=%=#The Ohio State University
+Author{3}{Firstname}#=%=#Eric
+Author{3}{Lastname}#=%=#Fosler-Lussier
+Author{3}{Email}#=%=#fosler@cse.ohio-state.edu
+Author{3}{Affiliation}#=%=#The Ohio State University
+Author{4}{Firstname}#=%=#Albert M.
+Author{4}{Lastname}#=%=#Lai
+Author{4}{Email}#=%=#albert.lai@osumc.edu
+Author{4}{Affiliation}#=%=#The Ohio State University
+
+==========

@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#A Preliminary Evaluation of the Impact of Syntactic Structure in Semantic Textual Similarity and Semantic Relatedness Tasks
+ShortPaperTitle#=%=#A Preliminary Evaluation of the Impact of Syntactic Structure in STS/SR Tasks
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#VO NGOC PHUOC AN
+JobTitle#==#
+Organization#==#Fondazione Bruno Kessler, Trento, Italy
+University of Trento, Italy
+Abstract#==#The well related tasks of evaluating the Semantic Textual Similarity and
+Semantic Relatedness have been under a special attention in NLP community. Many
+different approaches have been proposed, implemented and evaluated at different
+levels, such as lexical similarity, word/string/POS tags overlapping, semantic
+modeling (LSA, LDA), etc. However, at the level of syntactic structure, it is
+not clear how significant it contributes to the overall accuracy. In this
+paper, we make a preliminary evaluation of the impact of the syntactic
+structure in the tasks by running and analyzing the results from several
+experiments regarding to how syntactic structure contributes to solving the
+tasks.
+Author{1}{Firstname}#=%=#Ngoc Phuoc An
+Author{1}{Lastname}#=%=#Vo
+Author{1}{Email}#=%=#ngoc@fbk.eu
+Author{1}{Affiliation}#=%=#HLT-FBK, Trento
+Author{2}{Firstname}#=%=#Octavian
+Author{2}{Lastname}#=%=#Popescu
+Author{2}{Email}#=%=#o.popescu@us.ibm.com
+Author{2}{Affiliation}#=%=#IBM Research
+
+==========

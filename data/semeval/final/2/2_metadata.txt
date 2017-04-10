@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#IXAGroupEHUDiac: A Multiple Approach System towards the Diachronic Evaluation of Texts
+ShortPaperTitle#=%=#IXAGroupEHUDiac: A Multiple Approach System towards the Diachronic Evaluation of Texts
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Haritz Salaberri
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper presents our contribution to the SemEval-2015 Task 7. The task was
+subdivided into three subtasks that consisted of automatically identifying the
+time period when a piece of news was written (1,2) as well as automatically
+determining whether a specific phrase in a sentence is relevant or not for a
+given period of time (3). Our system tackles the resolution of all three
+subtasks. For this purpose multiple approaches are taken that use resources
+such as Wikipedia or Google NGrams. Final results are obtained by combining the
+output from all approaches. The texts used for the task are written in English
+and range from the years 1700 to 2000.
+Author{1}{Firstname}#=%=#Haritz
+Author{1}{Lastname}#=%=#Salaberri
+Author{1}{Email}#=%=#hsalaberri@gmail.com
+Author{1}{Affiliation}#=%=#University of the Basque Country UPV_EHU
+Author{2}{Firstname}#=%=#Iker
+Author{2}{Lastname}#=%=#Salaberri
+Author{2}{Email}#=%=#ikersalaberri@gmail.com
+Author{2}{Affiliation}#=%=#University of the Basque Country UPV_EHU
+Author{3}{Firstname}#=%=#Olatz
+Author{3}{Lastname}#=%=#Arregi
+Author{3}{Email}#=%=#olatz.arregi@ehu.eus
+Author{3}{Affiliation}#=%=#University of the Basque Country UPV_EHU
+Author{4}{Firstname}#=%=#Beñat
+Author{4}{Lastname}#=%=#Zapirain
+Author{4}{Email}#=%=#benat.zapirain@ehu.eus
+Author{4}{Affiliation}#=%=#University of the Basque Country UPV_EHU
+
+==========

@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Event Nugget Annotation: Processes and Issues
+ShortPaperTitle#=%=#Event Nugget Annotation: Processes and Issues
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yukari Yamakawa
+JobTitle#==#Research Staff
+Organization#==#Language Technologies Institute, Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, PA 15213
+Abstract#==#This paper describes the processes and issues of annotating event nuggets based
+on DEFT ERE Annotation Guidelines v1.3 and TAC KBP Event Detection Annotation
+Guidelines 1.7. Using Brat Rapid Annotation Tool (brat), newswire and
+discussion forum documents were annotated. One of the challenges arising from
+human annotation of documents is annotators' disagreement about the way of
+tagging
+events. We propose using Event Nuggets to help meet the definitions of the
+specific type/subtypes which are part of this project. We present case studies
+of several examples of event annotation issues, including discontinuous
+multi-word events representing single events. Annotation statistics and
+consistency analysis is provided to characterize the inter-annotator agreement,
+considering single term
+events and multi-word events which are both continuous and discontinuous.
+Consistency analysis is conducted using a scorer to compare first pass
+annotated files against adjudicated files.
+Author{1}{Firstname}#=%=#Teruko
+Author{1}{Lastname}#=%=#Mitamura
+Author{1}{Email}#=%=#teruko@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Language Technologies Institute, Carnegie Mellon University
+Author{2}{Firstname}#=%=#Yukari
+Author{2}{Lastname}#=%=#Yamakawa
+Author{2}{Email}#=%=#yukari747@gmail.com
+Author{2}{Affiliation}#=%=#Language Technologies Institute, Carnegie Mellon University
+Author{3}{Firstname}#=%=#Susan
+Author{3}{Lastname}#=%=#Holm
+Author{3}{Email}#=%=#susan.holm@gmail.com
+Author{3}{Affiliation}#=%=#Language Technologies Institute, Carnegie Mellon University
+Author{4}{Firstname}#=%=#Zhiyi
+Author{4}{Lastname}#=%=#Song
+Author{4}{Email}#=%=#zhiyi@ldc.upenn.edu
+Author{4}{Affiliation}#=%=#Linguistic Data Consortium, University of Pennsylvania
+Author{5}{Firstname}#=%=#Ann
+Author{5}{Lastname}#=%=#Bies
+Author{5}{Email}#=%=#bies@ldc.upenn.edu
+Author{5}{Affiliation}#=%=#Linguistic Data Consortium, University of Pennsylvania
+Author{6}{Firstname}#=%=#Seth
+Author{6}{Lastname}#=%=#Kulick
+Author{6}{Email}#=%=#skulick@ldc.upenn.edu
+Author{6}{Affiliation}#=%=#Linguistic Data Consortium, University of Pennsylvania
+Author{7}{Firstname}#=%=#Stephanie
+Author{7}{Lastname}#=%=#Strassel
+Author{7}{Email}#=%=#strassel@ldc.upenn.edu
+Author{7}{Affiliation}#=%=#Linguistic Data Consortium, University of Pennsylvania
+
+==========

@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#524
+FinalPaperTitle#=%=#Inferring latent attributes of Twitter users with label regularization
+ShortPaperTitle#=%=#Inferring latent attributes of Twitter users with label regularization
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Aron Culotta
+JobTitle#==#
+Organization#==#Illinois Institute of Technology
+Chicago, IL 60616
+Abstract#==#Inferring latent attributes of online users has many applications in
+public health, politics, and marketing. Most existing approaches rely on
+supervised learning algorithms, which require manual data annotation
+and therefore are costly to develop and adapt over time. In this paper, we
+propose a lightly supervised approach based on label regularization to infer
+the age, ethnicity, and political orientation of Twitter users. Our approach
+learns from a heterogeneous collection of soft constraints derived from Census
+demographics, trends in baby names, and Twitter accounts that are emblematic
+of class labels. To counteract the imprecision of such constraints, we compare
+several constraint selection algorithms that optimize classification accuracy
+on a tuning set. We find that using no user-annotated data, our approach is
+within 2% of a fully supervised baseline for three of four tasks. Using a
+small set of labeled data for tuning further improves accuracy on all tasks.
+Author{1}{Firstname}#=%=#Ehsan
+Author{1}{Lastname}#=%=#Mohammady Ardehaly
+Author{1}{Email}#=%=#emohamm1@hawk.iit.edu
+Author{1}{Affiliation}#=%=#Illinois Institute of Technology
+Author{2}{Firstname}#=%=#Aron
+Author{2}{Lastname}#=%=#Culotta
+Author{2}{Email}#=%=#aronwc@gmail.com
+Author{2}{Affiliation}#=%=#Illinois Institute of Technology
+
+==========

@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#124
+FinalPaperTitle#=%=#SWATCS65: Sentiment Classification Using an Ensemble of Class Projects
+ShortPaperTitle#=%=#SWATCS65: Sentiment Classification Using an Ensemble of Class Projects
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Richard Wicentowski
+JobTitle#==#
+Organization#==#500 College Avenue
+Swarthmore, PA 19081
+Abstract#==#This paper presents the SWATCS65 ensemble classifier used to identify the
+sentiment of tweets. The classifier was trained and tested using data provided
+by Semeval-2015, Task 10, subtask B with the goal to label the sentiment of an
+entire tweet. The ensemble was constructed from 26 classifiers, each written by
+a group of one to three undergraduate students in the Fall 2014 offering of a
+natural language processing course at Swarthmore College. Each of the
+classifiers was designed independently, though much of the early structure was
+provided by in-class lab assignments. There was high variability in the final
+performance of each of these classifiers, which were combined using a weighted
+voting scheme with weights correlated with performance using 5-fold
+cross-validation on the provided training data. The system performed very well,
+achieving an F1 score of 61.89.
+Author{1}{Firstname}#=%=#Richard
+Author{1}{Lastname}#=%=#Wicentowski
+Author{1}{Email}#=%=#richardw@cs.swarthmore.edu
+Author{1}{Affiliation}#=%=#Swarthmore College
+
+==========

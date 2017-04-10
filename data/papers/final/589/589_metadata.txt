@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#589
+FinalPaperTitle#=%=#Using External Resources and Joint Learning for Bigram Weighting in ILP-Based Multi-Document Summarization
+ShortPaperTitle#=%=#Using External Resources and Joint Learning for Bigram Weighting in Multi-Document Summarization
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#chenli
+JobTitle#==#
+Organization#==#University of Texas at Dallas
+Abstract#==#Some state-of-the-art summarization systems use integer linear programming
+(ILP) based methods that aim to maximize the important concepts covered in the
+summary. These concepts are often obtained by selecting bigrams from the
+documents. In this paper, we improve such bigram based ILP summarization
+methods from different aspects. First we use syntactic information to select
+more important bigrams. Second, to estimate the importance of the bigrams, in
+addition to the internal features based on the test documents (e.g., document
+frequency, bigram positions), we propose to extract features by leveraging
+multiple external resources (such as word embedding from additional
+corpus,Wikipedia, Dbpedia,Word-Net, SentiWordNet). The bigram weights are then
+trained discriminatively in a joint learning model that predicts the bigram
+weights and selects the summary sentences in the ILP framework at the same
+time. We demonstrate that our system consistently outperforms the prior ILP
+method on different TAC data sets, and performs competitively compared to other
+previously reported best results. We also conducted various analysis to show
+the contribution of different components.
+Author{1}{Firstname}#=%=#Chen
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#chenli@hlt.utdallas.edu
+Author{1}{Affiliation}#=%=#University of Texas at Dallas
+Author{2}{Firstname}#=%=#Yang
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#yangl@hlt.utdallas.edu
+Author{2}{Affiliation}#=%=#University of Texas at Dallas
+Author{3}{Firstname}#=%=#Lin
+Author{3}{Lastname}#=%=#Zhao
+Author{3}{Email}#=%=#Lin.Zhao@us.bosch.com
+Author{3}{Affiliation}#=%=#Bosch North America Research Center
+
+==========

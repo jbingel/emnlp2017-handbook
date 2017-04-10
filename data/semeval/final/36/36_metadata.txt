@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#36
+FinalPaperTitle#=%=#EBL-Hope: Multilingual Word Sense Disambiguation Using a Hybrid Knowledge-Based Technique
+ShortPaperTitle#=%=#EBL-Hope: Multilingual Word Sense Disambiguation Using a Hybrid Knowledge-Based Technique
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Eniafe Festus Ayetiran
+JobTitle#==#
+Organization#==#
+Abstract#==#We present a hybrid knowledge-based approach to multilingual word sense
+disambiguation using BabelNet. Our approach is based on a hybrid technique
+derived from the modified version of the Lesk algorithm and the Jiang
+& Conrath similarity measure. We present our system's runs for the word sense
+disambiguation subtask of the Multilingual Word Sense Disambiguation and Entity
+Linking task of SemEval 2015. Our system ranked 9th among the participating 
+systems for English.
+Author{1}{Firstname}#=%=#Eniafe Festus
+Author{1}{Lastname}#=%=#Ayetiran
+Author{1}{Email}#=%=#eniafe.ayetiran2@unibo.it
+Author{1}{Affiliation}#=%=#CIRSFID, University of Bologna - Italy
+Author{2}{Firstname}#=%=#Guido
+Author{2}{Lastname}#=%=#Boella
+Author{2}{Email}#=%=#boella@di.unito.it
+Author{2}{Affiliation}#=%=#Department of Computer Science, University of Turin, Italy
+
+==========

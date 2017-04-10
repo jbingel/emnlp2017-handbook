@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#51
+FinalPaperTitle#=%=#Speeding Document Annotation with Topic Models
+ShortPaperTitle#=%=#Speeding Document Annotation with Topic Models
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Forough Poursabzi-Sangdeh
+JobTitle#==#
+Organization#==#
+Abstract#==#Document classification and topic models are useful tools for managing and
+understanding large corpora. Topic models are used to uncover underlying
+semantic and structure of document collections. Categorizing large collection
+of documents requires hand-labeled training data, which is time consuming and
+needs human expertise. We believe engaging user in the process of document
+labeling helps reduce annotation time and address user needs. We present an
+interactive tool for document labeling. We use topic models to help users in
+this procedure. Our preliminary results show that users can more effectively
+and efficiently apply labels to documents using topic model information.
+Author{1}{Firstname}#=%=#Forough
+Author{1}{Lastname}#=%=#Poursabzi-Sangdeh
+Author{1}{Email}#=%=#forough.poursabzisangdeh@colorado.edu
+Author{1}{Affiliation}#=%=#University of Colorado in Boulder
+Author{2}{Firstname}#=%=#Jordan
+Author{2}{Lastname}#=%=#Boyd-Graber
+Author{2}{Email}#=%=#jordan.boyd.graber@colorado.edu
+Author{2}{Affiliation}#=%=#University of Colorado
+
+==========

@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#50
+FinalPaperTitle#=%=#Incremental Semantic Construction Using Normal Form CCG Derivation
+ShortPaperTitle#=%=#Incremental Semantic Construction Using Normal Form CCG Derivation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yoshihide Kato
+JobTitle#==#
+Organization#==#Nagoya University
+Abstract#==#This paper proposes a method of incrementally constructing semantic
+representations. Our method is based on Steedman's Combinatory Categorial
+Grammar (CCG), which has a transparent correspondence between the syntax and
+semantics. In our method, a derivation for a sentence is constructed in an
+incremental fashion and the corresponding semantic representation is derived
+synchronously. Our method uses normal form CCG derivation. This is the
+difference between our approach and previous ones. Previous approaches use most
+left-branching derivation called incremental derivation, but they cannot
+process coordinate structures incrementally. Our method overcomes this problem.
+Author{1}{Firstname}#=%=#Yoshihide
+Author{1}{Lastname}#=%=#Kato
+Author{1}{Email}#=%=#yoshihide@icts.nagoya-u.ac.jp
+Author{1}{Affiliation}#=%=#Nagoya University
+Author{2}{Firstname}#=%=#Shigeki
+Author{2}{Lastname}#=%=#Matsubara
+Author{2}{Email}#=%=#matubara@nagoya-u.jp
+Author{2}{Affiliation}#=%=#
+
+==========

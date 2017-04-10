@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#158
+FinalPaperTitle#=%=#Discriminative Phrase Embedding for Paraphrase Identification
+ShortPaperTitle#=%=#Discriminative Phrase Embedding for Paraphrase Identification
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Wenpeng Yin
+JobTitle#==#
+Organization#==#University of Munich
+
+Oettingenstr.67, 80538 Munich, Germany
+Abstract#==#This work, concerning paraphrase identification task, on one
+hand contributes to expanding deep learning embeddings to
+include continuous and discontinuous linguistic phrases. On
+the other hand, it comes up with a new scheme TF-KLD-KNN to
+learn the discriminative weights of words and phrases specific to
+paraphrase task, so that a weighted sum of embeddings can
+represent sentences more effectively.  Based on these two
+innovations we get competitive state-of-the-art performance on
+paraphrase identification.
+Author{1}{Firstname}#=%=#Wenpeng
+Author{1}{Lastname}#=%=#Yin
+Author{1}{Email}#=%=#mr.yinwenpeng@gmail.com
+Author{1}{Affiliation}#=%=#University of Munich
+Author{2}{Firstname}#=%=#Hinrich
+Author{2}{Lastname}#=%=#Schütze
+Author{2}{Email}#=%=#inquiries@cislmu.org
+Author{2}{Affiliation}#=%=#University of Munich
+
+==========

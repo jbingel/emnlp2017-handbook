@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#567
+FinalPaperTitle#=%=#Toward Abstractive Summarization Using Semantic Representations
+ShortPaperTitle#=%=#Toward Abstractive Summarization Using Semantic Representations
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#FEI LIU
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+5000 Forbes Ave, Pittsburgh, PA 15213
+Abstract#==#We present a novel abstractive summarization framework that draws on the recent
+development of a treebank for the Abstract Meaning Representation (AMR). In
+this framework, the source text is parsed to a set of AMR graphs, the graphs
+are transformed into a summary graph, and then text is generated from the
+summary graph. We focus on the graph-to-graph transformation that reduces the
+source semantic graph into a summary graph, making use of an existing AMR
+parser and assuming the eventual availability of an AMR-to-text generator. The
+framework is data-driven, trainable, and not specifically designed for a
+particular domain. Experiments on gold-standard AMR annotations and system
+parses show promising results. Code is available at:
+https://github.com/summarization
+Author{1}{Firstname}#=%=#Fei
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Email}#=%=#feiliu@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Jeffrey
+Author{2}{Lastname}#=%=#Flanigan
+Author{2}{Email}#=%=#jeffflanigan@gmail.com
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Sam
+Author{3}{Lastname}#=%=#Thomson
+Author{3}{Email}#=%=#sthomson@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Norman
+Author{4}{Lastname}#=%=#Sadeh
+Author{4}{Email}#=%=#sadeh@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+Author{5}{Firstname}#=%=#Noah A.
+Author{5}{Lastname}#=%=#Smith
+Author{5}{Email}#=%=#nasmith@cs.cmu.edu
+Author{5}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

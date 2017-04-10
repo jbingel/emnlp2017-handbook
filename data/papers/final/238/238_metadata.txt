@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#238
+FinalPaperTitle#=%=#Learning to Interpret and Describe Abstract Scenes
+ShortPaperTitle#=%=#Learning to Interpret and Describe Abstract Scenes
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Mirella Lapata
+JobTitle#==#
+Organization#==#School of Informatics
+University of Edinburgh
+10 Crichton Street
+EH8 9AB
+Abstract#==#Given a (static) scene, a human can effortlessly describe what is going on (who
+is doing what to whom, how, and why). The process requires knowledge about the
+world, how it is perceived, and described. In this paper we study the problem
+of interpreting and verbalizing visual information using abstract scenes
+created from collections of clip art images. We propose a model inspired by
+machine translation operating over a large parallel corpus of visual relations
+and linguistic descriptions. We demonstrate that this approach produces
+human-like scene descriptions which are both fluent and relevant, outperforming
+a number of competitive alternatives based on templates and sentence-based
+retrieval.
+Author{1}{Firstname}#=%=#Luis
+Author{1}{Lastname}#=%=#Gilberto Mateos Ortiz
+Author{1}{Email}#=%=#luismattor@gmail.com
+Author{1}{Affiliation}#=%=#School of Informatics, University of Edinburgh
+Author{2}{Firstname}#=%=#Clemens
+Author{2}{Lastname}#=%=#Wolff
+Author{2}{Email}#=%=#clemens.wolff@gmail.com
+Author{2}{Affiliation}#=%=#School of Informatics, University of Edinburgh
+Author{3}{Firstname}#=%=#Mirella
+Author{3}{Lastname}#=%=#Lapata
+Author{3}{Email}#=%=#mlap@inf.ed.ac.uk
+Author{3}{Affiliation}#=%=#School of Informatics, University of Edinburgh
+
+==========

@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#Towards Combined Matrix and Tensor Factorization for Universal Schema Relation Extraction
+ShortPaperTitle#=%=#Combined Matrix and Tensor Factorization for Universal Schema
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Sameer Singh
+JobTitle#==#
+Organization#==#Paul Allen Ctr for Comp Sc and Engg
+University of Washington
+185 Stevens Way, Seattle WA 98195
+Abstract#==#Matrix factorization of knowledge bases in universal schema has facilitated
+accurate distantly-supervised relation extraction. This factorization encodes
+dependencies between textual patterns and structured relations using
+low-dimensional vectors defined for each entity pair; although these factors
+are effective at combining evidence for an entity pair, they are inaccurate on
+rare pairs, or for relations that depend crucially on the entity types. On the
+other hand, tensor factorization is able to overcome these shortcomings when
+applied to link prediction by maintaining entity-wise factors. However these
+models have been unsuitable for universal schema. In this paper we first
+present an illustration on synthetic data that explains the unsuitability of
+tensor factorization to relation extraction with universal schemas. Since the
+benefits of tensor and matrix factorization are complementary, we then
+investigate two hybrid methods that combine the benefits of the two paradigms.
+We show that the combination can be fruitful: we handle ambiguously phrased
+relations, achieve gains in accuracy on real-world relations, and demonstrate
+that entity embeddings encode entity types.
+Author{1}{Firstname}#=%=#Sameer
+Author{1}{Lastname}#=%=#Singh
+Author{1}{Email}#=%=#sameer@cs.washington.edu
+Author{1}{Affiliation}#=%=#University of Washington, Seattle
+Author{2}{Firstname}#=%=#Tim
+Author{2}{Lastname}#=%=#Rocktäschel
+Author{2}{Email}#=%=#tim.rocktaeschel@gmail.com
+Author{2}{Affiliation}#=%=#University College London
+Author{3}{Firstname}#=%=#Sebastian
+Author{3}{Lastname}#=%=#Riedel
+Author{3}{Email}#=%=#sebastian.riedel@gmail.com
+Author{3}{Affiliation}#=%=#UCL
+
+==========

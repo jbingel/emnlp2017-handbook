@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#123
+FinalPaperTitle#=%=#SWASH: A Naive Bayes Classifier for Tweet Sentiment Identification
+ShortPaperTitle#=%=#SWASH: A Naive Bayes Classifier for Tweet Sentiment Identification
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Richard Wicentowski
+JobTitle#==#
+Organization#==#500 College Avenue
+Swarthmore, PA 19081
+Abstract#==#This paper describes a sentiment classification system designed for
+SemEval-2015, Task 10, Subtask B. The system employs a constrained, supervised
+text categorization approach. Firstly, since thorough preprocessing of tweet
+data was shown to be effective in previous SemEval sentiment classification
+tasks, various preprocessessing steps were introduced to enhance the quality of
+lexical information. Secondly, a Naive Bayes classifier is used to detect tweet
+sentiment.  The classifier is trained only on the training data provided by the
+task organizers. The system makes use of external human-generated lists of
+positive and negative words at several steps throughout classification. The
+system produced an overall F-score of 59.26 on the official test set.
+Author{1}{Firstname}#=%=#Ruth
+Author{1}{Lastname}#=%=#Talbot
+Author{1}{Email}#=%=#rtalbot1@swarthmore.edu
+Author{1}{Affiliation}#=%=#Swarthmore College
+Author{2}{Firstname}#=%=#Chloe
+Author{2}{Lastname}#=%=#Acheampong
+Author{2}{Email}#=%=#chloeacheampong@gmail.com
+Author{2}{Affiliation}#=%=#Ashesi University
+Author{3}{Firstname}#=%=#Richard
+Author{3}{Lastname}#=%=#Wicentowski
+Author{3}{Email}#=%=#richardw@cs.swarthmore.edu
+Author{3}{Affiliation}#=%=#Swarthmore College
+
+==========

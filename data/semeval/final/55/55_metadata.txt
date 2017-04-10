@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#55
+FinalPaperTitle#=%=#WSL: Sentence Similarity Using Semantic Distance Between Words
+ShortPaperTitle#=%=#WSL: Sentence Similarity Using Semantic Distance Between Words
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Naoko Miura
+JobTitle#==#
+Organization#==#Meiji University, Japan
+1-1-1 Higashi-Mita, Tama-ku, Kawasaki-shi,Kanagawa 214–8571
+Abstract#==#A typical social networking service (SNS) contains huge amounts of data, and
+analyzing
+this data at the level of the sentence is important.
+In this paper, we describe our system for a SemEval2015 semantic textual
+similarity task (task2). We present our approach, which uses edit distance to
+consider
+word order, and introduce word appearance in context. We report the results
+from SemEval2015.
+Author{1}{Firstname}#=%=#Naoko
+Author{1}{Lastname}#=%=#Miura
+Author{1}{Email}#=%=#nao.miura9@gmail.com
+Author{1}{Affiliation}#=%=#Meiji University
+Author{2}{Firstname}#=%=#Tomohiro
+Author{2}{Lastname}#=%=#Takagi
+Author{2}{Email}#=%=#takagi@cs.meiji.ac.jp
+Author{2}{Affiliation}#=%=#Meiji University
+
+==========

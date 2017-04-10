@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#Muddying The Multiword Expression Waters: How Cognitive Demand Affects Multiword Expression Production
+ShortPaperTitle#=%=#Muddying The Multiword Expression Waters
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Adam Goodkind
+JobTitle#==#
+Organization#==#CUNY Graduate Center
+365 5th Ave.
+New York, NY 10016
+Abstract#==#Multiword expressions (MWEs) are vexing for linguists, psycholinguists and
+computational linguists, as they are hard to define, detect and parse. However,
+previous studies have not taken into account the cognitive constraints under
+which MWEs are produced or comprehended. We present a new modality for studying
+MWEs, keystroke dynamics. We ask subjects to respond to a variety of questions,
+varying in the level of cognitive demand required to generate an answer. In
+each response, a subject’s pause time preceding each word -- within and
+outside an MWE -- can illuminate distinct differences in required effort across
+tasks. By taking advantage of high-precision keystroke loggers, we show that
+MWEs produced under greater cognitive demands are produced more slowly, at a
+rate more similar to free expressions. We hypothesize that increasingly
+burdensome cognitive demands diminish the capacity of lexical retrieval, and
+cause MWE production to slow.
+Author{1}{Firstname}#=%=#Adam
+Author{1}{Lastname}#=%=#Goodkind
+Author{1}{Email}#=%=#a.goodkind@gmail.com
+Author{1}{Affiliation}#=%=#CUNY Graduate Center
+Author{2}{Firstname}#=%=#Andrew
+Author{2}{Lastname}#=%=#Rosenberg
+Author{2}{Email}#=%=#andrew@cs.qc.cuny.edu
+Author{2}{Affiliation}#=%=#CUNY Queens College
+
+==========

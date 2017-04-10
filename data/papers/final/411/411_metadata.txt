@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#411
+FinalPaperTitle#=%=#A Compositional and Interpretable Semantic Space
+ShortPaperTitle#=%=#A Compositional and Interpretable Semantic Space
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Alona Fyshe
+JobTitle#==#
+Organization#==#Carnegie Mellon University, 5000 Forbes Ave.  Pittsburgh, PA, USA 15217
+Abstract#==#Vector Space Models (VSMs) of Semantics are useful tools for exploring the
+semantics of single words, and the composition of words to make phrasal
+meaning.  While many methods can estimate the meaning (i.e. vector) of a
+phrase, few do so in an interpretable way.  We introduce a new method (CNNSE)
+that allows word and phrase vectors to adapt to the notion of composition.  Our
+method learns a VSM that is both tailored to support a chosen semantic
+composition operation, and whose resulting features have an intuitive
+interpretation.  Interpretability allows for the exploration of phrasal
+semantics, which we leverage to analyze performance on a behavioral task.
+Author{1}{Firstname}#=%=#Alona
+Author{1}{Lastname}#=%=#Fyshe
+Author{1}{Email}#=%=#amfyshe@gmail.com
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Leila
+Author{2}{Lastname}#=%=#Wehbe
+Author{2}{Email}#=%=#lwehbe@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Partha P.
+Author{3}{Lastname}#=%=#Talukdar
+Author{3}{Email}#=%=#ppt@serc.iisc.in
+Author{3}{Affiliation}#=%=#Indian Institute of Science
+Author{4}{Firstname}#=%=#Brian
+Author{4}{Lastname}#=%=#Murphy
+Author{4}{Email}#=%=#brian.murphy@qub.ac.uk
+Author{4}{Affiliation}#=%=#Queen's University Belfast
+Author{5}{Firstname}#=%=#Tom M.
+Author{5}{Lastname}#=%=#Mitchell
+Author{5}{Email}#=%=#tom.mitchell@cs.cmu.edu
+Author{5}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

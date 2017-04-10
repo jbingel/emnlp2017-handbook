@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#67
+FinalPaperTitle#=%=#SemEval-2015 Task 12: Aspect Based Sentiment Analysis
+ShortPaperTitle#=%=#SemEval-2015 Task 12: Aspect Based Sentiment Analysis
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Maria Pontiki
+JobTitle#==#
+Organization#==#Institute for Language and Speech Processing, "Athena" Research Center
+Artemidos 6& Epidavrou, 15125, Athens, Greece
+Abstract#==#SemEval-2015 Task 12, a continuation of SemEval-2014 Task 4, aimed to foster
+research beyond sentence- or text-level sentiment classification towards
+Aspect Based Sentiment Analysis. The goal is to identify opinions expressed
+about specific entities (e.g., laptops) and their aspects (e.g., prices). The
+task provided manually annotated reviews in three domains (restaurants, laptops
+and hotels), and a common evaluation procedure. It attracted 93 submissions
+from 16 teams.
+Author{1}{Firstname}#=%=#Maria
+Author{1}{Lastname}#=%=#Pontiki
+Author{1}{Email}#=%=#mpontiki@ilsp.gr
+Author{1}{Affiliation}#=%=#Institute for Language and Speech Processing (ILSP), Athena R.C., Greece
+Author{2}{Firstname}#=%=#Dimitris
+Author{2}{Lastname}#=%=#Galanis
+Author{2}{Email}#=%=#galanisd@gmail.com
+Author{2}{Affiliation}#=%=#Institute for Language and Speech Processing, Athena Research Center
+Author{3}{Firstname}#=%=#Haris
+Author{3}{Lastname}#=%=#Papageorgiou
+Author{3}{Email}#=%=#xaris@ilsp.athena-innovation.gr
+Author{3}{Affiliation}#=%=#Institute for Language and Speech Processing  ILSP/ ATHENA R.C.
+Author{4}{Firstname}#=%=#Suresh
+Author{4}{Lastname}#=%=#Manandhar
+Author{4}{Email}#=%=#suresh@cs.york.ac.uk
+Author{4}{Affiliation}#=%=#University of York
+Author{5}{Firstname}#=%=#Ion
+Author{5}{Lastname}#=%=#Androutsopoulos
+Author{5}{Email}#=%=#ionandr@gmail.com
+Author{5}{Affiliation}#=%=#Athens University of Economics and Business
+
+==========

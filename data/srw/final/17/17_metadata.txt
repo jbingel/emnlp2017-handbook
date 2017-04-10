@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Exploring Relational Features and Learning under Distant Supervision for Information Extraction Tasks
+ShortPaperTitle#=%=#Exploring Relational Features and Learning under Distant Supervision for IE Tasks
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Ajay Nagesh
+JobTitle#==#
+Organization#==#Indian Institute of Technology Bombay,
+SIA 311, KReSIT Building, Dept. of CSE
+IIT Bombay, Powai, Mumbai. India. PIN:400076
+Abstract#==#Information Extraction (IE) has become an indispensable tool in our quest to
+handle the data deluge of the information age. IE can broadly be classified
+into Named-entity Recognition (NER) and Relation Extraction (RE). In this
+thesis, we view the task of IE as finding patterns in unstructured data, which
+can either take the form of features and/or be specified by constraints. In
+NER, we study the categorization of complex relational features and outline
+methods to learn feature combinations through induction. We demonstrate the
+efficacy of induction techniques in learning : i) rules for the identification
+of named entities in text – the novelty is the application of induction
+techniques to learn in a very expressive declarative rule language ii) a richer
+sequence labeling model – enabling optimal learning of discriminative
+features. In RE, our investigations are in the paradigm of distant supervision,
+which facilitates the creation of large albeit noisy training data. We devise
+an inference framework in which constraints can be easily specified in learning
+relation extractors. In addition, we reformulate the learning objective in a
+max-margin framework. To the best of our knowledge, our formulation is the
+first to optimize multi-variate non-linear performance measures such as F-β
+for a latent variable structure prediction task.
+Author{1}{Firstname}#=%=#Ajay
+Author{1}{Lastname}#=%=#Nagesh
+Author{1}{Email}#=%=#ajaynagesh@cse.iitb.ac.in
+Author{1}{Affiliation}#=%=#IIT Bombay
+
+==========

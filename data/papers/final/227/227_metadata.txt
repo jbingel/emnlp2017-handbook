@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#227
+FinalPaperTitle#=%=#When and why are log-linear models self-normalizing?
+ShortPaperTitle#=%=#When and why are log-linear models self-normalizing?
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jacob Andreas
+JobTitle#==#
+Organization#==#University of California, Berkeley
+Berkeley CA 94720
+Abstract#==#Several techniques have recently been pro- posed for training
+“self-normalized” discriminative models. These attempt to find parameter
+settings for which unnormalized model scores approximate the true label
+probability. However, the theoretical properties of such techniques (and of
+self-normalization generally) have not been investigated. This paper
+examines the conditions under which we can expect self-normalization to
+work. We characterize a general class of distributions that admit
+self-normalization, and prove generalization bounds for procedures that
+minimize empirical normalizer variance. Motivated by these results, we describe
+a novel variant of an established procedure for training self-normalized
+models. The new procedure avoids computing normalizers for most training
+examples, and decreases training time by as much as factor of ten while
+preserving model quality.
+Author{1}{Firstname}#=%=#Jacob
+Author{1}{Lastname}#=%=#Andreas
+Author{1}{Email}#=%=#jda@cs.berkeley.edu
+Author{1}{Affiliation}#=%=#UC Berkeley
+Author{2}{Firstname}#=%=#Dan
+Author{2}{Lastname}#=%=#Klein
+Author{2}{Email}#=%=#klein@cs.berkeley.edu
+Author{2}{Affiliation}#=%=#UC Berkeley
+
+==========

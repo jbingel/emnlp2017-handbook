@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#41
+FinalPaperTitle#=%=#A Hybrid Distributional and Knowledge-based Model of Lexical Semantics
+ShortPaperTitle#=%=#A Hybrid Distributional and Knowledge-based Model of Lexical Semantics
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#
+Abstract#==#A range of approaches to the representation of lexical semantics have been
+explored within Computational Linguistics. Two of the most popular are
+distributional and knowledge-based models. This paper proposes hybrid models of
+lexical semantics that combine the advantages of these two approaches. Our
+models provide robust representations of sets of synonym words, synsets,
+derived from WordNet. We also make use of WordNet's hierarcy to refine the
+synset vectors. The models are evaluated on two widely explored tasks involving
+lexical semantics: lexical similarity and Word Sense Disambiguation. The hybrid
+models are found to perform better than standard distributional models and have
+the additional benefit of modelling polysemy.
+Author{1}{Firstname}#=%=#Nikolaos
+Author{1}{Lastname}#=%=#Aletras
+Author{1}{Email}#=%=#nikos.aletras@gmail.com
+Author{1}{Affiliation}#=%=#University College London
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Stevenson
+Author{2}{Email}#=%=#mark.stevenson@sheffield.ac.uk
+Author{2}{Affiliation}#=%=#University of Sheffield
+
+==========

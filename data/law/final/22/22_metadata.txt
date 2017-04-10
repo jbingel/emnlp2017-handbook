@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#Annotating genericity: a survey, a scheme, and a corpus
+ShortPaperTitle#=%=#Annotating genericity: a survey, a scheme, and a corpus
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Annemarie Friedrich
+JobTitle#==#
+Organization#==#Saarland University
+Department of Computational Linguistics
+Saarbrücken, Germany
+Abstract#==#Generics are linguistic expressions that make statements about or refer to
+kinds, or that report regularities of events. Non-generic expressions make
+statements about particular individuals or specific episodes. Generics are
+treated extensively in semantic theory (Krifka et al., 1995). In practice, it
+is often hard to decide whether a referring expression is generic or
+non-generic, and to date there is no data set which is both large and
+satisfactorily annotated. Such a data set would be valuable for creating
+automatic systems for identifying generic expressions, in turn facilitating
+knowledge extraction from natural language text. In this paper we provide the
+next steps for such an annotation endeavor. Our contributions are: (1) we
+survey the most important previous projects annotating genericity, focusing on
+resources for English; (2) with a new agreement study we identify problems in
+the annotation scheme of the largest currently available resource (ACE-2005);
+and (3) we introduce a linguistically-motivated annotation scheme for marking
+both clauses and their subjects with regard to their genericity. (4) We present
+a corpus of MASC (Ide et al., 2010) and Wikipedia texts annotated according to
+our scheme, achieving substantial agreement.
+Author{1}{Firstname}#=%=#Annemarie
+Author{1}{Lastname}#=%=#Friedrich
+Author{1}{Email}#=%=#afried@coli.uni-saarland.de
+Author{1}{Affiliation}#=%=#Saarland University
+Author{2}{Firstname}#=%=#Alexis
+Author{2}{Lastname}#=%=#Palmer
+Author{2}{Email}#=%=#alexis.palmer@ims.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#IMS, University of Stuttgart
+Author{3}{Firstname}#=%=#Melissa
+Author{3}{Lastname}#=%=#Peate Sørensen
+Author{3}{Email}#=%=#peatesom@tcd.ie
+Author{3}{Affiliation}#=%=#Saarland University
+Author{4}{Firstname}#=%=#Manfred
+Author{4}{Lastname}#=%=#Pinkal
+Author{4}{Email}#=%=#pinkal@coli.uni-sb.de
+Author{4}{Affiliation}#=%=#Saarland University
+
+==========

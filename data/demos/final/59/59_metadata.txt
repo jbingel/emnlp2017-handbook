@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#59
+FinalPaperTitle#=%=#Visualizing Deep-Syntactic Parser Output
+ShortPaperTitle#=%=#Visualizing Deep-Syntactic Parser Output
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Leo Wanner
+JobTitle#==#
+Organization#==#Pompeu Fabra University
+C/ Roc Boronat, 138
+08018 Barcelona,
+Spain
+Abstract#==#``Deep-syntactic" dependency structures bridge the gap between the
+surface-syntactic structures as produced by state-of-the-art dependency parsers
+and semantic logical forms in that they abstract away from  surface-syntactic
+idiosyncrasies, but still keep the linguistic structure of a sentence.               
+     
+ They have thus a great potential for such downstream applications as machine
+translation and summarization. In this demo paper, we propose an online version
+of a deep-syntactic parser that outputs deep-syntactic structures from plain
+sentences and visualizes them using the Brat tool. Along with the
+deep-syntactic structures, the user can also inspect the visual presentation of
+the surface-syntactic structures that serve as input to the deep-syntactic
+parser and that are produced by the joint tagger and syntactic transition-based
+parser ran in the pipeline before the deep-syntactic parser.
+Author{1}{Firstname}#=%=#Juan
+Author{1}{Lastname}#=%=#Soler-Company
+Author{1}{Email}#=%=#juan.soler@upf.edu
+Author{1}{Affiliation}#=%=#Pompeu Fabra University
+Author{2}{Firstname}#=%=#Miguel
+Author{2}{Lastname}#=%=#Ballesteros
+Author{2}{Email}#=%=#miguel.ballesteros@upf.edu
+Author{2}{Affiliation}#=%=#Universitat Pompeu Fabra
+Author{3}{Firstname}#=%=#Bernd
+Author{3}{Lastname}#=%=#Bohnet
+Author{3}{Email}#=%=#bohnetbd@gmail.com
+Author{3}{Affiliation}#=%=#Google
+Author{4}{Firstname}#=%=#Simon
+Author{4}{Lastname}#=%=#Mille
+Author{4}{Email}#=%=#simon.mille@upf.edu
+Author{4}{Affiliation}#=%=#Pompeu Fabra University
+Author{5}{Firstname}#=%=#Leo
+Author{5}{Lastname}#=%=#Wanner
+Author{5}{Email}#=%=#leo.wanner@upf.edu
+Author{5}{Affiliation}#=%=#ICREA and Pompeu Fabra University
+
+==========

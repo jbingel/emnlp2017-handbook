@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#404
+FinalPaperTitle#=%=#Latent Domain Word Alignment for Heterogeneous Corpora
+ShortPaperTitle#=%=#Latent Domain Word Alignment for Heterogeneous Corpora
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#CHoang
+JobTitle#==#
+Organization#==#ILLC, University of Amsterdam
+Abstract#==#This work focuses on the insensitivity of existing word alignment models to
+domain differences, which often yields suboptimal results on large
+heterogeneous data. A novel latent domain word alignment model is proposed,
+which induces domain-conditioned lexical and alignment statistics. We propose
+to train the model on a heterogeneous corpus  under partial supervision, using
+a small number of seed samples from different domains. The seed samples allow
+estimating sharper, domain-conditioned word alignment statistics for sentence
+pairs. Our experiments show that the derived domain-conditioned statistics,
+once combined together, produce notable improvements both in word alignment
+accuracy and in translation accuracy of their resulting SMT systems.
+Author{1}{Firstname}#=%=#Hoang
+Author{1}{Lastname}#=%=#Cuong
+Author{1}{Email}#=%=#hoangcuong2011@gmail.com
+Author{1}{Affiliation}#=%=#ILLC, University of Amsterdam
+Author{2}{Firstname}#=%=#Khalil
+Author{2}{Lastname}#=%=#Sima'an
+Author{2}{Email}#=%=#k.simaan@uva.nl
+Author{2}{Affiliation}#=%=#ILLC, University of Amsterdam
+
+==========

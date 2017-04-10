@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Modeling the interaction between sensory and affective meanings for detecting metaphor
+ShortPaperTitle#=%=#Modeling the interaction between sensory and affective meanings for detecting metaphor
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Andrew Gargett
+JobTitle#==#
+Organization#==#
+Abstract#==#Concreteness and imageability have long been held to play an important role in
+the meanings of ﬁgurative expressions. Recent work has implemented this idea
+in order to detect metaphors in natural language discourse. Yet, metaphor is a
+rich linguistic resource, the import of which we are only just starting to
+understand, and like most aspects of natural language,it also involves
+affective meanings. We aim to demonstrate in this paper corpus-based and
+computational techniques for modelling the interactions between the underlying
+conceptual dimensions of metaphorical meaning and more social meanings like
+sentiment, and how doing so improves performance in such tasks as automatic
+detection of metaphor in discourse, and also in turn points to how we might
+better understand the complex models built to account for such interactions.
+Author{1}{Firstname}#=%=#Andrew
+Author{1}{Lastname}#=%=#Gargett
+Author{1}{Email}#=%=#a.d.gargett@cs.bham.ac.uk
+Author{1}{Affiliation}#=%=#University of Birmingham
+Author{2}{Firstname}#=%=#John
+Author{2}{Lastname}#=%=#Barnden
+Author{2}{Email}#=%=#J.A.Barnden@cs.bham.ac.uk
+Author{2}{Affiliation}#=%=#University of Birmingham
+
+==========

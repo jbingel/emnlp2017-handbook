@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#39
+FinalPaperTitle#=%=#INRIASAC: Simple Hypernym Extraction Methods
+ShortPaperTitle#=%=#INRIASAC: Simple Hypernym Extraction Methods
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Gregory Grefenstette
+JobTitle#==#
+Organization#==#Inria
+1 rue Honoré d'Estienne d'Orves
+91120 Palaiseau, France
+Abstract#==#For information retrieval, it is useful to classify documents using a hierarchy
+of terms from a domain. One problem is that, for many domains, hierarchies of
+terms are not available. The task 17 of SemEval 2015 addresses the problem of
+structuring a set of terms from a given domain into a taxonomy without manual
+intervention. Here we present some simple taxonomy structuring techniques, such
+as term overlap and document and sentence co-occurrence in large quantities of
+text (English Wikipedia) to produce hypernym pairs for the eight domain lists
+supplied by the task organizers. Our submission ranked first in this 2015
+benchmark, which suggests that overly complicated methods might need to be
+adapted to individual domains. Here, we describe our generic techniques and
+present an initial evaluation of results.
+Author{1}{Firstname}#=%=#Gregory
+Author{1}{Lastname}#=%=#Grefenstette
+Author{1}{Email}#=%=#gregory.grefenstette@inria.fr
+Author{1}{Affiliation}#=%=#INRIA
+
+==========

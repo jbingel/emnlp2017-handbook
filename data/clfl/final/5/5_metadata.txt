@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Rhetorical Figure Detection: the Case of Chiasmus
+ShortPaperTitle#=%=#Rhetorical Figure Detection: the Case of Chiasmus
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Marie Dubremetz
+JobTitle#==#
+Organization#==#Dept. of Linguistics and Philology
+Box 635,
+SE-75126 UPPSALA SWEDEN
+Abstract#==#We propose an approach to detecting the rhetorical figure called chiasmus,
+which involves the repetition of a pair of words in reverse order, as in ``all
+for one, one for all''. Although repetitions of words are common in natural
+language, true instances of chiasmus are rare, and the question is therefore
+whether a computer can effectively distinguish a chiasmus from a random
+criss-cross pattern. 
+We argue that chiasmus should be treated as a graded phenomenon, which leads to
+the design of an engine that extracts all criss-cross patterns and ranks them
+on a scale from prototypical chiasmi to less and less likely instances. Using
+an evaluation inspired by information retrieval, we demonstrate that our system
+achieves an average precision of 61%. As a by-product of the evaluation we also
+construct the first annotated corpus of chiasmi.
+Author{1}{Firstname}#=%=#Marie
+Author{1}{Lastname}#=%=#Dubremetz
+Author{1}{Email}#=%=#marie.dubremetz@lingfil.uu.se
+Author{1}{Affiliation}#=%=#Uppsala University
+Author{2}{Firstname}#=%=#Joakim
+Author{2}{Lastname}#=%=#Nivre
+Author{2}{Email}#=%=#joakim.nivre@lingfil.uu.se
+Author{2}{Affiliation}#=%=#Uppsala University
+
+==========

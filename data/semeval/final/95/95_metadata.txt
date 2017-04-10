@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#95
+FinalPaperTitle#=%=#IITPSemEval: Sentiment Discovery from 140 Characters
+ShortPaperTitle#=%=#IITPSemEval: Sentiment Discovery from 140 Characters
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Asif Ekbal
+JobTitle#==#Asif Ekbal
+Organization#==#IIT Patna 
+Patliputra Colony, 
+Patna-800013, Bihar, INDIA 
+Tel  +91-612-2552090,      
+Email:  asif@iitp.ac.in
+Abstract#==#This paper presents an overview of the system designed and submitted as part of
+our partici- pation to the SemEval-2015 Task 10 that deals with Sentiment
+Analysis in Twitter. We built a Support Vector Machine (SVM) based su- pervised
+learning model for Subtask A (term level task) and Subtask B (message level
+task). We also participated in Subtask E viz., deter- mining degree of polarity
+with the system built employing the available lexical resources. Ex- periments
+with the official datasets show F1 scores of 81.31% and 58.80% for Task A and
+Task B, respectively. For Subtask E, our model achieved a score of 0.413 on
+Kendal’s Tau metric.
+Author{1}{Firstname}#=%=#Ayush
+Author{1}{Lastname}#=%=#Kumar
+Author{1}{Email}#=%=#ayush.cs12@iitp.ac.in
+Author{1}{Affiliation}#=%=#IIT Patna
+Author{2}{Firstname}#=%=#Vamsi
+Author{2}{Lastname}#=%=#Krishna
+Author{2}{Email}#=%=#vamsi.cs11@iitp.ac.in
+Author{2}{Affiliation}#=%=#IIT Patna
+Author{3}{Firstname}#=%=#Asif
+Author{3}{Lastname}#=%=#Ekbal
+Author{3}{Email}#=%=#asif.ekbal@gmail.com
+Author{3}{Affiliation}#=%=#IIT Patna
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#369
+FinalPaperTitle#=%=#Lexical Event Ordering with an Edge-Factored Model
+ShortPaperTitle#=%=#Lexical Event Ordering with an Edge-Factored Model
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Omri Abend
+JobTitle#==#
+Organization#==#University of Edinburgh
+Abstract#==#Extensive lexical knowledge is necessary for temporal analysis and planning
+tasks. We ad-
+dress in this paper a lexical setting that allows for the straightforward
+incorporation of rich features and structural constraints. We explore a lexical
+event ordering task, namely determining the likely temporal order of events
+based solely on the identity of their predicates and arguments. We propose an
+“edge-factored” model for the task that decomposes over the edges of the
+event graph. We learn it using the structured perceptron. As lexical tasks
+require large amounts of text, we do not attempt manual annotation and instead
+use the textual order of events in a domain where this order is aligned with
+their temporal order, namely cooking recipes.
+Author{1}{Firstname}#=%=#Omri
+Author{1}{Lastname}#=%=#Abend
+Author{1}{Email}#=%=#oabend@inf.ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Shay B.
+Author{2}{Lastname}#=%=#Cohen
+Author{2}{Email}#=%=#scohen@inf.ed.ac.uk
+Author{2}{Affiliation}#=%=#
+Author{3}{Firstname}#=%=#Mark
+Author{3}{Lastname}#=%=#Steedman
+Author{3}{Email}#=%=#steedman@inf.ed.ac.uk
+Author{3}{Affiliation}#=%=#University of Edinburgh
+
+==========

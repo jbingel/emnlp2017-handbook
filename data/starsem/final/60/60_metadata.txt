@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#60
+FinalPaperTitle#=%=#Learning Structures of Negations from Flat Annotations
+ShortPaperTitle#=%=#Learning Structures of Negations from Flat Annotations
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Vinodkumar Prabhakaran
+JobTitle#==#
+Organization#==#Columbia University
+Abstract#==#We propose a novel method to learn negation
+expressions in a specialized (medical) domain.
+In our corpus, negations are annotated as ‘flat’
+text spans. This allows for some infelicities
+in the mark-up of the ground truth, making it
+less than perfectly aligned with the underlying
+syntactic structure. Nonetheless, the negations
+thus captured are correct in intent, and
+thus potentially valuable. We succeed in training
+a model for detecting the negated predicates
+corresponding to the annotated negations,
+by re-mapping the corpus to anchor its
+‘flat’ annotation spans into the predicate argument
+structure. Our key idea—re-mapping the
+negation instance spans to more uniform syntactic
+nodes—makes it possible to re-frame
+the learning task as a simpler one, and to leverage
+an imperfect resource in a way which enables
+us to learn a high performance model.
+We achieve high accuracy for negation detection
+overall, 87%. Our re-mapping scheme
+can be constructively applied to existing flatly
+annotated resources for other tasks where syntactic
+context is vital.
+Author{1}{Firstname}#=%=#Vinodkumar
+Author{1}{Lastname}#=%=#Prabhakaran
+Author{1}{Email}#=%=#vinod@cs.columbia.edu
+Author{1}{Affiliation}#=%=#Columbia University
+Author{2}{Firstname}#=%=#Branimir
+Author{2}{Lastname}#=%=#Boguraev
+Author{2}{Email}#=%=#bran@us.ibm.com
+Author{2}{Affiliation}#=%=#IBM Research
+
+==========

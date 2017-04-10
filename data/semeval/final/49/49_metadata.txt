@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#49
+FinalPaperTitle#=%=#ECNU: Extracting Effective Features from Multiple Sequential Sentences for Target-dependent Sentiment Analysis in Reviews
+ShortPaperTitle#=%=#Extracting Features from Sequential Sentences for Target-dependent Sentiment Analysis in Reviews
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Zhihua Zhang
+JobTitle#==#
+Organization#==#East China Normal University, Shanghai 200241, P. R. China
+Abstract#==#This paper describes our systems submitted to the target-dependent sentiment
+polarity classification subtask in aspect based sentiment analysis (ABSA) task
+(i.e., Task 12) in SemEval 2015. To settle this problem, we extracted several
+effective features from three sequential sentences, including sentiment
+lexicon, linguistic and domain specific features. Then we employed these
+features to construct classifiers using supervised classification algorithm. In
+laptop domain, our systems ranked 2nd out of 6 constrained submissions and 2nd
+out of 7 unconstrained submissions. In restaurant domain, the rankings are 5th
+out of 6 and 2nd out of 8 respectively.
+Author{1}{Firstname}#=%=#Zhihua
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#51131201039@ecnu.cn
+Author{1}{Affiliation}#=%=#East China Normal University
+Author{2}{Firstname}#=%=#Man
+Author{2}{Lastname}#=%=#Lan
+Author{2}{Email}#=%=#mlan@cs.ecnu.edu.cn
+Author{2}{Affiliation}#=%=#East China Normal University
+
+==========

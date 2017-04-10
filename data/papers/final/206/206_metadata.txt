@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#206
+FinalPaperTitle#=%=#Combining Word Embeddings and Feature Embeddings for Fine-grained Relation Extraction
+ShortPaperTitle#=%=#Combining Word Embeddings and Feature Embeddings for Fine-grained Relation Extraction
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Mo Yu
+JobTitle#==#
+Organization#==#Harbin Institute of Technology
+Abstract#==#Compositional embedding models build a representation
+  for a linguistic structure based on its component word embeddings.
+  While recent work has combined these word embeddings with hand crafted
+  features for improved performance, they are limited to using a small
+  number of features due to model complexity, thus limiting their
+applicability.
+  We propose a new model that conjoins features
+  and word embeddings while maintaing a small number of parameters by 
+  learning feature embeddings jointly with the parameters of a
+  compositional model. The result is a method that can scale to more 
+  features and more labels, which avoiding over-fitting.
+  We demonstrate that our model attains state-of-the-art results
+  on ACE and ERE fine-grain relation extraction.
+Author{1}{Firstname}#=%=#Mo
+Author{1}{Lastname}#=%=#Yu
+Author{1}{Email}#=%=#gflfof@gmail.com
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology
+Author{2}{Firstname}#=%=#Matthew R.
+Author{2}{Lastname}#=%=#Gormley
+Author{2}{Email}#=%=#mrg@cs.jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+Author{3}{Firstname}#=%=#Mark
+Author{3}{Lastname}#=%=#Dredze
+Author{3}{Email}#=%=#mdredze@cs.jhu.edu
+Author{3}{Affiliation}#=%=#Johns Hopkins University
+
+==========

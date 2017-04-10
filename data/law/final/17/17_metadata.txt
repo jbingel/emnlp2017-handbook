@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#On the Discoursive Structure of Computer Graphics Research Papers
+ShortPaperTitle#=%=#On the Discoursive Structure of Computer Graphics Research Papers
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Francesco Ronzano
+JobTitle#==#Researcher
+Organization#==#Universitat Pompeu Fabra
+Natural Language Processing Group
+Tànger, 122-140
+08018 Barcelona
+Spain
+Abstract#==#Understanding the structure of scientific discourse is of paramount importance
+for the development of appropriate Natural Language Processing tools able to
+extract and summarize information from research articles.  
+In this paper we present an annotated corpus of scientific discourse in the
+domain of Computer Graphics. We describe the way we built our corpus by
+designing an annotation schema and relying on three annotators for manually
+classifying all sentences into the defined categories. Our corpus constitutes a
+semantically rich resource for scientific text mining. In this respect, we also
+present the results of our initial experiments of automatic classification of
+sentences into the 5 main categories in our corpus.
+Author{1}{Firstname}#=%=#Beatriz
+Author{1}{Lastname}#=%=#Fisas
+Author{1}{Email}#=%=#beatriz.fisas@upf.edu
+Author{1}{Affiliation}#=%=#TALN Research Group, Universitat Pompeu Fabra, Barcelona
+Author{2}{Firstname}#=%=#Horacio
+Author{2}{Lastname}#=%=#Saggion
+Author{2}{Email}#=%=#horacio.saggion@upf.edu
+Author{2}{Affiliation}#=%=#UPF & University of Sheffield
+Author{3}{Firstname}#=%=#Francesco
+Author{3}{Lastname}#=%=#Ronzano
+Author{3}{Email}#=%=#francesco.ronzano@upf.edu
+Author{3}{Affiliation}#=%=#TALN Research Group, Universitat Pompeu Fabra, Barcelona
+
+==========

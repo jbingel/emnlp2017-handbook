@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#121
+FinalPaperTitle#=%=#FBK-HLT: An Application of Semantic Textual Similarity for Answer Selection in Community Question Answering
+ShortPaperTitle#=%=#FBK-HLT: A System for Answer Selection in Community Question Answering
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Ngoc Phuoc An Vo
+JobTitle#==#
+Organization#==#Fondazione Bruno Kessler (FBK), Trento, Italy
+University of Trento, Italy
+Abstract#==#This paper reports the description and performance of our system, FBK-HLT,
+participating in the SemEval 2015, Task #3 "Answer Se- lection in Community
+Question Answering" for English, for both subtasks. We submit two runs with
+different classifiers in combining typical features (lexical similarity, string
+similarity, word n-grams, etc) with machine translation evaluation metrics and
+with some ad hoc features (e.g user overlapping, spam filtering). We outperform
+the baseline system and achieve interesting results on the both subtasks.
+Author{1}{Firstname}#=%=#Ngoc Phuoc An
+Author{1}{Lastname}#=%=#Vo
+Author{1}{Email}#=%=#ngoc@fbk.eu
+Author{1}{Affiliation}#=%=#HLT-FBK, Trento
+Author{2}{Firstname}#=%=#Simone
+Author{2}{Lastname}#=%=#Magnolini
+Author{2}{Email}#=%=#magnolini@fbk.eu
+Author{2}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{3}{Firstname}#=%=#Octavian
+Author{3}{Lastname}#=%=#Popescu
+Author{3}{Email}#=%=#o.popescu@us.ibm.com
+Author{3}{Affiliation}#=%=#IBM Research
+
+==========

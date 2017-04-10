@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#66
+FinalPaperTitle#=%=#QASSIT: A Pretopological Framework for the Automatic Construction of Lexical Taxonomies from Raw Texts
+ShortPaperTitle#=%=#QASSIT: A Pretopological Framework for Lexical Taxonomies Acquisition
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#CLEUZIOU
+JobTitle#==#
+Organization#==#LIFO University of Orleans
+Rue Leonard de Vincy
+45067 ORLEANS
+FRANCE
+Abstract#==#This paper presents our participation to the SemEval Task-17, related to
+``Taxonomy Extraction Evaluation''. We propose a new methodology for
+semi-supervised and auto-supervised acquisition of lexical taxonomies from raw
+texts. Our approach is based on the theory of pretopology that offers a
+powerful formalism to model subsumption relations and transforms a list of
+terms into a structured term space by combining different discriminant
+criteria. In order to reach a good pretopological space, we define the Learning
+Pretopological Spaces method that learns a parameterized space by using an
+evolutionary strategy.
+Author{1}{Firstname}#=%=#Guillaume
+Author{1}{Lastname}#=%=#Cleuziou
+Author{1}{Email}#=%=#cleuziou@univ-orleans.fr
+Author{1}{Affiliation}#=%=#LIFO - University of Orléans
+Author{2}{Firstname}#=%=#Davide
+Author{2}{Lastname}#=%=#Buscaldi
+Author{2}{Email}#=%=#davide.buscaldi@lipn.univ-paris13.fr
+Author{2}{Affiliation}#=%=#LIPN, Université Paris 13
+Author{3}{Firstname}#=%=#Gaël
+Author{3}{Lastname}#=%=#Dias
+Author{3}{Email}#=%=#gael.dias@unicaen.fr
+Author{3}{Affiliation}#=%=#Normandie Univ. GREYC
+Author{4}{Firstname}#=%=#Vincent
+Author{4}{Lastname}#=%=#Levorato
+Author{4}{Email}#=%=#vlevorato@cesi.fr
+Author{4}{Affiliation}#=%=#CESI
+Author{5}{Firstname}#=%=#Christine
+Author{5}{Lastname}#=%=#Largeron
+Author{5}{Email}#=%=#Christine.Largeron@univ-st-etienne.fr
+Author{5}{Affiliation}#=%=#LHC University of Saint-Etienne
+
+==========

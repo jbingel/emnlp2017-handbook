@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#38
+FinalPaperTitle#=%=#Ckylark: A More Robust PCFG-LA Parser
+ShortPaperTitle#=%=#Ckylark: A More Robust PCFG-LA Parser
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Yusuke Oda
+JobTitle#==#
+Organization#==#Nara Institute of Science and Technology
+8916-5 Takayama, Ikoma, Nara 630-0192, Japan
+Abstract#==#This paper describes Ckylark, a PCFG-LA style phrase structure parser that is
+more
+robust than other parsers in the genre.  PCFG-LA parsers are known to achieve
+highly competitive performance, but sometimes the parsing process fails
+completely, and no parses can be generated.  Ckylark introduces three new
+techniques that prevent possible causes for parsing failure: outputting
+intermediate results when coarse-to-fine analysis fails, smoothing lexicon
+probabilities, and scaling probabilities to avoid underflow.  An experiment
+shows that this allows millions of sentences can be parsed without any
+failures, in contrast to other publicly available PCFG-LA parsers. Ckylark
+is　implemented in C++, and is available open-source under the LGPL license.
+Author{1}{Firstname}#=%=#Yusuke
+Author{1}{Lastname}#=%=#Oda
+Author{1}{Email}#=%=#oda.yusuke.on9@is.naist.jp
+Author{1}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{2}{Firstname}#=%=#Graham
+Author{2}{Lastname}#=%=#Neubig
+Author{2}{Email}#=%=#neubig@is.naist.jp
+Author{2}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{3}{Firstname}#=%=#Sakriani
+Author{3}{Lastname}#=%=#Sakti
+Author{3}{Email}#=%=#ssakti@is.naist.jp
+Author{3}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{4}{Firstname}#=%=#Tomoki
+Author{4}{Lastname}#=%=#Toda
+Author{4}{Email}#=%=#tomoki@is.naist.jp
+Author{4}{Affiliation}#=%=#Nara Institute of Science and Technology
+Author{5}{Firstname}#=%=#Satoshi
+Author{5}{Lastname}#=%=#Nakamura
+Author{5}{Email}#=%=#s-nakamura@is.naist.jp
+Author{5}{Affiliation}#=%=#Nara Institute of Science and Technology
+
+==========

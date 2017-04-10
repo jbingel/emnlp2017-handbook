@@ -1,0 +1,36 @@
+# Edit this file: 
+# reorder the lines that correspond to papers 
+#   and modify time slot, e.g. 9:00--9:30 
+# add lines for 
+#   start of new day, format: * DAY
+#   session headline, format: = HEADLINE 
+#   additional items, format: + TIME DESCRIPTION
+* Thursday, June 4, 2015
+= Session 1
++ 8:57--9:00 Welcome
++ 9:00--10:00 Exploratory Programming for Literary Work: invited talk, Nick Montfort, MIT
+13 # 10:00--10:30 Tools for Digital Humanities: Enabling Access to the Old Occitan Romance of Flamenca
+= Coffee break
+= Session 2
+17 # 11:00--11:30 RhymeDesign: A Tool for Analyzing Sonic Devices in Poetry 
+5 # 11:30--12:00 Rhetorical Figure Detection: the Case of Chiasmus
+15 # 12:00--12:30 Validating Literary Theories Using Automatic Social Network Extraction from Text
+= Lunch break
+= Session 3
++ 14:00--15:00 The (not so) Simple Shape of Stories: invited talk, Matthew Jockers, UNL
++ 15:00--15:30 Poster teaser talks
+= Coffee break
+= Session 4
++ 16:00--16:30 Poster session
+18 # GutenTag: an NLP-driven Tool for Digital Humanities Research in the Project Gutenberg Corpus
+7 # A Pilot Experiment on Exploiting Translations for Literature Studies on Kafka's "Verwandlung"
+19 # Identifying Literary Texts with Bigrams
+2 # Visualizing Poetry with SPARSAR – Visual Maps from Poetic Content
+20 # Burrows Delta in literary authorship attribution - why does it work so well?
+3 # Gender-Based Vocation Identification in Swedish 19th Century Prose Fiction using Linguistic Patterns, NER and CRF Learning
+16 # Rule-based Coreference Resolution in German Historic Novels
+14 # A computational linguistic approach to Spanish Golden Age Sonnets: metrical and semantic aspects.
+= Session 5
+6 # 16:30--17:00 Automated Translation of a Literary Work: A Pilot Study
+8 # 17:00--17:30 Translating Literary Text between Related Languages using SMT
++ 17:30--17:33 Farewell

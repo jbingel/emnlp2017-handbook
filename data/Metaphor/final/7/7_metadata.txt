@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Effects of Situational Factors on Metaphor Detection in an Online Discussion Forum
+ShortPaperTitle#=%=#Effects of Situational Factors on Metaphor Detection in an Online Discussion Forum
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Hyeju Jang
+JobTitle#==#
+Organization#==#Carnegie Mellon University, 5000 Forbes Avenue, Pittsburgh, PA 15213, USA
+Abstract#==#Accurate metaphor detection remains an open challenge. In this paper, we
+explore a new type of clue for disambiguating terms that may be used
+metaphorically or literally in an online medical support community. In
+particular, we investigate the influence of situational factors, specifically
+the experience of stressful illness-related events in a poster's recent
+history, on propensity to employ the metaphorical sense of words when they can
+be used to illustrate the emotion behind the experience of the event.  We
+evaluate the positive impact of automatically extracted cancer events on a
+metaphor detection task using data from an online cancer forum.  We also
+provide a discussion of specific associations between events and metaphors,
+such as journey with diagnosis or warrior with chemotherapy.
+Author{1}{Firstname}#=%=#Hyeju
+Author{1}{Lastname}#=%=#Jang
+Author{1}{Email}#=%=#hyejuj@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Miaomiao
+Author{2}{Lastname}#=%=#Wen
+Author{2}{Email}#=%=#mwen@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Carolyn
+Author{3}{Lastname}#=%=#Rose
+Author{3}{Email}#=%=#cprose@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

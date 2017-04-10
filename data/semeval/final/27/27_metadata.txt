@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#SINAI: Syntactic Approach for Aspect-Based Sentiment Analysis
+ShortPaperTitle#=%=#SINAI: Syntactic Approach for Aspect-Based Sentiment Analysis
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Salud M. Jiménez-Zafra
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper describes the participation of the SINAI research group in the task
+Aspect Based Sentiment Analysis of SemEval Workshop 2015 Edition. We propose a
+syntactic approach for identifying the words that modify each aspect, with the
+aim of classifying the sentiment expressed towards each attribute of an entity.
+Author{1}{Firstname}#=%=#Salud M.
+Author{1}{Lastname}#=%=#Jiménez-Zafra
+Author{1}{Email}#=%=#sjzafra@ujaen.es
+Author{1}{Affiliation}#=%=#University of Jaén
+Author{2}{Firstname}#=%=#Eugenio
+Author{2}{Lastname}#=%=#Martínez-Cámara
+Author{2}{Email}#=%=#emcamara@ujaen.es
+Author{2}{Affiliation}#=%=#University of Jaén
+Author{3}{Firstname}#=%=#M. Teresa
+Author{3}{Lastname}#=%=#Martín-Valdivia
+Author{3}{Email}#=%=#maite@ujaen.es
+Author{3}{Affiliation}#=%=#University of Jaen
+Author{4}{Firstname}#=%=#L. Alfonso
+Author{4}{Lastname}#=%=#Ureña López
+Author{4}{Email}#=%=#laurena@ujaen.es
+Author{4}{Affiliation}#=%=#University of Jaen
+
+==========

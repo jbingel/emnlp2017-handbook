@@ -1,0 +1,54 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Learning Sentence Ordering for Opinion Generation of Debate
+ShortPaperTitle#=%=#Learning Sentence Ordering for Opinion Generation of Debate
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Toshihiko Yanase
+JobTitle#==#
+Organization#==#Hitachi, Ltd., Research & Development Group
+1-280, Higashi-koigakubo
+Kokubunji-shi, Tokyo, 185-8601 Japan
+Abstract#==#We propose a sentence ordering method to help compose persuasive opinions for
+debating. In debate texts, support of an opinion such as evidence and reason
+typically follows the main claim. We focused on this claim-support structure to
+order sentences, and developed a two-step method. First, we select from among
+candidate sentences a first sentence that is likely to be a claim. Second, we
+order the remaining sentences by using a ranking-based method. We tested the
+effectiveness of the proposed method by comparing it with a general-purpose
+method of sentence ordering and found through experiment that it improves the
+accuracy of first sentence selection by about 19 percentage points and had a
+superior performance over all metrics. We also applied the proposed method to a
+constructive speech generation task.
+Author{1}{Firstname}#=%=#Toshihiko
+Author{1}{Lastname}#=%=#Yanase
+Author{1}{Email}#=%=#toshihiko.yanase.gm@hitachi.com
+Author{1}{Affiliation}#=%=#Research & Development Group, Hitachi, Ltd.
+Author{2}{Firstname}#=%=#Toshinori
+Author{2}{Lastname}#=%=#Miyoshi
+Author{2}{Email}#=%=#toshinori.miyoshi.pd@hitachi.com
+Author{2}{Affiliation}#=%=#Research & Development Group, Hitachi, Ltd.
+Author{3}{Firstname}#=%=#Kohsuke
+Author{3}{Lastname}#=%=#Yanai
+Author{3}{Email}#=%=#kohsuke.yanai.cs@hitachi.com
+Author{3}{Affiliation}#=%=#Research & Development Group, Hitachi, Ltd.
+Author{4}{Firstname}#=%=#Misa
+Author{4}{Lastname}#=%=#Sato
+Author{4}{Email}#=%=#misa.sato.mw@hitachi.com
+Author{4}{Affiliation}#=%=#Hitachi, Ltd.
+Author{5}{Firstname}#=%=#Makoto
+Author{5}{Lastname}#=%=#Iwayama
+Author{5}{Email}#=%=#makoto.iwayama.nw@hitachi.com
+Author{5}{Affiliation}#=%=#Research & Development Group, Hitachi, Ltd.
+Author{6}{Firstname}#=%=#Yoshiki
+Author{6}{Lastname}#=%=#Niwa
+Author{6}{Email}#=%=#yoshiki.niwa.tx@hitachi.com
+Author{6}{Affiliation}#=%=#Research & Development Group, Hitachi, Ltd.
+Author{7}{Firstname}#=%=#Paul
+Author{7}{Lastname}#=%=#Reisert
+Author{7}{Email}#=%=#preisert@ecei.tohoku.ac.jp
+Author{7}{Affiliation}#=%=#Tohoku University
+Author{8}{Firstname}#=%=#Kentaro
+Author{8}{Lastname}#=%=#Inui
+Author{8}{Email}#=%=#inui@ecei.tohoku.ac.jp
+Author{8}{Affiliation}#=%=#Tohoku University
+
+==========

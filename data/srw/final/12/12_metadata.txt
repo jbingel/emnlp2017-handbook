@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Relation extraction pattern ranking using word similarity
+ShortPaperTitle#=%=#Relation extraction pattern ranking using word similarity
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Konstantinos Lambrou-Latreille
+JobTitle#==#
+Organization#==#École Polytechnique de Montréal - 2900 Boulevard Edouard-Montpetit, Montréal, Québec, Canada
+CRIM - 405 Ogilvy Avenue #101, Montréal, Québec, Canada
+Abstract#==#Our thesis proposal aims at integrating word similarity measures in pattern
+ranking for relation extraction bootstrapping algorithms. We note that although
+many contributions have been done on pattern ranking schemas, few explored the
+use of word-level semantic similarity. Our hypothesis is that word similarity
+would allow better pattern comparison and better pattern ranking, resulting in
+less semantic drift commonly problematic in bootstrapping algorithms. In this
+paper, as a first step into this research, we explore different pattern
+representations, various existing pattern ranking approaches and some word
+similarity measures. We also present a methodology and evaluation approach to
+test our hypothesis.
+Author{1}{Firstname}#=%=#Konstantinos
+Author{1}{Lastname}#=%=#Lambrou-Latreille
+Author{1}{Email}#=%=#koslambrou@gmail.com
+Author{1}{Affiliation}#=%=#
+
+==========

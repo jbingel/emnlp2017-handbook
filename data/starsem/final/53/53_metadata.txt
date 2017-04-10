@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#53
+FinalPaperTitle#=%=#Event Extraction as Frame-Semantic Parsing
+ShortPaperTitle#=%=#Event Extraction as Frame-Semantic Parsing
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Alex Judea
+JobTitle#==#
+Organization#==#HITS gGmbH
+Heidelberg Institute for Theoretical Studies
+Schloss-Wolfsbrunnenweg 35
+69118 Heidelberg
+Abstract#==#Based on the hypothesis that frame-semantic parsing and event extraction are
+structurally identical tasks, we retrain SEMAFOR, a state-of-the-art
+frame-semantic parsing
+system to predict event triggers and arguments. We describe how we change
+SEMAFOR to be
+better suited for the new task and show that it performs comparable to one of
+the best systems in event extraction. We also describe a bias in one of its
+models and propose a feature factorization which is better suited for this
+model.
+Author{1}{Firstname}#=%=#Alex
+Author{1}{Lastname}#=%=#Judea
+Author{1}{Email}#=%=#alex.judea@h-its.org
+Author{1}{Affiliation}#=%=#HITS Heidelberg, Germany
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Strube
+Author{2}{Email}#=%=#michael.strube@h-its.org
+Author{2}{Affiliation}#=%=#Heidelberg Institute for Theoretical Studies
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#384
+FinalPaperTitle#=%=#Unsupervised Sparse Vector Densification for Short Text Similarity
+ShortPaperTitle#=%=#Unsupervised Sparse Vector Densification for Short Text Similarity
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Yangqiu
+JobTitle#==#
+Organization#==#UIUC, 201 N. Goodwin Avenue, Urbana, IL 61801
+Abstract#==#Sparse representations of text such as bag-of-words models or extended explicit
+semantic analysis (ESA) representations are commonly used in many NLP
+applications. However, for short texts, the similarity between two such sparse
+vectors is not accurate due to the small term overlap. While there have been
+multiple proposals for dense representations of words, measuring similarity
+between short texts (sentences, snippets, paragraphs) requires combining these
+token level similarities. In this paper, we propose to combine ESA
+representations and word2vec representations as a way to generate denser
+representations and, consequently, a better similarity measure between short
+texts. We study three densification mechanisms that involve aligning sparse
+representation via many-to-many, many-to-one, and one-to-one mappings. We then
+show the effectiveness of these mechanisms on measuring similarity between
+short texts.
+Author{1}{Firstname}#=%=#Yangqiu
+Author{1}{Lastname}#=%=#Song
+Author{1}{Email}#=%=#yqsong@gmail.com
+Author{1}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{2}{Firstname}#=%=#Dan
+Author{2}{Lastname}#=%=#Roth
+Author{2}{Email}#=%=#danr@illinois.edu
+Author{2}{Affiliation}#=%=#University of Illinois
+
+==========

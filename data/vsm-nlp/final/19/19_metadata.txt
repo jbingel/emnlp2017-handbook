@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#A Vector Space Approach for Aspect Based Sentiment Analysis
+ShortPaperTitle#=%=#A Vector Space Approach for Aspect Based Sentiment Analysis
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Abdulaziz Alghunaim
+JobTitle#==#
+Organization#==#MIT Computer Science and Artificial Intelligence Lab
+Abstract#==#Vector representations for language has been shown to be useful in a number of
+Natural Language Processing tasks. In this paper, we aim to investigate the
+effectiveness of word vector representations for the problem of Aspect Based
+Sentiment Analysis. In particular, we target three sub-tasks namely aspect term
+extraction, aspect category detection, and aspect sentiment prediction. We
+investigate the effectiveness of vector representations over different text
+data and evaluate the quality of domain-dependent vectors. We utilize vector
+representations to compute various vector-based features and conduct extensive
+experiments to demonstrate their effectiveness. Using simple vector based
+features, we achieve F1 scores of 79.91% for aspect term extraction, 86.75% for
+category detection, and the accuracy 72.39% for aspect sentiment prediction.
+Author{1}{Firstname}#=%=#Abdulaziz
+Author{1}{Lastname}#=%=#Alghunaim
+Author{1}{Email}#=%=#azizkag@mit.edu
+Author{1}{Affiliation}#=%=#MIT
+Author{2}{Firstname}#=%=#Mitra
+Author{2}{Lastname}#=%=#Mohtarami
+Author{2}{Email}#=%=#mitra@csail.mit.edu
+Author{2}{Affiliation}#=%=#MIT Computer Science and Artificial Intelligence Lab
+Author{3}{Firstname}#=%=#Scott
+Author{3}{Lastname}#=%=#Cyphers
+Author{3}{Email}#=%=#cyphers@mit.edu
+Author{3}{Affiliation}#=%=#MIT Computer Science and Artificial Intelligence Lab
+Author{4}{Firstname}#=%=#Jim
+Author{4}{Lastname}#=%=#Glass
+Author{4}{Email}#=%=#glass@mit.edu
+Author{4}{Affiliation}#=%=#MIT Computer Science and Artificial Intelligence Lab
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#Word Embeddings vs Word Types for Sequence Labeling: the Curious Case of CV Parsing
+ShortPaperTitle#=%=#Word Embeddings vs Word Types for Sequence Labeling: the Curious Case of CV Parsing
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Melanie Tosik
+JobTitle#==#
+Organization#==#
+Abstract#==#We explore new methods of improving Curriculum Vitae (CV) parsing for German
+documents by applying recent research on the application of word embeddings in
+Natural Language Processing (NLP). Our approach integrates the word embeddings
+as input features for a probabilistic sequence labeling model that relies on
+the Conditional Random Field (CRF) framework. Best-performing word embeddings
+are generated from a large sample of German CVs. The best results on the
+extraction task are obtained by the model which integrates the word embeddings
+together with a number of hand-crafted features. The improvements are
+consistent throughout different sections of the target documents. The effect of
+the word embeddings is strongest on semi-structured, out-of-sample data.
+Author{1}{Firstname}#=%=#Melanie
+Author{1}{Lastname}#=%=#Tosik
+Author{1}{Email}#=%=#tosik@uni-potsdam.de
+Author{1}{Affiliation}#=%=#University of Potsdam
+Author{2}{Firstname}#=%=#Carsten
+Author{2}{Lastname}#=%=#Lygteskov Hansen
+Author{2}{Email}#=%=#hansen@textkernel.nl
+Author{2}{Affiliation}#=%=#Textkernel
+Author{3}{Firstname}#=%=#Gerard
+Author{3}{Lastname}#=%=#Goossen
+Author{3}{Email}#=%=#goossen@textkernel.nl
+Author{3}{Affiliation}#=%=#Textkernel
+Author{4}{Firstname}#=%=#Mihai
+Author{4}{Lastname}#=%=#Rotaru
+Author{4}{Email}#=%=#rotaru@textkernel.nl
+Author{4}{Affiliation}#=%=#Textkernel
+
+==========

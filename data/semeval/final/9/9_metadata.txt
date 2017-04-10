@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#TrWP: Text Relatedness using Word and Phrase Relatedness
+ShortPaperTitle#=%=#TrWP: Text Relatedness using Word and Phrase Relatedness
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Md Rashadul Hasan Rakib
+JobTitle#==#
+Organization#==#
+Abstract#==#Text is composed of words and phrases. In
+bag-of-word model, phrases in texts are split
+into words. This may discard the inner semantics
+of phrases which in turn may give inconsistent
+relatedness score between two texts.
+TrWP, the unsupervised text relatedness approach
+combines both word and phrase relatedness.
+The word relatedness is computed
+using an existing unsupervised co-occurrence
+based method. The phrase relatedness is computed
+using an existing unsupervised phrase
+relatedness function f that adopts Sum-Ratio
+technique based on the statistics in the Google
+n-gram corpus of overlapping n-grams associated
+with the two input phrases. The second
+run of TrWP ranked 30th out of 73 runs in
+SemEval-2015 task2a (English STS).
+Author{1}{Firstname}#=%=#Md Rashadul Hasan
+Author{1}{Lastname}#=%=#Rakib
+Author{1}{Email}#=%=#rakib.cse02@gmail.com
+Author{1}{Affiliation}#=%=#Dalhousie University
+Author{2}{Firstname}#=%=#Aminul
+Author{2}{Lastname}#=%=#Islam
+Author{2}{Email}#=%=#islam@cs.dal.ca
+Author{2}{Affiliation}#=%=#Dalhousie University
+Author{3}{Firstname}#=%=#Evangelos
+Author{3}{Lastname}#=%=#Milios
+Author{3}{Email}#=%=#eem@cs.dal.ca
+Author{3}{Affiliation}#=%=#Dalhousie University
+
+==========

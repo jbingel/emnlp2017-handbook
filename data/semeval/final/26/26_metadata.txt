@@ -1,0 +1,73 @@
+SubmissionNumber#=%=#26
+FinalPaperTitle#=%=#QCRI: Answer Selection for Community Question Answering - Experiments for Arabic and English
+ShortPaperTitle#=%=#QCRI: Answer Selection for Community Question Answering - Experiments for Arabic and English
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Preslav Nakov
+JobTitle#==#Senior Scientist
+Organization#==#Qatar Computing Research Institute
+Tornado Tower
+floor 10
+P.O.box 5825
+Doha, Qatar
+Abstract#==#This paper describes QCRI's participation in SemEval-2015 Task 3 "Answer
+Selection in Community Question Answering", which targeted real-life Web
+forums, and was offered in both Arabic and English. We apply a supervised
+machine learning approach considering a manifold of features including among
+others word n-grams, text similarity, sentiment analysis, the presence of
+specific words, and the context of a comment. Our approach was the
+best performing one in the Arabic task and the third best in the two English
+subtasks.
+Author{1}{Firstname}#=%=#Massimo
+Author{1}{Lastname}#=%=#Nicosia
+Author{1}{Email}#=%=#m.nicosia@gmail.com
+Author{1}{Affiliation}#=%=#Qatar Computing Research Institute, Qatar - University of Trento, Italy
+Author{2}{Firstname}#=%=#Simone
+Author{2}{Lastname}#=%=#Filice
+Author{2}{Email}#=%=#sfilice@qf.org.qa
+Author{2}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{3}{Firstname}#=%=#Alberto
+Author{3}{Lastname}#=%=#Barrón-Cedeño
+Author{3}{Email}#=%=#albarron@gmail.com
+Author{3}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{4}{Firstname}#=%=#Iman
+Author{4}{Lastname}#=%=#Saleh
+Author{4}{Email}#=%=#iman.saleh@fci-cu.edu.eg
+Author{4}{Affiliation}#=%=#Cairo University, Faculty of Computers and Information
+Author{5}{Firstname}#=%=#Hamdy
+Author{5}{Lastname}#=%=#Mubarak
+Author{5}{Email}#=%=#hmubarak@qf.org.qa
+Author{5}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{6}{Firstname}#=%=#Wei
+Author{6}{Lastname}#=%=#Gao
+Author{6}{Email}#=%=#wgao@qf.org.qa
+Author{6}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{7}{Firstname}#=%=#Preslav
+Author{7}{Lastname}#=%=#Nakov
+Author{7}{Email}#=%=#preslav.nakov@gmail.com
+Author{7}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{8}{Firstname}#=%=#Giovanni
+Author{8}{Lastname}#=%=#Da San Martino
+Author{8}{Email}#=%=#gmartino@qf.org.qa
+Author{8}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{9}{Firstname}#=%=#Alessandro
+Author{9}{Lastname}#=%=#Moschitti
+Author{9}{Email}#=%=#moschitti@disi.unitn.it
+Author{9}{Affiliation}#=%=#Qatar Computing Research Institute (prof. in Computer Science at University of Trento)
+Author{10}{Firstname}#=%=#Kareem
+Author{10}{Lastname}#=%=#Darwish
+Author{10}{Email}#=%=#kdarwish@qf.org.qa
+Author{10}{Affiliation}#=%=#Qatar Computing Research Institute, Qatar Foundation
+Author{11}{Firstname}#=%=#Lluís
+Author{11}{Lastname}#=%=#Màrquez
+Author{11}{Email}#=%=#lluism@lsi.upc.edu
+Author{11}{Affiliation}#=%=#Qatar Computing Research Institute
+Author{12}{Firstname}#=%=#Shafiq
+Author{12}{Lastname}#=%=#Joty
+Author{12}{Email}#=%=#sjoty@qf.org.qa
+Author{12}{Affiliation}#=%=#QCRI
+Author{13}{Firstname}#=%=#Walid
+Author{13}{Lastname}#=%=#Magdy
+Author{13}{Email}#=%=#wmagdy@qf.org.qa
+Author{13}{Affiliation}#=%=#Qatar Computing Research Institute
+
+==========

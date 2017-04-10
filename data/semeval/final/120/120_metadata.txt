@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#120
+FinalPaperTitle#=%=#KLUEless: Polarity Classification and Association
+ShortPaperTitle#=%=#KLUEless: Polarity Classification and Association
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Nataliia Plotnikova
+JobTitle#==#
+Organization#==#FAU Erlangen-Nürnberg
+Abstract#==#This paper describes the KLUEless system which participated in the SemEval-2015
+task on “Sentiment Analysis in Twitter”. This year the updated system based
+on the developments for the same task in 2014 (Evert et al., 2014) and 2013
+(Proisl et al., 2013) participated in all five subtasks. This paper gives an
+overview of the core features extended by different additional features and
+parameters required for individual subtasks. Experiments carried out after the
+evaluation period on the test dataset 2015 with the gold standard available are
+integrated into each subtask to explain the submitted feature selection.
+Author{1}{Firstname}#=%=#Nataliia
+Author{1}{Lastname}#=%=#Plotnikova
+Author{1}{Email}#=%=#nataliia.plotnikova@fau.de
+Author{1}{Affiliation}#=%=#FAU Erlangen-Nürnberg
+Author{2}{Firstname}#=%=#Micha
+Author{2}{Lastname}#=%=#Kohl
+Author{2}{Email}#=%=#micha.kohl@fau.de
+Author{2}{Affiliation}#=%=#FAU Erlangen-Nürnberg
+Author{3}{Firstname}#=%=#Kevin
+Author{3}{Lastname}#=%=#Volkert
+Author{3}{Email}#=%=#kevin.volkert@fau.de
+Author{3}{Affiliation}#=%=#FAU Erlangen-Nürnberg
+Author{4}{Firstname}#=%=#Stefan
+Author{4}{Lastname}#=%=#Evert
+Author{4}{Email}#=%=#stefan.evert@fau.de
+Author{4}{Affiliation}#=%=#FAU Erlangen-Nürnberg
+Author{5}{Firstname}#=%=#Andreas
+Author{5}{Lastname}#=%=#Lerner
+Author{5}{Email}#=%=#andreas.lerner@fau.de
+Author{5}{Affiliation}#=%=#FAU Erlangen-Nürnberg
+Author{6}{Firstname}#=%=#Natalie
+Author{6}{Lastname}#=%=#Dykes
+Author{6}{Email}#=%=#natalie.dykes@fau.de
+Author{6}{Affiliation}#=%=#FAU Erlangen-Nürnberg
+Author{7}{Firstname}#=%=#Heiko
+Author{7}{Lastname}#=%=#Ermer
+Author{7}{Email}#=%=#heiko.ermer@fau.de
+Author{7}{Affiliation}#=%=#FAU Erlangen-Nürnberg
+
+==========

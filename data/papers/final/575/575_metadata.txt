@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#575
+FinalPaperTitle#=%=#A Neural Network Approach to Context-Sensitive Generation of Conversational Responses
+ShortPaperTitle#=%=#A Neural Network Approach to Context-Sensitive Generation of Conversational Responses
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Alessandro Sordoni
+JobTitle#==#
+Organization#==#
+Abstract#==#We present a novel response generation system that can be trained end to end on
+large quantities of unstructured Twitter conversations.  A neural network
+architecture is used to address sparsity issues that arise when integrating
+contextual information into classic statistical models, allowing the system to
+take into account previous dialog utterances. Our dynamic-context generative
+models show consistent gains over both context-sensitive and
+non-context-sensitive Machine Translation and Information Retrieval baselines.
+Author{1}{Firstname}#=%=#Alessandro
+Author{1}{Lastname}#=%=#Sordoni
+Author{1}{Email}#=%=#alessandro.sordoni@gmail.com
+Author{1}{Affiliation}#=%=#Université de Montréal
+Author{2}{Firstname}#=%=#Michel
+Author{2}{Lastname}#=%=#Galley
+Author{2}{Email}#=%=#mgalley@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft
+Author{3}{Firstname}#=%=#Michael
+Author{3}{Lastname}#=%=#Auli
+Author{3}{Email}#=%=#michael.auli@gmail.com
+Author{3}{Affiliation}#=%=#Facebook
+Author{4}{Firstname}#=%=#Chris
+Author{4}{Lastname}#=%=#Brockett
+Author{4}{Email}#=%=#chris.brockett@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft
+Author{5}{Firstname}#=%=#Yangfeng
+Author{5}{Lastname}#=%=#Ji
+Author{5}{Email}#=%=#jiyfeng@gmail.com
+Author{5}{Affiliation}#=%=#Georgia Tech
+Author{6}{Firstname}#=%=#Margaret
+Author{6}{Lastname}#=%=#Mitchell
+Author{6}{Email}#=%=#margarmitchell@gmail.com
+Author{6}{Affiliation}#=%=#Microsoft
+Author{7}{Firstname}#=%=#Jian-Yun
+Author{7}{Lastname}#=%=#Nie
+Author{7}{Email}#=%=#nie@iro.umontreal.ca
+Author{7}{Affiliation}#=%=#Université de Montréal
+Author{8}{Firstname}#=%=#Jianfeng
+Author{8}{Lastname}#=%=#Gao
+Author{8}{Email}#=%=#jfgao@microsoft.com
+Author{8}{Affiliation}#=%=#Microsoft
+Author{9}{Firstname}#=%=#Bill
+Author{9}{Lastname}#=%=#Dolan
+Author{9}{Email}#=%=#billdol@microsoft.com
+Author{9}{Affiliation}#=%=#Microsoft
+
+==========

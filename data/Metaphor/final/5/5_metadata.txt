@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Fighting Words and Antagonistic Worlds
+ShortPaperTitle#=%=#Fighting Words and Antagonistic Worlds
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Tony Veale
+JobTitle#==#
+Organization#==#
+Abstract#==#Metaphor is a fundamentally antagonistic way of viewing and describing the
+world. Metaphors ask us to see what is not there, so as to remake the world to
+our own liking and to suit our own lexicons. But if metaphors clash with the
+world as it is, they can also clash with each other. Each metaphor represents a
+stance from which to view a topic, and though some stances are mutually
+compatible, many more are naturally opposed to each other. So while we cringe
+at a clumsily mixed metaphor, there is real value to be had from a deliberate
+opposition of conceptual metaphors. Such contrasts reveal the limits of a
+particular worldview, and allow us to extract humorous insight from each
+op-position. We present here an automatic approach to the framing of
+antagonistic metaphors, embodied in a metaphor-generating Twitterbot named
+@MetaphorMagnet.
+Author{1}{Firstname}#=%=#Tony
+Author{1}{Lastname}#=%=#Veale
+Author{1}{Email}#=%=#tony.veale@gmail.com
+Author{1}{Affiliation}#=%=#UCD, Dublin and KAIST, South Korea
+
+==========

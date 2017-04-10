@@ -1,0 +1,53 @@
+SubmissionNumber#=%=#34
+FinalPaperTitle#=%=#An Analytic and Empirical Evaluation of Return-on-Investment-Based Active Learning
+ShortPaperTitle#=%=#An Analytic and Empirical Evaluation of Return-on-Investment-Based Active Learning
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Robbie Haertel
+JobTitle#==#
+Organization#==#Computer Science Department
+Brigham Young University
+3361 TMCB PO Box 26576
+Provo, UT 84602-6576
+Abstract#==#Return-on-Investment (ROI) is a cost-conscious
+approach to active learning (AL)
+that considers both estimates of cost and
+of benefit in active sample selection. We
+investigate the theoretical conditions for
+successful cost-conscious AL using ROI by
+examining the conditions under which ROI
+would optimize the area under the cost/benefit
+curve. We then empirically measure the
+degree to which optimality is jeopardized in
+practice when the conditions are violated.
+The reported experiments involve an English
+part-of-speech annotation task. Our results
+show that ROI can indeed successfully reduce
+total annotation costs and should be considered
+as a viable option for machine-assisted
+annotation. On the basis of our experiments,
+we make recommendations for benefit estimators
+to be employed in ROI. In particular,
+we find that the more linearly related a benefit
+estimate is to the true benefit, the better the
+estimate performs when paired in ROI with
+an imperfect cost estimate. Lastly, we apply
+our analysis to help explain the mixed results
+of previous work on these questions.
+Author{1}{Firstname}#=%=#Robbie
+Author{1}{Lastname}#=%=#Haertel
+Author{1}{Email}#=%=#robbie.haertel@gmail.com
+Author{1}{Affiliation}#=%=#Brigham Young University
+Author{2}{Firstname}#=%=#Eric
+Author{2}{Lastname}#=%=#Ringger
+Author{2}{Email}#=%=#ringger@cs.byu.edu
+Author{2}{Affiliation}#=%=#Brigham Young University
+Author{3}{Firstname}#=%=#Kevin
+Author{3}{Lastname}#=%=#Seppi
+Author{3}{Email}#=%=#kseppi@cs.byu.edu
+Author{3}{Affiliation}#=%=#Brigham Young University
+Author{4}{Firstname}#=%=#Paul
+Author{4}{Lastname}#=%=#Felt
+Author{4}{Email}#=%=#paul.lewis.felt@gmail.com
+Author{4}{Affiliation}#=%=#Brigham Young University
+
+==========

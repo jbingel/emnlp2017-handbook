@@ -1,0 +1,13 @@
+abbrev NAACL-HLT
+type Main Conference
+title The 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies
+url http://naacl.org/naacl-hlt-2015/
+booktitle Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies
+month May--June
+year 2015
+location Denver, Colorado
+publisher Association for Computational Linguistics
+chairs Rada Mihalcea (University of Michigan)
+chairs Joyce Chai (Michigan State University)
+chairs Anoop Sarkar (Simon Fraser University)
+bib_url http://www.aclweb.org/anthology/N15-1%03d

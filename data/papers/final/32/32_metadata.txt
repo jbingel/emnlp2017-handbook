@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#32
+FinalPaperTitle#=%=#How to Make a Frenemy: Multitape FSTs for Portmanteau Generation
+ShortPaperTitle#=%=#How to Make a Frenemy: Multitape FSTs for Portmanteau Generation
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Aliya Robin Deri
+JobTitle#==#
+Organization#==#USC Information Sciences Institute
+4676 Admiralty Way, Suite 1001
+Marina del Rey, CA 90292
+Abstract#==#A portmanteau is a type of compound word that fuses the sounds and meanings of
+two component words; for example, “frenemy” (friend + enemy) or “smog”
+(smoke + fog). We develop a system, including a novel multitape FST, that takes
+an input of two words and outputs possible portmanteaux. Our system is trained
+on a list of known portmanteaux and their component words, and achieves 45%
+exact matches in cross-validated experiments.
+Author{1}{Firstname}#=%=#Aliya
+Author{1}{Lastname}#=%=#Deri
+Author{1}{Email}#=%=#aderi@isi.edu
+Author{1}{Affiliation}#=%=#USC Information Sciences Institute
+Author{2}{Firstname}#=%=#Kevin
+Author{2}{Lastname}#=%=#Knight
+Author{2}{Email}#=%=#knight@isi.edu
+Author{2}{Affiliation}#=%=#USC Information Sciences Institute
+
+==========

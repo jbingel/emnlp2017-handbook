@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Reducing Annotation Efforts in Supervised Short Answer Scoring
+ShortPaperTitle#=%=#Reducing Annotation Efforts in Supervised Short Answer Scoring
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#TZ
+JobTitle#==#
+Organization#==#
+Abstract#==#Automated short answer scoring is increasingly used to give students timely
+feedback about their learning progress. Building scoring models comes with high
+costs, as state-of-the-art methods using supervised learning require large
+amounts of hand-annotated data. We analyze the potential of recently proposed
+methods for semi-supervised learning based on clustering. We find that all
+examined methods (centroids, all clusters, selected pure clusters) are mainly
+effective for very short answers and do not generalize well to several-sentence
+responses.
+Author{1}{Firstname}#=%=#Torsten
+Author{1}{Lastname}#=%=#Zesch
+Author{1}{Email}#=%=#torsten.zesch@uni-due.de
+Author{1}{Affiliation}#=%=#Language Technology Lab, University of Duisburg-Essen
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Heilman
+Author{2}{Email}#=%=#mheilman@civisanalytics.com
+Author{2}{Affiliation}#=%=#Civis Analytics
+Author{3}{Firstname}#=%=#Aoife
+Author{3}{Lastname}#=%=#Cahill
+Author{3}{Email}#=%=#acahill@ets.org
+Author{3}{Affiliation}#=%=#Educational Testing Service
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Improving Chinese-English PropBank Alignment
+ShortPaperTitle#=%=#Improving Chinese-English PropBank Alignment
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Shumin Wu
+JobTitle#==#
+Organization#==#University of Colorado Boulder
+Abstract#==#We describe 2 improvements to Chinese- English PropBank predicate-argument
+structure alignment. Taking advantage of the recently expanded PropBank
+English nominal and adjective predicate annotation, we performed predicate-
+argument alignments between both verb and nominal/adjective predicates in
+Chinese and English. Using our alignment system, this increased the number of
+aligned predicate- argument structures by 24.5% on the parallel Xinhua News
+corpus. We also improved the PropBank alignment system using
+expectation-maximization (EM) techniques. By collecting Chinese-English
+predicate-to- predicate and argument type-to-argument type alignment
+probabilities and iteratively improving the alignment output using these
+probabilities on a large unannotated parallel corpora, we improved the
+predicate alignment performance by 1 F point when using all automatic SRL and
+word alignment inputs.
+Author{1}{Firstname}#=%=#Shumin
+Author{1}{Lastname}#=%=#Wu
+Author{1}{Email}#=%=#wushumin@gmail.com
+Author{1}{Affiliation}#=%=#University of Colorado Boulder
+Author{2}{Firstname}#=%=#Martha
+Author{2}{Lastname}#=%=#Palmer
+Author{2}{Email}#=%=#martha.palmer@colorado.edu
+Author{2}{Affiliation}#=%=#University of Colorado
+
+==========

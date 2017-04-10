@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#91
+FinalPaperTitle#=%=#Al-Bayan: A Knowledge-based System for Arabic Answer Selection
+ShortPaperTitle#=%=#Al-Bayan: A Knowledge-based System for Arabic Answer Selection
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Reham Mohamed Samir Basim Mohamed
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper describes Al-Bayan team participation
+in SemEval-2015 Task 3, Subtask A. Task
+3 targets semantic solutions for answer selection
+in community question answering systems.
+We propose a knowledge-based solution for
+answer selection of Arabic questions, specialized
+for Islamic sciences. We build a Semantic
+Interpreter to evaluate the semantic similarity
+between Arabic question and answers using
+our Quranic ontology of concepts. Using supervised
+learning, we classify the candidate
+answers according to their relevance to the
+users questions. Results show that our system
+achieves 74.53% accuracy which is comparable
+to the other participating systems.
+Author{1}{Firstname}#=%=#Reham
+Author{1}{Lastname}#=%=#Mohamed
+Author{1}{Email}#=%=#reham.m.samir@gmail.com
+Author{1}{Affiliation}#=%=#Computer and Systems Engineering Dept., Alexandria University
+Author{2}{Firstname}#=%=#Maha
+Author{2}{Lastname}#=%=#Ragab
+Author{2}{Email}#=%=#maha.ragab4@gmail.com
+Author{2}{Affiliation}#=%=#Computer and Systems Engineering Dept., Alexandria University
+Author{3}{Firstname}#=%=#Heba
+Author{3}{Lastname}#=%=#Abdelnasser
+Author{3}{Email}#=%=#hebaabdelnasser@gmail.com
+Author{3}{Affiliation}#=%=#Computer and Systems Engineering Dept., Alexandria University
+Author{4}{Firstname}#=%=#Nagwa
+Author{4}{Lastname}#=%=#M. El-Makky
+Author{4}{Email}#=%=#nagwamakky@alexu.edu.eg
+Author{4}{Affiliation}#=%=#Computer and Systems Engineering Dept., Alexandria University
+Author{5}{Firstname}#=%=#Marwan
+Author{5}{Lastname}#=%=#Torki
+Author{5}{Email}#=%=#mtorki@alexu.edu.eg
+Author{5}{Affiliation}#=%=#Computer and Systems Engineering Dept., Alexandria University
+
+==========

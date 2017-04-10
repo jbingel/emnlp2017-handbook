@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Towards Semantic Language Classification: Inducing and Clustering Semantic Association Networks from Europarl
+ShortPaperTitle#=%=#Inducing and Clustering Semantic Association Networks from Europarl
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Steffen Eger
+JobTitle#==#
+Organization#==#Text Technology Lab
+Robert-Mayer-Str. 10
+Goethe University Frankfurt am Main
+Abstract#==#We induce semantic association networks from translation relations in parallel
+corpora. The resulting semantic spaces are encoded in a single reference
+language, which ensures cross-language comparability. As our main contribution,
+we cluster the obtained (cross-lingually comparable) lexical semantic spaces.
+We find that, in our sample of languages, lexical semantic spaces largely
+coincide with genealogical relations. To our knowledge, this constitutes the
+first large-scale quantitative lexical semantic typology that is completely
+unsupervised, bottom-up, and data-driven. Our results may be important for the
+decision which multilingual resources to integrate in a semantic evaluation
+task.
+Author{1}{Firstname}#=%=#Steffen
+Author{1}{Lastname}#=%=#Eger
+Author{1}{Email}#=%=#steffen.eger@yahoo.com
+Author{1}{Affiliation}#=%=#Adiuvaris
+Author{2}{Firstname}#=%=#Niko
+Author{2}{Lastname}#=%=#Schenk
+Author{2}{Email}#=%=#n.schenk@em.uni-frankfurt.de
+Author{2}{Affiliation}#=%=#Goethe University Frankfurt am Main
+Author{3}{Firstname}#=%=#Alexander
+Author{3}{Lastname}#=%=#Mehler
+Author{3}{Email}#=%=#mehler@em.uni-frankfurt.de
+Author{3}{Affiliation}#=%=#Goethe-University Frankfurt am Main
+
+==========

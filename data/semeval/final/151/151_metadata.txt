@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#151
+FinalPaperTitle#=%=#ASAP-II: From the Alignment of Phrases to Textual Similarity
+ShortPaperTitle#=%=#ASAP-II: From the Alignment of Phrases to Textual Similarity
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ana Alves
+JobTitle#==#
+Organization#==#Ana Alves
+CISUC - University of Coimbra & 
+IPC - Polytechnic Institute of Coimbra
+Abstract#==#This paper describes the second version of the ASAP system and its
+participation in the SemEval-2015, task 2a on Semantic Textual Similarity
+(STS). Our approach is based on computing the WordNet semantic
+relatedness and similarity of phrases from distinct sentences. We also apply
+topic modeling to get topic distributions over a set of sentences as well as
+some linguistic heuristics. In a special addition for this task, we retrieve
+named entities and compound nouns from DBPedia. All these features are used to
+feed a regression algorithm that learns the STS function.
+Author{1}{Firstname}#=%=#Ana
+Author{1}{Lastname}#=%=#Alves
+Author{1}{Email}#=%=#ana@dei.uc.pt
+Author{1}{Affiliation}#=%=#CISUC - University of Coimbra and Polythecnic Institute of Coimbra
+Author{2}{Firstname}#=%=#David
+Author{2}{Lastname}#=%=#Simões
+Author{2}{Email}#=%=#a21210644@alunos.isec.pt
+Author{2}{Affiliation}#=%=#Polythecnic Institute of Coimbra
+Author{3}{Firstname}#=%=#Hugo Gonçalo
+Author{3}{Lastname}#=%=#Oliveira
+Author{3}{Email}#=%=#hroliv@dei.uc.pt
+Author{3}{Affiliation}#=%=#CISUC - University of Coimbra
+Author{4}{Firstname}#=%=#Adriana
+Author{4}{Lastname}#=%=#Ferrugento
+Author{4}{Email}#=%=#aferr@student.dei.uc.pt
+Author{4}{Affiliation}#=%=#CISUC - University of Coimbra
+
+==========

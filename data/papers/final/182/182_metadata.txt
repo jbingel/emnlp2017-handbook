@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#182
+FinalPaperTitle#=%=#What’s Cookin’? Interpreting Cooking Videos using Text, Speech and Vision
+ShortPaperTitle#=%=#What’s Cookin’? Interpreting Cooking Videos using Text, Speech and Vision
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jonathan Malmaud
+JobTitle#==#
+Organization#==#Google
+1600 Amphitheatre Parkway
+Mountain View, CA 94043
+Abstract#==#We present a novel method for aligning a sequence of instructions to a video of
+someone carrying out a task. In particular, we focus on the cooking domain,
+where the instructions correspond to the recipe. Our technique relies on an HMM
+to align the recipe steps to the (automatically generated) speech transcript. 
+We then refine this alignment using a state-of-the-art visual food detector,
+based on a deep convolutional neural network. We show that our technique
+outperforms simpler techniques based on keyword spotting. It also enables
+interesting applications, such as automatically illustrating recipes with
+keyframes, and searching within a video for events of interest.
+Author{1}{Firstname}#=%=#Jonathan
+Author{1}{Lastname}#=%=#Malmaud
+Author{1}{Email}#=%=#malmaud@google.com
+Author{1}{Affiliation}#=%=#Google
+Author{2}{Firstname}#=%=#Jonathan
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Email}#=%=#jonathanhuang@google.com
+Author{2}{Affiliation}#=%=#Google
+Author{3}{Firstname}#=%=#Vivek
+Author{3}{Lastname}#=%=#Rathod
+Author{3}{Email}#=%=#rathodv@google.com
+Author{3}{Affiliation}#=%=#Google
+Author{4}{Firstname}#=%=#Nicholas
+Author{4}{Lastname}#=%=#Johnston
+Author{4}{Email}#=%=#nickj@google.com
+Author{4}{Affiliation}#=%=#Google
+Author{5}{Firstname}#=%=#Andrew
+Author{5}{Lastname}#=%=#Rabinovich
+Author{5}{Email}#=%=#amrabino@google.com
+Author{5}{Affiliation}#=%=#Google
+Author{6}{Firstname}#=%=#Kevin
+Author{6}{Lastname}#=%=#Murphy
+Author{6}{Email}#=%=#kpmurphy@google.com
+Author{6}{Affiliation}#=%=#Google
+
+==========

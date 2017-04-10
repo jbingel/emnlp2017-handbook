@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Unsupervised False Friend Disambiguation Using Contextual Word Clusters and Parallel Word Alignments
+ShortPaperTitle#=%=#Unsupervised False Friend Disambiguation Using Contextual Word Clusters and Parallel Word Alignments
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Maryam Aminian
+JobTitle#==#
+Organization#==#The George Washington University
+Abstract#==#Lexical false friends (FF) are the phenomena where words that look the same, do
+not have the same meaning or lexical usage. FF impose several challenges to
+statistical machine translation. We present a methodology which exploits word
+context modeling as well as information provided by word alignments for
+identifying false friends and choosing the right sense for them in the context.
+We show that our approach enhances SMT lexical choice for false friends across
+language variants. We demonstrate that our approach reduces word error rate
+(WER) and position independent error rate (PER) for Egyptian-English SMT by
+0.6% and 0.1% compared to the baseline.
+Author{1}{Firstname}#=%=#Maryam
+Author{1}{Lastname}#=%=#Aminian
+Author{1}{Email}#=%=#aminian@gwu.edu
+Author{1}{Affiliation}#=%=#GWU
+Author{2}{Firstname}#=%=#Mahmoud
+Author{2}{Lastname}#=%=#Ghoneim
+Author{2}{Email}#=%=#mghoneim@gwu.edu
+Author{2}{Affiliation}#=%=#The George Washington University
+Author{3}{Firstname}#=%=#Mona
+Author{3}{Lastname}#=%=#Diab
+Author{3}{Email}#=%=#mtdiab@gwu.edu
+Author{3}{Affiliation}#=%=#GWU
+
+==========

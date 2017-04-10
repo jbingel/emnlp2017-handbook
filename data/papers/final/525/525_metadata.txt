@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#525
+FinalPaperTitle#=%=#Active Learning with Rationales for Text Classification
+ShortPaperTitle#=%=#Active Learning with Rationales for Text Classification
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Manali Sharma
+JobTitle#==#
+Organization#==#Illinois Institute of Technology
+3300 South Federal Street, 
+Chicago, IL 60616 USA
+Abstract#==#We present a simple and yet effective approach that can incorporate rationales
+elicited from annotators into the training of any off-the-shelf classifier. We
+show that our simple approach is effective for multinomial naive Bayes,
+logistic regression, and support vector machines. We additionally present an
+active learning method tailored specifically for the learning with rationales
+framework.
+Author{1}{Firstname}#=%=#Manali
+Author{1}{Lastname}#=%=#Sharma
+Author{1}{Email}#=%=#msharm11@hawk.iit.edu
+Author{1}{Affiliation}#=%=#Illinois Institute of Technology
+Author{2}{Firstname}#=%=#Di
+Author{2}{Lastname}#=%=#Zhuang
+Author{2}{Email}#=%=#dzhuang3@hawk.iit.edu
+Author{2}{Affiliation}#=%=#Illinois Institute of Technology
+Author{3}{Firstname}#=%=#Mustafa
+Author{3}{Lastname}#=%=#Bilgic
+Author{3}{Email}#=%=#mbilgic@iit.edu
+Author{3}{Affiliation}#=%=#Illinois Institute of Technology
+
+==========

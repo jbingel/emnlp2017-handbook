@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#101
+FinalPaperTitle#=%=#ExB Themis: Extensive Feature Extraction from Word Alignments for Semantic Textual Similarity
+ShortPaperTitle#=%=#ExB Themis: Extensive Feature Extraction from Word Alignments for Semantic Textual Similarity
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#C. Haenig
+JobTitle#==#
+Organization#==#ExB Research & Development GmbH
+Seeburgstrasse 100
+04103 Leipzig
+Germany
+Abstract#==#We present ExB Themis – a word alignment-based semantic textual similarity
+system developed for SemEval-2015 Task 2: Semantic Textual Similarity. It
+combines both string and semantic similarity measures as well as alignment
+features using Support Vector Regression. It occupies the first three places on
+Spanish data and additionally places second on English data. ExB Themis proved
+to be the best multilingual system among all participants.
+Author{1}{Firstname}#=%=#Christian
+Author{1}{Lastname}#=%=#Hänig
+Author{1}{Email}#=%=#haenig@exb.de
+Author{1}{Affiliation}#=%=#ExB Group
+Author{2}{Firstname}#=%=#Robert
+Author{2}{Lastname}#=%=#Remus
+Author{2}{Email}#=%=#remus@exb.de
+Author{2}{Affiliation}#=%=#ExB Group
+Author{3}{Firstname}#=%=#Xose
+Author{3}{Lastname}#=%=#de la Puente
+Author{3}{Email}#=%=#puente@exb.de
+Author{3}{Affiliation}#=%=#ExB Group
+
+==========

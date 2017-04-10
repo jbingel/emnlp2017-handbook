@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#506
+FinalPaperTitle#=%=#How to Memorize a Random 60-Bit String
+ShortPaperTitle#=%=#How to Memorize a Random 60-Bit String
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Marjan Ghazvininejad
+JobTitle#==#
+Organization#==#
+Abstract#==#User-generated passwords tend to be memorable, but not secure.                       
+  A
+random,
+computer-generated 60-bit string is much more secure.  However, users cannot
+memorize random 60-bit strings.  In this paper, we investigate methods for
+converting arbitrary bit strings into English word sequences (both prose and
+poetry), and we study their memorability and other properties.
+Author{1}{Firstname}#=%=#Marjan
+Author{1}{Lastname}#=%=#Ghazvininejad
+Author{1}{Email}#=%=#ghazvini@isi.edu
+Author{1}{Affiliation}#=%=#USC
+Author{2}{Firstname}#=%=#Kevin
+Author{2}{Lastname}#=%=#Knight
+Author{2}{Email}#=%=#knight@isi.edu
+Author{2}{Affiliation}#=%=#USC/ISI
+
+==========

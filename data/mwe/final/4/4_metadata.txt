@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Building a Lexicon of Formulaic Language for Language Learners
+ShortPaperTitle#=%=#Building a Lexicon of Formulaic Language for Language Learners
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Julian Brooke
+JobTitle#==#
+Organization#==#University of Toronto
+Toronto, Ontario, Canada
+Abstract#==#Though the multiword lexicon has long been of interest in computational
+linguistics, most relevant work is targeted at only a small portion of it. Our
+work is motivated by the needs of learners for more comprehensive resources
+reflecting formulaic language that goes beyond what is likely to be codified in
+a dictionary. Working from an initial sequential segmentation approach, we
+present two important enhancements: the use of a new measure to promote the
+identification of lexicalized sequences, and an expansion to include sequences
+with gaps. We evaluate using a novel method that allows us to calculate an
+estimate of recall without a reference lexicon, showing our good performance
+relative to the second enhancement depends crucially on the first, and that our
+lexicon conforms much more with human judgment of formulaic language than
+alternatives.
+Author{1}{Firstname}#=%=#Julian
+Author{1}{Lastname}#=%=#Brooke
+Author{1}{Email}#=%=#jbrooke@cs.toronto.edu
+Author{1}{Affiliation}#=%=#University of Toronto
+Author{2}{Firstname}#=%=#Adam
+Author{2}{Lastname}#=%=#Hammond
+Author{2}{Email}#=%=#adam.hammond@uoguelph.ca
+Author{2}{Affiliation}#=%=#University of Guelph
+Author{3}{Firstname}#=%=#David
+Author{3}{Lastname}#=%=#Jacob
+Author{3}{Email}#=%=#djacob@quillsoft.ca
+Author{3}{Affiliation}#=%=#Quillsoft Ltd.
+Author{4}{Firstname}#=%=#Vivian
+Author{4}{Lastname}#=%=#Tsang
+Author{4}{Email}#=%=#vtsang@quillsoft.ca
+Author{4}{Affiliation}#=%=#Quillsoft Ltd.
+Author{5}{Firstname}#=%=#Graeme
+Author{5}{Lastname}#=%=#Hirst
+Author{5}{Email}#=%=#gh@cs.toronto.edu
+Author{5}{Affiliation}#=%=#University of Toronto
+Author{6}{Firstname}#=%=#Fraser
+Author{6}{Lastname}#=%=#Shein
+Author{6}{Email}#=%=#fshein@quillsoft.ca
+Author{6}{Affiliation}#=%=#Quillsoft Ltd.
+
+==========

@@ -1,0 +1,13 @@
+abbrev LAW
+type WORKSHOP
+title The 9th Linguistic Annotation Workshop
+url http://www.sfb632.uni-potsdam.de/law2015/
+booktitle Proceedings of The 9th Linguistic Annotation Workshop
+month June
+year 2015
+location Denver, Colorado, USA
+publisher Association for Computational Linguistics
+chairs Adam Meyers (New York University)
+chairs Ines Rehbein (Potsdam University)
+chairs Heike Zinsmeister (University of Hamburg)
+bib_url http://www.aclweb.org/anthology/W15-16%02d

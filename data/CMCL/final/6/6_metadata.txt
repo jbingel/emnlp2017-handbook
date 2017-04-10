@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Centre Stage: How Social Network Position Shapes Linguistic Coordination
+ShortPaperTitle#=%=#Centre Stage: How Social Network Position Shapes Linguistic Coordination
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Raquel Fernandez
+JobTitle#==#
+Organization#==#Institute for Logic, Language & Computation
+University of Amsterdam
+P.O. Box 94242 
+1090 GE Amsterdam
+The Netherlands
+Abstract#==#In conversation, speakers tend to echo the linguistic style of the person they
+are interacting with. This paper contributes to a body of work that addresses
+how this linguistic style coordination is affected by the social context in
+which the interaction occurs. In particular, we investigate the effect that an
+agent’s social network centrality has on the coordination exhibited in
+replies to their utterances. We find that linguistic coordination is positively
+correlated with social network centrality and that this effect is greater than
+previous results showing a similar connection between status-based power and
+linguistic coordination. We conjecture that the social value of coordination
+may reside in the wish to conform to the linguistic norms of a community.
+Author{1}{Firstname}#=%=#Bill
+Author{1}{Lastname}#=%=#Noble
+Author{1}{Email}#=%=#winobes@gmail.com
+Author{1}{Affiliation}#=%=#ILLC, University of Amsterdam
+Author{2}{Firstname}#=%=#Raquel
+Author{2}{Lastname}#=%=#Fernandez
+Author{2}{Email}#=%=#raquel.fernandez@uva.nl
+Author{2}{Affiliation}#=%=#ILLC, University of Amsterdam
+
+==========

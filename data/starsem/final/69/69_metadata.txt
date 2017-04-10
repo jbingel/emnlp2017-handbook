@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#69
+FinalPaperTitle#=%=#Compositional Distributional Semantics with Long Short Term Memory
+ShortPaperTitle#=%=#Compositional Distributional Semantics with Long Short Term Memory
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Phong Le
+JobTitle#==#
+Organization#==#University of Amsterdam
+Abstract#==#We are proposing an extension of the recursive neural network that makes use of
+a variant of the long short-term memory architecture. The extension allows
+information
+low in parse trees to be stored in a memory register (the `memory cell') and
+used
+much later higher up in the parse tree. This provides a solution to the
+vanishing gradient
+problem and allows the network to capture long range dependencies. Experimental
+results
+show that our composition outperformed the traditional neural-network
+composition on the
+Stanford Sentiment Treebank.
+Author{1}{Firstname}#=%=#Phong
+Author{1}{Lastname}#=%=#Le
+Author{1}{Email}#=%=#lephong.xyz@gmail.com
+Author{1}{Affiliation}#=%=#University of Amsterdam
+Author{2}{Firstname}#=%=#Willem
+Author{2}{Lastname}#=%=#Zuidema
+Author{2}{Email}#=%=#w.h.zuidema@uva.nl
+Author{2}{Affiliation}#=%=#University of Amsterdam
+
+==========

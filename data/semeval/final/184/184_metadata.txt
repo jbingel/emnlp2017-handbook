@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#184
+FinalPaperTitle#=%=#SemEval-2015 Task 14: Analysis of Clinical Text
+ShortPaperTitle#=%=#SemEval-2015 Task 14: Analysis of Clinical Text
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Noemie Elhadad
+JobTitle#==#
+Organization#==#Biomedical Informatics Department
+Columbia University
+622 W 168th Street, PH20
+New York, NY 10032
+Abstract#==#We describe two tasks—named entity recognition (Task 1) and template slot
+filling (Task 2)—for clinical texts. The tasks leverage annotations from the
+ShARe corpus, which consists of clinical notes with annotated mentions
+disorders, along with their normalization to a medical terminology and eight
+additional attributes. The purpose of these tasks was to identify advances in
+clinical named entity recognition and establish the state of the art in
+disorder template slot filling. Task 2 consisted of two subtasks: template slot
+filling given gold-standard disorder spans (Task 2a) and end-to-end disorder
+span identification together with template slot filling (Task 2b). For Task 1
+(disorder span detection and normalization), 16 teams participated. The best
+system yielded a strict F1-score of 75.7, with a precision of 78.3 and recall
+of 73.2. For Task 2a (template slot filling given gold- standard disorder
+spans), six teams participated. The best system yielded a combined overall
+weighted accuracy for slot filling of 88.6. For Task 2b (disorder recognition
+and template slot filling), nine teams participated. The best system yielded a
+combined relaxed F (for span detection) and overall weighted accuracy of 80.8.
+Author{1}{Firstname}#=%=#Noémie
+Author{1}{Lastname}#=%=#Elhadad
+Author{1}{Email}#=%=#noemie.elhadad@columbia.edu
+Author{1}{Affiliation}#=%=#Columbia University
+Author{2}{Firstname}#=%=#Sameer
+Author{2}{Lastname}#=%=#Pradhan
+Author{2}{Email}#=%=#pradhan@cemantix.org
+Author{2}{Affiliation}#=%=#cemantix.org
+Author{3}{Firstname}#=%=#Sharon
+Author{3}{Lastname}#=%=#Gorman
+Author{3}{Email}#=%=#srg2128@columbia.edu
+Author{3}{Affiliation}#=%=#Columbia University
+Author{4}{Firstname}#=%=#Suresh
+Author{4}{Lastname}#=%=#Manandhar
+Author{4}{Email}#=%=#suresh@cs.york.ac.uk
+Author{4}{Affiliation}#=%=#University of York
+Author{5}{Firstname}#=%=#Wendy
+Author{5}{Lastname}#=%=#Chapman
+Author{5}{Email}#=%=#wendy.chapman@utah.edu
+Author{5}{Affiliation}#=%=#
+Author{6}{Firstname}#=%=#Guergana
+Author{6}{Lastname}#=%=#Savova
+Author{6}{Email}#=%=#guergana.savova@childrens.harvard.edu
+Author{6}{Affiliation}#=%=#Harvard
+
+==========

@@ -1,0 +1,13 @@
+abbrev ExProM
+type Workshop
+title Second Workshop on Extra-Propositional Aspects of Meaning in Computational Semantics (ExProM 2015)
+url http://www.cse.unt.edu/exprom2015/
+booktitle Proceedings of the Second Workshop on Extra-Propositional Aspects of Meaning in Computational Semantics (ExProM 2015)
+month June
+year 2015
+location Denver, Colorado
+publisher Association for Computational Linguistics
+chairs Eduardo Blanco (University of North Texas, USA)
+chairs Roser Morante (VU University Amsterdam)
+chairs Caroline Sporleder (Universität Trier, Germany)
+bib_url http://www.aclweb.org/anthology/W15-13%02d

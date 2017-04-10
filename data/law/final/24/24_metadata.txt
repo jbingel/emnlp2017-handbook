@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#The Annotation Process of the ITU Web Treebank
+ShortPaperTitle#=%=#The Annotation Process of the ITU Web Treebank
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Umut Sulubacak
+JobTitle#==#
+Organization#==#Istanbul Technical University
+Istanbul, 34469, Turkey
+Abstract#==#The potential of processing user-generated texts freely available on the web is
+widely recognized, but due to the non-canonical nature of the language used in
+the web, it is not possible to process these data using conventional
+methodologies designed for well-edited formal texts. Procedures for properly
+annotating raw web data have not been as extensively researched as those for
+annotating well-edited texts, as also evident from the viewpoint of Turkish
+language processing. Moreover, there is a considerable shortage of
+human-annotated corpora derived from Turkish web data. The ITU Web Treebank is
+the first attempt for a diverse corpus compiled from Turkish texts found on the
+web. In this paper, we first present our survey of the non-canonical aspects of
+the language used in the Turkish web. Next, we discuss in detail the annotation
+procedure followed in the ITU Web Treebank, revised for compatibility with the
+language of the web. Finally, we describe the web-based annotation tool
+following this procedure, on which the treebank was annotated.
+Author{1}{Firstname}#=%=#Tuğba
+Author{1}{Lastname}#=%=#Pamay
+Author{1}{Email}#=%=#pamay@itu.edu.tr
+Author{1}{Affiliation}#=%=#Istanbul Technical University
+Author{2}{Firstname}#=%=#Umut
+Author{2}{Lastname}#=%=#Sulubacak
+Author{2}{Email}#=%=#sulubacak@itu.edu.tr
+Author{2}{Affiliation}#=%=#Istanbul Technical University
+Author{3}{Firstname}#=%=#Dilara
+Author{3}{Lastname}#=%=#Torunoğlu-Selamet
+Author{3}{Email}#=%=#dilaratorunoglu661@gmail.com
+Author{3}{Affiliation}#=%=#Istanbul Technical University
+Author{4}{Firstname}#=%=#Gülşen
+Author{4}{Lastname}#=%=#Eryiğit
+Author{4}{Email}#=%=#gulsenc@itu.edu.tr
+Author{4}{Affiliation}#=%=#Istanbul Technical University
+
+==========

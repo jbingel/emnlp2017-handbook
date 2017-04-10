@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#37
+FinalPaperTitle#=%=#HITSZ-ICRC: An Integration Approach for QA TempEval Challenge
+ShortPaperTitle#=%=#HITSZ-ICRC: An Integration Approach for QA TempEval Challenge
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Yongshuai Hou
+JobTitle#==#
+Organization#==#Harbin Institute of Technology Shenzhen Graduate School
+HIT Campus, The University Town of Shenzhen, Shenzhen, Guangdong, 518055, China
+Abstract#==#This paper presents the HITSZ-ICRC system designed for the QA TempEval
+challenge in SemEval-2015. The system used an integration approach to annotate
+temporal information by merging temporal annotation results from different
+temporal annotators. TIPSemB, ClearTK and TARSQI were used as temporal
+annotators to get candidate temporal annotation results. Evaluation
+demonstrated that our system was effective for improving the performance of
+temporal information annotation, and achieved recalls of 0.18, 0.26 and 0.19 on
+Blog, News and Wikipedeia test sets.
+Author{1}{Firstname}#=%=#Yongshuai
+Author{1}{Lastname}#=%=#Hou
+Author{1}{Email}#=%=#yongshuai.hou@gmail.com
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology Shenzhen Graduate School
+Author{2}{Firstname}#=%=#Cong
+Author{2}{Lastname}#=%=#Tan
+Author{2}{Email}#=%=#viptancong@gmail.com
+Author{2}{Affiliation}#=%=#Harbin Institute of Technology Shenzhen Graduate School
+Author{3}{Firstname}#=%=#Qingcai
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Email}#=%=#qingcai.chen@gmail.com
+Author{3}{Affiliation}#=%=#Harbin Institute of Technology Shenzhen Graduate School
+Author{4}{Firstname}#=%=#Xiaolong
+Author{4}{Lastname}#=%=#Wang
+Author{4}{Email}#=%=#wangxl@insun.hit.edu.cn
+Author{4}{Affiliation}#=%=#Harbin Institute of Technology Shenzhen Graduate School
+
+==========

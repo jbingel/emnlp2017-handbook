@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#648
+FinalPaperTitle#=%=#Solving Hard Coreference Problems
+ShortPaperTitle#=%=#Solving Hard Coreference Problems
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Haoruo Peng
+JobTitle#==#
+Organization#==#University of Illinois, Urbana-Champaign
+Urbana, IL, 61801
+Abstract#==#Coreference resolution is a key problem in natural language understanding that
+still escapes reliable solutions. One fundamental difficulty has been that of
+resolving instances involving pronouns since they often require deep language
+understanding and use of background knowledge. In this paper we propose an
+algorithmic solution that involves a new representation for the knowledge
+required to address hard coreference problems, along with a constrained
+optimization framework that uses this knowledge in coreference decision making.
+Our representation, Predicate Schemas, is instantiated with knowledge acquired
+in an unsupervised way, and is compiled automatically into constraints that
+impact the coreference decision. We present a general coreference resolution
+system that significantly improves state-of-the-art performance on hard,
+Winograd-style, pronoun resolution cases, while still performing at the
+state-of-the-art level on standard coreference resolution datasets.
+Author{1}{Firstname}#=%=#Haoruo
+Author{1}{Lastname}#=%=#Peng
+Author{1}{Email}#=%=#hpeng7@illinois.edu
+Author{1}{Affiliation}#=%=#University of Illinois, Urbana-Champaign
+Author{2}{Firstname}#=%=#Daniel
+Author{2}{Lastname}#=%=#Khashabi
+Author{2}{Email}#=%=#danyal.khashabi@gmail.com
+Author{2}{Affiliation}#=%=#University of Illinois, Urbana-Champaign
+Author{3}{Firstname}#=%=#Dan
+Author{3}{Lastname}#=%=#Roth
+Author{3}{Email}#=%=#danr@illinois.edu
+Author{3}{Affiliation}#=%=#University of Illinois
+
+==========

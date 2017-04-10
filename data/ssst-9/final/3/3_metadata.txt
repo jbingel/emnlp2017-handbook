@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Non-projective Dependency-based Pre-Reordering with Recurrent Neural Network for Machine Translation
+ShortPaperTitle#=%=#Non-projective Dependency-based Pre-Reordering with Recurrent Neural Network for Machine Translation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Antonio Valerio Miceli Barone
+JobTitle#==#
+Organization#==#Università di Pisa
+Largo B. Pontecorvo, 3
+56127 Pisa
+Abstract#==#The quality of statistical machine translation performed with phrase based
+approaches can be increased by permuting the words in the source sentences in
+an order which resembles that of the target language. We propose a class of
+recurrent neural models which exploit source-side dependency syntax features to
+reorder the words into a target-like order. We evaluate these models on the
+German-to-English language pair, showing significant improvements over a
+phrase-based Moses baseline, obtaining a quality similar or superior to that of
+hand-coded syntactical reordering rules.
+Author{1}{Firstname}#=%=#Antonio Valerio
+Author{1}{Lastname}#=%=#Miceli Barone
+Author{1}{Email}#=%=#av_miceli_barone@yahoo.it
+Author{1}{Affiliation}#=%=#University of Pisa, Italy
+Author{2}{Firstname}#=%=#Giuseppe
+Author{2}{Lastname}#=%=#Attardi
+Author{2}{Email}#=%=#attardi@di.unipi.it
+Author{2}{Affiliation}#=%=#Università di Pisa
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Extending NegEx with Kernel Methods for Negation Detection in Clinical Text
+ShortPaperTitle#=%=#Extending NegEx with Kernel Methods for Negation Detection in Clinical Text
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Chaitanya Shivade
+JobTitle#==#Graduate Research Associate
+Organization#==#The Ohio State University
+Columbus, OH 43210, USA.
+Abstract#==#NegEx is a popular rule-based system used to identify negated concepts in
+clinical notes. This system has been reported to perform very well by numerous
+studies in the past. In this paper, we demonstrate the use of kernel methods
+to extend the performance of NegEx. A kernel leveraging the rules of NegEx and
+its output as features, performs as well as the rule-based system. An
+improvement in performance is achieved if this kernel is coupled with a bag of
+words kernel. Our experiments show that kernel methods outperform the
+rule-based system, when evaluated within and across two different open
+datasets. We also present the results of a semi-supervised approach to the
+problem, which improves performance on the data.
+Author{1}{Firstname}#=%=#Chaitanya
+Author{1}{Lastname}#=%=#Shivade
+Author{1}{Email}#=%=#shivade@cse.ohio-state.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Marie-Catherine
+Author{2}{Lastname}#=%=#de Marneffe
+Author{2}{Email}#=%=#mcdm@ling.ohio-state.edu
+Author{2}{Affiliation}#=%=#The Ohio State University
+Author{3}{Firstname}#=%=#Eric
+Author{3}{Lastname}#=%=#Fosler-Lussier
+Author{3}{Email}#=%=#fosler@cse.ohio-state.edu
+Author{3}{Affiliation}#=%=#The Ohio State University
+Author{4}{Firstname}#=%=#Albert M.
+Author{4}{Lastname}#=%=#Lai
+Author{4}{Email}#=%=#albert.lai@osumc.edu
+Author{4}{Affiliation}#=%=#The Ohio State University
+
+==========

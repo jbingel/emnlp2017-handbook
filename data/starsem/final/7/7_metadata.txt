@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Leveraging Preposition Ambiguity to Assess Compositional Distributional Models of Semantics
+ShortPaperTitle#=%=#Leveraging Preposition Ambiguity to Assess CDSM
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Samuel Ritter
+JobTitle#==#
+Organization#==#Princeton University
+Abstract#==#Complex interactions among the meanings of words are important factors in the
+function that maps word  meanings to phrase meanings. Recently, compositional
+distributional semantics models (CDSM) have been designed with the goal of
+emulating these complex interactions; however, experimental results on the
+effectiveness of CDSM have been difficult to interpret because the current
+metrics for assessing them do not control for the confound of lexical
+information. We present a new method for assessing the degree to which CDSM
+capture semantic interactions that dissociates the influences of lexical and
+compositional information.
+We then provide a dataset for performing this type of assessment and use it to
+evaluate six compositional   models using both co-occurrence based and neural
+language model input vectors. Results show that neural
+language input vectors are consistently superior to co-occurrence based
+vectors, that several CDSM capture substantial compositional information, and
+that, surprisingly, vector addition matches and is in many cases superior to
+purpose-built paramaterized models.
+Author{1}{Firstname}#=%=#Samuel
+Author{1}{Lastname}#=%=#Ritter
+Author{1}{Email}#=%=#swritter@princeton.edu
+Author{1}{Affiliation}#=%=#Princeton University
+Author{2}{Firstname}#=%=#Cotie
+Author{2}{Lastname}#=%=#Long
+Author{2}{Email}#=%=#cotielong@gmail.com
+Author{2}{Affiliation}#=%=#Indiana University
+Author{3}{Firstname}#=%=#Denis
+Author{3}{Lastname}#=%=#Paperno
+Author{3}{Email}#=%=#denis.paperno@unitn.it
+Author{3}{Affiliation}#=%=#University of Trento
+Author{4}{Firstname}#=%=#Marco
+Author{4}{Lastname}#=%=#Baroni
+Author{4}{Email}#=%=#marco.baroni@unitn.it
+Author{4}{Affiliation}#=%=#University of Trento
+Author{5}{Firstname}#=%=#Matthew
+Author{5}{Lastname}#=%=#Botvinick
+Author{5}{Email}#=%=#matthewb@princeton.edu
+Author{5}{Affiliation}#=%=#Princeton University
+Author{6}{Firstname}#=%=#Adele
+Author{6}{Lastname}#=%=#Goldberg
+Author{6}{Email}#=%=#adele@princeton.edu
+Author{6}{Affiliation}#=%=#Princeton University
+
+==========

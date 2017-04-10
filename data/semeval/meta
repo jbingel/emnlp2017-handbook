@@ -1,0 +1,14 @@
+abbrev SemEval
+type WORKSHOP
+title Proceedings of the 9th International Workshop on Semantic Evaluation (SemEval 2015)
+url http://alt.qcri.org/semeval2015/
+booktitle Proceedings of the 9th International Workshop on Semantic Evaluation (SemEval 2015)
+month June
+year 2015
+location Denver, Colorado
+publisher Association for Computational Linguistics
+chairs Preslav Nakov (Qatar Computing Research Institute)
+chairs Torsten Zesch (University of Duisburg-Essen)
+chairs Daniel Cer (Google)
+chairs David Jurgens (McGill University)
+bib_url http://www.aclweb.org/anthology/S15-2%03d

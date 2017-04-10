@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Classification and Acquisition of Contradictory Event Pairs using Crowdsourcing
+ShortPaperTitle#=%=#Classification and Acquisition of Contradictory Event Pairs using Crowdsourcing
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Hajime Morita
+JobTitle#==#Researcher
+Organization#==#Graduate School of Informatics, Kyoto University
+Yoshida-honmachi, Sakyo-ku
+Kyoto, 606-8501, Japan
+Abstract#==#We propose a taxonomy of contradictory event pairs and a method for building a
+database of such pairs. When a dialog system participates in an open-domain
+conversation with a human, it is important to avoid the generation of
+utterances that conflict with the context of the dialog. Here, we refer to a
+pair of events that are not able to co-occur or that are not inconsistent with
+each other as a contradictory event pair. In this study, we collected
+contradictory event pairs using crowdsourcing and constructed a taxonomy of
+such pairs. We also built a large-scale database of Japanese contra- dictory
+event pairs for each class using crowdsourcing. This database will be used for
+consistent utterance generation in dialog systems.
+Author{1}{Firstname}#=%=#Yu
+Author{1}{Lastname}#=%=#Takabatake
+Author{1}{Email}#=%=#takabatake@nlp.ist.i.kyoto-u.ac.jp
+Author{1}{Affiliation}#=%=#Faculty of Engineering, Kyoto University
+Author{2}{Firstname}#=%=#Hajime
+Author{2}{Lastname}#=%=#Morita
+Author{2}{Email}#=%=#morita@nlp.ist.i.kyoto-u.ac.jp
+Author{2}{Affiliation}#=%=#Kyoto University
+Author{3}{Firstname}#=%=#Daisuke
+Author{3}{Lastname}#=%=#Kawahara
+Author{3}{Email}#=%=#dk@i.kyoto-u.ac.jp
+Author{3}{Affiliation}#=%=#Kyoto University
+Author{4}{Firstname}#=%=#Sadao
+Author{4}{Lastname}#=%=#Kurohashi
+Author{4}{Email}#=%=#kuro@i.kyoto-u.ac.jp
+Author{4}{Affiliation}#=%=#Kyoto University
+Author{5}{Firstname}#=%=#Ryuichiro
+Author{5}{Lastname}#=%=#Higashinaka
+Author{5}{Email}#=%=#higashinaka.ryuichiro@lab.ntt.co.jp
+Author{5}{Affiliation}#=%=#NTT Media Intelligence Labs.
+Author{6}{Firstname}#=%=#Yoshihiro
+Author{6}{Lastname}#=%=#Matsuo
+Author{6}{Email}#=%=#matsuo.yoshihiro@lab.ntt.co.jp
+Author{6}{Affiliation}#=%=#NTT Media Intelligence Laboratories
+
+==========

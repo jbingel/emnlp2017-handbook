@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#46
+FinalPaperTitle#=%=#SETS: Scalable and Efficient Tree Search in Dependency Graphs
+ShortPaperTitle#=%=#SETS: Scalable and Efficient Tree Search in Dependency Graphs
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Juhani Luotolahti
+JobTitle#==#
+Organization#==#University of Turku.
+
+FI-20014 TURUN YLIOPISTO
+FINLAND
+Abstract#==#We present a syntactic analysis query toolkit geared specifically towards
+massive dependency parsebanks and morphologically rich languages. The query
+language allows arbitrary tree queries, including negated branches, and is
+suitable for querying analyses with rich morphological annotation. Treebanks of
+over a million words can be comfortably queried on a low-end netbook, and a
+parsebank with over 100M words on a single consumer-grade server. We also
+introduce a web-based interface for interactive querying. All contributions are
+available under open licenses.
+Author{1}{Firstname}#=%=#Juhani
+Author{1}{Lastname}#=%=#Luotolahti
+Author{1}{Email}#=%=#mjluot@utu.fi
+Author{1}{Affiliation}#=%=#University Of Turku
+Author{2}{Firstname}#=%=#Jenna
+Author{2}{Lastname}#=%=#Kanerva
+Author{2}{Email}#=%=#jmnybl@utu.fi
+Author{2}{Affiliation}#=%=#University of Turku
+Author{3}{Firstname}#=%=#Sampo
+Author{3}{Lastname}#=%=#Pyysalo
+Author{3}{Email}#=%=#sampo.pyysalo@gmail.com
+Author{3}{Affiliation}#=%=#University of Turku
+Author{4}{Firstname}#=%=#Filip
+Author{4}{Lastname}#=%=#Ginter
+Author{4}{Email}#=%=#ginter@cs.utu.fi
+Author{4}{Affiliation}#=%=#University of Turku
+
+==========

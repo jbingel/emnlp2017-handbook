@@ -1,0 +1,15 @@
+abbrev SRW
+type WORKSHOP
+title Student Research Workshop
+url https://sites.google.com/site/naaclsrw2015/home
+booktitle Proceedings of the 2015 Conference of the North American Chapter of the Association for Computational Linguistics: Student Research Workshop
+month June
+year 2015
+location Denver, Colorado
+publisher Association for Computational Linguistics
+chairs Diana Inkpen, University of Ottawa
+chairs Smaranda Muresan, Columbia University
+chairs Shibamouli Lahiri, University of Michigan
+chairs Karen Mazidi, University of North Texas
+chairs Alisa Zhila, Instituto Politécnico Nacional
+bib_url http://www.aclweb.org/anthology/N15-2%03d

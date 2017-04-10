@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#162
+FinalPaperTitle#=%=#Lisbon: Evaluating TurboSemanticParser on Multiple Languages and Out-of-Domain Data
+ShortPaperTitle#=%=#Lisbon: Evaluating TurboSemanticParser on Multiple Languages and Out-of-Domain Data
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Mariana Almeida
+JobTitle#==#
+Organization#==#Priberam Labs, Alameda D. Afonso Henriques, 41, 2º , 1000-123 Lisboa, Portugal
+Instituto de Telecomunicacões, Instituto Superior Tecnico, 1049-001 Lisboa, Portugal
+Abstract#==#As part of the SemEval-2015 shared task on Broad-Coverage Semantic Dependency
+Parsing, we evaluate the performace of our last year's system
+(TurboSemanticParser) on multiple languages and out-of-domain data. Our system
+is characterized by a feature-rich linear model, that includes scores for first
+and second-order dependencies (arcs, siblings, grandparents and co-parents).
+For decoding this second-order model, we solve a linear relaxation of that
+problem using alternating directions dual decomposition (AD3). The
+experiments have shown that, even though the parser’s performance in Chinese
+and Czech attains around 80% (not too far from English performance), domain
+shift is a serious issue, suggesting domain adaptation as an interesting avenue
+for future research.
+Author{1}{Firstname}#=%=#Mariana S. C.
+Author{1}{Lastname}#=%=#Almeida
+Author{1}{Email}#=%=#marianascalmeida@gmail.com
+Author{1}{Affiliation}#=%=#Priberam / Instituto de Telecomunicações
+Author{2}{Firstname}#=%=#André F. T.
+Author{2}{Lastname}#=%=#Martins
+Author{2}{Email}#=%=#afm@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Priberam, Instituto de Telecomunicacoes
+
+==========

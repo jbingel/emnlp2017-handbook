@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Quantifying the Language of Schizophrenia in Social Media
+ShortPaperTitle#=%=#Quantifying the Language of Schizophrenia in Social Media
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#MM
+JobTitle#==#
+Organization#==#Microsoft Research
+1 Microsoft Way
+Abstract#==#Analyzing symptoms of schizophrenia, particularly on a large scale, has
+traditionally been challenging given the low prevalence of the condition:
+Around 1% of the U.S. population suffers from this illness.  In this paper, we
+demonstrate that the social media data available on Twitter provides a platform
+to collect a large enough sample of self-identified schizophrenia sufferers,
+along with the language they use, to explore potential linguistic markers of
+schizophrenia. We describe several natural language processing (NLP) methods to
+analyze the language of schizophrenia as compared to the language of matched
+community controls, and examine how these signals interact with the widely-used
+LIWC categories for understanding mental health (Pennebaker et al., 2007).  We
+demonstrate a machine learning approach that can identify schizophrenia
+sufferers on Twitter in our balanced dataset with 82.3% accuracy, and further,
+we find that our automatic NLP methods provide evidence of additional
+linguistic signals that may aid in identifying and getting help to people
+suffering from schizophrenia.
+Author{1}{Firstname}#=%=#Margaret
+Author{1}{Lastname}#=%=#Mitchell
+Author{1}{Email}#=%=#memitc@microsoft.com
+Author{1}{Affiliation}#=%=#Microsoft Research
+Author{2}{Firstname}#=%=#Kristy
+Author{2}{Lastname}#=%=#Hollingshead
+Author{2}{Email}#=%=#hollingk@gmail.com
+Author{2}{Affiliation}#=%=#IHMC
+Author{3}{Firstname}#=%=#Glen
+Author{3}{Lastname}#=%=#Coppersmith
+Author{3}{Email}#=%=#glen@qntfy.io
+Author{3}{Affiliation}#=%=#Qntfy
+
+==========

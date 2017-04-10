@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#An Evaluation and Comparison of Linguistic Alignment Measures
+ShortPaperTitle#=%=#An Evaluation and Comparison of Linguistic Alignment Measures
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yang Xu
+JobTitle#==#
+Organization#==#College of Information Science and Technologies, 
+The Pennsylvania State University, 
+University Park, PA 16802, USA
+Abstract#==#Linguistic alignment has emerged as an important property of conversational
+language and a driver of mutual understanding in dialogue. While various
+computational measures of linguistic alignment in corpus and experimental data
+have been devised, a systematic evaluation of them is missing. In this study,
+we first evaluate the sensitivity and distributional properties of three
+measures, indiscriminate local linguistic alignment (LLA), Spearman’s
+correlation coefficient (SCC), and repetition decay (RepDecay). Then we apply
+them in a study of interactive alignment and individual differences to see how
+well they conform to the Interactive Alignment Model (IAM), and how well they
+can reveal the individual differences in alignment propensity. Our results
+suggest that LLA has the overall best performance.
+Author{1}{Firstname}#=%=#Yang
+Author{1}{Lastname}#=%=#Xu
+Author{1}{Email}#=%=#yang.xu@psu.edu
+Author{1}{Affiliation}#=%=#College of Information Science and Technologies, Pennsylvania State University
+Author{2}{Firstname}#=%=#David
+Author{2}{Lastname}#=%=#Reitter
+Author{2}{Email}#=%=#reitter@psu.edu
+Author{2}{Affiliation}#=%=#College of Information Science and Technologies, Pennsylvania State University
+
+==========

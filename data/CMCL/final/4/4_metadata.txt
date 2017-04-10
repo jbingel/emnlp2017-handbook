@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Predictions for self-priming from incremental updating models unifying comprehension and production
+ShortPaperTitle#=%=#Predictions for structural self-priming from incremental updating models
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Cassandra Jacobs
+JobTitle#==#
+Organization#==#Cassandra Jacobs
+Department of Psychology
+603 E. Daniel St.
+Champaign, IL 61820
+Abstract#==#Syntactic priming from comprehension to production has been shown to be robust:
+we are more likely to repeat structures that we have previously heard. Many
+current models do not distinguish between comprehension and production. Here we
+contrast human language processing with two variants of a Bayesian belief
+updating model. In the first model, production-to-production priming (i.e.
+self-priming) is as strong as comprehension-to-production priming. In the
+second, both individuals who self-prime and those who do not are exposed to a
+syntactic construction via comprehension. Our results suggest that when
+production-to-production priming is as robust as comprehension-to-production
+priming, then speakers who self-prime are simultaneously less likely to be
+primed by input from comprehension and demonstrate different distributions of
+responses than speakers who do not self-prime. The computational model accords
+with recent results demonstrating no self-priming, and provides evidence for an
+account of syntactic priming that distinguishes between production and
+comprehension input.
+Author{1}{Firstname}#=%=#Cassandra L.
+Author{1}{Lastname}#=%=#Jacobs
+Author{1}{Email}#=%=#cljacob2@illinois.edu
+Author{1}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+
+==========

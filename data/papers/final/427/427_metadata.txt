@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#427
+FinalPaperTitle#=%=#Type-Driven Incremental Semantic Parsing with Polymorphism
+ShortPaperTitle#=%=#Type-Driven Incremental Semantic Parsing with Polymorphism
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Kai Zhao
+JobTitle#==#
+Organization#==#Graduate Center, City University of New York
+365 Fifth Ave, New York NY, 10016
+Abstract#==#Semantic parsing has made significant progress, but most current semantic
+parsers are extremely slow (CKY-based) and rather primitive in representation.
+We introduce three new techniques to tackle these problems. First, we design
+the first linear-time incremental shift-reduce-style semantic parsing algorithm
+which is more efficient than conventional cubic-time bottom-up semantic
+parsers. Second, our parser, being type-driven instead of syntax-driven, uses
+type-checking to decide the direction of reduction, which eliminates the need
+for a syntactic grammar such as CCG. Third, to fully exploit the power of
+type-driven semantic parsing beyond simple types (such as entities and truth
+values), we borrow from programming language theory the concepts of subtype
+polymorphism and parametric polymorphism to enrich the type system in order to
+better guide the parsing. Our system learns very accurate parses in GeoQuery,
+Jobs and Atis domains.
+Author{1}{Firstname}#=%=#Kai
+Author{1}{Lastname}#=%=#Zhao
+Author{1}{Email}#=%=#kzhao.hf@gmail.com
+Author{1}{Affiliation}#=%=#Graduate Center, CUNY
+Author{2}{Firstname}#=%=#Liang
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Email}#=%=#liang.huang.sh@gmail.com
+Author{2}{Affiliation}#=%=#City University of New York (CUNY)
+
+==========

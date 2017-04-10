@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#MiniExperts: An SVM Approach for Measuring Semantic Textual Similarity
+ShortPaperTitle#=%=#MiniExperts: An SVM approach for Measuring STS
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Hernani Costa
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper describes the system submitted by the University of Wolverhampton
+and the University of Malaga for SemEval-2015 Task 2: Semantic Textual
+Similarity. The system uses a Supported Vector Machine approach based on a
+number of linguistically motivated features. Our system performed
+satisfactorily for English and obtained a mean 0.7216 Pearson correlation.
+However, it performed less adequately for Spanish, obtaining only a mean
+0.5158.
+Author{1}{Firstname}#=%=#Hanna
+Author{1}{Lastname}#=%=#Béchara
+Author{1}{Email}#=%=#hanna.bechara@wlv.ac.uk
+Author{1}{Affiliation}#=%=#RIILP, University of Wolverhampton, UK
+Author{2}{Firstname}#=%=#Hernani
+Author{2}{Lastname}#=%=#Costa
+Author{2}{Email}#=%=#hernanimax@gmail.com
+Author{2}{Affiliation}#=%=#LEXYTRAD, University of Malaga
+Author{3}{Firstname}#=%=#Shiva
+Author{3}{Lastname}#=%=#Taslimipoor
+Author{3}{Email}#=%=#taslimi@wlv.ac.uk
+Author{3}{Affiliation}#=%=#RIILP, University of Wolverhampton, UK
+Author{4}{Firstname}#=%=#Rohit
+Author{4}{Lastname}#=%=#Gupta
+Author{4}{Email}#=%=#r.gupta@wlv.ac.uk
+Author{4}{Affiliation}#=%=#RIILP, University of Wolverhampton, UK
+Author{5}{Firstname}#=%=#Constantin
+Author{5}{Lastname}#=%=#Orasan
+Author{5}{Email}#=%=#c.orasan@wlv.ac.uk
+Author{5}{Affiliation}#=%=#RIILP, University of Wolverhampton, UK
+Author{6}{Firstname}#=%=#Gloria
+Author{6}{Lastname}#=%=#Corpas Pastor
+Author{6}{Email}#=%=#gcorpas@uma.es
+Author{6}{Affiliation}#=%=#LEXYTRAD, University of Malaga, Spain
+Author{7}{Firstname}#=%=#Ruslan
+Author{7}{Lastname}#=%=#Mitkov
+Author{7}{Email}#=%=#r.mitkov@wlv.ac.uk
+Author{7}{Affiliation}#=%=#RIILP, University of Wolverhampton, UK
+
+==========

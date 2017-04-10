@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#661
+FinalPaperTitle#=%=#Learning Knowledge Graphs for Question Answering through Conversational Dialog
+ShortPaperTitle#=%=#Learning Knowledge Graphs for Question Answering through Conversational Dialog
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Ben Hixon
+JobTitle#==#
+Organization#==#University of Washington
+Seattle, WA, USA
+Abstract#==#We describe how a question-answering system can learn about its domain from
+conversational dialogs. Our system learns to relate concepts in science
+questions to propositions in a fact corpus, stores new concepts and relations
+in a knowledge graph (KG), and uses the graph to solve questions. We are the
+first to acquire knowledge for question-answering from open, natural language
+dialogs without a fixed ontology or domain model that predetermines what users
+can say. Our relation-based strategies complete more successful dialogs than a
+query expansion baseline, our task-driven relations are more effective for
+solving science questions than relations from general knowledge sources, and
+our method is practical enough to generalize to other domains.
+Author{1}{Firstname}#=%=#Ben
+Author{1}{Lastname}#=%=#Hixon
+Author{1}{Email}#=%=#bhixon@cs.washington.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Peter
+Author{2}{Lastname}#=%=#Clark
+Author{2}{Email}#=%=#peterc@allenai.org
+Author{2}{Affiliation}#=%=#Allen Institute for AI
+Author{3}{Firstname}#=%=#Hannaneh
+Author{3}{Lastname}#=%=#Hajishirzi
+Author{3}{Email}#=%=#hannaneh@washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+
+==========

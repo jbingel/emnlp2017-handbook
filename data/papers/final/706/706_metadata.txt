@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#706
+FinalPaperTitle#=%=#GPU-Friendly Local Regression for Voice Conversion
+ShortPaperTitle#=%=#GPU-Friendly Local Regression for Voice Conversion
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Taylor Berg-Kirkpatrick
+JobTitle#==#
+Organization#==#UC Berkeley
+Abstract#==#Voice conversion is the task of transforming a source speaker's voice so that
+it sounds like a target speaker's voice. We present a GPU-friendly local
+regression model for voice conversion that is capable of converting speech in
+real-time and achieves state-of-the-art accuracy on this task. Our model uses a
+new approximation for computing local regression coefficients that is
+explicitly designed to preserve memory locality. As a result, our inference
+procedure is amenable to efficient implementation on the GPU. Our approach is
+more than 10X faster than a highly optimized CPU-based implementation, and is
+able to convert speech 2.7X faster than real-time.
+Author{1}{Firstname}#=%=#Taylor
+Author{1}{Lastname}#=%=#Berg-Kirkpatrick
+Author{1}{Email}#=%=#tberg@eecs.berkeley.edu
+Author{1}{Affiliation}#=%=#UC Berkeley
+Author{2}{Firstname}#=%=#Dan
+Author{2}{Lastname}#=%=#Klein
+Author{2}{Email}#=%=#klein@cs.berkeley.edu
+Author{2}{Affiliation}#=%=#UC Berkeley
+
+==========

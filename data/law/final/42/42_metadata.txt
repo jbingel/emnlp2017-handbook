@@ -1,0 +1,17 @@
+SubmissionNumber#=%=#42
+FinalPaperTitle#=%=#Parsing Learner Text: to Shoehorn or not to Shoehorn
+ShortPaperTitle#=%=#Parsing Learner Text: to Shoehorn or not to Shoehorn
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Aoife Cahill
+JobTitle#==#
+Organization#==#Educational Testing Service
+660 Rosedale Rd., 
+Princeton, NJ 08541
+USA
+Abstract#==#A discussion of parsing learner text.
+Author{1}{Firstname}#=%=#Aoife
+Author{1}{Lastname}#=%=#Cahill
+Author{1}{Email}#=%=#acahill@ets.org
+Author{1}{Affiliation}#=%=#Educational Testing Service
+
+==========

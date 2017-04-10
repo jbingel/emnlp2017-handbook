@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#40
+FinalPaperTitle#=%=#Incorporating Coherence of Topics as a Criterion in Automatic Response-to-Text Assessment of the Organization of Writing
+ShortPaperTitle#=%=#Incorporating Coherence of Topics in Automatic Response-to-Text Assessment of the Organization
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Zahra Rahimi
+JobTitle#==#
+Organization#==#University of Pittsburgh
+Pittsburgh, PA, 15260
+Abstract#==#This paper presents an investigation of score prediction for the Organization
+dimension of an assessment of analytical writing in response to text. With the
+long-term goal of producing feedback for students and teachers, we designed a
+task-dependent model that aligns with the scoring rubric and makes use of the
+source material. Our experimental results show that our rubric-based model
+performs as well as baselines on datasets from grades 6-8. On shorter and
+noisier essays from grades 5-6, the rubric-based model performs better than the
+baselines. Further, we show that the baseline model (lexical chaining) can be
+improved if we extend it with information from the source text for shorter and
+noisier data.
+Author{1}{Firstname}#=%=#Zahra
+Author{1}{Lastname}#=%=#Rahimi
+Author{1}{Email}#=%=#zar10@pitt.edu
+Author{1}{Affiliation}#=%=#University of Pittsburgh
+Author{2}{Firstname}#=%=#Diane
+Author{2}{Lastname}#=%=#Litman
+Author{2}{Email}#=%=#litman@cs.pitt.edu
+Author{2}{Affiliation}#=%=#University of Pittsburgh
+Author{3}{Firstname}#=%=#Elaine
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#elw51@pitt.edu
+Author{3}{Affiliation}#=%=#University of Pittsburgh
+Author{4}{Firstname}#=%=#Richard
+Author{4}{Lastname}#=%=#Correnti
+Author{4}{Email}#=%=#rcorrent@pitt.edu
+Author{4}{Affiliation}#=%=#University of pittsburgh
+
+==========

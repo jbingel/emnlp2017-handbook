@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#53
+FinalPaperTitle#=%=#UMDuluth-CS8761-12: A Novel Machine Learning Approach for Aspect Based Sentiment Analysis
+ShortPaperTitle#=%=#UMDuluth-CS8761-12:ABSA
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ravikanth Repaka
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper provides a detailed description of the approach of our system for
+the Aspect Based Sentiment Analysis task of SemEval2015. The task is to
+identify the Aspect Category (Entity and Attribute pair), Opinion Target and
+Sentiment of the reviews. For the In-domain subtask that is provided with the
+training data, the system is developed using a supervised technique called
+Support Vector Machine and for the Out-of-domain subtask for which the training
+data is not provided, it is implemented based on the sentiment score of the
+vocabulary. For In-domain subtask, our system is developed specifically for
+restaurant data.
+Author{1}{Firstname}#=%=#Ravikanth
+Author{1}{Lastname}#=%=#Repaka
+Author{1}{Email}#=%=#repak003@d.umn.edu
+Author{1}{Affiliation}#=%=#University of Minnesota Duluth
+Author{2}{Firstname}#=%=#Ranga Reddy
+Author{2}{Lastname}#=%=#Pallelra
+Author{2}{Email}#=%=#palle015@d.umn.edu
+Author{2}{Affiliation}#=%=#University of Minnesota Duluth
+Author{3}{Firstname}#=%=#Akshay Reddy
+Author{3}{Lastname}#=%=#Koppula
+Author{3}{Email}#=%=#koppu001@d.umn.edu
+Author{3}{Affiliation}#=%=#University of Minnesota Duluth
+Author{4}{Firstname}#=%=#Venkata Subhash
+Author{4}{Lastname}#=%=#Movva
+Author{4}{Email}#=%=#movva002@d.umn.edu
+Author{4}{Affiliation}#=%=#University of Minnesota Duluth
+
+==========

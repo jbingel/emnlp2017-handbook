@@ -1,0 +1,11 @@
+abbrev ARG-MINING
+type WORKSHOP
+title 2nd Workshop on Argumentation Mining
+url http://www.cs.cornell.edu/home/cardie/naacl-2nd-arg-mining/
+booktitle Proceedings of the 2nd Workshop on Argumentation Mining
+month June
+year 2015
+location Denver, CO
+publisher Association for Computational Linguistics
+chairs Claire Cardie (Cornell University)
+bib_url http://www.aclweb.org/anthology/W15-05%02d

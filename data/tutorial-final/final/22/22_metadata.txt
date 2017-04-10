@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#Getting the Roles Right: Using FrameNet in NLP
+ShortPaperTitle#=%=#Getting the Roles Right: Using FrameNet in NLP
+NumberOfPages#=%=#3
+CopyrightSigned#=%=#Collin F Baker
+JobTitle#==#
+Organization#==#International Computer Science Institute
+Abstract#==#The FrameNet lexical database (Fillmore and Baker 2010) covers roughly 13,000
+lexical units (word senses) for the core Engish lexicon, associating them with
+roughly 1,200 fully defined semantic frames; these frames and their roles cover
+the majority of event types in everyday, non-specialist text, and they are
+documented with 200,000 manually annotated examples. Although much of the NLP
+community has heard of FrameNet and has a rough picture of what it is, to date,
+only a few NLP researchers have fully explored the wealth of information that
+FrameNet offers and how it differs from other resources such as PropBank. In
+this tutorial, we cover recent developments like the new NLTK Python API that
+make it easy to get started with FrameNet. 
+
+This tutorial will teach attendees what they need to know to start using the
+FrameNet lexical database as part of an NLP system. We will cover the basics of
+Frame Semantics, explain how the database has been created and introduce the
+Python API and the state of the art in automatic frame semantic role labeling
+systems, and FrameNet collaboration with commercial partners. As time permits,
+we will also discuss new research on frame semantic approaches to negation and
+conditionals and the how frame semantic roles can aid the interpretation of
+metaphors.
+Author{1}{Firstname}#=%=#Collin
+Author{1}{Lastname}#=%=#Baker
+Author{1}{Email}#=%=#collinb@icsi.berkeley.edu
+Author{1}{Affiliation}#=%=#International Computer Science Institute
+Author{2}{Firstname}#=%=#Nathan
+Author{2}{Lastname}#=%=#Schneider
+Author{2}{Email}#=%=#nschneid@inf.ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+Author{3}{Firstname}#=%=#Miriam R L
+Author{3}{Lastname}#=%=#Petruck
+Author{3}{Email}#=%=#miriamp@icsi.berkeley.edu
+Author{3}{Affiliation}#=%=#International Computer Science Institute
+Author{4}{Firstname}#=%=#Michael
+Author{4}{Lastname}#=%=#Ellsworth
+Author{4}{Email}#=%=#infinity@icsi.berkeley.edu
+Author{4}{Affiliation}#=%=#International Computer Science Institute
+
+==========

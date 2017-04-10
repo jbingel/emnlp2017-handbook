@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Modeling and Characterizing Social Media Topics Using the Gamma Distribution
+ShortPaperTitle#=%=#Modeling and Characterizing Social Media Topics Using the Gamma Distribution
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Connie Yee
+JobTitle#==#
+Organization#==#Thomson Reuters
+3 Times Square
+New York, NY 10036, USA
+Abstract#==#We present a novel technique to identify emerging or important topics mentioned
+on social media. A sudden increase in related posts can indicate an occurrence
+of an external event. Assuming that the sequence of posts is a homogeneous
+Poisson process, this sudden change can be modeled using the Gamma
+distribution. Our Gamma curve fitter is used to return a set of emerging
+topics. We demonstrate our algorithm on Twitter data and evaluate empirically
+using the Reuters News Archive and manual inspection. Our experimental results
+show that our algorithm provides a good picture of the emerging topics
+discussed on Twitter.
+Author{1}{Firstname}#=%=#Connie
+Author{1}{Lastname}#=%=#Yee
+Author{1}{Email}#=%=#connie.yee@thomsonreuters.com
+Author{1}{Affiliation}#=%=#Thomson Reuters
+Author{2}{Firstname}#=%=#Nathan
+Author{2}{Lastname}#=%=#Keane
+Author{2}{Email}#=%=#nathan.keane@thomsonreuters.com
+Author{2}{Affiliation}#=%=#Thomson Reuters
+Author{3}{Firstname}#=%=#Liang
+Author{3}{Lastname}#=%=#Zhou
+Author{3}{Email}#=%=#l.zhou@thomsonreuters.com
+Author{3}{Affiliation}#=%=#Thomson Reuters
+
+==========

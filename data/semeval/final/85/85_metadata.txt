@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#85
+FinalPaperTitle#=%=#SPINOZA_VU: An NLP Pipeline for Cross Document TimeLines
+ShortPaperTitle#=%=#SPINOZA_VU: An NLP Pipeline for Cross Document TimeLines
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Tommaso Caselli
+JobTitle#==#Researcher
+Organization#==#Vrije Universiteit Amsterdam/Faculty of Humanities 
+De Boelelaan 1105 
+1081 HV Amsterdam Nederland
+Abstract#==#This paper describes the system SPINOZA VU developed for the “SemEval 2015
+Task 4: Cross Document TimeLines”. The system integrates output from the
+NewsReader Natural Language Processing pipeline and is designed following an
+entity based model. The poor performance of the submit- ted runs are mainly a
+consequence of error propagation. Nevertheless, the error analysis has shown
+that the interpretation module behind the system performs correctly. An out of
+competition version of the system has fixed some errors and obtained
+competitive results. Therefore, we consider the system an important step
+towards a more complex task such as storyline extraction.
+Author{1}{Firstname}#=%=#Tommaso
+Author{1}{Lastname}#=%=#Caselli
+Author{1}{Email}#=%=#t.caselli@vu.nl
+Author{1}{Affiliation}#=%=#VU Amsterdam
+Author{2}{Firstname}#=%=#Antske
+Author{2}{Lastname}#=%=#Fokkens
+Author{2}{Email}#=%=#antske.fokkens@vu.nl
+Author{2}{Affiliation}#=%=#VU Amsterdam
+Author{3}{Firstname}#=%=#Roser
+Author{3}{Lastname}#=%=#Morante
+Author{3}{Email}#=%=#r.morantevallejo@vu.nl
+Author{3}{Affiliation}#=%=#Vrije Universiteit Amsterdam
+Author{4}{Firstname}#=%=#Piek
+Author{4}{Lastname}#=%=#Vossen
+Author{4}{Email}#=%=#piek.vossen@vu.nl
+Author{4}{Affiliation}#=%=#VU University Amsterdam
+
+==========

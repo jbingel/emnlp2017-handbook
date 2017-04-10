@@ -1,0 +1,64 @@
+SubmissionNumber#=%=#458
+FinalPaperTitle#=%=#Recognizing Social Constructs from Textual Conversation
+ShortPaperTitle#=%=#Recognizing Social Constructs from Textual Conversation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Somak Aditya
+JobTitle#==#
+Organization#==#Arizona State University, Tempe, AZ, 85281
+Abstract#==#In this paper we present our work on recognizing high level social constructs
+such as Leadership and Status from textual conversation using an approach that
+makes use of the background knowledge about social hierarchy and integrates
+statistical methods and symbolic logic based methods. We use a stratified
+approach in which we first detect lower level language constructs such as
+politeness, command and agreement that help us to infer intermediate constructs
+such as deference, closeness and authority that are observed between the
+parties engaged in conversation. These intermediate constructs in turn are used
+to determine the social constructs Leadership and Status. We have implemented
+this system successfully in both English and Korean languages and achieved
+considerable accuracy.
+Author{1}{Firstname}#=%=#Somak
+Author{1}{Lastname}#=%=#Aditya
+Author{1}{Email}#=%=#saditya1@asu.edu
+Author{1}{Affiliation}#=%=#Arizona State University
+Author{2}{Firstname}#=%=#Chitta
+Author{2}{Lastname}#=%=#Baral
+Author{2}{Email}#=%=#chitta@asu.edu
+Author{2}{Affiliation}#=%=#Arizona State University
+Author{3}{Firstname}#=%=#Nguyen
+Author{3}{Lastname}#=%=#Ha Vo
+Author{3}{Email}#=%=#vohanguyen@gmail.com
+Author{3}{Affiliation}#=%=#Arizona State University
+Author{4}{Firstname}#=%=#Joohyung
+Author{4}{Lastname}#=%=#Lee
+Author{4}{Email}#=%=#joolee@asu.edu
+Author{4}{Affiliation}#=%=#Arizona State University
+Author{5}{Firstname}#=%=#Jieping
+Author{5}{Lastname}#=%=#Ye
+Author{5}{Email}#=%=#jieping.Ye@asu.edu
+Author{5}{Affiliation}#=%=#Arizona State University
+Author{6}{Firstname}#=%=#Zaw
+Author{6}{Lastname}#=%=#Naung
+Author{6}{Email}#=%=#znaung@asu.edu
+Author{6}{Affiliation}#=%=#Arizona State University
+Author{7}{Firstname}#=%=#Barry
+Author{7}{Lastname}#=%=#Lumpkin
+Author{7}{Email}#=%=#Barry.Lumpkin@asu.edu
+Author{7}{Affiliation}#=%=#Arizona State University
+Author{8}{Firstname}#=%=#Jenny
+Author{8}{Lastname}#=%=#Hastings
+Author{8}{Email}#=%=#jenny.hastings@asu.edu
+Author{8}{Affiliation}#=%=#Arizona State University
+Author{9}{Firstname}#=%=#Richard
+Author{9}{Lastname}#=%=#Scherl
+Author{9}{Email}#=%=#rscherl@monmouth.edu
+Author{9}{Affiliation}#=%=#Monmouth University
+Author{10}{Firstname}#=%=#Dawn M.
+Author{10}{Lastname}#=%=#Sweet
+Author{10}{Email}#=%=#dsweet125@gmail.com
+Author{10}{Affiliation}#=%=#Iowa State University
+Author{11}{Firstname}#=%=#Daniela
+Author{11}{Lastname}#=%=#Inclezan
+Author{11}{Email}#=%=#inclezd@miamioh.edu
+Author{11}{Affiliation}#=%=#Miami University
+
+==========

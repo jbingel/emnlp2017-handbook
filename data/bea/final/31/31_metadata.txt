@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Towards Creating Pedagogic Views from Encyclopedic Resources
+ShortPaperTitle#=%=#Towards Creating Pedagogic Views from Encyclopedic Resources
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ditty Mathew
+JobTitle#==#
+Organization#==#Department of Computer Science and Engineering
+Indian Institute of Technology, Madras
+Chennai - 600 036, India
+Abstract#==#This paper identifies computational challenges in restructuring encyclopedic
+resources (like Wikipedia or thesauri) to reorder concepts with the goal of
+helping learners navigate through a concept network without getting trapped in
+circular dependencies between concepts. We present approaches that can help
+content authors identify regions in the concept network, that after editing,
+would have maximal impact in terms of enhancing the utility of the resource to
+learners.
+Author{1}{Firstname}#=%=#Ditty
+Author{1}{Lastname}#=%=#Mathew
+Author{1}{Email}#=%=#ditty@cse.iitm.ac.in
+Author{1}{Affiliation}#=%=#Indian Institute of Technology, Madras
+Author{2}{Firstname}#=%=#Dhivya
+Author{2}{Lastname}#=%=#Eswaran
+Author{2}{Email}#=%=#dhivyae@cse.iitm.ac.in
+Author{2}{Affiliation}#=%=#Indian Institute of Technology, Madras
+Author{3}{Firstname}#=%=#Sutanu
+Author{3}{Lastname}#=%=#Chakraborti
+Author{3}{Email}#=%=#sutanuc@iitm.ac.in
+Author{3}{Affiliation}#=%=#Indian Institute of Technology, Madras
+
+==========

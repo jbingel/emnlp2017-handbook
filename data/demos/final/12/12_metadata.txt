@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Analyzing and Visualizing Coreference Resolution Errors
+ShortPaperTitle#=%=#Analyzing and Visualizing Coreference Resolution Errors
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Sebastian Martschat
+JobTitle#==#
+Organization#==#Heidelberg Institute for Theoretical Studies gGmbH
+Schloss-Wolfsbrunnenweg 35
+69118 Heidelberg
+Germany
+Abstract#==#We present a toolkit for coreference resolution error analysis. It implements a
+recently proposed analysis framework and contains rich components for analyzing
+and visualizing recall and precision errors.
+Author{1}{Firstname}#=%=#Sebastian
+Author{1}{Lastname}#=%=#Martschat
+Author{1}{Email}#=%=#sebastian.martschat@h-its.org
+Author{1}{Affiliation}#=%=#Heidelberg Institute for Theoretical Studies
+Author{2}{Firstname}#=%=#Thierry
+Author{2}{Lastname}#=%=#Göckel
+Author{2}{Email}#=%=#thierry.goeckel@iqser.com
+Author{2}{Affiliation}#=%=#iQser GmbH
+Author{3}{Firstname}#=%=#Michael
+Author{3}{Lastname}#=%=#Strube
+Author{3}{Email}#=%=#michael.strube@h-its.org
+Author{3}{Affiliation}#=%=#Heidelberg Institute for Theoretical Studies
+
+==========

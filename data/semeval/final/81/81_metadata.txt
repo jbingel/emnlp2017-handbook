@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#81
+FinalPaperTitle#=%=#LIMSI: Translations as Source of Indirect Supervision for Multilingual All-Words Sense Disambiguation and Entity Linking
+ShortPaperTitle#=%=#LIMSI: Translations as Source of Indirect Supervision for Multilingual WSD and Entity Linking
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Marianna Apidianaki
+JobTitle#==#
+Organization#==#LIMSI-CNRS
+Rue John von Neumann
+91405 Orsay Cedex, France
+Abstract#==#We present the LIMSI submission to the Multilingual Word Sense Disambiguation
+and Entity Linking task of SemEval-2015. The system exploits the parallelism of
+the multilingual test data and uses translations as source of indirect
+supervision for sense selection. The LIMSI system gets best results in English
+in all domains and shows that alignment information can successfully guide
+disambiguation. This simple but effective method can serve to generate high
+quality sense annotated data for WSD system training.
+Author{1}{Firstname}#=%=#Marianna
+Author{1}{Lastname}#=%=#Apidianaki
+Author{1}{Email}#=%=#marianna.apidianaki@limsi.fr
+Author{1}{Affiliation}#=%=#LIMSI-CNRS
+Author{2}{Firstname}#=%=#Li
+Author{2}{Lastname}#=%=#Gong
+Author{2}{Email}#=%=#gong@limsi.fr
+Author{2}{Affiliation}#=%=#IMMI-CNRS
+
+==========

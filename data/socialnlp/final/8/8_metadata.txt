@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#A Deep Learning and Knowledge Transfer Based Architecture for Social Media User Characteristic Determination
+ShortPaperTitle#=%=#Deep Learning and Knowledge Transfer Architecture for Social Media User Characteristic Determination
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Matthew Riemer
+JobTitle#==#
+Organization#==#IBM Thomas J. Watson Research Center
+1101 Route 134 Kitchawan Rd, Yorktown Heights, NY 10598
+Abstract#==#Determining explicit user characteristics based on interactions on Social Media
+is a crucial task in developing recommendation and social polling solutions.
+For this purpose, rule based and N-gram based techniques have been proposed to
+develop user profiles, but they are only fit for detecting user attributes that
+can be classified by a relatively simple logic or rely on the presence of a
+large amount of training data. In this paper, we propose a general purpose,
+end-to-end architecture for text analytics, and demonstrate its effectiveness
+for analytics based on tweets with a relatively small training set. By
+performing unsupervised feature learning and deep learning over labeled and
+unlabeled tweets, we are able to learn in a more generalizable way than N-gram
+techniques. Our proposed hidden layer sharing approach makes it possible to
+ef-ficiently transfer knowledge between related NLP tasks. This approach is
+extensible, and can learn even more from metadata available about Social Media
+users. For the task of user age prediction over a relatively small corpus, we
+demonstrate 38.3% error reduction over single task baselines, a total of 44.7%
+error reduction with the incorporation of two re-lated tasks, and achieve 90.1%
+accuracy when useful metadata is present.
+Author{1}{Firstname}#=%=#Matthew
+Author{1}{Lastname}#=%=#Riemer
+Author{1}{Email}#=%=#matthewdriemer@gmail.com
+Author{1}{Affiliation}#=%=#IBM
+Author{2}{Firstname}#=%=#Sophia
+Author{2}{Lastname}#=%=#Krasikov
+Author{2}{Email}#=%=#kras@us.ibm.com
+Author{2}{Affiliation}#=%=#IBM Watson Research Center
+Author{3}{Firstname}#=%=#Harini
+Author{3}{Lastname}#=%=#Srinivasan
+Author{3}{Email}#=%=#harini@us.ibm.com
+Author{3}{Affiliation}#=%=#IBM Watson Research Center
+
+==========

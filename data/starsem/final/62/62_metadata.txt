@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#62
+FinalPaperTitle#=%=#Automatic Generation of a Lexical Resource to support Semantic Role Labeling in Portuguese
+ShortPaperTitle#=%=#Automatic Generation of a Lexical Resource to support Semantic Role Labeling in Portuguese
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Magali Sanches Duran
+JobTitle#==#
+Organization#==#Center for Computational Linguistics (NILC)
+Institute of Mathematical and Computer Sciences 
+São Paulo University
+Av. Trabalhador São Carlense, 400
+São Carlos-SP, Brazil
+Abstract#==#This paper reports an approach to automatically generate a lexical resource to
+support incremental semantic role labeling annotation in Portuguese. The data
+come from the corpus Propbank-Br (Propbank of Brazilian Portuguese) and from
+the lexical resource of English Propbank, as both share the same structure.  In
+order to enable the strategy, we added extra annotation to Propbank-Br. This
+approach is part of a previous decision to invert the process of implementing a
+Propbank Project, by first annotating a core corpus and only then generating a
+lexical resource to enable further annotation tasks. The reasoning behind such
+inversion is to explore the task empirically before distributing the annotation
+task and to provide simultaneously: 1) a first training corpus for SRL in
+Brazilian Portuguese and 2) annotated examples to compose a lexical resource to
+support SRL. The main contribution of this paper is to point out to what extent
+linguistic effort may be reduced, thereby speeding up the construction of a
+lexical resource to support SRL for less resourced languages. The corpus
+Propbank-Br, with the extra annotation described herein, is publicly available.
+Author{1}{Firstname}#=%=#Magali
+Author{1}{Lastname}#=%=#Sanches Duran
+Author{1}{Email}#=%=#magali.duran@uol.com.br
+Author{1}{Affiliation}#=%=#Universidade de São Paulo
+Author{2}{Firstname}#=%=#Sandra
+Author{2}{Lastname}#=%=#Aluísio
+Author{2}{Email}#=%=#sandra@icmc.usp.br
+Author{2}{Affiliation}#=%=#University of São Paulo
+
+==========

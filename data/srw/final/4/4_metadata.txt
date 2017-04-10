@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Cache-Augmented Latent Topic Language Models for Speech Retrieval
+ShortPaperTitle#=%=#Cache-Augmented Latent Topic Language Models for Speech Retrieval
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Jonathan Wintrode
+JobTitle#==#
+Organization#==#
+Abstract#==#We aim to improve speech retrieval performance by augmenting traditional N-gram
+language models with different types of topic context. We present a latent
+topic model framework that treats documents as arising from an underlying topic
+sequence combined with a cache-based repetition model. We analyze our proposed
+model both for its ability to capture word repetition via the cache and for its
+suitability as a language model for speech recognition and retrieval. We show
+this model, augmented with the cache, captures intuitive repetition behavior
+across languages and exhibits lower perplexity than regular LDA on held out
+data in multiple languages. Lastly, we show that our joint model improves
+speech retrieval performance beyond N-grams or latent topics alone, when
+applied to a term detection task in all languages considered.
+Author{1}{Firstname}#=%=#Jonathan
+Author{1}{Lastname}#=%=#Wintrode
+Author{1}{Email}#=%=#jcwintr@cs.jhu.edu
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+
+==========

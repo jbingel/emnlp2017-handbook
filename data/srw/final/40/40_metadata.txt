@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#40
+FinalPaperTitle#=%=#Relation Extraction from Community Generated Question-Answer Pairs
+ShortPaperTitle#=%=#Relation Extraction from Community Generated Question-Answer Pairs
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Denis Savenkov
+JobTitle#==#
+Organization#==#
+Abstract#==#Community question answering (CQA) websites contain millions of question and
+answer (QnA) pairs that represent real users' interests. Traditional methods
+for relation extraction from natural language text operate over individual
+sentences. However answer text is sometimes hard to understand without knowing
+the question, \eg it may not name the subject or relation of the question. This
+work presents a novel model for relation extraction from CQA data, which uses
+discourse of QnA pairs to predict relations between entities mentioned in
+question and answer sentences. Experiments on 2 publicly available datasets
+demonstrate that the model can extract from ~20% to ~40% additional relation
+triples, not extracted by existing sentence-based models.
+Author{1}{Firstname}#=%=#Denis
+Author{1}{Lastname}#=%=#Savenkov
+Author{1}{Email}#=%=#dsavenk@emory.edu
+Author{1}{Affiliation}#=%=#Emory University
+Author{2}{Firstname}#=%=#Wei-Lwun
+Author{2}{Lastname}#=%=#Lu
+Author{2}{Email}#=%=#weilwunlu@google.com
+Author{2}{Affiliation}#=%=#Google Inc.
+Author{3}{Firstname}#=%=#Jeff
+Author{3}{Lastname}#=%=#Dalton
+Author{3}{Email}#=%=#jeffdalton@google.com
+Author{3}{Affiliation}#=%=#Google Inc.
+Author{4}{Firstname}#=%=#Eugene
+Author{4}{Lastname}#=%=#Agichtein
+Author{4}{Email}#=%=#eugene@mathcs.emory.edu
+Author{4}{Affiliation}#=%=#Emory University
+
+==========

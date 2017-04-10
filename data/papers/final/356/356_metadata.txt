@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#356
+FinalPaperTitle#=%=#Combining Language and Vision with a Multimodal Skip-gram Model
+ShortPaperTitle#=%=#Combining Language and Vision with a Multimodal Skip-gram Model
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Angeliki Lazaridou
+JobTitle#==#
+Organization#==#CIMeC (Università di Trento), 
+Palazzo Fedrigotti, 
+C.so Bettini 31, 
+38068 Rovereto, 
+Italy.
+Abstract#==#We extend the SKIP-GRAM model of Mikolov
+et al. (2013a) by taking visual information into
+account. Like SKIP-GRAM, our multimodal
+models (MMSKIP-GRAM) build vector-based
+word representations by learning to predict
+linguistic contexts in text corpora. However,
+for a restricted set of words, the models are
+also exposed to visual representations of the
+objects they denote (extracted from natural
+images), and must predict linguistic and visual
+features jointly. The MMSKIP-GRAM models 
+achieve good performance on a variety of
+semantic benchmarks. Moreover, since they
+propagate visual information to all words, we
+use them to improve image labeling and retrieval 
+in the zero-shot setup, where the test
+concepts are never seen during model training.
+Finally, the MMSKIP-GRAM models discover
+intriguing visual properties of abstract words,
+paving the way to realistic implementations of
+embodied theories of meaning.
+Author{1}{Firstname}#=%=#Angeliki
+Author{1}{Lastname}#=%=#Lazaridou
+Author{1}{Email}#=%=#angeliki.lazaridou@unitn.it
+Author{1}{Affiliation}#=%=#University of Trento
+Author{2}{Firstname}#=%=#Nghia The
+Author{2}{Lastname}#=%=#Pham
+Author{2}{Email}#=%=#thenghia.pham@unitn.it
+Author{2}{Affiliation}#=%=#University of Trento
+Author{3}{Firstname}#=%=#Marco
+Author{3}{Lastname}#=%=#Baroni
+Author{3}{Email}#=%=#marco.baroni@unitn.it
+Author{3}{Affiliation}#=%=#University of Trento
+
+==========
