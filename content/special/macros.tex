@@ -497,3 +497,19 @@ Human Language Technologies}\par
 \newcommand{\setdaydateyear}[3]{
   \renewcommand{\daydateyear}{#1, #2, #3\xspace}
   \renewcommand{\daydate}{#1, #2\xspace}}
+  
+\newenvironment{linez}
+ {\trivlist\nopagebreak
+  \parindent0pt
+%  \vspace{3pt}%
+%  \hrule
+%  \vspace{-3pt}%
+  \item\relax\obeylines}
+ {\par
+  \nopagebreak
+%  \vspace{3pt}%
+%  \hrule
+%  \vspace{3pt}%
+  \endtrivlist}
+
+\newcommand\todo[1]{\textcolor{red}{#1}}
