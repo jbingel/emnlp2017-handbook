@@ -1,5 +1,5 @@
 - id: 1037
-  title: Nonparametric Bayesian Semi-supervised Word Segmentation
+  title: "[TACL] Nonparametric Bayesian Semi-supervised Word Segmentation"
   authors: Fujii, Ryo and Domoto, Ryo and Mochihashi, Daichi
   abstract: >
     This paper presents a novel hybrid generative/discriminative model of word segmentation based on
@@ -15,8 +15,7 @@
     Chinese, and Thai.
 
 - id: 1040
-  contact: amansour@cs.sfu.ca
-  title: Joint Prediction of Word Alignment with Alignment Types
+  title: "[TACL] Joint Prediction of Word Alignment with Alignment Types"
   authors: Bigvand, Anahita Mansouri and Bu, Te and Sarkar, Anoop
   abstract: >
     Current word alignment models do not distinguish between different types of alignment links. In
@@ -28,8 +27,7 @@
     alignment types significantly outperform the models without alignment types.
     
 - id: 1061
-  contact: jooyeon.kim@kaist.ac.kr
-  title: Joint Modeling of Topics, Citations, and Topical Authority in Academic Corpora
+  title: "[TACL] Joint Modeling of Topics, Citations, and Topical Authority in Academic Corpora"
   authors: Kim, Jooyeon and Kim, Dongwoo and Oh, Alice
   abstract: >
     Much of scientific progress stems from previously published findings, but searching through the
@@ -48,8 +46,7 @@
     publications.
 
 - id: 1081
-  contact: melvinp@google.com
-  title: "Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation"
+  title: "[TACL] Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation"
   authors: Johnson, Melvin and Schuster, Mike and Le, Quoc V. and Krikun, Maxim and Wu, Yonghui and Chen, Zhifeng and Thorat, Nikhil and Viégas, Fernanda and Wattenberg, Martin and Corrado, Greg and Hughes, Macduff and Dean, Jeffrey
   abstract: >
     We propose a simple solution to use a single Neural Machine Translation (NMT) model to translate
@@ -68,8 +65,7 @@
     examples when mixing languages.
 
 - id: 1083
-  contact: vzayats@uw.edu
-  title: Conversation Modeling on Reddit using a Graph-Structured LSTM
+  title: "[TACL] Conversation Modeling on Reddit using a Graph-Structured LSTM"
   authors: Zayats, Vicky and Ostendorf, Mari
   abstract: >
     This paper presents a novel approach for modeling threaded discussions on social media using a
@@ -81,8 +77,7 @@
     bidirectional tree state updates helps with identifying controversial comments.
 
 - id: 1142
-  contact: wmonroe4@stanford.edu
-  title: "Colors in Context: A Pragmatic Neural Model for Grounded Language Understanding"
+  title: "[TACL] Colors in Context: A Pragmatic Neural Model for Grounded Language Understanding"
   authors: Monroe, Will and Hawkins, Robert X.D. and Goodman, Noah D. and Potts, Christopher
   abstract: >
     We present a model of pragmatic referring expression interpretation in a grounded communication
@@ -98,8 +93,7 @@
     pragmatic behaviors.
 
 - id: 1170
-  contact: jkk@cs.berkeley.edu
-  title: "Parsing with Traces: An O(n^4) Algorithm and a Structural Representation"
+  title: "[TACL] Parsing with Traces: An O(n^4) Algorithm and a Structural Representation"
   authors: Kummerfeld, Jonathan K. and Klein, Dan
   abstract: >
     General treebank analyses are graph structured, but parsers are typically restricted to tree
@@ -114,8 +108,7 @@
     range of null elements and trace types.
 
 - id: 1171
-  contact: nikola.mrksic@gmail.com
-  title: Semantic Specialisation of Distributional Word Vector Spaces using Monolingual and Cross-Lingual Constraints
+  title: "[TACL] Semantic Specialisation of Distributional Word Vector Spaces using Monolingual and Cross-Lingual Constraints"
   authors: Mrkšić, Nikola and Vulić, Ivan and Séaghdha, Diarmuid Ó and Leviant, Ira and Reichart, Roi and Gašić, Milica and Korhonen, Anna and Young, Steve
   abstract: >
     We present Attract-Repel, an algorithm for improving the semantic quality of word vectors by
@@ -131,8 +124,7 @@
     multilingual DST models, which brings further performance improvements.
 
 - id: 1055
-  contact: nhf@umd.edu
-  title: Evaluating Low-Level Speech Features Against Human Perceptual Data
+  title: "[TACL] Evaluating Low-Level Speech Features Against Human Perceptual Data"
   authors: Richter, Caitlin and Feldman, Naomi H. and Salgado, Harini and Jansen, Aren
   abstract: >
     We introduce a method for measuring the correspondence between low-level speech features and
