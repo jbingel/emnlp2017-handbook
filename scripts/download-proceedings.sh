@@ -2,7 +2,7 @@ for name in $(cat input/conferences.txt); do
   x=$(echo $name | cut -d\| -f1)
   url=$(echo $name | cut -d\| -f2)
   if test $x = $url; then
-    url="https://www.softconf.com/acl2014/$x/manager/aclpub/proceedings.tgz"
+    url="https://www.softconf.com/emnlp2017/$x/manager/aclpub/proceedings.tgz"
   fi
   echo $x $url
   [[ ! -d "data/$x" ]] && mkdir -p data/$x
