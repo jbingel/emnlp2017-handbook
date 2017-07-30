@@ -55,7 +55,7 @@
 %\bibliography{auto/clfl/papers.bib}
 %%\bibliography{auto/clpsych/papers.bib}
 %\bibliography{auto/cmcl/papers.bib}
-%\bibliography{auto/demos/papers.bib}
+\bibliography{auto/demos/papers.bib}
 %\bibliography{auto/event/papers.bib}
 %\bibliography{auto/exprom/papers.bib}
 %\bibliography{auto/law/papers.bib}
@@ -136,8 +136,16 @@
 \clearpage%{\thispagestyle{emptyheader}\cleardoublepage}
 \setheaders{}{}
 
+%% Venue info %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{content/location-info.tex}
+%% Meal info %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{content/meal-info.tex}
+%% Welcome reception %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% \addcontentsline{toc}{chapter}{Welcome Reception: \daydate, 6:00pm}
+\input{content/tutorials/welcome_reception}
+
 \clearpage
+\todo{full overview for all days}
 
 %% TUTORIALS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -152,10 +160,6 @@
 \setdaydateyear{Thursday--Friday}{September 7--8}{2017}
 %\input{content/workshops/workshops}
 
-%% Welcome reception %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%% \addcontentsline{toc}{chapter}{Welcome Reception: \daydate, 6:00pm}
-\input{content/tutorials/welcome_reception}
 
 %% MAIN CONFERENCE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
