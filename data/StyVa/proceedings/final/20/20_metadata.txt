@@ -1,0 +1,21 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#From Shakespeare to Twitter: What are Language Styles all about?
+ShortPaperTitle#=%=#From Shakespeare to Twitter: What are Language Styles all about?
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Wei Xu
+JobTitle#==#
+Organization#==#The Ohio State University, Columbus, Ohio, USA
+Abstract#==#As natural language processing research is growing and largely driven by the
+availability of data, we expanded research from news and small-scale dialog
+corpora to web and social media. User-generated data and crowdsourcing opened
+the door for investigating human language of various styles with more
+statistical power and real-world applications. In this position/survey paper, I
+will review and discuss seven language styles that I believe to be important
+and interesting to study: influential work in the past, challenges at the
+present, and potential impact for the future.
+Author{1}{Firstname}#=%=#Wei
+Author{1}{Lastname}#=%=#Xu
+Author{1}{Email}#=%=#xu.1265@osu.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+
+==========

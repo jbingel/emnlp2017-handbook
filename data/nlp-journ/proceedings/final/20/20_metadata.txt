@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#Predicting News Values from Headline Text and Emotions
+ShortPaperTitle#=%=#Predicting News Values from Headline Text and Emotions
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Maria Pia di Buono
+JobTitle#==#
+Organization#==#University of Zagreb
+Faculty of Electrical Engineering and Computing
+Abstract#==#We present a preliminary study on predicting news values from headline text and
+emotions. We perform a multivariate analysis on a dataset manually annotated
+with news values and emotions, discovering interesting correlations among them.
+We then train two competitive machine learning models – an SVM and a CNN –
+to predict news values from headline text and emotions as features. We find
+that, while both models yield a satisfactory performance, some news values are
+more difficult to detect than others, while some profit more from including
+emotion information.
+Author{1}{Firstname}#=%=#Maria Pia
+Author{1}{Lastname}#=%=#di Buono
+Author{1}{Email}#=%=#mariapia.dibuono@fer.hr
+Author{1}{Affiliation}#=%=#University of Zagreb
+Author{2}{Firstname}#=%=#Jan
+Author{2}{Lastname}#=%=#Šnajder
+Author{2}{Email}#=%=#jan.snajder@fer.hr
+Author{2}{Affiliation}#=%=#University of Zagreb, Faculty of Electrical Engineering and Computing, Unska 3, 10000 Zagreb
+Author{3}{Firstname}#=%=#Bojana
+Author{3}{Lastname}#=%=#Dalbelo Basic
+Author{3}{Email}#=%=#bojana.dalbelo@fer.hr
+Author{3}{Affiliation}#=%=#University of Zagreb
+Author{4}{Firstname}#=%=#Goran
+Author{4}{Lastname}#=%=#Glavaš
+Author{4}{Email}#=%=#goran@informatik.uni-mannheim.de
+Author{4}{Affiliation}#=%=#University of Mannheim
+Author{5}{Firstname}#=%=#Martin
+Author{5}{Lastname}#=%=#Tutek
+Author{5}{Email}#=%=#martin.tutek@gmail.com
+Author{5}{Affiliation}#=%=#University of Zagreb
+Author{6}{Firstname}#=%=#Natasa
+Author{6}{Lastname}#=%=#Milic-Frayling
+Author{6}{Email}#=%=#Natasa.Milic-Frayling@nottingham.ac.uk
+Author{6}{Affiliation}#=%=#University of Nottingham
+
+==========

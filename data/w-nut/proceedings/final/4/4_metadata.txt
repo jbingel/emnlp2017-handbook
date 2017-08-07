@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Towards the Understanding of Gaming Audiences by Modeling Twitch Emotes
+ShortPaperTitle#=%=#Towards the Understanding of Gaming Audiences by Modeling Twitch Emotes
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Francesco Barbieri
+JobTitle#==#
+Organization#==#Universitat Pompeu Fabra, Barcelona, Spain
+Abstract#==#Videogame streaming platforms have become a paramount example of noisy
+user-generated text. These are websites where gaming is broadcasted, and allows
+interaction with viewers via integrated chatrooms. Probably the best known
+platform of this kind is Twitch, which has more than 100 million monthly
+viewers. Despite these numbers, and unlike other platforms featuring short
+messages (e.g. Twitter), Twitch has not received much attention from the
+Natural Language Processing community. In this paper we aim at bridging this
+gap by proposing two important tasks specific to the Twitch platform, namely
+(1) Emote prediction; and (2) Trolling detection. In our experiments, we
+evaluate three models: a BOW baseline, a logistic supervised classifiers based
+on word embeddings, and a bidirectional long short-term memory recurrent neural
+network (LSTM). Our results show that the LSTM model outperforms the other two
+models, where explicit features with proven effectiveness for similar tasks
+were encoded.
+Author{1}{Firstname}#=%=#Francesco
+Author{1}{Lastname}#=%=#Barbieri
+Author{1}{Email}#=%=#francesco.barbieri@upf.edu
+Author{1}{Affiliation}#=%=#Pompeu Fabra University, Barcelona
+Author{2}{Firstname}#=%=#Luis
+Author{2}{Lastname}#=%=#Espinosa Anke
+Author{2}{Email}#=%=#luis.espinosa@upf.edu
+Author{2}{Affiliation}#=%=#Universitat Pompeu Fabra
+Author{3}{Firstname}#=%=#Miguel
+Author{3}{Lastname}#=%=#Ballesteros
+Author{3}{Email}#=%=#miguel.ballesteros@ibm.com
+Author{3}{Affiliation}#=%=#IBM Research
+Author{4}{Firstname}#=%=#Juan
+Author{4}{Lastname}#=%=#Soler
+Author{4}{Email}#=%=#juan.soler@upf.edu
+Author{4}{Affiliation}#=%=#Universitat Pompeu Fabra of Barcelona
+Author{5}{Firstname}#=%=#Horacio
+Author{5}{Lastname}#=%=#Saggion
+Author{5}{Email}#=%=#horacio.saggion@upf.edu
+Author{5}{Affiliation}#=%=#Universitat Pompeu Fabra
+
+==========

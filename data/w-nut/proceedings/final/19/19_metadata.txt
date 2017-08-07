@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#A Text Normalisation System for Non-Standard English Words
+ShortPaperTitle#=%=#A Text Normalisation System for Non-Standard English Words
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Andrew Caines
+JobTitle#==#
+Organization#==#University of Cambridge, UK
+Abstract#==#This paper investigates the problem of text normalisation; specifically, the
+normalisation of non-standard words (NSWs) in English. Non-standard words can
+be defined as those word tokens which do not have a dictionary entry, and
+cannot be pronounced using the usual letter-to-phoneme conversion rules; e.g.
+lbs, 99.3%, #EMNLP2017. NSWs pose a challenge to the proper functioning of
+text-to-speech technology, and the solution is to spell them out in such a way
+that they can be pronounced appropriately. We describe our four-stage
+normalisation system made up of components for detection, classification,
+division and expansion of NSWs. Performance is favourabe compared to previous
+work in the field (Sproat et al. 2001, Normalization of non-standard words), as
+well as state-of-the-art text-to-speech software. Further, we update Sproat et
+al.'s NSW taxonomy, and create a more customisable system where users are able
+to input their own abbreviations and specify into which variety of English
+(currently available: British or American) they wish to normalise.
+Author{1}{Firstname}#=%=#Emma
+Author{1}{Lastname}#=%=#Flint
+Author{1}{Email}#=%=#emf40@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Elliot
+Author{2}{Lastname}#=%=#Ford
+Author{2}{Email}#=%=#ef355@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Olivia
+Author{3}{Lastname}#=%=#Thomas
+Author{3}{Email}#=%=#oft20@cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+Author{4}{Firstname}#=%=#Andrew
+Author{4}{Lastname}#=%=#Caines
+Author{4}{Email}#=%=#apc38@cam.ac.uk
+Author{4}{Affiliation}#=%=#University of Cambridge
+Author{5}{Firstname}#=%=#Paula
+Author{5}{Lastname}#=%=#Buttery
+Author{5}{Email}#=%=#paula.buttery@cl.cam.ac.uk
+Author{5}{Affiliation}#=%=#University of Cambridge
+
+==========

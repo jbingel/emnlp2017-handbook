@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Churn Identification in Microblogs using Convolutional Neural Networks with Structured Logical Knowledge
+ShortPaperTitle#=%=#Churn Identification in Microblogs using Convolutional Neural Networks with Structured Logical Knowledge
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Mourad Gridach
+JobTitle#==#
+Organization#==#
+Abstract#==#For brands, gaining new customer is more expensive than keeping an existing
+one. Therefore, the ability to keep customers in a brand is becoming more
+challenging these days.  Churn happens when a customer leaves a brand to
+another competitor. Most of the previous work considers the problem of churn
+prediction using the Call Detail Records (CDRs). In this paper, we use
+micro-posts to classify customers into churny or non-churny. We explore the
+power of convolutional neural networks (CNNs) since they achieved
+state-of-the-art in various computer vision and NLP applications. However, the
+robustness of end-to-end models has some limitations such as the availability
+of a large amount of labeled data and uninterpretability of these models. We
+investigate the use of CNNs augmented with structured logic rules to overcome
+or reduce this issue. We developed our system called Churn_teacher by using an
+iterative distillation method that transfers the knowledge, extracted using
+just the combination of three logic rules, directly into the weight of the
+DNNs. Furthermore, we used weight normalization to speed up training our
+convolutional neural networks. Experimental results showed that with just these
+three rules, we were able to get state-of-the-art on publicly available Twitter
+dataset about three Telecom brands.
+Author{1}{Firstname}#=%=#Mourad
+Author{1}{Lastname}#=%=#Gridach
+Author{1}{Email}#=%=#m.gridach@uiz.ac.ma
+Author{1}{Affiliation}#=%=#High Institute of Technology - Agadir
+Author{2}{Firstname}#=%=#Hatem
+Author{2}{Lastname}#=%=#Haddad
+Author{2}{Email}#=%=#Hatem.Haddad@ulb.ac.be
+Author{2}{Affiliation}#=%=#Department of Computer and Decision Engineering, Université Libre de Bruxelles,Belgium
+Author{3}{Firstname}#=%=#Hala
+Author{3}{Lastname}#=%=#Mulki
+Author{3}{Email}#=%=#halamulki@selcuk.edu.tr
+Author{3}{Affiliation}#=%=#Department of Computer Engineering, Selcuk University, Konya, Turkey
+
+==========

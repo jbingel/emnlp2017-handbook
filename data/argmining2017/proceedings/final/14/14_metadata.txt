@@ -1,0 +1,54 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Unsupervised corpus–wide claim detection
+ShortPaperTitle#=%=#Unsupervised corpus–wide claim detection
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ran Levy
+JobTitle#==#
+Organization#==#IBM Research, Haifa, Israel
+Abstract#==#Automatic claim detection is a fundamental
+argument mining task that aims to automatically
+mine claims regarding a topic
+of consideration. Previous works on mining
+argumentative content have assumed
+that a set of relevant documents is given in
+advance. Here, we present a first corpus–
+wide claim detection framework, that can
+be directly applied to massive corpora.
+Using simple and intuitive empirical observations,
+we derive a claim sentence
+query by which we are able to directly retrieve
+sentences in which the prior probability
+to include topic-relevant claims is
+greatly enhanced. Next, we employ simple
+heuristics to rank the sentences, leading
+to an unsupervised corpus–wide claim detection
+system, with precision that outperforms
+previously reported results on the
+task of claim detection given relevant documents
+and labeled data.
+Author{1}{Firstname}#=%=#Ran
+Author{1}{Lastname}#=%=#Levy
+Author{1}{Email}#=%=#ranl@il.ibm.com
+Author{1}{Affiliation}#=%=#IBM Research - Haifa, Israel
+Author{2}{Firstname}#=%=#Shai
+Author{2}{Lastname}#=%=#Gretz
+Author{2}{Email}#=%=#avishaig@il.ibm.com
+Author{2}{Affiliation}#=%=#IBM Research - Haifa, Israel
+Author{3}{Firstname}#=%=#Benjamin
+Author{3}{Lastname}#=%=#Sznajder
+Author{3}{Email}#=%=#benjams@il.ibm.com
+Author{3}{Affiliation}#=%=#IBM Research - Haifa, Israel
+Author{4}{Firstname}#=%=#Shay
+Author{4}{Lastname}#=%=#Hummel
+Author{4}{Email}#=%=#shayh@il.ibm.com
+Author{4}{Affiliation}#=%=#IBM Research - Haifa, Israel
+Author{5}{Firstname}#=%=#Ranit
+Author{5}{Lastname}#=%=#Aharonov
+Author{5}{Email}#=%=#ranita@il.ibm.com
+Author{5}{Affiliation}#=%=#IBM Research - Haifa, Israel
+Author{6}{Firstname}#=%=#Noam
+Author{6}{Lastname}#=%=#Slonim
+Author{6}{Email}#=%=#noams@il.ibm.com
+Author{6}{Affiliation}#=%=#IBM Research - Haifa, Israel
+
+==========

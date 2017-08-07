@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Constructing an Alias List for Named Entities during an Event
+ShortPaperTitle#=%=#Constructing an Alias List for Named Entities during an Event
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Anietie Andy
+JobTitle#==#
+Organization#==#Computer and Information Science Department, University of Pennsylvania
+
+3330 Walnut Street
+Philadelphia, PA 19104-6309
+Abstract#==#In certain fields, real-time knowledge from events can help in making informed
+decisions. In order to extract pertinent real-time knowledge related to an
+event, it is important to identify the named entities and their corresponding
+aliases related to the event. The problem of identifying aliases of named
+entities that spike has remained unexplored. In this paper, we introduce an
+algorithm, EntitySpike, that identifies entities that spike in popularity in
+tweets from a given time period, and constructs an alias list for these spiked
+entities. EntitySpike uses a temporal heuristic to identify named entities with
+similar context that occur in the same time period (within minutes) during an
+event. Each entity is encoded as a vector using this temporal heuristic. We
+show how these entity-vectors can be used to create a named entity alias list. 
+We evaluated our algorithm on a dataset of temporally ordered tweets from a
+single event, the 2013 Grammy Awards show. We carried out various experiments
+on tweets that were published in the same time period and show that our
+algorithm identifies most entity name aliases and outperforms a competitive
+baseline.
+Author{1}{Firstname}#=%=#Anietie
+Author{1}{Lastname}#=%=#Andy
+Author{1}{Email}#=%=#andyanietie@gmail.com
+Author{1}{Affiliation}#=%=#Howard University
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Dredze
+Author{2}{Email}#=%=#mdredze@cs.jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+Author{3}{Firstname}#=%=#Mugizi
+Author{3}{Lastname}#=%=#Rwebangira
+Author{3}{Email}#=%=#rweba@scs.howard.edu
+Author{3}{Affiliation}#=%=#Howard University
+Author{4}{Firstname}#=%=#Chris
+Author{4}{Lastname}#=%=#Callison-Burch
+Author{4}{Email}#=%=#ccb@upenn.edu
+Author{4}{Affiliation}#=%=#University of Pennsylvania
+
+==========

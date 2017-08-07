@@ -1,0 +1,62 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Building an Argument Search Engine for the Web
+ShortPaperTitle#=%=#Building an Argument Search Engine for the Web
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Henning Wachsmuth
+JobTitle#==#
+Organization#==#Bauhaus-Universität Weimar, Bauhausstraße 11, 99423 Weimar, Germany
+Abstract#==#Computational argumentation is expected to play a critical role in the future
+of web search. To make this happen, many search-related questions must be
+revisited, such as how people query for arguments, how to mine arguments from
+the web, or how to rank them. In this paper, we develop an argument search
+framework for studying these and further questions. The framework allows for
+the composition of approaches to acquiring, mining, assessing, indexing,
+querying, retrieving, ranking, and presenting arguments while relying on
+standard infrastructure and interfaces. Based on the framework, we build a
+prototype search engine, called args, that relies on an initial, freely
+accessible index of nearly 300k arguments crawled from reliable web resources.
+The framework and the argument search engine are intended as an environment for
+collaborative research on computational argumentation and its practical
+evaluation.
+Author{1}{Firstname}#=%=#Henning
+Author{1}{Lastname}#=%=#Wachsmuth
+Author{1}{Email}#=%=#henning.wachsmuth@uni-weimar.de
+Author{1}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{2}{Firstname}#=%=#Martin
+Author{2}{Lastname}#=%=#Potthast
+Author{2}{Email}#=%=#martin.potthast@uni-weimar.de
+Author{2}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{3}{Firstname}#=%=#Khalid
+Author{3}{Lastname}#=%=#Al Khatib
+Author{3}{Email}#=%=#khalid.alkhatib@uni-weimar.de
+Author{3}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{4}{Firstname}#=%=#Yamen
+Author{4}{Lastname}#=%=#Ajjour
+Author{4}{Email}#=%=#yamen.ajjour@uni-weimar.de
+Author{4}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{5}{Firstname}#=%=#Jana
+Author{5}{Lastname}#=%=#Puschmann
+Author{5}{Email}#=%=#jana.puschmann@uni-weimar.de
+Author{5}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{6}{Firstname}#=%=#Jiani
+Author{6}{Lastname}#=%=#Qu
+Author{6}{Email}#=%=#jiana.qu@uni-weimar.de
+Author{6}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{7}{Firstname}#=%=#Jonas
+Author{7}{Lastname}#=%=#Dorsch
+Author{7}{Email}#=%=#jonas.dorsch@uni-weimar.de
+Author{7}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{8}{Firstname}#=%=#Viorel
+Author{8}{Lastname}#=%=#Morari
+Author{8}{Email}#=%=#viorel.morari@uni-weimar.de
+Author{8}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{9}{Firstname}#=%=#Janek
+Author{9}{Lastname}#=%=#Bevendorff
+Author{9}{Email}#=%=#janek.bevendorff@uni-weimar.de
+Author{9}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{10}{Firstname}#=%=#Benno
+Author{10}{Lastname}#=%=#Stein
+Author{10}{Email}#=%=#benno.stein@uni-weimar.de
+Author{10}{Affiliation}#=%=#Bauhaus-Universität Weimar
+
+==========

@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Validation of an Automatic Metric for the Accuracy of Pronoun Translation (APT)
+ShortPaperTitle#=%=#Validation of an Automatic Metric for the Accuracy of Pronoun Translation (APT)
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Lesly Miculicich Werlen
+JobTitle#==#
+Organization#==#Idiap Research Institute
+Abstract#==#In this paper, we define and assess a reference-based metric to evaluate the
+accuracy of pronoun translation (APT). The metric automatically aligns a
+candidate and a reference translation using GIZA++ augmented with specific
+heuristics, and then counts the number of identical or different pronouns, with
+provision for legitimate variations and omitted pronouns.  All counts are then
+combined into one score.  The metric is applied to the results of seven systems
+(including the baseline) that participated in the DiscoMT 2015 shared task on
+pronoun translation from English to French. The APT metric reaches around
+0.993-0.999 Pearson correlation with human judges (depending on the parameters
+of APT), while other automatic metrics such as BLEU, METEOR, or those specific
+to pronouns used at DiscoMT 2015 reach only 0.972-0.986 Pearson correlation.
+Author{1}{Firstname}#=%=#Lesly
+Author{1}{Lastname}#=%=#Miculicich Werlen
+Author{1}{Email}#=%=#lesly.miculicich@idiap.ch
+Author{1}{Affiliation}#=%=#Idiap Research Institute
+Author{2}{Firstname}#=%=#Andrei
+Author{2}{Lastname}#=%=#Popescu-Belis
+Author{2}{Email}#=%=#andrei.popescu-belis@idiap.ch
+Author{2}{Affiliation}#=%=#Idiap Research Institute
+
+==========

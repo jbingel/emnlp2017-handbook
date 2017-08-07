@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#45
+FinalPaperTitle#=%=#Artificial Error Generation with Machine Translation and Syntactic Patterns
+ShortPaperTitle#=%=#Artificial Error Generation with Machine Translation and Syntactic Patterns
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Marek Rei
+JobTitle#==#
+Organization#==#
+Abstract#==#Shortage of available training data is holding back progress in the area of
+automated error detection.
+This paper investigates two alternative methods for artificially generating
+writing errors, in order to create additional resources.
+We propose treating error generation as a machine translation task, where
+grammatically correct text is translated to contain errors.
+In addition, we explore a system for extracting textual patterns from an
+annotated corpus, which can then be used to insert errors into grammatically
+correct sentences.
+Our experiments show that the inclusion of artificially generated errors
+significantly improves error detection accuracy on both FCE and CoNLL 2014
+datasets.
+Author{1}{Firstname}#=%=#Marek
+Author{1}{Lastname}#=%=#Rei
+Author{1}{Email}#=%=#marek.rei@cl.cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Mariano
+Author{2}{Lastname}#=%=#Felice
+Author{2}{Email}#=%=#mariano.felice@cl.cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Zheng
+Author{3}{Lastname}#=%=#Yuan
+Author{3}{Email}#=%=#zy249@cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+Author{4}{Firstname}#=%=#Ted
+Author{4}{Lastname}#=%=#Briscoe
+Author{4}{Email}#=%=#ejb@cl.cam.ac.uk
+Author{4}{Affiliation}#=%=#University of Cambridge
+
+==========

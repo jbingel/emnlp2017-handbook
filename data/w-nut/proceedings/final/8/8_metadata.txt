@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#An Entity Resolution Approach to Isolate Instances of Human Trafficking Online
+ShortPaperTitle#=%=#An Entity Resolution Approach to Isolate Instances of Human Trafficking Online
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#CHIRAG NAGPAL
+JobTitle#==#GRADUATE RESEARCH ASSISTANT
+Organization#==#CARNEGIE MELLON UNIVERSITY
+Abstract#==#Human trafficking is a challenging law enforcement problem, and traces of
+victims of such activity manifest as ‘escort advertisements’ on various
+online forums. Given the large, heterogeneous and noisy structure of this data,
+building models to predict instances of trafficking is a convoluted task. In
+this paper we propose an entity resolution pipeline using a notion of proxy
+labels, in order to extract clusters from this data with prior history of human
+trafficking activity. We apply this pipeline to 5M records from backpage.com
+and report on the performance of this approach, challenges in terms of
+scalability, and some significant domain specific characteristics of our
+resolved entities.
+Author{1}{Firstname}#=%=#Chirag
+Author{1}{Lastname}#=%=#Nagpal
+Author{1}{Email}#=%=#chiragn@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Kyle
+Author{2}{Lastname}#=%=#Miller
+Author{2}{Email}#=%=#mille856@andrew.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Benedikt
+Author{3}{Lastname}#=%=#Boecking
+Author{3}{Email}#=%=#boecking@andrew.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Artur
+Author{4}{Lastname}#=%=#Dubrawski
+Author{4}{Email}#=%=#awd@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

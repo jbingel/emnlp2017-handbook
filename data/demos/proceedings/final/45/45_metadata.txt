@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#45
+FinalPaperTitle#=%=#Interactive Abstractive Summarization for Event News Tweets
+ShortPaperTitle#=%=#Interactive Abstractive Summarization for Event News Tweets
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ori Shapira
+JobTitle#==#
+Organization#==#Bar-Ilan University
+Ramat Gan, 5290002
+Israel
+Abstract#==#We present a novel interactive summarization system that is based on
+abstractive summarization, derived from a recent consolidated knowledge
+representation for multiple texts. We incorporate a couple of interaction
+mechanisms, providing a bullet-style summary while allowing to attain the most
+important information first and interactively drill down to more specific
+details. A usability study of our implementation, for event news tweets,
+suggests the utility of our approach for text exploration.
+Author{1}{Firstname}#=%=#Ori
+Author{1}{Lastname}#=%=#Shapira
+Author{1}{Email}#=%=#obspp18@gmail.com
+Author{1}{Affiliation}#=%=#Bar-Ilan University
+Author{2}{Firstname}#=%=#Hadar
+Author{2}{Lastname}#=%=#Ronen
+Author{2}{Email}#=%=#hadarg@gmail.com
+Author{2}{Affiliation}#=%=#Bar Ilan University
+Author{3}{Firstname}#=%=#Meni
+Author{3}{Lastname}#=%=#Adler
+Author{3}{Email}#=%=#adlerm@cs.bgu.ac.il
+Author{3}{Affiliation}#=%=#Bar Ilan University
+Author{4}{Firstname}#=%=#Yael
+Author{4}{Lastname}#=%=#Amsterdamer
+Author{4}{Email}#=%=#yael.amsterdamer@biu.ac.il
+Author{4}{Affiliation}#=%=#Bar Ilan University
+Author{5}{Firstname}#=%=#Judit
+Author{5}{Lastname}#=%=#Bar-Ilan
+Author{5}{Email}#=%=#judit.bar-ilan@biu.ac.il
+Author{5}{Affiliation}#=%=#Bar-Ilan University
+Author{6}{Firstname}#=%=#Ido
+Author{6}{Lastname}#=%=#Dagan
+Author{6}{Email}#=%=#dagan@cs.biu.ac.il
+Author{6}{Affiliation}#=%=#Bar-Ilan University
+
+==========

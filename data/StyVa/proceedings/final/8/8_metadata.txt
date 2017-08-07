@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Approximating Style by N-gram-based Annotation
+ShortPaperTitle#=%=#Approximating Style by N-gram-based Annotation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Heike Zinsmeister
+JobTitle#==#
+Organization#==#Universität Hamburg, Institute for German Language and Literature, Von-Melle-Park 6, D-20146 Hamburg, Germany
+Abstract#==#The concept of style is much debated in theoretical as well as empirical terms.
+From an empirical perspective, the key question is how to operationalize style
+and thus make it accessible for annotation and quantification. In authorship
+attribution, many different approaches have successfully resolved this issue at
+the cost of linguistic interpretability: The resulting algorithms may be able
+to distinguish one language variety from the other, but do not give us much
+information on their distinctive linguistic properties. We approach the issue
+of interpreting stylistic features by extracting linear and syntactic n-grams
+that are distinctive for a language variety. We present a study that
+exemplifies this process by a comparison of the German academic languages of
+linguistics and literary studies. Overall, our findings show that distinctive
+n-grams can be related to linguistic categories. The results suggest that the
+style of German literary studies is characterized by nominal structures and the
+style of linguistics by verbal ones.
+Author{1}{Firstname}#=%=#Melanie
+Author{1}{Lastname}#=%=#Andresen
+Author{1}{Email}#=%=#melanie.andresen@uni-hamburg.de
+Author{1}{Affiliation}#=%=#Universität Hamburg
+Author{2}{Firstname}#=%=#Heike
+Author{2}{Lastname}#=%=#Zinsmeister
+Author{2}{Email}#=%=#heike.zinsmeister@uni-hamburg.de
+Author{2}{Affiliation}#=%=#Universität Hamburg
+
+==========

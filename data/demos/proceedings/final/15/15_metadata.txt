@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#The Projector: An Interactive Annotation Projection Visualization Tool
+ShortPaperTitle#=%=#The Projector: An Interactive Annotation Projection Visualization Tool
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Alan Akbik
+JobTitle#==#
+Organization#==#Zalando Research, Charlottenstraße 4, 10969 Berlin
+Abstract#==#Previous works proposed annotation projection in parallel corpora to
+inexpensively generate treebanks or propbanks for new languages. In this
+approach, linguistic annotation is automatically transferred from a
+resource-rich source language (SL) to translations in a target language (TL).
+However, annotation projection may be adversely affected by translational
+divergences between specific language pairs. For this reason, previous work
+often required careful qualitative analysis of projectability of specific
+annotation in order to define strategies to address quality and coverage
+issues. In this demonstration, we present THE PROJECTOR, an interactive GUI
+designed to assist researchers in such analysis: it allows users to execute and
+visually inspect annotation projection in a range of different settings. We
+give an overview of the GUI, discuss use cases and illustrate how the tool can
+facilitate discussions with the research community.
+Author{1}{Firstname}#=%=#Alan
+Author{1}{Lastname}#=%=#Akbik
+Author{1}{Email}#=%=#alanweissbart@gmail.com
+Author{1}{Affiliation}#=%=#Zalando Research
+Author{2}{Firstname}#=%=#Roland
+Author{2}{Lastname}#=%=#Vollgraf
+Author{2}{Email}#=%=#roland.vollgraf@zalando.de
+Author{2}{Affiliation}#=%=#Zalando Research
+
+==========

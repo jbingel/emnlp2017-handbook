@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#Towards Improving Abstractive Summarization via Entailment Generation
+ShortPaperTitle#=%=#Towards Improving Abstractive Summarization via Entailment Generation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ramakanth Pasunuru
+JobTitle#==#
+Organization#==#
+Abstract#==#Abstractive summarization, the task of rewriting and compressing a document
+into a short summary, has achieved considerable success with neural
+sequence-to-sequence models. However, these models can still benefit from
+stronger natural language inference skills, since a correct summary is
+logically entailed by the input document, i.e., it should not contain any
+contradictory or unrelated information. We incorporate such knowledge into an
+abstractive summarization model via multi-task learning, where we share its
+decoder parameters with those of an entailment generation model. We achieve
+promising initial improvements based on multiple metrics and datasets
+(including a test-only setting). The domain mismatch between the entailment
+(captions) and summarization (news) datasets suggests that the model is
+learning some domain-agnostic inference skills.
+Author{1}{Firstname}#=%=#Ramakanth
+Author{1}{Lastname}#=%=#Pasunuru
+Author{1}{Email}#=%=#ram@cs.unc.edu
+Author{1}{Affiliation}#=%=#UNC Chapel Hill
+Author{2}{Firstname}#=%=#Han
+Author{2}{Lastname}#=%=#Guo
+Author{2}{Email}#=%=#hanguo@unc.edu
+Author{2}{Affiliation}#=%=#University of North Carolina at Chapel Hill
+Author{3}{Firstname}#=%=#Mohit
+Author{3}{Lastname}#=%=#Bansal
+Author{3}{Email}#=%=#mbansal@cs.unc.edu
+Author{3}{Affiliation}#=%=#University of North Carolina at Chapel Hill
+
+==========

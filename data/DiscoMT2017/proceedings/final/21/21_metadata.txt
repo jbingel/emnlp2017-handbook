@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Cross-Lingual Pronoun Prediction with Deep Recurrent Neural Networks v2.0
+ShortPaperTitle#=%=#Cross-Lingual Pronoun Prediction with Deep Recurrent Neural Networks v2.0
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Juhani Luotolahti
+JobTitle#==#
+Organization#==#University of Turku, Address: Turun yliopisto 20500 Turku
+Abstract#==#In this paper we present our system in
+the DiscoMT 2017 Shared Task on Crosslingual
+Pronoun Prediction. Our entry
+builds on our last year’s success, our system
+based on deep recurrent neural networks
+outperformed all the other systems
+with a clear margin. This year we investigate
+whether different pre-trained word
+embeddings can be used to improve the
+neural systems, and whether the recently
+published Gated Convolutions outperform
+the Gated Recurrent Units used last year.
+Author{1}{Firstname}#=%=#Juhani
+Author{1}{Lastname}#=%=#Luotolahti
+Author{1}{Email}#=%=#mjluot@utu.fi
+Author{1}{Affiliation}#=%=#University of Turku
+Author{2}{Firstname}#=%=#Jenna
+Author{2}{Lastname}#=%=#Kanerva
+Author{2}{Email}#=%=#jmnybl@utu.fi
+Author{2}{Affiliation}#=%=#University of Turku
+Author{3}{Firstname}#=%=#Filip
+Author{3}{Lastname}#=%=#Ginter
+Author{3}{Email}#=%=#ginter@cs.utu.fi
+Author{3}{Affiliation}#=%=#University of Turku
+
+==========

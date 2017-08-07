@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#Fake news stance detection using stacked ensemble of classifiers
+ShortPaperTitle#=%=#Fake news stance detection using stacked ensemble of classifiers
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Andreas Vlachos
+JobTitle#==#
+Organization#==#The University of Sheffield
+Western Bank
+Sheffield, S10 2TN
+UK
+Abstract#==#Fake news has become a hotly debated topic in journalism. In this paper, we
+present our entry to the 2017 Fake News Challenge which models the detection of
+fake news as a stance classification task that finished in 11th place on the
+leader board. Our entry is an ensemble system of classifiers developed by
+students in the context of their coursework.  We show how we used the stacking
+ensemble method for this purpose and obtained improvements in classification
+accuracy  exceeding each of the individual models' performance on the
+development data. Finally, we discuss aspects of the experimental setup of the
+challenge.
+Author{1}{Firstname}#=%=#James
+Author{1}{Lastname}#=%=#Thorne
+Author{1}{Email}#=%=#j.thorne@sheffield.ac.uk
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Mingjie
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Email}#=%=#mchen33@sheffield.ac.uk
+Author{2}{Affiliation}#=%=#University of Sheffield
+Author{3}{Firstname}#=%=#Giorgos
+Author{3}{Lastname}#=%=#Myrianthous
+Author{3}{Email}#=%=#gmyrianthous1@sheffield.ac.uk
+Author{3}{Affiliation}#=%=#University of Sheffield
+Author{4}{Firstname}#=%=#Jiashu
+Author{4}{Lastname}#=%=#Pu
+Author{4}{Email}#=%=#ppu1@sheffield.ac.uk
+Author{4}{Affiliation}#=%=#University of Sheffield
+Author{5}{Firstname}#=%=#Xiaoxuan
+Author{5}{Lastname}#=%=#Wang
+Author{5}{Email}#=%=#xwang130@sheffield.ac.uk
+Author{5}{Affiliation}#=%=#University of Sheffield
+Author{6}{Firstname}#=%=#Andreas
+Author{6}{Lastname}#=%=#Vlachos
+Author{6}{Email}#=%=#a.vlachos@sheffield.ac.uk
+Author{6}{Affiliation}#=%=#University of Sheffield
+
+==========

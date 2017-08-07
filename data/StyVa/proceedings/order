@@ -1,0 +1,25 @@
+* Friday September 8th, 2017
+! 9:00--9:10 Opening remarks %by Julian Brooke, Thamar Solorio, and Moshe Koppel
+! 9:10--10:00 Invited Talk: Style Analysis for Practical Semantic Interpretation of Text %by Ani Nenkova
+20 10:00--10:30  # From Shakespeare to Twitter: What are Language Styles all about?
+= 10:30--11:00 Coffee Break
+= 11:00--12:30 Technical Papers I # %chair1 Moshe Koppel
+4 11:00--11:30  # Shakespearizing Modern Language Using Copy-Enriched Sequence to Sequence Models
+21 11:30--12:00  # Discovering Stylistic Variations in Distributional Vector Space Models via Lexical Paraphrases
+17 12:00--12:30  # Harvesting Creative Templates for Generating Stylistically Varied Restaurant Reviews
+= 12:30--14:00 Lunch
+! 14:00--14:50 Invited Talk: Problems in Personality Profiling %by Walter Daelemans
+= 14:50--15:30 Poster Session # %chair1 Thamar Solorio
+7   # Is writing style predictive of scientific fraud?
+15   # "Deep" Learning : Detecting Metaphoricity in Adjective-Noun Pairs
+11   # Authorship Attribution with Convolutional Neural Networks and POS-Eliding
+16   # Topic and audience effects on distinctively Scottish vocabulary usage in Twitter data
+18   # Differences in type-token ratio and part-of-speech frequencies in male and female Russian written texts
+19   # Modeling Communicative Purpose with Functional Style: Corpus and Features for German Genre and Register Analysis
+22   # Stylistic Variation in Television Dialogue for Natural Language Generation
+= 15:30--16:00 Coffee Break
+= 16:00--17:30 Technical Papers II # %chair1 Julian Brooke
+12 16:00--16:30  # Controlling Linguistic Style Aspects in Neural Language Generation
+8 16:30--17:00  # Approximating Style by N-gram-based Annotation
+13 17:00--17:30  # Assessing the Stylistic Properties of Neurally Generated Text in Authorship Attribution
+! 17:30--17:35 Closing Remarks %by Julian Brooke, Thamar Solorio, and Moshe Koppel

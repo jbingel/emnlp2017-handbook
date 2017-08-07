@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#"Deep" Learning : Detecting Metaphoricity in Adjective-Noun Pairs
+ShortPaperTitle#=%=#"Deep" Learning : Detecting Metaphoricity in Adjective-Noun Pairs
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yuri Bizzoni
+JobTitle#==#
+Organization#==#
+Abstract#==#Metaphor is one of the most studied and widespread figures of speech and an
+essen- tial element of individual style. In this pa- per we look at metaphor
+identification in Adjective-Noun pairs. We show that us- ing a single neural
+network combined with pre-trained vector embeddings can outper- form the state
+of the art in terms of accu- racy. In specific, the approach presented in this
+paper is based on two ideas: a) trans- fer learning via using pre-trained
+vectors representing adjective noun pairs, and b) a neural network as a model
+of composition that predicts a metaphoricity score as out- put. We present
+several different architec- tures for our system and evaluate their per-
+formances. Variations on dataset size and on the kinds of embeddings are also
+inves- tigated. We show considerable improve- ment over the previous approaches
+both in terms of accuracy and w.r.t the size of an- notated training data.
+Author{1}{Firstname}#=%=#Yuri
+Author{1}{Lastname}#=%=#Bizzoni
+Author{1}{Email}#=%=#yuri.bizzoni@gu.se
+Author{1}{Affiliation}#=%=#University of Gothenburg
+Author{2}{Firstname}#=%=#Stergios
+Author{2}{Lastname}#=%=#Chatzikyriakidis
+Author{2}{Email}#=%=#stergios.chatzikyriakidis@lirmm.fr
+Author{2}{Affiliation}#=%=#LIRMM, University of Montpellier 2
+Author{3}{Firstname}#=%=#Mehdi
+Author{3}{Lastname}#=%=#Ghanimifard
+Author{3}{Email}#=%=#mehdi.ghanimifard@gu.se
+Author{3}{Affiliation}#=%=#University of Gothenburg
+
+==========

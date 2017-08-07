@@ -1,0 +1,405 @@
+
+@inproceedings{krizhevsky,
+  title={Imagenet classification with deep convolutional neural networks},
+  author={Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E},
+  booktitle={Advances in neural information processing systems},
+  pages={1097--1105},
+  year={2012}
+}
+
+@article{dahl,
+  title={Context-dependent pre-trained deep neural networks for large-vocabulary speech recognition},
+  author={Dahl, George E and Yu, Dong and Deng, Li and Acero, Alex},
+  journal={IEEE Transactions on Audio, Speech, and Language Processing},
+  volume={20},
+  number={1},
+  pages={30--42},
+  year={2012},
+  publisher={IEEE}
+}
+
+@article{hinton2012,
+  title={Deep neural networks for acoustic modeling in speech recognition: The shared views of four research groups},
+  author={Hinton, Geoffrey and Deng, Li and Yu, Dong and Dahl, George E and Mohamed, Abdel-rahman and Jaitly, Navdeep and Senior, Andrew and Vanhoucke, Vincent and Nguyen, Patrick and Sainath, Tara N and others},
+  journal={IEEE Signal Processing Magazine},
+  volume={29},
+  number={6},
+  pages={82--97},
+  year={2012},
+  publisher={IEEE}
+}
+
+@article{bengio2003,
+  title={A neural probabilistic language model},
+  author={Bengio, Yoshua and Ducharme, R{\'e}jean and Vincent, Pascal and Jauvin, Christian},
+  journal={Journal of machine learning research},
+  volume={3},
+  number={Feb},
+  pages={1137--1155},
+  year={2003}
+}
+
+
+@inproceedings{mikolov2013,
+  title={Distributed representations of words and phrases and their compositionality},
+  author={Mikolov, Tomas and Sutskever, Ilya and Chen, Kai and Corrado, Greg S and Dean, Jeff},
+  booktitle={Advances in neural information processing systems},
+  pages={3111--3119},
+  year={2013}
+}
+
+@inproceedings{socher2013,
+  title={Recursive deep models for semantic compositionality over a sentiment treebank},
+  author={Socher, Richard and Perelygin, Alex and Wu, Jean Y and Chuang, Jason and Manning, Christopher D and Ng, Andrew Y and Potts, Christopher and others},
+  booktitle={Proceedings of the conference on empirical methods in natural language processing (EMNLP)},
+  volume={1631},
+  pages={1642},
+  year={2013}
+}
+
+
+@article{cho,
+  title={On the properties of neural machine translation: Encoder-decoder approaches},
+  author={Cho, Kyunghyun and Van Merri{\"e}nboer, Bart and Bahdanau, Dzmitry and Bengio, Yoshua},
+  journal={arXiv preprint arXiv:1409.1259},
+  year={2014}
+}
+
+@inproceedings{sutskever,
+  title={Sequence to sequence learning with neural networks},
+  author={Sutskever, Ilya and Vinyals, Oriol and Le, Quoc V},
+  booktitle={Advances in neural information processing systems},
+  pages={3104--3112},
+  year={2014}
+}
+
+@article{rumelhart1988,
+  title={Learning representations by back-propagating errors},
+  author={Rumelhart, David E and Hinton, Geoffrey E and Williams, Ronald J},
+  journal={Cognitive modeling},
+  volume={5},
+  number={3},
+  pages={1},
+  year={1988}
+}
+
+@article{szegedy,
+  title={Intriguing properties of neural networks},
+  author={Szegedy, Christian and Zaremba, Wojciech and Sutskever, Ilya and Bruna, Joan and Erhan, Dumitru and Goodfellow, Ian and Fergus, Rob},
+  journal={arXiv preprint arXiv:1312.6199},
+  year={2013}
+}
+
+
+@inproceedings{nguyen2015,
+  title={Deep neural networks are easily fooled: High confidence predictions for unrecognizable images},
+  author={Nguyen, Anh and Yosinski, Jason and Clune, Jeff},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={427--436},
+  year={2015}
+}
+
+@article{wu2016google,   
+title={Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation},   
+author={Wu, Yonghui and Schuster, Mike and Chen, Zhifeng and Le, Quoc V and Norouzi, Mohammad and Macherey, Wolfgang and Krikun, Maxim and Cao, Yuan and Gao, Qin and Macherey, Klaus and others},   
+journal={arXiv preprint arXiv:1609.08144},   
+year={2016} 
+}
+
+
+@article{bengio2015,   
+title={Towards biologically plausible deep learning},   
+author={Bengio, Yoshua and Lee, Dong-Hyun and Bornschein, Jorg and Mesnard, Thomas and Lin, Zhouhan},   
+journal={arXiv preprint arXiv:1502.04156},   
+year={2015} 
+}
+
+
+@article{collobert,
+  title={Natural language processing (almost) from scratch},
+  author={Collobert, Ronan and Weston, Jason and Bottou, L{\'e}on and Karlen, Michael and Kavukcuoglu, Koray and Kuksa, Pavel},
+  journal={Journal of Machine Learning Research},
+  volume={12},
+  number={Aug},
+  pages={2493--2537},
+  year={2011}
+}
+
+@article{hu,
+  title={Harnessing deep neural networks with logic rules},
+  author={Hu, Zhiting and Ma, Xuezhe and Liu, Zhengzhong and Hovy, Eduard and Xing, Eric},
+  journal={arXiv preprint arXiv:1603.06318},
+  year={2016}
+}
+
+@book{garcez2012neural,
+  title={Neural-symbolic learning systems: foundations and applications},
+  author={Garcez, Artur S d'Avila and Broda, Krysia and Gabbay, Dov M},
+  year={2012},
+  publisher={Springer Science \& Business Media}
+}
+
+@inproceedings{pennington,
+  title={Glove: Global Vectors for Word Representation.},
+  author={Pennington, Jeffrey and Socher, Richard and Manning, Christopher D},
+  booktitle={EMNLP},
+  volume={14},
+  pages={1532--1543},
+  year={2014}
+}
+
+@inproceedings{amiri2016,
+  title={Short Text Representation for Detecting Churn in Microblogs.},
+  author={Amiri, Hadi and Daum{\'e} III, Hal},
+  booktitle={AAAI},
+  pages={2566--2572},
+  year={2016}
+}
+
+@article{kim,
+  title={Convolutional neural networks for sentence classification},
+  author={Kim, Yoon},
+  journal={arXiv preprint arXiv:1408.5882},
+  year={2014}
+}
+
+@article{keramati,
+  title={Developing a prediction model for customer churn from electronic banking services using data mining},
+  author={Keramati, Abbas and Ghaneei, Hajar and Mirmohammadi, Seyed Mohammad},
+  journal={Financial Innovation},
+  volume={2},
+  number={1},
+  pages={10},
+  year={2016},
+  publisher={Springer}
+}
+
+@article{backiel,
+  title={Predicting time-to-churn of prepaid mobile telephone customers using social network analysis},
+  author={Backiel, Aim{\'e}e and Baesens, Bart and Claeskens, Gerda},
+  journal={Journal of the Operational Research Society},
+  volume={67},
+  number={9},
+  pages={0},
+  year={2016},
+  publisher={Springer}
+}
+
+@inproceedings{li2016feature,
+  title={A Feature Extraction Method Based on Stacked Auto-Encoder for Telecom Churn Prediction},
+  author={Li, Ruiqi and Wang, Peng and Chen, Zonghai},
+  booktitle={Asian Simulation Conference},
+  pages={568--576},
+  year={2016},
+  organization={Springer}
+}
+
+@inproceedings{amiri2015,
+  title={Target-Dependent Churn Classification in Microblogs.},
+  author={Amiri, Hadi and Daum{\'e} III, Hal},
+  booktitle={AAAI},
+  pages={2361--2367},
+  year={2015}
+}
+
+@article{hinton2015distilling,
+  title={Distilling the knowledge in a neural network},
+  author={Hinton, Geoffrey and Vinyals, Oriol and Dean, Jeff},
+  journal={arXiv preprint arXiv:1503.02531},
+  year={2015}
+}
+
+@article{ganchev,
+  title={Posterior regularization for structured latent variable models},
+  author={Ganchev, Kuzman and Gillenwater, Jennifer and Taskar, Ben and others},
+  journal={Journal of Machine Learning Research},
+  volume={11},
+  number={Jul},
+  pages={2001--2049},
+  year={2010}
+}
+
+@book{minsky,
+  title={Learning meaning},
+  author={Minsky, Marvin},
+  year={1983},
+  publisher={Artificial Intelligence Laboratory, Massachusetts Institute of Technology}
+}
+
+@article{bach,
+  title={Hinge-loss Markov random fields and probabilistic soft logic},
+  author={Bach, Stephen H and Broecheler, Matthias and Huang, Bert and Getoor, Lise},
+  journal={arXiv preprint arXiv:1505.04406},
+  year={2015}
+}
+
+
+@inproceedings{jia2009,
+  title={The effect of negation on sentiment analysis and retrieval effectiveness},
+  author={Jia, Lifeng and Yu, Clement and Meng, Weiyi},
+  booktitle={Proceedings of the 18th ACM conference on Information and knowledge management},
+  pages={1827--1830},
+  year={2009},
+  organization={ACM}
+}
+
+@article{dadvar2011,
+  title={Scope of negation detection in sentiment analysis},
+  author={Dadvar, Maral and Hauff, Claudia and De Jong, FMG},
+  year={2011},
+  publisher={University of Amsterdam}
+}
+
+@inproceedings{hogenboom,
+  title={Determining negation scope and strength in sentiment analysis},
+  author={Hogenboom, Alexander and Van Iterson, Paul and Heerschop, Bas and Frasincar, Flavius and Kaymak, Uzay},
+  booktitle={Systems, Man, and Cybernetics (SMC), 2011 IEEE International Conference on},
+  pages={2589--2594},
+  year={2011},
+  organization={IEEE}
+}
+
+
+@article{zeiler,
+  title={ADADELTA: an adaptive learning rate method},
+  author={Zeiler, Matthew D},
+  journal={arXiv preprint arXiv:1212.5701},
+  year={2012}
+}
+
+@inproceedings{salimans,
+  title={Weight normalization: A simple reparameterization to accelerate training of deep neural networks},
+  author={Salimans, Tim and Kingma, Diederik P},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={901--901},
+  year={2016}
+}
+
+@article{ioffe,
+  title={Batch normalization: Accelerating deep network training by reducing internal covariate shift},
+  author={Ioffe, Sergey and Szegedy, Christian},
+  journal={arXiv preprint arXiv:1502.03167},
+  year={2015}
+}
+
+@article{smith2016deep,
+  title={Deep convolutional neural network design patterns},
+  author={Smith, Leslie N and Topin, Nicholay},
+  journal={arXiv preprint arXiv:1611.00847},
+  year={2016}
+}
+
+@article{gehring,
+  title={Convolutional Sequence to Sequence Learning},
+  author={Gehring, Jonas and Auli, Michael and Grangier, David and Yarats, Denis and Dauphin, Yann N},
+  journal={arXiv preprint arXiv:1705.03122},
+  year={2017}
+}
+
+
+@article{huang2015,
+  title={Bidirectional LSTM-CRF models for sequence tagging},
+  author={Huang, Zhiheng and Xu, Wei and Yu, Kai},
+  journal={arXiv preprint arXiv:1508.01991},
+  year={2015}
+}
+
+@article{chiu2015named,
+  title={Named entity recognition with bidirectional LSTM-CNNs},
+  author={Chiu, Jason PC and Nichols, Eric},
+  journal={arXiv preprint arXiv:1511.08308},
+  year={2015}
+}
+
+@article{hinton1985learning,
+  title={Learning internal representations by back-propagating errors},
+  author={Hinton, GE and Rumelhart, DE and Williams, RJ},
+  journal={Parallel Distributed Processing: Explorations in the Microstructure of Cognition},
+  volume={1},
+  year={1985}
+}
+
+
+@inproceedings{hisamoto2013empirical,
+  title={An empirical investigation of word representations for parsing the web},
+  author={Hisamoto, Sorami and Duh, Kevin and Matsumoto, Yuji},
+  booktitle={Proceedings of ANLP},
+  pages={188--193},
+  year={2013}
+}
+
+@inproceedings{turian2010word,
+  title={Word representations: a simple and general method for semi-supervised learning},
+  author={Turian, Joseph and Ratinov, Lev and Bengio, Yoshua},
+  booktitle={Proceedings of the 48th annual meeting of the association for computational linguistics},
+  pages={384--394},
+  year={2010},
+  organization={Association for Computational Linguistics}
+}
+
+@article{huang2014learning,
+  title={Learning representations for weakly supervised natural language processing tasks},
+  author={Huang, Fei and Ahuja, Arun and Downey, Doug and Yang, Yi and Guo, Yuhong and Yates, Alexander},
+  journal={Computational Linguistics},
+  volume={40},
+  number={1},
+  pages={85--120},
+  year={2014},
+  publisher={MIT Press}
+}
+
+@inproceedings{bansal2014tailoring,
+  title={Tailoring Continuous Word Representations for Dependency Parsing.},
+  author={Bansal, Mohit and Gimpel, Kevin and Livescu, Karen},
+  booktitle={ACL (2)},
+  pages={809--815},
+  year={2014}
+}
+
+@article{zaratiegui,
+  title={Performing highly accurate predictions through convolutional networks for actual telecommunication challenges},
+  author={Zaratiegui, Jaime and Montoro, Ana and Castanedo, Federico},
+  journal={arXiv preprint arXiv:1511.04906},
+  year={2015}
+}
+
+@inproceedings{foulds,
+  title={Latent topic networks: A versatile probabilistic programming framework for topic models},
+  author={Foulds, James and Kumar, Shachi and Getoor, Lise},
+  booktitle={International Conference on Machine Learning},
+  pages={777--786},
+  year={2015}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Discovery of Discourse-Related Language Contrasts through Alignment Discrepancies in English-German Translation
+ShortPaperTitle#=%=#Discovery of Discourse-Related Language Contrasts through Alignment Discrepancies in English-German Translation
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Ekaterina Lapshinova-Koltunski
+JobTitle#==#
+Organization#==#Language Science and Technology
+Universität des Saarlandes
+Build. A2.2, University Campus
+D-66123 Saarbrücken
+Abstract#==#In this paper, we analyse alignment discrepancies  for discourse structures in
+English-German parallel data -- sentence pairs, in which discourse structures
+in target or source texts have no alignment in the corresponding parallel
+sentences. The discourse-related structures are designed in form of linguistic
+patterns based on the information delivered by automatic part-of-speech and
+dependency annotation. In addition to alignment errors (existing structures
+left unaligned), these alignment discrepancies can be caused by language
+contrasts or through the phenomena of explicitation and implicitation in the
+translation process. We propose a new approach including new type of resources
+for corpus-based language contrast analysis and apply it to study and classify
+the contrasts found in our English-German parallel corpus. As unaligned
+discourse structures may also result in the loss of discourse information in
+the MT training data, we hope to deliver information in support of
+discourse-aware machine translation (MT).
+Author{1}{Firstname}#=%=#Ekaterina
+Author{1}{Lastname}#=%=#Lapshinova-Koltunski
+Author{1}{Email}#=%=#e.lapshinova@mx.uni-saarland.de
+Author{1}{Affiliation}#=%=#Universität des Saarlandes
+Author{2}{Firstname}#=%=#Christian
+Author{2}{Lastname}#=%=#Hardmeier
+Author{2}{Email}#=%=#christian.hardmeier@lingfil.uu.se
+Author{2}{Affiliation}#=%=#Uppsala University
+
+==========

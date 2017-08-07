@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#74
+FinalPaperTitle#=%=#Fewer features perform well at Native Language Identification task
+ShortPaperTitle#=%=#Fewer features perform well at Native Language Identification task
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Çağrı Çöltekin
+JobTitle#==#
+Organization#==#University of Tübingen
+Wilhelmstr. 19
+72074 Tübingen / Germany
+Abstract#==#This paper describes our results at the NLI shared task 2017.  We participated
+in essays, speech, and fusion task that uses text, speech, and i-vectors for
+the task of identifying the native language of the given input. In the essay
+track, a linear SVM system using word bigrams and character 7-grams performed
+the best. In the speech track, an LDA classifier based only on i-vectors
+performed better than a combination system using text features from speech
+transcriptions and i-vectors. In the fusion task, we experimented with systems
+that used combination of i-vectors with higher order n-grams features,
+combination of i-vectors with word unigrams, a mean probability ensemble, and a
+stacked ensemble system. Our finding is that word unigrams in combination with
+i-vectors achieve higher score than systems trained with larger number of
+\emph{n}-gram features.  Our best-performing systems achieved F1-scores of
+87.16%, 83.33% and 91.75% on the essay track, the speech track and the fusion
+track respectively.
+Author{1}{Firstname}#=%=#Taraka
+Author{1}{Lastname}#=%=#Rama
+Author{1}{Email}#=%=#taraka-rama.kasicheyanula@uni-tuebingen.de
+Author{1}{Affiliation}#=%=#University of Tuebingen
+Author{2}{Firstname}#=%=#Çağrı
+Author{2}{Lastname}#=%=#Çöltekin
+Author{2}{Email}#=%=#ccoltekin@sfs.uni-tuebingen.de
+Author{2}{Affiliation}#=%=#University of Tübingen
+
+==========

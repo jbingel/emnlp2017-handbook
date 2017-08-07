@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Automatic Community Creation for Abstractive Spoken Conversations Summarization
+ShortPaperTitle#=%=#Automatic Community Creation for Abstractive Spoken Conversations Summarization
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Karan Singla
+JobTitle#==#
+Organization#==#SAIL, University of Southern California
+Abstract#==#Summarization of spoken conversations is a challenging task, since it requires
+deep understanding of dialogs. Abstractive summarization techniques rely on
+linking the summary sentences to sets of original conversation sentences, i.e.
+communities. Unfortunately, such linking information is rarely available or
+requires trained annotators. We propose and experiment automatic community
+creation using cosine similarity on different levels of representation: raw
+text, WordNet SynSet IDs, and word embeddings. We show that the abstractive
+summarization systems with automatic communities significantly outperform
+previously published results on both English and Italian corpora.
+Author{1}{Firstname}#=%=#Karan
+Author{1}{Lastname}#=%=#Singla
+Author{1}{Email}#=%=#singlak@usc.edu
+Author{1}{Affiliation}#=%=#SAIL, University of Southern California
+Author{2}{Firstname}#=%=#Evgeny
+Author{2}{Lastname}#=%=#Stepanov
+Author{2}{Email}#=%=#stepanov.evgeny.a@gmail.com
+Author{2}{Affiliation}#=%=#University of Trento
+Author{3}{Firstname}#=%=#Ali Orkan
+Author{3}{Lastname}#=%=#Bayer
+Author{3}{Email}#=%=#orkanbayer@gmail.com
+Author{3}{Affiliation}#=%=#University of Trento
+Author{4}{Firstname}#=%=#Giuseppe
+Author{4}{Lastname}#=%=#Carenini
+Author{4}{Email}#=%=#carenini@cs.ubc.ca
+Author{4}{Affiliation}#=%=#university of british columbia
+Author{5}{Firstname}#=%=#Giuseppe
+Author{5}{Lastname}#=%=#Riccardi
+Author{5}{Email}#=%=#giuseppe.riccardi@unitn.it
+Author{5}{Affiliation}#=%=#University of Trento
+
+==========

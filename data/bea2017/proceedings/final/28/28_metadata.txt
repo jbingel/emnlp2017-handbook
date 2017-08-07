@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#Automatic Extraction of High-Quality Example Sentences for Word Learning Using a Determinantal Point Process
+ShortPaperTitle#=%=#Automatic Extraction of High-Quality Example Sentences for Word Learning Using a Determinantal Point Process
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Arseny Tolmachev
+JobTitle#==#
+Organization#==#Graduate School of Informatics, Kyoto University
+Yoshida-honmachi, Sakyo-ku
+Kyoto, 606-8501, Japan
+Abstract#==#Flashcard systems are effective tools for learning words but have their
+limitations in teaching word usage. To overcome this problem, we propose a
+novel flashcard system that 
+shows a new example sentence on each repetition. This extension requires
+high-quality example sentences, automatically extracted from a huge corpus. To
+do this, we use a Determinantal Point Process which scales well to large data
+and allows to naturally represent sentence similarity and quality as features.
+Our human evaluation experiment on Japanese language indicates that the
+proposed method successfully extracted high-quality example sentences.
+Author{1}{Firstname}#=%=#Arseny
+Author{1}{Lastname}#=%=#Tolmachev
+Author{1}{Email}#=%=#eiennohito@gmail.com
+Author{1}{Affiliation}#=%=#Kyoto University
+Author{2}{Firstname}#=%=#Sadao
+Author{2}{Lastname}#=%=#Kurohashi
+Author{2}{Email}#=%=#kuro@i.kyoto-u.ac.jp
+Author{2}{Affiliation}#=%=#Kyoto University
+
+==========

@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#An NLP Analysis of Exaggerated Claims in Science News
+ShortPaperTitle#=%=#An NLP Analysis of Exaggerated Claims in Science News
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Yingya Li
+JobTitle#==#
+Organization#==#School of Information Studies, Syracuse University
+337 Hinds Hall, Syracuse University, Syracuse NY, 13210
+Abstract#==#The discrepancy between science and media has been affecting the effectiveness
+of science communication. Original findings from science publications may be
+distorted with altered claim strength when reported to the public, causing
+misinformation spread. This study conducts an NLP analysis of exaggerated
+claims in science news, and then constructed prediction models for identifying
+claim strength levels in science reporting. The results demonstrate different
+writing styles journal articles and news/press releases use for reporting
+scientific findings. Preliminary prediction models reached promising result
+with room for further improvement.
+Author{1}{Firstname}#=%=#YINGYA
+Author{1}{Lastname}#=%=#LI
+Author{1}{Email}#=%=#yli48@syr.edu
+Author{1}{Affiliation}#=%=#Syracuse University
+Author{2}{Firstname}#=%=#Jieke
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#jzhan150@syr.edu
+Author{2}{Affiliation}#=%=#Syracuse University
+Author{3}{Firstname}#=%=#Bei
+Author{3}{Lastname}#=%=#Yu
+Author{3}{Email}#=%=#byu@syr.edu
+Author{3}{Affiliation}#=%=#Syracuse University
+
+==========

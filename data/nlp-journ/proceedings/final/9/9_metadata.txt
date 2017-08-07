@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Language-based Construction of Explorable News Graphs for Journalists
+ShortPaperTitle#=%=#Language-based Construction of Explorable News Graphs for Journalists
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Bois
+JobTitle#==#
+Organization#==#
+Abstract#==#Faced with ever-growing news archives, media professionals are in need of
+advanced tools to explore the information surrounding specific events. 
+This problem is most commonly answered by browsing news datasets, going from
+article to article and viewing unaltered original content.
+In this article, we introduce an efficient way to generate links between news
+items, allowing such browsing through an easily explorable graph, and enrich
+this graph by automatically typing links in order to inform the user on the
+nature of the relation between two news pieces.
+User evaluations are conducted on real world data with journalists in order to
+assess for the interest of both the graph representation and link typing in a
+press reviewing task, showing the system to be of significant help for their
+work.
+Author{1}{Firstname}#=%=#Rémi
+Author{1}{Lastname}#=%=#Bois
+Author{1}{Email}#=%=#remi.bois@irisa.fr
+Author{1}{Affiliation}#=%=#CNRS / IRISA & INRIA Rennes
+Author{2}{Firstname}#=%=#Guillaume
+Author{2}{Lastname}#=%=#Gravier
+Author{2}{Email}#=%=#guig@irisa.fr
+Author{2}{Affiliation}#=%=#CNRS, IRISA - UMR 6074 & Inria Rennes
+Author{3}{Firstname}#=%=#Eric
+Author{3}{Lastname}#=%=#Jamet
+Author{3}{Email}#=%=#eric.jamet@mshb.fr
+Author{3}{Affiliation}#=%=#CRPCC, Université de Rennes 2
+Author{4}{Firstname}#=%=#Emmanuel
+Author{4}{Lastname}#=%=#Morin
+Author{4}{Email}#=%=#emmanuel.morin@univ-nantes.fr
+Author{4}{Affiliation}#=%=#LS2N UMR CNRS 6004
+Author{5}{Firstname}#=%=#Pascale
+Author{5}{Lastname}#=%=#Sébillot
+Author{5}{Email}#=%=#pascale.sebillot@irisa.fr
+Author{5}{Affiliation}#=%=#IRISA & INRIA / INSA Rennes
+Author{6}{Firstname}#=%=#Maxime
+Author{6}{Lastname}#=%=#Robert
+Author{6}{Email}#=%=#maxime.robert@univ-rennes2.fr
+Author{6}{Affiliation}#=%=#CRPCC, Université de Rennes 2
+
+==========

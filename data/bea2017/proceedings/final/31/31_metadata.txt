@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Investigating neural architectures for short answer scoring
+ShortPaperTitle#=%=#Investigating neural architectures for short answer scoring
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Brian Riordan
+JobTitle#==#
+Organization#==#Educational Testing Service
+660 Rosedale Road
+Princeton, NJ 08541
+Abstract#==#Neural approaches to automated essay scoring have recently shown
+state-of-the-art performance. The automated essay scoring task typically
+involves a broad notion of writing quality that encompasses content, grammar,
+organization, and conventions. This differs from the short answer content
+scoring task, which focuses on content accuracy. The inputs to neural essay
+scoring models -- ngrams and embeddings -- are arguably well-suited to evaluate
+content in short answer scoring tasks. We investigate how several basic neural
+approaches similar to those used for automated essay scoring perform on short
+answer scoring. We show that neural architectures can outperform a strong
+non-neural baseline, but performance and optimal parameter settings vary across
+the more diverse types of prompts typical of short answer scoring.
+Author{1}{Firstname}#=%=#Brian
+Author{1}{Lastname}#=%=#Riordan
+Author{1}{Email}#=%=#briordan@ets.org
+Author{1}{Affiliation}#=%=#Educational Testing Service
+Author{2}{Firstname}#=%=#Andrea
+Author{2}{Lastname}#=%=#Horbach
+Author{2}{Email}#=%=#andrea.horbach@uni-duisburg-essen.de
+Author{2}{Affiliation}#=%=#University of Duisburg-Essen
+Author{3}{Firstname}#=%=#Aoife
+Author{3}{Lastname}#=%=#Cahill
+Author{3}{Email}#=%=#acahill@ets.org
+Author{3}{Affiliation}#=%=#Educational Testing Service
+Author{4}{Firstname}#=%=#Torsten
+Author{4}{Lastname}#=%=#Zesch
+Author{4}{Email}#=%=#torsten.zesch@uni-due.de
+Author{4}{Affiliation}#=%=#Language Technology Lab, University of Duisburg-Essen
+Author{5}{Firstname}#=%=#Chong Min
+Author{5}{Lastname}#=%=#Lee
+Author{5}{Email}#=%=#clee001@ets.org
+Author{5}{Affiliation}#=%=#Educational Testing Service
+
+==========

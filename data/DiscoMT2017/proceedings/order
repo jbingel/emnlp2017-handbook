@@ -1,0 +1,33 @@
+* Friday, September 8, 2017
+= 09:00--10:30 Session 1
++ 09:00--09:10 Introduction
+22 09:10--09:40  # Findings of the 2017 DiscoMT Shared Task on Cross-lingual Pronoun Prediction
+10 09:40--10:10  # Validation of an Automatic Metric for the Accuracy of Pronoun Translation (APT)
++ 10:10--10:30 Poster Boaster
++ 10:30--11:00 Coffee Break
+= 11:00--12:30 Session 2a: Regular Track Posters
+9   # Using a Graph-based Coherence Model in Document-Level Machine Translation
+17   # Treatment of Markup in Statistical Machine Translation
+= 11:00--12:30 Session 2b: Shared Task Posters
+13   # A BiLSTM-based System for Cross-lingual Pronoun Prediction
+18   # Neural Machine Translation for Cross-Lingual Pronoun Prediction
+19   # Predicting Pronouns with a Convolutional Network and an N-gram Model
+21   # Cross-Lingual Pronoun Prediction with Deep Recurrent Neural Networks v2.0
+= 11:00--12:30 Session 2c: Posters Related to Oral Presentations
+12   # Combining the output of two coreference resolution systems for two source languages to improve annotation projection
+14   # Discovery of Discourse-Related Language Contrasts through Alignment Discrepancies in English-German Translation
+#22  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Findings of the 2017 DiscoMT Shared Task on Cross-lingual Pronoun Prediction
+16   # Neural Machine Translation with Extended Context
+20   # Translating Implicit Discourse Connectives Based on Cross-lingual Annotation and Alignment
+#10  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Validation of an Automatic Metric for the Accuracy of Pronoun Translation (APT)
++ 12:30--14:00 Lunch Break
+= 14:00--15:30 Session 3
+#16 14:00--14:30 # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Neural Machine Translation with Extended Context
+#14 14:30--14:50 # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Discovery of Discourse-Related Language Contrasts through Alignment Discrepancies in English-German Translation
+#20 14:50--15:10 # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Translating Implicit Discourse Connectives Based on Cross-lingual Annotation and Alignment
+#12 15:10--15:30 # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Combining the output of two coreference resolution systems for two source languages to improve annotation projection
++ 15:30--16:00 Coffee Break
+= 16:00--17:30 Session 4
+8 16:00--16:30  # Lexical Chains meet Word Embeddings in Document-level Statistical Machine Translation
+15 16:30--16:50  # On Integrating Discourse in Machine Translation
++ 16:50--17:30 Final Discussion and Conclusion

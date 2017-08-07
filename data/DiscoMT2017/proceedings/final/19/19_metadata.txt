@@ -1,0 +1,17 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Predicting Pronouns with a Convolutional Network and an N-gram Model
+ShortPaperTitle#=%=#Predicting Pronouns with a Convolutional Network and an N-gram Model
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Christian Hardmeier
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper describes the UU-Hardmeier system submitted to the DiscoMT
+2017 shared task on cross-lingual pronoun prediction. The system is an ensemble
+of convolutional neural networks combined with a source-aware n-gram language
+model.
+Author{1}{Firstname}#=%=#Christian
+Author{1}{Lastname}#=%=#Hardmeier
+Author{1}{Email}#=%=#christian.hardmeier@lingfil.uu.se
+Author{1}{Affiliation}#=%=#Uppsala University
+
+==========

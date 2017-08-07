@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#52
+FinalPaperTitle#=%=#Interactive Visualization and Manipulation of Attention-based Neural Machine Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#While neural machine translation (NMT) provides high-quality translation, it is
+still hard to interpret and analyze its behavior. We present an interactive
+interface for visualizing and intervening behavior of NMT, specifically
+concentrating on the behavior of beam search mechanism and attention component.
+The tool (1) visualizes search tree and attention and (2) provides interface to
+adjust search tree and attention weight (manually or automatically) at
+real-time. We show the tool gives various methods to understand NMT.
+Author{1}{Firstname}#=%=#Jaesong
+Author{1}{Lastname}#=%=#Lee
+Author{1}{Email}#=%=#jaesong.lee@navercorp.com
+Author{1}{Affiliation}#=%=#Naver Corp.
+Author{2}{Firstname}#=%=#Joong-Hwi
+Author{2}{Lastname}#=%=#Shin
+Author{2}{Email}#=%=#joonghwi.shin@navercorp.com
+Author{2}{Affiliation}#=%=#Naver Corp.
+Author{3}{Firstname}#=%=#Jun-Seok
+Author{3}{Lastname}#=%=#Kim
+Author{3}{Email}#=%=#jun.seok@navercorp.com
+Author{3}{Affiliation}#=%=#Naver Corp.
+
+==========

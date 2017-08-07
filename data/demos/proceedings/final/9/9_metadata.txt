@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#GraphDocExplore: A Framework for the Experimental Comparison of Graph-based Document Exploration Techniques
+ShortPaperTitle#=%=#GraphDocExplore: A Framework for the Experimental Comparison of Graph-based Document Exploration Techniques
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Tobias Falke
+JobTitle#==#
+Organization#==#Technische Universität Darmstadt
+Department of Computer Science
+Ubiquitous Knowledge Processing Lab
+Hochschulstraße 10 
+64289 Darmstadt
+Germany
+Abstract#==#Graphs have long been proposed as a tool to browse and navigate in a collection
+of documents in order to support exploratory search. Many techniques to
+automatically extract different types of graphs, showing for example entities
+or concepts and different relationships between them, have been suggested.
+While experimental evidence that they are indeed helpful exists for some of
+them, it is largely unknown which type of graph is most helpful for a specific
+exploratory task. However, carrying out experimental comparisons with human
+subjects is challenging and time-consuming. Towards this end, we present the
+\textit{GraphDocExplore} framework. It provides an intuitive web interface for
+graph-based document exploration that is optimized for experimental user
+studies. Through a generic graph interface, different methods to extract graphs
+from text can be plugged into the system. Hence, they can be compared at
+minimal implementation effort in an environment that ensures controlled
+comparisons. The system is publicly available under an open-source license.
+Author{1}{Firstname}#=%=#Tobias
+Author{1}{Lastname}#=%=#Falke
+Author{1}{Email}#=%=#falke@aiphes.tu-darmstadt.de
+Author{1}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{2}{Firstname}#=%=#Iryna
+Author{2}{Lastname}#=%=#Gurevych
+Author{2}{Email}#=%=#gurevych@ukp.informatik.tu-darmstadt.de
+Author{2}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+
+==========

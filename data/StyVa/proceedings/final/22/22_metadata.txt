@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#Stylistic Variation in Television Dialogue for Natural Language Generation
+ShortPaperTitle#=%=#Stylistic Variation in Television Dialogue for Natural Language Generation
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Grace Lin
+JobTitle#==#
+Organization#==#
+Abstract#==#Conversation is a critical component of storytelling, where key information is
+often revealed by
+what/how a character says it. We focus on the issue of character voice and
+build stylistic models with linguistic features related to natural language
+generation decisions. Using a dialogue corpus of the television series, The Big
+Bang Theory, we apply content analysis to extract relevant linguistic features
+to build character-based stylistic models, and we test the model-fit through an
+user perceptual experiment with Amazon's Mechanical Turk. The results are
+encouraging in that human subjects tend to perceive the generated utterances as
+being more similar to the character they are modeled on, than to another random
+character.
+Author{1}{Firstname}#=%=#Grace
+Author{1}{Lastname}#=%=#Lin
+Author{1}{Email}#=%=#glin5@ucsc.edu
+Author{1}{Affiliation}#=%=#University of California Santa Cruz
+Author{2}{Firstname}#=%=#Marilyn
+Author{2}{Lastname}#=%=#Walker
+Author{2}{Email}#=%=#maw@soe.ucsc.edu
+Author{2}{Affiliation}#=%=#University of California Santa Cruz
+
+==========

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 # Matt Post, June 2014
 
@@ -103,6 +103,7 @@ def minus12(time):
 
     return '%s:%s' % (hours, minutes)
 
+print(dates)
 for date in dates:
     day, num, year = date
     path = os.path.join(args.output_dir, '%s-overview.tex' % (day))

@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#HeidelPlace: An Extensible Framework for Geoparsing
+ShortPaperTitle#=%=#HeidelPlace: An Extensible Framework for Geoparsing
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Andreas Spitz
+JobTitle#==#
+Organization#==#Heidelberg University
+Institute of Computer Science
+Im Neuenheimer Feld 205
+69120 Heidelberg, Germany
+Abstract#==#Geographic information extraction from textual data sources, called geoparsing,
+is a key task in text processing and central to subsequent spatial analysis
+approaches. Several geoparsers are available that support this task, each with
+its own (often limited or specialized) gazetteer and its own approaches to
+toponym detection and resolution. In this demonstration paper, we present
+HeidelPlace, an extensible framework in support of geoparsing. Key features of
+HeidelPlace include a generic gazetteer model that supports the integration of
+place information from different knowledge bases, and a pipeline approach that
+enables an effective combination of diverse modules tailored to specific
+geoparsing tasks. This makes HeidelPlace a valuable tool for testing and
+evaluating different gazetteer sources and geoparsing methods. In the
+demonstration, we show how to set up a geoparsing workflow with HeidelPlace and
+how it can be used to compare and consolidate the output of different
+geoparsing approaches.
+Author{1}{Firstname}#=%=#Ludwig
+Author{1}{Lastname}#=%=#Richter
+Author{1}{Email}#=%=#ludwig.richter@posteo.de
+Author{1}{Affiliation}#=%=#Heidelberg University
+Author{2}{Firstname}#=%=#Johanna
+Author{2}{Lastname}#=%=#Geiß
+Author{2}{Email}#=%=#johanna.geiss@informatik.uni-heidelberg.de
+Author{2}{Affiliation}#=%=#Heidelberg University
+Author{3}{Firstname}#=%=#Andreas
+Author{3}{Lastname}#=%=#Spitz
+Author{3}{Email}#=%=#spitz@informatik.uni-heidelberg.de
+Author{3}{Affiliation}#=%=#Heidelberg University
+Author{4}{Firstname}#=%=#Michael
+Author{4}{Lastname}#=%=#Gertz
+Author{4}{Email}#=%=#gertz@informatik.uni-heidelberg.de
+Author{4}{Affiliation}#=%=#Heidelberg University
+
+==========

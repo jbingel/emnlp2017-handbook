@@ -1,0 +1,17 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Using Question-Answering Techniques to Implement a Knowledge-Driven Argument Mining Approach
+ShortPaperTitle#=%=#Using Question-Answering Techniques to Implement a Knowledge-Driven Argument Mining Approach
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Patrick Saint-Dizier
+JobTitle#==#CNRS senior resarcher
+Organization#==#CNRS IRIT 118 route de Narbonne 31062 Toulouse France
+Abstract#==#This short paper presents a first implementation of a knowledge-driven
+argument mining approach. The major processing steps and language resources of
+the system are surveyed. An indicative evaluation outlines challenges and
+improvement directions.
+Author{1}{Firstname}#=%=#Patrick
+Author{1}{Lastname}#=%=#Saint-Dizier
+Author{1}{Email}#=%=#stdizier@irit.fr
+Author{1}{Affiliation}#=%=#IRIT-CNRS
+
+==========

@@ -1,0 +1,48 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#StruAP: A Tool for Bundling Linguistic Trees through Structure-based Abstract Pattern
+ShortPaperTitle#=%=#StruAP: A Tool for Bundling Linguistic Trees through Structure-based Abstract Pattern
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Kohsuke Yanai
+JobTitle#==#
+Organization#==#Hitachi, Ltd.
+Higashi-Koigakubo 1-280, Kokubunji-shi, Tokyo 185-8601, JAPAN
+Abstract#==#We present a tool for developing tree structure
+patterns that makes it easy to define
+the relations among textual phrases and
+create a search index for these newly defined
+relations. By using the proposed
+tool, users develop tree structure patterns
+through abstracting syntax trees. The tool
+features (1) intuitive pattern syntax, (2)
+unique functions such as recursive call of
+patterns and use of lexicon dictionaries,
+and (3) whole workflow support for relation
+development and validation. We report
+the current implementation of the tool
+and its effectiveness.
+Author{1}{Firstname}#=%=#Kohsuke
+Author{1}{Lastname}#=%=#Yanai
+Author{1}{Email}#=%=#kohsuke.yanai.cs@hitachi.com
+Author{1}{Affiliation}#=%=#Hitachi
+Author{2}{Firstname}#=%=#Misa
+Author{2}{Lastname}#=%=#Sato
+Author{2}{Email}#=%=#misa.sato.mw@hitachi.com
+Author{2}{Affiliation}#=%=#Hitachi, Ltd.
+Author{3}{Firstname}#=%=#Toshihiko
+Author{3}{Lastname}#=%=#Yanase
+Author{3}{Email}#=%=#toshihiko.yanase.gm@hitachi.com
+Author{3}{Affiliation}#=%=#Research & Development Group, Hitachi, Ltd.
+Author{4}{Firstname}#=%=#Kenzo
+Author{4}{Lastname}#=%=#Kurotsuchi
+Author{4}{Email}#=%=#kenzo.kurotsuchi.qs@hitachi.com
+Author{4}{Affiliation}#=%=#Hitachi
+Author{5}{Firstname}#=%=#Yuta
+Author{5}{Lastname}#=%=#Koreeda
+Author{5}{Email}#=%=#yuta.koreeda.pb@hitachi.com
+Author{5}{Affiliation}#=%=#Research & Development Group, Hitachi, Ltd.
+Author{6}{Firstname}#=%=#Yoshiki
+Author{6}{Lastname}#=%=#Niwa
+Author{6}{Email}#=%=#yoshiki.niwa.tx@hitachi.com
+Author{6}{Affiliation}#=%=#Hitachi
+
+==========

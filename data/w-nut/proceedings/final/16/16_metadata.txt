@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Simple Queries as Distant Labels for Predicting Gender on Twitter
+ShortPaperTitle#=%=#Simple Queries as Distant Labels for Predicting Gender on Twitter
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Chris Emmery
+JobTitle#==#
+Organization#==#
+Abstract#==#The majority of research on extracting missing user attributes from social
+media profiles use costly hand-annotated labels for supervised learning.
+Distantly supervised methods exist, although these generally rely on knowledge
+gathered using external sources. This paper demonstrates the effectiveness of
+gathering distant labels for self-reported gender on Twitter using simple
+queries. We confirm the reliability of this query heuristic by comparing with
+manual annotation. Moreover, using these labels for distant supervision, we
+demonstrate competitive model performance on the same data as models trained on
+manual annotations. As such, we offer a cheap, extensible, and fast alternative
+that can be employed beyond the task of gender classification.
+Author{1}{Firstname}#=%=#Chris
+Author{1}{Lastname}#=%=#Emmery
+Author{1}{Email}#=%=#cmry@protonmail.com
+Author{1}{Affiliation}#=%=#Tilburg University & University of Antwerp
+Author{2}{Firstname}#=%=#Grzegorz
+Author{2}{Lastname}#=%=#Chrupała
+Author{2}{Email}#=%=#g.chrupala@uvt.nl
+Author{2}{Affiliation}#=%=#Tilburg University
+Author{3}{Firstname}#=%=#Walter
+Author{3}{Lastname}#=%=#Daelemans
+Author{3}{Email}#=%=#walter.daelemans@ua.ac.be
+Author{3}{Affiliation}#=%=#University of Antwerp, CLiPS
+
+==========

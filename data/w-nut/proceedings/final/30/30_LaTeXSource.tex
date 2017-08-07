@@ -1,0 +1,627 @@
+%\title{emnlp 2017 instructions}
+% File emnlp2017.tex
+%
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{emnlp2017}
+\usepackage{times}
+\usepackage{latexsym}
+
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{array}
+
+% Uncomment this line for the final submission:
+\emnlpfinalcopy
+
+%  Enter the EMNLP Paper ID here:
+\def\emnlppaperid{***}
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+
+\title{Transfer Learning and Sentence Level Features for Named Entity Recognition on Tweets}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a seperate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+% If the title and author information does not fit in the area allocated,
+% place \setlength\titlebox{<new height>} right after
+% at the top, where <new height> can be something larger than 2.25in
+\author{Pius von D\"aniken \\ {\tt SpinningBytes AG} \And Mark Cieliebak \\ {\tt ZHAW}}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+    We present our system for the WNUT 2017 Named Entity Recognition challenge 
+    on Twitter data. We describe two modifications of a basic neural network architecture
+    for sequence tagging. First, we show how we exploit additional labeled data,
+    where the Named Entity tags differ from the target task.
+    Then, we propose a way to incorporate sentence level features.
+    Our system uses both methods and ranked second for entity level annotations,
+    achieving an F1-score of $40.78$, and second for surface form annotations,
+    achieving an F1-score of $39.33$.
+\end{abstract}
+
+
+\section{Introduction}
+
+Named Entity Recognition (NER) is an important Natural Language Processing task.
+Its goal is to tag entities such as names of people and locations in text.
+State-of-the-art systems can achieve F1-scores of up to $92$ points on English
+news texts~\cite{ner_lstm_cnn}. Achieving good performance on more complex domains
+such as user generated texts on social media is still a hard problem. The best
+system submitted for the WNUT 2016 shared task achieved an 
+F1-score of $52.41$ on English Twitter data~\cite{wnut2016}.
+
+In this work, we present our submission for the WNUT 2017 shared
+task on ``Novel and Emerging Entity Recognition''~\cite{wnut2017}.
+We extend a basic neural network architecture for sequence tagging~\cite{ner_lstm_cnn, collobert2011}
+by incorporating sentence level feature vectors and exploiting additional labeled data for
+transfer learning. We build on and take inspiration from recent work from~\cite{studis, synapse}
+on NER for French Twitter data~\cite{cap2017}.
+
+Our submitted solution reached an F1-score of $41.76$ for entity level annotations and
+$57.98$ on surface form annotations. This places us second on entity level annotations,
+where the best system achieved an F1-score of $41.90$, and fourth on surface form
+annotations, where the best system achieved an F1-score of $66.59$.
+
+\section{System Description}
+\label{sec:system_description}
+
+\begin{figure*}[ht]
+    \begin{tabular}{c | c | c | c}
+        \subfloat[Basic System]
+        {\includegraphics[height=7cm]{figures/basic_system}\label{fig:basic_system}} &
+        \subfloat[Transfer Learning Architecture]
+        {\includegraphics[height=7cm]{figures/transfer_learning}\label{fig:transfer_learning}} &
+        \subfloat[Incorporating Sentence Level Features]
+        {\includegraphics[height=7cm]{figures/sent2vec}\label{fig:sent2vec}} &
+        \subfloat[Architecture Using Transfer Learning and Sentence Level Features]
+        {\includegraphics[height=7cm]{figures/full_system}\label{fig:full_system}} \\
+    \end{tabular}
+    \caption{Overview Of The Different Network Architectures Used}\label{fig:system}
+\end{figure*}
+
+%In Section~\ref{sec:basic_system} we describe the architecture of a sequence
+%labeling system based on a neural network~\cite{ner_lstm_cnn, collobert2011}
+%that extracts features for training a Conditional Random Field~\cite{crf}. Previous
+%work has shown that different transfer learning approaches can improve sequence
+%labeling systems~\cite{transfer_learning}. In Section~\ref{sec:transfer} we
+%describe how we modify the basic system to allow for joint training on the
+%WNUT 2016 corpus, which uses a different tag set than our target task.
+%Section~\ref{sec:sent2vec} describes how we incorporate sentence level feature
+%vectors into our basic system and Section~\ref{sec:combined} shows how those
+%two approaches are combined to get the system we used for our submission to
+%the WNUT 2017 shared task. Figure~\ref{fig:system} shows the different
+%architectures.
+
+Our solution is based on a sequence labeling system that uses a bidirectional
+LSTM~\cite{lstm} which extracts features for training a Conditional Random Field~\cite{crf}.
+We apply a transfer learning approach, since previous research has shown that
+this can improve sequence labeling systems~\cite{transfer_learning}.
+More precisely, we modify the base system to allow for joint training on the
+WNUT 2016 corpus~\cite{wnut2016}, which uses a different tag set than our target task.
+In addition, we extend the system to incorporate sentence level feature vectors.
+All these methods are combined to build the system that we used for our
+submission to the WNUT 2017 shared task. Figure~\ref{fig:system} shows an overview
+of the different architectures, which are described in detail in the following
+sections.
+
+\subsection{Basic Sequence Labeling System}
+\label{sec:basic_system}
+
+Figure~\ref{fig:basic_system} shows an overview of our base system. We use
+a bidirectional Long Short Term Memory network (LSTM)~\cite{lstm}
+to learn the potential function for a linear chain Conditional Random Field (CRF)~\cite{crf}
+to predict a sequence of Named Entity tags $y_{1:T}$
+from a sequence of feature vectors $x_{1:T}$. This is based on an architecture
+previously used in~\cite{ner_lstm_cnn}, which achieved state-of-the-art performance
+for Named Entity Recognition on the English CoNLL 2003 data set~\cite{conll}.
+
+\noindent{\bf Bidirectional LSTM}: For every word in $w_t$ in a given input
+sentence $w_{1:T}$, we first compute a feature vector $x_t$, which is the
+concatenation of all the word level features described in Section~\ref{sec:features}.
+The sequence of feature vectors $x_{1:T}$ is then fed to a bidirectional LSTM\@.
+The output of both the forward and backward LSTM are concatenated to get $o_{1:T}$,
+which get passed through a Rectified Linear Unit, ($ReLU$)~\cite{relu}.
+Every $o_{t} \in o_{1:T}$
+then gets passed through a fully connected feed-forward network with one hidden
+layer and $ReLU$ activation: $s_{t} = W_{2}\ relu(W_{1}o_{t} + b_{1}) + b_{2}$.
+Let $N_{tags}$ be the number of possible NER-tags, $d_{o}$ the dimension of $o_{t}$
+and $d_{h}$ the dimension of the hidden layer. The resulting vector
+$s_{t} \in \mathbb{R}^{N_{tags}}$ represents a score for every possible tag $y$
+at time step $t$. The values $W_{1} \in \mathbb{R}^{d_{h} \times d_{o}}$, $b_{1} \in \mathbb{R}^{d_h}$,
+$W_{2} \in \mathbb{R}^{N_{tags} \times d_{h}}$ and $b_{2} \in \mathbb{R}^{N_{tags}}$
+are weights of the feed-forward network.
+
+\noindent{\bf Conditional Random Field}: A linear chain CRF models the
+conditional probability of an output sequence $y_{1:T}$ given an input sequence
+$x_{1:T}$ as:
+\begin{equation}
+    p\left(y_{1:T} | x_{1:T}\right) = \frac{1}{Z(x_{1:T})}\prod_{t = 1}^{T}e^{\phi\left(y_{t - 1}, y_{t}, x_{1:T}, t, \Theta\right)}
+\end{equation}
+where $Z\left(x_{1:T}\right)$ is a normalization constant:
+\begin{equation}
+    Z\left(x_{1:T}\right) = \sum_{\forall y_{1:T}}\prod_{t=1}^{T}e^{\phi\left(y_{t - 1}, y_{t}, x_{1:T}, t, \Theta\right)}
+\end{equation}
+$\phi$ is a potential function parametrized by a set of parameters $\Theta$. In
+our case we use:
+\begin{equation}
+\begin{aligned}
+    \phi\left(y_{t - 1}, y_{t}, x_{1:T}, t, \Theta = \left\{\theta, A\right\}\right) = \\
+    s_{\theta, y_t, t}\left(x_{1:T}\right) + A_{y_{t - 1}, y_{t}}
+\end{aligned}
+\end{equation}
+Let $\theta$ be the parameters of the network described above. Then 
+$s_{\theta, y_t, t}\left(x_{1:T}\right)$ is the score that the network parametrized
+by $\theta$ outputs for tag $y_{t}$ at time step $t$ given the input sequence $x_{1:T}$.
+$A \in \mathbb{R}^{N_{tags} \times N_{tags}}$ is a matrix such that $A_{i, j}$
+is the score of transitioning from tag $i$ to tag $j$. 
+
+\noindent{\bf Training}: During training we try to maximize the
+likelihood of the true tag sequence $y_{1:T}$ given the input feature vectors
+$x_{1:T}$. We use the Adam~\cite{adam} algorithm to optimize the parameters
+$\Theta = \left\{\theta, A\right\}$. Additionally we perform gradient clipping~\cite{gradient_clipping}
+and apply dropout~\cite{dropout} to the LSTM outputs $o_{1:T}$. The neural
+network parameters $\theta$ are randomly initialized from a normal distribution
+with mean zero and variance according to~\cite{xavier_init} (normal Glorot initialization).
+The transition scores $A$ are initialized from a uniform distribution with mean zero and variance
+according to~\cite{xavier_init}, (uniform Glorot initialization).
+
+\subsection{Transfer Learning}
+\label{sec:transfer}
+
+In this setting we use the WNUT 2016 corpus~\cite{wnut2016} as an additional
+source of labeled data. The idea is to train the upper layers of the neural
+network on both datasets to improve its generalization ability. It was shown
+in~\cite{transfer_learning} that this can improve the system performance.
+Figure~\ref{fig:transfer_learning} gives an overview of our transfer learning
+architecture.
+
+\noindent{\bf Modified Architecture}: We share all network layers except for the
+last linear projection to get separate tag scores for each data set:
+\begin{equation}
+\begin{aligned}
+    s_{t}^{2016} &= W_{2}^{2016}relu(W_{1}o_{t} + b_{1}) + b_{2}^{2016} \\
+    s_{t}^{2017} &= W_{2}^{2017}relu(W_{1}o_{t} + b_{1}) + b_{2}^{2017}
+\end{aligned}
+\end{equation}
+The resulting tag scores get fed to separate CRFs, which have separate transition
+matrices $A^{2016}$ and $A^{2017}$.
+
+\noindent{\bf Training}: During training we alternately use a batch from
+each dataset and backpropagate the loss of the corresponding CRF\@.
+
+\subsection{Incorporating Sentence Level Features}
+\label{sec:sent2vec}
+
+Figure~\ref{fig:sent2vec} shows how we include sentence level features into our
+architecture. In this setting we take an additional feature vector
+$f_{sent} = F\left(x_{1:T}\right) \in \mathbb{R}^{d_{sent}}$ for each input
+sentence $x_{1:T}$.
+
+\noindent{\bf Modified Architecture}: We use an additional feed-forward network
+to extract tag scores $s_{sent} \in \mathbb{R}^{N_{tags}}$ from the sentence
+feature vector $f_{sent}$:
+\[
+    \resizebox{0.9\hsize}{!}{$s_{sent} = W_{2, sent}\ relu\left(W_{1, sent}f_{sent}
+    + b_{1, sent}\right) + b_{2, sent}$}
+\]
+The dimensions used are: $W_{1, sent} \in \mathbb{R}^{d_{h, sent} \times d_{sent}}$,
+$b_{1, sent} \in \mathbb{R}^{d_{h, sent}}$, $W_{2, sent} \in \mathbb{R}^{N_{tags} \times d_{h, sent}}$
+and $b_{2, sent} \in \mathbb{R}^{N_{tags}}$. The value $d_{h, sent}$ is the dimension
+of the hidden layer of the feed-forward network.
+Let $s_{1:T, word}$ be the scores that the basic network described in
+Section~\ref{sec:basic_system} outputs for sequence $x_{1:T}$. To get the final
+scores $s_{1:T}$ fed to the CRF we add $s_{sent}$ to every
+$s_{t, word} \in s_{1:T, word}$: $s_{t} = s_{sent} + s_{t, word}$.
+
+\subsection{Combined System}
+\label{sec:combined}
+
+The combined system adds the sentence level features to the transfer learning
+architecture. We share all layers except the linear projections to tag scores
+for both sentence features and word features in a manner analogous to
+Sections~\ref{sec:transfer} and~\ref{sec:sent2vec}. The resulting
+architecture is shown in Figure~\ref{fig:full_system}.
+
+\subsection{Features}
+\label{sec:features}
+
+\begin{figure}
+    \includegraphics[width=\columnwidth]{figures/character_cnn}
+    \caption{Neural Network used to extract character level features}\label{fig:character_cnn}
+\end{figure}
+
+\noindent{\bf Word Embeddings}: We use the FastText~\cite{fasttext} library
+to compute word embeddings. We train the model on a corpus of 200 million
+tweets and all tweets from the WNUT 2016 and WNUT 2017 corpora.
+The vocabulary contains all words occurring at least $10$ times. Other parameters
+use the default values set by the library~\footnote{\url{https://github.com/facebookresearch/fastText}}.
+In particular, the size of the context window is set to $5$ and the embedding
+dimension is $100$.
+
+This results in an embedding matrix $E_{word} \in \mathbb{R}^{N_{vocab} \times 100}$,
+where $N_{vocab}$ is the number of unique tokens in the WNUT 2016 and WNUT 2017
+corpora. FastText predicts embedding vectors for words that were out-of-vocabulary
+during training by considering character n-grams of the word. The embedding
+matrix $E_{word}$ is not updated during training.
+
+\noindent{\bf Word Capitalization Features}: Following~\cite{ner_lstm_cnn}
+we add explicit capitalization features, since capitalization information is
+lost during word embedding lookups. The $6$ feature options are: \textit{all capitalized},
+\textit{uppercase initial}, \textit{all lower cased}, \textit{mixed capitalization},
+\textit{emoji} and \textit{other}. An embedding matrix $E_{wordCap} \in \mathbb{R}^{6 \times d_{wordCap}}$
+is used to feed these features to the network and updated during training via
+backpropagation. $E_{wordCap}$ is initialized using normal Glorot initialization.
+
+\noindent{\bf Character Convolution Features}: A convolutional neural network
+is used to extract additional character level features. Its architecture is
+shown in Figure~\ref{fig:character_cnn}. First, we add special padding tokens
+on both sides of the character sequence $w$, to extend it to a target length,
+$l_{w, max}$. If there is an odd number of paddings, the additional padding is
+added on the right. For sequences longer than $l_{w, max}$, only the first
+$l_{w, max}$ characters are used. An embedding matrix $E_{char} \in \mathbb{R}^{N_{c} \times d_c}$
+maps characters to $\mathbb{R}^{d_c}$ vectors. $N_{c}$ is the number of unique
+characters in the dataset with the addition of the padding token.
+
+Using $E_{char}$, we embed the padded sequence $w$ and get $C_{w} \in \mathbb{R}^{l_{w, max} \times d_{c}}$.
+A set of $m$ convolution filters $\in \mathbb{R}^{d_c \times h}$ is then applied to $C_{w}$.
+This results in $m$ feature maps $M_i \in \mathbb{R}^{l_{w, max} - h + 1}$, which
+are passed through a $ReLU$ activation. The final feature vector $F \in \mathbb{R}^{m}$
+is attained by max pooling, such that $F_i = \max M_i$.
+
+The embedding matrix is initialized using uniform Glorot initialization.
+The $m$ convolution filters are initialized using normal Glorot initialization.
+
+\noindent{\bf Character Capitalization Convolution Features}: Analogous to the
+word capitalization features, we use additional character capitalization features.
+The feature options are: \textit{upper}, \textit{lower}, \textit{punctuation}, \textit{numeric} and \textit{other}.
+We apply a neural network with the same architecture as described above to extract the
+final character capitalization feature vector.
+
+\noindent{\bf Sentence Embeddings}: In~\cite{sent2vec} the authors introduce sent2vec,
+a new method for computing sentence embeddings. They show that these embeddings
+provide improved performance for several downstream tasks.
+
+To train the sent2vec model, we use the same training set as the one used for word embeddings and we use
+default values for all the model parameters\footnote{\url{https://github.com/epfml/sent2vec}}.
+In particular, the resulting sentence feature vectors are in $\mathbb{R}^{100}$.
+
+\section{Experiments}
+\label{sec:experiments}
+
+We implemented the system described in Section~\ref{sec:combined} using the Tensorflow
+framework~\footnote{\url{https://www.tensorflow.org/}}.
+
+We monitored the systems performance during training and aborted experiments that had 
+an F1-score of less than $40$ after two epochs (evaluated on the development set).
+We let successful experiments run for the full $6$ epochs (cf. Section~\ref{sec:params}).
+For the submission to WNUT 2017, we ran $6$ successful experiments and submitted
+the one which had the highest entity level F1-score on the development set.
+
+\subsection{Preprocessing}
+
+\noindent{\bf Tokenization}: Since the WNUT 2016 and WNUT 2017 corpora are in the
+CoNLL format, they are already tokenized. To tokenize the additional tweets used
+for training word and sentence embeddings (cf. Section~\ref{sec:features}), we
+use the Twitter tokenizer provided by the Python NLTK
+library~\footnote{\url{http://www.nltk.org/api/nltk.tokenize.html\#module-nltk.tokenize.casual}}.
+
+\noindent{\bf Token Substitution}: We perform some simple pattern-based token
+substitutions. To normalize Twitter user handles, we substitute every word
+starting with an \textit{@} character by a special user token. Similarly, all
+words starting with the prefix \textit{http} are replaced by a url token. Finally,
+for words longer than one character, we remove up to one initial \textit{\#}
+character.
+
+\subsection{Model Parameters}
+\label{sec:params}
+
+\begin{table}
+\centering
+    \begin{tabular}{l r}
+        Parameter & Value \\
+        \hline
+        $l_{w, max}$ & 30 \\
+        $N_{tags}$ WNUT 2016 & 21 \\
+        $N_{tags}$ WNUT 2017 & 13 \\
+        $d_{wordCap}$ & 6 \\
+        $d_{c}$ & 15 \\
+        LSTM hidden units & 64 \\
+        $d_{h, word}$ & 128 \\
+        $d_{h, sent}$ & 128 \\
+        $m$ & 10 \\
+        $h$ & 3 \\
+        Dropout rate & $0.3$ \\
+        Learning Rate & $0.003$ \\
+        Gradient Clip Norm & $2$ \\
+        Batch size & $100$ \\
+        Number of epochs & 6 \\
+        \hline
+    \end{tabular}
+    \caption{Model Parameters}\label{tab:params}
+\end{table}
+
+Table~\ref{tab:params} shows the parameters used for training the model.
+
+\subsection{Experiments Performed After The Submission}
+\label{sec:follow_up_experiments}
+
+Following the submission, we conducted additional experiments to investigate
+the influence of the transfer learning approach and sent2vec features on the
+system performance.
+
+For each of the $4$ systems described in Section~\ref{sec:system_description},
+we ran $6$ experiments. We use the same parameters as shown in Section~\ref{sec:params}.
+
+\section{Results}
+
+\begin{table}
+\centering
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{l | c c c c c c}
+    & \multicolumn{2}{c}{Precision (\%)} & \multicolumn{2}{c}{Recall (\%)} & \multicolumn{2}{c}{F1} \\
+    & Mean & Stddev & Mean & Stddev & Mean & Stddev \\
+    \hline
+    Surface Forms & 45.55 & 0.47 & 34.94 & 0.87 & 39.54 & 0.55 \\
+    \hline
+    Entities Overall & 47.23 & 0.55 & 36.33 & 0.83 & 41.06 & 0.52 \\
+    \hline
+    Corporation & 8.81 & 0.99 & 10.86 & 1.62 & 9.70 & 1.14 \\
+    Creative Work & 22.41 & 2.55 & 11.03 & 1.50 & 14.73 & 1.73 \\
+    Group & 39.27 & 7.47 & 9.49 & 2.20 & 15.13 & 2.86 \\
+    Location & 58.55 & 2.88 & 47.11 & 1.79 & 52.12 & 0.66 \\
+    Person & 57.82 & 1.60 & 63.60 & 1.10 & 60.55 & 0.84 \\
+    Product & 22.47 & 2.17 & 7.87 & 1.93 & 11.60 & 2.38 \\
+\end{tabular}}
+\caption{Aggregated performance of all experiments, run before the submission, evaluated on the test set}\label{tab:testres_full}
+\end{table}
+
+\begin{table}
+\centering
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{l | c c c}
+    & \multicolumn{1}{c}{Precision (\%)} & \multicolumn{1}{c}{Recall (\%)} & \multicolumn{1}{c}{F1} \\
+    \hline
+    Surface Forms & $45.47$ & $34.66$ & $39.33$ \\
+    \hline
+    Entities Overall & $47.09$ & $35.96$ & $40.78$ \\
+    \hline
+    Corporation & $8.24$ & $11.67$ & $9.66$ \\
+    Creative Work & $21.92$ & $11.76$ & $15.31$ \\
+    Group & $31.71$ & $9.22$ & $14.29$ \\
+    Location & $58.95$ & $44.80$ & $50.91$ \\
+    Person & $57.67$ & $61.97$ & $59.74$ \\
+    Product & $20.00$ & $5.13$ & $8.16$ \\
+\end{tabular}}
+\caption{Performance of the submitted annotations evaluated on the test set}\label{tab:testres_submit}
+\end{table}
+
+\begin{table*}[ht]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{l | c c c c c c | c c c c c c}
+
+    & \multicolumn{6}{c}{Entities} & \multicolumn{6}{c}{Surface Forms} \\
+
+    & \multicolumn{2}{c}{Precision (\%)} & \multicolumn{2}{c}{Recall (\%)} &
+    \multicolumn{2}{c}{F1} & \multicolumn{2}{c}{Precision (\%)} &
+    \multicolumn{2}{c}{Recall (\%)} & \multicolumn{2}{c}{F1} \\
+
+    & Mean & Stddev & Mean & Stddev & Mean & Stddev & Mean & Stddev & Mean & Stddev & Mean & Stddev \\
+    \hline
+    Basic System & 58.77 & 3.72 & 32.47 & 1.23 & 41.74 & 0.70 & 56.53 & 3.80 & 30.75 & 1.37 & 39.73 & 0.71 \\
+    Transfer Learning & 48.17 & 1.34 & \bf{37.55} & 1.43 & \bf{42.16} & 0.52 & 46.31 & 1.31 & \bf{35.86} & 1.51 & \bf{40.38} & 0.62 \\
+    Sent2Vec Features & \bf{59.51} & 1.73 & 30.91 & 0.52 & 40.67 & 0.41 & \bf{57.30} & 1.98 & 29.20 & 0.58 & 38.66 & 0.46 \\
+    Combined System & 50.41 & 3.19 & 36.04 & 2.10 & 41.88 & 0.69 & 48.60 & 3.00 & 34.50 & 2.36 & 40.20 & 0.99 \\
+\end{tabular}}
+\caption{Performance of the different subsystems evaluated on the test set, after the submission}\label{tab:subsys_compare}
+\end{table*}
+
+Table~\ref{tab:testres_full} shows precision, recall and F1-score of our system.
+We compute the mean and standard deviations over the $6$ successful experiments
+we considered for submission (cf. Section~\ref{sec:experiments}). Table~\ref{tab:testres_submit}
+shows the breakdown of the performance of the annotations we submitted for the
+WNUT 2017 shared task.
+
+Table~\ref{tab:subsys_compare} shows the performance of the different subsystems
+proposed in Section~\ref{sec:system_description}. We report the mean and standard
+deviation over the $6$ experiments we performed after submission, for every system.
+
+All reported scores were computed using the evaluation
+script provided by the task organizers.
+
+\section{Discussion}
+
+From table~\ref{tab:subsys_compare} we can see that using sent2vec features
+increases precision and decreases recall slightly, leading to an overall lower performance
+compared to the basic system.
+The transfer learning system shows a more substantial decrease in precision and
+increase in recall and overall performs best out of the $4$ systems.
+Combination of the two approaches is counterproductive and outperforms the basic
+system only slightly.
+
+During training we observed that restarting experiments as described in Section
+~\ref{sec:experiments} was only necessary when using sent2vec features.
+
+One weakness of our transfer learning setting is that the two datasets we used have 
+almost identical samples and only differ in their annotations. The WNUT 2016 corpus
+uses 10 entity classes: \textit{company}, \textit{facility}, \textit{Geo location},
+\textit{movie}, \textit{music artist}, \textit{other}, \textit{person}, \textit{product},
+\textit{sports team}, and \textit{TV show}. Further work is needed to study the
+effect of using an unrelated data set for transfer learning.
+
+\section{Conclusion}
+
+We described a deep learning approach for Named Entity Recognition on Twitter data,
+which extends a basic neural network for sequence tagging by using sentence level features
+and transfer learning. Our approach achieved 2nd place at the WNUT 2017 shared
+task for Named Entity Recognition, obtaining an F1-score of $40.78$.
+
+For future work, we plan to explore the power of transfer learning for NER in more depth.
+For instance, it would be interesting to see how annotated NER data for other
+languages or other text types affects the system performance.
+
+%\section*{Acknowledgments}
+
+%Do not number the acknowledgment section.
+
+%\bibliography{references}
+\bibliographystyle{emnlp_natbib}
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Bojanowski et~al.(2016)Bojanowski, Grave, Joulin, and
+  Mikolov}]{fasttext}
+Piotr Bojanowski, Edouard Grave, Armand Joulin, and Tomas Mikolov. 2016.
+\newblock \href{https://arxiv.org/abs/1607.04606}{Enriching word vectors with
+  subword information}.
+\newblock {\em ArXiv e-prints\/}
+  \href{https://arxiv.org/abs/1607.04606}{https://arxiv.org/abs/1607.04606}.
+
+\bibitem[{{Chiu} and Nichols(2015)}]{ner_lstm_cnn}
+Jason P.~C. {Chiu} and Eric Nichols. 2015.
+\newblock \href{https://arxiv.org/abs/1511.08308}{{Named Entity Recognition
+  with Bidirectional LSTM-CNNs}}.
+\newblock {\em ArXiv e-prints\/}
+  \href{https://arxiv.org/abs/1511.08308}{https://arxiv.org/abs/1511.08308}.
+
+\bibitem[{Collobert et~al.(2011)Collobert, Weston, Bottou, Karlen, Kavukcuoglu,
+  and Kuksa}]{collobert2011}
+Ronan Collobert, Jason Weston, L\'{e}on Bottou, Michael Karlen, Koray
+  Kavukcuoglu, and Pavel Kuksa. 2011.
+\newblock Natural language processing (almost) from scratch.
+\newblock {\em Journal of Machine Learning Research\/} 12:2493--2537.
+
+\bibitem[{Derczynski et~al.(2017)Derczynski, Nichols, van Erp, and
+  Limsopatham}]{wnut2017}
+Leon Derczynski, Eric Nichols, Marieke van Erp, and Nut Limsopatham. 2017.
+\newblock {Results of the WNUT2017 Shared Task on Novel and Emerging Entity
+  Recognition}.
+\newblock In {\em Proceedings of the 3rd Workshop on Noisy, User-generated Text
+  (W-NUT) at EMNLP\/}. ACL.
+
+\bibitem[{Falkner et~al.(2017)Falkner, Dolce, von D\"{a}niken, and
+  Cieliebak}]{studis}
+Nicole Falkner, Stefano Dolce, Pius von D\"{a}niken, and Mark Cieliebak. 2017.
+\newblock {Swiss Chocolate} at {CAp 2017} {NER} challenge: Partially annotated
+  data and transfer learning.
+\newblock Conf\'{e}rence sur l'Apprentissage Automatique.
+
+\bibitem[{Glorot and Bengio(2010)}]{xavier_init}
+Xavier Glorot and Yoshua Bengio. 2010.
+\newblock Understanding the difficulty of training deep feedforward neural
+  networks.
+\newblock In {\em Proceedings of the Thirteenth International Conference on
+  Artificial Intelligence and Statistics\/}. PMLR, Chia Laguna Resort, Italy,
+  volume~9 of {\em Proceedings of Machine Learning Research\/}, pages 249--256.
+
+\bibitem[{Hochreiter and Schmidhuber(1997)}]{lstm}
+Sepp Hochreiter and J\"{u}rgen Schmidhuber. 1997.
+\newblock Long short-term memory.
+\newblock {\em Neural Comput.\/} 9(8):1735--1780.
+
+\bibitem[{Kingma and Ba(2014)}]{adam}
+Diederik~P. Kingma and Jimmy Ba. 2014.
+\newblock \href{https://arxiv.org/abs/1412.6980}{{Adam: A Method for Stochastic
+  Optimization}}.
+\newblock {\em ArXiv e-prints\/}
+  \href{https://arxiv.org/abs/1412.6980}{https://arxiv.org/abs/1412.6980}.
+
+\bibitem[{Lopez et~al.(2017)Lopez, Partalas, Balikas, Derbas, Martin,
+  Reutenauer, Segond, and Amini}]{cap2017}
+Cédric Lopez, Ioannis Partalas, Georgios Balikas, Nadia Derbas, Amélie
+  Martin, Coralie Reutenauer, Frédérique Segond, and Massih-Reza Amini. 2017.
+\newblock French named entity recognition in twitter challenge.
+\newblock Technical report.
+
+\bibitem[{Nair and Hinton(2010)}]{relu}
+Vinod Nair and Geoffrey~E. Hinton. 2010.
+\newblock Rectified linear units improve restricted boltzmann machines.
+\newblock In {\em Proceedings of the 27th International Conference on Machine
+  Learning (ICML-10)\/}. Omnipress, pages 807--814.
+
+\bibitem[{Pagliardini et~al.(2017)Pagliardini, Gupta, and Jaggi}]{sent2vec}
+Matteo Pagliardini, Prakhar Gupta, and Martin Jaggi. 2017.
+\newblock \href{https://arxiv.org/abs/1703.02507}{{Unsupervised Learning of
+  Sentence Embeddings using Compositional n-Gram Features}}.
+\newblock {\em ArXiv e-prints\/}
+  \href{https://arxiv.org/abs/1703.02507}{https://arxiv.org/abs/1703.02507}.
+
+\bibitem[{{Pascanu} et~al.(2012){Pascanu}, {Mikolov}, and
+  {Bengio}}]{gradient_clipping}
+Razvan {Pascanu}, Tomas {Mikolov}, and Yoshua {Bengio}. 2012.
+\newblock \href{https://arxiv.org/abs/1211.5063}{{On the difficulty of training
+  Recurrent Neural Networks}}.
+\newblock {\em ArXiv e-prints\/}
+  \href{https://arxiv.org/abs/1211.5063}{https://arxiv.org/abs/1211.5063}.
+
+\bibitem[{Sileo et~al.(2017)Sileo, Pradel, Muller, and Van~de Cruys}]{synapse}
+Damien Sileo, Camille Pradel, Philippe Muller, and Tim Van~de Cruys. 2017.
+\newblock Synapse at {CAp 2017} {NER} challenge: Fasttext crf.
+\newblock Conf\'{e}rence sur l'Apprentissage Automatique.
+
+\bibitem[{Srivastava et~al.(2014)Srivastava, Hinton, Krizhevsky, Sutskever, and
+  Salakhutdinov}]{dropout}
+Nitish Srivastava, Geoffrey Hinton, Alex Krizhevsky, Ilya Sutskever, and Ruslan
+  Salakhutdinov. 2014.
+\newblock Dropout: A simple way to prevent neural networks from overfitting.
+\newblock {\em J. Mach. Learn. Res.\/} 15(1):1929--1958.
+
+\bibitem[{Strauss et~al.(2016)Strauss, Toma, Ritter, de~Marneffe, and
+  Xu}]{wnut2016}
+Benjamin Strauss, Bethany~E. Toma, Alan Ritter, Marie-Catherine de~Marneffe,
+  and Wei Xu. 2016.
+\newblock Results of the {WNUT16} named entity recognition shared task.
+\newblock In {\em The 2nd Workshop on Noisy User-generated Text\/}. pages
+  138--144.
+
+\bibitem[{Sutton and McCallum(2012)}]{crf}
+Charles Sutton and Andrew McCallum. 2012.
+\newblock An introduction to conditional random fields.
+\newblock {\em Found. Trends Mach. Learn.\/} 4(4):267--373.
+
+\bibitem[{Tjong Kim~Sang and De~Meulder(2003)}]{conll}
+Erik~F. Tjong Kim~Sang and Fien De~Meulder. 2003.
+\newblock Introduction to the {CoNLL-2003} shared task: Language-independent
+  named entity recognition.
+\newblock In {\em Proceedings of the Seventh Conference on Natural Language
+  Learning at HLT-NAACL 2003 - Volume 4\/}. Association for Computational
+  Linguistics, Stroudsburg, PA, USA, CONLL '03, pages 142--147.
+
+\bibitem[{{Yang} et~al.(2017){Yang}, {Salakhutdinov}, and
+  {Cohen}}]{transfer_learning}
+Zhilin {Yang}, Ruslan {Salakhutdinov}, and William~W. {Cohen}. 2017.
+\newblock \href{https://arxiv.org/abs/1703.06345}{{Transfer Learning for
+  Sequence Tagging with Hierarchical Recurrent Networks}}.
+\newblock {\em ArXiv e-prints\/}
+  \href{https://arxiv.org/abs/1703.06345}{https://arxiv.org/abs/1703.06345}.
+
+\end{thebibliography}
+
+\end{document}

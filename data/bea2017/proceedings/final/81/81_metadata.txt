@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#81
+FinalPaperTitle#=%=#A deep-learning based native-language classification by using a latent semantic analysis for the NLI Shared Task 2017
+ShortPaperTitle#=%=#A deep-learning based native-language classification by using a latent semantic analysis for the NLI Shared Task 2017
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yoo Rhee Oh
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper proposes a deep-learning based native-language identification (NLI)
+using a latent semantic analysis (LSA) as a participant (ETRI-SLP) of the NLI
+Shared Task 2017 where the NLI Shared Task 2017 aims to detect the native
+language of an essay or speech response of a standardized assessment of English
+proficiency for academic purposes. To this end, we use the six unit forms of a
+text data such as character 4/5/6-grams and word 1/2/3-grams. For each unit
+form of text data, we convert it into a count-based vector, extract a 2000-rank
+LSA feature, and perform a linear discriminant analysis (LDA) based dimension
+reduction. From the count-based vector or the LSA-LDA feature, we also obtain
+the output prediction values of a support vector machine (SVM) based
+classifier, the output prediction values of a deep neural network (DNN) based
+classifier, and the bottleneck values of a DNN based classifier. In order to
+incorporate the various kinds of text-based features and a speech-based
+i-vector feature, we design two DNN based ensemble classifiers for late fusion
+and early fusion, respectively. From the NLI experiments, the F1 (macro) scores
+are obtained as 0.8601, 0.8664, and 0.9220 for the essay track, the speech
+track, and the fusion track, respectively. The proposed method has comparable
+performance to the top-ranked teams for the speech and fusion tracks, although
+it has slightly lower performance for the essay track.
+Author{1}{Firstname}#=%=#Yoo Rhee
+Author{1}{Lastname}#=%=#Oh
+Author{1}{Email}#=%=#yroh@etri.re.kr
+Author{1}{Affiliation}#=%=#ETRI
+Author{2}{Firstname}#=%=#Hyung-Bae
+Author{2}{Lastname}#=%=#Jeon
+Author{2}{Email}#=%=#hbjeon@etri.re.kr
+Author{2}{Affiliation}#=%=#Electronics and Telecommunications Research Institute
+Author{3}{Firstname}#=%=#Hwa Jeon
+Author{3}{Lastname}#=%=#Song
+Author{3}{Email}#=%=#songhj@etri.re.kr
+Author{3}{Affiliation}#=%=#Electronics and Telecommunications Research Institute
+Author{4}{Firstname}#=%=#Yun-Kyung
+Author{4}{Lastname}#=%=#Lee
+Author{4}{Email}#=%=#yunklee@etri.re.kr
+Author{4}{Affiliation}#=%=#Electronics and Telecommunications Research Institute
+Author{5}{Firstname}#=%=#Jeon-Gue
+Author{5}{Lastname}#=%=#Park
+Author{5}{Email}#=%=#jgp@etri.re.kr
+Author{5}{Affiliation}#=%=#Electronics and Telecommunications Research Institute
+Author{6}{Firstname}#=%=#Yun-Keun
+Author{6}{Lastname}#=%=#Lee
+Author{6}{Email}#=%=#yklee@etri.re.kr
+Author{6}{Affiliation}#=%=#Electronics and Telecommunications Research Institute
+
+==========

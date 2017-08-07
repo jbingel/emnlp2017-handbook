@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#32
+FinalPaperTitle#=%=#Distributed Representation, LDA Topic Modelling and Deep Learning for Emerging Named Entity Recognition from Social Media
+ShortPaperTitle#=%=#Distributed Representation, LDA Topic Modelling and Deep Learning for Emerging Named Entity Recognition from Social Media
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Shuhua Liu
+JobTitle#==#
+Organization#==#Arcada University of Applied Sciences
+Jan-Magnus Janssonin aukio 1, 00560 Helsinki, Finland
+Abstract#==#This paper reports our participation in the W-NUT 2017 shared task on emerging
+and rare entity recognition from user generated noisy text such as tweets,
+online reviews and forum discussions. To accomplish this challenging task, we
+explore an approach that combines LDA topic modelling with deep learning on
+word level and character level embeddings. The LDA topic modelling generates
+topic representation for each tweet which is used as a feature for each word in
+the tweet. The deep learning component consists of two-layer bidirectional LSTM
+and a CRF output layer. Our submitted result performed at 39.98 (F1) on entity
+and 37.77 on surface forms. Our new experiments after submission reached a best
+performance of 41.81 on entity and 40.57 on surface forms.
+Author{1}{Firstname}#=%=#Patrick
+Author{1}{Lastname}#=%=#Jansson
+Author{1}{Email}#=%=#patrick.jansson@arcada.fi
+Author{1}{Affiliation}#=%=#Arcada
+Author{2}{Firstname}#=%=#Shuhua
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#shuhua.liu@arcada.fi
+Author{2}{Affiliation}#=%=#Arcada University of Applied Sciences
+
+==========

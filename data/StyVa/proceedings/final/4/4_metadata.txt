@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Shakespearizing Modern Language Using Copy-Enriched Sequence to Sequence Models
+ShortPaperTitle#=%=#Shakespearizing Modern Language Using Copy-Enriched Sequence to Sequence Models
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Harsh Jhamtani
+JobTitle#==#
+Organization#==#Language Technology Institute,
+Carnegie Mellon University,
+USA
+Abstract#==#Variations in writing styles are commonly used to adapt the content to a
+specific context, audience, or purpose. However, applying stylistic variations
+is still by and large a manual process, and there have been little efforts
+towards automating it. In this paper we explore automated methods to transform
+text from modern English to Shakespearean English using an end to end trainable
+neural model with pointers to enable copy action. To tackle limited amount of
+parallel data, we pre-train embeddings of words by leveraging external
+dictionaries mapping Shakespearean words to modern English words as well as
+additional text. Our methods are able to get a BLEU score of 31+, an
+improvement of ≈ 6 points above the strongest baseline. We publicly release
+our code to foster further research in this area.
+Author{1}{Firstname}#=%=#Harsh
+Author{1}{Lastname}#=%=#Jhamtani
+Author{1}{Email}#=%=#harshjhamtani@gmail.com
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Varun
+Author{2}{Lastname}#=%=#Gangal
+Author{2}{Email}#=%=#vgangal@andrew.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Eduard
+Author{3}{Lastname}#=%=#Hovy
+Author{3}{Email}#=%=#hovy@cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Eric
+Author{4}{Lastname}#=%=#Nyberg
+Author{4}{Email}#=%=#ehn@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

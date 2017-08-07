@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Recurrent Neural Network-Based Sentence Encoder with Gated Attention for Natural Language Inference
+ShortPaperTitle#=%=#Recurrent Neural Network-Based Sentence Encoder with Gated Attention for Natural Language Inference
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Qian Chen
+JobTitle#==#
+Organization#==#University of Science and Technology of China
+No.96, JinZhai Road Baohe District, Hefei, Anhui, 230026, P.R.China
+Abstract#==#The RepEval 2017 Shared Task aims to evaluate natural language understanding
+models for sentence representation, in which a sentence is represented as a
+fixed-length vector with neural networks and the quality of the representation
+is tested with a natural language inference task. This paper describes our
+system (alpha) that is ranked among the top in the Shared Task, on both the
+in-domain test set (obtaining a 74.9% accuracy) and on the cross-domain test
+set (also attaining a 74.9% accuracy), demonstrating that the model generalizes
+well to the cross-domain data. Our model is equipped with intra-sentence
+gated-attention composition which helps achieve a better performance. In
+addition to submitting our model to the Shared Task, we have also tested it on
+the Stanford Natural Language Inference (SNLI) dataset. We obtain an accuracy
+of 85.5%, which is the best reported result on SNLI when cross-sentence
+attention is not allowed, the same condition enforced in RepEval 2017.
+Author{1}{Firstname}#=%=#Qian
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#cq1231@mail.ustc.edu.cn
+Author{1}{Affiliation}#=%=#University of Science and Technology of China
+Author{2}{Firstname}#=%=#Xiaodan
+Author{2}{Lastname}#=%=#Zhu
+Author{2}{Email}#=%=#zhu2048@gmail.com
+Author{2}{Affiliation}#=%=#National Research Council Canada
+Author{3}{Firstname}#=%=#Zhen-Hua
+Author{3}{Lastname}#=%=#Ling
+Author{3}{Email}#=%=#zhling@ustc.edu.cn
+Author{3}{Affiliation}#=%=#University of Science and Technology of China
+Author{4}{Firstname}#=%=#Si
+Author{4}{Lastname}#=%=#Wei
+Author{4}{Email}#=%=#siwei@iflytek.com
+Author{4}{Affiliation}#=%=#iFLYTEK Research
+Author{5}{Firstname}#=%=#Hui
+Author{5}{Lastname}#=%=#Jiang
+Author{5}{Email}#=%=#hj@cse.yorku.ca
+Author{5}{Affiliation}#=%=#York University
+Author{6}{Firstname}#=%=#Diana
+Author{6}{Lastname}#=%=#Inkpen
+Author{6}{Email}#=%=#diana.inkpen@uottawa.ca
+Author{6}{Affiliation}#=%=#University of Ottawa
+
+==========

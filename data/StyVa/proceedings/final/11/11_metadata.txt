@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Authorship Attribution with Convolutional Neural Networks and POS-Eliding
+ShortPaperTitle#=%=#Authorship Attribution with Convolutional Neural Networks and POS-Eliding
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Julian Hitschler
+JobTitle#==#
+Organization#==#Department of Computational Linguistics
+University of Heidelberg
+Im Neuenheimer Feld 325
+69120 Heidelberg
+Germany
+Abstract#==#We use a convolutional neural network to perform authorship identification on a
+very homogeneous dataset of scientific publications. In order to investigate
+the effect of domain biases, we obscure words below a certain frequency
+threshold, retaining only their POS-tags. This procedure improves test
+performance due to better generalization on unseen data. Using our method, we
+are able to predict the authors of scientific publications in the same
+discipline at levels well above chance.
+Author{1}{Firstname}#=%=#Julian
+Author{1}{Lastname}#=%=#Hitschler
+Author{1}{Email}#=%=#hitschler@cl.uni-heidelberg.de
+Author{1}{Affiliation}#=%=#Computational Linguistics, University of Heidelberg
+Author{2}{Firstname}#=%=#Esther
+Author{2}{Lastname}#=%=#van den Berg
+Author{2}{Email}#=%=#vdberg@cl.uni-heidelberg.de
+Author{2}{Affiliation}#=%=#Computational Linguistics, University of Heidelberg
+Author{3}{Firstname}#=%=#Ines
+Author{3}{Lastname}#=%=#Rehbein
+Author{3}{Email}#=%=#rehbein@cl.uni-heidelberg.de
+Author{3}{Affiliation}#=%=#Leibniz ScienceCampus
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#To normalize, or not to normalize: The impact of normalization on Part-of-Speech tagging
+ShortPaperTitle#=%=#To normalize, or not to normalize: The impact of normalization on Part-of-Speech tagging
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Barbara Plank
+JobTitle#==#
+Organization#==#
+Abstract#==#Does normalization help Part-of-Speech (POS) tagging accuracy on noisy,
+non-canonical data?
+To the best of our knowledge, little is known on the actual impact of
+normalization in a real-world scenario, where gold error detection is not
+available.  We investigate the effect of automatic normalization on POS tagging
+of tweets.
+We also compare normalization to strategies that leverage large amounts of
+unlabeled data kept in its raw form.  Our results show that normalization
+helps, but does not add  consistently beyond just word embedding layer
+initialization. The latter approach yields a tagging model that is competitive
+with a Twitter state-of-the-art tagger.
+Author{1}{Firstname}#=%=#Rob
+Author{1}{Lastname}#=%=#van der Goot
+Author{1}{Email}#=%=#robvanderg@live.nl
+Author{1}{Affiliation}#=%=#University of Groningen
+Author{2}{Firstname}#=%=#Barbara
+Author{2}{Lastname}#=%=#Plank
+Author{2}{Email}#=%=#bplank@gmail.com
+Author{2}{Affiliation}#=%=#University of Groningen
+Author{3}{Firstname}#=%=#Malvina
+Author{3}{Lastname}#=%=#Nissim
+Author{3}{Email}#=%=#m.nissim@rug.nl
+Author{3}{Affiliation}#=%=#University of Groningen
+
+==========

@@ -1,0 +1,20 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Manual Identification of Arguments with Implicit Conclusions Using Semantic Rules for Argument Mining
+ShortPaperTitle#=%=#Manual Identification of Arguments with Implicit Conclusions
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Nancy Green
+JobTitle#==#
+Organization#==#University of North Carolina Greensboro
+Greensboro, NC 27402, USA
+Abstract#==#This paper describes a pilot study to evaluate human analysts’ ability to
+identify the argumentation scheme and premises of an argument having an
+implicit conclusion.  In preparation for the study, argumentation scheme
+definitions were crafted for genetics research articles.  The schemes were
+defined in semantic terms, following a proposal to use semantic rules to mine
+arguments in that literature.
+Author{1}{Firstname}#=%=#Nancy
+Author{1}{Lastname}#=%=#Green
+Author{1}{Email}#=%=#nlgreen@uncg.edu
+Author{1}{Affiliation}#=%=#University of North Carolina Greensboro
+
+==========

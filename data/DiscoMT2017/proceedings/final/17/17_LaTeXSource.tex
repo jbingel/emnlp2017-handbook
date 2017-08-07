@@ -1,0 +1,594 @@
+%\title{emnlp 2017 instructions}
+% File emnlp2017.tex
+%
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{emnlp2017}
+\usepackage{times}
+\usepackage{latexsym}
+
+\usepackage{dblfloatfix}
+\usepackage{color}
+\usepackage{listings}
+\usepackage{setspace}
+
+\usepackage{graphicx}
+
+
+\usepackage{url}
+\usepackage{latexsym}
+
+\definecolor{Code}{rgb}{0,0,0}
+\definecolor{Decorators}{rgb}{0.5,0.5,0.5}
+\definecolor{Numbers}{rgb}{0.5,0,0}
+\definecolor{MatchingBrackets}{rgb}{0.25,0.5,0.5}
+\definecolor{Keywords}{rgb}{0,0,1}
+\definecolor{self}{rgb}{0,0,0}
+\definecolor{Strings}{rgb}{0,0.63,0}
+\definecolor{Comments}{RGB}{153,0,0}
+\definecolor{Backquotes}{rgb}{0,0,0}
+\definecolor{Classname}{rgb}{0,0,0}
+\definecolor{FunctionName}{rgb}{0,0,0}
+\definecolor{Operators}{rgb}{0,0,0}
+\definecolor{Background}{rgb}{0.98,0.98,0.98}
+
+\lstnewenvironment{python}[1][]{
+\lstset{
+numbers=left,
+numberstyle=\footnotesize,
+numbersep=1em,
+xleftmargin=2em,
+framextopmargin=2em,
+framexbottommargin=2em,
+showspaces=false,
+showtabs=false,
+showstringspaces=false,
+frame=l,
+tabsize=4,
+% Basic
+basicstyle=\ttfamily\small\setstretch{1},
+backgroundcolor=\color{Background},
+language=Python,
+% Comments
+commentstyle=\color{Comments}\slshape,
+% Strings
+stringstyle=\color{Strings},
+morecomment=[s][\color{Strings}]{"""}{"""},
+morecomment=[s][\color{Strings}]{'''}{'''},
+% keywords
+morekeywords={import,from,class,def,for,while,if,is,in,elif,else,not,and,or,print,break,continue,return,True,False,None,access,as,,del,except,exec,finally,global,import,lambda,pass,print,raise,try,assert},
+keywordstyle={\color{Keywords}\bfseries},
+% additional keywords
+morekeywords={[2]@invariant},
+keywordstyle={[2]\color{Decorators}\slshape},
+emph={self},
+emphstyle={\color{self}\slshape},
+%
+}}{}
+
+
+% Uncomment this line for the final submission:
+\emnlpfinalcopy
+
+%  Enter the EMNLP Paper ID here:
+\def\emnlppaperid{17}
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+
+\title{Treatment of Markup in Statistical Machine Translation}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+%\author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a seperate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+% If the title and author information does not fit in the area allocated,
+% place \setlength\titlebox{<new height>} right after
+% at the top, where <new height> can be something larger than 2.25in
+\author{Mathias M\"{u}ller \\
+Institute of Computational Linguistics, University of Zurich \\
+  {\tt mmueller@cl.uzh.ch}}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+
+\begin{abstract}
+  We present work on handling XML markup in Statistical Machine Translation (SMT). The methods we propose can be used to effectively preserve markup (for instance inline formatting or structure) and to place markup correctly in a machine-translated segment. We evaluate our approaches with parallel data that naturally contains markup or where markup was inserted to create synthetic examples. In our experiments, hybrid reinsertion has proven the most accurate method to handle markup, while alignment masking and alignment reinsertion should be regarded as viable alternatives. We provide implementations of all the methods described and they are freely available as an open-source framework\footnote{\url{https://gitlab.cl.uzh.ch/mt/mtrain}}.
+\end{abstract}
+
+\section{Introduction}
+
+It is very common for machine translation to be used in workflows where the source documents contain XML markup. If a document was originally written in Microsoft Word, then in a line like
+
+\begin{figure}[h]
+\texttt{Ich bitte Sie, sich zu einer Schweigeminute zu \textbf{erheben}.} \\
+
+\texttt{[Please \textbf{rise}, then, for this minute's silence.]}
+\end{figure}
+
+\noindent the inline formatting (\textbf{boldface}) will internally be represented as inline XML markup, similar to:
+
+\begin{figure}[h]
+\texttt{Ich bitte Sie, sich zu einer Schweigeminute zu <b>erheben</b>.}
+
+\end{figure}
+
+% probably oasis2008xliff?
+
+\noindent Before translation, such a document would probably be converted to a more flexible and interoperable format that is ubiquitous in the translation industry, XLIFF, which is also an XML standard.
+
+Nevertheless, inline XML elements will remain in the source segments and in theory could actually be sent to a machine translation system. But in practice, standard machine translation systems are unable to properly deal with markup and delegate markup handling to downstream applications like computer-assisted translation (CAT) tools. For instance, the machine translation framework Moses \cite{koehn2007moses} does not have a standard solution for markup handling.
+
+Using a standard, phrase-based SMT system trained with Moses, the translation of markup breaks as early as during tokenization. Standard tokenization is not aware of XML markup and will tear apart XML element tags:
+
+\begin{figure}[h]
+\texttt{Ich bitte Sie , sich zu einer Schweigeminute zu < b > erheben < / b > .}
+
+\end{figure}
+
+\noindent No subsequent step during translation will be able to undo the damage and since the XML standard enforces strict rules, the output is very likely a malformed XML fragment. But even if tokenization were aware of XML markup (we provide an implementation of markup-aware tokenization) another problem remains: XML markup does not need to be translated at all since it has clear-cut, language-independent semantics and a statistical system should not be trusted to copy the markup to the target segment unchanged.
+
+So, if a machine translation system is given a source segment that contains inline markup, it should be able to detect the markup and not treat it as text. But simply stripping the markup from the source segment is not satisfactory. If, for instance, a translation system would offer
+
+\begin{figure}[h]
+
+\texttt{Please rise, then, for this minute's silence.}
+\end{figure}
+
+\noindent as a translation, we argue that part of the information present in the source segment (the formatting encoded in the markup tags \texttt{<b>} and \texttt{</b>}) was ``lost in translation''.
+
+From the point of view of translators, losing the markup during translation has inconvenient consequences. In many translation projects, automatic pre-translation of the source segments is an obligatory step and human translators, instead of translating from scratch, will post-edit the pre-translations. There is reason to believe that wrongly translated markup has an impact on \textit{translator productivity} \cite{obrien2011towards}.
+
+Tezcan and Vandeghinste \shortcite[56]{tezcan2011smt} argue that an MT system should handle XML markup correctly to avoid inefficient translation workflows. In the same vein, Joanis et al. \shortcite[74]{joanis2013transferring} say that ``post-editing SMT output without the formatting information found in the source may represent a serious loss of productivity''. Parra and Arcedillo \shortcite[142]{escartin2015machine} state ``that inline tags have a big impact on productivity, a fact which is not reflected in any of the known metrics and which has not yet received much attention in research''.
+
+We agree with this assessment and would like to work towards the goal of implementing markup handling in standard machine translation frameworks. Several solutions have been put forward, but there is no consensus as to which strategy should be employed in standard use cases. Studies that \textit{compare} different approaches are currently lacking.
+
+In order to facilitate those comparisons, we have implemented different markup handling strategies in the same machine translation framework. We have then carried out experiments to gauge the usefulness of each markup strategy, which we will describe in the remainder of this paper.
+
+% so, this is a worthwhile topic of investigation
+% no standard solution because no agreement because no comparative research
+
+% not information we can do away with, 
+
+% this would defeat the purpose of inline formatting alltogether.
+
+
+
+% standard tools cannot properly deal with markup
+
+% motivation: translator productivity is an issue,
+% Para & Arcedillo
+
+\section{Related Work}
+
+Known methods to handle markup in machine translation belong to one of two general paradigms:
+
+\begin{itemize}
+\item \textbf{reinsertion:} markup is stripped from segments prior to training and translation, and reinserted after translation.
+\item \textbf{masking:} markup is not removed entirely, but replaced with a placeholder (a ``mask'') before training and translation. After translation, the original content is restored.
+\end{itemize}
+
+\noindent Both methods ensure that the actual markup is hidden during training and decoding. In the case of our introductory example that includes two XML element tags \texttt{<b>} and \texttt{</b>}:
+
+\begin{figure}[h]
+\texttt{Ich bitte Sie, sich zu einer Schweigeminute zu <b>erheben</b>.}
+\end{figure}
+
+\noindent reinsertion would remove markup from the segment alltogether:
+
+\begin{figure}[h!]
+\texttt{Ich bitte Sie, sich zu einer Schweigeminute zu erheben.}
+\end{figure}
+
+\noindent while masking would replace the tags with placeholders (appearance of mask token may vary):
+
+\begin{figure}[h]
+\texttt{Ich bitte Sie, sich zu einer Schweigeminute zu \_\_MASK\_\_ erheben \_\_MASK\_\_ .}
+\end{figure}
+
+% and compare the performance against a ``customized SYSTRAN system'', which presumably implies a rule-based system
+
+\noindent Du et al. \shortcite{du2010tmx} present three methods to process TMX markup in an SMT system. The first two methods simply vary the behaviour of the tokenizer with respect to XML markup. The third method, ``markup transformation'', removes markup before training and translation -- and thus is a \textbf{reinsertion} strategy. After translation, the markup is restored with the help of phrase segmentation reported by the decoder. They report that XML-aware tokenization yielded the best results, albeit by very small margins.
+
+Zhechev and van Genabith \shortcite{zhechev2010seeding} are the first to describe a \textbf{masking} strategy. They are aware that ``letting any MT system deal with these tags in a probabilistic manner can easily result in ill-formed, mis-translated and/or out-of-order meta-tags in the translation'' (ibid.). To avoid this problem, they replaced XML tags with IDs that act as a placeholder for the actual markup. All IDs were unique on a global level, i.e.~throughout the whole corpus. Since markup handling is not the primary goal of this paper, they do not evaluate their approach in any way.
+
+Hud{\'\i}k and Ruopp \shortcite{hudik2011integration} further develop the idea of removing the markup before training and translation alltogether. They see their work as a follow-up to Du et al. \shortcite{du2010tmx}, trying to improve their \textbf{reinsertion} method. They improved the method in the sense that they solved problems related to reordering and provide an algorithm that reinserts markup into translated segments on the basis of \textit{word alignment} instead of phrase segmentation. Intuitively, reinsertion that uses word alignment will be more precise since reinsertion using phrase segmentation can only insert at phrase boundaries, but no experimental results are presented.
+
+Tezcan and Vandeghinste \shortcite{tezcan2011smt} experiment with several variants of \textbf{masking}. Mainly, what is varied is the specificity of the mask tokens. Mask tokens can be unique identifiers for stretches of markup (resulting in a high number of different mask tokens) or can be more generic (in the extreme case, one single mask token). The main outcome of their experiments is that according to automatic metrics of translation quality, a masking method that assigns masks based on the XML element name performed best.
+
+Finally, Joanis et al. \shortcite{joanis2013transferring} describe a \textbf{reinsertion} strategy that uses both phrase segmentation and word alignment to decide where markup tags should be reinserted. They performed a ``mini evaluation'' of their approach, manually annotating roughly 1500 segments. The results showed that ``most tags are placed correctly'' (ibid., 79), because 93 \% of TMX tags and 90~\% of XLIFF tags were perfect according to the human annotators.
+
+The authors themselves identify an important limitation of their work, namely that they ``do not carry out an experimental comparison between the [masking] and [reinsertion] approaches, though this would certainly be a worthwile next step'' (ibid., 74). Such an evaluation would indeed be advisable, and the goal of the current work is exactly that: providing reimplementations of different approaches and comparing them to each other in controlled experiments.
+
+% \footnote{Their implementation is freely available as part of the \texttt{M4loc} project \cite{ruopp2010moses}. }
+
+% unpublished, community efforts
+
+\section{Data}
+
+For our experiments, we have used two data sets with parallel text in German and English:
+
+\begin{itemize}
+\item \textbf{XLIFF:} a real-world collection of XLIFF documents in which inline markup occurs naturally
+\item \textbf{Euromarkup:} a large set of synthetic examples we ourselves have created by inserting inline markup into the Europarl corpus\footnote{An implementation of an algorithm that inserts random inline markup into parallel, word-aligned data is available upon request.}
+\end{itemize}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{ l | r  r  }
+
+& \textbf{English} & \textbf{German} \\
+\hline
+Number of segments & 427k & 425k \\
+\hline
+Number of tokens & 3.5m & 3m\\
+\hline
+Segments with markup & 98k & 97k \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Descriptive statistics of the \textbf{XLIFF} data set, markup tags count as 1 token}\label{tbl:xliff}
+\end{table}
+
+\begin{table}
+\begin{center}
+\begin{tabular}{ l | r  r  }
+
+& \textbf{English} & \textbf{German} \\
+\hline
+Number of segments &  1.7m & 1.7m \\
+\hline
+Number of tokens & 52m & 50m \\
+\hline
+Segments with markup &  893k & 893k \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Descriptive statistics of the \textbf{Euromarkup} data set, markup tags count as 1 token}\label{tbl:euromarkup}
+\end{table}
+
+\begin{figure*}
+\begin{center}
+\includegraphics[width=15cm]{img/1.png}
+\end{center}
+\caption{Overview of implemented strategies to process markup} \label{fig:overview}
+\end{figure*}
+
+\noindent The documents in the \textbf{XLIFF} data set are so-called ``introductory checklists'' used for parameterization of banking software, similar to software manuals, so the texts are from a very technical domain and were actually post-edited by translators. But although the data set is a real use case and typical of machine translation and industry settings, its suitability for markup handling is questionable.
+
+After performing initial experiments with the XLIFF data set, it became clear that handling the markup in this data is relatively easy: segments are short (8 tokens on average), which means that the translation and additional information like word alignment will be accurate, and there is little reordering that could involve markup tags. In short, there are few hard problems for markup handling methods to tackle in the XLIFF data.
+
+In order to discriminate better between the methods, we introduce a second data set, \textbf{Euromarkup}, a blend of Europarl \cite{koehn2005europarl} and markup tags. Because it is a synthetic data set that we built ourselves, it has the following desired properties: longer segments (more than 20 tokens on average) and a lot of reordering. We have introduced markup in a way that is consistent with word alignment and ensured that half of the markup was inserted where reordering takes place. 
+
+Tables \ref{tbl:xliff} and \ref{tbl:euromarkup} show the size of both data sets and, importantly, how much markup they contain. Markup is abundant in both sets and in this respect, both are suitable for testing markup handling approaches.
+
+
+\section{Methods}
+
+We have implemented five different methods of handling markup in the same machine translation framework, \texttt{mtrain}. All methods are described in Section \ref{sec:methods}. Section \ref{sec:exp} explains the experimental setup and how the results were evaluated.
+
+\subsection{Implementation of markup handling methods} \label{sec:methods}
+
+Inspired by previous work, we have designed five different ways to treat markup in machine translation (see Figure \ref{fig:overview} for an overview). In  \texttt{mtrain}, two variants of \textbf{masking} are available:
+
+\begin{itemize}
+\item \textbf{identity masking:} before training and translation, markup is replaced by mask tokens that are \textit{unique} within the segment. After translation, the original content can be restored without any additional information.
+\item \textbf{alignment masking}: before training and translation, markup is replaced by mask tokens that are \textit{identical} to each other. After translation, word alignment is used to guide the unmasking process.
+\end{itemize}
+
+\noindent In all masking approaches, the mapping between the mask tokens and the original markup content must be held in memory until after translation. Stretches of markup are identified by means of a regular expression. Therefore, masking is actually not limited to markup, but is implemented as a general method to mask any string that can be described by a regular expression. 
+
+On the other hand, there are three implementations of \textbf{reinsertion} that roughly work as follows:
+
+\begin{itemize}
+\item \textbf{segmentation reinsertion:} before training and translation, markup is removed completely from the segments. After translation, the original markup is reinserted into the translation using phrase segmentation.
+\item \textbf{alignment reinsertion:} identical to segmentation reinsertion, except that word alignment is used instead of phrase segmentation.
+\item \textbf{hybrid reinsertion:} both phrase segmentation and word alignment are used for reinsertion, together with a set of rules. A reimplementation of Joanis et al. \shortcite{joanis2013transferring}.
+\end{itemize}
+
+\noindent All strategies assume ideal conditions. Masking methods assume that the translation did not necessitate any reordering of mask tokens (this assumption is specific to identity masking) and that the decoder did not omit any mask tokens. Methods that rely on word alignment (alignment masking, alignment reinsertion and hybrid reinsertion) assume ideal, maximally informative word alignment. Methods that rely on phrase segmentation (segmentation reinsertion and hybrid reinsertion) assume that markup only occurs at the boundaries of phrases and that phrase segmentation is available in the first place.
+
+In practice, these assumptions do not always hold. For instance, reordering may take place or the word alignment might be inaccurate and for those cases, the framework offers flexibility. If the placement of a markup tag is uncertain, any method can be instructed to insert the tag anyway at the end of the segment (aggressive behaviour) or not to introduce this markup tag at all (conservative behaviour).
+
+An important difference between masking and reinsertion methods is the nature of the training data: if a masking method is used, then the training data will contain mask tokens and the system derived from the data will know about mask tokens. If a reinsertion method is used, the training data will not contain any markup. In this regard, reinsertion is more flexible since it can be used with any machine translation system.
+
+
+\subsection{Experiments} \label{sec:exp}
+
+We compare the overall performance of all 5 implemented markup handling strategies by training a series of SMT systems. The systems are identical except for their method of markup handling.
+
+What all systems have in common is the data sets, preprocessing (except for markup handling), model training and translation parameters. We have randomly divided the data sets into training (roughly 400k segments for XLIFF data, roughly 1.7m for Euromarkup data), tuning (2000 segments) and testing (1000 segments) sets that were fixed for all systems, the direction of translation is always from German to English.
+
+We train a fairly standard, phrase-based SMT system with Moses: a maximum phrase length of 7, a 5-gram KenLM language model with modified Kneser-Ney smoothing, lexicalized reordering model, standard Moses recasing and standard tokenization. Word alignment and symmetrization is performed by \texttt{fast\_align} and \texttt{atools} \cite{dyer2013simple}. The phrase and reordering table are compressed with the \texttt{cmph} library. The weights of the model are tuned with MERT \cite{mert}.
+
+For all of the five implemented strategies, such a system was trained, varying only the markup handling. Since our framework allows more fine-grained control over the algorithms, we have used the following settings: if there is uncertainty about where a markup tag should be placed, it must still be inserted into the translation at the very end. The translation of mask tokens is not enforced (``forced decoding''), instead the decision is left to the decoder.
+
+In addition to the five systems above, we have trained the following baseline system:
+
+\begin{itemize}
+\item \textbf{strip:} markup is stripped entirely from the training, tuning and evaluation corpus.
+\end{itemize}
+
+\noindent in order to have an estimate of the overall quality of machine translation when no markup is involved.
+% investigate whether mask tokens in the training data have an influence on the overall quality of machine translation.
+
+Finally, we have measured the outcome of our experiments automatically and manually. Automatic metrics should never be used to evaluate the performance of markup handling methods, and we have employed them only to answer a preliminary question: do mask tokens in the training data have an impact on the overall quality of machine translation? It is unclear whether mask tokens affect negatively the overall output of the system and if that were the case, developers should refrain from using masking to handle markup.
+
+We measure the effect of mask tokens by comparing the machine-translated test set with the human reference \textbf{after removing markup on both sides}. Then, the \texttt{MultEval} tool is used \cite{clark2011better} to report BLEU \cite{papineni2002bleu}, METEOR \cite{lavie2007meteor}, TER \cite{Snover-et-al-2006} and length scores.
+
+While the automatic evaluation translates all of the 1000 segments in the test set, the manual evaluation only looks at the segments where both the source and target reference have tags in them. Markup tags were inspected manually and assigned one of the following categories (inspired by Joanis et al., 2013):
+
+\vspace{0.2cm}
+\begin{itemize}
+\item \textbf{good}: correct markup is present, correctly placed,
+\item \textbf{reasonable}: correct markup is present, but needs to be moved,
+\item \textbf{wrong}: markup is broken or not present at all,
+\item \textbf{garbage-in}: the decoder output is unintelligible and there is no proper place for markup.
+\end{itemize}
+\vspace{0.2cm}
+
+% revise!
+
+% general attitude towards markup: must be transferred, cases where words inside markup are dropped during translation rather rare
+
+% goal of manual eval: look at 200 segments from the test set, at all tags in them
+% in XLIFF set there were only 178 segments with tags in them
+
+\begin{table*}
+\begin{center}
+\begin{tabular}{ l  r r r r |  r r r r }
+%\cline{2-9}
+& \multicolumn{4}{ c | }{\textbf{XLIFF}} & \multicolumn{4}{c}{\textbf{Euromarkup}} \\
+\cline{2-9}
+& \textbf{BLEU} & \textbf{METEOR} & \textbf{TER} & \textbf{Length} & \textbf{BLEU} & \textbf{METEOR} & \textbf{TER} & \textbf{Length} \\
+\hline
+\multicolumn{1}{l |}{strip} & 60.5 & 46.3 & 26.6 & 93.9 & 32.4 & 34.2 & 52.4 & 98.7  \\
+\hline \\
+\hline
+\multicolumn{1}{l |}{IM} & 61.0 & 46.7 & 26.4 & 94.3 & 30.9 & 33.9 & 53.8 & 99.3  \\
+\hline
+\multicolumn{1}{l |}{AM} & 60.4 & 46.3 & 26.9 & 94.2 & 31.4 & 34.0 & 54.1 & 99.8  \\
+\hline
+\multicolumn{1}{l |}{SR} & 60.5 & 46.4 & 26.8 & 94.9 & 32.6 & 34.5 & 52.1 & 98.7  \\
+\hline
+\multicolumn{1}{l |}{AR} & 60.5 & 46.4 & 26.9 & 94.9 & 32.3 & 34.6 & 52.1 & 98.7  \\
+\hline
+\multicolumn{1}{l |}{HR} & 60.4 & 46.3 & 26.8 & 94.8 & 32.2 & 34.5 & 52.5 & 99.0  \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Automatic evaluation of the overall performance of markup handling methods, after markup was removed completely. The metrics reported are BLEU (higher is better), METEOR (higher is better) and TER (lower is better). IM = identity masking, AM = alignment masking, SR = segmentation reinsertion, AR = alignment reinsertion, HR = hybrid reinsertion.}
+\label{tbl:automatic}
+\end{table*}
+
+\noindent In general, it is always preferable to transfer markup tags to the target segment, even if the correct position cannot be determined. From the point of view of the post-editor, it is more efficient to move a markup tag instead of going back to the source segment. Therefore, markup tags that are in the wrong place are described as ``reasonable''. In theory, there are scenarios where markup tags should be dropped entirely (because all tokens related to them have no translation) but in the vast majority of cases, missing markup tags are ``wrong''.
+
+In this manual evaluation we will focus on evaluating the markup handling, not the performance of the systems in general. For each data set, we decided to look at a maximum of 200 parallel segments from the test set that contain markup. In the XLIFF test set, only 176 segments contain markup, so all of them were evaluated, which amounts to a total of 658 tags.
+
+In the Euromarkup test set, we annotated the first 200 segments that contain markup, and they contain 584 tags in total. We only look at the lowercased, tokenized version of the translation output, after processing the reference accordingly.
+
+% gard total of
+
+\section{Results}
+
+The automatic evaluation in Table \ref{tbl:automatic} shows the overall performance of systems on ``normal'' text, that is, after markup was stripped from both the machine-translated hypothesis and the human reference. All systems trained on XLIFF data have a performance comparable to the baseline system that did not see any markup at all (``strip''). For instance, the BLEU scores range from $60.4$ to $61.0$. The systems that use a variant of reinsertion and the ``strip'' system are expected to produce exactly the same translation since they are trained on the same data, but non-deterministic tuning has caused slight fluctuations in all scores. 
+
+For the XLIFF data set, both masking systems perform as good as the baseline system. But in general, the scores for this data set are high and it is clear that the data set is easy to translate. For the Euromarkup data, the behaviour of the reinsertion methods does not change since they are still very close to the baseline. However, using this synthetic data set, masking indeed decreases the overall quality of machine translation in terms of BLEU scores.
+
+Moving on to the manual evaluation, Table \ref{tbl:manual} shows that for the XLIFF data set, identity masking clearly performs best, because it places correctly 658 out of 658 tags. Alignment masking and alignment reinsertion are not too far behind, both have led to 4 cases of ``reasonable'' tags (tags are present but in the wrong place). Hybrid reinsertion could not determine the correct position for markup in 34 cases. Even segmentation reinsertion placed markup correctly in 582 out of 658 cases. Using XLIFF data, no tags were omitted (``wrong'') and the decoder never produced unusable output (``garbage-in'').
+
+Using Euromarkup, the ``harder'' data set, shifts the picture: hybrid reinsertion performs best on this data set as it placed correctly 437 out of 584 tags. Another 133 were in the wrong place, but all output segments were still well-formed and markup was not broken. Alignment masking and alignment reinsertion still work reasonably well, transferring markup correctly in 412 and 415 cases, respectively. Identity masking on the other hand is now well behind, and segmentation reinsertion performed worst, as expected.
+
+Another striking result is that both masking methods lead to a number of ``wrong'' tags, i.e. tags that make the whole segment a malformed XML fragment. Malformed content is likely to cause problems, depending on the application that processes the translation output. Finally, the systems trained on Euromarkup data also produced a few cases where the decoder output is unintelligible (i.e. not even a human annotator could have placed markup correctly).
+
+\begin{table*}
+\begin{center}
+\begin{tabular}{ l  r r r r |  r r r r }
+%\cline{2-9}
+& \multicolumn{4}{ c | }{\textbf{XLIFF (tags in total: 658)}} & \multicolumn{4}{c}{\textbf{Euromarkup (tags in total: 584)}} \\
+\cline{2-9}
+& \textbf{good} & \textbf{reasonable} & \textbf{wrong} & \textbf{garbage-in} & \textbf{good} & \textbf{reasonable} & \textbf{wrong} & \textbf{garbage-in} \\
+\hline
+\multicolumn{1}{l |}{\textbf{IM}} & \textbf{658} & \textbf{0} & \textbf{0} & \textbf{0} & 372 & 167 & 29 & 16  \\
+\hline
+\multicolumn{1}{l |}{AM} & 654 & 4 & 0 & 0 & 412 & 123 & 39 & 10  \\
+\hline
+\multicolumn{1}{l |}{SR} & 582 & 76 & 0 & 0 & 252 & 318 & 0 & 14  \\
+\hline
+\multicolumn{1}{l |}{AR} & 654 & 4 & 0 & 0 & 415 & 148 & 7 & 14  \\
+\hline
+\multicolumn{1}{l |}{\textbf{HR}} & 624 & 34 & 0 & 0 & \textbf{437} & \textbf{133} & \textbf{0} & \textbf{14}  \\
+\hline
+\end{tabular}
+\end{center}
+\caption{Manual evaluation of the performance of markup handling methods, by tags. IM = identity masking, AM = alignment masking, SR = segmentation reinsertion, AR = alignment reinsertion, HR = hybrid reinsertion.}
+\label{tbl:manual}
+\end{table*}
+
+In summary, identity masking solved the task of markup handling perfectly given a corpus of short and relatively monotone segments. In that case, both alignment masking and alignment reinsertion are viable alternatives. However, the second, synthetic data set with longer segments and ``harder'' markup emphasizes better the differences between the methods. Hybrid reinsertion has outperformed all other methods on the second data set. Alignment reinsertion and alignment masking are still viable, but identity masking struggled with the second data set.
+
+\section{Discussion}
+
+% introductory paragraph here
+%In this section we will discuss the outcome of our experiments. In particular, we mention that while masking methods do not insert tags as pairs, taking regular expressions as an input makes them a powerful tool. Identity masking and segmentation reinsertion are unable to cope with reordering or too imprecise, respectively. Hybrid reinsertion outperforms all other methods, but the fact that it depends on phrase segmentation information lowers the chances of it being applied in current projects.
+
+In Section \ref{sec:discussionm}, we discuss whether masking methods for markup handling have merit. Section \ref{sec:discussionr} discusses the performance of all reinsertion methods.
+
+\subsection{Masking methods} \label{sec:discussionm}
+
+Mask tokens in the training data can lead to a decrease in overall translation quality and thus ``make the translation itself worse'' \cite[78]{joanis2013transferring}. More concretely, Table \ref{tbl:automatic} shows that on the Euromarkup data set, masking systems perform worse (e.g. BLEU score of around $31$) than the baseline and the reinsertion systems (e.g. BLEU score of around $32$). One possible explanation is that mask tokens in the training data potentially dilute the phrase statistics derived from that corpus. In the training data, a segment like
+
+\begin{figure}[h]
+\texttt{i am delighted to hear that}
+\end{figure}
+
+\noindent can be interrupted by mask tokens in arbitrary ways:
+
+
+\begin{figure}[h]
+\texttt{i am \_\_MASK\_\_ delighted \_\_MASK\_\_  \_\_MASK\_\_  to hear \_\_MASK\_\_  that} \\
+
+\texttt{\_\_MASK\_\_  i \_\_MASK\_\_  am delighted \_\_MASK\_\_  to hear that \_\_MASK\_\_}
+\end{figure}
+
+\noindent But at translation time, the same phrase can contain masks in different places:
+
+\begin{figure}[h]
+\texttt{i am \_\_MASK\_\_ \_\_MASK\_\_ delighted to \_\_MASK\_\_ hear \_\_MASK\_\_ that}
+\end{figure}
+
+\noindent and since this sequence of words is unseen, the segment will be broken up into smaller phrases, despite the fact that the underlying phrase \texttt{i am delighted to hear that} is actually known to the system and could be translated as a single phrase.
+
+
+This does not hold in general, since we only observed this effect in synthetic data and therefore, this finding does not invalidate masking as a whole. Still, we would only want to tolerate such a degradation in overall translation quality if it comes with superior markup handling performance.
+
+\begin{table*}
+\small
+\begin{tabular}{l  p{12cm}}
+\texttt{\textbf{source segment}} & \texttt{Leider <i/> war <g/> <b> dies </b> von kurzer Dauer.} \\
+\texttt{\textbf{target reference}} & \texttt{sadly , <b> it </b> <i/> was <g/> short @-@ lived .} \\
+& \\
+\texttt{\textbf{identity masking}} & \texttt{unfortunately , <i/> this <g/> <b> was </b> a short time .} \\
+\texttt{\textbf{alignment masking}} & \texttt{unfortunately , <b> this </b> <i/> was <g/> a short time .} \\
+\texttt{\textbf{segmentation reinsertion}} & \texttt{<i/> <g/> <b> unfortunately , this was </b> a short time .}
+\end{tabular}
+\caption{Examples of markup handling that show 1) the inability of identity masking to deal properly with markup that needs reordering and 2) that segmentation reinsertion can only insert markup at phrase boundaries.} \label{tbl:examples}
+\end{table*}
+
+Identity masking worked well on the XLIFF data set, but not on the Euromarkup data. The method is very lean because it does not rely on any kind of auxiliary information (such as phrase segmentation or word alignment), but also it is unable to cope with any amount of reordering on a fundamental level. Unique IDs are assigned to markup tags according to their position in the segment going from left to right, and therefore, reordering is not modelled at all. This means that if translation involves reordering of markup tags, identity masking will fail (see Table \ref{tbl:examples} for an example).
+
+The reordering problem is overcome by alignment masking, where reordering is explicitly modelled and word alignment is used as a proxy. Handling the markup present in the XLIFF data set did not cause  any difficulty for alignment masking and word alignment was sufficient to solve the problem in all but 4 cases. On the Euromarkup data, alignment masking proved to be robust and still placed correctly most tags. Using word alignment enables the unmasking algorithm to track reordering, at the cost of depending on word alignment.
+
+
+
+
+
+Both identity masking and alignment masking have led to a number of cases where the placement of tags resulted in the whole segment being malformed XML. On the one hand, this is because the default behaviour of the algorithms is to insert tags at the very end of the segment if the correct place cannot be determined. If, for instance, an opening element tag is placed at the very end in this manner, the whole segment will be malformed. On the other hand, both masking methods do not understand the notion of \textit{tag pairs} (pairs of opening and closing tags) -- which is necessary to guarantee that the output will be well-formed XML.
+
+A clear advantage of masking is that it is not limited to markup at all: anything that can be described with a regular expression can be masked and unmasked in our framework\footnote{Incidentally, this is also the explanation for why masking methods do not insert tags in pairs: most strings that can be masked do not come in pairs.}. In this respect, masking methods are more versatile than reinsertion methods and for certain use cases, this might outweigh the limitations we have mentioned.
+
+
+\subsection{Reinsertion methods}\label{sec:discussionr}
+
+Looking at the results on the XLIFF data, segmentation reinsertion cannot be said to have failed the task of reinserting markup. Quite on the contrary, it is remarkable that segmentation reinsertion could act on the markup in such a precise way, given that phrase segmentation is imprecise to begin with: it can only insert tags at phrase boundaries, which is bound to lead to errors (see Table \ref{tbl:examples} for an example). A further analysis of the XLIFF data revealed that markup is frequently present at the very beginning and very end of segments. If there is no reordering, markup at the beginning and end of segments can always be inserted in the right place by segmentation reinsertion, regardless of phrase boundaries.
+
+Still, segmentation reinsertion is very limited and the results on the Euromarkup data set confirm that it leads to a very high number of misplaced (``reasonable'') tags: 318 out of 584 tags were not placed correctly. In fact, segmentation reinsertion is downright paradoxical: it works better if phrases are short, while longer phrases typically lead to better translations, and by extension, segmentation reinsertion works well if the machine translation system is feeble. If word alignment is available, there is probably no reason to implement or use segmentation reinsertion at all.
+
+The performance of alignment reinsertion is very similar to alignment masking, which is not surprising, given that they make use of the same additional information from the decoder. On the XLIFF data set, alignment reinsertion solves the problem almost perfectly, all scores are identical to alignment masking. On the Euromarkup data set, the number of correctly placed tags (``good'' tags) is very similar, but alignment masking is prone to break markup structures, while alignment reinsertion is not. The alignment reinsertion algorithm generally keeps together pairs of tags and actively avoids placements that would break the markup, yet not breaking the markup is not a hard requirement in our implementation.
+
+Turning to the most promising strategy, hybrid reinsertion coped well with both data sets. On the XLIFF data, it placed correctly 624 out of 658 markup tags, but more importantly, it outperformed all other methods on the Euromarkup data. A possible explanation for its superior performance is that, as a hybrid method, it can overcome deficiencies in phrase segmentation with word alignment and vice versa. Similar to the other reinsertion methods, hybrid reinsertion also models pairs of tags explicitly and ensures the well-formedness of the segment.
+
+In addition, our experiments very likely underestimate the method presented in Joanis et al. \shortcite{joanis2013transferring} since there, ``some care is taken to preserve the source order when multiple tags end up between the same two target language words'' (ibid., 78). Our implementation does not guarantee the order of adjacent tags. 
+
+The strength of reinsertion in general is that it can be used with any machine translation system, while masking must be used together with a system trained on mask tokens. If masked segments are given to a system that did not see mask tokens during training, the results are quite unpredictable. In the case of phrase-based SMT systems, this would likely lead to all mask tokens being moved to the end of the segment, because language models prefer grouping together unknown words \cite{fishel2014handling}.
+
+Put another way, the decision to use masking as the markup handling method must be made at training time, reinsertion can be introduced at translation time. In both cases, the nature of the decoder is another limiting factor: systems that cannot report phrase segmentation make it impossible to use segmentation reinsertion, but also rule out the best-performing method, hybrid reinsertion. Word alignment, however, can be supplied by an additional tool in case the decoder is unable to report this information. This means that methods relying on word alignment are broadly applicable across machine translation paradigms.
+
+\section{Conclusion}
+
+We have presented work on handling markup in statistical machine translation. In our experiments we have compared the usefulness of five different markup handling strategies. The main findings are: hybrid reinsertion outperformed all other methods and was found to cope best with the markup in a synthetic data set. Alignment masking and alignment reinsertion also placed correctly two out of three tags and should be regarded as viable alternatives. 
+
+However, alignment masking led to more cases of malformed XML and masking methods can only be used with systems that are trained with mask tokens. For new projects that have to decide on a method to handle markup we therefore recommend to use hybrid reinsertion (if phrase segmentation is available) or alignment reinsertion (otherwise).
+
+In recent years, neural approaches have dominated the field of machine translation and it is therefore worth considering whether our results carry over to neural machine translation systems. Encoder-decoder networks with attention \cite{bahdanau2014neural}, a popular architecture for translation, do not report phrase segmentation of course, which rules out both segmentation reinsertion and hybrid reinsertion. On the other hand, alignment information can still be derived from attention weights.
+
+Future work could investigate whether alignment masking or alignment reinsertion are feasible in the context of neural machine translation. But neural networks also lend themselves to more innovative experiments: anecdotal evidence suggests that character-level recurrent neural networks \cite{hochreiter1997long} are capable of generating well-formed markup\footnote{See \url{http://karpathy.github.io/2015/05/21/rnn-effectiveness/}.}. This is a remarkable achievement and to our knowledge, this property of neural networks has never been investigated in earnest.
+
+Also, our implementations currently do not properly model two important aspects of the data: whitespace inside and outside of XML elements is not handled properly and our algorithms never regard dropping tags from the translation as a correct action. Addressing those two shortcomings would also be a worthwhile continuation of our work.
+
+\section*{Acknowledgments}
+
+We thank the anonymous reviewers for their valuable comments and suggestions.
+
+
+\bibliography{bibliography.bib}
+\bibliographystyle{emnlp_natbib}
+
+\section*{Appendix}
+
+Listings \ref{py:alignmentunmasking}, \ref{py:alignmentreinsertion} and \ref{py:hybridreinsertion} show how different components of \texttt{mtrain} can be used to pre- and post-process markup. Although \texttt{mtrain} is a full-fledged wrapper around the Moses framework, its markup handling modules can also be used as standalone components.
+
+Both masking methods are implemented in the module \texttt{mtrain.prepro cessing.masking}, while three reinsertion methods are available in \texttt{mtrain. preprocessing.reinsertion}.
+
+\newpage
+
+
+\begin{figure*}[h!]
+\renewcommand\figurename{Listing}
+\setcounter{figure}{0}
+
+\begin{python}
+>>> from mtrain.preprocessing.masking import Masker
+>>> masker = Masker('alignment')
+>>> masked_segment = 'Message moi a __email__ ou __xml__ __url__ __xml__'
+# after translation
+>>> translated_segment = 'Email me at __email__ or __xml__ __url__ __xml__'
+>>> mapping = [('__email__', 'an@ribute.com'),
+    ('__url__', 'http://www.statmt.org'),
+    ('__xml__', '<a>'), ('__xml__', '</a>')]
+>>> alignment = {0:[0], 1:[1], 2:[2], 3:[3], 4:[4], 5:[5], 6:[6], 7:[7]}
+>>> masker.unmask_segment(masked_segment, translated_segment, mapping, alignment)
+'Email me at an@ribute.com or <a> http://www.statmt.org </a>'
+\end{python}
+
+\caption{A case of successful alignment masking and unmasking. The unmasking step crucially depends on alignment information reported by the decoder. Unmasking succeeds in this case because all mask tokens are present in the translation and because the alignment is perfect.}
+\label{py:alignmentunmasking}
+\end{figure*}
+
+\begin{figure*}
+\renewcommand\figurename{Listing}
+
+\begin{python}
+>>> from mtrain.preprocessing.reinsertion import Reinserter
+>>> reinserter = Reinserter('alignment')
+>>> source_segment = 'Hello <g id="1" ctype="x-bold;"> World ! </g>'
+# markup removal, then translation...
+>>> translated_segment = 'Hallo Welt !'
+>>> alignment = {0:[0], 1:[1], 2:[2]}
+>>> reinserter._reinsert_markup_alignment(source_segment, translated_segment,
+    alignment)
+'Hallo <g ctype="x-bold;" id="1"> Welt ! </g>'
+\end{python}
+\caption{Alignment reinsertion based on the original source segment that contains markup, the translated segment and, most importantly, the alignment between the source segment without markup and the translation.}
+\label{py:alignmentreinsertion}
+\end{figure*}
+
+\begin{figure*}[]
+\renewcommand\figurename{Listing}
+
+\begin{python}
+>>> from mtrain.preprocessing.reinsertion import Reinserter
+>>> reinserter = Reinserter('hybrid')
+>>> source_segment = 'Hello <g id="1" ctype="x-bold;"> World ! </g>'
+# markup removal, then translation...
+>>> translated_segment = 'Hallo Welt !'
+>>> alignment = {0:[0], 1:[1], 2:[2]}
+>>> segmentation = {(0,1):(0,1), (2,2):(2,2)}
+>>> reinserter._reinsert_markup_full(source_segment, translated_segment,
+    segmentation, alignment)
+'Hallo <g ctype="x-bold;" id="1"> Welt ! </g>'
+\end{python}
+\caption{Hybrid reinsertion given perfect segmentation and alignment.}
+\label{py:hybridreinsertion}
+\end{figure*}
+
+\end{document}

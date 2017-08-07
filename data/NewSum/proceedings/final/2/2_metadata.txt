@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Video Highlights Detection and Summarization with Lag-Calibration based on Concept-Emotion Mapping of Crowdsourced Time-Sync Comments
+ShortPaperTitle#=%=#Video Highlights Detection based on Concept-Emotion Mapping of Crowdsourced Time-Sync Comments
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#QING PING
+JobTitle#==#
+Organization#==#College of Computing & Informatics, Drexel University
+3141 Chestnut St Drexel University Rush Bldg, Philadelphia, PA, 19104
+Abstract#==#With the prevalence of video sharing, there are increasing demands for
+automatic video digestion such as highlight detection. Recently, platforms with
+crowdsourced time-sync video comments have emerged worldwide, providing a good
+opportunity for highlight detection. However, this task is non-trivial: (1)
+time-sync comments often lag behind their corresponding shot; (2) time-sync
+comments are semantically sparse and noisy; (3) to determine which shots are
+highlights is highly subjective. The present paper aims to tackle these
+challenges by proposing a framework that (1) uses concept-mapped lexical-chains
+for lag-calibration; (2) models video highlights based on comment intensity and
+combination of emotion and concept concentration of each shot; (3) summarize
+each detected highlight using improved SumBasic with emotion and concept
+mapping. Experiments on large real-world datasets show that our highlight
+detection method and summarization method both outperform other benchmarks with
+considerable margins.
+Author{1}{Firstname}#=%=#Qing
+Author{1}{Lastname}#=%=#Ping
+Author{1}{Email}#=%=#qp27@drexel.edu
+Author{1}{Affiliation}#=%=#Drexel University
+Author{2}{Firstname}#=%=#Chaomei
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Email}#=%=#cc345@drexel.edu
+Author{2}{Affiliation}#=%=#Drexel University
+
+==========

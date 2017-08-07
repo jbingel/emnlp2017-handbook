@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Towards Neural Machine Translation with Latent Tree Attention
+ShortPaperTitle#=%=#Towards Neural MT with Latent Tree Attention
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#James Bradbury
+JobTitle#==#
+Organization#==#
+Abstract#==#Building models that take advantage of the hierarchical structure of language
+without a priori annotation is a longstanding goal in natural language
+processing. We introduce such a model for the task of machine translation,
+pairing a recurrent neural network grammar encoder with a novel attentional
+RNNG decoder and applying policy gradient reinforcement learning to induce
+unsupervised tree structures on both the source and target. When trained on
+character-level datasets with no explicit segmentation or parse annotation, the
+model learns a plausible segmentation and shallow parse, obtaining performance
+close to an attentional baseline.
+Author{1}{Firstname}#=%=#James
+Author{1}{Lastname}#=%=#Bradbury
+Author{1}{Email}#=%=#jekbradbury@gmail.com
+Author{1}{Affiliation}#=%=#Salesforce Research
+Author{2}{Firstname}#=%=#Richard
+Author{2}{Lastname}#=%=#Socher
+Author{2}{Email}#=%=#rsocher@salesforce.com
+Author{2}{Affiliation}#=%=#Salesforce Research
+
+==========

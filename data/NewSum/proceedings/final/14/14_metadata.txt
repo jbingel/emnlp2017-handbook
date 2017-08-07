@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Topic Model Stability for Hierarchical Summarization
+ShortPaperTitle#=%=#Topic Model Stability for Hierarchical Summarization
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#John E. Miller
+JobTitle#==#
+Organization#==#Computer & Information Sciences
+University of Delaware
+Newark, DE 19711
+Abstract#==#We envisioned responsive generic hierarchical text summarization with summaries
+organized by section and paragraph based on hierarchical structure topic
+models. But we had to be sure that topic models were stable for the sampled
+corpora. To that end we developed a methodology for aligning multiple
+hierarchical structure topic models run over the same corpus under similar
+conditions, calculating a representative centroid model, and reporting
+stability of the centroid model. We ran stability experiments for standard
+corpora and a development corpus of Global Warming articles. We found flat and
+hierarchical structures of two levels plus the root offer stable centroid
+models, but hierarchical structures of three levels plus the root didn't seem
+stable enough for use in hierarchical summarization.
+Author{1}{Firstname}#=%=#John
+Author{1}{Lastname}#=%=#Miller
+Author{1}{Email}#=%=#millerje@mac.com
+Author{1}{Affiliation}#=%=#University of Delaware
+Author{2}{Firstname}#=%=#Kathleen
+Author{2}{Lastname}#=%=#McCoy
+Author{2}{Email}#=%=#mccoy@udel.edu
+Author{2}{Affiliation}#=%=#University of Delaware
+
+==========

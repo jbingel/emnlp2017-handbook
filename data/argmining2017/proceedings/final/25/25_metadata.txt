@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#25
+FinalPaperTitle#=%=#What works and what does not: Classifier and feature analysis for argument mining
+ShortPaperTitle#=%=#What works and what does not: Classifier and feature analysis for argument mining
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ahmet Aker
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper offers a comparative analysis of the performance of different
+supervised machine learning methods and feature sets on argument mining tasks.
+Specifically, we address the tasks of extracting argumentative segments from
+texts and predicting the structure between those segments. Eight classifiers
+and different combinations of six feature types reported in previous work are
+evaluated. The results indicate that overall best performing features are the
+structural ones. Although the performance of classifiers varies depending on
+the feature combinations and corpora used for training and testing, Random
+Forest seems to be among the best performing classifiers. These results build a
+basis for further development of argument mining techniques and can guide an
+implementation of argument mining into different applications such as argument
+based search.
+Author{1}{Firstname}#=%=#Ahmet
+Author{1}{Lastname}#=%=#Aker
+Author{1}{Email}#=%=#a.aker@dcs.shef.ac.uk
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Alfred
+Author{2}{Lastname}#=%=#Sliwa
+Author{2}{Email}#=%=#alfred.sliwa.92@stud.uni-due.de
+Author{2}{Affiliation}#=%=#University of Duisburg-Essen
+Author{3}{Firstname}#=%=#Yuan
+Author{3}{Lastname}#=%=#Ma
+Author{3}{Email}#=%=#yuan.ma@stud.uni-due.de
+Author{3}{Affiliation}#=%=#University of Duisburg-Essen
+Author{4}{Firstname}#=%=#Ruishen
+Author{4}{Lastname}#=%=#Lui
+Author{4}{Email}#=%=#ruishen.liu@stud.uni-due.de
+Author{4}{Affiliation}#=%=#University of Duisburg-Essen
+Author{5}{Firstname}#=%=#Niravkumar
+Author{5}{Lastname}#=%=#Borad
+Author{5}{Email}#=%=#niravkumar.borad@stud.uni-due.de
+Author{5}{Affiliation}#=%=#University of Duisburg-Essen
+Author{6}{Firstname}#=%=#Seyedeh
+Author{6}{Lastname}#=%=#Ziyaei
+Author{6}{Email}#=%=#seyedeh.ziyaei@stud.uni-due.de
+Author{6}{Affiliation}#=%=#University of Duisburg-Essen
+Author{7}{Firstname}#=%=#Mina
+Author{7}{Lastname}#=%=#Ghobadi
+Author{7}{Email}#=%=#mina.ghobadi@stud.uni-due.de
+Author{7}{Affiliation}#=%=#University of Duisburg-Essen
+
+==========

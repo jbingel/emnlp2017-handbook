@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#From Clickbait to Fake News Detection: An Approach based on Detecting the Stance of Headlines to Articles
+ShortPaperTitle#=%=#From Clickbait to Fake News Detection: An Approach based on Detecting the Stance of Headlines to Articles
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Georg Rehm
+JobTitle#==#
+Organization#==#DFKI GmbH
+Alt-Moabit 91c
+10559 Berlin
+Germany
+Abstract#==#We present a system for the detection of the stance of headlines with regard to
+their corresponding article bodies. The approach can be applied in fake news,
+especially clickbait detection scenarios. The component is part of a larger
+platform for the curation of digital content; we consider veracity and
+relevancy an increasingly important part of curating online information. We
+want to contribute to the debate on how to deal with fake news and related
+online phenomena with technological means, by providing means to separate
+related from unrelated headlines and further classifying the related headlines.
+On a publicly available data set annotated for the stance of headlines with
+regard to their corresponding article bodies, we achieve a (weighted) accuracy
+score of 89.59.
+Author{1}{Firstname}#=%=#Peter
+Author{1}{Lastname}#=%=#Bourgonje
+Author{1}{Email}#=%=#peter.bourgonje@dfki.de
+Author{1}{Affiliation}#=%=#DFKI
+Author{2}{Firstname}#=%=#Julian
+Author{2}{Lastname}#=%=#Moreno Schneider
+Author{2}{Email}#=%=#julian.moreno_schneider@dfki.de
+Author{2}{Affiliation}#=%=#DFKI
+Author{3}{Firstname}#=%=#Georg
+Author{3}{Lastname}#=%=#Rehm
+Author{3}{Email}#=%=#georg.rehm@dfki.de
+Author{3}{Affiliation}#=%=#DFKI
+
+==========

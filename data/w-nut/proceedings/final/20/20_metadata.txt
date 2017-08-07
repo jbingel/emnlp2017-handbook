@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#Evaluating hypotheses in geolocation on a very large sample of Twitter
+ShortPaperTitle#=%=#Evaluating hypotheses in geolocation on a very large sample of Twitter
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Bahar Salehi
+JobTitle#==#
+Organization#==#
+Abstract#==#Recent work in geolocation has made several hypotheses about what linguistic
+markers are relevant to detect where people write from. In this paper, we
+examine six hypotheses against a corpus consisting of all geo-tagged tweets
+from the
+US, or whose geo-tags could be inferred, in a 19% sample of Twitter history.
+Our
+experiments lend support to all six hypotheses, including that spelling
+variants
+and hashtags are strong predictors of location. We also study what kinds of
+common nouns are predictive of location after controlling for named entities
+such as dolphins or sharks
+Author{1}{Firstname}#=%=#Bahar
+Author{1}{Lastname}#=%=#Salehi
+Author{1}{Email}#=%=#baharsalehi@gmail.com
+Author{1}{Affiliation}#=%=#University of Copenhagen
+Author{2}{Firstname}#=%=#Anders
+Author{2}{Lastname}#=%=#Søgaard
+Author{2}{Email}#=%=#soegaard@di.ku.dk
+Author{2}{Affiliation}#=%=#University of Copenhagen
+
+==========

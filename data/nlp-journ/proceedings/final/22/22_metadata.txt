@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#Semantic Storytelling, Cross-lingual Event Detection and other Semantic Services for a Newsroom Content Curation Dashboard
+ShortPaperTitle#=%=#Semantic Storytelling, Cross-lingual Event Detection and other Semantic Services for a Newsroom Content Curation Dashboard
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Georg Rehm
+JobTitle#==#
+Organization#==#DFKI GmbH
+Alt-Moabit 91c
+10559 Berlin
+Germany
+Abstract#==#We present a prototypical content curation dashboard, to be used in the
+newsroom, and several of its underlying semantic content analysis components
+(such as named entity recognition, entity linking, summarisation and temporal
+expression analysis). The idea is to enable journalists (a) to process incoming
+content (agency reports, twitter feeds, reports, blog posts, social media etc.)
+and (b) to create new articles more easily and more efficiently. The prototype
+system also allows the automatic annotation of events in incoming content for
+the purpose of supporting journalists in identifying important, relevant or
+meaningful events and also to adapt the content currently in production
+accordingly in a semi-automatic way. One of our long-term goals is to support
+journalists building up entire storylines with automatic means. In the present
+prototype they are generated in a backend service using clustering methods that
+operate on the extracted events.
+Author{1}{Firstname}#=%=#Julian
+Author{1}{Lastname}#=%=#Moreno-Schneider
+Author{1}{Email}#=%=#julian.moreno_schneider@dfki.de
+Author{1}{Affiliation}#=%=#DFKI
+Author{2}{Firstname}#=%=#Ankit
+Author{2}{Lastname}#=%=#Srivastava
+Author{2}{Email}#=%=#ankit.srivastava@dfki.de
+Author{2}{Affiliation}#=%=#German Research Centre for Artificial Intelligence (DFKI)
+Author{3}{Firstname}#=%=#Peter
+Author{3}{Lastname}#=%=#Bourgonje
+Author{3}{Email}#=%=#peter.bourgonje@dfki.de
+Author{3}{Affiliation}#=%=#DFKI
+Author{4}{Firstname}#=%=#David
+Author{4}{Lastname}#=%=#Wabnitz
+Author{4}{Email}#=%=#david.wabnitz@kreuzwerker.de
+Author{4}{Affiliation}#=%=#Kreuzwerker GmbH
+Author{5}{Firstname}#=%=#Georg
+Author{5}{Lastname}#=%=#Rehm
+Author{5}{Email}#=%=#georg.rehm@dfki.de
+Author{5}{Affiliation}#=%=#DFKI
+
+==========

@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#Piecewise Latent Variables for Neural Variational Text Processing
+ShortPaperTitle#=%=#Piecewise Latent Variables for Neural Variational Text Processing
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Iulian Vlad Serban
+JobTitle#==#
+Organization#==#University of Montreal, 2900 Edouard Montpetit Blvd, Montreal, QC H3T 1J4, Canada
+Abstract#==#Advances in neural variational inference have facilitated the learning of
+powerful directed graphical models with continuous latent variables, such as
+variational autoencoders. The hope is that such models will learn to represent
+rich, multi-modal latent factors in real-world data, such as natural language
+text. However, current models often assume simplistic priors on the latent
+variables - such as the uni-modal Gaussian distribution - which are incapable
+of representing complex latent factors efficiently. To overcome this
+restriction, we propose the simple, but highly flexible, piecewise constant
+distribution. This distribution has the capacity to represent an exponential
+number of modes of a latent target distribution, while remaining mathematically
+tractable. Our results demonstrate that incorporating this new latent
+distribution into different models yields substantial improvements in natural
+language processing tasks such as document modeling and natural language
+generation for dialogue.
+Author{1}{Firstname}#=%=#Iulian Vlad
+Author{1}{Lastname}#=%=#Serban
+Author{1}{Email}#=%=#julianserban@gmail.com
+Author{1}{Affiliation}#=%=#University of Montreal
+Author{2}{Firstname}#=%=#Alexander
+Author{2}{Lastname}#=%=#Ororbia II
+Author{2}{Email}#=%=#ago109@psu.edu
+Author{2}{Affiliation}#=%=#The Pennsylvania State University
+Author{3}{Firstname}#=%=#Joelle
+Author{3}{Lastname}#=%=#Pineau
+Author{3}{Email}#=%=#jpineau@cs.mcgill.ca
+Author{3}{Affiliation}#=%=#McGill University
+Author{4}{Firstname}#=%=#Aaron
+Author{4}{Lastname}#=%=#Courville
+Author{4}{Email}#=%=#aaron.courville@gmail.com
+Author{4}{Affiliation}#=%=#University of Montreal
+
+==========

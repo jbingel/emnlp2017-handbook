@@ -1,4 +1,6 @@
-for name in $(cat input/conferences.txt); do
+for name in $(cat $1); do
+  echo "=====  "$name"  ====="
+
   x=$(echo $name | cut -d\| -f1)
   url=$(echo $name | cut -d\| -f2)
   if test $x = $url; then
@@ -11,4 +13,5 @@ for name in $(cat input/conferences.txt); do
   lastfile=$(ls -r1 *.tgz | tail -n1)
   tar --exclude '*.pdf' --exclude '*gz' --exclude '*zip' -xzvf $lastfile proceedings/order proceedings/final 
   cd -
+  echo ''
 done

@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#62
+FinalPaperTitle#=%=#Systematically Adapting Machine Translation for Grammatical Error Correction
+ShortPaperTitle#=%=#Systematically Adapting Machine Translation for Grammatical Error Correction
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Courtney Napoles
+JobTitle#==#
+Organization#==#Johns Hopkins University
+3400 N Charles St
+Baltimore, MD 21224
+Abstract#==#n this work we adapt machine translation (MT) to grammatical error correction,
+identifying how components of the statistical MT pipeline can be modified for
+this task and analyzing how each modification impacts system performance. We
+evaluate the contribution of each of these components with standard evaluation
+metrics and automatically characterize the morphological and lexical
+transformations made in system output. Our model rivals the current state of
+the art using a fraction of the training data.
+Author{1}{Firstname}#=%=#Courtney
+Author{1}{Lastname}#=%=#Napoles
+Author{1}{Email}#=%=#cdnapoles@gmail.com
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Chris
+Author{2}{Lastname}#=%=#Callison-Burch
+Author{2}{Email}#=%=#ccb@upenn.edu
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+
+==========

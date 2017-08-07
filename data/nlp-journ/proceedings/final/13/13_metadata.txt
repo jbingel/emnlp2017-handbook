@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Analyzing the Revision Logs of a Japanese Newspaper for Article Quality Assessment
+ShortPaperTitle#=%=#Analyzing the Revision Logs of a Japanese Newspaper for Article Quality Assessment
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Hideaki Tamori
+JobTitle#==#
+Organization#==#Media Lab, The Asahi Shimbun Company
+5-3-2 Tsukiji, Chuo-ku, Tokyo, 1048011, Japan
+Abstract#==#We address the issue of the quality of journalism and analyze daily article
+revision logs from a Japanese newspaper company. The revision logs contain data
+that can help reveal the requirements of quality journalism such as the types
+and number of edit operations and aspects commonly focused in revision. This
+study also dis- cusses potential applications such as quality assessment and
+automatic article revision as our future research directions.
+Author{1}{Firstname}#=%=#Hideaki
+Author{1}{Lastname}#=%=#Tamori
+Author{1}{Email}#=%=#tamori-h@asahi.com
+Author{1}{Affiliation}#=%=#Media Lab, The Asahi Shimbun Company
+Author{2}{Firstname}#=%=#Yuta
+Author{2}{Lastname}#=%=#Hitomi
+Author{2}{Email}#=%=#hitomi-y1@asahi.com
+Author{2}{Affiliation}#=%=#Media Lab, The Asahi Shimbun Company
+Author{3}{Firstname}#=%=#Naoaki
+Author{3}{Lastname}#=%=#Okazaki
+Author{3}{Email}#=%=#okazaki@ecei.tohoku.ac.jp
+Author{3}{Affiliation}#=%=#Tohoku University
+Author{4}{Firstname}#=%=#Kentaro
+Author{4}{Lastname}#=%=#Inui
+Author{4}{Email}#=%=#inui@ecei.tohoku.ac.jp
+Author{4}{Affiliation}#=%=#Tohoku University
+
+==========

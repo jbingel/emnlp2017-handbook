@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Neural Machine Translation for Cross-Lingual Pronoun Prediction
+ShortPaperTitle#=%=#Neural Machine Translation for Cross-Lingual Pronoun Prediction
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Sébastien Jean
+JobTitle#==#
+Organization#==#New York University
+60 5th Avenue, New York, NY, 10011
+Abstract#==#In this paper we present our systems for the DiscoMT 2017 cross-lingual pronoun
+prediction shared task. For all four language pairs, we trained a standard
+attention-based neural machine translation system as well as three variants
+that incorporate information from the preceding source sentence. We show that
+our systems, which are not specifically designed for pronoun prediction and may
+be used to generate complete sentence translations, generally achieve
+competitive results on this task.
+Author{1}{Firstname}#=%=#Sébastien
+Author{1}{Lastname}#=%=#Jean
+Author{1}{Email}#=%=#sj2233@nyu.edu
+Author{1}{Affiliation}#=%=#New York University
+Author{2}{Firstname}#=%=#Stanislas
+Author{2}{Lastname}#=%=#Lauly
+Author{2}{Email}#=%=#stanislas.lauly@nyu.edu
+Author{2}{Affiliation}#=%=#New York University
+Author{3}{Firstname}#=%=#Orhan
+Author{3}{Lastname}#=%=#Firat
+Author{3}{Email}#=%=#orhanf@google.com
+Author{3}{Affiliation}#=%=#Google Research
+Author{4}{Firstname}#=%=#Kyunghyun
+Author{4}{Lastname}#=%=#Cho
+Author{4}{Email}#=%=#kyunghyun.cho@nyu.edu
+Author{4}{Affiliation}#=%=#New York University
+
+==========

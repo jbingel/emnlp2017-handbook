@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#34
+FinalPaperTitle#=%=#A Feature-based Ensemble Approach to Recognition of Emerging and Rare Named Entities
+ShortPaperTitle#=%=#A Feature-based Ensemble Approach to Recognition of Emerging and Rare Named Entities
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Björn Gambäck
+JobTitle#==#
+Organization#==#
+Abstract#==#Detecting previously unseen named entities in text is a challenging task. The
+paper describes how three initial classifier models were built using
+Conditional Random Fields (CRFs), Support Vector Machines (SVMs) and a Long
+Short-Term Memory (LSTM) recurrent neural network. The outputs of these three
+classifiers were then used as features to train another CRF classifier working
+as an ensemble. 
+
+5-fold cross-validation based on training and development data for the emerging
+and rare named entity recognition shared task showed precision, recall and
+F1-score of 66.87%, 46.75% and 54.97%, respectively. For surface form
+evaluation, the CRF ensemble-based system achieved precision, recall and F1
+scores of 65.18%, 45.20% and 53.30%. When applied to unseen test data, the
+model reached 47.92% precision, 31.97% recall and 38.55% F1-score for entity
+level evaluation, with the corresponding surface form evaluation values of
+44.91%, 30.47% and 36.31%.
+Author{1}{Firstname}#=%=#Utpal Kumar
+Author{1}{Lastname}#=%=#Sikdar
+Author{1}{Email}#=%=#sikdar.utpal@idi.ntnu.no
+Author{1}{Affiliation}#=%=#Norwegian University of Science and Technology (NTNU)
+Author{2}{Firstname}#=%=#Björn
+Author{2}{Lastname}#=%=#Gambäck
+Author{2}{Email}#=%=#gamback@ntnu.no
+Author{2}{Affiliation}#=%=#Norwegian University of Science and Technology
+
+==========

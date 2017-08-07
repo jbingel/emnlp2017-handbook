@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#Translating Implicit Discourse Connectives Based on Cross-lingual Annotation and Alignment
+ShortPaperTitle#=%=#Translating Implicit Discourse Connectives Based on Cross-lingual Annotation and Alignment
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Hongzheng Li
+JobTitle#==#
+Organization#==#
+Abstract#==#Implicit discourse connectives and relations are distributed more widely in
+Chinese texts, when translating into English, such connectives are usually
+translated explicitly. Towards Chinese-English MT, in this paper we describe
+cross-lingual annotation and alignment of dis-course connectives in a parallel
+corpus, describing related surveys and findings. We then conduct some
+evaluation experiments to testify the translation of implicit connectives and
+whether representing implicit connectives explicitly in source language can
+improve the final translation performance significantly. Preliminary results
+show it has little improvement by just inserting explicit connectives for
+implicit relations.
+Author{1}{Firstname}#=%=#Hongzheng
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#lihongzheng@mail.bnu.edu.cn
+Author{1}{Affiliation}#=%=#Institute of Chinese Information Processing,CPIC-BNU Joint Laboratory of Machine Translation,Beijing Normal University
+Author{2}{Firstname}#=%=#Philippe
+Author{2}{Lastname}#=%=#Langlais
+Author{2}{Email}#=%=#felipe@iro.umontreal.ca
+Author{2}{Affiliation}#=%=#University of Montreal
+Author{3}{Firstname}#=%=#Yaohong
+Author{3}{Lastname}#=%=#Jin
+Author{3}{Email}#=%=#jinyaohong@hotmail.com
+Author{3}{Affiliation}#=%=#Beijing Ultrapower Software Co., Ltd.
+
+==========

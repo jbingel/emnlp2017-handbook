@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Comparing Attitudes to Climate Change in the Media using sentiment analysis based on Latent Dirichlet Allocation
+ShortPaperTitle#=%=#Comparing Attitudes to Climate Change in the Media using sentiment analysis based on Latent Dirichlet Allocation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ye Jiang
+JobTitle#==#
+Organization#==#
+Abstract#==#News media typically present biased accounts of news stories, and different
+publications present different angles on the same event. In this research, we
+investigate how different publications differ in their approach to stories
+about climate change, by examining the sentiment and topics presented. To
+understand these attitudes, we find sentiment targets by combining Latent
+Dirichlet Allocation (LDA) with SentiWordNet, a general sentiment lexicon.
+Using LDA, we generate topics containing keywords which represent the sentiment
+targets, and then annotate the data using SentiWordNet before regrouping the
+articles based on topic similarity. Preliminary analysis identifies clearly
+different attitudes on the same issue presented in different news sources.
+Ongoing work is investigating how systematic these attitudes are between
+different publications, and how these may change over time.
+Author{1}{Firstname}#=%=#Ye
+Author{1}{Lastname}#=%=#Jiang
+Author{1}{Email}#=%=#yjiang18@sheffield.ac.uk
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Xingyi
+Author{2}{Lastname}#=%=#Song
+Author{2}{Email}#=%=#x.song@sheffield.ac.uk
+Author{2}{Affiliation}#=%=#University of Sheffield
+Author{3}{Firstname}#=%=#Jackie
+Author{3}{Lastname}#=%=#Harrison
+Author{3}{Email}#=%=#j.harrison@sheffield.ac.uk
+Author{3}{Affiliation}#=%=#University of Sheffield
+Author{4}{Firstname}#=%=#Shaun
+Author{4}{Lastname}#=%=#Quegan
+Author{4}{Email}#=%=#s.quegan@sheffield.ac.uk
+Author{4}{Affiliation}#=%=#University of Sheffield
+Author{5}{Firstname}#=%=#Diana
+Author{5}{Lastname}#=%=#Maynard
+Author{5}{Email}#=%=#d.maynard@sheffield.ac.uk
+Author{5}{Affiliation}#=%=#University of Sheffield
+
+==========

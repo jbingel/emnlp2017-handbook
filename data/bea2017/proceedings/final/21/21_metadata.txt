@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#An Investigation into the Pedagogical Features of Documents
+ShortPaperTitle#=%=#An Investigation into the Pedagogical Features of Documents
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Emily Sheng
+JobTitle#==#
+Organization#==#
+Abstract#==#Characterizing the content of a technical document in terms of its learning
+utility can be useful for applications related to education, such as generating
+reading lists from large collections of documents. We refer to this learning
+utility as the ``pedagogical value'' of the document to the learner. While
+pedagogical value is an important concept that has been studied extensively
+within the education domain, there has been little work exploring it from a
+computational, i.e., natural language processing (NLP), perspective. To allow a
+computational exploration of this concept, we introduce the notion of
+``pedagogical roles'' of documents (e.g., Tutorial and Survey) as an
+intermediary component for the study of pedagogical value. Given the lack of
+available corpora for our exploration, we create the first annotated corpus of
+pedagogical roles and use it to test baseline techniques for automatic
+prediction of such roles.
+Author{1}{Firstname}#=%=#Emily
+Author{1}{Lastname}#=%=#Sheng
+Author{1}{Email}#=%=#ewsheng@isi.edu
+Author{1}{Affiliation}#=%=#USC Information Sciences Institute
+Author{2}{Firstname}#=%=#Prem
+Author{2}{Lastname}#=%=#Natarajan
+Author{2}{Email}#=%=#pnataraj@isi.edu
+Author{2}{Affiliation}#=%=#USC Information Sciences Institute
+Author{3}{Firstname}#=%=#Jonathan
+Author{3}{Lastname}#=%=#Gordon
+Author{3}{Email}#=%=#jgordon@isi.edu
+Author{3}{Affiliation}#=%=#USC Information Sciences Institute
+Author{4}{Firstname}#=%=#Gully
+Author{4}{Lastname}#=%=#Burns
+Author{4}{Email}#=%=#burns@isi.edu
+Author{4}{Affiliation}#=%=#USC Information Sciences Institute
+
+==========

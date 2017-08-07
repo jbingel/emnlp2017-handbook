@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#A Dataset and Classifier for Recognizing Social Media English
+ShortPaperTitle#=%=#A Dataset and Classifier for Recognizing Social Media English
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Su Lin Blodgett
+JobTitle#==#
+Organization#==#
+Abstract#==#While language identification works well on standard texts, it performs much
+worse on social media language, in particular dialectal language---even for
+English. First, to support work on English language identification, we
+contribute a new dataset of tweets annotated for English versus non-English,
+with attention to ambiguity, code-switching, and automatic generation issues.
+It is randomly sampled from all public messages, avoiding biases towards
+pre-existing language classifiers. Second, we find that a demographic language
+model---which identifies messages with language similar to that used by several
+U.S. ethnic populations on Twitter---can be used to improve English language
+identification performance when combined with a traditional supervised language
+identifier. It increases recall with almost no loss of precision, including,
+surprisingly, for English messages written by non-U.S. authors.
+Our dataset and identifier ensemble are available online.
+Author{1}{Firstname}#=%=#Su Lin
+Author{1}{Lastname}#=%=#Blodgett
+Author{1}{Email}#=%=#blodgett@cs.umass.edu
+Author{1}{Affiliation}#=%=#University of Massachusetts Amherst
+Author{2}{Firstname}#=%=#Johnny
+Author{2}{Lastname}#=%=#Wei
+Author{2}{Email}#=%=#jwei@umass.edu
+Author{2}{Affiliation}#=%=#University of Massachusetts Amherst
+Author{3}{Firstname}#=%=#Brendan
+Author{3}{Lastname}#=%=#O'Connor
+Author{3}{Email}#=%=#brenocon@cs.umass.edu
+Author{3}{Affiliation}#=%=#Univ. of Massachusetts, Amherst
+
+==========

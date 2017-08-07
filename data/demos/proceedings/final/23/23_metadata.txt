@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#Function Assistant: A Tool for NL Querying of APIs
+ShortPaperTitle#=%=#Function Assistant: A Tool for NL Querying of APIs
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#KDR
+JobTitle#==#Phd Student
+Organization#==#Institute for Natural Language Processing (IMS) 
+University of Stuttgart 
+Stuttgart, Germany
+Abstract#==#In this paper, we describe Function Assistant, a lightweight Python-based
+toolkit for querying and exploring source code repositories using natural
+language. The toolkit is designed to help end-users of a target API quickly
+find information about functions through high-level natural language queries,
+or descriptions. For a given text query and background API, the tool finds
+candidate functions by performing a translation from the text to known
+representations in the API using the semantic parsing approach of (Richardson
+and Kuhn, forthcoming). Translations are automatically learned from example
+text-code pairs in example APIs. The toolkit includes features for building
+translation pipelines and query engines for arbitrary source code projects. To
+explore this last feature, we perform new experiments on 27 well-known Python
+projects hosted on Github.
+Author{1}{Firstname}#=%=#Kyle
+Author{1}{Lastname}#=%=#Richardson
+Author{1}{Email}#=%=#kyle@ims.uni-stuttgart.de
+Author{1}{Affiliation}#=%=#University of Stuttgart
+Author{2}{Firstname}#=%=#Jonas
+Author{2}{Lastname}#=%=#Kuhn
+Author{2}{Email}#=%=#jonas@ims.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#University of Stuttgart
+
+==========

@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Playing with Embeddings : Evaluating embeddings for Robot Language Learning through MUD Games
+ShortPaperTitle#=%=#Playing with Embeddings : Evaluating embeddings for Robot Language Learning through MUD Games
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Kumar Krishna Agrawal, Anmol Gulati
+JobTitle#==#
+Organization#==#Kumar Krishna Agrawal, Indian Institute of Technology Kharagpur
+Anmol Gulati, Indian Institute of Technology Kharagpur
+Abstract#==#Acquiring language provides a ubiquitous mode of communication, across humans
+and robots. To this effect, distributional representations of words based on
+co-occurrence statistics, have provided significant advancements ranging across
+machine translation to comprehension. In this paper, we study the suitability
+of using general purpose word-embeddings for language learning in robots. We
+propose using text-based games as a proxy to evaluating word embedding on real
+robots. Based in a risk-reward setting, we review the effectiveness of the
+embeddings in navigating tasks in fantasy games, as an approximation to their
+performance on more complex scenarios, like language assisted robot navigation.
+Author{1}{Firstname}#=%=#Anmol
+Author{1}{Lastname}#=%=#Gulati
+Author{1}{Email}#=%=#anmol01gulati@gmail.com
+Author{1}{Affiliation}#=%=#Indian Institute of Technology Kharagpur
+Author{2}{Firstname}#=%=#Kumar Krishna
+Author{2}{Lastname}#=%=#Agrawal
+Author{2}{Email}#=%=#kumarkagrawal@gmail.com
+Author{2}{Affiliation}#=%=#Indian Institute of Technology, Kharagpur
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#33
+FinalPaperTitle#=%=#A Multi-task Approach for Named Entity Recognition in Social Media Data
+ShortPaperTitle#=%=#A Multi-task Approach for NER in Social Media
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Gustavo Aguilar
+JobTitle#==#
+Organization#==#University of Houston
+Abstract#==#Named Entity Recognition for social media data is challenging because of its
+inherent noisiness. In addition to improper grammatical structures, it contains
+spelling inconsistencies and numerous informal abbreviations. We propose a
+novel multi-task approach by employing a more general secondary task of Named
+Entity (NE) segmentation together with the primary task of fine-grained NE
+categorization. The multi-task neural network architecture learns higher order
+feature representations from word and character sequences along with basic
+Part-of-Speech tags and gazetteer information. This neural network acts as a
+feature extractor to feed a Conditional Random Fields classifier. We were able
+to obtain the first position in the 3rd Workshop on Noisy User-generated Text
+(WNUT-2017) with a 41.86% entity F1-score and a 40.24% surface F1-score.
+Author{1}{Firstname}#=%=#Gustavo
+Author{1}{Lastname}#=%=#Aguilar
+Author{1}{Email}#=%=#gustavoaguilar91@gmail.com
+Author{1}{Affiliation}#=%=#University of Houston
+Author{2}{Firstname}#=%=#Suraj
+Author{2}{Lastname}#=%=#Maharjan
+Author{2}{Email}#=%=#smaharjan2@uh.edu
+Author{2}{Affiliation}#=%=#University of Houston
+Author{3}{Firstname}#=%=#Adrian Pastor
+Author{3}{Lastname}#=%=#López Monroy
+Author{3}{Email}#=%=#beiceman@gmail.com
+Author{3}{Affiliation}#=%=#University of Houston
+Author{4}{Firstname}#=%=#Thamar
+Author{4}{Lastname}#=%=#Solorio
+Author{4}{Email}#=%=#thamar.solorio@gmail.com
+Author{4}{Affiliation}#=%=#UH
+
+==========

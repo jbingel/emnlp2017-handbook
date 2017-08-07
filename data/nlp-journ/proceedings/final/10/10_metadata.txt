@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#'Fighting' or 'Conflict'? An Approach to Revealing Concepts of Terms in Political Discourse
+ShortPaperTitle#=%=#'Fighting' or 'Conflict'? An Approach to Revealing Concepts of Terms in Political Discourse
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Linyuan Tang, Kyo Kageura
+JobTitle#==#
+Organization#==#The University of Tokyo
+7-3-1 Hongo, Bunkyo-ku, Tokyo, Japan
+Abstract#==#Previous work on the epistemology of fact-checking indicated the dilemma
+between the needs of binary answers for the public and ambiguity of political
+discussion. Determining concepts represented by terms in political discourse
+can be considered as a Word-Sense Disambiguation (WSD) task. The analysis of
+political discourse, however, requires identifying precise concepts of terms
+from relatively small data. This work attempts to provide a basic framework for
+revealing concepts of terms in political discourse with explicit contextual
+information. The framework consists of three parts: 1) extracting important
+terms, 2) generating concordance for each term with stipulative definitions and
+explanations, and 3) agglomerating similar information of the term by
+hierarchical clustering. Utterances made by Prime Minister Abe Shinzo in the
+Diet of Japan are used to examine our framework. Importantly, we revealed the
+conceptual inconsistency of the term Sonritsu-kiki-jitai. The framework was
+proved to work, but only for a small number of terms due to lack of explicit
+contextual information.
+Author{1}{Firstname}#=%=#Linyuan
+Author{1}{Lastname}#=%=#Tang
+Author{1}{Email}#=%=#tanglmy3@gmail.com
+Author{1}{Affiliation}#=%=#The University of Tokyo
+Author{2}{Firstname}#=%=#Kyo
+Author{2}{Lastname}#=%=#Kageura
+Author{2}{Email}#=%=#kyo@p.u-tokyo.ac.jp
+Author{2}{Affiliation}#=%=#The University of Tokyo
+
+==========

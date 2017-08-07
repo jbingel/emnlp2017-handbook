@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#46
+FinalPaperTitle#=%=#LangPro: Natural Language Theorem Prover
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#LangPro is an automated theorem prover for natural language.
+Given a set of premises and a hypothesis, it is able to prove semantic
+relations between them.
+The prover is based on a version of analytic tableau method specially designed
+for natural logic.
+The proof procedure operates on logical forms that preserve linguistic
+expressions to a large extent. 
+This property makes the logical forms easily obtainable from syntactic trees.
+The nature of proofs is deductive and transparent.
+On the FraCaS and SICK textual entailment datasets, the theorem prover achieves
+high results competitive to state-of-the-art.
+Author{1}{Firstname}#=%=#Lasha
+Author{1}{Lastname}#=%=#Abzianidze
+Author{1}{Email}#=%=#Lasha.Abzianidze@gmail.com
+Author{1}{Affiliation}#=%=#CLCG, Groningen University
+
+==========

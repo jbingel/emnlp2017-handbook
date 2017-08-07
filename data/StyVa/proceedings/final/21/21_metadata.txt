@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Discovering Stylistic Variations in Distributional Vector Space Models via Lexical Paraphrases
+ShortPaperTitle#=%=#Discovering Stylistic Variations in Distributional Vector Space Models via Lexical Paraphrases
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Xing Niu
+JobTitle#==#
+Organization#==#
+Abstract#==#Detecting and analyzing stylistic variation in language is relevant to diverse
+Natural Language Processing applications. In this work, we investigate whether
+salient dimensions of style variations are embedded in standard distributional
+vector spaces of word meaning. We hypothesizes that distances between
+embeddings of lexical paraphrases can help isolate style from meaning
+variations and help identify latent style dimensions. We conduct a qualitative
+analysis of latent style dimensions, and show the effectiveness of identified
+style subspaces on a lexical formality prediction task.
+Author{1}{Firstname}#=%=#Xing
+Author{1}{Lastname}#=%=#Niu
+Author{1}{Email}#=%=#xingniu@cs.umd.edu
+Author{1}{Affiliation}#=%=#University of Maryland
+Author{2}{Firstname}#=%=#Marine
+Author{2}{Lastname}#=%=#Carpuat
+Author{2}{Email}#=%=#marine@cs.umd.edu
+Author{2}{Affiliation}#=%=#University of Maryland
+
+==========

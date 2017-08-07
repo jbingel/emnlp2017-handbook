@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Evaluation of Automatically Generated Pronoun Reference Questions
+ShortPaperTitle#=%=#Evaluation of Automatically Generated Pronoun Reference Questions
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Arief Yudha Satria
+JobTitle#==#Master student
+Organization#==#Tokyo Institute of Technology, 152-8550 Tokyo, Meguro, Ookayama, 2-12-1, Japan
+Abstract#==#This study provides a detailed analysis of evaluation of English pronoun
+reference questions which are created automatically by machine. Pronoun
+reference questions are multiple choice questions that ask test takers to
+choose an antecedent of a target pronoun in a reading passage from four
+options. The evaluation was performed from two perspectives: the perspective of
+English teachers and that of English learners. Item analysis suggests that
+machine-generated questions achieve comparable quality with human-made
+questions. Correlation analysis revealed a strong correlation between the
+scores of machine-generated questions and that of human-made questions.
+Author{1}{Firstname}#=%=#Arief Yudha
+Author{1}{Lastname}#=%=#Satria
+Author{1}{Email}#=%=#satria.a.aa@m.titech.ac.jp
+Author{1}{Affiliation}#=%=#Tokyo Institute of Technology
+Author{2}{Firstname}#=%=#Takenobu
+Author{2}{Lastname}#=%=#Tokunaga
+Author{2}{Email}#=%=#take@c.titech.ac.jp
+Author{2}{Affiliation}#=%=#Tokyo Institute of Technology
+
+==========

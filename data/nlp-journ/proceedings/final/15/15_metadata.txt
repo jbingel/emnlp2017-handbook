@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Improved Abusive Comment Moderation with User Embeddings
+ShortPaperTitle#=%=#Improved Abusive Comment Moderation with User Embeddings
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Prodromos Malakasiotis
+JobTitle#==#
+Organization#==#
+Abstract#==#Experimenting with a dataset of approximately 1.6M user comments from a Greek
+news sports portal, we explore how a state of the art RNN-based moderation
+method can be improved by adding user embeddings, user type embeddings, user
+biases, or user type biases. We observe improvements in all cases, with user
+embeddings leading to the biggest performance gains.
+Author{1}{Firstname}#=%=#John
+Author{1}{Lastname}#=%=#Pavlopoulos
+Author{1}{Email}#=%=#annis@aueb.gr
+Author{1}{Affiliation}#=%=#Athens University of Economics and Business
+Author{2}{Firstname}#=%=#Prodromos
+Author{2}{Lastname}#=%=#Malakasiotis
+Author{2}{Email}#=%=#rulller@gmail.com
+Author{2}{Affiliation}#=%=#Athens University of Economics and Business, Department of Informatics
+Author{3}{Firstname}#=%=#Juli
+Author{3}{Lastname}#=%=#Bakagianni
+Author{3}{Email}#=%=#jbakagianni@gmail.com
+Author{3}{Affiliation}#=%=#StrainTek
+Author{4}{Firstname}#=%=#Ion
+Author{4}{Lastname}#=%=#Androutsopoulos
+Author{4}{Email}#=%=#ionandr@gmail.com
+Author{4}{Affiliation}#=%=#Athens University of Economics and Business
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Incongruent Headlines: Yet Another Way to Mislead Your Readers
+ShortPaperTitle#=%=#Incongruent Headlines: Yet Another Way to Mislead Your Readers
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Sophie Chesney
+JobTitle#==#
+Organization#==#Queen Mary University of London, Mile End Road, London, E1 4NS
+Abstract#==#This paper discusses the problem of incongruent headlines: those which do not
+accurately represent the information contained in the article with which they
+occur. We emphasise that this phenomenon should be considered separately from
+recognised problematic headline types such as clickbait and sensationalism, 
+arguing that existing natural language processing (NLP) methods applied to
+these related concepts are not appropriate for the automatic detection of
+headline incongruence, as an analysis beyond stylistic traits is necessary. We
+therefore suggest a number of alternative methodologies that may be appropriate
+to the task at hand as a foundation for future work in this area. In addition,
+we provide an analysis of existing data sets which are related to this work,
+and motivate the need for a novel data set in this domain.
+Author{1}{Firstname}#=%=#Sophie
+Author{1}{Lastname}#=%=#Chesney
+Author{1}{Email}#=%=#s.chesney@qmul.ac.uk
+Author{1}{Affiliation}#=%=#Queen Mary University of London
+Author{2}{Firstname}#=%=#Maria
+Author{2}{Lastname}#=%=#Liakata
+Author{2}{Email}#=%=#maria.liakata@gmail.com
+Author{2}{Affiliation}#=%=#University of Warwick
+Author{3}{Firstname}#=%=#Massimo
+Author{3}{Lastname}#=%=#Poesio
+Author{3}{Email}#=%=#poesio@essex.ac.uk
+Author{3}{Affiliation}#=%=#University of Essex
+Author{4}{Firstname}#=%=#Matthew
+Author{4}{Lastname}#=%=#Purver
+Author{4}{Email}#=%=#m.purver@qmul.ac.uk
+Author{4}{Affiliation}#=%=#Queen Mary University of London
+
+==========

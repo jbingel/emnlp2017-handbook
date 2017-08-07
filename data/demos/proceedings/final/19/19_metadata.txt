@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#QUINT: Interpretable Question Answering over Knowledge Bases
+ShortPaperTitle#=%=#QUINT: Interpretable Question Answering over Knowledge Bases
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Abdalghani Abujabal
+JobTitle#==#
+Organization#==#Max Planck Institute for Informatics
+Campus E1 4
+66123 Saarbrücken
+Germany
+Abstract#==#We present QUINT, a live system for question answering over knowledge bases.
+QUINT automatically learns role-aligned utterance-query templates from user
+questions paired with their answers. When QUINT answers a question, it
+visualizes the complete derivation sequence from the natural language utterance
+to the final answer. The derivation provides an explanation of how the
+syntactic structure of the question was used to derive the structure of a
+SPARQL query, and how the phrases in the question were used to instantiate
+different parts of the query. When an answer seems unsatisfactory, the
+derivation provides valuable insights towards reformulating the question.
+Author{1}{Firstname}#=%=#Abdalghani
+Author{1}{Lastname}#=%=#Abujabal
+Author{1}{Email}#=%=#abujabal@mpi-inf.mpg.de
+Author{1}{Affiliation}#=%=#Max Planck Institute for Informatics
+Author{2}{Firstname}#=%=#Rishiraj
+Author{2}{Lastname}#=%=#Saha Roy
+Author{2}{Email}#=%=#rishiraj@mpi-inf.mpg.de
+Author{2}{Affiliation}#=%=#Max Planck Institute for Informatics
+Author{3}{Firstname}#=%=#Mohamed
+Author{3}{Lastname}#=%=#Yahya
+Author{3}{Email}#=%=#myahya@mpi-inf.mpg.de
+Author{3}{Affiliation}#=%=#Max Planck Institute for Informatics
+Author{4}{Firstname}#=%=#Gerhard
+Author{4}{Lastname}#=%=#Weikum
+Author{4}{Email}#=%=#weikum@mpi-inf.mpg.de
+Author{4}{Affiliation}#=%=#Max Planck Institute for Informatics
+
+==========

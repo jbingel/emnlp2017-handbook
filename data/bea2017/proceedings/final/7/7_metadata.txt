@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Predicting Specificity in Classroom Discussion
+ShortPaperTitle#=%=#Predicting Specificity in Classroom Discussion
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Luca Lugini
+JobTitle#==#
+Organization#==#University of Pittsburgh
+4200 Fifth Avenue
+Pittsburgh, PA 15260
+Abstract#==#High quality classroom discussion is important to student development,
+enhancing
+abilities to express claims, reason about other students’ claims, and retain
+information for longer periods of time. Previous small-scale studies have shown
+that one indicator of classroom discussion quality is specificity. In this
+paper we tackle the problem of predicting specificity for classroom
+discussions. We propose several methods and feature sets capable of
+outperforming the state of the art in specificity prediction. Additionally, we
+provide a set of meaningful, interpretable features that can be used to analyze
+classroom discussions at a pedagogical level.
+Author{1}{Firstname}#=%=#Luca
+Author{1}{Lastname}#=%=#Lugini
+Author{1}{Email}#=%=#luca.lugini@gmail.com
+Author{1}{Affiliation}#=%=#University of Pittsburgh
+Author{2}{Firstname}#=%=#Diane
+Author{2}{Lastname}#=%=#Litman
+Author{2}{Email}#=%=#litman@cs.pitt.edu
+Author{2}{Affiliation}#=%=#University of Pittsburgh
+
+==========

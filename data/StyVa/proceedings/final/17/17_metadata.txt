@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Harvesting Creative Templates for Generating Stylistically Varied Restaurant Reviews
+ShortPaperTitle#=%=#Harvesting Templates for Generating Stylistically Varied Reviews
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Shereen Oraby
+JobTitle#==#
+Organization#==#University of California, Santa Cruz
+1156 High St, Santa Cruz, CA 95064
+Abstract#==#Many of the creative and figurative elements that make language
+exciting are lost in translation in current natural language
+generation engines. In this paper, we explore a method to harvest
+templates from positive and negative reviews in the restaurant domain,
+with the goal of vastly expanding the types of stylistic variation
+available to the natural language generator. We learn hyperbolic
+adjective patterns that are representative of the strongly-valenced
+expressive language commonly used in either positive or negative
+reviews.  We then identify and delexicalize entities, and use
+heuristics to extract generation templates from review sentences. We
+evaluate the learned templates against more traditional review
+templates, using subjective measures of convincingness, 
+interestingness, and naturalness. Our results show that the
+learned templates score highly on these measures.  Finally, we analyze
+the linguistic categories that characterize the learned positive and
+negative templates. We plan to use the learned templates to improve the
+conversational style of dialogue systems in the
+restaurant domain.
+Author{1}{Firstname}#=%=#Shereen
+Author{1}{Lastname}#=%=#Oraby
+Author{1}{Email}#=%=#soraby@ucsc.edu
+Author{1}{Affiliation}#=%=#University of California Santa Cruz
+Author{2}{Firstname}#=%=#Sheideh
+Author{2}{Lastname}#=%=#Homayon
+Author{2}{Email}#=%=#shomayon@ucsc.edu
+Author{2}{Affiliation}#=%=#University of California Santa Cruz
+Author{3}{Firstname}#=%=#Marilyn
+Author{3}{Lastname}#=%=#Walker
+Author{3}{Email}#=%=#maw@soe.ucsc.edu
+Author{3}{Affiliation}#=%=#University of California Santa Cruz
+
+==========

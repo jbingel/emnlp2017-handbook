@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Hypothesis Testing based Intrinsic Evaluation of Word Embeddings
+ShortPaperTitle#=%=#Hypothesis Testing based Intrinsic Evaluation of Word Embeddings
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Nishant Gurnani
+JobTitle#==#
+Organization#==#
+Abstract#==#We introduce the cross-match test - an exact, distribution free,
+high-dimensional hypothesis test as an intrinsic evaluation metric for word
+embeddings. We show that cross-match is an effective means of measuring the
+distributional similarity between different vector representations and of
+evaluating the statistical significance of different vector embedding models.
+Additionally, we find that cross-match can be used to provide a quantitative
+measure of linguistic similarity for selecting bridge languages for machine
+translation. We demonstrate that the results of the hypothesis test align with
+our expectations and note that the framework of two sample hypothesis testing
+is not limited to word embeddings and can be extended to all vector
+representations.
+Author{1}{Firstname}#=%=#Nishant
+Author{1}{Lastname}#=%=#Gurnani
+Author{1}{Email}#=%=#ndgurnan@ucsd.edu
+Author{1}{Affiliation}#=%=#University of California San Diego
+
+==========

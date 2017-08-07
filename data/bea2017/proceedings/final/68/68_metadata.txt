@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#68
+FinalPaperTitle#=%=#Native Language Identiﬁcation Using a Mixture of Character and Word N-grams
+ShortPaperTitle#=%=#Native Language Identiﬁcation Using a Mixture of Character and Word N-grams
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Elham Mohammadi
+JobTitle#==#
+Organization#==#Data and Signal Processing Laboratory (DSP Lab)
+Faculty of New Sciences and Technologies (FNST)
+University of Tehran (UT), Tehran, Iran
+Abstract#==#Native language identification (NLI) is the task of determining an author's
+native language, based on a piece of his/her writing in a second language. In
+recent years, NLI has received much attention due to its challenging nature and
+its applications in language pedagogy and forensic linguistics. We participated
+in the NLI2017 shared task under the name UT-DSP. In our effort to implement a
+method for native language identification, we made use of a fusion of character
+and word N-grams, and achieved an optimal F1-Score of 77.64\%, using both essay
+and speech transcription datasets.
+Author{1}{Firstname}#=%=#Elham
+Author{1}{Lastname}#=%=#Mohammadi
+Author{1}{Email}#=%=#elham.mohammadi@ut.ac.ir
+Author{1}{Affiliation}#=%=#DSP Lab - Faculty of New Sciences and Technologies - University of Tehran
+Author{2}{Firstname}#=%=#Hadi
+Author{2}{Lastname}#=%=#Veisi
+Author{2}{Email}#=%=#h.veisi@ut.ac.ir
+Author{2}{Affiliation}#=%=#DSP Lab - Faculty of New Sciences and Technologies - University of Tehran
+Author{3}{Firstname}#=%=#Hessam
+Author{3}{Lastname}#=%=#Amini
+Author{3}{Email}#=%=#hessam.amini@ut.ac.ir
+Author{3}{Affiliation}#=%=#DSP Lab - Faculty of New Sciences and Technologies - University of Tehran
+
+==========

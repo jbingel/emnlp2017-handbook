@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#An Analysis and Visualization Tool for Case Study Learning of Linguistic Concepts
+ShortPaperTitle#=%=#An Analysis and Visualization Tool for Case Study Learning of Linguistic Concepts
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Emily Prudhommeaux
+JobTitle#==#
+Organization#==#Rochester Institute of Technology
+1 Lomb Memorial Dr.
+Rochester NY 14623
+Abstract#==#We present an educational tool that integrates computational linguistics
+resources for use in non-technical undergraduate language science courses. By
+using the tool in conjunction with evidence-driven pedagogical case studies, we
+strive to provide opportunities for students to gain an understanding of
+linguistic concepts and analysis through the lens of realistic problems in
+feasible ways. Case studies tend to be used in legal, business, and health
+education contexts, but less in the teaching and learning of linguistics. The
+approach introduced also has potential to encourage students across training
+backgrounds to continue on to computational language analysis coursework.
+Author{1}{Firstname}#=%=#Cecilia
+Author{1}{Lastname}#=%=#Ovesdotter Alm
+Author{1}{Email}#=%=#coagla@rit.edu
+Author{1}{Affiliation}#=%=#Rochester Institute of Technology
+Author{2}{Firstname}#=%=#Benjamin
+Author{2}{Lastname}#=%=#Meyers
+Author{2}{Email}#=%=#bsm9339@mail.rit.edu
+Author{2}{Affiliation}#=%=#Rochester Institute of Technology
+Author{3}{Firstname}#=%=#Emily
+Author{3}{Lastname}#=%=#Prud'hommeaux
+Author{3}{Email}#=%=#emilypx@gmail.com
+Author{3}{Affiliation}#=%=#Rochester Institute of Technology
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#TL;DR: Mining Reddit to Learn Automatic Summarization
+ShortPaperTitle#=%=#TL;DR: Mining Reddit to Learn Automatic Summarization
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Michael Völske
+JobTitle#==#
+Organization#==#Bauhaus-Universität Weimar; Fakultät Medien
+Bauhausstr. 11
+99423 Weimar, Germany
+Abstract#==#Recent advances in automatic text summarization have used deep neural networks
+to generate high-quality abstractive summaries, but the performance of these
+models strongly depends on large amounts of suitable training data. We propose
+a new method for mining social media for author-provided summaries, taking
+advantage of the common practice of appending a ``TL;DR'' to long posts. A case
+study using a large Reddit crawl yields the Webis-TLDR-17 dataset,
+complementing existing corpora primarily from the news genre. Our technique is
+likely applicable to other social media sites and general web crawls.
+Author{1}{Firstname}#=%=#Michael
+Author{1}{Lastname}#=%=#Völske
+Author{1}{Email}#=%=#michael.voelske@uni-weimar.de
+Author{1}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{2}{Firstname}#=%=#Martin
+Author{2}{Lastname}#=%=#Potthast
+Author{2}{Email}#=%=#martin.potthast@uni-weimar.de
+Author{2}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{3}{Firstname}#=%=#Shahbaz
+Author{3}{Lastname}#=%=#Syed
+Author{3}{Email}#=%=#Shahbaz.Syed@uni-weimar.de
+Author{3}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{4}{Firstname}#=%=#Benno
+Author{4}{Lastname}#=%=#Stein
+Author{4}{Email}#=%=#benno.stein@uni-weimar.de
+Author{4}{Affiliation}#=%=#Bauhaus-Universität Weimar
+
+==========

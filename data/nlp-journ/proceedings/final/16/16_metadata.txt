@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#A News Chain Evaluation Methodology along with a Lattice-based Approach for News Chain Construction
+ShortPaperTitle#=%=#A News Chain Evaluation Methodology along with a Lattice-based Approach for News Chain Construction
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Selma Tekir
+JobTitle#==#
+Organization#==#Izmir Insitute of Technology
+İzmir Yüksek Teknoloji Enstitüsü Gülbahçe Kampüsü 35430 Urla İzmir Türkiye
+Abstract#==#Chain construction is an important requirement for understanding news and
+establishing the context. A news chain can be defined as a coherent set of
+articles that explains an event or a story. There's a lack of well-established
+methods in this area.
+
+In this work, we propose a methodology to evaluate the "goodness" of a given
+news chain and implement a concept lattice-based news chain construction method
+by Hossain et al.. The methodology part is vital as it directly affects the
+growth of research in this area. Our proposed methodology consists of collected
+news chains from different studies and two "goodness" metrics, minedge and
+dispersion coefficient respectively. We assess the utility of the lattice-based
+news chain construction method by our proposed methodology.
+Author{1}{Firstname}#=%=#Mustafa
+Author{1}{Lastname}#=%=#Toprak
+Author{1}{Email}#=%=#mustafatoprak@iyte.edu.tr
+Author{1}{Affiliation}#=%=#İzmir Institute of Technology
+Author{2}{Firstname}#=%=#Özer
+Author{2}{Lastname}#=%=#Özkahraman
+Author{2}{Email}#=%=#ozerozkahraman@outlook.com
+Author{2}{Affiliation}#=%=#KTH Royal Institute of Technology
+Author{3}{Firstname}#=%=#Selma
+Author{3}{Lastname}#=%=#Tekir
+Author{3}{Email}#=%=#selmatekir@iyte.edu.tr
+Author{3}{Affiliation}#=%=#İzmir Institute of Technology
+
+==========

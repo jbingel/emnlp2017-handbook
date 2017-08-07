@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Structured Prediction via Learning to Search under Bandit Feedback
+ShortPaperTitle#=%=#Structured Prediction via Learning to Search under Bandit Feedback
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Amr Sharaf
+JobTitle#==#
+Organization#==#University of Maryland
+Abstract#==#We present an algorithm for structured prediction under online bandit feedback.
+The learner repeatedly predicts a sequence of actions, generating a structured
+output. It then observes feedback for that output and no others. We consider
+two cases: a pure bandit setting in which it only observes a loss, and more
+fine-grained feedback in which it observes a loss for every action. We find
+that the fine-grained feedback is necessary for strong empirical performance,
+because it allows for a robust variance-reduction strategy. We empirically
+compare a number of different algorithms and exploration methods and show the
+efficacy of BLS on sequence labeling and dependency parsing tasks.
+Author{1}{Firstname}#=%=#Amr
+Author{1}{Lastname}#=%=#Sharaf
+Author{1}{Email}#=%=#amr@cs.umd.edu
+Author{1}{Affiliation}#=%=#University of Maryland
+Author{2}{Firstname}#=%=#Hal
+Author{2}{Lastname}#=%=#Daumé III
+Author{2}{Email}#=%=#me@hal3.name
+Author{2}{Affiliation}#=%=#UMD
+
+==========

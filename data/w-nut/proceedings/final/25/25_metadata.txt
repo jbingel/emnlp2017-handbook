@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#25
+FinalPaperTitle#=%=#Improving Document Clustering by Removing Unnatural Language
+ShortPaperTitle#=%=#Improving Document Clustering by Removing Unnatural Language
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Myungha Jang
+JobTitle#==#
+Organization#==#University of Massachusetts Amherst 
+140 Governors Dr, Amherst, MA 01002
+Abstract#==#Technical documents contain a fair amount of unnatural language, such as
+tables, formulas, and pseudo-code. Unnatural language can bean important factor
+of confusing existing NLP tools. This paper presents an effective method of
+distinguishing unnatural language from natural language, and evaluates the
+impact of un-natural language detection on NLP tasks such as document
+clustering.  We view this problem as an information extraction task and build a
+multiclass classification model identifying unnatural language components into
+four categories. First, we create a new annotated corpus by collecting slides
+and papers in various for-mats, PPT, PDF, and HTML, where unnatural language
+components are annotated into four categories. We then explore features
+available from plain text to build a statistical model that can handle any
+format as long as it is converted into plain text. Our experiments show that
+re-moving unnatural language components gives an absolute improvement in
+document cluster-ing by up to 15%.   Our corpus and tool are publicly available
+Author{1}{Firstname}#=%=#Myungha
+Author{1}{Lastname}#=%=#Jang
+Author{1}{Email}#=%=#mhjang@cs.umass.edu
+Author{1}{Affiliation}#=%=#University of Massachusetts Amherst
+Author{2}{Firstname}#=%=#Jinho D.
+Author{2}{Lastname}#=%=#Choi
+Author{2}{Email}#=%=#jinho.choi@emory.edu
+Author{2}{Affiliation}#=%=#Emory University
+Author{3}{Firstname}#=%=#James
+Author{3}{Lastname}#=%=#Allan
+Author{3}{Email}#=%=#allan@cs.umass.edu
+Author{3}{Affiliation}#=%=#University of Massachusetts Amherst
+
+==========

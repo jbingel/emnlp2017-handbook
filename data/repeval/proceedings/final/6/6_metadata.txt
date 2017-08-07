@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Evaluation of word embeddings against cognitive processes: primed reaction times in lexical decision and naming tasks
+ShortPaperTitle#=%=#Evaluation of word embeddings against cognitive processes: primed reaction times in lexical decision and naming tasks
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jeremy Auguste
+JobTitle#==#
+Organization#==#
+Abstract#==#This work presents a framework for word similarity evaluation grounded on
+cognitive sciences experimental data. Word pair similarities are compared to
+reaction times of subjects in large scale lexical decision and naming tasks
+under semantic priming. Results show that GloVe embeddings lead to
+significantly higher correlation with experimental measurements than other
+controlled and off-the-shelf embeddings, and that the choice of a training
+corpus is less important than that of the algorithm. Comparison of rankings
+with other datasets shows that the cognitive phenomenon covers more aspects
+than simply word relatedness or similarity.
+Author{1}{Firstname}#=%=#Jeremy
+Author{1}{Lastname}#=%=#Auguste
+Author{1}{Email}#=%=#jeremy.auguste@lif.univ-mrs.fr
+Author{1}{Affiliation}#=%=#Aix-Marseille University LIF/CNRS
+Author{2}{Firstname}#=%=#Arnaud
+Author{2}{Lastname}#=%=#Rey
+Author{2}{Email}#=%=#arnaud.rey@univ-amu.fr
+Author{2}{Affiliation}#=%=#Aix-Marseille University LPC/CNRS
+Author{3}{Firstname}#=%=#Benoit
+Author{3}{Lastname}#=%=#Favre
+Author{3}{Email}#=%=#benoit.favre@lif.univ-mrs.fr
+Author{3}{Affiliation}#=%=#Aix-Marseille University LIF/CNRS
+
+==========

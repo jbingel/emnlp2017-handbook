@@ -1,0 +1,37 @@
+* September 7
+= 9:00--9:05 Opening
+= 9:05--9:50 Invited Talk: Common Sense Knowledge as an Emergent Property of Neural Conversational Models (Bill Dolan)
+= 9:50--10:35 Oral Session I
+13 9:50--10:05  # Boundary-based MWE segmentation with text partitioning
+4 10:05--10:20  # Towards the Understanding of Gaming Audiences by Modeling Twitch Emotes
+6 10:20--10:35  # Churn Identification in Microblogs using Convolutional Neural Networks with Structured Logical Knowledge
+= 10:35--11:00 Coffee Break
+= 11:00--12:30 Oral Session II
+11 11:00--11:15  # To normalize, or not to normalize: The impact of normalization on Part-of-Speech tagging
+12 11:15--11:30  # Constructing an Alias List for Named Entities during an Event
+15 11:30--11:45  # Incorporating Metadata into Content-Based User Embeddings
+16 11:45--12:00  # Simple Queries as Distant Labels for Predicting Gender on Twitter
+22 12:00--12:15  # A Dataset and Classifier for Recognizing Social Media English
+20 12:15--12:30  # Evaluating hypotheses in geolocation on a very large sample of Twitter
+= 12:30--14:00 Lunch
+= 14:00--14:45 Invited Talk: Tweets in Finance (Miles Osborne)
+= 14:45--14:55 Lightning Talks
+2   # The Effect of Error Rate in Artificially Generated Data for Automatic Preposition and Determiner Correction
+8   # An Entity Resolution Approach to Isolate Instances of Human Trafficking Online
+14   # Noisy Uyghur Text Normalization
+18   # Crowdsourcing Multiple Choice Science Questions
+19   # A Text Normalisation System for Non-Standard English Words
+21   # Huntsville, hospitals, and hockey teams: Names can reveal your location
+25   # Improving Document Clustering by Removing Unnatural Language
+28   # Lithium NLP: A System for Rich Information Extraction from Noisy User Generated Text on Social Media
+= 14:55--15:30 Shared Task Session
+35 14:55--15:10  # Results of the WNUT2017 Shared Task on Novel and Emerging Entity Recognition
+33 15:10--15:20  # A Multi-task Approach for Named Entity Recognition in Social Media Data
+32 15:20--15:30  # Distributed Representation, LDA Topic Modelling and Deep Learning for Emerging Named Entity Recognition from Social Media
+29   # Multi-channel BiLSTM-CRF Model for Emerging Named Entity Recognition in Social Media
+30   # Transfer Learning and Sentence Level Features for Named Entity Recognition on Tweets
+31   # Context-Sensitive Recognition for Emerging and Rare Entities
+34   # A Feature-based Ensemble Approach to Recognition of Emerging and Rare Named Entities
+= 15:30--16:30 Poster Session
+= 16:30--17:15 Invited Talk: Modeling Language as a Social Construct (Dirk Hovy)
+= 17:15--17:30 Closing and Best Paper Awards

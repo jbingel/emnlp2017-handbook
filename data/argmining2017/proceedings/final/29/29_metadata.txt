@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#Unit Segmentation of Argumentative Texts
+ShortPaperTitle#=%=#Unit Segmentation of Argumentative Texts
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yamen Ajjour
+JobTitle#==#
+Organization#==#Bauhaus-Universität Weimar
+99423 Weimar, Germany
+Abstract#==#The segmentation of an argumentative text into argument units and their
+non-argumentative counterparts is the first step in identifying the
+argumentative structure of the text. Despite its importance for argument
+mining, unit segmentation has been approached only sporadically so far. This
+paper studies the major parameters of unit segmentation systematically. We
+explore the effectiveness of various features, when capturing words separately,
+along with their neighbors, or even along with the entire text. Each such
+context is reflected by one machine learning model that we evaluate within and
+across three domains of texts. Among the models, our new deep learning approach
+capturing the entire text turns out best within all domains, with an F-score of
+up to 88.54. While structural features generalize best across domains, the
+domain transfer remains hard, which points to major challenges of unit
+segmentation.
+Author{1}{Firstname}#=%=#Yamen
+Author{1}{Lastname}#=%=#Ajjour
+Author{1}{Email}#=%=#yamen.ajjour@uni-weimar.de
+Author{1}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{2}{Firstname}#=%=#Wei-Fan
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Email}#=%=#wei-fan.chen@uni-weimar.de
+Author{2}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{3}{Firstname}#=%=#Johannes
+Author{3}{Lastname}#=%=#Kiesel
+Author{3}{Email}#=%=#johannes.kiesel@uni-weimar.de
+Author{3}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{4}{Firstname}#=%=#Henning
+Author{4}{Lastname}#=%=#Wachsmuth
+Author{4}{Email}#=%=#henning.wachsmuth@uni-weimar.de
+Author{4}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{5}{Firstname}#=%=#Benno
+Author{5}{Lastname}#=%=#Stein
+Author{5}{Email}#=%=#benno.stein@uni-weimar.de
+Author{5}{Affiliation}#=%=#Bauhaus-Universität Weimar
+
+==========

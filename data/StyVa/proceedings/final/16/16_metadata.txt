@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Topic and audience effects on distinctively Scottish vocabulary usage in Twitter data
+ShortPaperTitle#=%=#Topic and audience effects on distinctively Scottish vocabulary usage in Twitter data
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Philippa Shoemark
+JobTitle#==#
+Organization#==#
+Abstract#==#Sociolinguistic research suggests that speakers modulate their language style
+in response to their audience. Similar effects have recently been claimed to
+occur in the informal written context of Twitter, with users choosing less
+region-specific and non-standard vocabulary when addressing larger audiences.
+However, these studies have not carefully controlled for the possible confound
+of topic: that is, tweets addressed to a broad audience might also tend towards
+topics that engender a more formal style. In addition, it is not clear to what
+extent previous results generalize to different samples of users. Using
+mixed-effects models, we show that audience and topic have independent effects
+on the rate of distinctively Scottish usage in two demographically distinct
+Twitter user samples. However, not all effects are consistent between the two
+groups, underscoring the importance of replicating studies on distinct user
+samples before drawing strong conclusions from social media data.
+Author{1}{Firstname}#=%=#Philippa
+Author{1}{Lastname}#=%=#Shoemark
+Author{1}{Email}#=%=#P.J.Shoemark@ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#James
+Author{2}{Lastname}#=%=#Kirby
+Author{2}{Email}#=%=#j.kirby@ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+Author{3}{Firstname}#=%=#Sharon
+Author{3}{Lastname}#=%=#Goldwater
+Author{3}{Email}#=%=#sgwater@inf.ed.ac.uk
+Author{3}{Affiliation}#=%=#University of Edinburgh
+
+==========

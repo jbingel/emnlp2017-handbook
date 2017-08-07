@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Crowdsourcing Multiple Choice Science Questions
+ShortPaperTitle#=%=#Crowdsourcing Multiple Choice Science Questions
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Johannes Welbl
+JobTitle#==#
+Organization#==#University College London
+Abstract#==#We present a novel method for obtaining high-quality, domain-targeted multiple
+choice questions from crowd workers. Generating these questions can be
+difficult without trading away originality, relevance or diversity in the
+answer options. Our method addresses these problems by leveraging a large
+corpus of domain-specific
+text and a small set of existing questions. It produces model suggestions for
+document selection and answer distractor choice which aid the human question
+generation process. With this method we have assembled SciQ, a dataset of 13.7K
+multiple choice science exam questions. We demonstrate that the method produces
+in-domain questions by providing an analysis of this new dataset and by showing
+that humans cannot distinguish the crowdsourced questions from original
+questions. When using SciQ as additional training data to existing questions,
+we observe accuracy improvements on real science exams.
+Author{1}{Firstname}#=%=#Johannes
+Author{1}{Lastname}#=%=#Welbl
+Author{1}{Email}#=%=#johannes.welbl.14@ucl.ac.uk
+Author{1}{Affiliation}#=%=#University College London
+Author{2}{Firstname}#=%=#Nelson F.
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#nfliu@cs.washington.edu
+Author{2}{Affiliation}#=%=#University of Washington
+Author{3}{Firstname}#=%=#Matt
+Author{3}{Lastname}#=%=#Gardner
+Author{3}{Email}#=%=#mattg@allenai.org
+Author{3}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+
+==========

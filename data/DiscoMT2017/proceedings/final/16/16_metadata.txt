@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Neural Machine Translation with Extended Context
+ShortPaperTitle#=%=#Neural Machine Translation with Extended Context
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jörg Tiedemann
+JobTitle#==#
+Organization#==#University of Helsinki
+P.O. Box 3
+00014 University of Helsinki
+Abstract#==#We investigate the use of extended context in attention-based neural machine
+translation. We base our experiments on translated movie subtitles and discuss
+the effect of increasing the segments beyond single translation units. We study
+the use of extended source language context as well as bilingual context
+extensions. The models learn to distinguish between information from different
+segments and are surprisingly robust with respect to translation quality. In
+this pilot study, we observe interesting cross-sentential attention patterns
+that improve textual coherence in translation at least in some selected cases.
+Author{1}{Firstname}#=%=#Jörg
+Author{1}{Lastname}#=%=#Tiedemann
+Author{1}{Email}#=%=#jorg.tiedemann@helsinki.fi
+Author{1}{Affiliation}#=%=#University of Helsinki
+Author{2}{Firstname}#=%=#Yves
+Author{2}{Lastname}#=%=#Scherrer
+Author{2}{Email}#=%=#yves.scherrer@helsinki.fi
+Author{2}{Affiliation}#=%=#University of Helsinki
+
+==========

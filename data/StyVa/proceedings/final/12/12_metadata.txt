@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Controlling Linguistic Style Aspects in Neural Language Generation
+ShortPaperTitle#=%=#Controlling Linguistic Style Aspects in Neural Language Generation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jessica Ficler
+JobTitle#==#
+Organization#==#Bar-Ilan University
+Abstract#==#Most work on neural natural language generation (NNLG) focus on controlling the
+content of the generated text. We experiment with controling several stylistic
+aspects of the generated text, in addition to its content. The method is based
+on conditioned RNN language model, where the desired content as well as the
+stylistic parameters serve as conditioning contexts.
+We demonstrate the approach on the movie reviews domain and show that it is
+successful in generating coherent sentences corresponding to the required
+linguistic style and content.
+Author{1}{Firstname}#=%=#Jessica
+Author{1}{Lastname}#=%=#Ficler
+Author{1}{Email}#=%=#jessica.ficler@gmail.com
+Author{1}{Affiliation}#=%=#Bar Ilan University
+Author{2}{Firstname}#=%=#Yoav
+Author{2}{Lastname}#=%=#Goldberg
+Author{2}{Email}#=%=#yoav.goldberg@gmail.com
+Author{2}{Affiliation}#=%=#Bar Ilan University
+
+==========

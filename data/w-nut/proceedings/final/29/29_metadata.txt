@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#Multi-channel BiLSTM-CRF Model for Emerging Named Entity Recognition in Social Media
+ShortPaperTitle#=%=#Multi-channel BiLSTM-CRF Model for Emerging Named Entity Recognition in Social Media
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Yuchen Lin
+JobTitle#==#
+Organization#==#Yuchen Lin
+
+SEIEE Building #03-341
+Department of Computer Science and Engineering
+800 Dongchuan Road, Shanghai Jiao Tong University
+Shanghai 200240
+China
+Abstract#==#In this paper, we present our multi-channel neural architecture for recognizing
+emerging named entity in social media messages, which we applied in the Novel
+and Emerging Named Entity Recognition shared task at the EMNLP 2017 Workshop on
+Noisy User-generated Text (W-NUT). We propose a novel approach, which
+incorporates comprehensive word representations with multi-channel information
+and Conditional Random Fields (CRF) into a traditional Bidirectional Long
+Short-Term Memory (BiLSTM) neural network without using any additional
+hand-craft features such as gazetteers. In comparison with other systems
+participating in the shared task, our system won the 2nd place.
+Author{1}{Firstname}#=%=#Bill Y.
+Author{1}{Lastname}#=%=#Lin
+Author{1}{Email}#=%=#yuchenlin1995@gmail.com
+Author{1}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{2}{Firstname}#=%=#Frank
+Author{2}{Lastname}#=%=#Xu
+Author{2}{Email}#=%=#frankxu2004@gmail.com
+Author{2}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{3}{Firstname}#=%=#Zhiyi
+Author{3}{Lastname}#=%=#Luo
+Author{3}{Email}#=%=#jessieluo1991@gmail.com
+Author{3}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{4}{Firstname}#=%=#Kenny
+Author{4}{Lastname}#=%=#Zhu
+Author{4}{Email}#=%=#kzhu@cs.sjtu.edu.cn
+Author{4}{Affiliation}#=%=#Shanghai Jiao Tong University
+
+==========

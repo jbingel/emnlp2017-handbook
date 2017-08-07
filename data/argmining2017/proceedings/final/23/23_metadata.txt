@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#Using Complex Argumentative Interactions to Reconstruct the Argumentative Structure of Large-Scale Debates
+ShortPaperTitle#=%=#Using Complex Argumentative Interactions to Reconstruct the Argumentative Structure of Large-Scale Debates
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#John Lawrence
+JobTitle#==#
+Organization#==#University of Dundee, Dundee, DD1 4HN UK
+Abstract#==#In this paper we consider the insights that can be gained by considering large
+scale argument networks and the complex interactions between their constituent
+propositions. We investigate metrics for analysing properties of these
+networks, illustrating these using a corpus of arguments taken from the 2016 US
+Presidential Debates. We present techniques for determining these features
+directly from natural language text and show that there is a strong correlation
+between these automatically identified features and the argumentative structure
+contained within the text. Finally, we combine these metrics with argument
+mining techniques and show how the identification of argumentative relations
+can be improved by considering the larger context in which they occur.
+Author{1}{Firstname}#=%=#John
+Author{1}{Lastname}#=%=#Lawrence
+Author{1}{Email}#=%=#johnlawrence@computing.dundee.ac.uk
+Author{1}{Affiliation}#=%=#University of Dundee
+Author{2}{Firstname}#=%=#Chris
+Author{2}{Lastname}#=%=#Reed
+Author{2}{Email}#=%=#c.a.reed@dundee.ac.uk
+Author{2}{Affiliation}#=%=#University of Dundee
+
+==========

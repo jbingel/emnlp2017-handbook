@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#SGNMT -- A Flexible NMT Decoding Platform for Quick Prototyping of New Models and Search Strategies
+ShortPaperTitle#=%=#SGNMT -- A Flexible NMT Decoding Platform for Quick Prototyping of New Models and Search Strategies
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Felix Stahlberg
+JobTitle#==#
+Organization#==#Engineering Dept, Trumpington St, Cambridge CB2 1PZ, UK
+Abstract#==#This paper introduces SGNMT, our experimental platform for machine translation
+research. SGNMT provides a generic interface to neural and symbolic scoring
+modules (predictors) with left-to-right semantic such as translation models
+like NMT, language models, translation lattices, n-best lists or other kinds of
+scores and constraints. Predictors can be combined with other predictors to
+form complex decoding tasks. SGNMT implements a number of search strategies for
+traversing the space spanned by the predictors which are appropriate for
+different predictor constellations. Adding new predictors or decoding
+strategies is particularly easy, making it a very efficient tool for
+prototyping new research ideas. SGNMT is actively being used by students in the
+MPhil program in Machine Learning, Speech and Language Technology at the
+University of Cambridge for course work and theses, as well as for most of the
+research work in our group.
+Author{1}{Firstname}#=%=#Felix
+Author{1}{Lastname}#=%=#Stahlberg
+Author{1}{Email}#=%=#fs439@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge, Department of Engineering
+Author{2}{Firstname}#=%=#Eva
+Author{2}{Lastname}#=%=#Hasler
+Author{2}{Email}#=%=#evahasler@gmail.com
+Author{2}{Affiliation}#=%=#SDL
+Author{3}{Firstname}#=%=#Danielle
+Author{3}{Lastname}#=%=#Saunders
+Author{3}{Email}#=%=#ds636@cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+Author{4}{Firstname}#=%=#Bill
+Author{4}{Lastname}#=%=#Byrne
+Author{4}{Email}#=%=#bill.byrne@eng.cam.ac.uk
+Author{4}{Affiliation}#=%=#University of Cambridge
+
+==========

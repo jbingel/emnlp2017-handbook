@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Using a Graph-based Coherence Model in Document-Level Machine Translation
+ShortPaperTitle#=%=#Using a Graph-based Coherence Model in Document-Level Machine Translation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Mohsen Mesgar
+JobTitle#==#
+Organization#==#Heidelberg Institute for Theoretical Studies
+Abstract#==#Although coherence is an important aspect of any text generation system, it has
+received little attention in the context of machine translation (MT) so far. 
+We hypothesize that the quality of document-level translation can be improved
+if MT models take into account the semantic relations among sentences during
+translation. We integrate the graph-based coherence model proposed by Mesgar
+and Strube, (2016) with Docent (Hardmeier et al., 2012, Hardmeier, 2014) a
+document-level machine translation system. The application of this graph-based
+coherence modeling approach is novel in the context of machine translation. We
+evaluate the coherence model and its effects on the quality of the machine
+translation. The result of our experiments shows that our coherence model
+slightly improves the quality of translation in terms of the average Meteor
+score.
+Author{1}{Firstname}#=%=#Leo
+Author{1}{Lastname}#=%=#Born
+Author{1}{Email}#=%=#born@cl.uni-heidelberg.de
+Author{1}{Affiliation}#=%=#Heidelberg University
+Author{2}{Firstname}#=%=#Mohsen
+Author{2}{Lastname}#=%=#Mesgar
+Author{2}{Email}#=%=#mohsen.mesgar@h-its.org
+Author{2}{Affiliation}#=%=#Heidelberg Institute for Theoretical Studies
+Author{3}{Firstname}#=%=#Michael
+Author{3}{Lastname}#=%=#Strube
+Author{3}{Email}#=%=#michael.strube@h-its.org
+Author{3}{Affiliation}#=%=#Heidelberg Institute for Theoretical Studies
+
+==========

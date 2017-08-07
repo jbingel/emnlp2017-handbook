@@ -1,0 +1,51 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#DLATK: Differential Language Analysis ToolKit
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#We present Differential Language Analysis Toolkit (DLATK), an open-source
+python package and command-line tool developed for conducting social scientific
+language analyses. 
+While DLATK provides standard NLP pipeline steps such as tokenization or
+svm-classification, its novel strengths lie in analyses useful for
+psychological, health, and social studies:  
+
+(1) incorporation of extra-linguistic structured information, 
+(2) specified levels and units of analysis (e.g. document, user, community),
+(3) statistical metrics for continuous outcomes, and 
+(4) robust, proven, and accurate pipelines for social scientific prediction
+problems.
+
+DLATK integrates multiple popular packages (SKLearn, Mallet), enables
+interactive (iPython, Jupyter) usage, and generally follows abstraction and
+object oriented principles to make it easy to tie in additional libraries or
+storage technologies. DLATK has thus far been used in 32 computer and social
+scientific peer-reviewed publications.
+Author{1}{Firstname}#=%=#H. Andrew
+Author{1}{Lastname}#=%=#Schwartz
+Author{1}{Email}#=%=#has@cs.stonybrook.edu
+Author{1}{Affiliation}#=%=#Stony Brook University
+Author{2}{Firstname}#=%=#Salvatore
+Author{2}{Lastname}#=%=#Giorgi
+Author{2}{Email}#=%=#sal.giorgi@gmail.com
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+Author{3}{Firstname}#=%=#Maarten
+Author{3}{Lastname}#=%=#Sap
+Author{3}{Email}#=%=#msap@cs.washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+Author{4}{Firstname}#=%=#Patrick
+Author{4}{Lastname}#=%=#Crutchley
+Author{4}{Email}#=%=#pcrutchl@gmail.com
+Author{4}{Affiliation}#=%=#Qntfy
+Author{5}{Firstname}#=%=#Lyle
+Author{5}{Lastname}#=%=#Ungar
+Author{5}{Email}#=%=#ungar@cis.upenn.edu
+Author{5}{Affiliation}#=%=#University of Pennsylvania
+Author{6}{Firstname}#=%=#Johannes
+Author{6}{Lastname}#=%=#Eichstaedt
+Author{6}{Email}#=%=#johannes.eichstaedt@gmail.com
+Author{6}{Affiliation}#=%=#University of Pennsylvania
+
+==========

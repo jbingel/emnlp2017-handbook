@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#Combining Multiple Corpora for Readability Assessment for People with Cognitive Disabilities
+ShortPaperTitle#=%=#Combining Multiple Corpora for Readability Assessment for People with Cognitive Disabilities
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Victoria Yaneva
+JobTitle#==#
+Organization#==#University of Wolverhampton
+Wulfruna Street
+Wolverhampton, UK
+WV1 1LY
+Abstract#==#Given the lack of large user-evaluated corpora in disability-related NLP
+research (e.g. text simplification or readability assessment for people with
+cognitive disabilities), the question of choosing suitable training data for
+NLP models is not straightforward. The use of large generic corpora may be
+problematic because such data may not reflect the needs of the target
+population. The use of the available user-evaluated corpora may be problematic
+because these datasets are not large enough to be used as training data. In
+this paper we explore a third approach, in which a large generic corpus is
+combined with a smaller population-specific corpus to train a classifier which
+is
+evaluated using two sets of unseen user-evaluated data. One of these sets, the
+ASD Comprehension corpus, is developed for the purposes of this study and made
+freely available. We explore the effects of the size and type of the training
+data used on the performance of the classifiers, and the effects of the type of
+the unseen test datasets on the classification performance.
+Author{1}{Firstname}#=%=#Victoria
+Author{1}{Lastname}#=%=#Yaneva
+Author{1}{Email}#=%=#v.yaneva@wlv.ac.uk
+Author{1}{Affiliation}#=%=#University of Wolverhampton
+Author{2}{Firstname}#=%=#Constantin
+Author{2}{Lastname}#=%=#Orasan
+Author{2}{Email}#=%=#c.orasan@wlv.ac.uk
+Author{2}{Affiliation}#=%=#University of Wolverhampton
+Author{3}{Firstname}#=%=#Richard
+Author{3}{Lastname}#=%=#Evans
+Author{3}{Email}#=%=#r.j.evans@wlv.ac.uk
+Author{3}{Affiliation}#=%=#University of Wolverhampton
+Author{4}{Firstname}#=%=#Omid
+Author{4}{Lastname}#=%=#Rohanian
+Author{4}{Email}#=%=#omid.rohanian@wlv.ac.uk
+Author{4}{Affiliation}#=%=#University of Wolverhampton
+
+==========

@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Assessing the Stylistic Properties of Neurally Generated Text in Authorship Attribution
+ShortPaperTitle#=%=#Assessing the Stylistic Properties of Neurally Generated Text in Authorship Attribution
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Enrique Manjavacas Arevalo
+JobTitle#==#
+Organization#==#
+Abstract#==#Recent applications of neural language models have led to an increased interest
+in the automatic generation of natural language. However impressive, the
+evaluation of neurally generated text has so far remained rather informal and
+anecdotal. Here, we present an attempt at the systematic assessment of one
+aspect of the quality of neurally generated text. We focus on a specific aspect
+of neural language generation: its ability to reproduce authorial writing
+styles. Using established models for authorship attribution, we empirically
+assess the stylistic qualities of neurally generated text. In comparison to
+conventional language models, neural models generate fuzzier text, that is
+relatively harder to attribute correctly. Nevertheless, our results also
+suggest that neurally generated text offers more valuable perspectives for the
+augmentation of training data.
+Author{1}{Firstname}#=%=#Enrique
+Author{1}{Lastname}#=%=#Manjavacas
+Author{1}{Email}#=%=#enrique.manjavacas@gmail.com
+Author{1}{Affiliation}#=%=#University of Antwerp
+Author{2}{Firstname}#=%=#Jeroen
+Author{2}{Lastname}#=%=#De Gussem
+Author{2}{Email}#=%=#jedgusse.degussem@ugent.be
+Author{2}{Affiliation}#=%=#Ghent University
+Author{3}{Firstname}#=%=#Walter
+Author{3}{Lastname}#=%=#Daelemans
+Author{3}{Email}#=%=#walter.daelemans@uantwerpen.be
+Author{3}{Affiliation}#=%=#University of Antwerp
+Author{4}{Firstname}#=%=#Mike
+Author{4}{Lastname}#=%=#Kestemont
+Author{4}{Email}#=%=#mike.kestemont@uantwerpen.be
+Author{4}{Affiliation}#=%=#University of Antwerp
+
+==========

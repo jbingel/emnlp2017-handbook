@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Lexical Chains meet Word Embeddings in Document-level Statistical Machine Translation
+ShortPaperTitle#=%=#Lexical Chains meet Word Embeddings in Document-level Statistical Machine Translation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Laura Mascarell
+JobTitle#==#
+Organization#==#
+Abstract#==#Currently under review for EMNLP 2017
+
+The phrase-based Statistical Machine Translation (SMT) approach deals with
+sentences in isolation, making it difficult to consider discourse context in
+translation. This poses a challenge for ambiguous words that need discourse
+knowledge to be correctly translated. We propose a method that benefits from
+the semantic similarity in lexical chains to improve SMT output by integrating
+it in a document-level decoder. We focus on word embeddings to deal with the
+lexical chains, contrary to the traditional approach that uses lexical
+resources. Experimental results on German-to-English show that our method
+produces correct translations in up to 88% of the changes, improving the
+translation in 36%-48% of them over the baseline.
+Author{1}{Firstname}#=%=#Laura
+Author{1}{Lastname}#=%=#Mascarell
+Author{1}{Email}#=%=#mascarell@cl.uzh.ch
+Author{1}{Affiliation}#=%=#University of Zurich
+
+==========

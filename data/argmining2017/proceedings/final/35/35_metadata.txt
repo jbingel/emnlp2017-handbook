@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#Analyzing the Semantic Types of Claims and Premises in an Online Persuasive Forum
+ShortPaperTitle#=%=#Analyzing the Semantic Types of Claims and Premises in an Online Persuasive Forum
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Christopher Hidey
+JobTitle#==#
+Organization#==#
+Abstract#==#Argumentative text has been analyzed both theoretically and computationally in
+terms of argumentative structure that consists of argument components (e.g.,
+claims, premises) and their argumentative relations (e.g., support, attack).
+Less emphasis has been placed on analyzing the semantic types of argument
+components. We propose a two-tiered annotation scheme to label claims and
+premises and their semantic types in an online persuasive forum, Change My
+View, with the long-term goal of understanding what makes a message persuasive.
+Premises are annotated with the three types of persuasive modes: ethos, logos,
+pathos, while claims are labeled as interpretation, evaluation, agreement, or
+disagreement, the latter two designed to account for the dialogical nature of
+our corpus.
+
+We aim to answer three questions: 1) can humans reliably annotate the semantic
+types of argument components? 
+2) are types of premises/claims positioned in recurrent orders? 
+and 3) are certain types of claims and/or premises more likely to appear in
+persuasive messages than in non-persuasive messages?
+Author{1}{Firstname}#=%=#Christopher
+Author{1}{Lastname}#=%=#Hidey
+Author{1}{Email}#=%=#ch3085@columbia.edu
+Author{1}{Affiliation}#=%=#Columbia University
+Author{2}{Firstname}#=%=#Elena
+Author{2}{Lastname}#=%=#Musi
+Author{2}{Email}#=%=#em3202@columbia.edu
+Author{2}{Affiliation}#=%=#Columbia University
+Author{3}{Firstname}#=%=#Alyssa
+Author{3}{Lastname}#=%=#Hwang
+Author{3}{Email}#=%=#ahh2143@columbia.edu
+Author{3}{Affiliation}#=%=#Columbia University
+Author{4}{Firstname}#=%=#Smaranda
+Author{4}{Lastname}#=%=#Muresan
+Author{4}{Email}#=%=#smara@ccls.columbia.edu
+Author{4}{Affiliation}#=%=#Columbia University
+Author{5}{Firstname}#=%=#Kathy
+Author{5}{Lastname}#=%=#McKeown
+Author{5}{Email}#=%=#kathy@cs.columbia.edu
+Author{5}{Affiliation}#=%=#Columbia University
+
+==========

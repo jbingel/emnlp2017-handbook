@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#26
+FinalPaperTitle#=%=#Tracking Bias in News Sources Using Social Media: the Russia-Ukraine Maidan Crisis of 2013--2014
+ShortPaperTitle#=%=#Tracking Bias in News Sources Using Social Media: the Russia-Ukraine Maidan Crisis of 2013--2014
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Peter Potash
+JobTitle#==#
+Organization#==#University of Massachusetts Lowell
+220 Pawtucket St, Lowell, MA 01854
+Abstract#==#This paper addresses the task of identifying the bias in news articles
+published during a political or social conflict. We create a silver-standard
+corpus based on the actions of users in social media. Specifically, we
+reconceptualize bias in terms of how likely a given article is to be shared or
+liked by each of the opposing sides. We apply our methodology to a dataset of
+links collected in relation to the Russia-Ukraine Maidan crisis from 2013-2014.
+ We show that on the task of predicting which side is likely to prefer a given
+article, a Naive Bayes classifier can record 90.3% accuracy looking only at
+domain names of the news sources. The best accuracy of 93.5% is achieved by a
+feed forward neural network. We also apply our methodology to gold-labeled set
+of articles annotated for bias, where the aforementioned Naive Bayes classifier
+records 82.6% accuracy and a feed-forward neural networks records 85.6%
+accuracy.
+Author{1}{Firstname}#=%=#Peter
+Author{1}{Lastname}#=%=#Potash
+Author{1}{Email}#=%=#ppotash@cs.uml.edu
+Author{1}{Affiliation}#=%=#University of Massachusetts Lowell
+Author{2}{Firstname}#=%=#Alexey
+Author{2}{Lastname}#=%=#Romanov
+Author{2}{Email}#=%=#jgc128@outlook.com
+Author{2}{Affiliation}#=%=#UMass Lowell
+Author{3}{Firstname}#=%=#Mikhail
+Author{3}{Lastname}#=%=#Gronas
+Author{3}{Email}#=%=#mgronas@gmail.com
+Author{3}{Affiliation}#=%=#Dartmouth College
+Author{4}{Firstname}#=%=#Anna
+Author{4}{Lastname}#=%=#Rumshisky
+Author{4}{Email}#=%=#arum@cs.uml.edu
+Author{4}{Affiliation}#=%=#University of Massachusetts Lowell
+Author{5}{Firstname}#=%=#Mikhail
+Author{5}{Lastname}#=%=#Gronas
+Author{5}{Email}#=%=#mikhail.gronas@dartmouth.edu
+Author{5}{Affiliation}#=%=#Dartmouth College
+
+==========

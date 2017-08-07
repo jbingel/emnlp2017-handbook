@@ -1,0 +1,59 @@
+SubmissionNumber#=%=#85
+FinalPaperTitle#=%=#A Report on the 2017 Native Language Identification Shared Task
+ShortPaperTitle#=%=#A Report on the 2017 Native Language Identification Shared Task
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Shervin Malmasi
+JobTitle#==#
+Organization#==#Macquarie University
+Abstract#==#Native Language Identification (NLI) is the task of automatically identifying
+the native language (L1) of an individual based on their language production in
+a learned language. It is typically framed as a classification task where the
+set of L1s is known a priori. Two previous shared tasks on NLI have been
+organized where the aim was to identify the L1 of learners of English based on
+essays (2013) and spoken responses (2016) they provided during a standardized
+assessment of academic English proficiency. The 2017 shared task combines the
+inputs from the two prior tasks for the first time. There are three tracks: NLI
+on the essay only, NLI on the spoken response only (based on a transcription of
+the response and i-vector acoustic features), and NLI using both responses. We
+believe this makes for a more interesting shared task while building on the
+methods and results from the previous two shared tasks. In this paper, we
+report the results of the shared task. A total of 19 teams competed across the
+three different sub-tasks. The fusion track showed that combining the written
+and spoken responses provides a large boost in prediction accuracy. Multiple
+classifier systems (e.g. ensembles and meta-classifiers) were the most
+effective in all tasks, with most based on traditional classifiers (e.g. SVMs)
+with lexical/syntactic features.
+Author{1}{Firstname}#=%=#Shervin
+Author{1}{Lastname}#=%=#Malmasi
+Author{1}{Email}#=%=#shervin.malmasi@students.mq.edu.au
+Author{1}{Affiliation}#=%=#Harvard Medical School
+Author{2}{Firstname}#=%=#Keelan
+Author{2}{Lastname}#=%=#Evanini
+Author{2}{Email}#=%=#kevanini@ets.org
+Author{2}{Affiliation}#=%=#Educational Testing Service
+Author{3}{Firstname}#=%=#Aoife
+Author{3}{Lastname}#=%=#Cahill
+Author{3}{Email}#=%=#acahill@ets.org
+Author{3}{Affiliation}#=%=#Educational Testing Service
+Author{4}{Firstname}#=%=#Joel
+Author{4}{Lastname}#=%=#Tetreault
+Author{4}{Email}#=%=#tetreaul@gmail.com
+Author{4}{Affiliation}#=%=#Grammarly
+Author{5}{Firstname}#=%=#Robert
+Author{5}{Lastname}#=%=#Pugh
+Author{5}{Email}#=%=#rpugh@ets.org
+Author{5}{Affiliation}#=%=#Educational Testing Service
+Author{6}{Firstname}#=%=#Christopher
+Author{6}{Lastname}#=%=#Hamill
+Author{6}{Email}#=%=#chamill@ets.org
+Author{6}{Affiliation}#=%=#Educational Testing Service
+Author{7}{Firstname}#=%=#Diane
+Author{7}{Lastname}#=%=#Napolitano
+Author{7}{Email}#=%=#dnapolitano@ets.org
+Author{7}{Affiliation}#=%=#Educational Testing Service
+Author{8}{Firstname}#=%=#Yao
+Author{8}{Lastname}#=%=#Qian
+Author{8}{Email}#=%=#yqian@ets.org
+Author{8}{Affiliation}#=%=#Educational Testing Service
+
+==========

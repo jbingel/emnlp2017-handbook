@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Question Difficulty -- How to Estimate Without Norming, How to Use for Automated Grading
+ShortPaperTitle#=%=#Question Difficulty
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ulrike Pado
+JobTitle#==#
+Organization#==#HFT Stuttgart
+Abstract#==#Question difficulty estimates guide test creation, but are too costly for
+small-scale testing. We empirically verify that Bloom's Taxonomy, a standard
+tool for difficulty estimation during question creation, reliably predicts
+question difficulty observed after testing in a short-answer corpus. We also
+find that difficulty is mirrored in the amount of variation in student answers,
+which can be computed before grading.
+
+We show that question difficulty and its approximations are useful for
+\textit{automated grading}, allowing us to identify the optimal feature set for
+grading each question even in an unseen-question setting.
+Author{1}{Firstname}#=%=#Ulrike
+Author{1}{Lastname}#=%=#Pado
+Author{1}{Email}#=%=#ulrike.pado@hft-stuttgart.de
+Author{1}{Affiliation}#=%=#HFT Stuttgart
+
+==========

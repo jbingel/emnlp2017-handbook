@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Dependency Parsing with Dilated Iterated Graph CNNs
+ShortPaperTitle#=%=#Dependency Parsing with Dilated Iterated Graph CNNs
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Emma Strubell
+JobTitle#==#
+Organization#==#
+Abstract#==#Dependency parses are an effective way to inject linguistic knowledge into many
+downstream tasks, and many practitioners wish to efficiently parse sentences at
+scale. Recent advances in GPU hardware have enabled neural networks to achieve
+significant gains over the previous best models, these models still fail to
+leverage GPUs' capability for massive parallelism due to their requirement of
+sequential processing of the sentence. In response, we propose Dilated Iterated
+Graph Convolutional Neural Networks (DIG-CNNs) for
+graph-based dependency parsing, a graph convolutional architecture that allows
+for efficient end-to-end GPU parsing. In experiments on the English Penn
+TreeBank benchmark, we show that DIG-CNNs perform on par with some of the best
+neural network parsers.
+Author{1}{Firstname}#=%=#Emma
+Author{1}{Lastname}#=%=#Strubell
+Author{1}{Email}#=%=#strubell@cs.umass.edu
+Author{1}{Affiliation}#=%=#University of Massachusetts, Amherst
+Author{2}{Firstname}#=%=#Andrew
+Author{2}{Lastname}#=%=#McCallum
+Author{2}{Email}#=%=#mccallum@cs.umass.edu
+Author{2}{Affiliation}#=%=#UMass Amherst
+
+==========

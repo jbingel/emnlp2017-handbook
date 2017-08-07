@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#42
+FinalPaperTitle#=%=#NeuroNER: an easy-to-use program for named-entity recognition based on neural networks
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Named-entity recognition (NER) aims at identifying entities of interest in a
+text. Artificial neural networks (ANNs) have recently been shown to outperform
+existing NER systems. However, ANNs remain challenging to use for non-expert
+users. In this paper, we present NeuroNER, an easy-to-use named-entity
+recognition tool based on ANNs.  Users can annotate entities using a graphical
+web-based user interface (BRAT): the annotations are then used to train an ANN,
+which in turn predict entities' locations and categories in new texts. NeuroNER
+ makes this annotation-training-prediction flow smooth and accessible to
+anyone.
+Author{1}{Firstname}#=%=#Franck
+Author{1}{Lastname}#=%=#Dernoncourt
+Author{1}{Email}#=%=#franck.dernoncourt@gmail.com
+Author{1}{Affiliation}#=%=#MIT
+Author{2}{Firstname}#=%=#Ji Young
+Author{2}{Lastname}#=%=#Lee
+Author{2}{Email}#=%=#jjylee@mit.edu
+Author{2}{Affiliation}#=%=#MIT
+Author{3}{Firstname}#=%=#Peter
+Author{3}{Lastname}#=%=#Szolovits
+Author{3}{Email}#=%=#psz@mit.edu
+Author{3}{Affiliation}#=%=#MIT
+
+==========

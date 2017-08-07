@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Context-Sensitive Recognition for Emerging and Rare Entities
+ShortPaperTitle#=%=#Context-Sensitive Recognition for Emerging and Rare Entities
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Jakr Ryland Williams
+JobTitle#==#Assistant Professor
+Organization#==#Drexel University, Department of Information Science
+Abstract#==#This paper is a shared task system description for the 2017 W-NUT shared task
+on Rare and Emerging Named Entities. Our paper describes the development and
+application of a novel algorithm for named entity recognition that relies only
+on the contexts of word forms. A comparison against the other submitted systems
+is provided.
+Author{1}{Firstname}#=%=#Jake
+Author{1}{Lastname}#=%=#Williams
+Author{1}{Email}#=%=#Jake.Williams@drexel.edu
+Author{1}{Affiliation}#=%=#Drexel University
+Author{2}{Firstname}#=%=#Giovanni
+Author{2}{Lastname}#=%=#Santia
+Author{2}{Email}#=%=#gs495@drexel.edu
+Author{2}{Affiliation}#=%=#Drexel University
+
+==========

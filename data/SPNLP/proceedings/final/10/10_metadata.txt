@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Syntax Aware LSTM model for Semantic Role Labeling
+ShortPaperTitle#=%=#Syntax Aware LSTM for SRL
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Feng Qian
+JobTitle#==#
+Organization#==#FengQian
+
+Institute of Network Computing and Information Systems
+Abstract#==#In Semantic Role Labeling (SRL) task, the tree structured dependency relation
+is rich in syntax information, but it is not well handled by existing models.
+In this paper, we propose Syntax Aware Long Short Time Memory (SA-LSTM). The
+structure of SA-LSTM changes according to dependency structure of each
+sentence, so that SA-LSTM can model the whole tree structure of dependency
+relation in an architecture engineering way. Experiments demonstrate that on
+Chinese Proposition Bank (CPB) 1.0, SA-LSTM improves F1 by 2.06% than ordinary
+bi-LSTM with feature engineered dependency relation information, and gives
+state-of-the-art F1 of 79.92%. On English CoNLL 2005 dataset, SA-LSTM brings
+improvement (2.1%) to bi-LSTM model and also brings slight improvement (0.3%)
+when added to the state-of-the-art model.
+Author{1}{Firstname}#=%=#Feng
+Author{1}{Lastname}#=%=#Qian
+Author{1}{Email}#=%=#nickqian_china@163.com
+Author{1}{Affiliation}#=%=#Peking University Department of EECS
+Author{2}{Firstname}#=%=#Lei
+Author{2}{Lastname}#=%=#Sha
+Author{2}{Email}#=%=#shalei120@sina.com
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Baobao
+Author{3}{Lastname}#=%=#Chang
+Author{3}{Email}#=%=#chbb@pku.edu.cn
+Author{3}{Affiliation}#=%=#Institute of Computational Linguistic, Peking Univerisity
+Author{4}{Firstname}#=%=#LuChen
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Email}#=%=#liuluchen@pku.edu.cn
+Author{4}{Affiliation}#=%=#Institute of Network Computing and Information Systems
+Author{5}{Firstname}#=%=#Ming
+Author{5}{Lastname}#=%=#Zhang
+Author{5}{Email}#=%=#mzhang_cs@pku.edu.cn
+Author{5}{Affiliation}#=%=#Institute of Network Computing and Information Systems
+
+==========

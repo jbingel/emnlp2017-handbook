@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#Deception Detection in News Reports in the Russian Language: Lexics and Discourse
+ShortPaperTitle#=%=#Deception Detection in News Reports in the Russian Language: Lexics and Discourse
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Dina
+JobTitle#==#
+Organization#==#
+Abstract#==#News verification and automated fact checking tend to be very important issues
+in our world. The research is initial. We collected a corpus for Russian (174
+news reports, truthful and fake ones). We held two experiments, for both we
+applied SVMs algorithm (linear/rbf kernel) and Random Forest to classify the
+news reports into 2 classes: truthful/deceptive. In the first experiment, we
+used 18 markers on lexics level, mostly frequencies of POS tags in texts. In
+the second experiment, on discourse level we used frequencies of rhetorical
+relations types in texts. The classification task in the first experiment is
+solved better by SVMs (rbf kernel) (f-measure 0.65). The model based on RST
+features shows best results with Random Forest Classifier (f-measure 0.54) and
+should be modified. In the next research, the combination of different
+deception detection markers for the Russian language should be taken in order
+to make a better predictive model.
+Author{1}{Firstname}#=%=#Dina
+Author{1}{Lastname}#=%=#Pisarevskaya
+Author{1}{Email}#=%=#dinabpr@gmail.com
+Author{1}{Affiliation}#=%=#Russian Academy of Sciences
+
+==========

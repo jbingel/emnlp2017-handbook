@@ -1,0 +1,14 @@
+SubmissionNumber#=%=#59
+FinalPaperTitle#=%=#Test Paper
+ShortPaperTitle#=%=#Test Paper
+NumberOfPages#=%=#1
+CopyrightSigned#=%=#Matt Post
+JobTitle#==#Professor
+Organization#==#JHU
+Abstract#==#This is a test.
+Author{1}{Firstname}#=%=#Matt
+Author{1}{Lastname}#=%=#Post
+Author{1}{Email}#=%=#post@cs.jhu.edu
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+
+==========

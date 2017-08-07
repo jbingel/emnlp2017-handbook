@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Coarse-to-Fine Attention Models for Document Summarization
+ShortPaperTitle#=%=#Coarse-to-Fine Attention Models for Document Summarization
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jeffrey Ling
+JobTitle#==#
+Organization#==#Harvard University
+29 Oxford St
+Cambridge, MA 02138
+Abstract#==#Sequence-to-sequence models with attention have been successful for a variety
+of NLP problems, but their speed does not scale well for tasks with long source
+sequences such as document summarization.
+We propose a novel coarse-to-fine attention model that hierarchically reads a
+document, using coarse attention to select top-level chunks of text and fine
+attention to read the words of the chosen chunks. While the computation for
+training standard attention models scales linearly with source sequence length,
+our method scales with the number of top-level chunks and can handle much
+longer sequences.
+Empirically, we find that while coarse-to-fine attention models lag behind
+state-of-the-art baselines, our method achieves the desired behavior of
+sparsely attending to subsets of the document for generation.
+Author{1}{Firstname}#=%=#Jeffrey
+Author{1}{Lastname}#=%=#Ling
+Author{1}{Email}#=%=#jling@college.harvard.edu
+Author{1}{Affiliation}#=%=#Harvard University
+Author{2}{Firstname}#=%=#Alexander
+Author{2}{Lastname}#=%=#Rush
+Author{2}{Email}#=%=#srush@seas.harvard.edu
+Author{2}{Affiliation}#=%=#Harvard University
+
+==========

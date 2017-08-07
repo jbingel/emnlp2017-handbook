@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Multimedia Summary Generation from Online Conversations: Current Approaches and Future Directions
+ShortPaperTitle#=%=#Multimedia Summary Generation from Online Conversations: Current Approaches and Future Directions
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Enamul Hoque
+JobTitle#==#
+Organization#==#University of British Columbia, 
+201-2366 Main Mall,
+Vancouver, BC, V6T1Z4
+Canada
+Abstract#==#With the proliferation of Web-based social media, asynchronous conversations
+have become very common for supporting online communication and collaboration.
+Yet the increasing volume and complexity of conversational data often make
+it very difficult to get insights about the discussions. We consider combining
+textual summary with visual representation of conversational data as a
+promising way of supporting the user in exploring conversations. In this paper,
+we report our current work on developing visual interfaces that
+present multimedia summary combining text and visualization for online
+conversations and how our solutions have been tailored for a variety of domain
+problems. We then discuss the key challenges and opportunities for future work
+in this research space.
+Author{1}{Firstname}#=%=#Enamul
+Author{1}{Lastname}#=%=#Hoque
+Author{1}{Email}#=%=#enamul@cs.ubc.ca
+Author{1}{Affiliation}#=%=#University of British Columbia
+Author{2}{Firstname}#=%=#Giuseppe
+Author{2}{Lastname}#=%=#Carenini
+Author{2}{Email}#=%=#carenini@cs.ubc.ca
+Author{2}{Affiliation}#=%=#university of british columbia
+
+==========

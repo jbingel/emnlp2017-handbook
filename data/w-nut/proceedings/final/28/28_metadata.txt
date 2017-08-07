@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#Lithium NLP: A System for Rich Information Extraction from Noisy User Generated Text on Social Media
+ShortPaperTitle#=%=#Lithium NLP: A System for Rich Information Extraction from Noisy User Generated Text on Social Media
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Preeti Bhargava
+JobTitle#==#
+Organization#==#Lithium Technologies Inc.
+Abstract#==#In this paper, we describe the Lithium Natural Language Processing (NLP) system
+- a resource-constrained, high- throughput and language-agnostic system for
+information extraction from noisy user generated text on social media. Lithium
+NLP extracts a rich set of information including entities, top- ics, hashtags
+and sentiment from text. We discuss several real world applications of the
+system currently incorporated in Lithium products. We also compare our system
+with existing commercial and academic NLP systems in terms of performance,
+information extracted and languages supported. We show that Lithium NLP is at
+par with and in some cases, outperforms state- of-the-art commercial NLP
+systems.
+Author{1}{Firstname}#=%=#Preeti
+Author{1}{Lastname}#=%=#Bhargava
+Author{1}{Email}#=%=#preeti.bhargava@lithium.com
+Author{1}{Affiliation}#=%=#Lithium Technologies Inc.
+Author{2}{Firstname}#=%=#Nemanja
+Author{2}{Lastname}#=%=#Spasojevic
+Author{2}{Email}#=%=#nemanja.spasojevic@lithium.com
+Author{2}{Affiliation}#=%=#Lithium Technologies Inc.
+Author{3}{Firstname}#=%=#Guoning
+Author{3}{Lastname}#=%=#Hu
+Author{3}{Email}#=%=#guoning.hu@lithium.com
+Author{3}{Affiliation}#=%=#Lithium Technologies Inc.
+
+==========

@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#33
+FinalPaperTitle#=%=#Auxiliary Objectives for Neural Error Detection Models
+ShortPaperTitle#=%=#Auxiliary Objectives for Neural Error Detection Models
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Marek Rei
+JobTitle#==#
+Organization#==#
+Abstract#==#We investigate the utility of different auxiliary objectives and training
+strategies within a neural sequence labeling approach to error detection in
+learner writing. 
+Auxiliary costs provide the model with additional linguistic information,
+allowing it to learn general-purpose compositional features that can then be
+exploited for other objectives.
+Our experiments show that a joint learning approach trained with parallel
+labels on in-domain data improves performance over the previous best error
+detection system. 
+While the resulting model has the same number of parameters, the additional
+objectives allow it to be optimised more efficiently and achieve better
+performance.
+Author{1}{Firstname}#=%=#Marek
+Author{1}{Lastname}#=%=#Rei
+Author{1}{Email}#=%=#marek.rei@cl.cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Helen
+Author{2}{Lastname}#=%=#Yannakoudakis
+Author{2}{Email}#=%=#helen.yannakoudakis@cl.cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+
+==========

@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#80
+FinalPaperTitle#=%=#Native Language Identification using Phonetic Algorithms
+ShortPaperTitle#=%=#Native Language Identification using Phonetic Algorithms
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Charese Smiley
+JobTitle#==#
+Organization#==#Indiana University, Department of Linguistics, Bloomington, Indiana 47405
+Abstract#==#In this paper, we discuss the results of the IUCL system in the NLI Shared Task
+2017. For our system, we explore a variety of phonetic algorithms to generate
+features for Native Language Identification. These features are contrasted with
+one of the most successful type of features in NLI, character n-grams. We find
+that although phonetic features do not perform as well as character n-grams
+alone, they do increase overall F1 score when used together with character
+n-grams.
+Author{1}{Firstname}#=%=#Charese
+Author{1}{Lastname}#=%=#Smiley
+Author{1}{Email}#=%=#charese.smiley@thomsonreuters.com
+Author{1}{Affiliation}#=%=#Thomson Reuters
+Author{2}{Firstname}#=%=#Sandra
+Author{2}{Lastname}#=%=#Kübler
+Author{2}{Email}#=%=#skuebler@indiana.edu
+Author{2}{Affiliation}#=%=#Indiana University
+
+==========

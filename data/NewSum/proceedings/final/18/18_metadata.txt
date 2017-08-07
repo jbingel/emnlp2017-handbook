@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Revisiting the Centroid-based Method: A Strong Baseline for Multi-Document Summarization
+ShortPaperTitle#=%=#Revisiting the Centroid-based Method for Multi-Document Summarization
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Demian Gholipour Ghalandari
+JobTitle#==#
+Organization#==#Aylien Ltd.
+Equity House,
+Upper Ormond Quay,
+Dublin 7,
+Ireland
+Abstract#==#The centroid-based model for extractive document summarization is a simple and
+fast baseline that ranks sentences based on their similarity to a centroid
+vector. In this paper, we apply this ranking to possible summaries instead of
+sentences and use a simple greedy algorithm to find the best summary.
+Furthermore, we show possibilities to scale up to larger input document
+collections by selecting a small number of sentences from each document prior
+to constructing the summary.
+Experiments were done on the DUC2004 dataset for multi-document summarization.
+We observe a higher performance over the original model, on par with more
+complex state-of-the-art methods.
+Author{1}{Firstname}#=%=#Demian
+Author{1}{Lastname}#=%=#Gholipour Ghalandari
+Author{1}{Email}#=%=#demian@aylien.com
+Author{1}{Affiliation}#=%=#Aylien Ltd., Dublin, Ireland
+
+==========

@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Huntsville, hospitals, and hockey teams: Names can reveal your location
+ShortPaperTitle#=%=#Huntsville, hospitals, and hockey teams: Names can reveal your location
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Bahar Salehi
+JobTitle#==#
+Organization#==#
+Abstract#==#Geolocation is the task of identifying a social media user’s primary
+location, and in natural language processing, there is a growing literature on
+to what extent automated analysis of social media posts can help. However, not
+all content features are equally revealing of a user’s location.
+In this paper, we evaluate nine name entity (NE) types. Using various metrics,
+we find that GEO-LOC, FACILITY and SPORT-TEAM are more informative for
+geolocation than other NE types. Using these types, we improve geolocation
+accuracy and reduce distance error over various famous text-based methods.
+Author{1}{Firstname}#=%=#Bahar
+Author{1}{Lastname}#=%=#Salehi
+Author{1}{Email}#=%=#baharsalehi@gmail.com
+Author{1}{Affiliation}#=%=#University of Copenhagen
+Author{2}{Firstname}#=%=#Dirk
+Author{2}{Lastname}#=%=#Hovy
+Author{2}{Email}#=%=#mail@dirkhovy.com
+Author{2}{Affiliation}#=%=#Center for Language Technology, University of Copenhagen
+Author{3}{Firstname}#=%=#Eduard
+Author{3}{Lastname}#=%=#Hovy
+Author{3}{Email}#=%=#hovy@cmu.edu
+Author{3}{Affiliation}#=%=#CMU
+Author{4}{Firstname}#=%=#Anders
+Author{4}{Lastname}#=%=#Søgaard
+Author{4}{Email}#=%=#soegaard@di.ku.dk
+Author{4}{Affiliation}#=%=#University of Copenhagen
+
+==========

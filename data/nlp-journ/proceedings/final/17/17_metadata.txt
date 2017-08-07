@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Using New York Times Picks to Identify Constructive Comments
+ShortPaperTitle#=%=#Using New York Times Picks to Identify Constructive Comments
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Varada Kolhatkar
+JobTitle#==#
+Organization#==#Simon Fraser University 
+8888 University Dr, Burnaby, BC V5A 1S6
+Abstract#==#We examine the extent to which we are able to automatically identify
+constructive online comments. We build several classifiers using New York Times
+Picks as positive examples and non-constructive thread comments from the Yahoo
+News Annotated Comments Corpus as negative examples of constructive online
+comments. We evaluate these classifiers on a crowd-annotated corpus containing
+1,121 comments. Our best classifier achieves a top F1 score of 0.84.
+Author{1}{Firstname}#=%=#Varada
+Author{1}{Lastname}#=%=#Kolhatkar
+Author{1}{Email}#=%=#varada.kolhatkar@gmail.com
+Author{1}{Affiliation}#=%=#Simon Fraser University
+Author{2}{Firstname}#=%=#Maite
+Author{2}{Lastname}#=%=#Taboada
+Author{2}{Email}#=%=#mtaboada@sfu.ca
+Author{2}{Affiliation}#=%=#Simon Fraser University
+
+==========

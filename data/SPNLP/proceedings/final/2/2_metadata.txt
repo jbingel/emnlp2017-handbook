@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Entity Identification as Multitasking
+ShortPaperTitle#=%=#Entity Identification as Multitasking
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Karl Stratos
+JobTitle#==#
+Organization#==#
+Abstract#==#Standard approaches in entity identification hard-code boundary detection and
+type prediction into labels and perform Viterbi. This has two disadvantages: 1.
+the runtime complexity grows quadratically in the number of types, and 2. there
+is no natural segment-level representation. In this paper, we propose a neural
+architecture that addresses these disadvantages. We frame the problem as
+multitasking, separating boundary detection and type prediction but optimizing
+them jointly. Despite its simplicity, this architecture performs competitively
+with fully structured models such as BiLSTM-CRFs while scaling linearly in the
+number of types. Furthermore, by construction, the model induces
+type-disambiguating embeddings of predicted mentions.
+Author{1}{Firstname}#=%=#Karl
+Author{1}{Lastname}#=%=#Stratos
+Author{1}{Email}#=%=#me@karlstratos.com
+Author{1}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+
+==========

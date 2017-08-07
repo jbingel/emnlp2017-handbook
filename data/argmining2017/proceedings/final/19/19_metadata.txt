@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Unsupervised Detection of Argumentative Units though Topic Modeling Techniques
+ShortPaperTitle#=%=#Unsupervised Detection of Argumentative Units though Topic Modeling Techniques
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Georgios Petasis
+JobTitle#==#
+Organization#==#Institute of Informatics and Telecommunications,
+National Centre for Scientific Research (N.C.S.R.) “Demokritos”
+P.O. BOX 60228, Aghia Paraskevi, GR-153 10, Athens, Greece
+Abstract#==#In this paper we present a new unsupervised approach, “Attraction to
+Topics” –
+A2T , for the detection of argumentative units, a sub-task of argument mining.
+Motivated by the importance of topic identification in manual annotation, we
+examine whether topic modeling can be used for performing unsupervised
+detection of argumentative sentences, and to what extend topic modeling can be
+used to classify sentences as claims and premises.
+Preliminary evaluation results suggest that topic information can be
+successfully used for the detection of argumentative sentences, at least for
+corpora used for evaluation.
+Our approach has been evaluated on two English corpora, the first of which
+contains 90 persuasive essays, while the second is a collection of 340
+documents from user generated content.
+Author{1}{Firstname}#=%=#Alfio
+Author{1}{Lastname}#=%=#Ferrara
+Author{1}{Email}#=%=#alfio.ferrara@unimi.it
+Author{1}{Affiliation}#=%=#Università degli Studi di Milano, Milano, Italy
+Author{2}{Firstname}#=%=#Stefano
+Author{2}{Lastname}#=%=#Montanelli
+Author{2}{Email}#=%=#stefano.montanelli@unimi.it
+Author{2}{Affiliation}#=%=#Università degli Studi di Milano, Milano, Italy
+Author{3}{Firstname}#=%=#Georgios
+Author{3}{Lastname}#=%=#Petasis
+Author{3}{Email}#=%=#petasis@iit.demokritos.gr
+Author{3}{Affiliation}#=%=#NCSR "Demokritos"
+
+==========

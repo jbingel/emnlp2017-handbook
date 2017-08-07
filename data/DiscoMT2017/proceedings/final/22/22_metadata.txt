@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#Findings of the 2017 DiscoMT Shared Task on Cross-lingual Pronoun Prediction
+ShortPaperTitle#=%=#Findings of the 2017 DiscoMT Shared Task on Cross-lingual Pronoun Prediction
+NumberOfPages#=%=#16
+CopyrightSigned#=%=#Sharid Loáiciga
+JobTitle#==#
+Organization#==#Uppsala University
+Abstract#==#We describe the design, the setup, and the evaluation results of the DiscoMT
+2017 shared task on cross-lingual pronoun prediction. The task asked
+participants to predict a target-language pronoun given a source-language
+pronoun in the context of a sentence. We further provided a lemmatized
+target-language human-authored translation of the source sentence, and
+automatic word alignments between the source sentence words and the
+target-language lemmata. The aim of the task was to predict, for each
+target-language pronoun placeholder, the word that should replace it from a
+small, closed set of classes, using any type of information that can be
+extracted from the entire document. We offered four subtasks, each for a
+different language pair and translation direction: English-to-French,
+English-to-German, German-to-English, and Spanish-to-English. Five teams
+participated in the shared task, making submissions for all language pairs. The
+evaluation results show that most participating teams outperformed two strong
+n-gram-based language model-based baseline systems by a sizable margin.
+Author{1}{Firstname}#=%=#Sharid
+Author{1}{Lastname}#=%=#Loáiciga
+Author{1}{Email}#=%=#sharid.loaiciga@lingfil.uu.se
+Author{1}{Affiliation}#=%=#Uppsala University
+Author{2}{Firstname}#=%=#Sara
+Author{2}{Lastname}#=%=#Stymne
+Author{2}{Email}#=%=#sara.stymne@lingfil.uu.se
+Author{2}{Affiliation}#=%=#Uppsala University
+Author{3}{Firstname}#=%=#Preslav
+Author{3}{Lastname}#=%=#Nakov
+Author{3}{Email}#=%=#preslav.nakov@gmail.com
+Author{3}{Affiliation}#=%=#Qatar Computing Research Institute, HBKU
+Author{4}{Firstname}#=%=#Christian
+Author{4}{Lastname}#=%=#Hardmeier
+Author{4}{Email}#=%=#christian.hardmeier@lingfil.uu.se
+Author{4}{Affiliation}#=%=#Uppsala University
+Author{5}{Firstname}#=%=#Jörg
+Author{5}{Lastname}#=%=#Tiedemann
+Author{5}{Email}#=%=#jorg.tiedemann@helsinki.fi
+Author{5}{Affiliation}#=%=#University of Helsinki
+Author{6}{Firstname}#=%=#Mauro
+Author{6}{Lastname}#=%=#Cettolo
+Author{6}{Email}#=%=#cettolo@fbk.eu
+Author{6}{Affiliation}#=%=#FBK
+Author{7}{Firstname}#=%=#Yannick
+Author{7}{Lastname}#=%=#Versley
+Author{7}{Email}#=%=#yversley@gmail.com
+Author{7}{Affiliation}#=%=#LangTec
+
+==========

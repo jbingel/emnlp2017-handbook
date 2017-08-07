@@ -1,0 +1,30 @@
+= 08:45--10:30 Morning Session 1
++ 08:45--08:50 Opening Remarks
+! 08:50--09:50 Invited Talk %by Andreas Kerren
+2 09:50--10:10  # Video Highlights Detection and Summarization with Lag-Calibration based on Concept-Emotion Mapping of Crowdsourced Time-Sync Comments
+6 10:10--10:30  # Multimedia Summary Generation from Online Conversations: Current Approaches and Future Directions
++ 10:30--11:00 Break
+= 11:00--12:30 Morning Session 2
+! 11:00--12:00 Invited Talk %by Katja Filippova
+13 12:00--12:15  # Low-Resource Neural Headline Generation
+24 12:15--12:30  # Towards Improving Abstractive Summarization via Entailment Generation
++ 12:30--14:00 Lunch
+= 14:00--15:30 Poster Session
+#2  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Video Highlights Detection and Summarization with Lag-Calibration based on Concept-Emotion Mapping of Crowdsourced Time-Sync Comments
+3   # Coarse-to-Fine Attention Models for Document Summarization
+4   # Automatic Community Creation for Abstractive Spoken Conversations Summarization
+#6  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Multimedia Summary Generation from Online Conversations: Current Approaches and Future Directions
+11   # Combining Graph Degeneracy and Submodularity for Unsupervised Extractive Summarization
+12   # TL;DR: Mining Reddit to Learn Automatic Summarization
+#13  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Low-Resource Neural Headline Generation
+14   # Topic Model Stability for Hierarchical Summarization
+15   # Learning to Score System Summaries for Better Content Selection Evaluation.
+18   # Revisiting the Centroid-based Method: A Strong Baseline for Multi-Document Summarization
+#24  # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Towards Improving Abstractive Summarization via Entailment Generation
+25   # Reader-Aware Multi-Document Summarization: An Enhanced Model and The First Dataset
+26   # A Pilot Study of Domain Adaptation Effect for Neural Abstractive Summarization
+= 15:30--17:15 Afternoon Session
+! 15:30--16:30 Invited Talk %by Ani Nenkova
+#25 16:30--16:50 # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Reader-Aware Multi-Document Summarization: An Enhanced Model and The First Dataset
+#15 16:50--17:10 # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Learning to Score System Summaries for Better Content Selection Evaluation.
++ 17:10--17:15 Closing Remarks

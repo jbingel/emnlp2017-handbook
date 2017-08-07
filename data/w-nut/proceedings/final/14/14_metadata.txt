@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Noisy Uyghur Text Normalization
+ShortPaperTitle#=%=#Noisy Uyghur Text Normalization
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Ruket Cakici
+JobTitle#==#Lecturer
+Organization#==#Middle East Technical University, Computer Engineering Department
+Abstract#==#Uyghur is the second largest and most actively used social media language in
+China. However, a non-negligible part of Uyghur text appearing in social media
+is unsystematically written with the Latin alphabet, and it continues to
+increase in size. Uyghur text in this format is incomprehensible and ambiguous
+even to native Uyghur speakers. In addition, Uyghur texts in this form lack the
+potential for any kind of advancement for the NLP tasks related to the Uyghur
+language. Restoring and preventing noisy Uyghur text written with unsystematic
+Latin alphabets will be essential to the protection of Uyghur language and
+improving the accuracy of Uyghur NLP tasks. To this purpose, in this work we
+propose and compare the noisy channel model and the neural encoder-decoder
+model as normalizing methods.
+Author{1}{Firstname}#=%=#Osman
+Author{1}{Lastname}#=%=#Tursun
+Author{1}{Email}#=%=#osmanjan.t@gmail.com
+Author{1}{Affiliation}#=%=#Middle East Technical University
+Author{2}{Firstname}#=%=#Ruket
+Author{2}{Lastname}#=%=#Cakici
+Author{2}{Email}#=%=#ruken@ceng.metu.edu.tr
+Author{2}{Affiliation}#=%=#Middle East Technical University
+
+==========

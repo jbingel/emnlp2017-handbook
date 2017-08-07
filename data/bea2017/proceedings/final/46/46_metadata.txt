@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#46
+FinalPaperTitle#=%=#Modelling semantic acquisition in second language learning
+ShortPaperTitle#=%=#Modelling semantic acquisition in second language learning
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Ekaterina Kochmar
+JobTitle#==#
+Organization#==#
+Abstract#==#Using methods of statistical analysis, we investigate how semantic knowledge is
+acquired in English as a second language and evaluate the pace of development
+across a number of predicate types and content word combinations, as well as
+across the levels of language proficiency and native languages. Our exploratory
+study helps identify the most problematic areas for language learners with
+different backgrounds and at different stages of learning.
+Author{1}{Firstname}#=%=#Ekaterina
+Author{1}{Lastname}#=%=#Kochmar
+Author{1}{Email}#=%=#ekaterina.kochmar@cl.cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Ekaterina
+Author{2}{Lastname}#=%=#Shutova
+Author{2}{Email}#=%=#es407@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+
+==========

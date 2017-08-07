@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Combining the output of two coreference resolution systems for two source languages to improve annotation projection
+ShortPaperTitle#=%=#Combining the output of two coreference resolution systems for two source languages to improve annotation projection
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Yulia Grishina
+JobTitle#==#
+Organization#==#
+Abstract#==#Although parallel coreference corpora can
+to a high degree support the development
+of SMT systems, there are no large-scale
+parallel datasets available due to the complexity
+of the annotation task and the variability
+in annotation schemes. In this
+study, we exploit an annotation projection
+method to combine the output of two
+coreference resolution systems for two
+different source languages (English, German)
+in order to create an annotated corpus
+for a third language (Russian). We
+show that our technique is superior to projecting
+annotations from a single source
+language, and we provide an in-depth
+analysis of the projected annotations in order
+to assess the perspectives of our approach.
+Author{1}{Firstname}#=%=#Yulia
+Author{1}{Lastname}#=%=#Grishina
+Author{1}{Email}#=%=#grishina@uni-potsdam.de
+Author{1}{Affiliation}#=%=#University of Potsdam
+
+==========

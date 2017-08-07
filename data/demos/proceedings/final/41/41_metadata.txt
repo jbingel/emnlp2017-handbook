@@ -1,0 +1,55 @@
+SubmissionNumber#=%=#41
+FinalPaperTitle#=%=#Unsupervised, Knowledge-Free, and Interpretable Word Sense Disambiguation
+ShortPaperTitle#=%=#Unsupervised, Knowledge-Free, and Interpretable Word Sense Disambiguation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Alexander Panchenko
+JobTitle#==#
+Organization#==#University of Hamburg
+Faculty of Mathematics, Informatics and Natural Sciences
+Department of Informatics, Language Technology Group 
+Vogt-Kölln-Str. 30, F-416, 22527 Hamburg
+Tel: +49 40 428 832 368
+https://www.inf.uni-hamburg.de/en/inst/ab/lt/people/alexander-panchenko.html
+Abstract#==#Interpretability of a predictive model is a powerful feature that gains the
+trust of users in the correctness of the predictions.  In word sense
+disambiguation (WSD), knowledge-based systems tend to be much more
+interpretable than knowledge-free counterparts as they rely on the wealth of
+manually-encoded elements representing word senses, such as hypernyms, usage
+examples, and images. We present a WSD system that bridges the gap between
+these two so far disconnected groups of methods. Namely, our system, providing
+access to several state-of-the-art WSD models, aims to be interpretable as a
+knowledge-based system while it remains completely unsupervised and
+knowledge-free. The presented tool features a Web interface for all-word
+disambiguation of texts that makes the sense predictions human readable by
+providing interpretable word sense inventories, sense representations, and
+disambiguation results. We provide a public API, enabling seamless integration.
+Author{1}{Firstname}#=%=#Alexander
+Author{1}{Lastname}#=%=#Panchenko
+Author{1}{Email}#=%=#panchenko.alexander@gmail.com
+Author{1}{Affiliation}#=%=#University of Hamburg
+Author{2}{Firstname}#=%=#Fide
+Author{2}{Lastname}#=%=#Marten
+Author{2}{Email}#=%=#derfide@gmail.com
+Author{2}{Affiliation}#=%=#University of Hamburg
+Author{3}{Firstname}#=%=#Eugen
+Author{3}{Lastname}#=%=#Ruppert
+Author{3}{Email}#=%=#ruppert@lt.informatik.tu-darmstadt.de
+Author{3}{Affiliation}#=%=#TU Darmstadt
+Author{4}{Firstname}#=%=#Stefano
+Author{4}{Lastname}#=%=#Faralli
+Author{4}{Email}#=%=#stefano@informatik.uni-mannheim.de
+Author{4}{Affiliation}#=%=#University of Mannheim
+Author{5}{Firstname}#=%=#Dmitry
+Author{5}{Lastname}#=%=#Ustalov
+Author{5}{Email}#=%=#dmitry.ustalov@gmail.com
+Author{5}{Affiliation}#=%=#Krasovskii Institute of Mathematics and Mechanics
+Author{6}{Firstname}#=%=#Simone Paolo
+Author{6}{Lastname}#=%=#Ponzetto
+Author{6}{Email}#=%=#simone@informatik.uni-mannheim.de
+Author{6}{Affiliation}#=%=#University of Mannheim
+Author{7}{Firstname}#=%=#Chris
+Author{7}{Lastname}#=%=#Biemann
+Author{7}{Email}#=%=#biemann@informatik.uni-hamburg.de
+Author{7}{Affiliation}#=%=#University of Hamburg
+
+==========

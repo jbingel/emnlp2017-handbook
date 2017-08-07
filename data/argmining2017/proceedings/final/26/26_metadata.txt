@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#26
+FinalPaperTitle#=%=#Projection of Argumentative Corpora from Source to Target Languages
+ShortPaperTitle#=%=#Projection of Argumentative Corpora from Source to Target Languages
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ahmet Aker
+JobTitle#==#
+Organization#==#
+Abstract#==#Argumentative corpora are costly to create and are available in only few
+languages with English dominating the area. In this paper we release the first
+publicly available Mandarin argumentative corpus. The corpus is created by
+exploiting the idea of comparable corpora from Statistical Machine Translation.
+We use existing corpora in English and manually map the claims and premises to
+comparable corpora in Mandarin. We also implement a simple solution to automate
+this approach with the view of creating argumentative corpora in other
+less-resourced languages. In this way we introduce a new task of multi-lingual
+argument mapping that can be evaluated using our English-Mandarin argumentative
+corpus. The preliminary results of our automatic argument mapper mirror the
+simplicity of our approach, but provide a baseline for further improvements.
+Author{1}{Firstname}#=%=#Ahmet
+Author{1}{Lastname}#=%=#Aker
+Author{1}{Email}#=%=#a.aker@dcs.shef.ac.uk
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Huangpan
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#huangpan.zhang@stud.uni-due.de
+Author{2}{Affiliation}#=%=#University of Duisburg-Essen
+
+==========

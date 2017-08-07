@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#16
+FinalPaperTitle#=%=#Interactive Visualization for Linguistic Structure
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#We provide a visualization library and web interface for interactively
+exploring a parse tree or a forest of parses. The library is not tied to any
+particular linguistic representation, but provides a general-purpose API for
+the interactive exploration of hierarchical linguistic structure. To facilitate
+rapid understanding of a complex structure, the API offers several important
+features, including expand/collapse functionality, positional and color cues,
+explicit visual support for sequential structure, and dynamic highlighting to
+convey node-to-text correspondence.
+Author{1}{Firstname}#=%=#Aaron
+Author{1}{Lastname}#=%=#Sarnat
+Author{1}{Email}#=%=#markh@allenai.org
+Author{1}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+Author{2}{Firstname}#=%=#Vidur
+Author{2}{Lastname}#=%=#Joshi
+Author{2}{Email}#=%=#markh@allenai.org
+Author{2}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+Author{3}{Firstname}#=%=#Cristian
+Author{3}{Lastname}#=%=#Petrescu-Prahova
+Author{3}{Email}#=%=#markh@allenai.org
+Author{3}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+Author{4}{Firstname}#=%=#Alvaro
+Author{4}{Lastname}#=%=#Herrasti
+Author{4}{Email}#=%=#markh@allenai.org
+Author{4}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+Author{5}{Firstname}#=%=#Brandon
+Author{5}{Lastname}#=%=#Stilson
+Author{5}{Email}#=%=#markh@allenai.org
+Author{5}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+Author{6}{Firstname}#=%=#Mark
+Author{6}{Lastname}#=%=#Hopkins
+Author{6}{Email}#=%=#markh@allenai.org
+Author{6}{Affiliation}#=%=#Allen Institute for Artificial Intelligence
+
+==========

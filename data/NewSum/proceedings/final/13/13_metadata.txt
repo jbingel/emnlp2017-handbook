@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Low-Resource Neural Headline Generation
+ShortPaperTitle#=%=#Low-Resource Neural Headline Generation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Ottokar Tilk
+JobTitle#==#
+Organization#==#Tallinn University of Technology, Ehitajate tee 5, 19086 Tallinn, Estonia
+Abstract#==#Recent neural headline generation models
+have shown great results, but are generally
+trained on very large datasets. We focus
+our efforts on improving headline quality
+on smaller datasets by the means of pretraining.
+We propose new methods that
+enable pre-training all the parameters of
+the model and utilize all available text, resulting
+in improvements by up to 32.4%
+relative in perplexity and 2.84 points in
+ROUGE.
+Author{1}{Firstname}#=%=#Ottokar
+Author{1}{Lastname}#=%=#Tilk
+Author{1}{Email}#=%=#ottokar.tilk@ttu.ee
+Author{1}{Affiliation}#=%=#Tallinn University of Technology
+Author{2}{Firstname}#=%=#Tanel
+Author{2}{Lastname}#=%=#Alumäe
+Author{2}{Email}#=%=#tanel.alumae@ttu.ee
+Author{2}{Affiliation}#=%=#Tallinn University of Technology
+
+==========

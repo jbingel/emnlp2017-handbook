@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Improving Claim Stance Classification with Lexical Knowledge Expansion and Context Utilization
+ShortPaperTitle#=%=#Improving Claim Stance Classification with Lexical Knowledge Expansion and Context Utilization
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Roy Bar-Haim
+JobTitle#==#
+Organization#==#International Business Machines Corp.
+Thomas J. Watson Research Center
+P.O. Box 218
+Yorktown Heights, NY 10598
+Abstract#==#Stance classification is a core component in on-demand argument construction
+pipelines. Previous work on claim stance classification relied on background
+knowledge such as manually-composed sentiment lexicons. We show that both
+accuracy and coverage can be significantly improved through automatic expansion
+of the initial lexicon. We also developed a set of contextual features that
+further improves the state-of-the-art for this task.
+Author{1}{Firstname}#=%=#Roy
+Author{1}{Lastname}#=%=#Bar-Haim
+Author{1}{Email}#=%=#roybar@il.ibm.com
+Author{1}{Affiliation}#=%=#IBM Research - Haifa
+Author{2}{Firstname}#=%=#Lilach
+Author{2}{Lastname}#=%=#Edelstein
+Author{2}{Email}#=%=#LILACHE@il.ibm.com
+Author{2}{Affiliation}#=%=#IBM Research - Haifa
+Author{3}{Firstname}#=%=#Charles
+Author{3}{Lastname}#=%=#Jochim
+Author{3}{Email}#=%=#charlesj@ie.ibm.com
+Author{3}{Affiliation}#=%=#IBM Research Ireland
+Author{4}{Firstname}#=%=#Noam
+Author{4}{Lastname}#=%=#Slonim
+Author{4}{Email}#=%=#noams@il.ibm.com
+Author{4}{Affiliation}#=%=#IBM Research - Haifa, Israel
+
+==========

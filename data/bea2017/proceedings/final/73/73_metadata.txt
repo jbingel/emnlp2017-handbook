@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#73
+FinalPaperTitle#=%=#A Shallow Neural Network for Native Language Identification with Character N-grams
+ShortPaperTitle#=%=#A Shallow Neural Network for Native Language Identification with Character N-grams
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Yunita Sari
+JobTitle#==#
+Organization#==#Department of Computer Science, University of Sheffield, UK
+Abstract#==#This paper describes the systems submitted by GadjahMada team to the Native
+Language Identification (NLI) Shared Task 2017. Our models used a continuous
+representation of character n-grams which are learned jointly with feed-forward
+neural network classifier. Character n-grams have been proved to be effective
+for style-based identification tasks including NLI. Results on the test set
+demonstrate that the proposed model performs very well on essay and fusion
+tracks by obtaining more than 0.8 on both F-macro score and accuracy.
+Author{1}{Firstname}#=%=#Yunita
+Author{1}{Lastname}#=%=#Sari
+Author{1}{Email}#=%=#y.sari@sheffield.ac.uk
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Muhammad
+Author{2}{Lastname}#=%=#Rifqi Fatchurrahman
+Author{2}{Email}#=%=#muh.rifqi.fatchurrahman@gmail.com
+Author{2}{Affiliation}#=%=#Universitas Gadjah Mada
+Author{3}{Firstname}#=%=#Meisyarah
+Author{3}{Lastname}#=%=#Dwiastuti
+Author{3}{Email}#=%=#meisyarah.dwiastuti@gmail.com
+Author{3}{Affiliation}#=%=#Universitas Gadjah Mada
+
+==========

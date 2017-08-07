@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Spatial Language Understanding with Multimodal Graphs using Declarative Learning based Programming
+ShortPaperTitle#=%=#Spatial Language Understanding with Multimodal Graphs using Declarative Learning based Programming
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Parisa Kordjamshidi
+JobTitle#==#
+Organization#==#6823 St. Charles Avenue, Tulane University, New Orleans, LA 70118
+Abstract#==#This work is on a previously formalized semantic evaluation task of spatial
+role labeling (SpRL) that aims at extraction of formal spatial meaning from
+text. Here, we report the results of initial efforts towards exploiting visual
+information in the form of images to help spatial language understanding. We
+discuss the way of designing new models in the framework of declarative
+learning-based programming (DeLBP). The DeLBP framework facilitates combining
+modalities and representing various data in a unified graph. 
+  The learning and inference models exploit the structure of the unified graph
+as well as the global first order domain constraints beyond the data to predict
+the semantics which forms a structured meaning representation of the spatial
+context. Continuous representations are used to relate the various elements of
+the graph originating from different modalities. We improved over the
+state-of-the-art results on SpRL.
+Author{1}{Firstname}#=%=#Parisa
+Author{1}{Lastname}#=%=#Kordjamshidi
+Author{1}{Email}#=%=#pkordjam@tulane.edu
+Author{1}{Affiliation}#=%=#Tulane
+Author{2}{Firstname}#=%=#Taher
+Author{2}{Lastname}#=%=#Rahgooy
+Author{2}{Email}#=%=#trahgooy@tulane.edu
+Author{2}{Affiliation}#=%=#Tulane University
+Author{3}{Firstname}#=%=#Umar
+Author{3}{Lastname}#=%=#Manzoor
+Author{3}{Email}#=%=#umarmanzoor@gmail.com
+Author{3}{Affiliation}#=%=#Tulane University
+
+==========

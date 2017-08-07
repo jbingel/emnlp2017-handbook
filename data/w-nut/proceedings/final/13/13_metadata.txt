@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Boundary-based MWE segmentation with text partitioning
+ShortPaperTitle#=%=#Boundary-based MWE segmentation with text partitioning
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Jake Ryland Williams
+JobTitle#==#Assistant Professor
+Organization#==#30 North 33rd Street
+Philadelphia PA, 10104
+Abstract#==#This submission describes the development of a fine-grained, text-chunking
+algorithm for the task of comprehensive MWE segmentation. This task notably
+focuses on the identification of colloquial and idiomatic language. The
+submission also includes a thorough model evaluation in the context of two
+recent shared tasks, spanning 19 different languages and many text domains,
+including noisy, user-generated text. Evaluations exhibit the presented model
+as the best overall for purposes of MWE segmentation, and open-source software
+is released with the submission (although links are withheld for purposes of
+anonymity). Additionally, the authors acknowledge the existence of a pre-print
+document on arxiv.org, which should be avoided to maintain anonymity in review.
+Author{1}{Firstname}#=%=#Jake
+Author{1}{Lastname}#=%=#Williams
+Author{1}{Email}#=%=#Jake.Williams@drexel.edu
+Author{1}{Affiliation}#=%=#Drexel University
+
+==========

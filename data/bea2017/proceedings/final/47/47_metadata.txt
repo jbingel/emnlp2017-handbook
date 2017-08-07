@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#47
+FinalPaperTitle#=%=#Multiple Choice Question Generation Utilizing An Ontology
+ShortPaperTitle#=%=#Multiple Choice Question Generation Utilizing An Ontology
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Katherine Stasaski
+JobTitle#==#
+Organization#==#UC Berkeley
+253 Cory Hall
+Berkeley, CA 94720-1770
+Abstract#==#Ontologies provide a structured representation of concepts and the
+relationships which connect them. This work investigates how a pre-existing
+educational Biology ontology can be used to generate useful practice questions
+for students by using the connectivity structure in a novel way. It also
+introduces a novel way to generate multiple-choice distractors from the
+ontology, and compares this to a baseline of using embedding representations of
+nodes. An assessment by an experienced science teacher shows a significant
+advantage over a baseline when using the ontology for distractor generation. A
+subsequent study with three science teachers on the results of a modified
+question generation algorithm finds significant improvements. An in-depth
+analysis of the teachers’ comments yields useful insights for any researcher
+working on automated question generation for educational applications.
+Author{1}{Firstname}#=%=#Katherine
+Author{1}{Lastname}#=%=#Stasaski
+Author{1}{Email}#=%=#katie_stasaski@berkeley.edu
+Author{1}{Affiliation}#=%=#University of California at Berkeley
+Author{2}{Firstname}#=%=#Marti A.
+Author{2}{Lastname}#=%=#Hearst
+Author{2}{Email}#=%=#hearst@ischool.berkeley.edu
+Author{2}{Affiliation}#=%=#UC Berkeley
+
+==========

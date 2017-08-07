@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#21
+FinalPaperTitle#=%=#Unsupervised Event Clustering and Aggregation from Newswire and Web Articles
+ShortPaperTitle#=%=#Unsupervised Event Clustering and Aggregation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Xavier Tannier
+JobTitle#==#
+Organization#==#LIMSI-CNRS, 
+Campus universitaire bât 508
+Rue John von Neumann
+F - 91405 Orsay cedex
+FRANCE
+Abstract#==#In this paper, we present an unsupervised pipeline approach for clustering news
+articles based on identified event instances in their content. We leverage
+press agency newswire and monolingual word alignment techniques to build
+meaningful and linguistically varied clusters of articles from the web in the
+perspective of a broader event type detection task. We validate our approach on
+a manually annotated corpus of Web articles.
+Author{1}{Firstname}#=%=#Swen
+Author{1}{Lastname}#=%=#Ribeiro
+Author{1}{Email}#=%=#swen.ribeiro@limsi.fr
+Author{1}{Affiliation}#=%=#LIMSI, CNRS, Univ. Paris-Sud, Université Paris-Saclay
+Author{2}{Firstname}#=%=#Olivier
+Author{2}{Lastname}#=%=#Ferret
+Author{2}{Email}#=%=#olivier.ferret@cea.fr
+Author{2}{Affiliation}#=%=#CEA LIST
+Author{3}{Firstname}#=%=#Xavier
+Author{3}{Lastname}#=%=#Tannier
+Author{3}{Email}#=%=#xtannier@limsi.fr
+Author{3}{Affiliation}#=%=#LIMSI, CNRS, Univ. Paris-Sud, Université Paris-Saclay
+
+==========

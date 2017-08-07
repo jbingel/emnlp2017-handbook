@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#Results of the WNUT2017 Shared Task on Novel and Emerging Entity Recognition
+ShortPaperTitle#=%=#Results of the WNUT2017 Shared Task on Novel and Emerging Entity Recognition
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Leon Derczynski
+JobTitle#==#
+Organization#==#
+Abstract#==#This shared task focuses on identifying unusual, previously-unseen entities in
+the context of emerging discussions. Named entities form the basis of many
+modern approaches to other tasks (like event clustering and summarization), but
+recall on them is a real problem in noisy text - even among annotators. This
+drop tends to be due to novel entities and surface forms. Take for example the
+tweet "so.. kktny in 30 mins?!" -- even human experts find the entity 'kktny'
+hard to detect and resolve. The goal of this task is to provide a definition of
+emerging and of rare entities, and based on that, also datasets for detecting
+these entities. The task as described in this paper evaluated the ability of
+participating entries to detect and classify novel and emerging named entities
+in noisy text.
+Author{1}{Firstname}#=%=#Leon
+Author{1}{Lastname}#=%=#Derczynski
+Author{1}{Email}#=%=#leon.d@sheffield.ac.uk
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Eric
+Author{2}{Lastname}#=%=#Nichols
+Author{2}{Email}#=%=#e.nichols@jp.honda-ri.com
+Author{2}{Affiliation}#=%=#Honda Research Institute Japan
+Author{3}{Firstname}#=%=#Marieke
+Author{3}{Lastname}#=%=#van Erp
+Author{3}{Email}#=%=#marieke.van.erp@vu.nl
+Author{3}{Affiliation}#=%=#VU University Amsterdam
+Author{4}{Firstname}#=%=#Nut
+Author{4}{Lastname}#=%=#Limsopatham
+Author{4}{Email}#=%=#nut.limsopatham@gmail.com
+Author{4}{Affiliation}#=%=#University of Cambridge
+
+==========

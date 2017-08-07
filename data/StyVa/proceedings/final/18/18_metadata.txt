@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Differences in type-token ratio and part-of-speech frequencies in male and female Russian written texts
+ShortPaperTitle#=%=#Differences in linguistic characteristics of male and female Russian written texts
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Tatiana Litvinova
+JobTitle#==#
+Organization#==#RusProfiling Lab, Voronezh, Russia
+Abstract#==#The differences in the frequencies of some parts of speech (POS), particularly
+function words, and lexical diversity in male and female speech have been
+pointed out in a number of papers. The classifiers using exclusively
+context-independent parameters have proved to be highly effective. However,
+there are still issues that have to be addressed as a lot of studies are
+performed for English and the genre and topic of texts is sometimes neglected.
+The aim of this paper is to investigate the association between
+context-independent parameters of Russian written texts and the gender of their
+authors and to design predictive re-gression models. A number of correlations
+were found. The obtained data is in good agreement with the results obtained
+for other languages. The model based on 5 parameters with the highest
+correlation coefficients was designed.
+Author{1}{Firstname}#=%=#Tatiana
+Author{1}{Lastname}#=%=#Litvinova
+Author{1}{Email}#=%=#centr_rus_yaz@mail.ru
+Author{1}{Affiliation}#=%=#Voronezh State Pedagogical University
+Author{2}{Firstname}#=%=#Pavel
+Author{2}{Lastname}#=%=#Seredin
+Author{2}{Email}#=%=#paul@phys.vsu.ru
+Author{2}{Affiliation}#=%=#Voronezh State University
+Author{3}{Firstname}#=%=#Olga
+Author{3}{Lastname}#=%=#Litvinova
+Author{3}{Email}#=%=#olga_litvinova_teacher@mail.ru
+Author{3}{Affiliation}#=%=#Voronezh State Pedagogical University
+Author{4}{Firstname}#=%=#Olga
+Author{4}{Lastname}#=%=#Zagorovskaya
+Author{4}{Email}#=%=#olzagor@yandex.ru
+Author{4}{Affiliation}#=%=#Voronezh State Pedagogical University
+
+==========
