@@ -1,0 +1,97 @@
+P: 1
+M: 
+T: Traversal-Free Word Vector Evaluation in Analogy Space
+A: Che, Xiaoyin
+A: Ring, Nico
+A: Raschkowski, Willi
+A: Yang, Haojin
+A: Meinel, Christoph
+F: final/1/1_Paper.pdf
+L: 5
+
+P: 3
+M: 
+T: Character-level Intra Attention Network for Natural Language Inference
+A: Yang, Han
+A: Costa-juss\`{a}, Marta R.
+A: Fonollosa, Jos\'{e} A. R.
+F: final/3/3_Paper.pdf
+L: 5
+
+P: 4
+M: 
+T: Hypothesis Testing based Intrinsic Evaluation of Word Embeddings
+A: Gurnani, Nishant
+F: final/4/4_Paper.pdf
+L: 5
+
+P: 5
+M: 
+T: Recognizing Textual Entailment in Twitter Using Word Embeddings
+A: \c{S}ulea, Octavia-Maria
+F: final/5/5_Paper.pdf
+L: 5
+
+P: 6
+M: 
+T: Evaluation of word embeddings against cognitive processes: primed reaction times in lexical decision and naming tasks
+A: Auguste, Jeremy
+A: Rey, Arnaud
+A: Favre, Benoit
+F: final/6/6_Paper.pdf
+L: 6
+
+P: 7
+M: 
+T: Recurrent Neural Network-Based Sentence Encoder with Gated Attention for Natural Language Inference
+A: Chen, Qian
+A: Zhu, Xiaodan
+A: Ling, Zhen-Hua
+A: Wei, Si
+A: Jiang, Hui
+A: Inkpen, Diana
+F: final/7/7_Paper.pdf
+L: 5
+
+P: 10
+M: 
+T: Shortcut-Stacked Sentence Encoders for Multi-Domain Inference
+A: Nie, Yixin
+A: Bansal, Mohit
+F: final/10/10_Paper.pdf
+L: 5
+
+P: 11
+M: 
+T: Refining Raw Sentence Representations for Textual Entailment Recognition via Attention
+A: Balazs, Jorge
+A: Marrese-Taylor, Edison
+A: Loyola, Pablo
+A: Matsuo, Yutaka
+F: final/11/11_Paper.pdf
+L: 5
+
+P: 14
+M: 
+T: LCT-MALTA's Submission to RepEval 2017 Shared Task
+A: Vu, Hoa
+F: final/14/14_Paper.pdf
+L: 5
+
+P: 15
+M: 
+T: Playing with Embeddings : Evaluating embeddings for Robot Language Learning through MUD Games
+A: Gulati, Anmol
+A: Agrawal, Kumar Krishna
+F: final/15/15_Paper.pdf
+L: 4
+
+P: 16
+M: 
+T: The RepEval 2017 Shared Task: Multi-Genre Natural Language Inference with Sentence Representations
+A: Nangia, Nikita
+A: Williams, Adina
+A: Lazaridou, Angeliki
+A: Bowman, Samuel
+F: 
+L: 0

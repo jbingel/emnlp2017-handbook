@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#83
+FinalPaperTitle#=%=#Stacked Sentence-Document Classifier Approach for Improving Native Language Identification
+ShortPaperTitle#=%=#Stacked Sentence-Document Classifier Approach for Improving Native Language Identification
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Felice Dell
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper, we describe the approach of the ItaliaNLP Lab team to native
+language identification and discuss the results we submitted as participants to
+the essay track of NLI Shared Task 2017. We introduce for the first time a
+2-stacked sentence-document architecture for native language identification
+that is able to exploit both local sentence information and a wide set of
+general-purpose features qualifying the lexical and grammatical structure of
+the whole document. When evaluated on the official test set, our
+sentence-document stacked architecture obtained the best result among all the
+participants of the essay track with an F1 score of 0.8818.
+Author{1}{Firstname}#=%=#Andrea
+Author{1}{Lastname}#=%=#Cimino
+Author{1}{Email}#=%=#andrea.cimino@ilc.cnr.it
+Author{1}{Affiliation}#=%=#Institute for Computational Linguistics (ILC-CNR)
+Author{2}{Firstname}#=%=#Felice
+Author{2}{Lastname}#=%=#Dell'Orletta
+Author{2}{Email}#=%=#felice.dellorletta@ilc.cnr.it
+Author{2}{Affiliation}#=%=#Istituto di Linguistica Computazionale "Antonio Zampolli", ILC - CNR, Pisa
+
+==========

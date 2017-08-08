@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#76
+FinalPaperTitle#=%=#CIC-FBK Approach to Native Language Identification
+ShortPaperTitle#=%=#CIC-FBK Approach to Native Language Identification
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Ilia Markov
+JobTitle#==#
+Organization#==#Instituto Politécnico Nacional (IPN), Center for Computing Research (CIC), Av. Juan de Dios Bátiz S/N, Del. Gustavo A. Madero, 07738, Mexico City, Mexico
+Abstract#==#We present the CIC-FBK system, which took part in the Native Language
+Identification (NLI) Shared Task 2017. Our approach combines features commonly
+used in previous NLI research, i.e., word n-grams, lemma n-grams,
+part-of-speech n-grams, and function words, with recently introduced character
+n-grams from misspelled words, and features that are novel in this task, such
+as typed character n-grams, and syntactic n-grams of words and of syntactic
+relation tags. We use log-entropy weighting scheme and perform classification
+using the Support Vector Machines (SVM) algorithm. Our system achieved 0.8808
+macro-averaged F1-score and shared the 1st rank in the NLI Shared Task 2017
+scoring.
+Author{1}{Firstname}#=%=#Ilia
+Author{1}{Lastname}#=%=#Markov
+Author{1}{Email}#=%=#markovilya@yahoo.com
+Author{1}{Affiliation}#=%=#Instituto Politécnico Nacional
+Author{2}{Firstname}#=%=#Lingzhen
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Email}#=%=#lzchen.cs@gmail.com
+Author{2}{Affiliation}#=%=#DISI, University of Trento
+Author{3}{Firstname}#=%=#Carlo
+Author{3}{Lastname}#=%=#Strapparava
+Author{3}{Email}#=%=#strappa@fbk.eu
+Author{3}{Affiliation}#=%=#FBK-irst
+Author{4}{Firstname}#=%=#Grigori
+Author{4}{Lastname}#=%=#Sidorov
+Author{4}{Email}#=%=#sidorov@cic.ipn.mx
+Author{4}{Affiliation}#=%=#CIC, Instituto Politécnico Nacional
+
+==========

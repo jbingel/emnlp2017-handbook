@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#52
+FinalPaperTitle#=%=#GEC into the future: Where are we going and how do we get there?
+ShortPaperTitle#=%=#GEC into the future: Where are we going and how do we get there?
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Keisuke Sakaguchi
+JobTitle#==#
+Organization#==#
+Abstract#==#The field of grammatical error correction (GEC) has made tremendous bounds in
+the last ten years, but new questions and obstacles are revealing themselves.
+In this position paper, we discuss the issues that need to be addressed and
+provide recommendations for the field to continue to make progress, and propose
+a new shared task. We invite suggestions and critiques from the audience to
+make the new shared task a community-driven venture.
+Author{1}{Firstname}#=%=#Keisuke
+Author{1}{Lastname}#=%=#Sakaguchi
+Author{1}{Email}#=%=#keisuke@cs.jhu.edu
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Courtney
+Author{2}{Lastname}#=%=#Napoles
+Author{2}{Email}#=%=#cdnapoles@gmail.com
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+Author{3}{Firstname}#=%=#Joel
+Author{3}{Lastname}#=%=#Tetreault
+Author{3}{Email}#=%=#tetreaul@gmail.com
+Author{3}{Affiliation}#=%=#Grammarly
+
+==========

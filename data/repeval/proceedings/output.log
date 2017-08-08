@@ -1,0 +1,225 @@
+initialized directories
+------------------------------------
+unpacked START final submission archive
+------------------------------------
+make db
+tar xfz final.tgz final
+Creating db file ...
+if [ -e "db" ]; then cp -p db db.`perl -e "print time()"`; fi
+/hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/bin/manage-db.pl create
+Counting pages for final/1/1_Paper.pdf ...
+Counting pages for final/3/3_Paper.pdf ...
+Counting pages for final/4/4_Paper.pdf ...
+Counting pages for final/5/5_Paper.pdf ...
+Counting pages for final/6/6_Paper.pdf ...
+Counting pages for final/7/7_Paper.pdf ...
+Counting pages for final/10/10_Paper.pdf ...
+Counting pages for final/11/11_Paper.pdf ...
+Counting pages for final/14/14_Paper.pdf ...
+Counting pages for final/15/15_Paper.pdf ...
+ls: cannot access final/16/*Paper.pdf: No such file or directory
+paper 16: file missing
+Note: You may want to create an order file	with "make get-order"
+------------------------------------
+Fixed margins in the db file
+------------------------------------
+make get-order
+/hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/bin/manage-db.pl get-order > order
+Now you can edit the order file if you like.
+------------------------------------
+created the order file from the Schedule Maker
+------------------------------------
+created the meta file
+------------------------------------
+touched the order file
+------------------------------------
+make draft
+echo '\def\draftflag{1}' > draftflag.sty
+cp /hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/templates/book.tex book.tex  # !!! shouldn't just copy
+cp /hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/templates/citation-stamp.tex citation-stamp.tex  # !!! shouldn't just copy
+cp /hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/templates/titlepage.tex titlepage.tex  # !!! shouldn't just copy
+quietly running pdflatex titlepage.tex ...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ \write18 enabled.
+ %&-line parsing enabled.
+entering extended mode
+cp /hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/templates/copyright.tex copyright.tex  # !!! shouldn't just copy
+quietly running pdflatex copyright.tex ...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ \write18 enabled.
+ %&-line parsing enabled.
+entering extended mode
+cp /hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/templates/preface.tex preface.tex  # !!! shouldn't just copy
+quietly running pdflatex preface.tex ...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ \write18 enabled.
+ %&-line parsing enabled.
+entering extended mode
+cp /hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/templates/organizers.tex organizers.tex  # !!! shouldn't just copy
+quietly running pdflatex organizers.tex ...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ \write18 enabled.
+ %&-line parsing enabled.
+entering extended mode
+Restructuring db file based on order file ...
+/hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/bin/manage-db.pl generate-tex toc
+generating toc...
+/hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/bin/manage-db.pl generate-tex program
+generating program...
+/hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/bin/manage-db.pl join-papers 2 
+quietly running pdflatex book.tex ...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ \write18 enabled.
+ %&-line parsing enabled.
+entering extended mode
+makeindex book
+This is makeindex, version 2.14 [02-Oct-2002] (kpathsea + Thai support).
+Scanning input file book.idx....done (28 entries accepted, 0 rejected).
+Sorting entries....done (140 comparisons).
+Generating output file book.ind....done (77 lines written, 0 warnings).
+Output written in book.ind.
+Transcript written in book.ilg.
+quietly running pdflatex book.tex ...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ \write18 enabled.
+ %&-line parsing enabled.
+entering extended mode
+------------------------------------
+make shipout
+echo '\def\draftflag{0}' > draftflag.sty
+/hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/bin/manage-db.pl join-papers final
+You may now edit allpapers.tex if you like.
+quietly running pdflatex book.tex ...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ \write18 enabled.
+ %&-line parsing enabled.
+entering extended mode
+makeindex book
+This is makeindex, version 2.14 [02-Oct-2002] (kpathsea + Thai support).
+Scanning input file book.idx....done (28 entries accepted, 0 rejected).
+Sorting entries....done (140 comparisons).
+Generating output file book.ind....done (77 lines written, 0 warnings).
+Output written in book.ind.
+Transcript written in book.ilg.
+quietly running pdflatex book.tex ...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ \write18 enabled.
+ %&-line parsing enabled.
+entering extended mode
+------------------------------------
+make cdrom
+cp /hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/templates/cdrom-root-files/*.css .  
+creating HTML program ...
+/hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/bin/program-html.pl db meta > cdrom/program.html
+cp /hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/templates/cdrom-root-files/*.css .  
+creating author index page ...
+/hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/bin/authors.pl db meta > cdrom/authors.html
+&#350;ulea, octavia-maria
+cp /hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/templates/cdrom-root-files/*.css .  
+rm -rf cdrom/bib
+creating bib files ...
+/hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/bin/bib.pl db meta
+cp /hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/templates/cdrom-root-files/*.css .  
+creating pdf files ...
+/hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/bin/manage-db.pl create-cd < meta
+linking proceedings volume...
+producing front matter...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+creating pdf files stamped with citation info...
+PDF meta-data:
+  title: Traversal-Free Word Vector Evaluation in Analogy Space
+  author(s): Xiaoyin Che ; Nico Ring ; Willi Raschkowski ; Haojin Yang ; Christoph Meinel
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+PDF meta-data:
+  title: Hypothesis Testing based Intrinsic Evaluation of Word Embeddings
+  author(s): Nishant Gurnani
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+PDF meta-data:
+  title: Evaluation of word embeddings against cognitive processes: primed reaction times in lexical decision and naming tasks
+  author(s): Jeremy Auguste ; Arnaud Rey ; Benoit Favre
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+PDF meta-data:
+  title: Playing with Embeddings : Evaluating embeddings for Robot Language Learning through MUD Games
+  author(s): Anmol Gulati ; Kumar Krishna Agrawal
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+PDF meta-data:
+  title: Recognizing Textual Entailment in Twitter Using Word Embeddings
+  author(s): Octavia-Maria Sulea
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+PDF meta-data:
+  title: Recurrent Neural Network-Based Sentence Encoder with Gated Attention for Natural Language Inference
+  author(s): Qian Chen ; Xiaodan Zhu ; Zhen-Hua Ling ; Si Wei ; Hui Jiang ; Diana Inkpen
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+PDF meta-data:
+  title: Shortcut-Stacked Sentence Encoders for Multi-Domain Inference
+  author(s): Yixin Nie ; Mohit Bansal
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+PDF meta-data:
+  title: Character-level Intra Attention Network for Natural Language Inference
+  author(s): Han Yang ; Marta R. Costa-jussa ; Jose A. R. Fonollosa
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+PDF meta-data:
+  title: Refining Raw Sentence Representations for Textual Entailment Recognition via Attention
+  author(s): Jorge Balazs ; Edison Marrese-Taylor ; Pablo Loyola ; Yutaka Matsuo
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+PDF meta-data:
+  title: LCT-MALTA's Submission to RepEval 2017 Shared Task
+  author(s): Hoa Vu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+cp /hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/templates/cdrom-root-files/*.css .  
+creating HTML index page ...
+/hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/bin/index.pl db meta > cdrom/index.html
+------------------------------------
+make advertisement
+creating advertisement.html ...
+/hdc/var/www/v3/emnlp2017/www/repeval/manager/aclpub/all/bin/advertisement.pl cdrom/index.html < cdrom/program.html > advertisement.html
+------------------------------------
+make all
+make[1]: `book.pdf' is up to date.
+Almost done ... ready to package things up ...
+cd ..; rm -rf proceedings/abstracts; tar -cz --exclude='proceedings/final' -f proceedings.tgz proceedings; cd proceedings

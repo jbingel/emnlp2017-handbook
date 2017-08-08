@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Collecting fluency corrections for spoken learner English
+ShortPaperTitle#=%=#Collecting fluency corrections for spoken learner English
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Andrew Caines
+JobTitle#==#
+Organization#==#University of Cambridge, UK
+Abstract#==#We present crowdsourced collection of error annotations for transcriptions of
+spoken learner English. Our emphasis in data collection is on fluency
+corrections, a more complete correction than has traditionally been aimed for
+in grammatical error correction research (GEC). Fluency corrections require
+improvements to the text, taking discourse and utterance level semantics into
+account: the result is a more naturalistic, holistic version of the original.
+We propose that this shifted emphasis be reflected in a new name for the task:
+'holistic error correction' (HEC). We analyse crowdworker behaviour in HEC and
+conclude that the method is useful with certain amendments for future work.
+Author{1}{Firstname}#=%=#Andrew
+Author{1}{Lastname}#=%=#Caines
+Author{1}{Email}#=%=#apc38@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Emma
+Author{2}{Lastname}#=%=#Flint
+Author{2}{Email}#=%=#emf40@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Paula
+Author{3}{Lastname}#=%=#Buttery
+Author{3}{Email}#=%=#paula.buttery@cl.cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+
+==========

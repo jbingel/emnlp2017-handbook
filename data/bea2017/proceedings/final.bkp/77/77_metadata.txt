@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#77
+FinalPaperTitle#=%=#The Power of Character N-grams in Native Language Identification
+ShortPaperTitle#=%=#The Power of Character N-grams in Native Language Identification
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Bo Blankers
+JobTitle#==#
+Organization#==#University of Groningen
+Oude kijk in 't Jatstraat 26
+9712 EK
+Abstract#==#In this paper, we explore the performance of a linear SVM trained on language 
+independent character features for the NLI Shared Task 2017. Our basic system
+(GRONINGEN) achieves the best performance (87.56 F1-score) on the evaluation
+set using only 1-9 character n-grams as features. We compare this against
+several ensemble and meta-classifiers in order to examine how the linear system
+fares when combined with other, especially non-linear classifiers. Special
+emphasis is placed on the topic bias that exists by virtue of the assessment
+essay prompt distribution.
+Author{1}{Firstname}#=%=#Artur
+Author{1}{Lastname}#=%=#Kulmizev
+Author{1}{Email}#=%=#a.kulmizev@student.rug.nl
+Author{1}{Affiliation}#=%=#University of Groningen
+Author{2}{Firstname}#=%=#Bo
+Author{2}{Lastname}#=%=#Blankers
+Author{2}{Email}#=%=#b.blankers@student.rug.nl
+Author{2}{Affiliation}#=%=#University of Groningen
+Author{3}{Firstname}#=%=#Johannes
+Author{3}{Lastname}#=%=#Bjerva
+Author{3}{Email}#=%=#j.bjerva@rug.nl
+Author{3}{Affiliation}#=%=#Center for Language and Cognition Groningen, University of Groningen
+Author{4}{Firstname}#=%=#Malvina
+Author{4}{Lastname}#=%=#Nissim
+Author{4}{Email}#=%=#m.nissim@rug.nl
+Author{4}{Affiliation}#=%=#University of Groningen
+Author{5}{Firstname}#=%=#Gertjan
+Author{5}{Lastname}#=%=#van Noord
+Author{5}{Email}#=%=#g.j.m.van.noord@rug.nl
+Author{5}{Affiliation}#=%=#University of Groningen
+Author{6}{Firstname}#=%=#Barbara
+Author{6}{Lastname}#=%=#Plank
+Author{6}{Email}#=%=#b.plank@rug.nl
+Author{6}{Affiliation}#=%=#University of Groningen
+Author{7}{Firstname}#=%=#Martijn
+Author{7}{Lastname}#=%=#Wieling
+Author{7}{Email}#=%=#m.b.wieling@rug.nl
+Author{7}{Affiliation}#=%=#University of Groningen
+
+==========

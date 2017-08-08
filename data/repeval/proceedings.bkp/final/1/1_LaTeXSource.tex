@@ -1,0 +1,232 @@
+%\title{emnlp 2017 instructions}
+% File emnlp2017.tex
+%
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{emnlp2017}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{multirow}
+
+% Uncomment this line for the final submission:
+\emnlpfinalcopy
+
+%  Enter the EMNLP Paper ID here:
+\def\emnlppaperid{***}
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+
+\title{Traversal-Free Word Vector Evaluation in Analogy Space}
+%\Thanks{This
+%    document has been adapted from the instructions for earlier ACL
+%    and NAACL proceedings, including those for
+%    ACL 2017 by Dan Gildea and Min-Yen Kan,
+%    NAACL-HLT 2016 by Margaret Mitchell and Adam Lopez,
+%    NAACL HLT15 by Matt Post and Adam Lopez,
+%    NAACL HLT12 by Nizar Habash and William Schuler,
+%    NAACL HLT10 by Claudia Leacock and Richard Wicentowski,
+%    NAACL HLT09 by Joakim Nivre and Noah Smith, 
+%    for ACL05 by Hwee Tou Ng and Kemal Oflazer,
+%    for ACL02 by Eugene Charniak and Dekang Lin, and earlier ACL and
+%    EACL formats.  Those versions were written by several people,
+%    including John Chen, Henry S. Thompson and Donald Walker.
+%    Additional elements were taken from the formatting instructions of
+%    the {\em International Joint Conference on Artificial Intelligence}
+%    and the {\em Conference on Computer Vision and Pattern Recognition}.}}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a seperate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+% If the title and author information does not fit in the area allocated,
+% place \setlength\titlebox{<new height>} right after
+% at the top, where <new height> can be something larger than 2.25in
+\author{Xiaoyin Che, Nico Ring, Willi Raschkowski, Haojin Yang, Christoph Meinel\\
+Hasso Plattner Institute, University of Potsdam\\
+Campus Griebnitzsee, D-14440 Potsdam, Germany\\
+  {\tt \{xiaoyin.che, haojin.yang, christoph.meinel\}@hpi.de}\\
+ {\tt \{nico.ring, willi.raschkowskil\}@student.hpi.uni-potsdam.de}}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+In this paper, we propose an alternative evaluating metric for word analogy questions (\textit{A to B is as C to D}) in word vector evaluation. Different from the traditional method which predicts the fourth word by the given three, we measure the similarity directly on the ``relations'' of two pairs of given words, just as shifting the relation vectors into a new analogy space. Cosine and Euclidean distances are then calculated as measurements. Observation and experiments shows the proposed analogy space evaluation could offer a more comprehensive evaluating result on word vectors with word analogy questions. Meanwhile, computational complexity are remarkably reduced by avoiding traversing the vocabulary.
+\end{abstract}
+
+
+\section{Introduction}
+
+\begin{table*}
+\centering
+\caption{Examples of Traditional Word Analogy Evaluation Result (Words in order of $A$, $B$, $C$ \& $D$)}
+\begin{tabular}{c | c c | c c | c c | c c}
+\hline
+Grammar-1 & \multicolumn{2}{c|}{knowing} & \multicolumn{2}{c|}{knew} & \multicolumn{2}{c|}{selling} & \multicolumn{2}{c}{sold}\\
+\hline
+\multicolumn{1}{c|}{\multirow{4}{*}{Predictions}} & thought & 0.573 & know & 0.481 & purchased & 0.520 & \textbf{sold} & \textbf{0.568} \\
+& know & 0.504 & \textbf{knew} & \textbf{0.449} & resold & 0.506 & sell & 0.535\\
+& wanted & 0.494 & Knowing & 0.441 & \textbf{selling} & \textbf{0.486} & bought & 0.528\\
+& \textbf{knowing} & 0.489 & figured & 0.404 & sale & 0.484 & buying & 0.486\\
+\hline
+Grammar-2 & \multicolumn{2}{c|}{looking} & \multicolumn{2}{c|}{looked} & \multicolumn{2}{c|}{shrinking} & \multicolumn{2}{c}{shrank}\\
+\hline
+\multicolumn{1}{c|}{\multirow{4}{*}{Predictions}} & look & 0.540 & \textbf{looked} & \textbf{0.536} & \textbf{shrinking} & \textbf{0.560} & shrunk & 0.618 \\
+& \textbf{looking} & \textbf{0.526} & look & 0.493 & unexpectedly\_shrank & 0.478 & \textbf{shrank} & \textbf{0.589}\\
+& looks & 0.521 & looks & 0.415 & downwardly\_revised & 0.468 & dwindled & 0.498\\
+& seemed & 0.439 & expecting & 0.410 & contraction & 0.454 & shrink & 0.498\\
+\hline
+\end{tabular}
+\end{table*}
+
+In recent years, word vector, or addressed as word embedding or distributed vector representation of word, achieves high popularity in NLP (\textit{\textbf{N}atural \textbf{L}anguage \textbf{P}rocessing}) applications. A word vector is a real-valued vector, which is quite low-dimensional when comparing with traditional one-hot representation of words. The theory behind is believed to be the early concept of distributional representation \cite{hinton1986learning}, and modern word vector derives from the training process of neural language models \cite{bengio2003neural}.
+
+The usage of word vectors has been proven highly efficient and successful by various NLP tasks \cite{collobert2011natural}, which further spurs the technical developments to achieve word vectors with better quality, such as Word2Vec \cite{mikolov2013efficient}, GloVe \cite{pennington2014glove}, Word2Vecf \cite{levy2014dependency}, LexVec \cite{salle2016matrix}, FastText \cite{bojanowski2016enriching}, \textit{etc}. 
+
+However, discussion about how to evaluate the quality of word vectors remains open. Except for actual applications, most frequently used evaluation tasks are word similarity and word analogy. A word similarity task is to find the nearest word in the vector space of the given word, based on the theory that words with similar meanings should gather together. Although it is widely used, arguments are made to question its capability \cite{batchkarov2016critique,faruqui2016problems}.
+
+While in a word analogy test, three words $A$, $B$ and $C$ are given and the goal is to find a fourth word $D$, which logically conforms ``$A$ to $B$ is as $C$ to $D$''. Word analogy test has a long history of being used in examinations or IQ tests for human \cite{mcclelland1973testing,sternberg1985beyond} and is introduced into word vector evaluation by Mikolov \textit{et al.} \shortcite{mikolov2013linguistic}. After that, it has been widely applied.
+
+%. It is considered more meaningful, which makes it crucial to find out that whether current evaluating metric is already optimized.
+
+Efforts are made to improve the original analogy metric, such as using \textsc{PairDirection} to replace \textsc{3CosAdd} in calculation \cite{levy2014linguistic} or taking multiple word pairs into consideration \cite{drozd2016word}, but the goal is still to find word $D$ from the vocabulary.  Besides, Linzen \shortcite{linzen2016issues} made a thorough assessment of word analogy test, and the most prominent finding is that if not exclude three given words, the prediction of $D$ would almost always be $C$ (91\%) or $B$ (5\%), especially when the lineal offset between words is small. This phenomenon would arouse the doubt, that whether we are searching for a word $D$ which holds the same logic to $C$ just as $B$ to $A$, or actually searching for the nearest word of $C$? Furthermore, the general accuracy decline in reversed analogy also suggests the incertainty of current analogy evaluation metric.
+
+In this paper, we would dig deeper into the limitations of current analogy evaluation metric in Section 2 and propose our simple alternative plan  in Section 3, which is called ``Analogy Space Evaluation''. A significant difference of our approach is that we avoid traversing vocabulary from time to time. Experiments are presented in Section 4 and finally come the conclusion and discussion.
+
+\section{Limitations of Traditional Metric}
+
+In traditional word analogy evaluation, by given word pairs ($A$, $B$) and ($C$, $D$) with same syntactic or semantic relation, the goal is to find the nearest word to ``$C+B-A$'' in the vector space by Cosine similarity and check whether the word obtained is $D$. Practically some approaches use unit vector of $A$, $B$ and $C$ in ``$C+B-A$'', such as widely used Word2Vec. Anyway, the return value of such a word analogy question is in Boolean type. 
+
+Generally, evaluating word vectors requires thousands of word analogy questions, which return thousands of Boolean values to calculate the accuracy from a macro perspective: how many supposed $D$ have been successfully predicted. However, if we treat each question as an independent target in a micro aspect, result in Boolean type suffers an unneglectable information loss: true or false cannot quantitatively manifest the extent of how true or how false. For instance, it does not matter whether $D$ is the 2nd nearest word to ``$C+B-A$'' or the 100th.
+
+Another limitation of traditional metric is the deficiency in comprehensiveness. In a typical ``$A$ to $B$ is as $C$ to $D$'' analogy, there are in fact 4 prediction choices, although in some analogies like ``Nation-Currency'' or ``Nation-Language'', available choices could drop to 2, since in reverse logic the answer is not unique. A single prediction on $D$ is not enough to represent the quality of all 4 word vectors trained.
+
+For better illustration, we run widely used ``GoogleNews-vectors-negative300.bin'' on default Word2Vec English analogy test and extract two examples to Table 1. All 4 words in example analogy questions are predicted and top 4 results are presented accordingly. From Table 1, it is clear that no matter with absolute value or average ranking of desired word in predictions, situation in Grammar-2 is apparently better than Grammar-1. However, because only word $D$ is predicted by traditional metric, Grammar-1 would return a positive result while Grammar-2 is negative, which obviously fails to correctly represent the quality of corresponding word vectors trained.
+
+In default Word2Vec analogy test, there is always another analogy question, which in fact predict word $B$ of the original question. But there is no reverse logic prediction for $A$ and $C$. So in final accuracy calculation, these two sets of words in Table 1 contribute the same precision of 0.5, which still cannot reflect the quality difference between these two sets of word vectors trained. Perhaps, 4 analogy questions are needed, but that would lead to another issue: higher complexity. Every time when searching for a nearest word, cosine similarity must be calculated with each word in the vocabulary. When the testing set is large, it may take quite a long time, and the time would be doubled if all 4 possible questions are included. Moreover, the majority of words in the vocabulary are actually unrelated with the prediction target. Calculating these words is simply wasting time.
+
+Based on all above reasons, we aim to offer an alternative metric for word analogy evaluation, by constructing a new analogy space based on the relation vectors achieved from analogy questions, in order to solve existing limitations in quantification, comprehensiveness and complexity.
+
+\begin{figure}[!ht]
+\centering
+\subfigure[Orignial Word Vector Space]
+{
+	\includegraphics[width=0.45\textwidth] {pic/space1.JPG}
+}
+
+\subfigure[Relation Vectors]
+{
+	\includegraphics[width=0.45\textwidth] {pic/space2.JPG}
+}
+
+\subfigure[Final Analogy Space]
+{
+	\includegraphics[width=0.45\textwidth] {pic/space3.JPG}
+}
+\caption{Analogy Space Illustration}
+\end{figure}
+
+\section{Analogy Space Evaluation}
+
+Proposed analogy space shares same dimensionality of original word vector space. For each analogy question, two relation vectors can be found in original word vector space, just as the definition of \textsc{PairDirection} by Levy \textit{et al.} \shortcite{levy2014linguistic}. Mathematically, the value of such a relation vector is the same as the position of the ending point if we take the starting point as the space origin. This is simply the new analogy space: shifting all relation vectors to the space origin, so each point in this new space represents a relation between a pair of words given in the analogy question. Figure 1 illustrates this process by several example words of ``Nation-Capital'' and ``Nation-Language'' analogies (\textit{extracted from same test of Table 1, visualized by PCA}).
+
+Naturally, we expect relations with same or similar logic gather together in the analogy space. In order to quantitatively evaluate the similarity, we prepare four different measurements, based on Cosine similarity or Euclidean distance respectively. If we denote the vectors of word $A$, $B$, $C$ and $D$ as $\mathbf{a}$, $\mathbf{b}$, $\mathbf{c}$ and $\mathbf{d}$, then
+\begin{equation}
+Cos. = \mathbf{\frac{(b-a) \cdot (d-c)}{\| b-a\| \|d-c\|}}
+\end{equation}
+\begin{equation}
+Euc. = 1 - \mathbf{\frac{\| (b-a) - (d-c) \|}{\| b-a \| + \| d-c \|}}
+\end{equation}
+while $Cos. \in [-1, 1]$ and $Euc. \in [0, 1]$. \textit{N-Cos.} and \textit{N-Euc.} have similar definitions, but using unit word vectors in calculation. Table 2 shows the result of examples mentioned in Table 1 and Figure 1. Among them, ``NC:DE-CN'' and ``NL:DE-CN'' succeed 2/2 in traditional nearest word evaluation, while all others achieve 1/2.
+
+It's clear that proposed measurements could better represent the quality of these involved words or relations in a quantitative way. As already mentioned, words in Grammar-2 are considered better trained than Grammar-1, and this difference can be captured by proposed measurements only. And for NCs and NLs, traditional metric reports exactly the same accuracy, but as we can see, detailed similarities differ a lot. We believe these phenomena could help word analogy evaluation in the micro aspect.
+
+
+\begin{table}
+\centering
+\caption{Analogy Space Evaluation (Micro)}
+\begin{tabular}{c | c | c | c | c}
+\hline
+Analogy & Cos. & Euc. & N-Cos. & N-Euc.\\
+\hline
+Grammar-1 & 0.114 & 0.334 & 0.115 & 0.332\\
+Grammar-2 & 0.324 & 0.410 & 0.320 & 0.415\\
+\hline
+NC: US-CN & 0.310 & 0.380 & 0.314 & 0.356\\
+NC: US-DE & 0.367 & 0.423 & 0.376 & 0.411\\
+NC: DE-CN & 0.496 & 0.492 & 0.508 & 0.495\\
+\hline
+NL: US-CN & 0.452 & 0.420 & 0.451 & 0.405\\
+NL: US-DE & 0.438 & 0.430 & 0.441 & 0.418\\
+NL: DE-CN & 0.712 & 0.617 & 0.714 & 0.619\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table*}
+\centering
+\caption{Analogy Space Evaluation (Macro)}
+\begin{tabular}{c | c | c c | c c c c c | c c}
+\hline
+\multicolumn{1}{c|}{\multirow{2}{*}{WV Set}} & \multicolumn{1}{c|}{\multirow{2}{*}{Voc.}} & \multicolumn{2}{c|}{Traditional} & \multicolumn{5}{c|}{Proposed} & \multicolumn{2}{c}{SBD}\\
+\cline{3-11}
+& & Accu. & Time & Cos. & Euc. & N-Cos. & N-Euc. & Time & 4C & 2C\\
+\hline
+EN-w5-i5 & 1.8M & 0.697 & 24'56'' & 0.325 & 0.419 & 0.325 & 0.420 & 0'38" &  0.575 & 0.820\\
+EN-w10-i10 & 1.8M & 0.692 & 24'41" & 0.314 & 0.414 & 0.315 & 0.415 & 0'37'' &  0.573 & 0.822\\
+GoogleNews & 3M & 0.737 & 30'48'' & 0.352 & 0.431 & 0.352 & 0.431 & 1'09" & 0.580 & 0.824\\
+\hline
+DE-w5-cbow & 1.8M  & 0.465 & 92'39'' & 0.324 & 0.418 & 0.335 & 0.423 & 1'33'' & $-$ & $-$\\
+DE-w5-sg & 1.8M  & 0.434 & 92'09'' & 0.259 & 0.389 & 0.260 & 0.392 & 1'35'' & $-$ & $-$\\
+DE-w10-cbow & 1.8M  & 0.463 & 89'22'' & 0.318 & 0.416 & 0.331 & 0.422 & 1'37'' & 0.640 & 0.779\\
+DE-w10-sg & 1.8M  & 0.412 & 94'13'' & 0.251 & 0.385 & 0.254 & 0.389 & 1'34'' & 0.619 & 0.767\\
+\hline
+\end{tabular}
+\end{table*}
+
+
+\section{Macro Experiments}
+
+In this section, we would do some experiments on complete analogy question sets and discuss complexity. For English word vectors, we trained two sets on Wikipedia dump with different window size (\textit{w}) and iteration (\textit{i}) by Skip-Gram model, with same dimensionality of 300. They would further be compared with GoogleNews public set. We will evaluate these sets with proposed measurements, along with traditional analogy evaluation result and the performances of a downstream application: \textit{\textbf{S}entence \textbf{B}oundary \textbf{D}etection (SBD)}. Details of SBD implementation can be found in references \cite{che2016sentence,che2016punctuation}.
+
+Beside of English test, we also conducted several tests in German. Leipzig dataset \cite{goldhahn2012building} are used to training German word vectors with Word2Vec toolkit. Then the vectors with different training configurations are evaluated by a set of analogy questions, which contains 2834 semantic questions in 18 categories (\textit{including some reverse logics}) and 77886 syntactic questions in 9 categories. We have uploaded these analogy questions in German for public access\footnote{https://drive.google.com/open?id=
+
+0B13Cc1a7ebTuaE83NEtyemM4aGM}.
+
+Table 3 shows the results and time expenditures of these experiments. It is clear that proposed measurements have same trend with traditional metric, which means once set $X$ achieves better result than set $Y$ in traditional test, it would also do better in proposed alternatives. Performances in downstream application SBD are also fit this trend in general. Meanwhile, proposed evaluation could significantly save time, approximately 95\%. These facts prove that we can achieve same performance within way less time.
+
+However, we also found some limitations. The absolute difference between different vector sets in proposed measurements is smaller, which make it difficult to distinguish, especially with \textit{Euc.} and \textit{N-Euc.} It is also unclear that which measurement from the four proposed could be the optimized option.
+
+\section{Conclusion \& Discussion}
+
+In this paper, we discuss some limitations of traditional word analogy evaluation metric in word vector evaluation, and then propose a simple alternative plan called ``Analogy Space Evaluation'', which directly measures the relation vectors between given pairs of words, instead of traversing the vocabulary to seek the nearest word of the target. Experiments shows that proposed approach serves as good as traditional metric in performance, but reduces the computational complexity significantly. 
+
+This effort can be simply applied on any existing word analogy tasks. Frankly speaking, we cannot claim that our method outperforms the original, except for the complexity part. But complexity does matter. Currently analogy tasks generally contain tens of thousands questions, so traditional traversal-based evaluation can still manage. However, we would definitely want to test higher portion of words in the vocabulary, and with the efforts from the whole community, we may have a ``nearly optimized'' test set someday with up to million words involved. At that time, traversal-free could be a highly desirable quality.
+
+As far as we know, there is no widely acknowledged benchmark which can be used to test new evaluation methods, so our effort remains estimation. In the future, we would attempt to implement more real applications, just as SBD mentioned in this paper, and take their performances as feedbacks, in order to contribute in this dilemma of ``Evaluation of Evaluation''.
+
+\bibliography{emnlp2017}
+\bibliographystyle{emnlp_natbib}
+
+\end{document}

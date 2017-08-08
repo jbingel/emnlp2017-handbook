@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Breaking NLP: Using Morphosyntax, Semantics, Pragmatics and World Knowledge to Fool Sentiment Analysis Systems
+ShortPaperTitle#=%=#Using Morphosyntax, Semantics, Pragmatics and World Knowledge to Fool Sentiment Analysis Systems
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Taylor Mahler
+JobTitle#==#
+Organization#==#Linguistics Department
+The Ohio State University
+Abstract#==#This paper describes our “breaker” submission to the 2017 EMNLP “Build It
+Break It” shared task on sentiment analysis. In order to cause the
+“builder” systems to make incorrect predictions, we edited items in the
+blind test data according to linguistically interpretable strategies that allow
+us to assess the ease with which the builder systems learn various components
+of linguistic structure. On the whole, our submitted pairs break all systems at
+a high rate (72.6%), indicating that sentiment analysis as an NLP task may
+still have a lot of ground to cover. Of the breaker strategies that we
+consider, we find our semantic and pragmatic manipulations to pose the most
+substantial difficulties for the builder systems.
+Author{1}{Firstname}#=%=#Taylor
+Author{1}{Lastname}#=%=#Mahler
+Author{1}{Email}#=%=#mahler.38@osu.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Willy
+Author{2}{Lastname}#=%=#Cheung
+Author{2}{Email}#=%=#cheung.179@osu.edu
+Author{2}{Affiliation}#=%=#The Ohio State University
+Author{3}{Firstname}#=%=#Micha
+Author{3}{Lastname}#=%=#Elsner
+Author{3}{Email}#=%=#elsner.14@osu.edu
+Author{3}{Affiliation}#=%=#The Ohio State University
+Author{4}{Firstname}#=%=#David
+Author{4}{Lastname}#=%=#King
+Author{4}{Email}#=%=#king.2138@osu.edu
+Author{4}{Affiliation}#=%=#The Ohio State University
+Author{5}{Firstname}#=%=#Marie-Catherine
+Author{5}{Lastname}#=%=#de Marneffe
+Author{5}{Email}#=%=#demarneffe.1@osu.edu
+Author{5}{Affiliation}#=%=#The Ohio State University
+Author{6}{Firstname}#=%=#Cory
+Author{6}{Lastname}#=%=#Shain
+Author{6}{Email}#=%=#shain.3@osu.edu
+Author{6}{Affiliation}#=%=#The Ohio State University
+Author{7}{Firstname}#=%=#Symon
+Author{7}{Lastname}#=%=#Stevens-Guille
+Author{7}{Email}#=%=#stevensguille.1@osu.edu
+Author{7}{Affiliation}#=%=#The Ohio State University
+Author{8}{Firstname}#=%=#Michael
+Author{8}{Lastname}#=%=#White
+Author{8}{Email}#=%=#white.1240@osu.edu
+Author{8}{Affiliation}#=%=#The Ohio State University
+
+==========

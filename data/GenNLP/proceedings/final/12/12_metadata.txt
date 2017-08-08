@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Breaking Sentiment Analysis of Movie Reviews
+ShortPaperTitle#=%=#Breaking Sentiment Analysis of Movie Reviews
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Ben Bonfil
+JobTitle#==#
+Organization#==#
+Abstract#==#The current paper covers several strategies we used to `break' predictions of
+sentiment analysis systems participating in the BLGNLP2017 workshop.
+Specifically, we identify difficulties of participating systems in
+understanding modals, subjective judgments, world-knowledge based references
+and certain differences in syntax and perspective.
+Author{1}{Firstname}#=%=#Ieva
+Author{1}{Lastname}#=%=#Staliūnaitė
+Author{1}{Email}#=%=#i.r.staliunaite@students.uu.nl
+Author{1}{Affiliation}#=%=#Utrecht University
+Author{2}{Firstname}#=%=#Ben
+Author{2}{Lastname}#=%=#Bonfil
+Author{2}{Email}#=%=#b.bonfil@students.uu.nl
+Author{2}{Affiliation}#=%=#Utrecht University
+
+==========

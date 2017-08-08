@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#Analysing Errors of Open Information Extraction Systems
+ShortPaperTitle#=%=#Analysing Errors of Open Information Extraction Systems
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Rudolf Schneider
+JobTitle#==#
+Organization#==#Beuth University of Applied Sciences Berlin
+Luxemburger Str. 10
+13353 Berlin, Germany
+Abstract#==#We report results on benchmarking Open Information Extraction (OIE) systems
+using RelVis, a toolkit for benchmarking Open Information Extraction systems.
+Our comprehensive benchmark contains three data sets from the news domain and
+one data set from Wikipedia with overall 4522 labeled sentences and 11243
+binary or n-ary OIE relations.
+In our analysis on these data sets we compared the performance of four popular
+OIE systems, ClausIE, OpenIE 4.2, Stanford OpenIE and PredPatt.
+In addition, we evaluated the impact of five common error classes on a subset
+of 749 n-ary tuples.
+From our deep analysis we unreveal important research directions for a next
+generation on OIE systems.
+Author{1}{Firstname}#=%=#Rudolf
+Author{1}{Lastname}#=%=#Schneider
+Author{1}{Email}#=%=#rudolf.schneider@beuth-hochschule.de
+Author{1}{Affiliation}#=%=#Beuth University of Applied Sciences
+Author{2}{Firstname}#=%=#Tom
+Author{2}{Lastname}#=%=#Oberhauser
+Author{2}{Email}#=%=#tom.oberhauser@beuth-hochschule.de
+Author{2}{Affiliation}#=%=#Beuth University of Applied Sciences
+Author{3}{Firstname}#=%=#Tobias
+Author{3}{Lastname}#=%=#Klatt
+Author{3}{Email}#=%=#tobias.klatt@beuth-hochschule.de
+Author{3}{Affiliation}#=%=#Beuth University of Applied Sciences
+Author{4}{Firstname}#=%=#Felix A.
+Author{4}{Lastname}#=%=#Gers
+Author{4}{Email}#=%=#gers@beuth-hochschule.de
+Author{4}{Affiliation}#=%=#Beuth University of Applied Sciences
+Author{5}{Firstname}#=%=#Alexander
+Author{5}{Lastname}#=%=#Löser
+Author{5}{Email}#=%=#aloeser@beuth-hochschule.de
+Author{5}{Affiliation}#=%=#Beuth University of Applied Sciences
+
+==========

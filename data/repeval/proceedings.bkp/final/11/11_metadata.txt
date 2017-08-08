@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Refining Raw Sentence Representations for Textual Entailment Recognition via Attention
+ShortPaperTitle#=%=#Refining Raw Sentence Representations for Textual Entailment Recognition via Attention
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Jorge Balazs
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper we present the model used by the team Rivercorners for the 2017
+RepEval shared task. First, our model separately encodes a pair of sentences
+into variable-length representations by using a bidirectional LSTM. Later, it
+creates fixed-length raw representations by means of simple aggregation
+functions, which are then refined using an attention mechanism. Finally it
+combines the refined representations of both sentences into a single vector to
+be used for classification. With this model we obtained test accuracies of
+72.057% and 72.055% in the matched and mismatched evaluation tracks
+respectively, outperforming the LSTM baseline, and obtaining performances
+similar to a model that relies on shared information between sentences (ESIM).
+When using an ensemble both accuracies increased to 72.247% and 72.827%
+respectively.
+Author{1}{Firstname}#=%=#Jorge
+Author{1}{Lastname}#=%=#Balazs
+Author{1}{Email}#=%=#jorge@weblab.t.u-tokyo.ac.jp
+Author{1}{Affiliation}#=%=#University of Tokyo
+Author{2}{Firstname}#=%=#Edison
+Author{2}{Lastname}#=%=#Marrese-Taylor
+Author{2}{Email}#=%=#edison_marrese@hotmail.com
+Author{2}{Affiliation}#=%=#The University of Tokyo
+Author{3}{Firstname}#=%=#Pablo
+Author{3}{Lastname}#=%=#Loyola
+Author{3}{Email}#=%=#pablo@weblab.t.u-tokyo.ac.jp
+Author{3}{Affiliation}#=%=#The University of Tokyo
+Author{4}{Firstname}#=%=#Yutaka
+Author{4}{Lastname}#=%=#Matsuo
+Author{4}{Email}#=%=#matsuo@weblab.t.u-tokyo.ac.jp
+Author{4}{Affiliation}#=%=#University of Tokyo
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#An Adaptable Lexical Simplification Architecture for Major Ibero-Romance Languages
+ShortPaperTitle#=%=#An Adaptable Lexical Simplification Architecture for Major Ibero-Romance Languages
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Daniel Ferrés (except record)
+JobTitle#==#
+Organization#==#Large Scale Text Understanding Systems Lab
+TALN - DTIC
+Universitat Pompeu Fabra
+C/ Tànger, 122-140
+08018 Barcelona, Spain
+Abstract#==#Lexical Simplification is the task of reducing the lexical complexity of
+textual documents  by replacing difficult words with easier to read (or
+understand) expressions while preserving the original meaning. The development
+of robust pipelined multilingual architectures able to adapt to new languages
+is of paramount importance in lexical simplification.  This paper describes and
+ evaluates a  modular hybrid linguistic-statistical Lexical Simplifier that
+deals with the four major Ibero-Romance Languages: Spanish, Portuguese,
+Catalan, and Galician. The architecture of the system is the same for the four
+languages addressed, only the language resources used during simplification are
+language specific.
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Ferrés
+Author{1}{Email}#=%=#daniel.ferres@upf.edu
+Author{1}{Affiliation}#=%=#Universitat Pompeu Fabra
+Author{2}{Firstname}#=%=#Horacio
+Author{2}{Lastname}#=%=#Saggion
+Author{2}{Email}#=%=#horacio.saggion@upf.edu
+Author{2}{Affiliation}#=%=#Universitat Pompeu Fabra
+Author{3}{Firstname}#=%=#Xavier
+Author{3}{Lastname}#=%=#Gómez Guinovart
+Author{3}{Email}#=%=#xgg@uvigo.es
+Author{3}{Affiliation}#=%=#Universidade de Vigo
+
+==========

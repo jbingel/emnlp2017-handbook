@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#Using Gaze to Predict Text Readability
+ShortPaperTitle#=%=#Using Gaze to Predict Text Readability
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ana Valeria Gonzalez-Garduño
+JobTitle#==#
+Organization#==#University of Copenhagen
+Abstract#==#We show that text readability prediction improves significantly from hard
+parameter sharing with models predicting first pass duration, total fixation
+duration and regression duration. Specifically, we induce multi-task Multilayer
+Perceptrons and Logistic Regression models over sentence representations that
+capture various aggregate statistics, from two different text readability
+corpora for English, as well as the Dundee eye-tracking corpus. Our approach
+leads to significant improvements over Single task learning and over previous
+systems. In addition, our improvements are consistent across train sample
+sizes, making our approach especially applicable to small datasets.
+Author{1}{Firstname}#=%=#Ana Valeria
+Author{1}{Lastname}#=%=#Gonzalez-Garduño
+Author{1}{Email}#=%=#fcm220@alumni.ku.dk
+Author{1}{Affiliation}#=%=#University of Copenhagen
+Author{2}{Firstname}#=%=#Anders
+Author{2}{Lastname}#=%=#Søgaard
+Author{2}{Email}#=%=#soegaard@di.ku.dk
+Author{2}{Affiliation}#=%=#University of Copenhagen
+
+==========

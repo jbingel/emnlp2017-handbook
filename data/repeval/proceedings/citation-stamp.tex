@@ -1,0 +1,12 @@
+\usepackage{color}
+\definecolor{brown}{rgb}{0.59, 0.29, 0.0}
+\newcommand{\changeurlcolor}[1]{\hypersetup{urlcolor=#1}}       
+\newcommand{\citeinfo}[2]{
+  \AddToShipoutPicture{%
+    \setlength{\unitlength}{1mm}
+%%% EDIT WORKSHOP CHAIRS AND WORKSHOP TITLE %%%%%%%%%%%%%%%%%%%%%%%%%%
+    \put(105,12){\makebox(0,0){\footnotesize {\em Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing},
+	\ifthenelse{\equal{#1}{#2}}{page #1}{pages #1--#2}}}
+     \put(105,11){\makebox(0,0){\footnotesize Copenhagen, Denmark, September 7–11, 2017. \copyright 2017 Association for Computational Linguistics}}
+  }
+}

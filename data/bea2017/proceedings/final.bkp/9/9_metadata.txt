@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Linked Data for Language-Learning Applications
+ShortPaperTitle#=%=#Linked Data for Language-Learning Applications
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Robyn Loughnane
+JobTitle#==#
+Organization#==#Lesson Nine GmbH
+Max-Beer-Str. 2
+10119 Berlin
+Abstract#==#The use of linked data within language-learning applications is an open
+research question. A research prototype is presented that applies linked-data
+principles to store linguistic annotation generated from language-learning
+content using a variety of NLP tools. The result is a database that links
+learning content, linguistic annotation and open-source resources, on top of
+which a diverse range of tools for language-learning applications can be built.
+Author{1}{Firstname}#=%=#Robyn
+Author{1}{Lastname}#=%=#Loughnane
+Author{1}{Email}#=%=#rloughnane@babbel.com
+Author{1}{Affiliation}#=%=#Lesson Nine GmbH (Babbel)
+Author{2}{Firstname}#=%=#Kate
+Author{2}{Lastname}#=%=#McCurdy
+Author{2}{Email}#=%=#kmccurdy@babbel.com
+Author{2}{Affiliation}#=%=#Lesson Nine GmbH (Babbel)
+Author{3}{Firstname}#=%=#Peter
+Author{3}{Lastname}#=%=#Kolb
+Author{3}{Email}#=%=#pkolb@babbel.com
+Author{3}{Affiliation}#=%=#Lesson Nine GmbH (Babbel)
+Author{4}{Firstname}#=%=#Stefan
+Author{4}{Lastname}#=%=#Selent
+Author{4}{Email}#=%=#sselent@babbel.com
+Author{4}{Affiliation}#=%=#Lesson Nine GmbH (Babbel)
+
+==========

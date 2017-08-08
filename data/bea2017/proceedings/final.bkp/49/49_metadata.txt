@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#49
+FinalPaperTitle#=%=#Language Based Mapping of Science Assessment Items to Skills
+ShortPaperTitle#=%=#Language Based Mapping of Science Assessment Items to Skills
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Farah Nadeem
+JobTitle#==#
+Organization#==#
+Abstract#==#Knowledge of the association between assessment questions and the skills
+required to solve them is necessary for analysis of student learning. This
+association, often represented as a Q-matrix, is either hand-labeled by domain
+experts or learned as latent variables given a large student response data set.
+As a means of automating the match to formal standards, this paper uses neural
+text classification methods, leveraging the language in the standards documents
+to identify online text for a proxy training task. Experiments involve
+identifying the topic and crosscutting concepts of middle school science
+questions leveraging multi-task training. Results show that it is possible to
+automatically build a Q-matrix without student response data and using a modest
+number of hand-labeled questions.
+Author{1}{Firstname}#=%=#Farah
+Author{1}{Lastname}#=%=#Nadeem
+Author{1}{Email}#=%=#farahn@uw.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Mari
+Author{2}{Lastname}#=%=#Ostendorf
+Author{2}{Email}#=%=#ostendor@u.washington.edu
+Author{2}{Affiliation}#=%=#University of Washington
+
+==========

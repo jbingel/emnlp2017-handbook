@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Annotating Orthographic Target Hypotheses in a German L1 Learner Corpus
+ShortPaperTitle#=%=#Annotating Orthographic Target Hypotheses in a German L1 Learner Corpus
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Ronja Laarmann-Quante
+JobTitle#==#
+Organization#==#Ruhr-University Bochum
+Universitätsstr. 150
+44801 Bochum
+Germany
+Abstract#==#NLP applications for learners often rely on annotated learner corpora. Thereby,
+it is important that the annotations are both meaningful for the task, and
+consistent and reliable. We present a new longitudinal L1 learner corpus for
+German (handwritten texts collected in grade 2--4), which is transcribed and
+annotated with a target hypothesis that strictly only corrects orthographic
+errors, and is thereby tailored to research and tool development for
+orthographic issues in primary school. While for most corpora, transcription
+and target hypothesis are not evaluated, we conducted a detailed
+inter-annotator agreement study for both tasks. Although we achieved high
+agreement, our discussion of cases of disagreement shows that even with
+detailed guidelines, annotators differ here and there for different reasons,
+which should also be considered when working with transcriptions and target
+hypotheses of other corpora, especially if no explicit guidelines for their
+construction are known.
+Author{1}{Firstname}#=%=#Ronja
+Author{1}{Lastname}#=%=#Laarmann-Quante
+Author{1}{Email}#=%=#laarmann-quante@linguistics.rub.de
+Author{1}{Affiliation}#=%=#Ruhr-University Bochum
+Author{2}{Firstname}#=%=#Katrin
+Author{2}{Lastname}#=%=#Ortmann
+Author{2}{Email}#=%=#katrin.ortmann@rub.de
+Author{2}{Affiliation}#=%=#Ruhr-University Bochum
+Author{3}{Firstname}#=%=#Anna
+Author{3}{Lastname}#=%=#Ehlert
+Author{3}{Email}#=%=#anna.ehlert@rub.de
+Author{3}{Affiliation}#=%=#Ruhr-University Bochum
+Author{4}{Firstname}#=%=#Maurice
+Author{4}{Lastname}#=%=#Vogel
+Author{4}{Email}#=%=#maurice.vogel@rub.de
+Author{4}{Affiliation}#=%=#Ruhr-University Bochum
+Author{5}{Firstname}#=%=#Stefanie
+Author{5}{Lastname}#=%=#Dipper
+Author{5}{Email}#=%=#dipper@linguistics.rub.de
+Author{5}{Affiliation}#=%=#Ruhr-University Bochum
+
+==========

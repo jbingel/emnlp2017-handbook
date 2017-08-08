@@ -1,0 +1,23 @@
+* Friday, September 8, 2017
++ 09:00--09:15 Welcome Note
+15  # Towards Linguistically Generalizable NLP Systems: A Workshop and Shared Task
+! 09:15--10:00 Invited Talk %by Aurelie Herbelot
+= 10:00--12:10 Session 1: Research Contribution Papers
+1 10:00--10:25  # Analysing Errors of Open Information Extraction Systems
++ 10:30--11:00 Coffee Break
+! 11:00--11:45 Invited Talk %by Grzegorz Chrupała
+2 11:45--12:10  # Massively Multilingual Neural Grapheme-to-Phoneme Conversion
++ 12:10--12:30  "Build It Break It, Language Edition" Shared Task Overview
++ 12:30--14:00 Lunch Break
+! 14:00--14:45 Invited Talk %by Martha Palmer
+= 14:45--15:35 Session 2: Shared Task Description Papers
+10 14:45--15:10  # BIBI System Description: Building with CNNs and Breaking with Deep Reinforcement Learning
+13 15:10--15:35  # Breaking NLP: Using Morphosyntax, Semantics, Pragmatics and World Knowledge to Fool Sentiment Analysis Systems
++ 15:35--16:00 Coffee Break
+= 16:00--17:15 Poster Session
+7   # An Adaptable Lexical Simplification Architecture for Major Ibero-Romance Languages
+8   # Cross-genre Document Retrieval: Matching between Conversational and Formal Writings
+9   # ACTSA: Annotated Corpus for Telugu Sentiment Analysis
+11   # Strawman: An Ensemble of Deep Bag-of-Ngrams for Sentiment Analysis
+12   # Breaking Sentiment Analysis of Movie Reviews
++ 17:15--17:30 Closing Remarks

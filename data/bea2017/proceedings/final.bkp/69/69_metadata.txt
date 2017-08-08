@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#69
+FinalPaperTitle#=%=#Ensemble Methods for Native Language Identification
+ShortPaperTitle#=%=#Ensemble Methods for Native Language Identification
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Sophia Chan
+JobTitle#==#
+Organization#==#University of Victoria Department of Computer Science
+3800 Finnerty Rd, Victoria, BC V8P 5C2, Canada
+Abstract#==#Our team—Uvic-NLP—explored and evaluated a variety of lexical features for
+Native Language Identification (NLI) within the framework of ensemble methods.
+Using a subset of the highest performing features, we train Support Vector
+Machines (SVM) and Fully Connected Neural Networks (FCNN) as base classifiers,
+and test different methods for combining their outputs. Restricting our scope
+to the closed essay track in the NLI Shared Task 2017, we find that our best
+SVM ensemble achieves an F1 score of 0.8730 on the test set.
+Author{1}{Firstname}#=%=#Sophia
+Author{1}{Lastname}#=%=#Chan
+Author{1}{Email}#=%=#schan1@uvic.ca
+Author{1}{Affiliation}#=%=#University of Victoria
+Author{2}{Firstname}#=%=#Maryam
+Author{2}{Lastname}#=%=#Honari Jahromi
+Author{2}{Email}#=%=#mhonari@uvic.ca
+Author{2}{Affiliation}#=%=#University of Victoria
+Author{3}{Firstname}#=%=#Benjamin
+Author{3}{Lastname}#=%=#Benetti
+Author{3}{Email}#=%=#bbenetti@uvic.ca
+Author{3}{Affiliation}#=%=#University of Victoria
+Author{4}{Firstname}#=%=#Aazim
+Author{4}{Lastname}#=%=#Lakhani
+Author{4}{Email}#=%=#aazimlakhani@uvic.ca
+Author{4}{Affiliation}#=%=#University of Victoria
+Author{5}{Firstname}#=%=#Alona
+Author{5}{Lastname}#=%=#Fyshe
+Author{5}{Email}#=%=#afyshe@uvic.ca
+Author{5}{Affiliation}#=%=#University of Victoria
+
+==========

@@ -10,7 +10,6 @@ repeval
 sclem
 scnlp
 SPNLP
-student_volunteer
 StyVa
 w-nut
 wassa2017

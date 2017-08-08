@@ -1,0 +1,14 @@
+abbrev BLGNLP 2017
+type Workshop
+title Workshop on Building Linguistically Generalizable NLP Systems
+url http://generalizablenlp.weebly.com
+booktitle Proceedings of the First Workshop on Building Linguistically Generalizable NLP Systems
+month September
+year 2017
+location Copenhagen, Denmark
+publisher Association for Computational Linguistics
+chairs Emily Bender (University of Washington)
+chairs Hal Daumé III (University of Maryland)
+chairs Allyson Ettinger (University of Maryland)
+chairs Sudha Rao (University of Maryland)
+bib_url TOBEFILLED-http://www.aclweb.org/anthology/W/W05/W05-02%02d

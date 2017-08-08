@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#1
+FinalPaperTitle#=%=#Traversal-Free Word Vector Evaluation in Analogy Space
+ShortPaperTitle#=%=#Traversal-Free Word Vector Evaluation in Analogy Space
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Xiaoyin Che
+JobTitle#==#
+Organization#==#Hasso-Plattner-Institut für Digital Engineering gGmbH
+Prof.-Dr.-Helmert-Str. 2-3, D-14482 Potsdam, Germany
+Abstract#==#In this paper, we propose an alternative evaluating metric for word analogy
+questions (A to B is as C to D) in word vector evaluation. Different from the
+traditional method which predicts the fourth word by the given three, we
+measure the similarity directly on the "relations" of two pairs of given words,
+just as shifting the relation vectors into a new analogy space. Cosine and
+Euclidean distances are then calculated as measurements. Observation and
+experiments shows the proposed analogy space evaluation could offer a more
+comprehensive evaluating result on word vectors with word analogy questions.
+Meanwhile, computational complexity are remarkably reduced by avoiding
+traversing the vocabulary.
+Author{1}{Firstname}#=%=#Xiaoyin
+Author{1}{Lastname}#=%=#Che
+Author{1}{Email}#=%=#xiaoyin.che@hpi.de
+Author{1}{Affiliation}#=%=#Hasso Plattner Institute
+Author{2}{Firstname}#=%=#Nico
+Author{2}{Lastname}#=%=#Ring
+Author{2}{Email}#=%=#nico.ring@student.hpi.uni-potsdam.de
+Author{2}{Affiliation}#=%=#Hasso Plattner Institute
+Author{3}{Firstname}#=%=#Willi
+Author{3}{Lastname}#=%=#Raschkowski
+Author{3}{Email}#=%=#willi.raschkowski@student.hpi.uni-potsdam.de
+Author{3}{Affiliation}#=%=#Hasso Plattner Institute
+Author{4}{Firstname}#=%=#Haojin
+Author{4}{Lastname}#=%=#Yang
+Author{4}{Email}#=%=#haojin.yang@hpi.de
+Author{4}{Affiliation}#=%=#Hasso Plattner Institute
+Author{5}{Firstname}#=%=#Christoph
+Author{5}{Lastname}#=%=#Meinel
+Author{5}{Email}#=%=#christoph.meinel@hpi.de
+Author{5}{Affiliation}#=%=#Hasso Plattner Institute
+
+==========

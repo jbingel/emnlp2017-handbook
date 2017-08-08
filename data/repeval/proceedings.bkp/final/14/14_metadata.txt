@@ -1,0 +1,15 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#LCT-MALTA's Submission to RepEval 2017 Shared Task
+ShortPaperTitle#=%=#LCT-MALTA's Submission to RepEval 2017 Shared Task
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Hoa Vu
+JobTitle#==#
+Organization#==#
+Abstract#==#System using BiLSTM and max pooling. Embedding is enhanced by POS, character
+and dependency info.
+Author{1}{Firstname}#=%=#Hoa
+Author{1}{Lastname}#=%=#Vu
+Author{1}{Email}#=%=#hoavutrongvn@gmail.com
+Author{1}{Affiliation}#=%=#University of Malta
+
+==========

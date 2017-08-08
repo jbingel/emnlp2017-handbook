@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#30
+FinalPaperTitle#=%=#An Error-Oriented Approach to Word Embedding Pre-Training
+ShortPaperTitle#=%=#An Error-Oriented Approach to Word Embedding Pre-Training
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Youmna Farag
+JobTitle#==#
+Organization#==#University of Cambridge
+Abstract#==#We propose a novel word embedding pre-training approach that exploits writing
+errors in learners' scripts. We compare our method to previous models that tune
+the embeddings based on script scores and the discrimination between correct
+and corrupt word contexts in addition to the generic commonly-used embeddings
+pre-trained on large corpora. The comparison is achieved by using the
+aforementioned models to bootstrap a neural network that learns to predict a
+holistic score for scripts. Furthermore, we investigate augmenting our model
+with error corrections and monitor the impact on performance. Our results show
+that our error-oriented approach outperforms other comparable ones which is
+further demonstrated when training on more data. Additionally, extending the
+model with corrections provides further performance gains when data sparsity is
+an issue.
+Author{1}{Firstname}#=%=#Youmna
+Author{1}{Lastname}#=%=#Farag
+Author{1}{Email}#=%=#yf273@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Marek
+Author{2}{Lastname}#=%=#Rei
+Author{2}{Email}#=%=#marek.rei@cl.cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Ted
+Author{3}{Lastname}#=%=#Briscoe
+Author{3}{Email}#=%=#ejb@cl.cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+
+==========

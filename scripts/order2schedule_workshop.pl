@@ -66,7 +66,7 @@ while (my $line = <STDIN>) {
     my $author = (exists $hash->{'%by'} ? " ($hash->{'%by'})" : "");
     #print "$pre\n$post\n$start\n$end\n";
     print"\\vspace{1ex}\n";
-    $time =~ s/(\d+):(\d+)/minus12($1,$2)/eg;
+    #$time =~ s/(\d+):(\d+)/minus12($1,$2)/eg;
     print "\\item[$time] {\\bfseries $pre $post$author}\n";
   }
   elsif ($line =~ /^[=+]\s*(.*)/)
@@ -86,7 +86,7 @@ while (my $line = <STDIN>) {
     push @t, $4 if $4;
     my $endsat   = scalar(@t) ? pop @t : "\$\\bullet\$";
     my $startsat = scalar(@t) ? pop @t : "";
-    $time =~ s/(\d+):(\d+)/minus12($1,$2)/eg;
+    #$time =~ s/(\d+):(\d+)/minus12($1,$2)/eg;
     print sprintf("\\item[$time] \\wspaperentry{$conf_part-%03d}\n", $paper_id);
   }
   else

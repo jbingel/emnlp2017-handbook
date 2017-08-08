@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Character-level Intra Attention Network for Natural Language Inference
+ShortPaperTitle#=%=#Character-level Intra Attention Network for Natural Language Inference
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Han Yang
+JobTitle#==#
+Organization#==#
+Abstract#==#Natural language inference (NLI) is a central problem in language
+understanding. End-to-end artificial neural networks have reached
+state-of-the-art  performance in NLI field recently. In this paper, we propose
+Character-level Intra Attention Network (CIAN) for the NLI task. In our model,
+we use the character-level convolutional network to replace the standard word
+embedding layer, and we use the intra attention to capture the intra-sentence
+semantics. The proposed CIAN model provides improved results based on a newly
+published MNLI corpus.
+Author{1}{Firstname}#=%=#Han
+Author{1}{Lastname}#=%=#Yang
+Author{1}{Email}#=%=#yanghancs@gmail.com
+Author{1}{Affiliation}#=%=#Universitat Politècnica de Catalunya
+Author{2}{Firstname}#=%=#Marta R.
+Author{2}{Lastname}#=%=#Costa-jussà
+Author{2}{Email}#=%=#marta.ruiz@upc.edu
+Author{2}{Affiliation}#=%=#Universitat Politècnica de Catalunya
+Author{3}{Firstname}#=%=#José A. R.
+Author{3}{Lastname}#=%=#Fonollosa
+Author{3}{Email}#=%=#jose.fonollosa@upc.edu
+Author{3}{Affiliation}#=%=#Universitat Politècnica de Catalunya
+
+==========

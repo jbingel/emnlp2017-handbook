@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#Massively Multilingual Neural Grapheme-to-Phoneme Conversion
+ShortPaperTitle#=%=#Massively Multilingual Neural Grapheme-to-Phoneme Conversion
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Ben Peters
+JobTitle#==#
+Organization#==#
+Abstract#==#Grapheme-to-phoneme conversion (g2p) is necessary for text-to-speech and
+automatic speech recognition systems. Most g2p systems are monolingual: they
+require language-specific data or handcrafting of rules. Such systems are
+difficult to extend to low resource languages, for which data and handcrafted
+rules are not available. As an alternative, we present a neural
+sequence-to-sequence approach to g2p which is trained on
+spelling--pronunciation pairs in hundreds of languages. The system shares a
+single encoder and decoder across all languages, allowing it to utilize the
+intrinsic similarities between different writing systems. We show an 11%
+improvement in phoneme error rate over an approach based on adapting
+high-resource monolingual g2p models to low-resource languages. Our model is
+also much more compact relative to previous approaches.
+Author{1}{Firstname}#=%=#Ben
+Author{1}{Lastname}#=%=#Peters
+Author{1}{Email}#=%=#benzurdopeters@gmail.com
+Author{1}{Affiliation}#=%=#Saarland University
+Author{2}{Firstname}#=%=#Jon
+Author{2}{Lastname}#=%=#Dehdari
+Author{2}{Email}#=%=#jon@dehdari.org
+Author{2}{Affiliation}#=%=#DFKI & Uni Saarland
+Author{3}{Firstname}#=%=#Josef
+Author{3}{Lastname}#=%=#van Genabith
+Author{3}{Email}#=%=#josef.van_genabith@dfki.de
+Author{3}{Affiliation}#=%=#DFKI
+
+==========

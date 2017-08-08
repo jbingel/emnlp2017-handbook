@@ -2,7 +2,7 @@ SubmissionNumber#=%=#83
 FinalPaperTitle#=%=#Stacked Sentence-Document Classifier Approach for Improving Native Language Identification
 ShortPaperTitle#=%=#Stacked Sentence-Document Classifier Approach for Improving Native Language Identification
 NumberOfPages#=%=#8
-CopyrightSigned#=%=#Felice Dell
+CopyrightSigned#=%=#Felice Dell’Orletta
 JobTitle#==#
 Organization#==#
 Abstract#==#In this paper, we describe the approach of the ItaliaNLP Lab team to native

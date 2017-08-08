@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#ACTSA: Annotated Corpus for Telugu Sentiment Analysis
+ShortPaperTitle#=%=#ACTSA: Annotated Corpus for Telugu Sentiment Analysis
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Sandeep Sricharan Mukku
+JobTitle#==#
+Organization#==#
+Abstract#==#Sentiment analysis deals with the task of determining the polarity of a
+document or sentence and has received a lot of attention in recent years for
+the English language. With the rapid growth of social media these days, a lot
+of data is available in regional languages besides English. Telugu is one such
+regional language with abundant data available in social media, but it’s hard
+to find a labelled data of sentences for Telugu Sentiment Analysis. In this
+paper, we describe an effort to build a gold-standard annotated corpus of
+Telugu sentences to support Telugu Sentiment Analysis. The corpus, named ACTSA
+(Annotated Corpus for Telugu Sentiment Analysis) has a collection of Telugu
+sentences taken from different sources which were then pre-processed and
+manually annotated by native Telugu speakers using our annotation guidelines.
+In total, we have annotated 5457 sentences, which makes our corpus the largest
+resource currently available. The corpus and the annotation guidelines are made
+publicly available.
+Author{1}{Firstname}#=%=#Sandeep Sricharan
+Author{1}{Lastname}#=%=#Mukku
+Author{1}{Email}#=%=#sandeepsricharan@gmail.com
+Author{1}{Affiliation}#=%=#IIIT Hyderabad
+Author{2}{Firstname}#=%=#Radhika
+Author{2}{Lastname}#=%=#Mamidi
+Author{2}{Email}#=%=#radhika.mamidi@iiit.ac.in
+Author{2}{Affiliation}#=%=#IIIT Hyderabad
+
+==========

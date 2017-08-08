@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#Human and Automated CEFR-based Grading of Short Answers
+ShortPaperTitle#=%=#Human and Automated CEFR-based Grading of Short Answers
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Anaïs Tack
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper is concerned with the task of automatically assessing the written
+proficiency level of non-native (L2) learners of English.
+Drawing on previous research on automated L2 writing assessment following the
+Common European Framework of Reference for Languages (CEFR), we investigate the
+possibilities and difficulties of deriving the CEFR level from short answers to
+open-ended questions, which has not yet been subjected to numerous studies up
+to date.
+
+The object of our study is twofold: to examine the intricacy involved with both
+human and automated CEFR-based grading of short answers.
+On the one hand, we describe the compilation of a learner corpus of short
+answers graded with CEFR levels by three certified Cambridge examiners.
+We mainly observe that, although the shortness of the answers is reported as
+undermining a clear-cut evaluation, the length of the answer does not
+necessarily correlate with inter-examiner disagreement.
+On the other hand, we explore the development of a soft-voting system for the
+automated CEFR-based grading of short answers and draw tentative conclusions
+about its use in a computer-assisted testing (CAT) setting.
+Author{1}{Firstname}#=%=#Anaïs
+Author{1}{Lastname}#=%=#Tack
+Author{1}{Email}#=%=#anais.tack@uclouvain.be
+Author{1}{Affiliation}#=%=#Catholic University of Louvain
+Author{2}{Firstname}#=%=#Thomas
+Author{2}{Lastname}#=%=#François
+Author{2}{Email}#=%=#thomas.francois@uclouvain.be
+Author{2}{Affiliation}#=%=#Université catholique de Louvain
+Author{3}{Firstname}#=%=#Sophie
+Author{3}{Lastname}#=%=#Roekhaut
+Author{3}{Email}#=%=#sroekhaut@altissia.com
+Author{3}{Affiliation}#=%=#ALTISSIA International s.a.
+Author{4}{Firstname}#=%=#Cédrick
+Author{4}{Lastname}#=%=#Fairon
+Author{4}{Email}#=%=#cedrick.fairon@uclouvain.be
+Author{4}{Affiliation}#=%=#Université catholique de Louvain
+
+==========

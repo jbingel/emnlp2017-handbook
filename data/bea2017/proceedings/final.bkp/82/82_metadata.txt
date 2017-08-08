@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#82
+FinalPaperTitle#=%=#Fusion of Simple Models for Native Language Identification
+ShortPaperTitle#=%=#Fusion of Simple Models for Native Language Identification
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Fabio Natanael Kepler
+JobTitle#==#Professor
+Organization#==#Federal University of Pampa
+Alegrete, Brazil
+Abstract#==#In this paper we describe the approaches we explored for the 2017 Native
+Language Identification shared task. We focused on simple word and sub-word
+units avoiding heavy use of hand-crafted features. Following recent trends, we
+explored linear and neural networks models to attempt to compensate for the
+lack of rich feature use. Initial efforts yielded f1-scores of 82.39% and
+83.77% in the development and test sets of the fusion track, and were
+officially submitted to the task as team L2F. After the task was closed, we
+carried on further experiments and relied on a late fusion strategy for
+combining our simple proposed approaches with modifications of the baselines
+provided by the task. As expected, the i-vectors based sub-system dominates the
+performance of the system combinations, and results in the major contributor to
+our achieved scores. Our best combined system achieves 90.1% and 90.2% f1-score
+in the development and test sets of the fusion track, respectively.
+Author{1}{Firstname}#=%=#Fabio
+Author{1}{Lastname}#=%=#Kepler
+Author{1}{Email}#=%=#fabio@kepler.pro.br
+Author{1}{Affiliation}#=%=#L2F/INESC-ID and UNIPAMPA
+Author{2}{Firstname}#=%=#Ramón
+Author{2}{Lastname}#=%=#Astudillo
+Author{2}{Email}#=%=#ramon@astudillo.com
+Author{2}{Affiliation}#=%=#INESC-ID/L2F
+Author{3}{Firstname}#=%=#Alberto
+Author{3}{Lastname}#=%=#Abad
+Author{3}{Email}#=%=#alberto.abad@l2f.inesc-id.pt
+Author{3}{Affiliation}#=%=#INESC-ID/L2F
+
+==========

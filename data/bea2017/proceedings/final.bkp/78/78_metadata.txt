@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#78
+FinalPaperTitle#=%=#Classifier Stacking for Native Language Identification
+ShortPaperTitle#=%=#Classifier Stacking for Native Language Identification
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Wen Li
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper reports our contribution (team WLZ) to the NLI Shared Task 2017
+(essay track). We first extract lexical and syntactic features from the essays,
+perform feature weighting and selection, and train linear support vector
+machine (SVM) classifiers each on an individual feature type. The output of
+base classifiers, as probabilities for each class, are then fed into a
+multilayer perceptron to predict the native language of the author. We also
+report the performance of each feature type, as well as the best features of a
+type. Our system achieves an accuracy of 86.55%, which is among the best
+performing systems of this shared task.
+Author{1}{Firstname}#=%=#Wen
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#wl9@indiana.edu
+Author{1}{Affiliation}#=%=#Indiana University
+Author{2}{Firstname}#=%=#Liang
+Author{2}{Lastname}#=%=#Zou
+Author{2}{Email}#=%=#liazou@indiana.edu
+Author{2}{Affiliation}#=%=#Indiana University
+
+==========

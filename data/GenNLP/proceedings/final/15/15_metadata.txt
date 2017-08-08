@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#15
+FinalPaperTitle#=%=#Towards Linguistically Generalizable NLP Systems: A Workshop and Shared Task
+ShortPaperTitle#=%=#Towards Linguistically Generalizable NLP Systems: A Workshop and Shared Task
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Allyson Ettinger
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper presents a summary of the first Workshop on Building Linguistically
+Generalizable Natural Language Processing Systems, and the associated Build It
+Break It, The Language Edition shared task. The goal of this workshop was to
+bring together researchers in NLP and linguistics with a carefully designed
+shared task aimed at testing the generalizability of NLP systems beyond the
+distributions of their training data. We describe the motivation, setup, and
+participation of the shared task, provide discussion of some highlighted
+results, and discuss lessons learned.
+Author{1}{Firstname}#=%=#Allyson
+Author{1}{Lastname}#=%=#Ettinger
+Author{1}{Email}#=%=#aetting@umd.edu
+Author{1}{Affiliation}#=%=#University of Maryland
+Author{2}{Firstname}#=%=#Sudha
+Author{2}{Lastname}#=%=#Rao
+Author{2}{Email}#=%=#raosudha@cs.umd.edu
+Author{2}{Affiliation}#=%=#University Of Maryland, College Park
+Author{3}{Firstname}#=%=#Hal
+Author{3}{Lastname}#=%=#Daumé III
+Author{3}{Email}#=%=#me@hal3.name
+Author{3}{Affiliation}#=%=#UMD
+Author{4}{Firstname}#=%=#Emily M.
+Author{4}{Lastname}#=%=#Bender
+Author{4}{Email}#=%=#ebender@uw.edu
+Author{4}{Affiliation}#=%=#University of Washington
+
+==========
