@@ -1,6 +1,108 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% These are declarations of environments 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% the parameters are: title, description, address, url, opening hours
+\newenvironment{funitem}[5]{
+\noindent\textbf{#1}
+\par \noindent\emph{#2}
+\par \noindent{#4}
+\par\noindent\begin{minipage}[b]{.37\textwidth}{#3}\end{minipage}\begin{minipage}[b]{.63\textwidth}{#5}\end{minipage}
+\medskip
+}
+
+% the parameters are: title, description, address, url
+\newenvironment{funitemshortaddr}[4]{
+\noindent\textbf{#1}
+\par \noindent\emph{#2}
+\par \noindent{#4}
+\par\noindent{#3}
+\medskip
+}
+
+% fun item w/o address or opening hours
+\newenvironment{funitemshort}[3]{
+\noindent\textbf{#1}
+\par \noindent\emph{#2}
+\par \noindent{#3}
+\medskip
+}
+
+% the parameters are: title, description, address, opening hours
+\newenvironment{funitemwourl}[4]{
+\noindent\textbf{#1}
+\par \noindent\emph{#2}
+\par\noindent\begin{minipage}[b]{.37\textwidth}{#3}\end{minipage}\begin{minipage}[b]{.63\textwidth}{#4}\end{minipage}
+\medskip
+}
+
+% the parameters are: title, description, address, url
+\newenvironment{shopitem}[4]{%
+\noindent\textbf{#1.}\ \emph{#2.}\ #3\ #4%
+}
+
+% the parameters are: title, description, address, url
+\newenvironment{eventitem}[4]{%
+\noindent\textbf{#1.}\ #2.\ #3\ #4%
+}
+
+% the parameters are: title, description, address, url, distance, cost, opening hours
+\newenvironment{fooditem}[7]{
+\noindent
+\begin{minipage}[t]{.5\textwidth}\textbf{#1} \end{minipage}\hfill\begin{minipage}[t]{.2\textwidth}\begin{right}\textbf{#5}\ \ \ \ \ \textbf{#6} \end{right}\end{minipage}
+\par \noindent\emph{#2}
+\par \noindent\url{#4}
+\par\noindent\begin{minipage}[t]{.37\textwidth}{#3}\end{minipage}\begin{minipage}[t]{.63\textwidth}{#7}\end{minipage}
+\medskip
+}
+
+% the parameters are: title, description, address, distance, cost, opening hours
+\newenvironment{fooditemwourl}[6]{
+\noindent
+\begin{minipage}[t]{.5\textwidth}\textbf{#1} \end{minipage}\hfill\begin{minipage}[t]{.2\textwidth}\begin{right}\textbf{#4}\ \ \ \ \ \textbf{#5} \end{right}\end{minipage}
+\par \noindent\emph{#2}
+\par \noindent\begin{minipage}[t]{.37\textwidth}{#3}\end{minipage}\begin{minipage}[t]{.63\textwidth}{#6}\end{minipage}
+\medskip
+}
+
+\newenvironment{ohours}[8]{%
+{\begin{tabular}{l l l l} 
+#1&#2&#5&#6 \\
+#3&#4&#7&#8
+\end{tabular}}
+}
+
+\newenvironment{addr}[2]{
+{\begin{tabular}{l} 
+#1\\
+#2
+\end{tabular}}
+}
+
+\newenvironment{shortaddr}[1]{
+{\begin{tabular}{p{\textwidth}} 
+#1
+\end{tabular}}
+}
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Start of Chapter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 \chapter{Local Guide}
 
-\emph{This guide was written by Maria Barrett, Joachim Bingel, Mareike Hartmann, Dirk Hovy. For the most up-to-date version, please visit
+
+\emph{This guide was written by Maria Barrett, Joachim Bingel, Mareike Hartmann, Dirk Hovy.\\
+\noindent For the most up-to-date version, please visit
   \url{http://www.emnlp2017.net}}
   
 \index{Barrett, Maria}
@@ -9,6 +111,1084 @@
 \index{Hovy, Dirk}
 
 
-\begin{center}
-  \todo{TODO}
-\end{center}
+\begin{left}
+
+
+
+
+
+
+
+\section{General}
+
+To \textbf{get around} the city, best buy a multi-day pass or \textbf{rent bikes} at a local bike shop. There are also city bikes at many locations throughout the city. When biking, clearly indicate where you are going. Do not stop without indicating so (by raising a hand as if to greet someone). Do not swerve and change lanes. Any of these things will bring out the inner Viking in otherwise mild-mannered Danish cyclists.
+
+\textbf{Public transport} is excellent and gets you everywhere. You certainly don't need a taxi between almost anywhere in the city and the airport. But note that there are three zones to get from the airport to central Copenhagen (and regular ticket controls!). Otherwise two zones will get you around central Copenhagen. Find connections between addresses in Denmark at \url{http://journeyplanner.dk}. If you stay longer and travel more than 10 times, you might want to get a \textbf{Rejsekort} (reloadable travel card valid throughout all of Denmark on all modes of transportation), which you can buy at vending machines placed at every metro station. Note that the card itself costs 80 DKK (non-refundable), and you’ll need to top it up before your first ride.
+\par
+For getting a sense of the \textbf{city’s geography}, it is helpful to realize that there are three major boroughs surrounding the Inner City in the West, North, and East, which are aptly called \textit{Vesterbro} (where the venue is located), \textit{Nørrebro}, and \textit{Østerbro}. Crammed between Vesterbro and Nørrebro lies \textit{Frederiksberg}. In the north, the Inner City is walled off by a stretch of artificial lakes, \textit{Søerne}, and in the south, on the other side of the canal, there’s the island of \textit{Amager}. 
+\par
+You can pay with \textbf{credit card} pretty much anywhere, although some places (usually smaller ones) require a Danish card.
+\par
+The \textbf{country code} is +45.
+
+
+\section{Sightseeing}
+Kødbyen is a lively place, and you can spend the entire conference within the walls of the old meatpacking district, trying new restaurants, listening to upcoming bands, and drinking hipster coffee with the locals. However, DGI Byen – the part of Kødbyen, in which Øksnehallen and Cph Conference are located – contains a number of other facilities. This includes indoor swimming and gym, that are free for participants. Check out \url{http://www.dgi-byen.com/} for more information. The following sightseeing suggestions all take you out of Kødbyen.
+\par
+\bigskip
+\begin{funitem}
+{Carlsberg Glyptotek}
+{Nice collection of statues and paintings. The courtyard has a cafe where you can sit among palm trees. Free entrance on Tuesdays.}
+{\begin{addr}
+{Dantes Plads 7}
+{1556 Copenhagen K}
+\end{addr}}
+{\url{http://www.glyptoteket.com}}
+{\begin{ohours}
+{Tue, Wed, Fri, Sat, Sun}
+{11:00–18:00}
+{Thu}
+{11:00–22:00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{funitem}
+\begin{funitemshortaddr}
+{Christiania}
+{Mostly known for weed and dead hippie dreams. Actually has nice jazz concerts and other events (often in ‘Operaen’, not to be confused with the big opera house). The old parts along the ramparts are full of nice, self-made houses. Nice vegetarian restaurant, Morgenstedet. }
+{\begin{shortaddr}
+{Main entrance is on Prinsessegade, but there are several other ways into the area.}
+\end{shortaddr}}
+{\url{http://www.visitcopenhagen.com/copenhagen/culture/alternative-christiania }}
+\end{funitemshortaddr}
+\begin{funitem}
+{Danish Design Museum}
+{Next to Kastellet in an old hospital. A series of several rooms arranged around a courtyard, each presenting one decade or artist of Danish design (lamps, chairs, etc.). Nice cafe, and a museum shop with many of the things you just saw.}
+{\begin{addr}
+{Bredgade 68}
+{1260 Copenhagen K}
+\end{addr}}
+{\url{http://www.designmuseum.dk/en}}
+{\begin{ohours}
+{Tue, Fri, Thu, Sat, Sun}
+{10:00–18:00}
+{Wed}
+{10:00–21:00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{funitem}
+\begin{funitem}
+{Den Sorte Diamant}
+{The Royal Library. Modern addition to the old library. Great architecture. Changing exhibitions in the basement, a free exhibition of rare books and old manuscripts in a pop-art decorated room upstairs. Also features changing photography exhibitions.}
+{\begin{addr}
+{Søren Kierkegaards Pl. 1}
+{1221 Copenhagen K}
+\end{addr}}
+{\url{http://www.kb.dk/en/}}
+{\begin{ohours}
+{Mon–Fri}
+{08:00–21:00}
+{Sat}
+{09:00–19:00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{funitem}
+\begin{funitem}
+{Get a GoBoat}
+{Get an electric-powered boat for up to eight people and set to sea (well, don’t actually set to sea: the canal). You can explore Copenhagen’s waterways on your own while enjoying some drinks and snacks that you bring yourself or pick up, e.g. at Papirøen.}
+{\begin{addr}
+{Islands Brygge 10}
+{2300 Copenhagen S}
+\end{addr}}
+{\url{http://goboat.dk/en/}}
+{\begin{ohours}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{funitem}
+\begin{funitemshort}
+{Harbour bus}
+{Cheapskate boat sightseeing. Pay a regular bus ticket or show your multi-day pass  and get a sea view of Copenhagen. Stops e.g. by Den Sorte Diamant, Nyhavn, The Opera House and Langelinje.}
+{\url{https://www.google.dk/maps/place/Havnebussen/ }}
+\end{funitemshort}
+\noindent\textbf{Kastellet}
+\par\noindent\emph{The old castle at the northern end of the city. Shaped like a star, and fun to walk on. Next to the Little Mermaid, which you can happily skip, but if you must, you can see it from here. Was built to defend the city, but captured before it was finished.}
+\medskip
+
+\begin{funitem}
+{National Museum}
+{One of the best Viking collections in the world.}
+{\begin{addr}
+{Ny Vestergade 10}
+{1471 Copenhagen K}
+\end{addr}}
+{\url{http://en.natmus.dk/museums/the-national-museum-of-denmark/}}
+{\begin{ohours}
+{Tue–Sun}
+{10:00–17:00}
+{}
+{}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{funitem}
+\begin{funitem}
+{Rundetårn}
+{Round tower with a spiraling pathway inside, built so that the king could ride up on a horse to the observatory. Nice view over the city, and you can run down the spiral and shout “wheeee!” }
+{\begin{addr}
+{Købmagergade 52A}
+{1150 Copenhagen K}
+\end{addr}}
+{\url{http://www.rundetaarn.dk/en/}}
+{\begin{ohours}
+{All days}
+{10:00–20:00}
+{}
+{}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{funitem}
+\begin{funitem}
+{Torvehallerne}
+{Two modern market halls, filled with food vendors and food-related items. Some overpriced stuff, but also a lot of specialized shops with things that are otherwise hard to find. The smørrebrød shop is becoming a new in-spot.}
+{\begin{addr}
+{Frederiksborggade 21}
+{1360 Copenhagen K}
+\end{addr}}
+{\url{http://torvehallernekbh.dk}}
+{\begin{ohours}
+{Mon–Wed}
+{10:00–19:00}
+{Thu–Fri}
+{10:00–20:00}
+{Sat}
+{10:00–18:00}
+{Sun}
+{11:00–17:00}
+\end{ohours}}
+\end{funitem}
+\begin{funitemwourl}
+{The Little Mermaid}
+{Yeah… Don’t be too disappointed.}
+{\begin{addr}
+{Langelinie}
+{2100 Copenhagen Ø}
+\end{addr}}
+{}
+{\begin{ohours}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{funitemwourl}
+\begin{funitem}
+{Statens Museum for Kunst}
+{Decent art museum. Has a bar on the first Friday of the month.}
+{\begin{addr}
+{Sølvgade 48-50}
+{1307 Copenhagen K}
+\end{addr}}
+{\url{http://www.smk.dk/en/}}
+{\begin{ohours}
+{Tue–Sun}
+{11:00–17:00}
+{Wed}
+{11:00–20:00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{funitem}
+\begin{funitemshort}
+{Ørestad}
+{If you like new architecture, take the metro and visit Ørestad. It is a new area of Copenhagen with award-winning houses. There is a mall directly in front of Ørestad station (Field’s), or take the metro out to Vestamager station and walk up the 8tallet house.}
+{\url{http://www.visitcopenhagen.com/copenhagen/architecture/architectural-orestad}}
+\end{funitemshort}
+\begin{funitemshort}
+{Jægersborggade}
+{This street in Nørrebro is a hipster’s paradise. Very close to Assistens Kirkegård, it is home to a number of cafés/bars, galleries, craft and (second-hand) clothing shops, as well as combinations thereof (Sneakers&Coffee, Beer&Vinyl, ...). Great for finding gifts to take home. }
+{\url{http://jaegersborggade.com/wpAB/en/shops/}}
+\end{funitemshort}
+
+\section{Shops}
+
+\begin{shopitem}
+{B\&W Hallerne}%title
+{Second hand furniture in a giant, factory hall, by the water, in industrial Copenhagen. Only open every other weekend. Bring cash}%description
+{Refshalevej 171, 1432 Copenhagen.}%adress
+{\url{https://www.facebook.com/BW-LOPPEMARKED-171235476283625/}}%url
+\end{shopitem}
+
+\begin{shopitem}
+{Faraos Cigarer}%title
+{Cartoon shop – or three, actually, but all next-door – close to Rundetårn}%description
+{Skindergade 27, 1159 Copenhagen K.}%adress
+{\url{https://www.faraos.dk}}%url
+\end{shopitem}
+
+\begin{shopitem}
+{Sort kaffe \& Vinyl}%title
+{Hipster record shop with good coffee}%description
+{Skydebanegade 4
+1709 Copenhagen V.}%adress
+{\url{https://www.facebook.com/sortkaffeogvinyl/}}%url
+\end{shopitem}
+
+\begin{shopitem}
+{København K}%title
+{Second-hand clothing in a street packed with fashion stores}%description
+{Studiestræde 30, 1455 Copenhagen K.}%adress
+{\url{http://koebenhavnk.com}}%url
+\end{shopitem}
+
+\section*{Dance and Music Venues}
+\begin{shopitem}
+{Global CPH}%title
+{World music}%description
+{Nørre Allé 7, 2200 Copenhagen N.}%adress
+{\url{http://globalcph.dk/english/}}%url
+\end{shopitem}
+
+\begin{shopitem}
+{Danshallerne}%title
+{Dance and theatre}%description
+{Bohrsgade 19, 1799 Copenhagen V.}%adress
+{\url{http://www.dansehallerne.dk/en/}}%url
+\end{shopitem}
+
+\begin{shopitem}
+{La Fontaine}%title
+{Intimate, 100-capacity veteran of the Scandinavian jazz scene staging nightly jam sessions}%description
+{Kompagnistræde 11, 1208 Copenhagen K.}%adress
+{\url{http://lafontaine.dk}}%url
+\end{shopitem}
+
+\begin{shopitem}
+{Montmartre}%title
+{Classic jazz joint in central Copenhagen}%description
+{Store Regnegade 19A, 1110 Copenhagen K.}%adress
+{\url{http://www.jazzhusmontmartre.dk}}%url
+\end{shopitem}
+
+\begin{shopitem}
+{Mojo}%title
+{Blues, jazz \& folk from Scandinavian \& international artists in a compact club open until 5am}%description
+{Løngangstræde 21C, 1468 Copenhagen K.}%adress
+{\url{https://mojo.dk}}%url
+\end{shopitem}
+
+\begin{shopitem}
+{Pumpehuset}%title
+{Rock, pop, hip hop, world music -- lots of different music styles, but generally nice, national and international bookings}%description
+{Studiestræde 52, 1554 Copenhagen V.}%adress
+{\url{http://pumpehuset.dk/}}%url
+\end{shopitem}
+
+\begin{shopitem}
+{Royal Theatre}%title
+{See ballet at the old stage, a play in the new theatre house by the sea or opera in the Opera House}%description
+{}%adress
+{\url{https://kglteater.dk/en/}}%url
+\end{shopitem}
+
+\begin{shopitem}
+{Vega}%title
+{Rock and pop scene not too far from the venue}%description
+{Enghavevej 40, 1674 Copenhagen V.}%adress
+{\url{http://vega.dk}}%url
+\end{shopitem}
+
+
+
+\section{Events}
+Moreover, if your conference schedule permits, here’s a list of events happening in Copenhagen and the wider region, during EMNLP:
+\par
+\bigskip
+
+
+\begin{eventitem}
+{Cirque du Soleil}%title
+{Malmö Arena, September 6--10}%description
+{Hyllie Stationstorg 2, 215 32 Malmö, Sweden.}%adress
+{\url{https://www.cirquedusoleil.com/sweden/malmo/shows}}%url
+\end{funitem}
+
+
+\begin{eventitem}
+{Copenhagen World Music}%title
+{Runs September 6--10 at different venues in Copenhagen}%description
+{}%adress
+{\url{http://cphworld.dk}}%url
+\end{funitem}
+
+\begin{eventitem}
+{Luisi leads Danish composer Carl Nielsen’s 5th Symphony in Koncerthuset}%title
+{September 7}%description
+{Koncerthuset, Emil Holms Kanal 20, 2300 Copenhagen S.}%adress
+{\url{http://drkoncerthuset.dk/}}%url
+\end{funitem}
+
+\section{Day-Trips}
+
+\begin{funitem}
+{Arken}
+{Modern art museum south of the city, in an unassuming suburb. Nice changing exhibitions and a modern collection. }
+{\begin{addr}
+{Skovvej 100}
+{2635 Ishøj}
+\end{addr}}
+{\url{http://uk.arken.dk}}
+{\begin{ohours}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{funitem}
+\begin{funitem}
+{Louisiana}
+{Modern art museum on the coast north of the city. The buildings are integrated into a park overlooking the cliffs towards Sweden. Great exhibits and a world-renowned collection. Sneak in picnic stuff and eat on the lawns.}
+{\begin{addr}
+{Gl Strandvej 13}
+{3050 Humlebæk}
+\end{addr}}
+{\url{https://en.louisiana.dk}}
+{\begin{ohours}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{funitem}
+\begin{funitem}
+{Roskilde Viking Ship Museum}
+{30 min by train from the main station, in a lovely small town lies this museum, which contains five well-preserved Viking ships that were sunk there to form a barrier. See the 1:1 viking ship reconstructions and try to sail one.}
+{\begin{addr}
+{Vindeboder 12}
+{4000 Roskilde}
+\end{addr}}
+{\url{http://www.vikingeskibsmuseet.dk/en/}}
+{\begin{ohours}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{funitem}
+
+
+
+\section{Other Things to Do}
+If you’re less into classical sightseeing but want to live a day as a Copenhagener would (big claim, we know\dots), the following suggestions might be interesting. Obviously, the best way to get around is by bike.
+
+\subsection{Dance the Night Away}
+If you’re into electronic music, you’ll probably enjoy Copenhagen’s old Meat Packing District (\textit{Kødbyen}), where all the following bars are located. \textit{Jolene} and \textit{Bakken} are small and sweaty, and true to their origin and location. They look a bit run-down (the area used to be all slaughterhouses and meat auction halls). There’s also \textit{KB18} with more deep house/techno, but don’t go there before 1 am. \textit{Mesteren \& Lærlingen} plays hip hop/soul/reggae.
+
+\subsection{Parks}
+Copenhagen has a number of very nice parks that invite you to hang out or do sports. The biggest, \textit{Fælledparken}, is right next to the Department of Computer Science and has a little lake, otherwise it’s a big green meadow with lots of runners and football players. A hidden gem with a super beautiful (albeit artificially created) lake, or rather trench, is \textit{Østre Anlæg}, right behind the National Art Gallery. You can have a barbeque there if you bring your own coal, stationary grills are provided. \textit{Assistens Kirkegård} in Nørrebro is a very beautiful graveyard. People from other places might find this strange, but it’s a favourite pastime among Copenhageners to hang out here. \textit{Nørrebroparken} is wonderful in springtime, go there to join young Copenhageners for a beer or a frisbee game (disclaimer: don’t literally try to join them, they are Danes. They will panic). Just outside of Copenhagen near Gentofte station, is \textit{Bernstorff’s Park} which – aside from usual park stuff and a castle – holds Pometet which is a very broad range of Danish fruit trees as well as a smaller selection of exotic fruit trees. Originally for the royal family, but nowadays free for visitors to sample. During weekends in spring, summer and early autumn you can have afternoon tea in Queen Louise’ teahouse or in the her rose garden. 
+
+
+
+\section{Eating \& Drinking}
+Unless you come from Norway, everything will be more expensive than in your home country. It’s best not to convert the prices and just take them as-is. A coffee/latte costs 20--50 DKK, a beer almost everywhere 50 DKK. A main course in a restaurant is typically 150–250 DKK.
+\par
+The following sections list a selection of restaurants along with the price range and their distance from the conference venue.
+\par
+\medskip
+\noindent Price range indicator: 
+
+\begin{tabular}{l l} 
+\textbf{\$} &Main course $<$ 150 DKK\\
+\textbf{\$\$}&Main course 150–250 DKK\\
+\textbf{\$\$\$} &Main course $>$ 250 DKK
+\end{tabular}
+
+
+
+\section{Restaurants Close to the Conference Venue}
+The following restaurants are in very close proximity to the conference venue, most of them in \emph{Kødbyen}, the old meat packing district, which is now a center of Copenhagen nightlife and home to numerous restaurants offering foods from around the globe. The following are all great picks, but there are plenty more for you to discover.
+\par
+\bigskip
+\begin{fooditem}
+{Fiskebaren}
+{Allegedly one of the 10 best fish restaurants in Europe. Very nice dishes, but expensive. Go for the starters and medium dishes and share. Make sure to check out the column-shaped aquarium.}
+{\begin{addr}
+{Flæsketorvet 100}
+{1711 Copenhagen V}
+\end{addr}}
+{http://fiskebaren.dk}
+{0.4 km}
+{\$\$\$}
+{\begin{ohours}
+{Mon–Thu}
+{17:30–00:00}
+{Fri}
+{17:30–02:00}
+{Sat}
+{11:30–02:00}
+{Sun}
+{11:30–00:00}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Fleisch}
+{Restaurant in Kødbyen with its own butcher counter. Have some meat-based open-face sandwiches there, or grab a few of their beer sausages to go and enjoy them outside.}
+{\begin{addr}
+{Slagterboderne 7}
+{1716 Copenhagen V}
+\end{addr}}
+{http://www.fleisch.dk}
+{0.3 km}
+{\$\$}
+{\begin{ohours}
+{Tue–Thu}
+{11:30–00:00}
+{Fri–Sat}
+{ 11:30–01:00}
+{Sun}
+{11:30–00:00}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Hija de Sanchez}
+{Ex-Noma chef decided to leave the big business and make everyday tacos. Get 3 for 100DKK.}
+{\begin{addr}
+{Slagterboderne 8}
+{1716 Copenhagen V}
+\end{addr}}
+{http://www.hijadesanchez.dk}
+{0.3 km}
+{\$}
+{\begin{ohours}
+{Mon–Fri}
+{17:30–00:00}
+{Sun}
+{17:30–22:00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditemwourl}
+{Isted Grill}
+{Not a restaurant, but a hole-in-the-wall late-night snack food place. Get the flæskesteg sandwich (grilled pork roast with pickles and red cabbage) after a night of drinking. Cheap and tasty.}
+{\begin{addr}
+{Istedgade 92}
+{1650 Copenhagen V}
+\end{addr}}
+{0.7 km}
+{\$}
+{\begin{ohours}
+{Sun–Thu}
+{12:00–00:00}
+{Fri–Sat}
+{12:00–02.00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditemwourl}
+\begin{fooditem}
+{Madklubben}
+{Several locations, closest on Vesterbrogade. Nice “home-made” food, reasonable prices. Very good for groups (with a reservation). Vegetarian options. }
+{\begin{addr}
+{Vesterbrogade 62}
+{1620 Copenhagen V}
+\end{addr}}
+{http://madklubben.dk/en/ }
+{0.7 km}
+{\$}
+{\begin{ohours}
+{Mon–Thu}
+{17:30–00:00}
+{Fri–Sat}
+{17:00–00:00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Magasasa Dim Sum \& Cocktails}
+{The name says it all. Raw interior. Reasonably priced. }
+{\begin{addr}
+{Flæsketorvet 54--56}
+{1711 Copenhagen V}
+\end{addr}}
+{http://magasasa.dk/dim-sum-cocktails/?lang=en}
+{0.5 km}
+{\$}
+{\begin{ohours}
+{Mon–Thu}
+{11:00–23:00}
+{Fri–Sat}
+{11:00–00:00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Mother}
+{Great pizza!}
+{\begin{addr}
+{Høkerboderne 9}
+{1712 Copenhagen V}
+\end{addr}}
+{http://mother.dk}
+{0.4 km}
+{\$}
+{\begin{ohours}
+{All days}
+{11:00–01:00}
+{}
+{}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Nose2Tail}
+{As cozy as a former slaughterhouse basement can get (the one in the Kødbyen basement is the best of their locations). Serves daily changing meat, fish, and innard dishes. Freshly made cracklings (Danish delicacy made from pork skin), served with bacon mayonnaise – because fat! Chase with a Fernet Branca. Very good beer and friendly staff with awesome leather aprons.}
+{\begin{addr}
+{Kødboderne 9}
+{1711 Copenhagen}
+\end{addr}}
+{http://nose2tail.dk/}
+{0.6 km}
+{\$\$}
+{\begin{ohours}
+{Tue–Thu}
+{18:00–00:00}
+{Fri–Sat}
+{18:00–01:00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{PatePate}
+{Small plates, international cuisine. Great for sharing. Medium price range. Also nice to start your evening in Kødbyen. Vegetarian options. }
+{\begin{addr}
+{Slagterboderne 1}
+{1716 Copenhagen V}
+\end{addr}}
+{http://www.patepate.dk/}
+{0.2 km}
+{\$\$}
+{\begin{ohours}
+{Mon–Wed}
+{09:00–00:00}
+{Thu}
+{09:00–01:00}
+{Fri}
+{09:00–01:00}
+{Sat}
+{11:30–01:00}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Restaurant Cofoco}
+{Part of the Cooking for Copenhagen group. Small delicious plates. Slightly upscale, but reasonable.}
+{\begin{addr}
+{Abel Cathrines Gade 7}
+{1654 Copenhagen V}
+\end{addr}}
+{http://cofoco.dk/en/}
+{0.3 km}
+{\$\$}
+{\begin{ohours}
+{Mon–Sat}
+{18:00–00:00}
+{}
+{}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Tommi’s Burger Joint}
+{Tasty minimalistic burgers! Part of a small international chain originating from Iceland.}
+{\begin{addr}
+{Høkerboderne 21-23}
+{1712 København V}
+\end{addr}}
+{https://www.burgerjoint.dk/}
+{0.4 km}
+{\$}
+{\begin{ohours}
+{Thu–Sun}
+{11:00–22:00}
+{Mon–Wed}
+{11:00–21:00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{WEDOFOOD}
+{Homemade salads. Vegetarian options.}
+{\begin{addr}
+{Halmtorvet 21}
+{1700 Copenhagen V}
+\end{addr}}
+{http://wedofood.dk}
+{0.2 km}
+{\$}
+{\begin{ohours}
+{Mon-Sat}
+{10:00–21:00}
+{Sun}
+{10:00–20:00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Warpigs}
+{One word: pork. Great craft beer.}
+{\begin{addr}
+{Flæsketorvet 25}
+{1711 Copenhagen V}
+\end{addr}}
+{http://warpigs.dk}
+{0.3 km}
+{\$\$}
+{\begin{ohours}
+{Mon–Thu}
+{11:30–00:00}
+{Fri–Sat}
+{11:00–02:00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+
+
+
+
+
+
+\section{Culinary Highlights in the City}
+
+\begin{fooditem}
+{Bror}
+{High-end dining, comes with reasonably priced wine pairings. More expensive, but worth it.}
+{\begin{addr}
+{Sankt Peders Stræde 24A}
+{1453 Copenhagen K}
+\end{addr}}
+{http://www.restaurantbror.dk }
+{1.3 km}
+{\$\$\$}
+{\begin{ohours}
+{Wed–Sun}
+{17:30–00:00}
+{}
+{}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Geist}
+{Super-minimalist nordic cooking. The menu describes exactly what you get (“Carrots, braised in orange juice, with ginger”), but whatever it is, it’s cooked to perfection! You order several small plates, each reasonably priced, but it adds up. You can watch the busy, but eerily quiet kitchen, lit only by candles. Fancy cocktail bar, too, albeit a bit short on classics.}
+{\begin{addr}
+{Kongens Nytorv 8}
+{1050 Copenhagen K}
+\end{addr}}
+{http://restaurantgeist.dk}
+{2.3 km}
+{\$\$}
+{\begin{ohours}
+{All days}
+{12:00–15:00 and 17:30–01:00}
+{}
+{}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Gran Torino}
+{Part of the Madklubben group. Set meals (from 200 DKK) includes pasta, pizza and extra nice Tiramisu.}
+{\begin{addr}
+{Sortedam Dossering 5}
+{2200 Copenhagen N}
+\end{addr}}
+{http://madklubben.dk/gran-torino/}
+{2.3 km}
+{\$}
+{\begin{ohours}
+{Mon–Fri}
+{17:30–00:00}
+{Sun}
+{17:30–22:00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Höst}
+{Get a fixed price menu with lots of interesting culinary and visual effects (clams on burning juniper bushes). Pricey, but worth the money. Throw in an extra few hundred for the wine pairing, and you won't be disappointed.}
+{\begin{addr}
+{Nørre Farimagsgade 41}
+{1364 Copenhagen K}
+\end{addr}}
+{http://hostvakst.dk/host/restaurant/?lang=en}
+{1.6 km}
+{\$\$\$}
+{\begin{ohours}
+{All days}
+{17:30–00:00}
+{}
+{}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditemwourl}
+{Morgenstedet}
+{Vegetarian Restaurant in the heart of Christiania. Has an improvised canteen feel to it, but very tasty food.}
+{\begin{addr}
+{Fabriksområdet 134}
+{1440 Copenhagen K}
+\end{addr}}
+{3.3 km}
+{\$}
+{\begin{ohours}
+{Tue–Sun}
+{12:00–21:00}
+{}
+{}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditemwourl}
+\begin{fooditem}
+{Papirøen}
+{A collection of street food vendors in one old factory building, ranging from duck-fat fries to Asian noodle salads. And plenty of drinks. If the weather is nice, you can sit in deck chairs and watch the boats on the canal. Cheap to mid-range depending on the vendor.}
+{\begin{addr}
+{Trangravsvej 14, hal 7/8}
+{1436 Copenhagen K}
+\end{addr}}
+{http://copenhagenstreetfood.dk/en/}
+{3.3 km}
+{\$-\$\$}
+{\begin{ohours}
+{Mon–Thu}
+{12:00–21:00}
+{Fri–Sun}
+{12:00–21:00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Ramen to Biiru}
+{Japanese ramen meets Danish craft beer.}
+{\begin{addr}
+{Enghavevej 58}
+{1674 Copenhagen V}
+\end{addr}}
+{http://ramentobiiru.dk/vesterbro/}
+{1.4 km}
+{\$}
+{\begin{ohours}
+{Mon--Thu}
+{12:00–22:00}
+{​​Fri-Sat}
+{12:00–23:00}
+{​Sun}
+{12:00–21:00}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{SimpleRAW}
+{Rawfood. Vegan and vegetarian.}
+{\begin{addr}
+{Gråbrødre Torv 9}
+{1154 Copenhagen K}
+\end{addr}}
+{https://www.simpleraw.dk}
+{1.7 km}
+{\$}
+{\begin{ohours}
+{Mon-Sat}
+{10:00–22:00}
+{Sun}
+{10:00–20:00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+
+
+
+
+
+
+
+
+
+\section{Cafes and Bars}
+
+\begin{fooditem}
+{Bang og Jensen}
+{At the far end of Istedgade, both a cafe and a bar, and extremely hyggelig.}
+{\begin{addr}
+{Istedgade 130}
+{1650 Copenhagen V}
+\end{addr}}
+{http://www.bangogjensen.dk}
+{0.9 km}
+{}
+{\begin{ohours}
+{Mon-Fri}
+{07:30-02:00}
+{Sat}
+{10:00-02:00}
+{Sun}
+{10:00-00:00}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Bastard}
+{Board game café.}
+{\begin{addr}
+{Rådhusstræde 13}
+{1466 Copenhagen K}
+\end{addr}}
+{http://bastardcafe.dk }
+{1.3 km}
+{}
+{\begin{ohours}
+{Mon–Thu, Sun}
+{12:00–00:00}
+{Fri–Sat}
+{12:00–02:00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Kaffe}
+{On Istedgade, at the intersection with Skydebanegade, and easy to miss. Full of wooden trinkets and good coffee. Very small!}
+{\begin{addr}
+{Istedgade 90}
+{1650 Copenhagen V}
+\end{addr}}
+{http://kaffeistedgade.dk}
+{0.7 km}
+{}
+{\begin{ohours}
+{Mon–Fri}
+{08:00–22:00}
+{Sat–Sun}
+{09:00–22:00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Library Bar}
+{Next to the train station, the bar of the Plaza Hotel. Plush leather sofas, dark wood panels, and on some nights: live piano and songs. Mixed crowd, go in a suit or with hiking clothes.}
+{\begin{addr}
+{Bernstorffsgade 4}
+{1577 Copenhagen V}
+\end{addr}}
+{https://ligula.se/en/the-library-bar/}
+{0.6 km}
+{}
+{\begin{ohours}
+{Mon–Thu}
+{16:00–00:00}
+{Fri–Sat}
+{16:00–01:00}
+{}
+{}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Mikkeller}
+{Slightly overhyped micro-brewery. Some good beers, some misses. If you ever wondered what chocolate-liquorice blueberry porter tastes like: here you might find out. Excellent sausages to go with the beer.}
+{\begin{addr}
+{Viktoriagade 8}
+{1655 Copenhagen V}
+\end{addr}}
+{http://mikkeller.dk/location/mikkeller-bar-viktoriagade-copenhagen/}
+{0.4 km}
+{}
+{\begin{ohours}
+{Sun–Wed}
+{13:00–01:00}
+{Thu–Fri}
+{13:00–02:00}
+{Sat}
+{12:00–02:00}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Paludan}
+{Sit in an antique book shop and sip a beer. Or a coffee. Very decent snack food (try the charcuterie board). Also a good place to work.}
+{\begin{addr}
+{Fiolstræde 10}
+{1171 Copenhagen K}
+\end{addr}}
+{https://www.paludan-cafe.dk/home-eng}
+{2.3 km}
+{}
+{\begin{ohours}
+{Mon–Fri}
+{09:00–22:00}
+{​​Sat}
+{10:00–22:00}
+{​Sun}
+{10:00–22:00}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Risteriet}
+{Coffee place close to Kødbyen.}
+{\begin{addr}
+{Helgolandsgade 21}
+{1700 Copenhagen V}
+\end{addr}}
+{http://www.risteriet.dk/risteriet-halmtorvet/}
+{0.2 km}
+{}
+{\begin{ohours}
+{Mon–Fri}
+{07:30–18:00}
+{Sat}
+{ 09:00–18:00}
+{Sun}
+{09:00–18:00}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+\begin{fooditem}
+{Sort kaffe og vinyl}
+{Another small coffee place, around the corner from Kaffe. You can also buy old vinyl disks while sipping your latte.}
+{\begin{addr}
+{Skydebanegade 4}
+{1709 Copenhagen}
+\end{addr}}
+{https://facebook.com/sortkaffeogvinyl/}
+{0.6 km}
+{}
+{\begin{ohours}
+{Mon–Fri}
+{08:00–19:00}
+{Sat}
+{09:00–19:00}
+{Sun}
+{09:00–18:00}
+{}
+{}
+\end{ohours}}
+\end{fooditem}
+
+
+
+
+
+\section{Health}
+\textbf{Pharmacies} are few and far between. If you need one, there is a 24h pharmacy next to the train station on Vesterbrogade 6, 1620 Copenhagen V, 0.6 km from the venue.
+\par
+For \textbf{24h medical advice}, call 1813. They can also help you see a doctor outside regular opening hours. 
+\par
+In \textbf{emergency situations}, call 112.
+
+
+
+
+
+
+
+
+\end{left}
