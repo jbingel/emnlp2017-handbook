@@ -1,5 +1,5 @@
 #!/bin/bash
-for dir in $(ls data); do
+for dir in $(cat $1); do
   [[ ! -d "auto/$dir" ]] && mkdir auto/$dir
   tar -zxvf data/$dir/proceedings.tgz -C data/$dir  proceedings/order  
   tar -zxvf data/$dir/proceedings.tgz -C data/$dir  proceedings/final.tgz 

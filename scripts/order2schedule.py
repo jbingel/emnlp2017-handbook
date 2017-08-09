@@ -12,7 +12,7 @@ Bugs: Workshop and program chairs do not like to properly format order files.
 
 Usage: 
 
-    cat data/{papers,shortpapers,demos,srw}/order | python order2schedule.py
+   python order2schedule.py data/{papers, demos}/proceedings/order
 """
 
 import re, os
@@ -139,6 +139,7 @@ for date in dates:
 
         # Print the Session overview (single-page at-a-glance grid)
         if len(parallel_sessions) > 0:
+            print parallel_sessions[0]
             session_num = parallel_sessions[0].num
 
             path = os.path.join(args.output_dir, '%s-parallel-session-%s.tex' % (day, session_num))

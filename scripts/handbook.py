@@ -59,10 +59,12 @@ class Session:
         self.date = date
         self.papers = []
         self.desc = None
+        self.num = None
 
         (self.name, self.keywords) = extract_keywords(namestr)
         
         if self.name.find(':') != -1:
+            #print "FOUND IT", line, self.name
             colonpos = self.name.find(':')
             self.desc = self.name[colonpos+2:]
             self.name = self.name[:colonpos]
@@ -75,7 +77,7 @@ class Session:
             self.poster = True
 
     def __str__(self):
-        return "SESSION [%s/%s] %s %s" % (self.date, self.time, self.name, self.desc)
+        return "SESSION [%s/%s] %s %s %s" % (self.date, self.time, self.name, self.desc, self.num)
 
     def add_paper(self,paper):
         self.papers.append(paper)
