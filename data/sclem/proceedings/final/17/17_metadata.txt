@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#17
+FinalPaperTitle#=%=#Inflection Generation for Spanish Verbs using Supervised Learning
+ShortPaperTitle#=%=#Inflection Generation for Spanish Verbs using Supervised Learning
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Cristina Barros
+JobTitle#==#
+Organization#==#University of Alicante, Carretera San Vicente del Raspeig s/n, 03690, San Vicente del Raspeig, Alicante
+Abstract#==#We present a novel supervised approach to inflection generation for verbs in
+Spanish. Our system takes as input the verb's lemma form and the desired
+features such as person, number, tense, and is able to predict the appropriate
+grammatical conjugation. Even though our approach learns from fewer examples
+comparing to previous work, it is able to deal with all the Spanish moods
+(indicative, subjunctive and imperative) in contrast to previous work which
+only focuses on indicative and subjunctive moods. We show that in an intrinsic
+evaluation, our system achieves 99% accuracy, outperforming (although not
+significantly) two competitive state-of-art systems. The successful results
+obtained clearly indicate that our approach could be integrated into wider
+approaches related to text generation in Spanish.
+Author{1}{Firstname}#=%=#Cristina
+Author{1}{Lastname}#=%=#Barros
+Author{1}{Email}#=%=#cbarros@dlsi.ua.es
+Author{1}{Affiliation}#=%=#Univesity of Alicante
+Author{2}{Firstname}#=%=#Dimitra
+Author{2}{Lastname}#=%=#Gkatzia
+Author{2}{Email}#=%=#dgatzia@gmail.com
+Author{2}{Affiliation}#=%=#Edinburgh Napier University
+Author{3}{Firstname}#=%=#Elena
+Author{3}{Lastname}#=%=#Lloret
+Author{3}{Email}#=%=#elloret@dlsi.ua.es
+Author{3}{Affiliation}#=%=#University of Alicante
+
+==========

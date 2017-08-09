@@ -1,0 +1,14 @@
+abbrev TOBEFILLED-EduApp
+type Workshop
+title First Workshop on Subword and Character Level Models in NLP
+url https://sites.google.com/corp/view/sclem2017/home
+booktitle Proceedings of the First Workshop on Subword and Character Level Models in NLP
+month September
+year 2017
+location Copenhagen, Denmark
+publisher Association for Computational Linguistics
+chairs Manaal Faruqui
+chairs Hinrich Schuetze
+chairs Isabel Trancoso
+chairs Yadollah Yaghoobzadeh
+bib_url TOBEFILLED-http://www.aclweb.org/anthology/W/W05/W05-02%02d

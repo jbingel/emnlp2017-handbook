@@ -1,0 +1,54 @@
+SubmissionNumber#=%=#84
+FinalPaperTitle#=%=#Predicting Target Language CCG Supertags Improves Neural Machine Translation
+ShortPaperTitle#=%=#Predicting Target Language CCG Supertags Improves Neural Machine Translation
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Maria Nadejde
+JobTitle#==#
+Organization#==#The University of Edinburgh
+Informatics Forum, 10 Crichton St, Edinburgh EH8 9AB
+Abstract#==#Neural machine translation (NMT) models are able to partially learn syntactic
+information from sequential lexical information. Still, some complex syntactic
+phenomena such as prepositional phrase attachment are poorly modeled. This work
+aims to answer two questions: 1) Does explicitly modeling target language
+syntax help NMT? 2) Is tight integration of words and syntax better than
+multitask training?
+We introduce syntactic information in the form of CCG supertags in the decoder,
+by interleaving the target supertags with the word sequence. Our results on WMT
+data show that explicitly modeling target-syntax improves machine translation
+quality for German->English, a high-resource pair, and for Romanian->English, a
+low-resource pair and also several syntactic phenomena including prepositional
+phrase attachment. Furthermore, a tight coupling of words and syntax improves
+translation quality more than multitask training. By combining target-syntax
+with adding source-side dependency labels in the embedding layer, we obtain a
+total improvement of  0.9 BLEU for German->English and 1.2 BLEU for
+Romanian->English.
+Author{1}{Firstname}#=%=#Maria
+Author{1}{Lastname}#=%=#Nadejde
+Author{1}{Email}#=%=#maria.nadejde@gmail.com
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Siva
+Author{2}{Lastname}#=%=#Reddy
+Author{2}{Email}#=%=#siva.reddy@ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+Author{3}{Firstname}#=%=#Rico
+Author{3}{Lastname}#=%=#Sennrich
+Author{3}{Email}#=%=#rico.sennrich@ed.ac.uk
+Author{3}{Affiliation}#=%=#University of Edinburgh
+Author{4}{Firstname}#=%=#Tomasz
+Author{4}{Lastname}#=%=#Dwojak
+Author{4}{Email}#=%=#t.dwojak@amu.edu.pl
+Author{4}{Affiliation}#=%=#Adam Mickiewicz University, Poznań
+Author{5}{Firstname}#=%=#Marcin
+Author{5}{Lastname}#=%=#Junczys-Dowmunt
+Author{5}{Email}#=%=#junczys@amu.edu.pl
+Author{5}{Affiliation}#=%=#Adam Mickiewicz University, Poznań
+Author{6}{Firstname}#=%=#Philipp
+Author{6}{Lastname}#=%=#Koehn
+Author{6}{Email}#=%=#phi@jhu.edu
+Author{6}{Affiliation}#=%=#Johns Hopkins University
+Author{7}{Firstname}#=%=#Alexandra
+Author{7}{Lastname}#=%=#Birch
+Author{7}{Email}#=%=#lexi.birch@gmail.com
+Author{7}{Affiliation}#=%=#University of Edinburgh
+
+==========

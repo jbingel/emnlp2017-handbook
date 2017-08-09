@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#Investigating Redundancy in Emoji Use: Study on a Twitter Based Corpus
+ShortPaperTitle#=%=#Investigating Redundancy in Emoji Use
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Giulia Donato
+JobTitle#==#
+Organization#==#University of Copenhagen, Bygning 10-16, Karen Blixens Vej 4, 2300 København S, Danimarca
+Abstract#==#In this paper we present an annotated corpus created with the aim of analyzing
+the
+informative behaviour of emoji – an issue of importance for sentiment
+analysis and
+natural language processing. The corpus consists of 2475 tweets all containing
+at
+least one emoji, which has been annotated using one of the three possible
+classes: Redundant, Non Redundant, and Non Redundant + POS. We explain how the
+corpus
+was collected, describe the annotation procedure and the interface developed
+for the task. We provide an analysis of the corpus, considering also possible
+predictive features, discuss the problematic aspects of the annotation, and
+suggest future improvements.
+Author{1}{Firstname}#=%=#Giulia
+Author{1}{Lastname}#=%=#Donato
+Author{1}{Email}#=%=#giulia.dnt@gmail.com
+Author{1}{Affiliation}#=%=#University of Copenhagen
+Author{2}{Firstname}#=%=#Patrizia
+Author{2}{Lastname}#=%=#Paggio
+Author{2}{Email}#=%=#paggio@hum.ku.dk
+Author{2}{Affiliation}#=%=#University of Copenhagen and University of Malta
+
+==========

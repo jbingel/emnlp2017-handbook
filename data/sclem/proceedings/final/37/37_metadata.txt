@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#37
+FinalPaperTitle#=%=#Glyph-aware Embedding of Chinese Characters
+ShortPaperTitle#=%=#Glyph-aware Embedding of Chinese Characters
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Zhongtian Dai
+JobTitle#==#
+Organization#==#
+Abstract#==#Given the advantage and recent success of English character-level and
+subword-unit models in several NLP tasks, we consider the equivalent modeling
+problem for Chinese. Chinese script is logographic and many Chinese logograms
+are composed of common substructures that provide semantic, phonetic and
+syntactic hints. In this work, we propose to explicitly incorporate the visual
+appearance of a character’s glyph in its representation, resulting in a novel
+glyph-aware embedding of Chinese characters. Being inspired by the success of
+convolutional neural networks in computer vision, we use them to incorporate
+the spatio-structural patterns of Chinese glyphs as rendered in raw pixels. In
+the context of two basic Chinese NLP tasks of language modeling and word
+segmentation, the model learns to represent each character’s task-relevant
+semantic and syntactic information in the character-level embedding.
+Author{1}{Firstname}#=%=#Falcon
+Author{1}{Lastname}#=%=#Dai
+Author{1}{Email}#=%=#dai@ttic.edu
+Author{1}{Affiliation}#=%=#Toyota Technological Institute at Chicago
+Author{2}{Firstname}#=%=#Zheng
+Author{2}{Lastname}#=%=#Cai
+Author{2}{Email}#=%=#jontsai@uchicago.edu
+Author{2}{Affiliation}#=%=#The University of Chicago
+
+==========

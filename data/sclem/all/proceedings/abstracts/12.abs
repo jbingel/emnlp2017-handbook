@@ -1,0 +1,11 @@
+Out-of-vocabulary words present a great challenge for Machine Translation. 
+	Recently various character-level compositional models 
+	were proposed to address this issue. In current research 
+	we incorporate two most popular neural architectures, namely LSTM and CNN, into
+	hard- and soft-attentional models of translation for character-level
+	representation of the source. We propose semantic and morphological intrinsic
+	evaluation of encoder-level representations. Our analysis of the learned
+	representations reveals that character-based LSTM  seems to be better at
+	capturing morphological aspects compared to character-based CNN. We also show
+	that hard-attentional model provides better character-level representations
+	compared to vanilla one.

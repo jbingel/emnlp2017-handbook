@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#28
+FinalPaperTitle#=%=#A Syllable-based Technique for Word Embeddings of Korean Words
+ShortPaperTitle#=%=#Syllable-based Embeddings for Korean
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Jinseok Seol
+JobTitle#==#
+Organization#==#Seoul National Univserity, Seoul, South Korea
+Abstract#==#Word embedding has become a fundamental component to many NLP tasks such as
+named entity recognition and machine translation. However, popular models that
+learn such embeddings are unaware of the morphology of words, so it is not
+directly applicable to highly agglutinative languages such as Korean. We
+propose a syllable-based learning model for Korean using a convolutional neural
+network, in which word representation is composed of trained syllable vectors.
+Our model successfully produces morphologically meaningful representation of
+Korean words compared to the original Skip-gram embeddings. The results also
+show that it is quite robust to the Out-of-Vocabulary problem.
+Author{1}{Firstname}#=%=#Sanghyuk
+Author{1}{Lastname}#=%=#Choi
+Author{1}{Email}#=%=#sanghyuk@europa.snu.ac.kr
+Author{1}{Affiliation}#=%=#N/A
+Author{2}{Firstname}#=%=#Taeuk
+Author{2}{Lastname}#=%=#Kim
+Author{2}{Email}#=%=#taeuk@europa.snu.ac.kr
+Author{2}{Affiliation}#=%=#Seoul National University
+Author{3}{Firstname}#=%=#Jinseok
+Author{3}{Lastname}#=%=#Seol
+Author{3}{Email}#=%=#jamie@europa.snu.ac.kr
+Author{3}{Affiliation}#=%=#Seoul National University
+Author{4}{Firstname}#=%=#Sang-goo
+Author{4}{Lastname}#=%=#Lee
+Author{4}{Email}#=%=#sglee@europa.snu.ac.kr
+Author{4}{Affiliation}#=%=#Seoul National University
+
+==========

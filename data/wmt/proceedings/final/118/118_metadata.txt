@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#118
+FinalPaperTitle#=%=#MEANT 2.0: Accurate semantic MT evaluation for any output language
+ShortPaperTitle#=%=#MEANT 2.0: Accurate semantic MT evaluation for any output language
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#
+Abstract#==#We describe a new version of MEANT, which participated in the metrics task of 
+the Second Conference on Machine Translation (WMT 2017). MEANT 2.0 uses idf-
+weighted distributional ngram accuracy to determine the phrasal similarity of 
+semantic role fillers and yields better correlations with human judgments of 
+translation quality than earlier versions. The improved phrasal similarity 
+enables a subversion of MEANT to accurately evaluate translation adequacy for 
+any output language, even languages without an automatic semantic parser. Our 
+results show that MEANT, which is a non-ensemble and untrained metric, 
+consistently performs as well as the top  participants in previous years - 
+including ensemble and trained ones - across different output languages. We
+also 
+present the timing statistics for MEANT for better estimation of the evaluation
+
+cost. MEANT 2.0 is open source and publicly 
+available.
+Author{1}{Firstname}#=%=#Chi-kiu
+Author{1}{Lastname}#=%=#Lo
+Author{1}{Email}#=%=#chikiu.lo@gmail.com
+Author{1}{Affiliation}#=%=#NRC Canada
+
+==========

@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Did you ever read about Frogs drinking Coffee? Investigating the Compositionality of Multi-Emoji Expressions
+ShortPaperTitle#=%=#Did you ever read about Frogs drinking Coffee? Investigating the Compositionality of Multi-Emoji Expressions
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Rebeca Padilla López
+JobTitle#==#
+Organization#==#
+Abstract#==#In this work, we present a first attempt to investigate multi-emoji expressions
+and whether they behave similarly to multiword expressions in terms of
+non-compositionality. We focus on the combination of the frog and the hot
+beverage emoji, but also show some preliminary results for other
+non-compositional emoji combinations. We use off-the-shelf sentiment analysers
+as well as manual classifications to approach the compositionality of these
+emoji combinations.
+Author{1}{Firstname}#=%=#Rebeca
+Author{1}{Lastname}#=%=#Padilla López
+Author{1}{Email}#=%=#rebeca.padilla.lopez@gmail.com
+Author{1}{Affiliation}#=%=#Uppsala University
+Author{2}{Firstname}#=%=#Fabienne
+Author{2}{Lastname}#=%=#Cap
+Author{2}{Email}#=%=#fabienne.cap@lingfil.uu.se
+Author{2}{Affiliation}#=%=#Uppsala University
+
+==========

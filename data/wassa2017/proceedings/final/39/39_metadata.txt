@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#39
+FinalPaperTitle#=%=#Modeling Temporal Progression of Emotional Status in Mental Health Forum: A Recurrent Neural Net Approach
+ShortPaperTitle#=%=#Modeling Temporal Progression of Emotional Status in Mental Health Forum: A Recurrent Neural Net Approach
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Kishaloy Halder
+JobTitle#==#
+Organization#==#School of Computing, National University of Singapore
+Computing 1 
+13 Computing Drive 
+Singapore 117417
+Abstract#==#Patients turn to Online Health Communities not only for information on specific
+conditions but also for emotional support. Previous research has indicated that
+the progression of emotional status can be studied through the linguistic
+patterns of an individual's posts.  We analyze a real-world dataset from the
+Mental Health section of HealthBoards.com. Estimated from the word usages in
+their posts, we find that the emotional progress across patients vary widely.
+
+We study the problem of predicting a patient's emotional status in the future
+from her past posts and we propose a Recurrent Neural Network (RNN) based
+architecture to address it.  We find that the future emotional status can be
+predicted with reasonable accuracy given her historical posts and participation
+features. Our evaluation results demonstrate the efficacy of our proposed
+architecture, by outperforming state-of-the-art approaches with over 0.13
+reduction in Mean Absolute Error.
+Author{1}{Firstname}#=%=#Kishaloy
+Author{1}{Lastname}#=%=#Halder
+Author{1}{Email}#=%=#kishaloy.halder@gmail.com
+Author{1}{Affiliation}#=%=#National University of Singapore
+Author{2}{Firstname}#=%=#Lahari
+Author{2}{Lastname}#=%=#Poddar
+Author{2}{Email}#=%=#writetolahari@gmail.com
+Author{2}{Affiliation}#=%=#National University of Singapore
+Author{3}{Firstname}#=%=#Min-Yen
+Author{3}{Lastname}#=%=#Kan
+Author{3}{Email}#=%=#kanmy@comp.nus.edu.sg
+Author{3}{Affiliation}#=%=#National University of Singapore
+
+==========

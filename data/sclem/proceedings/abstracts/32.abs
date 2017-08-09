@@ -1,0 +1,15 @@
+Most NLP resources that offer annotations at the word segment level provide
+	morphological annotation that includes features indicating tense, aspect,
+	modality, gender, case, and other inflectional information.  Such information
+	is rarely aligned to the relevant parts of the words---i.e. the allomorphs, as
+	such annotation would be very costly.  These unaligned weak labelings are
+	commonly provided by annotated NLP corpora such as treebanks in various
+	languages.  Although they lack alignment information, the presence/absence of
+	labels at the word level is also consistent with the amount of supervision
+	assumed to be provided to L1 and L2 learners. In this paper, we explore several
+	methods to learn this latent alignment between parts of word forms and the
+	grammatical information provided.  All the methods under investigation favor
+	hypotheses regarding allomorphs of morphemes that re-use a small inventory,
+	i.e. implicitly minimize the number of allomorphs that a morpheme can be
+	realized as.  We show that the provided information offers a significant
+	advantage for both word segmentation and the learning of allomorphy.

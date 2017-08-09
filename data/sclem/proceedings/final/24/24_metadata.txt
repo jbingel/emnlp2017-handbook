@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#24
+FinalPaperTitle#=%=#Learning variable length units for SMT between related languages via Byte Pair Encoding
+ShortPaperTitle#=%=#Byte Pair Encoding for SMT between related languages
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Anoop Kunchukuttan
+JobTitle#==#
+Organization#==#Center for Indian Language Technology,
+Lab 401,
+New Computer Science Building,
+Indian Institute of Technology Bombay,
+Powai, 
+Mumbai 400076
+India
+Abstract#==#We explore the use of segments learnt using Byte Pair Encoding (referred to as
+BPE units) as basic units for statistical machine translation between related
+languages and compare it with orthographic syllables, which are currently the
+best performing basic units for this translation task. BPE identifies the most
+frequent character sequences as basic units, while orthographic syllables are
+linguistically motivated pseudo-syllables. We show that BPE units modestly
+outperform orthographic syllables as units of translation, showing up to 11%
+increase in BLEU score. While orthographic syllables can be used only for
+languages whose writing systems use vowel representations, BPE is writing
+system independent and we show that BPE outperforms other units for non-vowel
+writing systems too. Our results are supported by extensive experimentation
+spanning multiple language families and writing systems.
+Author{1}{Firstname}#=%=#Anoop
+Author{1}{Lastname}#=%=#Kunchukuttan
+Author{1}{Email}#=%=#anoopk@cse.iitb.ac.in
+Author{1}{Affiliation}#=%=#IIT Bombay
+Author{2}{Firstname}#=%=#Pushpak
+Author{2}{Lastname}#=%=#Bhattacharyya
+Author{2}{Email}#=%=#pushpakbh@gmail.com
+Author{2}{Affiliation}#=%=#CSE Department, IIT Bombay
+
+==========

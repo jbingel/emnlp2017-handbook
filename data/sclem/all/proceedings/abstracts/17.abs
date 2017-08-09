@@ -1,0 +1,11 @@
+We present a novel supervised approach to inflection generation for verbs in
+	Spanish. Our system takes as input the verb's lemma form and the desired
+	features such as person, number, tense, and is able to predict the appropriate
+	grammatical conjugation. Even though our approach learns from fewer examples
+	comparing to previous work, it is able to deal with all the Spanish moods
+	(indicative, subjunctive and imperative) in contrast to previous work which
+	only focuses on indicative and subjunctive moods. We show that in an intrinsic
+	evaluation, our system achieves 99% accuracy, outperforming (although not
+	significantly) two competitive state-of-art systems. The successful results
+	obtained clearly indicate that our approach could be integrated into wider
+	approaches related to text generation in Spanish.

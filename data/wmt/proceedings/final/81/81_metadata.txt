@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#81
+FinalPaperTitle#=%=#Biasing Attention-Based Recurrent Neural Networks Using External Alignment Information
+ShortPaperTitle#=%=#Biasing Attention-Based Recurrent Neural Networks Using External Alignment Information
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Tamer Alkhouli
+JobTitle#==#
+Organization#==#RWTH Aachen University
+D-52056 Aachen, Germany
+Abstract#==#This work explores extending attention-based neural models to include alignment
+information as input. We modify the attention component to have dependence on
+the current source  position. The attention model is then used as a lexical
+model together with an additional alignment model to generate translation. The
+attention model is trained using external alignment information, and it is
+applied in decoding by performing beam search over the lexical and alignment
+hypotheses. The alignment model is used to score these alignment candidates. We
+demonstrate that the attention layer is capable of using the alignment
+information to improve over the baseline attention model that uses no such
+alignments. Our experiments are performed on two tasks: WMT 2016
+English-to-Romanian and WMT 2017 German-to-English.
+Author{1}{Firstname}#=%=#Tamer
+Author{1}{Lastname}#=%=#Alkhouli
+Author{1}{Email}#=%=#alkhouli@cs.rwth-aachen.de
+Author{1}{Affiliation}#=%=#RWTH Aachen University
+Author{2}{Firstname}#=%=#Hermann
+Author{2}{Lastname}#=%=#Ney
+Author{2}{Email}#=%=#ney@cs.rwth-aachen.de
+Author{2}{Affiliation}#=%=#RWTH Aachen University
+
+==========

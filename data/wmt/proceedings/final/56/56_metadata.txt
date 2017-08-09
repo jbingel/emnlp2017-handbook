@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#56
+FinalPaperTitle#=%=#Tilde's Machine Translation Systems for WMT 2017
+ShortPaperTitle#=%=#Tilde's Machine Translation Systems for WMT 2017
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Mārcis Pinnis
+JobTitle#==#
+Organization#==#Tilde, Vienibas gatve 75A, Riga, Latvia
+Abstract#==#The paper describes Tilde's English-Latvian and Latvian-English machine
+translation systems for the WMT 2017 shared task in news translation. Both
+constrained and unconstrained systems are described. Our constrained systems
+were ranked as the best performing systems according to the automatic
+evaluation results. The paper gives details to how we pre-processed training
+data, the NMT system architecture that we used for training the NMT models, the
+SMT systems and their usage in NMT-SMT hybrid system configurations.
+Author{1}{Firstname}#=%=#Mārcis
+Author{1}{Lastname}#=%=#Pinnis
+Author{1}{Email}#=%=#marcis.pinnis@tilde.lv
+Author{1}{Affiliation}#=%=#Tilde
+Author{2}{Firstname}#=%=#Rihards
+Author{2}{Lastname}#=%=#Krišlauks
+Author{2}{Email}#=%=#rihards.krislauks@tilde.lv
+Author{2}{Affiliation}#=%=#Tilde
+Author{3}{Firstname}#=%=#Toms
+Author{3}{Lastname}#=%=#Miks
+Author{3}{Email}#=%=#toms.miks@tilde.lv
+Author{3}{Affiliation}#=%=#Tilde
+Author{4}{Firstname}#=%=#Daiga
+Author{4}{Lastname}#=%=#Deksne
+Author{4}{Email}#=%=#daiga.deksne@tilde.lv
+Author{4}{Affiliation}#=%=#Tilde
+Author{5}{Firstname}#=%=#Valters
+Author{5}{Lastname}#=%=#Šics
+Author{5}{Email}#=%=#valters.sics@tilde.lv
+Author{5}{Affiliation}#=%=#Tilde
+
+==========

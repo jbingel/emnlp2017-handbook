@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#102
+FinalPaperTitle#=%=#Tree as a Pivot: Syntactic Matching Methods in Pivot Translation
+ShortPaperTitle#=%=#Tree as a Pivot: Syntactic Matching Methods in Pivot Translation
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Akiva Miura
+JobTitle#==#
+Organization#==#Nara Institute of Science and Technology
+8916-5 Takayama-cho, Ikoma-shi, Nara, Japan
+Abstract#==#Pivot translation is a useful method for translating between languages with
+little or no parallel data by utilizing parallel data in an intermediate
+language such as English.
+A popular approach for pivot translation used in phrase-based or tree-based
+translation models combines source-pivot and pivot-target translation models
+into a source-target model, as known as triangulation.
+However, this combination is based on the constituent words’surface forms and
+often produces incorrect source-target phrase pairs due to semantic ambiguity
+in the pivot language, and interlingual differences.
+This degrades translation accuracy.
+In this paper, we propose a approach for the triangulation using syntactic
+subtrees in the pivot language to distinguish pivot language words by their
+syntactic roles to avoid incorrect phrase combinations.
+Experimental results on the United Nations Parallel Corpus show the proposed
+method gains in all tested combinations of language, up to 2.3 BLEU points.
+Author{1}{Firstname}#=%=#Akiva
+Author{1}{Lastname}#=%=#Miura
+Author{1}{Email}#=%=#miura.akiba.lr9@is.naist.jp
+Author{1}{Affiliation}#=%=#NAIST - Nara Institute of Science and Technology
+Author{2}{Firstname}#=%=#Graham
+Author{2}{Lastname}#=%=#Neubig
+Author{2}{Email}#=%=#gneubig@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Katsuhito
+Author{3}{Lastname}#=%=#Sudoh
+Author{3}{Email}#=%=#sudoh@is.naist.jp
+Author{3}{Affiliation}#=%=#Nara Institute of Science and Technology (NAIST)
+Author{4}{Firstname}#=%=#Satoshi
+Author{4}{Lastname}#=%=#Nakamura
+Author{4}{Email}#=%=#s-nakamura@is.naist.jp
+Author{4}{Affiliation}#=%=#Nara Institute of Science and Technology
+
+==========

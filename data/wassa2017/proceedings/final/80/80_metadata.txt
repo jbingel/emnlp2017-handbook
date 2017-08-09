@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#80
+FinalPaperTitle#=%=#Latest News in Computational Argumentation: Surfing on the Deep Learning Wave, Scuba Diving in the Abyss of Fundamental Questions
+ShortPaperTitle#=%=#Latest News in Computational Argumentation: Surfing on the Deep Learning Wave, Scuba Diving in the Abyss of Fundamental Questions
+NumberOfPages#=%=#1
+CopyrightSigned#=%=#Iryna Gurevych
+JobTitle#==#
+Organization#==#University of Darmstadt
+Abstract#==#Mining arguments from natural language texts, parsing argumentative structures,
+and assessing argument quality are among the recent challeng-es tackled in
+computational argumentation. While advanced deep learning models provide
+state-of-the-art performance in many of these tasks, much attention is also
+paid to the underly-ing fundamental questions. How are arguments expressed in
+natural language across genres and domains? What is the essence of an
+argument's claim? Can we reliably annotate convincingness of an argument? How
+can we approach logic and common-sense reasoning in argumentation? This talk
+highlights some recent advances in computa-tional argumentation and shows why
+researchers must be both "surfers" and "scuba divers".
+Author{1}{Firstname}#=%=#Iryna
+Author{1}{Lastname}#=%=#Gurevych
+Author{1}{Email}#=%=#gurevych@ukp.informatik.tu-darmstadt.de
+Author{1}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+
+==========

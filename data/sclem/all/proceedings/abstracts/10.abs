@@ -1,0 +1,13 @@
+Recently, neural models have shown superior performance over conventional
+	models in NER tasks. These models use CNN to extract sub-word information along
+	with RNN to predict a tag for each word. However, these models have been tested
+	almost entirely on English texts. It remains unclear whether they perform
+	similarly in other languages. We worked on Japanese NER using neural models and
+	discovered two obstacles of the state-of-the-art model.
+	 First, CNN is unsuitable for extracting Japanese sub-word information.
+	Secondly, a model predicting a tag for each word cannot extract an entity when
+	a part of a word composes an entity. The contributions of this work are (1)
+	verifying the effectiveness of the state-of-the-art NER model for Japanese, (2)
+	proposing a neural model for predicting a tag for each character using word and
+	character information. Experimentally obtained results demonstrate that our
+	model outperforms the state-of-the-art neural English NER model in Japanese.

@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Word Representation Models for Morphologically Rich Languages in Neural Machine Translation
+ShortPaperTitle#=%=#Word Representation Models for Morphologically Rich Languages in Neural Machine Translation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#EV
+JobTitle#==#
+Organization#==#The University of Melbourne
+ Parkville VIC 3010, Australia
+Abstract#==#Out-of-vocabulary words present a great challenge for Machine Translation. 
+Recently various character-level compositional models 
+were proposed to address this issue. In current research 
+we incorporate two most popular neural architectures, namely LSTM and CNN, into
+hard- and soft-attentional models of translation for character-level
+representation of the source. We propose semantic and morphological intrinsic
+evaluation of encoder-level representations. Our analysis of the learned
+representations reveals that character-based LSTM  seems to be better at
+capturing morphological aspects compared to character-based CNN. We also show
+that hard-attentional model provides better character-level representations
+compared to vanilla one.
+Author{1}{Firstname}#=%=#Ekaterina
+Author{1}{Lastname}#=%=#Vylomova
+Author{1}{Email}#=%=#evylomova@gmail.com
+Author{1}{Affiliation}#=%=#PhD Student, University of Melbourne
+Author{2}{Firstname}#=%=#Trevor
+Author{2}{Lastname}#=%=#Cohn
+Author{2}{Email}#=%=#tcohn@unimelb.edu.au
+Author{2}{Affiliation}#=%=#University of Melbourne
+Author{3}{Firstname}#=%=#Xuanli
+Author{3}{Lastname}#=%=#He
+Author{3}{Email}#=%=#xuanlih@student.unimelb.edu.au
+Author{3}{Affiliation}#=%=#The University of Melbourne
+Author{4}{Firstname}#=%=#Gholamreza
+Author{4}{Lastname}#=%=#Haffari
+Author{4}{Email}#=%=#reza.haffari@gmail.com
+Author{4}{Affiliation}#=%=#Monash University
+
+==========

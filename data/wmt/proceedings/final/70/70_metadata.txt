@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#70
+FinalPaperTitle#=%=#LIUM-CVC Submissions for WMT17 Multimodal Translation Task
+ShortPaperTitle#=%=#LIUM-CVC Submissions for WMT17 Multimodal Translation Task
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Ozan Caglayan
+JobTitle#==#
+Organization#==#University of Le Mans, France
+Abstract#==#This paper describes the monomodal and multimodal Neural Machine Translation
+systems developed by LIUM and CVC for WMT17 Shared Task on Multimodal
+Translation.
+We mainly explored two multimodal architectures where either global visual
+features or convolutional feature maps are integrated in order to benefit from
+visual context. Our final systems ranked first for both En-De and En-Fr
+language pairs according to the automatic evaluation metrics METEOR and BLEU.
+Author{1}{Firstname}#=%=#Ozan
+Author{1}{Lastname}#=%=#Caglayan
+Author{1}{Email}#=%=#ozancag@gmail.com
+Author{1}{Affiliation}#=%=#LIUM, Le Mans University
+Author{2}{Firstname}#=%=#Walid
+Author{2}{Lastname}#=%=#Aransa
+Author{2}{Email}#=%=#walid.aransa@univ-lemans.fr
+Author{2}{Affiliation}#=%=#LIUM
+Author{3}{Firstname}#=%=#Adrien
+Author{3}{Lastname}#=%=#Bardet
+Author{3}{Email}#=%=#adrienbardet.mt@gmail.com
+Author{3}{Affiliation}#=%=#LIUM - Laboratoire d'Informatique de L'Université du Maine
+Author{4}{Firstname}#=%=#Mercedes
+Author{4}{Lastname}#=%=#García-Martínez
+Author{4}{Email}#=%=#mercedes.garcia_martinez@univ-lemans.fr
+Author{4}{Affiliation}#=%=#LIUM, Le Mans University
+Author{5}{Firstname}#=%=#Fethi
+Author{5}{Lastname}#=%=#Bougares
+Author{5}{Email}#=%=#fethi.bougares@univ-lemans.fr
+Author{5}{Affiliation}#=%=#LIUM- Le Mans University
+Author{6}{Firstname}#=%=#Loïc
+Author{6}{Lastname}#=%=#Barrault
+Author{6}{Email}#=%=#loic.barrault@univ-lemans.fr
+Author{6}{Affiliation}#=%=#LIUM, Le Mans University
+Author{7}{Firstname}#=%=#Marc
+Author{7}{Lastname}#=%=#Masana
+Author{7}{Email}#=%=#mmasana@cvc.uab.es
+Author{7}{Affiliation}#=%=#CVC, Universitat Autonoma de Barcelona
+Author{8}{Firstname}#=%=#Luis
+Author{8}{Lastname}#=%=#Herranz
+Author{8}{Email}#=%=#lherranz@cvc.uab.es
+Author{8}{Affiliation}#=%=#CVC, Universitat Autonoma de Barcelona
+Author{9}{Firstname}#=%=#Joost
+Author{9}{Lastname}#=%=#van de Weijer
+Author{9}{Email}#=%=#joost@cvc.uab.es
+Author{9}{Affiliation}#=%=#CVC, Universitat Autonoma de Barcelona
+
+==========

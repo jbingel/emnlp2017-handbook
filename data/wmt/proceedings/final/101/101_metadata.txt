@@ -1,0 +1,49 @@
+SubmissionNumber#=%=#101
+FinalPaperTitle#=%=#The RWTH Aachen University English-German and German-English Machine Translation System for WMT 2017
+ShortPaperTitle#=%=#The RWTH Aachen University English-German and German-English Machine Translation System for WMT 2017
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Tamer Alkhouli
+JobTitle#==#
+Organization#==#RWTH Aachen University
+D-52056 Aachen, Germany
+Abstract#==#This paper describes the statistical machine translation system developed at
+RWTH Aachen University for the English-to-German and German-to-English
+translation tasks of the EMNLP 2017 Second Conference on Machine Translation
+(WMT 2017). We use ensembles of attention-based neural machine translation
+system for both directions. We use the provided parallel and synthetic data to
+train the models. In addition, we also create a phrasal system using joint
+translation and reordering models in decoding and neural models in rescoring.
+Author{1}{Firstname}#=%=#Jan-Thorsten
+Author{1}{Lastname}#=%=#Peter
+Author{1}{Email}#=%=#peter@cs.rwth-aachen.de
+Author{1}{Affiliation}#=%=#RWTH Aachen University
+Author{2}{Firstname}#=%=#Andreas
+Author{2}{Lastname}#=%=#Guta
+Author{2}{Email}#=%=#guta@cs.rwth-aachen.de
+Author{2}{Affiliation}#=%=#RWTH Aachen University
+Author{3}{Firstname}#=%=#Tamer
+Author{3}{Lastname}#=%=#Alkhouli
+Author{3}{Email}#=%=#alkhouli@cs.rwth-aachen.de
+Author{3}{Affiliation}#=%=#RWTH Aachen University
+Author{4}{Firstname}#=%=#Parnia
+Author{4}{Lastname}#=%=#Bahar
+Author{4}{Email}#=%=#bahar@cs.rwth-aachen.de
+Author{4}{Affiliation}#=%=#RWTH Aachen University
+Author{5}{Firstname}#=%=#Jan
+Author{5}{Lastname}#=%=#Rosendahl
+Author{5}{Email}#=%=#rosendahl@i6.informatik.rwth-aachen.de
+Author{5}{Affiliation}#=%=#RWTH Aachen University
+Author{6}{Firstname}#=%=#Nick
+Author{6}{Lastname}#=%=#Rossenbach
+Author{6}{Email}#=%=#rossenbach@i6.informatik.rwth-aachen.de
+Author{6}{Affiliation}#=%=#RWTH Aachen University
+Author{7}{Firstname}#=%=#Miguel
+Author{7}{Lastname}#=%=#Graça
+Author{7}{Email}#=%=#miguel.graca@rwth-aachen.de
+Author{7}{Affiliation}#=%=#RWTH Aachen University
+Author{8}{Firstname}#=%=#Hermann
+Author{8}{Lastname}#=%=#Ney
+Author{8}{Email}#=%=#ney@cs.rwth-aachen.de
+Author{8}{Affiliation}#=%=#RWTH Aachen University
+
+==========

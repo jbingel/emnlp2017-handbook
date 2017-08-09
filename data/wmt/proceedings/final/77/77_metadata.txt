@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#77
+FinalPaperTitle#=%=#Unbabel's Participation in the WMT17 Translation Quality Estimation Shared Task
+ShortPaperTitle#=%=#Unbabel's Participation in the WMT17 Translation Quality Estimation Shared Task
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Andre Martins
+JobTitle#==#
+Organization#==#Unbabel, Lisbon, Portugal
+Abstract#==#This paper presents the contribution of the Unbabel team to the WMT 2017 Shared
+Task on Translation Quality Estimation. We participated on the word-level and
+sentence-level tracks. We describe our two submitted systems: (i) StackedQE,
+a "pure" QE system, trained only on the provided training sets, which is a
+stacked combination of a feature-rich sequential linear model with a neural
+network, and (ii) FullStackedQE, which also stacks the predictions of an
+automatic post-editing system, trained on additional data. When evaluated on
+the English-German and German-English datasets, FullStackedQE achieved
+word-level F1-MULT scores of 56.6% and 52.9%, and sentence-level correlation
+Pearson scores of 64.1% and 62.6%, respectively. Our system ranked second in
+both tracks, being statistically indistinguishable from the best system in the
+word-level track.
+Author{1}{Firstname}#=%=#André F. T.
+Author{1}{Lastname}#=%=#Martins
+Author{1}{Email}#=%=#afm@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Priberam, Instituto de Telecomunicacoes
+Author{2}{Firstname}#=%=#Fabio
+Author{2}{Lastname}#=%=#Kepler
+Author{2}{Email}#=%=#fabio@kepler.pro.br
+Author{2}{Affiliation}#=%=#L2F/INESC-ID and UNIPAMPA
+Author{3}{Firstname}#=%=#Jose
+Author{3}{Lastname}#=%=#Monteiro
+Author{3}{Email}#=%=#jose@unbabel.com
+Author{3}{Affiliation}#=%=#Unbabel
+
+==========

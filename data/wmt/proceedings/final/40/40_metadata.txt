@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#40
+FinalPaperTitle#=%=#The AFRL-OSU WMT17 Multimodal Translation System: An Image Processing Approach
+ShortPaperTitle#=%=#The AFRL-OSU WMT17 Multimodal Translation System: An Image Processing Approach
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#Air Force Research Laboratory
+2255 H Street
+WPAFB, OH 45433
+USA
+Abstract#==#This paper introduces the AFRL-OSU Multimodal Machine Translation Task 1 system
+for submission to the Conference on Machine Translation 2017 (WMT17). This is
+an atypical MT system in that the image is the catalyst for the MT results, and
+not the textual content.
+Author{1}{Firstname}#=%=#Jeremy
+Author{1}{Lastname}#=%=#Gwinnup
+Author{1}{Email}#=%=#jeremy.gwinnup.1@us.af.mil
+Author{1}{Affiliation}#=%=#Air Force Research Laboratory
+Author{2}{Firstname}#=%=#John
+Author{2}{Lastname}#=%=#Duselis
+Author{2}{Email}#=%=#john.duselis@us.af.mil
+Author{2}{Affiliation}#=%=#Air Force Research Laboratory
+Author{3}{Firstname}#=%=#Michael
+Author{3}{Lastname}#=%=#Hutt
+Author{3}{Email}#=%=#michael.hutt.ctr@us.af.mil
+Author{3}{Affiliation}#=%=#Northrup Grumman
+Author{4}{Firstname}#=%=#James
+Author{4}{Lastname}#=%=#Davis
+Author{4}{Email}#=%=#jwdavis@cse.ohio-state.edu
+Author{4}{Affiliation}#=%=#Ohio State University
+Author{5}{Firstname}#=%=#Joshua
+Author{5}{Lastname}#=%=#Sandvick
+Author{5}{Email}#=%=#sandvick.6@osu.edu
+Author{5}{Affiliation}#=%=#Ohio State University
+
+==========

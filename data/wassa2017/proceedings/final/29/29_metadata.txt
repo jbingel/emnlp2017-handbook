@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#GradAscent at EmoInt-2017: Character and Word Level Recurrent Neural Network Models for Tweet Emotion Intensity Detection
+ShortPaperTitle#=%=#GradAscent at EmoInt-2017: Character and Word Level Recurrent Neural Network Models for Tweet Emotion Intensity Detection
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Egor Lakomkin
+JobTitle#==#
+Organization#==#
+Abstract#==#The WASSA 2017 EmoInt shared task has
+the goal to predict emotion intensity values
+of tweet messages. Given the text of
+a tweet and its emotion category (anger,
+joy, fear, and sadness), the participants
+were asked to build a system that assigns
+emotion intensity values. Emotion intensity
+estimation is a challenging problem
+given the short length of the tweets, the
+noisy structure of the text and the lack
+of annotated data. To solve this problem,
+we developed an ensemble of two neural
+models, processing input on the character.
+and word-level with a lexicon-driven
+system. The correlation scores across all
+four emotions are averaged to determine
+the bottom-line competition metric, and
+our system ranks place forth in full intensity
+range and third in 0.5-1 range of intensity
+among 23 systems at the time of
+writing (June 2017).
+Author{1}{Firstname}#=%=#Egor
+Author{1}{Lastname}#=%=#Lakomkin
+Author{1}{Email}#=%=#egor.lakomkin@gmail.com
+Author{1}{Affiliation}#=%=#University of Hamburg
+Author{2}{Firstname}#=%=#Chandrakant
+Author{2}{Lastname}#=%=#Bothe
+Author{2}{Email}#=%=#bothe@informatik.uni-hamburg.de
+Author{2}{Affiliation}#=%=#University of Hamburg
+Author{3}{Firstname}#=%=#Stefan
+Author{3}{Lastname}#=%=#Wermter
+Author{3}{Email}#=%=#wermter@informatik.uni-hamburg.de
+Author{3}{Affiliation}#=%=#University of Hamburg
+
+==========

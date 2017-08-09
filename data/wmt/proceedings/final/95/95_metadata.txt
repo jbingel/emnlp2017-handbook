@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#95
+FinalPaperTitle#=%=#Bilexical Embeddings for Quality Estimation
+ShortPaperTitle#=%=#Bilexical Embeddings for Quality Estimation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#FB
+JobTitle#==#
+Organization#==#Department of Computer Science
+University of Sheffield
+Regent Court, 211 Portobello
+Sheffield, S1 4DP, UK
+Abstract#==#This paper describes our submissions for the three sub-tasks of the Quality
+Estimation shared task of WMT17, namely: (i) a word-level prediction system
+using bilexical embeddings, (ii) a phrase-level labelling approach based on the
+word-level predictions, (iii) a sentence-level prediction system using word
+embeddings and handcrafted baseline features. Results are promising for the
+sentence-level approach, but still very preliminary for the other two levels.
+Author{1}{Firstname}#=%=#Frédéric
+Author{1}{Lastname}#=%=#Blain
+Author{1}{Email}#=%=#f.blain@sheffield.ac.uk
+Author{1}{Affiliation}#=%=#University of Sheffield
+Author{2}{Firstname}#=%=#Carolina
+Author{2}{Lastname}#=%=#Scarton
+Author{2}{Email}#=%=#carol.scarton@gmail.com
+Author{2}{Affiliation}#=%=#University of Sheffield
+Author{3}{Firstname}#=%=#Lucia
+Author{3}{Lastname}#=%=#Specia
+Author{3}{Email}#=%=#l.specia@sheffield.ac.uk
+Author{3}{Affiliation}#=%=#University of Sheffield
+
+==========

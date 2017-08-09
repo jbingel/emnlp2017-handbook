@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#LIMSI Submission for WMT'17 Shared Task on Bandit Learning
+ShortPaperTitle#=%=#LIMSI Submission for WMT'17 Shared Task on Bandit Learning
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Guillaume Wisniewski
+JobTitle#==#Assistant Professor
+Organization#==#Université Paris Sud
+91 405 Orsay
+France
+Abstract#==#This paper describes LIMSI participation to the WMT'17 shared task
+  on Bandit Learning. The method we propose to adapt a seed system
+  trained on out-domain data to a new, unknown domain relies on two
+  components. First, we use a linear regression model to exploit the
+  weak and partial feedback the system receives by learning to predict
+  the reward a translation hypothesis will get. This model can then be
+  used to score hypotheses of the search space and translate source
+  sentences while taking into account the specificities of the
+  in-domain data. Second, we use the UCB1 algorithm to choose which of
+  the `adapted' or `seed' system must be used to translate a given
+  source sentence in order to maximize the cumulative reward.
+
+  Results on the development and train sets show that the proposed
+  method does not succeed in improving the seed system. We explore
+  several hypotheses to explain this disappointing result.
+Author{1}{Firstname}#=%=#Guillaume
+Author{1}{Lastname}#=%=#Wisniewski
+Author{1}{Email}#=%=#guillaume.wisniewski@limsi.fr
+Author{1}{Affiliation}#=%=#Univ. Paris Sud and LIMSI-CNRS
+
+==========

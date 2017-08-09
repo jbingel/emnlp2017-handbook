@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#65
+FinalPaperTitle#=%=#DCU System Report on the WMT 2017 Multi-modal Machine Translation Task
+ShortPaperTitle#=%=#DCU System Report on the WMT 2017 Multi-modal Machine Translation Task
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Iacer Calixto
+JobTitle#==#
+Organization#==#ADAPT Centre, Dublin City University, Glasnevin, Dublin, Ireland.
+Abstract#==#We report experiments with multi-modal neural machine translation models that
+incorporate global visual features in different parts of the encoder and
+decoder, and use the VGG19 network to extract features for all
+images. In our experiments, we explore both different strategies to include
+global image features and also how ensembling different models at inference
+time
+impact translations. Our submissions ranked 3rd best for translating from
+English into French, always improving considerably over an neural machine
+translation baseline across all language pair evaluated, e.g. an increase of
+7.0–9.2 METEOR points.
+Author{1}{Firstname}#=%=#Iacer
+Author{1}{Lastname}#=%=#Calixto
+Author{1}{Email}#=%=#calixto.iacer@gmail.com
+Author{1}{Affiliation}#=%=#Dublin City University
+Author{2}{Firstname}#=%=#Koel
+Author{2}{Lastname}#=%=#Dutta Chowdhury
+Author{2}{Email}#=%=#koel.chowdhury@adaptcentre.ie
+Author{2}{Affiliation}#=%=#Dublin City University
+Author{3}{Firstname}#=%=#Qun
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Email}#=%=#qun.liu@dcu.ie
+Author{3}{Affiliation}#=%=#Dublin City University
+
+==========

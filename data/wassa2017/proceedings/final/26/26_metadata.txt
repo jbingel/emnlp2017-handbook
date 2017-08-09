@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#26
+FinalPaperTitle#=%=#Towards an integrated pipeline for aspect-based sentiment analysis in various domains
+ShortPaperTitle#=%=#Towards an integrated pipeline for aspect-based sentiment analysis in various domains
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Orphée De Clercq
+JobTitle#==#
+Organization#==#LT3, Language and Translation Technology Team, Ghent University
+Groot-Brittanniëlaan 45, 9000 Ghent, Belgium
+Abstract#==#This paper presents an integrated ABSA pipeline for Dutch that has been
+developed and tested on qualitative user feedback coming from three domains:
+retail, banking and human resources. The two latter domains provide
+service-oriented data, which has not been investigated before in ABSA. By
+performing in-domain and cross-domain experiments the validity of our approach
+was investigated. We show promising results for the three ABSA subtasks, aspect
+term extraction, aspect category classification and aspect polarity
+classification.
+Author{1}{Firstname}#=%=#Orphee
+Author{1}{Lastname}#=%=#De Clercq
+Author{1}{Email}#=%=#Orphee.DeClercq@UGent.be
+Author{1}{Affiliation}#=%=#LT3, Language and Translation Technology Team, Ghent University
+Author{2}{Firstname}#=%=#Els
+Author{2}{Lastname}#=%=#Lefever
+Author{2}{Email}#=%=#els.lefever@ugent.be
+Author{2}{Affiliation}#=%=#LT3, Ghent University
+Author{3}{Firstname}#=%=#Gilles
+Author{3}{Lastname}#=%=#Jacobs
+Author{3}{Email}#=%=#gillesm.jacobs@ugent.be
+Author{3}{Affiliation}#=%=#LT3, UGent
+Author{4}{Firstname}#=%=#Tijl
+Author{4}{Lastname}#=%=#Carpels
+Author{4}{Email}#=%=#tijl@hellocustomer.com
+Author{4}{Affiliation}#=%=#Hello Customer
+Author{5}{Firstname}#=%=#Veronique
+Author{5}{Lastname}#=%=#Hoste
+Author{5}{Email}#=%=#veronique.hoste@ugent.be
+Author{5}{Affiliation}#=%=#Ghent University
+
+==========

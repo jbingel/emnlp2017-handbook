@@ -1,0 +1,85 @@
+SubmissionNumber#=%=#123
+FinalPaperTitle#=%=#Findings of the WMT 2017 Biomedical Translation Shared Task
+ShortPaperTitle#=%=#Findings of the WMT 2017 Biomedical Translation Shared Task
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Mariana Neves
+JobTitle#==#
+Organization#==#
+Abstract#==#Automatic translation of documents is an important task in many domains,
+including the biological and clinical domains. The second edition of the
+Biomedical Translation task in the Conference of Machine Translation focused on
+the automatic translation of biomedical-related documents between English and
+various European languages. This year, we addressed ten languages: Czech,
+German, English, French, Hungarian, Polish, Portuguese, Spanish, Romanian and
+Swedish.
+Test sets included both scientific publications (from the Scielo and EDP
+Sciences databases) and health-related news (from the Cochrane and UK National
+Health Service web sites). Seven teams participated in the task, submitting a
+total of 82 runs. Herein we describe the test sets, participating systems and
+results of both the automatic and manual evaluation of the translations.
+Author{1}{Firstname}#=%=#Antonio
+Author{1}{Lastname}#=%=#Jimeno Yepes
+Author{1}{Email}#=%=#antonio.jimeno@gmail.com
+Author{1}{Affiliation}#=%=#IBM Research Australia
+Author{2}{Firstname}#=%=#Aurelie
+Author{2}{Lastname}#=%=#Neveol
+Author{2}{Email}#=%=#aurelie.neveol@limsi.fr
+Author{2}{Affiliation}#=%=#LIMSI, CNRS, Univ. Paris Saclay,  France
+Author{3}{Firstname}#=%=#Mariana
+Author{3}{Lastname}#=%=#Neves
+Author{3}{Email}#=%=#marianalaraneves@gmail.com
+Author{3}{Affiliation}#=%=#Hasso Plattner Institute
+Author{4}{Firstname}#=%=#Karin
+Author{4}{Lastname}#=%=#Verspoor
+Author{4}{Email}#=%=#karin.verspoor@unimelb.edu.au
+Author{4}{Affiliation}#=%=#Univ. Melbourne, Australia
+Author{5}{Firstname}#=%=#Ondrej
+Author{5}{Lastname}#=%=#Bojar
+Author{5}{Email}#=%=#bojar@ufal.mff.cuni.cz
+Author{5}{Affiliation}#=%=#Charles Univ., Czech Rep.
+Author{6}{Firstname}#=%=#Arthur
+Author{6}{Lastname}#=%=#Boyer
+Author{6}{Email}#=%=#arthur.boyer@limsi.fr
+Author{6}{Affiliation}#=%=#LIMSI, CNRS, Univ. Paris Saclay,  France
+Author{7}{Firstname}#=%=#Cristian
+Author{7}{Lastname}#=%=#Grozea
+Author{7}{Email}#=%=#cristian.grozea@fokus.fraunhofer.de
+Author{7}{Affiliation}#=%=#Fraunhofer Institute
+Author{8}{Firstname}#=%=#Barry
+Author{8}{Lastname}#=%=#Haddow
+Author{8}{Email}#=%=#bhaddow@staffmail.ed.ac.uk
+Author{8}{Affiliation}#=%=#Univ. Edinburgh, UK
+Author{9}{Firstname}#=%=#Madeleine
+Author{9}{Lastname}#=%=#Kittner
+Author{9}{Email}#=%=#kittner@informatik.hu-berlin.de
+Author{9}{Affiliation}#=%=#Humboldt Uni., Germany
+Author{10}{Firstname}#=%=#Yvonne
+Author{10}{Lastname}#=%=#Lichtblau
+Author{10}{Email}#=%=#mayeryvo@informatik.hu-berlin.de
+Author{10}{Affiliation}#=%=#Humboldt Uni., Germany
+Author{11}{Firstname}#=%=#Pavel
+Author{11}{Lastname}#=%=#Pecina
+Author{11}{Email}#=%=#pecina@ufal.mff.cuni.cz
+Author{11}{Affiliation}#=%=#Charles Univ., Czech Rep.
+Author{12}{Firstname}#=%=#Roland
+Author{12}{Lastname}#=%=#Roller
+Author{12}{Email}#=%=#roland.roller@dfki.de
+Author{12}{Affiliation}#=%=#DFKI, Germany
+Author{13}{Firstname}#=%=#Rudolf
+Author{13}{Lastname}#=%=#Rosa
+Author{13}{Email}#=%=#rosa@ufal.mff.cuni.cz
+Author{13}{Affiliation}#=%=#Charles Univ., Czech Rep.
+Author{14}{Firstname}#=%=#Amy
+Author{14}{Lastname}#=%=#Siu
+Author{14}{Email}#=%=#uis.yma@gmail.com
+Author{14}{Affiliation}#=%=#MPI fuer Informatik, Germany
+Author{15}{Firstname}#=%=#Philippe
+Author{15}{Lastname}#=%=#Thomas
+Author{15}{Email}#=%=#philippe.thomas@dfki.de
+Author{15}{Affiliation}#=%=#DFKI, Germany
+Author{16}{Firstname}#=%=#Saskia
+Author{16}{Lastname}#=%=#Trescher
+Author{16}{Email}#=%=#saskia.trescher@hu-berlin.de
+Author{16}{Affiliation}#=%=#Humboldt Uni., Germany
+
+==========

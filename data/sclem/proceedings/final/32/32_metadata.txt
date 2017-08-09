@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#32
+FinalPaperTitle#=%=#Weakly supervised learning of allomorphy
+ShortPaperTitle#=%=#Weakly supervised learning of allomorphy
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Miikka Silfverberg
+JobTitle#==#
+Organization#==#Department of Linguistics
+University of Colorado
+Boulder, CO 80302, USA
+Abstract#==#Most NLP resources that offer annotations at the word segment level provide
+morphological annotation that includes features indicating tense, aspect,
+modality, gender, case, and other inflectional information.  Such information
+is rarely aligned to the relevant parts of the words---i.e. the allomorphs, as
+such annotation would be very costly.  These unaligned weak labelings are
+commonly provided by annotated NLP corpora such as treebanks in various
+languages.  Although they lack alignment information, the presence/absence of
+labels at the word level is also consistent with the amount of supervision
+assumed to be provided to L1 and L2 learners. In this paper, we explore several
+methods to learn this latent alignment between parts of word forms and the
+grammatical information provided.  All the methods under investigation favor
+hypotheses regarding allomorphs of morphemes that re-use a small inventory,
+i.e. implicitly minimize the number of allomorphs that a morpheme can be
+realized as.  We show that the provided information offers a significant
+advantage for both word segmentation and the learning of allomorphy.
+Author{1}{Firstname}#=%=#Miikka
+Author{1}{Lastname}#=%=#Silfverberg
+Author{1}{Email}#=%=#miikka.silfverberg@colorado.edu
+Author{1}{Affiliation}#=%=#University of Colorado
+Author{2}{Firstname}#=%=#Mans
+Author{2}{Lastname}#=%=#Hulden
+Author{2}{Email}#=%=#mhulden@email.arizona.edu
+Author{2}{Affiliation}#=%=#University of Colorado Boulder
+
+==========

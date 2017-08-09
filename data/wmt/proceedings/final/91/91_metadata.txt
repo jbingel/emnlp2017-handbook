@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#91
+FinalPaperTitle#=%=#LIMSI@WMT'17
+ShortPaperTitle#=%=#LIMSI@WMT'17
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Franck Burlot
+JobTitle#==#
+Organization#==#LIMSI-CNRS, Rue John Von Neumann, 91400 Orsay, France
+Abstract#==#This paper describes LIMSI's submissions to the news shared task
+at WMT'17 for English into Czech and Latvian, as well as related experiments.
+This year's novelties
+consist in the use of a neural machine translation system with a factored
+output predicting simultaneously a lemma decorated with morphological
+information and a fine-grained part-of-speech. Such a type of system
+drew our attention to the specific step of reinflection, where
+lemmas and parts-of-speech are transformed into fully inflected words.
+Finally, we ran experiments showing an efficient strategy for parameter
+initialization,
+as well as data filtering procedures.
+Author{1}{Firstname}#=%=#Franck
+Author{1}{Lastname}#=%=#Burlot
+Author{1}{Email}#=%=#franck.burlot@limsi.fr
+Author{1}{Affiliation}#=%=#LIMSI-CNRS
+Author{2}{Firstname}#=%=#Pooyan
+Author{2}{Lastname}#=%=#Safari
+Author{2}{Email}#=%=#pooyan.safari@limsi.fr
+Author{2}{Affiliation}#=%=#LIMSI-CNRS
+Author{3}{Firstname}#=%=#Matthieu
+Author{3}{Lastname}#=%=#Labeau
+Author{3}{Email}#=%=#labeau@limsi.fr
+Author{3}{Affiliation}#=%=#Université de Paris-Sud / LIMSI-CNRS
+Author{4}{Firstname}#=%=#Alexandre
+Author{4}{Lastname}#=%=#Allauzen
+Author{4}{Email}#=%=#allauzen@limsi.fr
+Author{4}{Affiliation}#=%=#Université Paris-Sud / LIMSI-CNRS
+Author{5}{Firstname}#=%=#François
+Author{5}{Lastname}#=%=#Yvon
+Author{5}{Email}#=%=#francois.yvon@limsi.fr
+Author{5}{Affiliation}#=%=#LIMSI/CNRS
+
+==========

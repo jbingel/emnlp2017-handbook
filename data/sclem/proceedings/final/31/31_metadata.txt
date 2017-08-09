@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#Supersense Tagging with a Combination of Character, Subword, and Word-level Representations
+ShortPaperTitle#=%=#Supersense Tagging with a Combination of Character, Subword, and Word-level Representations
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Youhyun Shin
+JobTitle#==#
+Organization#==#Seoul National University, Building 138, 418, 1 Gwanak-ro, Gwanak-gu, Seoul
+Abstract#==#Recently, there has been increased interest in utilizing characters or subwords
+for natural language processing (NLP) tasks. However, the effect of utilizing
+character, subword, and word-level information simultaneously has not been
+examined so far. In this paper, we propose a model to leverage various levels
+of input features to improve on the performance of an supersense tagging task.
+Detailed analysis of experimental results show that different levels of input
+representation offer distinct characteristics that explain performance
+discrepancy among different tasks.
+Author{1}{Firstname}#=%=#Youhyun
+Author{1}{Lastname}#=%=#Shin
+Author{1}{Email}#=%=#shinu89@europa.snu.ac.kr
+Author{1}{Affiliation}#=%=#Seoul National University
+Author{2}{Firstname}#=%=#Sang-goo
+Author{2}{Lastname}#=%=#Lee
+Author{2}{Email}#=%=#sglee@europa.snu.ac.kr
+Author{2}{Affiliation}#=%=#Seoul National University
+
+==========

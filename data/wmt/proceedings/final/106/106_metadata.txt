@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#106
+FinalPaperTitle#=%=#Hunter MT: A Course for Young Researchers in WMT17
+ShortPaperTitle#=%=#Hunter MT: A Course for Young Researchers in WMT17
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jia Xu
+JobTitle#==#Assistant Professor
+Organization#==#Jia Xu
+Department of Computer Science
+Hunter College, North Building - Rm. 1043
+695 Park Avenue, New York, NY 10065
+jia.xu@hunter.cuny.edu
+Abstract#==#This paper documents an undergraduate course at Hunter College, in which one
+instructor, six undergraduates, and one high school student built 17 machine
+translation systems in six months from scratch. The team successfully
+participated in the second Conference on Machine Translation (WMT17) evaluation
+on the news task in Finnish-English and Latvian-English and on the bio-medical
+task in French-English, English-French, English-German, English-Romanian, and
+English-Polish.
+Author{1}{Firstname}#=%=#Jia
+Author{1}{Lastname}#=%=#Xu
+Author{1}{Email}#=%=#xujjia@gmail.com
+Author{1}{Affiliation}#=%=#City University of New York - Hunter College and Graduate Center
+Author{2}{Firstname}#=%=#Yi Zong
+Author{2}{Lastname}#=%=#Kuang
+Author{2}{Email}#=%=#YiZong.Kuang38@myhunter.cuny.edu
+Author{2}{Affiliation}#=%=#Hunter College
+Author{3}{Firstname}#=%=#Shondell
+Author{3}{Lastname}#=%=#Baijoo
+Author{3}{Email}#=%=#shondell.baijoo41@myhunter.cuny.edu
+Author{3}{Affiliation}#=%=#Hunter College
+Author{4}{Firstname}#=%=#Jacob Hyun
+Author{4}{Lastname}#=%=#Lee
+Author{4}{Email}#=%=#hyun.lee16@myhunter.cuny.edu
+Author{4}{Affiliation}#=%=#Hunter College
+Author{5}{Firstname}#=%=#Uman
+Author{5}{Lastname}#=%=#Shahzad
+Author{5}{Email}#=%=#Uman.Shahzad34@myhunter.cuny.edu
+Author{5}{Affiliation}#=%=#Hunter College
+Author{6}{Firstname}#=%=#Mir
+Author{6}{Lastname}#=%=#Ahmed
+Author{6}{Email}#=%=#Mir.Ahmed57@myhunter.cuny.edu
+Author{6}{Affiliation}#=%=#Hunter College
+Author{7}{Firstname}#=%=#Meredith
+Author{7}{Lastname}#=%=#Lancaster
+Author{7}{Email}#=%=#Meredith.Lancaster88@myhunter.cuny.edu
+Author{7}{Affiliation}#=%=#Hunter College
+Author{8}{Firstname}#=%=#Chris
+Author{8}{Lastname}#=%=#Carlan
+Author{8}{Email}#=%=#Chris.Carlan70@myhunter.cuny.edu
+Author{8}{Affiliation}#=%=#Hunter College
+
+==========

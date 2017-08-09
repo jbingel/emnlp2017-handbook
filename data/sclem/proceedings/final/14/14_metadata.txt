@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#What do we need to know about an unknown word when parsing German
+ShortPaperTitle#=%=#What do we need to know about an unknown word when parsing German
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Bich-Ngoc Do
+JobTitle#==#
+Organization#==#Institute of Computational Linguistics
+Heidelberg University
+Im Neuenheimer Feld 325
+69120 Heidelberg
+Germany
+Abstract#==#We propose a new type of subword embedding designed to provide more information
+about unknown compounds, a major source for OOV words in German. We present an
+extrinsic evaluation where we use the compound embeddings as input to a neural
+dependency parser and compare the results to the ones obtained with other types
+of embeddings. Our evaluation shows that adding compound embeddings yields a
+significant improvement of 2% LAS over using word embeddings when no POS
+information is available. When adding POS embeddings to the input, however,
+the effect levels out. This suggests that it is not the missing information
+about the semantics of the unknown words that causes problems for parsing
+German, but the lack of morphological information for unknown words. To augment
+our evaluation, we also test the new embeddings in a language modelling task
+that requires both syntactic and semantic information.
+Author{1}{Firstname}#=%=#Bich-Ngoc
+Author{1}{Lastname}#=%=#Do
+Author{1}{Email}#=%=#do@cl.uni-heidelberg.de
+Author{1}{Affiliation}#=%=#Heidelberg University
+Author{2}{Firstname}#=%=#Ines
+Author{2}{Lastname}#=%=#Rehbein
+Author{2}{Email}#=%=#rehbein@cl.uni-heidelberg.de
+Author{2}{Affiliation}#=%=#Leibniz ScienceCampus
+Author{3}{Firstname}#=%=#Anette
+Author{3}{Lastname}#=%=#Frank
+Author{3}{Email}#=%=#frank@cl.uni-heidelberg.de
+Author{3}{Affiliation}#=%=#Heidelberg Universiy
+
+==========

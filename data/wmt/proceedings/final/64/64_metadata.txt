@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#64
+FinalPaperTitle#=%=#The JHU Machine Translation Systems for WMT 2017
+ShortPaperTitle#=%=#The JHU Machine Translation Systems for WMT 2017
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Shuoyang Ding
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper describes the Johns Hopkins University submissions to the shared
+translation task of EMNLP 2017 Second Conference on Machine Translation (WMT
+2017). We set up phrase-based, syntax-based and/or  neural machine translation
+systems for all 14 language pairs of this year's evaluation campaign. We also
+performed neural rescoring of phrase-based systems for English-Turkish and
+English-Finnish.
+Author{1}{Firstname}#=%=#Shuoyang
+Author{1}{Lastname}#=%=#Ding
+Author{1}{Email}#=%=#dings@jhu.edu
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Huda
+Author{2}{Lastname}#=%=#Khayrallah
+Author{2}{Email}#=%=#huda@jhu.edu
+Author{2}{Affiliation}#=%=#The Johns Hopkins University
+Author{3}{Firstname}#=%=#Philipp
+Author{3}{Lastname}#=%=#Koehn
+Author{3}{Email}#=%=#phi@jhu.edu
+Author{3}{Affiliation}#=%=#Johns Hopkins University
+Author{4}{Firstname}#=%=#Matt
+Author{4}{Lastname}#=%=#Post
+Author{4}{Email}#=%=#post@cs.jhu.edu
+Author{4}{Affiliation}#=%=#Johns Hopkins University
+Author{5}{Firstname}#=%=#Gaurav
+Author{5}{Lastname}#=%=#Kumar
+Author{5}{Email}#=%=#gkumar@cs.jhu.edu
+Author{5}{Affiliation}#=%=#Johns Hopkins University
+Author{6}{Firstname}#=%=#Kevin
+Author{6}{Lastname}#=%=#Duh
+Author{6}{Email}#=%=#kevinduh@cs.jhu.edu
+Author{6}{Affiliation}#=%=#Johns Hopkins University
+
+==========

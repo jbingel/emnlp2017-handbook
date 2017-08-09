@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Mining fine-grained opinions on closed captions of YouTube videos with an attention-RNN
+ShortPaperTitle#=%=#Mining fine-grained opinions on closed captions of YouTube videos with an attention-RNN
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Edison Marrese-Taylor
+JobTitle#==#
+Organization#==#113-8654 Tokyo, Bunkyo, Hongo, 7-3−1
+Abstract#==#Video reviews are the natural evolution of written product reviews. In this
+paper we target this phenomenon and introduce the first dataset created from
+closed captions of YouTube product review videos as well as a new attention-RNN
+model for aspect extraction and joint aspect extraction and sentiment
+classification. Our model provides state-of-the-art performance on aspect
+extraction without requiring the usage of hand-crafted features on the SemEval
+ABSA corpus, while it outperforms the baseline on the joint task. In our
+dataset, the attention-RNN model outperforms the baseline for both tasks, but
+we observe important performance drops for all models in comparison to SemEval.
+These results, as well as further experiments on domain adaptation for aspect
+extraction, suggest that differences between speech and written text, which
+have been discussed extensively in the literature, also extend to the domain of
+product reviews, where they are relevant for fine-grained opinion mining.
+Author{1}{Firstname}#=%=#Edison
+Author{1}{Lastname}#=%=#Marrese-Taylor
+Author{1}{Email}#=%=#edison_marrese@hotmail.com
+Author{1}{Affiliation}#=%=#The University of Tokyo
+Author{2}{Firstname}#=%=#Jorge
+Author{2}{Lastname}#=%=#Balazs
+Author{2}{Email}#=%=#jorge@weblab.t.u-tokyo.ac.jp
+Author{2}{Affiliation}#=%=#The University of Tokyo
+Author{3}{Firstname}#=%=#Yutaka
+Author{3}{Lastname}#=%=#Matsuo
+Author{3}{Email}#=%=#matsuo@weblab.t.u-tokyo.ac.jp
+Author{3}{Affiliation}#=%=#University of Tokyo
+
+==========

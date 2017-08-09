@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#61
+FinalPaperTitle#=%=#Prayas at EmoInt 2017: An Ensemble of Deep Neural Architectures for Emotion Intensity Prediction in Tweets
+ShortPaperTitle#=%=#Prayas at EmoInt 2017: An Ensemble of Deep Neural Architectures for Emotion Intensity Prediction in Tweets
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#PRAYAS JAIN
+JobTitle#==#
+Organization#==#Indian Institute of Technology (Banaras Hindu University) Varanasi
+Varanasi, Uttar Pradesh, India - 221005
+Abstract#==#The paper describes the best performing system for EmoInt - a shared task to
+predict the intensity of emotions in tweets. Intensity is a real valued score,
+between 0 and 1. The emotions are classified as - anger, fear, joy and sadness.
+We apply three different deep neural network based models, which approach the
+problem from essentially different directions. Our final performance quantified
+by an average pearson correlation score of 74.7 and an average spearman
+correlation score of 73.5 is obtained using an ensemble of the three models. We
+outperform the baseline model of the shared task by 9.9\% and 9.4\% pearson and
+spearman correlation scores respectively.
+Author{1}{Firstname}#=%=#Prayas
+Author{1}{Lastname}#=%=#Jain
+Author{1}{Email}#=%=#prayas.jain.cse14@iitbhu.ac.in
+Author{1}{Affiliation}#=%=#IIT Varanasi
+Author{2}{Firstname}#=%=#Pranav
+Author{2}{Lastname}#=%=#Goel
+Author{2}{Email}#=%=#pranav.goel.cse14@iitbhu.ac.in
+Author{2}{Affiliation}#=%=#Indian Institute of Technology (Banaras Hindu University) Varanasi
+Author{3}{Firstname}#=%=#Devang
+Author{3}{Lastname}#=%=#Kulshreshtha
+Author{3}{Email}#=%=#devang.kulshreshtha.cse14@iitbhu.ac.in
+Author{3}{Affiliation}#=%=#Indian Institute of Technology, Varanasi
+Author{4}{Firstname}#=%=#Kaushal Kumar
+Author{4}{Lastname}#=%=#Shukla
+Author{4}{Email}#=%=#kkshukla.cse@iitbhu.ac.in
+Author{4}{Affiliation}#=%=#Indian Institute of Technology Varanasi
+
+==========

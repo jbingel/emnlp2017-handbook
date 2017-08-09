@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#5
+FinalPaperTitle#=%=#Functions of Silences towards Information Flow in Spoken Conversation
+ShortPaperTitle#=%=#Functions of Silences towards Information Flow in Spoken Conversation
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Shammur A Chowdhury
+JobTitle#==#
+Organization#==#Department of Information Engineering and Computer Science
+University of Trento 
+via Sommarive 14
+38123 Povo di Trento, Italy
+Abstract#==#Silence is an integral part of the most frequent turn-taking phenomena in
+spoken conversations.  Silence is sized and placed within the conversation flow
+and it is coordinated by the speakers along with the other speech acts. The
+objective of this analytical study is twofold: to explore the functions of
+silence with duration of one second and above, towards information flow in a
+dyadic conversation utilizing the sequences of dialog acts present in the turns
+surrounding the silence itself; and to design a feature space useful for
+clustering the silences using a hierarchical concept formation algorithm. The
+resulting clusters are manually grouped into functional categories based on
+their similarities. It is observed that the silence plays an important role in
+response preparation, also can indicate speakers' hesitation or indecisiveness.
+It is also observed that sometimes long silences can be used deliberately to
+get a forced response from another speaker thus making silence a
+multi-functional and an important catalyst towards information flow.
+Author{1}{Firstname}#=%=#Shammur Absar
+Author{1}{Lastname}#=%=#Chowdhury
+Author{1}{Email}#=%=#sachowdhury@disi.unitn.it
+Author{1}{Affiliation}#=%=#University of Trento
+Author{2}{Firstname}#=%=#Evgeny
+Author{2}{Lastname}#=%=#Stepanov
+Author{2}{Email}#=%=#stepanov.evgeny.a@gmail.com
+Author{2}{Affiliation}#=%=#University of Trento
+Author{3}{Firstname}#=%=#Morena
+Author{3}{Lastname}#=%=#Danieli
+Author{3}{Email}#=%=#morena.danieli@unitn.it
+Author{3}{Affiliation}#=%=#University of Trento
+Author{4}{Firstname}#=%=#Giuseppe
+Author{4}{Lastname}#=%=#Riccardi
+Author{4}{Email}#=%=#giuseppe.riccardi@unitn.it
+Author{4}{Affiliation}#=%=#University of Trento
+
+==========

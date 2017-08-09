@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#Spell-Checking based on Syllabification and Character-level Graphs for a Peruvian Agglutinative Language
+ShortPaperTitle#=%=#Spell-Checking based on Syllabification and Character-level Graphs for a Peruvian Agglutinative Language
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Arturo Oncevay
+JobTitle#==#
+Organization#==#Pontificia Universidad Católica del Perú
+Abstract#==#There are several native languages in Peru which are mostly agglutinative.
+These languages are transmitted from generation to generation mainly in oral
+form, causing different forms of writing across different communities. For this
+reason, there are recent efforts to standardize the spelling in the written
+texts, and it would be beneficial to support these tasks with an automatic tool
+such as an spell-checker. In this way, this spelling corrector is being
+developed based on two steps: an automatic rule-based syllabification method
+and a character-level graph to detect the degree of error in a misspelled word.
+The experiments were realized on Shipibo-konibo, a highly agglutinative and
+amazonian language, and the results obtained have been promising in a dataset
+built for the purpose.
+Author{1}{Firstname}#=%=#Carlo
+Author{1}{Lastname}#=%=#Alva
+Author{1}{Email}#=%=#carlo.alva@pucp.pe
+Author{1}{Affiliation}#=%=#Pontificia Universidad Católica del Perú
+Author{2}{Firstname}#=%=#Arturo
+Author{2}{Lastname}#=%=#Oncevay
+Author{2}{Email}#=%=#arturo.oncevay@pucp.edu.pe
+Author{2}{Affiliation}#=%=#PUCP
+
+==========

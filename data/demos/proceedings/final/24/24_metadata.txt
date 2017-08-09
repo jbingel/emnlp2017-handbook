@@ -1,10 +1,10 @@
 SubmissionNumber#=%=#24
 FinalPaperTitle#=%=#MoodSwipe: A Soft Keyboard that Suggests MessageBased on User-Specified Emotions
-ShortPaperTitle#=%=#
-NumberOfPages#=%=#
-CopyrightSigned#=%=#
-JobTitle#==#
-Organization#==#
+ShortPaperTitle#=%=#MoodSwipe: A Soft Keyboard that Suggests MessageBased on User-Specified Emotions
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Chieh-Yang Huang
+JobTitle#==#Research Assistant
+Organization#==#Institute of Information Science, No 128, Academia Road, Section 2, Nankang, Taipei 11529, Taiwan
 Abstract#==#We present MoodSwipe, a soft keyboard that suggests text messages given the
 user-specified emotions utilizing the real dialog data. The aim of MoodSwipe is
 to create a convenient user interface to enjoy the technology of emotion
@@ -37,9 +37,13 @@ Author{5}{Firstname}#=%=#Hung-Chen
 Author{5}{Lastname}#=%=#Chen
 Author{5}{Email}#=%=#hankchen@iis.sinica.edu.tw
 Author{5}{Affiliation}#=%=#Academia Sinica
-Author{6}{Firstname}#=%=#Lun-Wei
-Author{6}{Lastname}#=%=#Ku
-Author{6}{Email}#=%=#lwku@iis.sinica.edu.tw
-Author{6}{Affiliation}#=%=#Academia Sinica
+Author{6}{Firstname}#=%=#Vallari
+Author{6}{Lastname}#=%=#Srivastava
+Author{6}{Email}#=%=#vallari357@gmail.com
+Author{6}{Affiliation}#=%=#Institute of Engineering & Technology, DAVV
+Author{7}{Firstname}#=%=#Lun-Wei
+Author{7}{Lastname}#=%=#Ku
+Author{7}{Email}#=%=#lwku@iis.sinica.edu.tw
+Author{7}{Affiliation}#=%=#Academia Sinica
 
 ==========

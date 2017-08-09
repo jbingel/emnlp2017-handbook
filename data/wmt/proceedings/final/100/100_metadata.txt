@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#100
+FinalPaperTitle#=%=#Ensembling Factored Neural Machine Translation Models for Automatic Post-Editing and Quality Estimation
+ShortPaperTitle#=%=#Ensembling Factored Neural Machine Translation Models for Automatic Post-Editing and Quality Estimation
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Chris Hokamp
+JobTitle#==#
+Organization#==#ADAPT Centre
+Dublin City University
+Glasnevin, Dublin 9
+Ireland
+Abstract#==#This work presents a novel approach to Automatic Post-Editing (APE) and
+Word-Level Quality Estimation (QE) using ensembles of specialized Neural
+Machine Translation (NMT) systems. Word-level features that have proven
+effective for QE are included as input factors, expanding the representation of
+the original source and the machine translation hypothesis, which are used to
+generate an automatically post-edited hypothesis. We train a suite of NMT
+models that use different input representations, but share the same output
+space. These models are then ensembled together, and tuned for both the APE and
+the QE task. We thus attempt to connect the state-of-the-art approaches to APE
+and QE within a single framework. Our models achieve state-of-the-art results
+in both tasks, with the only difference in the tuning step which learns weights
+for each component of the ensemble.
+Author{1}{Firstname}#=%=#Chris
+Author{1}{Lastname}#=%=#Hokamp
+Author{1}{Email}#=%=#chris.hokamp@gmail.com
+Author{1}{Affiliation}#=%=#Dublin City University - CNGL
+
+==========

@@ -1,65 +1,73 @@
 * Friday, September 8, 2017
-! 08:45--09:00  %by Load Oral Presentations
++ 08:45--09:00 Load Oral Presentations
+
 = 09:00--10:30 Session 1
-! 09:00--09:15  %by Opening Remarks
+! 09:00--09:15  Opening Remarks
 4 09:15--09:40  # Question Difficulty -- How to Estimate Without Norming, How to Use for Automated Grading
 56 09:40--10:05  # Combining CNNs and Pattern Matching for Question Interpretation in a Virtual Patient Dialogue System
 22 10:05--10:30  # Continuous fluency tracking and the challenges of varying text complexity
-= 10:30--11:00 Break
+
++ 10:30--11:00 Break
+
 = 11:00--12:35 Session 2
 33 11:00--11:25  # Auxiliary Objectives for Neural Error Detection Models
 9 11:25--11:50  # Linked Data for Language-Learning Applications
 7 11:50--12:10  # Predicting Specificity in Classroom Discussion
 85 12:10--12:35  # A Report on the 2017 Native Language Identification Shared Task
-= 12:35--14:00 Lunch
+
++ 12:35--14:00 Lunch
+
 = 14:00--15:30 Poster Session
 = 14:00--14:45 Poster Session A
-5 14:00--14:45  # Evaluation of Automatically Generated Pronoun Reference Questions
-13 14:00--14:45  # Predicting Audience's Laughter During Presentations Using Convolutional Neural Network
-18 14:00--14:45  # Collecting fluency corrections for spoken learner English
-19 14:00--14:45  # Exploring Relationships Between Writing & Broader Outcomes With Automated Writing Evaluation
-21 14:00--14:45  # An Investigation into the Pedagogical Features of Documents
-24 14:00--14:45  # Combining Multiple Corpora for Readability Assessment for People with Cognitive Disabilities
-28 14:00--14:45  # Automatic Extraction of High-Quality Example Sentences for Word Learning Using a Determinantal Point Process
-29 14:00--14:45  # Distractor Generation for Chinese Fill-in-the-blank Items
-30 14:00--14:45  # An Error-Oriented Approach to Word Embedding Pre-Training
-31 14:00--14:45  # Investigating neural architectures for short answer scoring
-35 14:00--14:45  # Human and Automated CEFR-based Grading of Short Answers
-52 14:00--14:45  # GEC into the future: Where are we going and how do we get there?
-63 14:00--14:45  # Detecting Off-topic Responses to Visual Prompts
-67 14:00--14:45  # Combining Textual and Speech Features in the NLI Task Using State-of-the-Art Machine Learning Techniques
-68 14:00--14:45  # Native Language Identification Using a Mixture of Character and Word N-grams
-69 14:00--14:45  # Ensemble Methods for Native Language Identification
-70 14:00--14:45  # Can string kernels pass the test of time in Native Language Identification?
-71 14:00--14:45  # Neural Networks and Spelling Features for Native Language Identification
-72 14:00--14:45  # A study of N-gram and Embedding Representations for Native Language Identification
-73 14:00--14:45  # A Shallow Neural Network for Native Language Identification with Character N-grams
-74 14:00--14:45  # Fewer features perform well at Native Language Identification task
+5    # Evaluation of Automatically Generated Pronoun Reference Questions
+13    # Predicting Audience's Laughter During Presentations Using Convolutional Neural Network
+18    # Collecting fluency corrections for spoken learner English
+19    # Exploring Relationships Between Writing & Broader Outcomes With Automated Writing Evaluation
+21    # An Investigation into the Pedagogical Features of Documents
+24    # Combining Multiple Corpora for Readability Assessment for People with Cognitive Disabilities
+28    # Automatic Extraction of High-Quality Example Sentences for Word Learning Using a Determinantal Point Process
+29    # Distractor Generation for Chinese Fill-in-the-blank Items
+30    # An Error-Oriented Approach to Word Embedding Pre-Training
+31    # Investigating neural architectures for short answer scoring
+35    # Human and Automated CEFR-based Grading of Short Answers
+52    # GEC into the future: Where are we going and how do we get there?
+63    # Detecting Off-topic Responses to Visual Prompts
+67    # Combining Textual and Speech Features in the NLI Task Using State-of-the-Art Machine Learning Techniques
+68    # Native Language Identification Using a Mixture of Character and Word N-grams
+69    # Ensemble Methods for Native Language Identification
+70    # Can string kernels pass the test of time in Native Language Identification?
+71    # Neural Networks and Spelling Features for Native Language Identification
+72    # A study of N-gram and Embedding Representations for Native Language Identification
+73    # A Shallow Neural Network for Native Language Identification with Character N-grams
+74    # Fewer features perform well at Native Language Identification task
+
 = 14:45--15:30 Poster Session B
-42 14:45--15:30  # Structured Generation of Technical Reading Lists
-43 14:45--15:30  # Effects of Lexical Properties on Viewing Time per Word in Autistic and Neurotypical Readers
-44 14:45--15:30  # Transparent text quality assessment with convolutional neural networks
-45 14:45--15:30  # Artificial Error Generation with Machine Translation and Syntactic Patterns
-46 14:45--15:30  # Modelling semantic acquisition in second language learning
-47 14:45--15:30  # Multiple Choice Question Generation Utilizing An Ontology
-48 14:45--15:30  # Simplifying metaphorical language for young readers: A corpus study on news text
-49 14:45--15:30  # Language Based Mapping of Science Assessment Items to Skills
-57 14:45--15:30  # Connecting the Dots: Towards Human-Level Grammatical Error Correction
-61 14:45--15:30  # Question Generation for Language Learning: From ensuring texts are read to supporting learning
-62 14:45--15:30  # Systematically Adapting Machine Translation for Grammatical Error Correction
-38 14:45--15:30  # Fine-grained essay scoring of a complex writing task for native speakers
-75 14:45--15:30  # Exploring Optimal Voting in Native Language Identification
-76 14:45--15:30  # CIC-FBK Approach to Native Language Identification
-77 14:45--15:30  # The Power of Character N-grams in Native Language Identification
-78 14:45--15:30  # Classifier Stacking for Native Language Identification
-79 14:45--15:30  # Native Language Identification on Text and Speech
-80 14:45--15:30  # Native Language Identification using Phonetic Algorithms
-81 14:45--15:30  # A deep-learning based native-language classification by using a latent semantic analysis for the NLI Shared Task 2017
-82 14:45--15:30  # Fusion of Simple Models for Native Language Identification
-83 14:45--15:30  # Stacked Sentence-Document Classifier Approach for Improving Native Language Identification
-= 15:30--16:00 Break
+42    # Structured Generation of Technical Reading Lists
+43    # Effects of Lexical Properties on Viewing Time per Word in Autistic and Neurotypical Readers
+44    # Transparent text quality assessment with convolutional neural networks
+45    # Artificial Error Generation with Machine Translation and Syntactic Patterns
+46    # Modelling semantic acquisition in second language learning
+47    # Multiple Choice Question Generation Utilizing An Ontology
+48    # Simplifying metaphorical language for young readers: A corpus study on news text
+49    # Language Based Mapping of Science Assessment Items to Skills
+57    # Connecting the Dots: Towards Human-Level Grammatical Error Correction
+61    # Question Generation for Language Learning: From ensuring texts are read to supporting learning
+62    # Systematically Adapting Machine Translation for Grammatical Error Correction
+38    # Fine-grained essay scoring of a complex writing task for native speakers
+75    # Exploring Optimal Voting in Native Language Identification
+76    # CIC-FBK Approach to Native Language Identification
+77    # The Power of Character N-grams in Native Language Identification
+78    # Classifier Stacking for Native Language Identification
+79    # Native Language Identification on Text and Speech
+80    # Native Language Identification using Phonetic Algorithms
+81    # A deep-learning based native-language classification by using a latent semantic analysis for the NLI Shared Task 2017
+82    # Fusion of Simple Models for Native Language Identification
+83    # Stacked Sentence-Document Classifier Approach for Improving Native Language Identification
+
++ 15:30--16:00 Break
+
 = 16:00--17:30 Session 3
 6 16:00--16:25  # Using Gaze to Predict Text Readability
 12 16:25--16:50  # Annotating Orthographic Target Hypotheses in a German L1 Learner Corpus
 15 16:50--17:15  # A Large Scale Quantitative Exploration of Modeling Strategies for Content Scoring
-! 17:15--17:30  %by Closing Remarks
+! 17:15--17:30  Closing Remarks

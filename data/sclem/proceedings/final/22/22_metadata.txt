@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#Improving Opinion-Target Extraction with Character-Level Word Embeddings
+ShortPaperTitle#=%=#Improving Opinion-Target Extraction with Character-Level Word Embeddings
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Soufian Jebbara
+JobTitle#==#
+Organization#==#Cluster of Excellence Cognitive Interaction Technology
+Bielefeld University
+Inspiration 1
+33619 Bielefeld
+Germany
+Phone: +49 521 106 6564
+info@cit-ec.uni-bielefeld.de
+www.cit-ec.de
+Abstract#==#Fine-grained sentiment analysis is receiving increasing attention in recent
+years.
+Extracting opinion target expressions (OTE) in reviews is often an important
+step in fine-grained, aspect-based sentiment analysis.
+Retrieving this information from user-generated text, however, can be
+difficult.
+Customer reviews, for instance, are prone to contain misspelled words and are
+difficult to process due to their domain-specific language.
+In this work, we investigate whether character-level models can improve the
+performance for the identification of opinion target expressions.
+We integrate information about the character structure of a word into a
+sequence labeling system using character-level word embeddings and show their
+positive impact on the system's performance.
+Specifically, we obtain an increase by 3.3 points F1-score with respect to our
+baseline model.
+In further experiments, we reveal encoded character patterns of the learned
+embeddings and give a nuanced view of the performance differences of both
+models.
+Author{1}{Firstname}#=%=#Soufian
+Author{1}{Lastname}#=%=#Jebbara
+Author{1}{Email}#=%=#sjebbara@cit-ec.uni-bielefeld.de
+Author{1}{Affiliation}#=%=#CITEC - Bielefeld University
+Author{2}{Firstname}#=%=#Philipp
+Author{2}{Lastname}#=%=#Cimiano
+Author{2}{Email}#=%=#cimiano@cit-ec.uni-bielefeld.de
+Author{2}{Affiliation}#=%=#Univ. Bielefeld
+
+==========

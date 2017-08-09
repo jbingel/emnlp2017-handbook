@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#Parsing transcripts of speech
+ShortPaperTitle#=%=#Parsing transcripts of speech
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Andrew Caines
+JobTitle#==#
+Organization#==#University of Cambridge, UK
+Abstract#==#We present an analysis of parser performance on speech data, comparing word
+type and token frequency distributions with written data, and evaluating parse
+accuracy by length of input string. We find that parser performance tends to
+deteriorate with increasing length of string, more so for spoken than for
+written texts. We train an alternative parsing model with added speech data and
+demonstrate improvements in accuracy on speech-units, with no deterioration in
+performance on written text.
+Author{1}{Firstname}#=%=#Andrew
+Author{1}{Lastname}#=%=#Caines
+Author{1}{Email}#=%=#apc38@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#McCarthy
+Author{2}{Email}#=%=#mactoft@cantab.net
+Author{2}{Affiliation}#=%=#University of Nottingham
+Author{3}{Firstname}#=%=#Paula
+Author{3}{Lastname}#=%=#Buttery
+Author{3}{Email}#=%=#paula.buttery@cl.cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+
+==========

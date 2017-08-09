@@ -1,0 +1,208 @@
+P: 5
+M: 
+T: Unlabeled Data for Morphological Generation With Character-Based Sequence-to-Sequence Models
+A: Kann, Katharina
+A: Sch\"{u}tze, Hinrich
+F: final/5/5_Paper.pdf
+L: 6
+
+P: 8
+M: 
+T: Vowel and Consonant Classification through Spectral Decomposition
+A: Thaine, Patricia
+A: Penn, Gerald
+F: final/8/8_Paper.pdf
+L: 10
+
+P: 9
+M: 
+T: Syllable-level Neural Language Model for Agglutinative Language
+A: Yu, Seunghak
+A: Kulkarni, Nilesh
+A: Lee, Haejun
+A: Kim, Jihie
+F: final/9/9_Paper.pdf
+L: 5
+
+P: 10
+M: 
+T: Character-based Bidirectional LSTM-CRF with words and characters for Japanese Named Entity Recognition
+A: Misawa, Shotaro
+A: Taniguchi, Motoki
+A: Miura, Yasuhide
+A: Ohkuma, Tomoko
+F: final/10/10_Paper.pdf
+L: 6
+
+P: 12
+M: 
+T: Word Representation Models for Morphologically Rich Languages in Neural Machine Translation
+A: Vylomova, Ekaterina
+A: Cohn, Trevor
+A: He, Xuanli
+A: Haffari, Gholamreza
+F: final/12/12_Paper.pdf
+L: 6
+
+P: 13
+M: 
+T: Spell-Checking based on Syllabification and Character-level Graphs for a Peruvian Agglutinative Language
+A: Alva, Carlo
+A: Oncevay, Arturo
+F: final/13/13_Paper.pdf
+L: 8
+
+P: 14
+M: 
+T: What do we need to know about an unknown word when parsing German
+A: Do, Bich-Ngoc
+A: Rehbein, Ines
+A: Frank, Anette
+F: final/14/14_Paper.pdf
+L: 7
+
+P: 15
+M: 
+T: A General-Purpose Tagger with Convolutional Neural Networks
+A: Yu, Xiang
+A: Falenska, Agnieszka
+A: Vu, Ngoc Thang
+F: final/15/15_Paper.pdf
+L: 6
+
+P: 16
+M: 
+T: Reconstruction of Word Embeddings from Sub-Word Parameters
+A: Stratos, Karl
+F: final/16/16_Paper.pdf
+L: 6
+
+P: 17
+M: 
+T: Inflection Generation for Spanish Verbs using Supervised Learning
+A: Barros, Cristina
+A: Gkatzia, Dimitra
+A: Lloret, Elena
+F: final/17/17_Paper.pdf
+L: 6
+
+P: 18
+M: 
+T: Neural Paraphrase Identification of Questions with Noisy Pretraining
+A: Tomar, Gaurav Singh
+A: Duque, Thyago
+A: T\"{a}ckstr\"{o}m, Oscar
+A: Uszkoreit, Jakob
+A: Das, Dipanjan
+F: final/18/18_Paper.pdf
+L: 6
+
+P: 19
+M: 
+T: Sub-character Neural Language Modelling in Japanese
+A: Nguyen, Viet
+A: Brooke, Julian
+A: Baldwin, Timothy
+F: final/19/19_Paper.pdf
+L: 6
+
+P: 20
+M: 
+T: Byte-based Neural Machine Translation
+A: Costa-juss\`{a}, Marta R.
+A: Escolano, Carlos
+A: Fonollosa, Jos\'{e} A. R.
+F: final/20/20_Paper.pdf
+L: 5
+
+P: 22
+M: 
+T: Improving Opinion-Target Extraction with Character-Level Word Embeddings
+A: Jebbara, Soufian
+A: Cimiano, Philipp
+F: final/22/22_Paper.pdf
+L: 9
+
+P: 23
+M: 
+T: Character and Subword-Based Word Representation for Neural Language Modeling Prediction
+A: Labeau, Matthieu
+A: Allauzen, Alexandre
+F: final/23/23_Paper.pdf
+L: 13
+
+P: 24
+M: 
+T: Learning variable length units for SMT between related languages via Byte Pair Encoding
+A: Kunchukuttan, Anoop
+A: Bhattacharyya, Pushpak
+F: final/24/24_Paper.pdf
+L: 11
+
+P: 25
+M: 
+T: Character Based Pattern Mining for Neology Detection
+A: Lejeune, Ga\"{e}l
+A: Cartier, Emmanuel
+F: final/25/25_Paper.pdf
+L: 6
+
+P: 27
+M: 
+T: Automated Word Stress Detection in Russian
+A: Ponomareva, Maria
+A: Milintsevich, Kirill
+A: Chernyak, Ekaterina
+A: Starostin, Anatoly
+F: final/27/27_Paper.pdf
+L: 5
+
+P: 28
+M: 
+T: A Syllable-based Technique for Word Embeddings of Korean Words
+A: Choi, Sanghyuk
+A: Kim, Taeuk
+A: Seol, Jinseok
+A: Lee, Sang-goo
+F: final/28/28_Paper.pdf
+L: 5
+
+P: 31
+M: 
+T: Supersense Tagging with a Combination of Character, Subword, and Word-level Representations
+A: Shin, Youhyun
+A: Lee, Sang-goo
+F: final/31/31_Paper.pdf
+L: 5
+
+P: 32
+M: 
+T: Weakly supervised learning of allomorphy
+A: Silfverberg, Miikka
+A: Hulden, Mans
+F: final/32/32_Paper.pdf
+L: 11
+
+P: 34
+M: 
+T: Character-based recurrent neural networks for morphological relational reasoning
+A: Mogren, Olof
+A: Johansson, Richard
+F: final/34/34_Paper.pdf
+L: 7
+
+P: 37
+M: 
+T: Glyph-aware Embedding of Chinese Characters
+A: Dai, Falcon
+A: Cai, Zheng
+F: final/37/37_Paper.pdf
+L: 6
+
+P: 38
+M: 
+T: Exploring Cross-Lingual Transfer of Morphological Knowledge In Sequence-to-Sequence Models
+A: Jin, Huiming
+A: Kann, Katharina
+F: final/38/38_Paper.pdf
+L: 6

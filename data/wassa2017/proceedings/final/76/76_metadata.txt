@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#76
+FinalPaperTitle#=%=#deepCybErNet at EmoInt-2017: Deep Emotion Intensities in Tweets
+ShortPaperTitle#=%=#Deep Emotion Intensities in Tweets
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#vinayakumar r
+JobTitle#==#
+Organization#==#enter for Computational Engineering and Networking,
+Amrita School of Engineering, Amrita Vishwa Vidyapeetham,
+Amrita University, India
+Abstract#==#This working note presents the methodology used in deepCybErNet submission to
+the shared task on Emotion Intensities in Tweets (EmoInt) WASSA-2017. The goal
+of the task is to predict a real valued score in the range [0-1] for a
+particular tweet with an emotion type. To do this, we used Bag-of-Words and
+embedding based on recurrent network architecture. We have developed two
+systems and experiments are conducted on the Emotion Intensity shared Task 1
+data base at WASSA- 2017. A system which uses word embedding based on recurrent
+network architecture has achieved highest 5 fold cross-validation accuracy.
+This has used embedding with recurrent network to extract optimal features at
+tweet level and logistic regression for prediction. These methods are highly
+language independent and experimental results shows that the proposed methods
+are apt for predicting a real valued score in than range [0-1] for a given
+tweet with its emotion type.
+Author{1}{Firstname}#=%=#Vinayakumar
+Author{1}{Lastname}#=%=#R
+Author{1}{Email}#=%=#vinayakumarr77@gmail.com
+Author{1}{Affiliation}#=%=#amrita
+Author{2}{Firstname}#=%=#premjith
+Author{2}{Lastname}#=%=#b
+Author{2}{Email}#=%=#prem.jb@gmail.com
+Author{2}{Affiliation}#=%=#amrita university
+Author{3}{Firstname}#=%=#sachin kumar
+Author{3}{Lastname}#=%=#s
+Author{3}{Email}#=%=#sachinnme@gmail.com
+Author{3}{Affiliation}#=%=#amrita university
+Author{4}{Firstname}#=%=#soman
+Author{4}{Lastname}#=%=#kp
+Author{4}{Email}#=%=#kp_soman@amrita.edu
+Author{4}{Affiliation}#=%=#amrita university
+Author{5}{Firstname}#=%=#Prabaharan
+Author{5}{Lastname}#=%=#Poornachandran
+Author{5}{Email}#=%=#prabasuja@gmail.com
+Author{5}{Affiliation}#=%=#amrita university
+
+==========

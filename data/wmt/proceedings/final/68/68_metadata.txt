@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#68
+FinalPaperTitle#=%=#CUNI submission in WMT17: Chimera goes neural
+ShortPaperTitle#=%=#CUNI submission in WMT17: Chimera goes neural
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Roman Sudarikov
+JobTitle#==#
+Organization#==#Charles University in Prague, Faculty of Mathematics and Physics,
+Malostranské náměstí 25, 118 00 Prague, Czech Republic
+Abstract#==#This paper describes the neural and phrase-based machine translation systems
+submitted by CUNI to English-Czech News Translation Task of WMT17. We
+experiment with synthetic data for training and try several system combination
+techniques, both neural and phrase-based. Our primary submission
+CU-Chimera ends up being phrase-based backbone which includes neural
+and deep-syntactic candidate translations.
+Author{1}{Firstname}#=%=#Roman
+Author{1}{Lastname}#=%=#Sudarikov
+Author{1}{Email}#=%=#sudarikov@ufal.mff.cuni.cz
+Author{1}{Affiliation}#=%=#Charles University in Prague, Faculty of Mathematics and Physics
+Author{2}{Firstname}#=%=#David
+Author{2}{Lastname}#=%=#Mareček
+Author{2}{Email}#=%=#marecek@ufal.mff.cuni.cz
+Author{2}{Affiliation}#=%=#Charles University in Prague
+Author{3}{Firstname}#=%=#Tom
+Author{3}{Lastname}#=%=#Kocmi
+Author{3}{Email}#=%=#kocmi@ufal.mff.cuni.cz
+Author{3}{Affiliation}#=%=#Charles University
+Author{4}{Firstname}#=%=#Dusan
+Author{4}{Lastname}#=%=#Varis
+Author{4}{Email}#=%=#dvaris@seznam.cz
+Author{4}{Affiliation}#=%=#Charles University in Prague, Faculty of Mathematics and Physics
+Author{5}{Firstname}#=%=#Ondřej
+Author{5}{Lastname}#=%=#Bojar
+Author{5}{Email}#=%=#bojar@ufal.mff.cuni.cz
+Author{5}{Affiliation}#=%=#Charles University in Prague, Faculty of Mathematics and Physics
+
+==========

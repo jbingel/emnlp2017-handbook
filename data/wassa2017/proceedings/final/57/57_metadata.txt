@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#57
+FinalPaperTitle#=%=#Tecnolengua Lingmotif at EmoInt-2017: A lexicon-based approach
+ShortPaperTitle#=%=#Tecnolengua Lingmotif at EmoInt-2017: A lexicon-based approach
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Antonio Moreno-Ortiz
+JobTitle#==#
+Organization#==#Universidad de Malaga
+Avda de Cervantes, 2
+29007 Malaga. Spain
+Abstract#==#In this paper we describe Tecnolengua Group's participation in the shared task
+on emotion intensity at WASSA 2017. We used the Lingmotif tool and a new,
+complementary tool, Lingmotif Learn, which we developed for this occasion. We
+based our intensity predictions for the four test datasets entirely on
+Lingmotif's TSS (text sentiment score) feature. We also developed mechanisms
+for dealing with the idiosyncrasies of Twitter text. Results were comparatively
+poor, but the experience meant a good opportunity for us to identify issues in
+our score calculation for short texts, a genre for which the Lingmotif tool was
+not originally designed.
+Author{1}{Firstname}#=%=#Antonio
+Author{1}{Lastname}#=%=#Moreno-Ortiz
+Author{1}{Email}#=%=#amo@uma.es
+Author{1}{Affiliation}#=%=#Universidad de Malaga
+
+==========

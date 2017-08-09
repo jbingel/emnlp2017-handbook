@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Generating Image Descriptions using Multilingual Data
+ShortPaperTitle#=%=#Generating Image Descriptions using Multilingual Data
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Alan Jaffe
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+5000 Forbes Ave
+Pittsburgh, PA 15213
+Abstract#==#In this paper we explore several neural network architectures for the WMT 2017
+multimodal translation sub-task on multilingual image caption generation. The
+goal of the task is to generate image captions in German, using a training
+corpus of images with captions in both English and German. We explore several
+models which attempt to generate captions for both languages, ignoring the
+English output during evaluation. We compare the results to a baseline
+implementation which uses only the German captions for training and show
+significant improvement.
+Author{1}{Firstname}#=%=#Alan
+Author{1}{Lastname}#=%=#Jaffe
+Author{1}{Email}#=%=#apjaffe@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

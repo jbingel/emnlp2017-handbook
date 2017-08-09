@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Character-based Bidirectional LSTM-CRF with words and characters for Japanese Named Entity Recognition
+ShortPaperTitle#=%=#Character-based Bidirectional LSTM-CRF with words and characters for Japanese Named Entity Recognition
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Shotaro Misawa
+JobTitle#==#
+Organization#==#
+Abstract#==#Recently, neural models have shown superior performance over conventional
+models in NER tasks. These models use CNN to extract sub-word information along
+with RNN to predict a tag for each word. However, these models have been tested
+almost entirely on English texts. It remains unclear whether they perform
+similarly in other languages. We worked on Japanese NER using neural models and
+discovered two obstacles of the state-of-the-art model.
+ First, CNN is unsuitable for extracting Japanese sub-word information.
+Secondly, a model predicting a tag for each word cannot extract an entity when
+a part of a word composes an entity. The contributions of this work are (1)
+verifying the effectiveness of the state-of-the-art NER model for Japanese, (2)
+proposing a neural model for predicting a tag for each character using word and
+character information. Experimentally obtained results demonstrate that our
+model outperforms the state-of-the-art neural English NER model in Japanese.
+Author{1}{Firstname}#=%=#Shotaro
+Author{1}{Lastname}#=%=#Misawa
+Author{1}{Email}#=%=#misawa.shotaro@fujixerox.co.jp
+Author{1}{Affiliation}#=%=#Fuji Xerox Co., Ltd.
+Author{2}{Firstname}#=%=#Motoki
+Author{2}{Lastname}#=%=#Taniguchi
+Author{2}{Email}#=%=#motoki.taniguchi@fujixerox.co.jp
+Author{2}{Affiliation}#=%=#Fuji Xerox Co., Ltd.
+Author{3}{Firstname}#=%=#Yasuhide
+Author{3}{Lastname}#=%=#Miura
+Author{3}{Email}#=%=#yasuhide.miura@fujixerox.co.jp
+Author{3}{Affiliation}#=%=#Fuji Xerox Co., Ltd.
+Author{4}{Firstname}#=%=#Tomoko
+Author{4}{Lastname}#=%=#Ohkuma
+Author{4}{Email}#=%=#ohkuma.tomoko@fujixerox.co.jp
+Author{4}{Affiliation}#=%=#Fuji Xerox Co., Ltd.
+
+==========

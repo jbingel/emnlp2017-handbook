@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#93
+FinalPaperTitle#=%=#NRC Machine Translation System for WMT 2017
+ShortPaperTitle#=%=#NRC Machine Translation System for WMT 2017
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#
+Abstract#==#We describe the machine translation systems developed at the National Research 
+Council of Canada (NRC) for the Russian-English and Chinese-English news 
+translation tasks of the Second Conference on Machine Translation (WMT 2017).
+We
+conducted several experiments to explore the best baseline settings for neural 
+machine translation (NMT). In the Russian-English task, to our surprise, our 
+best-performing system is one that rescores phrase-based statistical machine 
+translation outputs using NMT rescoring features. On the other hand, in the 
+Chinese-English task, which has far more parallel training data, NMT is able to
+
+outperform SMT significantly. The NRC MT systems is the best constrained system
+
+in Russian-English (out of nine participants) and the fourth best constrained 
+system in Chinese-English (out of twenty participants) in WMT 2017 human 
+evaluation.
+Author{1}{Firstname}#=%=#Chi-kiu
+Author{1}{Lastname}#=%=#Lo
+Author{1}{Email}#=%=#chikiu.lo@gmail.com
+Author{1}{Affiliation}#=%=#NRC Canada
+Author{2}{Firstname}#=%=#Boxing
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Email}#=%=#boxing.chen@cnrc-nrc.gc.ca
+Author{2}{Affiliation}#=%=#NRC
+Author{3}{Firstname}#=%=#Colin
+Author{3}{Lastname}#=%=#Cherry
+Author{3}{Email}#=%=#colin.a.cherry@gmail.com
+Author{3}{Affiliation}#=%=#NRC
+Author{4}{Firstname}#=%=#George
+Author{4}{Lastname}#=%=#Foster
+Author{4}{Email}#=%=#geord.foster@gmail.com
+Author{4}{Affiliation}#=%=#National Research Council
+Author{5}{Firstname}#=%=#Samuel
+Author{5}{Lastname}#=%=#Larkin
+Author{5}{Email}#=%=#samuel.larkin@nrc-cnrc.gc.ca
+Author{5}{Affiliation}#=%=#NRC
+Author{6}{Firstname}#=%=#Darlene
+Author{6}{Lastname}#=%=#Stewart
+Author{6}{Email}#=%=#darlene.stewart@nrc-cnrc.gc.ca
+Author{6}{Affiliation}#=%=#NRC
+Author{7}{Firstname}#=%=#Roland
+Author{7}{Lastname}#=%=#Kuhn
+Author{7}{Email}#=%=#roland.kuhn@cnrc-nrc.gc.ca
+Author{7}{Affiliation}#=%=#National Research Council of Canada
+
+==========

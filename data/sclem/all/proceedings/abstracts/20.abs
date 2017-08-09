@@ -1,0 +1,7 @@
+This paper presents experiments comparing character-based and byte-based neural
+	machine translation systems. The main motivation of the byte-based neural
+	machine translation system is to build multi-lingual neural machine translation
+	systems that can share the same vocabulary. We compare the performance of both
+	systems in several language pairs and we see that the performance in test is
+	similar for most language pairs while the training time is slightly reduced in
+	the case of byte-based neural machine translation.

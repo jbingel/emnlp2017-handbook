@@ -1,0 +1,7 @@
+Pre-trained word embeddings improve the performance of a neural model at the
+	cost of increasing the model size. We propose to benefit from this resource
+	without paying the cost by operating strictly at the sub-lexical level. Our
+	approach is quite simple: before task-specific training, we first optimize
+	sub-word parameters to reconstruct pre-trained word embeddings using various
+	distance measures. We report interesting results on a variety of tasks: word
+	similarity, word analogy, and part-of-speech tagging.

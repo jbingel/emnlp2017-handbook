@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#71
+FinalPaperTitle#=%=#Extending hybrid word-character neural machine translation with multi-task learning of morphological analysis
+ShortPaperTitle#=%=#Extending hybrid word-character NMT with multi-task learning of morphological analysis
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Stig-Arne Grönroos
+JobTitle#==#
+Organization#==#Aalto University,
+PL 11000, 00076 AALTO,
+Finland
+Abstract#==#This article describes the Aalto University entry to the English-to-Finnish
+news translation shared task in WMT 2017. Our system is an open vocabulary
+neural machine translation (NMT) system, adapted to the needs of a
+morphologically complex target language. The main contributions of this paper
+are 1) implicitly incorporating morphological information to NMT through
+multi-task learning, 2) adding an attention mechanism to the character-level
+decoder, combined with character segmentation of names, and 3) a new
+overattending penalty
+to beam search.
+Author{1}{Firstname}#=%=#Stig-Arne
+Author{1}{Lastname}#=%=#Grönroos
+Author{1}{Email}#=%=#stig-arne.gronroos@aalto.fi
+Author{1}{Affiliation}#=%=#Aalto University, Department of Signal Processing and Acoustics
+Author{2}{Firstname}#=%=#Sami
+Author{2}{Lastname}#=%=#Virpioja
+Author{2}{Email}#=%=#sami.virpioja@aalto.fi
+Author{2}{Affiliation}#=%=#Aalto University
+Author{3}{Firstname}#=%=#Mikko
+Author{3}{Lastname}#=%=#Kurimo
+Author{3}{Email}#=%=#mikko.kurimo@tkk.fi
+Author{3}{Affiliation}#=%=#Aalto University
+
+==========

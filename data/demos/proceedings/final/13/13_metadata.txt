@@ -1,12 +1,13 @@
 SubmissionNumber#=%=#13
-FinalPaperTitle#=%=#KnowYourNyms? A Game of Semantic Relationship Discovery
-ShortPaperTitle#=%=#
-NumberOfPages#=%=#
-CopyrightSigned#=%=#
+FinalPaperTitle#=%=#KnowYourNyms? A Game of Semantic Relationships
+ShortPaperTitle#=%=#KnowYourNyms? A Game of Semantic Relationships
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Anne Cocos
 JobTitle#==#
-Organization#==#
+Organization#==#University of Pennsylvania, Department of Computer and Information Science
+3330 Walnut St, Philadelphia, PA 19104
 Abstract#==#Semantic relation knowledge is crucial for natural language understanding. We
-introduce KnowYourNyms?, a web-based game for learning semantic relations.
+introduce "KnowYourNyms?", a web-based game for learning semantic relations.
 While providing users with an engaging experience, the application collects
 large amounts of data that can be used to improve semantic relation
 classifiers. The data also broadly informs us of how people perceive the
@@ -28,25 +29,25 @@ Author{4}{Firstname}#=%=#Sneha
 Author{4}{Lastname}#=%=#Rajana
 Author{4}{Email}#=%=#srajana@seas.upenn.edu
 Author{4}{Affiliation}#=%=#University of Pennsylvania
-Author{5}{Firstname}#=%=#Chris
-Author{5}{Lastname}#=%=#Callison-Burch
-Author{5}{Email}#=%=#ccb@upenn.edu
+Author{5}{Firstname}#=%=#Zheyuan
+Author{5}{Lastname}#=%=#Liu
+Author{5}{Email}#=%=#zheyuan@seas.upenn.edu
 Author{5}{Affiliation}#=%=#University of Pennsylvania
-Author{6}{Firstname}#=%=#Marianna
-Author{6}{Lastname}#=%=#Apidianaki
-Author{6}{Email}#=%=#marianna.apidianaki@limsi.fr
-Author{6}{Affiliation}#=%=#LIMSI-CNRS, University Paris-Saclay
-Author{7}{Firstname}#=%=#Zheyuan
-Author{7}{Lastname}#=%=#Liu
-Author{7}{Email}#=%=#zheyuan@seas.upenn.edu
+Author{6}{Firstname}#=%=#Bradley
+Author{6}{Lastname}#=%=#Jackson
+Author{6}{Email}#=%=#jacbrad@seas.upenn.edu
+Author{6}{Affiliation}#=%=#University of Pennsylvania
+Author{7}{Firstname}#=%=#Anne
+Author{7}{Lastname}#=%=#Cocos
+Author{7}{Email}#=%=#acocos@seas.upenn.edu
 Author{7}{Affiliation}#=%=#University of Pennsylvania
-Author{8}{Firstname}#=%=#Bradley
-Author{8}{Lastname}#=%=#Jackson
-Author{8}{Email}#=%=#jacbrad@seas.upenn.edu
+Author{8}{Firstname}#=%=#Chris
+Author{8}{Lastname}#=%=#Callison-Burch
+Author{8}{Email}#=%=#ccb@upenn.edu
 Author{8}{Affiliation}#=%=#University of Pennsylvania
-Author{9}{Firstname}#=%=#Anne
-Author{9}{Lastname}#=%=#Cocos
-Author{9}{Email}#=%=#acocos@seas.upenn.edu
-Author{9}{Affiliation}#=%=#University of Pennsylvania
+Author{9}{Firstname}#=%=#Marianna
+Author{9}{Lastname}#=%=#Apidianaki
+Author{9}{Email}#=%=#marianna.apidianaki@limsi.fr
+Author{9}{Affiliation}#=%=#LIMSI-CNRS, University Paris-Saclay
 
 ==========

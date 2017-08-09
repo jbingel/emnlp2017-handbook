@@ -1,8 +1,8 @@
 SubmissionNumber#=%=#16
 FinalPaperTitle#=%=#Interactive Visualization for Linguistic Structure
-ShortPaperTitle#=%=#
-NumberOfPages#=%=#
-CopyrightSigned#=%=#
+ShortPaperTitle#=%=#Interactive Visualization for Linguistic Structure
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Mark Hopkins
 JobTitle#==#
 Organization#==#
 Abstract#==#We provide a visualization library and web interface for interactively

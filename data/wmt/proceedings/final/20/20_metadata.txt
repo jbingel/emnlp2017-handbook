@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#The UMD Neural Machine Translation Systems at WMT17 Bandit Learning Task
+ShortPaperTitle#=%=#The UMD Neural Machine Translation Systems at WMT17 Bandit Learning Task
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Amr Sharaf
+JobTitle#==#
+Organization#==#University of Maryland, College Park
+Abstract#==#We describe the University of Maryland machine translation systems submitted to
+the WMT17 German-English Bandit Learning Task. The task is to adapt a
+translation system to a new domain, using only bandit feedback: the system
+receives a German sentence to translate, produces an English sentence, and only
+gets a scalar score as feedback. Targeting these two challenges (adaptation and
+bandit learning), we built a standard neural machine translation system and
+extended it in two ways: (1) robust reinforcement learning techniques to learn
+effectively from the bandit feedback, and (2) domain adaptation using data
+selection from a large corpus of parallel data.
+Author{1}{Firstname}#=%=#Amr
+Author{1}{Lastname}#=%=#Sharaf
+Author{1}{Email}#=%=#amr@cs.umd.edu
+Author{1}{Affiliation}#=%=#University of Maryland
+Author{2}{Firstname}#=%=#Shi
+Author{2}{Lastname}#=%=#Feng
+Author{2}{Email}#=%=#shifeng@cs.umd.edu
+Author{2}{Affiliation}#=%=#University of Maryland
+Author{3}{Firstname}#=%=#Khanh
+Author{3}{Lastname}#=%=#Nguyen
+Author{3}{Email}#=%=#nguyenxuankhanhm@gmail.com
+Author{3}{Affiliation}#=%=#University of Maryland, College Park
+Author{4}{Firstname}#=%=#Kiante
+Author{4}{Lastname}#=%=#Brantley
+Author{4}{Email}#=%=#kdbrant@cs.umd.edu
+Author{4}{Affiliation}#=%=#University of Maryland
+Author{5}{Firstname}#=%=#Hal
+Author{5}{Lastname}#=%=#Daumé III
+Author{5}{Email}#=%=#me@hal3.name
+Author{5}{Affiliation}#=%=#UMD
+
+==========

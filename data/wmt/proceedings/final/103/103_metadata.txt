@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#103
+FinalPaperTitle#=%=#The AMU-UEdin Submission to the WMT 2017 Shared Task on Automatic Post-Editing
+ShortPaperTitle#=%=#The AMU-UEdin Submission to the WMT 2017 Shared Task on Automatic Post-Editing
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Marcin Junczys-Dowmunt
+JobTitle#==#
+Organization#==#Adam Mickiewicz University in Poznan
+ul. Wienawskiego 1
+61-712 Poznań
+Abstract#==#This work describes the AMU-UEdin submission to the WMT 2017 shared task on
+Automatic Post-Editing. We explore multiple neural architectures adapted for
+the task of automatic post-editing of machine translation output.  We focus on
+neural end-to-end models that combine both inputs $\mt$ and $\src$ in a single
+neural architecture, modeling $\{\mt, \src\} \rightarrow \pe$ directly. Apart
+from that, we investigate the influence of hard-attention models which seem to
+be well-suited for monolingual tasks, as well as combinations of both ideas.
+Author{1}{Firstname}#=%=#Marcin
+Author{1}{Lastname}#=%=#Junczys-Dowmunt
+Author{1}{Email}#=%=#junczys@amu.edu.pl
+Author{1}{Affiliation}#=%=#Adam Mickiewicz University, Poznań
+Author{2}{Firstname}#=%=#Marcin
+Author{2}{Lastname}#=%=#Junczys-Dowmunt
+Author{2}{Email}#=%=#rgrundki@exseed.ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+
+==========

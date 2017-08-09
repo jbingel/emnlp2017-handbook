@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#60
+FinalPaperTitle#=%=#Explaining Recurrent Neural Network Predictions in Sentiment Analysis
+ShortPaperTitle#=%=#Explaining Recurrent Neural Network Predictions in Sentiment Analysis
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Leila Arras
+JobTitle#==#
+Organization#==#
+Abstract#==#Recently, a technique called Layer-wise
+Relevance Propagation (LRP) was shown
+to deliver insightful explanations in the
+form of input space relevances for un-
+derstanding feed-forward neural network
+classification decisions. In the present
+work, we extend the usage of LRP to
+recurrent neural networks. We propose
+a specific propagation rule applicable to
+multiplicative connections as they arise
+in recurrent network architectures such
+as LSTMs and GRUs. We apply our
+technique to a word-based bi-directional
+LSTM model on a five-class sentiment
+prediction task, and evaluate the result-
+ing LRP relevances both qualitatively and
+quantitatively, obtaining better results than
+a gradient-based related method which
+was used in previous work.
+Author{1}{Firstname}#=%=#Leila
+Author{1}{Lastname}#=%=#Arras
+Author{1}{Email}#=%=#goodluck@mailbox.tu-berlin.de
+Author{1}{Affiliation}#=%=#Fraunhofer Heinrich Hertz Institute
+Author{2}{Firstname}#=%=#Grégoire
+Author{2}{Lastname}#=%=#Montavon
+Author{2}{Email}#=%=#gregoire.montavon@tu-berlin.de
+Author{2}{Affiliation}#=%=#Technische Universität Berlin
+Author{3}{Firstname}#=%=#Klaus-Robert
+Author{3}{Lastname}#=%=#Müller
+Author{3}{Email}#=%=#klaus-robert.mueller@tu-berlin.de
+Author{3}{Affiliation}#=%=#Technische Universität Berlin
+Author{4}{Firstname}#=%=#Wojciech
+Author{4}{Lastname}#=%=#Samek
+Author{4}{Email}#=%=#wojciech.samek@hhi.fraunhofer.de
+Author{4}{Affiliation}#=%=#Fraunhofer Heinrich Hertz Institute
+
+==========

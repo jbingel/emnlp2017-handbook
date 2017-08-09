@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#50
+FinalPaperTitle#=%=#The Karlsruhe Institute of Technology Systems for the News Translation Task in WMT 2017
+ShortPaperTitle#=%=#The Karlsruhe Institute of Technology Systems for the News Translation Task in WMT 2017
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Quan
+JobTitle#==#
+Organization#==#
+Abstract#==#
+Author{1}{Firstname}#=%=#Ngoc-Quan
+Author{1}{Lastname}#=%=#Pham
+Author{1}{Email}#=%=#ngoc.pham@kit.edu
+Author{1}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{2}{Firstname}#=%=#Jan
+Author{2}{Lastname}#=%=#Niehues
+Author{2}{Email}#=%=#jan.niehues@kit.edu
+Author{2}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{3}{Firstname}#=%=#Thanh-Le
+Author{3}{Lastname}#=%=#Ha
+Author{3}{Email}#=%=#thanh-le.ha@kit.edu
+Author{3}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{4}{Firstname}#=%=#Eunah
+Author{4}{Lastname}#=%=#Cho
+Author{4}{Email}#=%=#eunah.cho@kit.edu
+Author{4}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{5}{Firstname}#=%=#Matthias
+Author{5}{Lastname}#=%=#Sperber
+Author{5}{Email}#=%=#matthias.sperber@kit.edu
+Author{5}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{6}{Firstname}#=%=#Alexander
+Author{6}{Lastname}#=%=#Waibel
+Author{6}{Email}#=%=#waibel@cs.cmu.edu
+Author{6}{Affiliation}#=%=#Carnegie Mellon
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#9
+FinalPaperTitle#=%=#Syllable-level Neural Language Model for Agglutinative Language
+ShortPaperTitle#=%=#Syllable-level Neural Language Model for Agglutinative Language
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Seunghak Yu
+JobTitle#==#
+Organization#==#
+Abstract#==#We introduce a novel method to diminish the problem of out of vocabulary words
+by introducing an embedding method which leverages the agglutinative property
+of language. We propose additional embedding derived from syllables and
+morphemes for the words to improve the performance of language model. We apply
+the above method to input prediction tasks and achieve state of the art
+performance in terms of Key Stroke Saving (KSS) w.r.t. to existing device input
+prediction methods.
+Author{1}{Firstname}#=%=#Seunghak
+Author{1}{Lastname}#=%=#Yu
+Author{1}{Email}#=%=#seunghak.yu@gmail.com
+Author{1}{Affiliation}#=%=#Samsung Electronics
+Author{2}{Firstname}#=%=#Nilesh
+Author{2}{Lastname}#=%=#Kulkarni
+Author{2}{Email}#=%=#n93.kulkarni@samsung.com
+Author{2}{Affiliation}#=%=#Samsung Electronics
+Author{3}{Firstname}#=%=#Haejun
+Author{3}{Lastname}#=%=#Lee
+Author{3}{Email}#=%=#haejun82.lee@samsung.com
+Author{3}{Affiliation}#=%=#Samsung Electronics
+Author{4}{Firstname}#=%=#Jihie
+Author{4}{Lastname}#=%=#Kim
+Author{4}{Email}#=%=#jihie.kim@samsung.com
+Author{4}{Affiliation}#=%=#Samsung Electronics
+
+==========

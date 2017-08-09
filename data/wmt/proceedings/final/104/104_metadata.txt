@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#104
+FinalPaperTitle#=%=#Results of the WMT17 Neural MT Training Task
+ShortPaperTitle#=%=#Results of the WMT17 Neural MT Training Task
+NumberOfPages#=%=#1
+CopyrightSigned#=%=#XXX
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper presents the results of the WMT17 Neural Training Task.
+The objective of this task is to explore the methods of training a fixed neural
+architecture, aiming primarily at the best translation quality and, as a
+secondary goal, shorter training time.
+Author{1}{Firstname}#=%=#Ondřej
+Author{1}{Lastname}#=%=#Bojar
+Author{1}{Email}#=%=#bojar@ufal.mff.cuni.cz
+Author{1}{Affiliation}#=%=#Charles University in Prague, Faculty of Mathematics and Physics
+Author{2}{Firstname}#=%=#Jindřich
+Author{2}{Lastname}#=%=#Helcl
+Author{2}{Email}#=%=#helcl@ufal.mff.cuni.cz
+Author{2}{Affiliation}#=%=#Charles University in Prague
+Author{3}{Firstname}#=%=#Tom
+Author{3}{Lastname}#=%=#Kocmi
+Author{3}{Email}#=%=#kocmi@ufal.mff.cuni.cz
+Author{3}{Affiliation}#=%=#Charles University
+Author{4}{Firstname}#=%=#Jindřich
+Author{4}{Lastname}#=%=#Libovický
+Author{4}{Email}#=%=#libovicky@ufal.mff.cuni.cz
+Author{4}{Affiliation}#=%=#Charles University in Prague
+Author{5}{Firstname}#=%=#Tomáš
+Author{5}{Lastname}#=%=#Musil
+Author{5}{Email}#=%=#musil@ufal.mff.cuni.cz
+Author{5}{Affiliation}#=%=#Charles University in Prague
+
+==========

@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#109
+FinalPaperTitle#=%=#Predicting Translation Performance with Referential Translation Machines
+ShortPaperTitle#=%=#Predicting Translation Performance with Referential Translation Machines
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#MEHMET ERGUN BICICI
+JobTitle#==#RESEARCH SCIENTIST
+Organization#==#bicici.github.com
+Abstract#==#Referential translation machines achieve top performance in both bilingual and
+monolingual settings 
+without accessing any task or domain specific information or resource.
+RTMs achieve the $3$rd system results for German to English sentence-level
+prediction of 
+translation quality and the $2$nd system results according to root mean squared
+error.
+In addition to the new features about substring distances, punctuation tokens,
+character 
+$n$-grams, and alignment crossings, and additional learning models, we average
+prediction scores 
+from different models using weights based on their training performance for
+improved results.
+Author{1}{Firstname}#=%=#Ergun
+Author{1}{Lastname}#=%=#Biçici
+Author{1}{Email}#=%=#bicici.ku@gmail.com
+Author{1}{Affiliation}#=%=#bicici.github.com
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#Sense-Aware Statistical Machine Translation using Adaptive Context-Dependent Clustering
+ShortPaperTitle#=%=#Sense-Aware Statistical Machine Translation using Adaptive Context-Dependent Clustering
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Xiao PU
+JobTitle#==#
+Organization#==#Idiap Research Institute
+Abstract#==#Statistical machine translation (SMT) systems use local cues from n-gram
+translation and language models to select the translation of each source word. 
+Such systems do not explicitly perform word sense disambiguation (WSD),
+although this would enable them to select translations depending on the
+hypothesized sense of each word.  Previous attempts to constrain word
+translations based on the results of generic WSD systems have suffered from
+their limited accuracy.  We demonstrate that WSD systems can be adapted to help
+SMT, thanks to three key achievements: (1) we consider a larger context for WSD
+than SMT can afford to consider; (2) we adapt the number of senses per word to
+the ones observed in the training data using clustering-based WSD with K-means;
+and (3) we initialize sense-clustering with definitions or examples extracted
+from WordNet.  Our WSD system is competitive, and in combination with a
+factored SMT system improves noun and verb translation from English to Chinese,
+Dutch, French, German, and Spanish.
+Author{1}{Firstname}#=%=#Xiao
+Author{1}{Lastname}#=%=#Pu
+Author{1}{Email}#=%=#xiao.pu@idiap.ch
+Author{1}{Affiliation}#=%=#Idiap Research Institute
+Author{2}{Firstname}#=%=#Nikolaos
+Author{2}{Lastname}#=%=#Pappas
+Author{2}{Email}#=%=#nikolaos.pappas@idiap.ch
+Author{2}{Affiliation}#=%=#Idiap Research Institute
+Author{3}{Firstname}#=%=#Andrei
+Author{3}{Lastname}#=%=#Popescu-Belis
+Author{3}{Email}#=%=#andrei.popescu-belis@idiap.ch
+Author{3}{Affiliation}#=%=#Idiap Research Institute
+
+==========

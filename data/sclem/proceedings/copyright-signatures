@@ -1,0 +1,342 @@
+Submission # 5:
+Title: Unlabeled Data for Morphological Generation With Character-Based Sequence-to-Sequence Models
+Authors:
+	Katharina Kann (LMU Munich)
+	Hinrich Sch\"{u}tze (Center for Information and Language Processing, University of Munich)
+Signature (type your name): Katharina Kann
+Your job title (if not one of the authors): PhD student/researcher
+Name and address of your organization:
+	CIS
+	LMU Munich
+	Oettingenstra{\ss}e 67
+	80538 Munich
+	Germany
+
+=================================================================
+
+Submission # 8:
+Title: Vowel and Consonant Classification through Spectral Decomposition
+Authors:
+	Patricia Thaine (University of Toronto)
+	Gerald Penn (University of Toronto)
+Signature (type your name): Patricia Thaine
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	
+
+=================================================================
+
+Submission # 9:
+Title: Syllable-level Neural Language Model for Agglutinative Language
+Authors:
+	Seunghak Yu (Samsung Electronics)
+	Nilesh Kulkarni (Samsung Electronics)
+	Haejun Lee (Samsung Electronics)
+	Jihie Kim (Samsung Electronics)
+Signature (type your name): Seunghak Yu
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	
+
+=================================================================
+
+Submission # 10:
+Title: Character-based Bidirectional LSTM-CRF with words and characters for Japanese Named Entity Recognition
+Authors:
+	Shotaro Misawa (Fuji Xerox Co., Ltd.)
+	Motoki Taniguchi (Fuji Xerox Co., Ltd.)
+	Yasuhide Miura (Fuji Xerox Co., Ltd.)
+	Tomoko Ohkuma (Fuji Xerox Co., Ltd.)
+Signature (type your name): Shotaro Misawa
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	
+
+=================================================================
+
+Submission # 12:
+Title: Word Representation Models for Morphologically Rich Languages in Neural Machine Translation
+Authors:
+	Ekaterina Vylomova (PhD Student, University of Melbourne)
+	Trevor Cohn (University of Melbourne)
+	Xuanli He (The University of Melbourne)
+	Gholamreza Haffari (Monash University)
+Signature (type your name): EV
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	The University of Melbourne
+	 Parkville VIC 3010, Australia
+
+=================================================================
+
+Submission # 13:
+Title: Spell-Checking based on Syllabification and Character-level Graphs for a Peruvian Agglutinative Language
+Authors:
+	Carlo Alva (Pontificia Universidad Cat\'{o}lica del Per\'{u})
+	Arturo Oncevay (PUCP)
+Signature (type your name): Arturo Oncevay
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	Pontificia Universidad Cat\'{o}lica del Per\'{u}
+
+=================================================================
+
+Submission # 14:
+Title: What do we need to know about an unknown word when parsing German
+Authors:
+	Bich-Ngoc Do (Heidelberg University)
+	Ines Rehbein (Leibniz ScienceCampus)
+	Anette Frank (Heidelberg Universiy)
+Signature (type your name): Bich-Ngoc Do
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	Institute of Computational Linguistics
+	Heidelberg University
+	Im Neuenheimer Feld 325
+	69120 Heidelberg
+	Germany
+
+=================================================================
+
+Submission # 15:
+Title: A General-Purpose Tagger with Convolutional Neural Networks
+Authors:
+	Xiang Yu (IMS, University of Stuttgart)
+	Agnieszka Falenska (IMS, University of Stuttgart)
+	Ngoc Thang Vu (University of Stuttgart)
+Signature (type your name): Xiang Yu
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	Universit\"{a}t Stuttgart, Institut f\"{u}r Maschinelle Sprachverarbeitung Pfaffenwaldring 5 b
+	Stuttagrt, Baden-W\"{u}rttemberg 70569
+	Germany
+
+=================================================================
+
+Submission # 16:
+Title: Reconstruction of Word Embeddings from Sub-Word Parameters
+Authors:
+	Karl Stratos (Toyota Technological Institute at Chicago)
+Signature (type your name): Karl Stratos
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	
+
+=================================================================
+
+Submission # 17:
+Title: Inflection Generation for Spanish Verbs using Supervised Learning
+Authors:
+	Cristina Barros (Univesity of Alicante)
+	Dimitra Gkatzia (Edinburgh Napier University)
+	Elena Lloret (University of Alicante)
+Signature (type your name): Cristina Barros
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	University of Alicante, Carretera San Vicente del Raspeig s/n, 03690, San Vicente del Raspeig, Alicante
+
+=================================================================
+
+Submission # 18:
+Title: Neural Paraphrase Identification of Questions with Noisy Pretraining
+Authors:
+	Gaurav Singh Tomar (Google Inc.)
+	Thyago Duque (Google)
+	Oscar T\"{a}ckstr\"{o}m (Google)
+	Jakob Uszkoreit (Google, Inc.)
+	Dipanjan Das (Google Inc.)
+Signature (type your name): Gaurav Singh Tomar
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	Google Inc.
+
+=================================================================
+
+Submission # 19:
+Title: Sub-character Neural Language Modelling in Japanese
+Authors:
+	Viet Nguyen (The University of Melbourne)
+	Julian Brooke (University of Melbourne)
+	Timothy Baldwin (The University of Melbourne)
+Signature (type your name): Timothy Baldwin
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	The University of Melbourne
+	CIS, The University of Melbourne VIC 3010, Australia
+
+=================================================================
+
+Submission # 20:
+Title: Byte-based Neural Machine Translation
+Authors:
+	Marta R. Costa-juss\`{a} (Universitat Polit\`{e}cnica de Catalunya)
+	Carlos Escolano (TALP-UPC)
+	Jos\'{e} A. R. Fonollosa (Universitat Polit\`{e}cnica de Catalunya)
+Signature (type your name): Marta R. Costa-juss\`{a}
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	Marta R. Costa-juss\`{a}
+	UPC Campus Nord, Jordi Girona s/n, 08034 Barcelona
+
+=================================================================
+
+Submission # 22:
+Title: Improving Opinion-Target Extraction with Character-Level Word Embeddings
+Authors:
+	Soufian Jebbara (CITEC - Bielefeld University)
+	Philipp Cimiano (Univ. Bielefeld)
+Signature (type your name): Soufian Jebbara
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	Cluster of Excellence Cognitive Interaction Technology
+	Bielefeld University
+	Inspiration 1
+	33619 Bielefeld
+	Germany
+	Phone: +49 521 106 6564
+	info$@$cit-ec.uni-bielefeld.de
+	www.cit-ec.de
+
+=================================================================
+
+Submission # 23:
+Title: Character and Subword-Based Word Representation for Neural Language Modeling Prediction
+Authors:
+	Matthieu Labeau (Universit\'{e} de Paris-Sud / LIMSI-CNRS)
+	Alexandre Allauzen (Universit\'{e} Paris-Sud / LIMSI-CNRS)
+Signature (type your name): Matthieu Labeau
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	LIMSI-CNRS
+	Campus universitaire b\^{a}t 508
+	Rue John von Neumann
+	F - 91405 Orsay cedex
+
+=================================================================
+
+Submission # 24:
+Title: Learning variable length units for SMT between related languages via Byte Pair Encoding
+Authors:
+	Anoop Kunchukuttan (IIT Bombay)
+	Pushpak Bhattacharyya (CSE Department, IIT Bombay)
+Signature (type your name): Anoop Kunchukuttan
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	Center for Indian Language Technology,
+	Lab 401,
+	New Computer Science Building,
+	Indian Institute of Technology Bombay,
+	Powai, 
+	Mumbai 400076
+	India
+
+=================================================================
+
+Submission # 25:
+Title: Character Based Pattern Mining for Neology Detection
+Authors:
+	Ga\"{e}l Lejeune (GREYC)
+	Emmanuel Cartier (LIPN)
+Signature (type your name): Ga\"{e}l Lejeune
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	LIPN
+	99 avenue JB Cl\'{e}ment
+	93430 Villetaneuse
+
+=================================================================
+
+Submission # 27:
+Title: Automated Word Stress Detection in Russian
+Authors:
+	Maria Ponomareva (NRU HSE)
+	Kirill Milintsevich (NRU HSE)
+	Ekaterina Chernyak (National Research University -- Higher School of Economics, Moscow, Russia)
+	Anatoly Starostin (NRU HSE)
+Signature (type your name): echernyak
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	
+
+=================================================================
+
+Submission # 28:
+Title: A Syllable-based Technique for Word Embeddings of Korean Words
+Authors:
+	Sanghyuk Choi (N/A)
+	Taeuk Kim (Seoul National University)
+	Jinseok Seol (Seoul National University)
+	Sang-goo Lee (Seoul National University)
+Signature (type your name): Jinseok Seol
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	Seoul National Univserity, Seoul, South Korea
+
+=================================================================
+
+Submission # 31:
+Title: Supersense Tagging with a Combination of Character, Subword, and Word-level Representations
+Authors:
+	Youhyun Shin (Seoul National University)
+	Sang-goo Lee (Seoul National University)
+Signature (type your name): Youhyun Shin
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	Seoul National University, Building 138, 418, 1 Gwanak-ro, Gwanak-gu, Seoul
+
+=================================================================
+
+Submission # 32:
+Title: Weakly supervised learning of allomorphy
+Authors:
+	Miikka Silfverberg (University of Colorado)
+	Mans Hulden (University of Colorado Boulder)
+Signature (type your name): Miikka Silfverberg
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	Department of Linguistics
+	University of Colorado
+	Boulder, CO 80302, USA
+
+=================================================================
+
+Submission # 34:
+Title: Character-based recurrent neural networks for morphological relational reasoning
+Authors:
+	Olof Mogren (Chalmers University of Technology)
+	Richard Johansson (Gothenburg University)
+Signature (type your name): Olof Mogren
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	Chalmers University of Technology
+	41296 G\"{o}teborg
+
+=================================================================
+
+Submission # 37:
+Title: Glyph-aware Embedding of Chinese Characters
+Authors:
+	Falcon Dai (Toyota Technological Institute at Chicago)
+	Zheng Cai (The University of Chicago)
+Signature (type your name): Zhongtian Dai
+Your job title (if not one of the authors): 
+Name and address of your organization:
+	
+
+=================================================================
+
+Submission # 38:
+Title: Exploring Cross-Lingual Transfer of Morphological Knowledge In Sequence-to-Sequence Models
+Authors:
+	Huiming Jin (Beihang University)
+	Katharina Kann (LMU Munich)
+Signature (type your name): Katharina Kann
+Your job title (if not one of the authors): PhD student/researcher
+Name and address of your organization:
+	LMU
+	Oettingenstra{\ss}e 67
+	80538 Munich
+	Germany
+
+=================================================================
+

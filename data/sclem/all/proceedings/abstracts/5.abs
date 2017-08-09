@@ -1,0 +1,8 @@
+We present a semi-supervised way of training a character-based encoder-decoder
+	recurrent neural network for morphological reinflection---the task of
+	generating one inflected wordform from another. This is achieved by using
+	unlabeled tokens or random strings as training data for an autoencoding task,
+	adapting a network for morphological reinflection, and performing multi-task
+	training.
+	We thus use limited labeled data more effectively, obtaining up to 9.92%
+	improvement over state-of-the-art baselines for 8 different languages.

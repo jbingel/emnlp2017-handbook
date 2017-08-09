@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Analyzing Human and Machine Performance In Resolving Ambiguous Spoken Sentences
+ShortPaperTitle#=%=#Analyzing Human and Machine Performance In Resolving Ambiguous Spoken Sentences
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Hussein Ghaly
+JobTitle#==#
+Organization#==#City University of New York, Graduate Center
+365 5th Ave, New York, NY 10016
+Abstract#==#Written sentences can be more ambiguous than spoken sentences. We investigate
+this difference for two different types of ambiguity: prepositional phrase (PP)
+attachment and sentences where the addition of commas changes the meaning. We
+recorded a native English speaker saying several of each type of sentence both
+with and without disambiguating contextual information.  These sentences were
+then presented either as text or audio and either with or without context to
+subjects who were asked to select the proper interpretation of the sentence.
+Results suggest that comma-ambiguous sentences are easier to disambiguate than
+PP-attachment-ambiguous sentences, possibly due to the presence of clear
+prosodic boundaries, namely silent pauses. Subject performance for sentences
+with PP-attachment ambiguity without context was 52% for text only while it was
+72.4% for audio only, suggesting that audio has more disambiguating information
+than text. Using an analysis of acoustic features of two PP-attachment
+sentences, a simple classifier was implemented to resolve the PP-attachment
+ambiguity being early or late closure with a mean accuracy of 80%.
+Author{1}{Firstname}#=%=#Hussein
+Author{1}{Lastname}#=%=#Ghaly
+Author{1}{Email}#=%=#hmghaly@gmail.com
+Author{1}{Affiliation}#=%=#City University of New York
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Mandel
+Author{2}{Email}#=%=#mandelm@cse.ohio-state.edu
+Author{2}{Affiliation}#=%=#Brooklyn College, CUNY
+
+==========

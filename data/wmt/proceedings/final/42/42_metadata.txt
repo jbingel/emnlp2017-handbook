@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#42
+FinalPaperTitle#=%=#Sentence-level quality estimation by predicting HTER as a multi-component metric
+ShortPaperTitle#=%=#Quality estimation by predicting HTER as a multi-component metric
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Eleftherios Avramidis
+JobTitle#==#
+Organization#==#German Research Center for Artificial Intelligence (DFKI GmbH)
+Alt Moabit 91c, 10559 Berlin
+Abstract#==#This submission investigates alternative machine learning models for predicting
+the HTER score on the sentence level. Instead of directly predicting the HTER
+score, we suggest a model that jointly predicts the amount of the 4 distinct
+post-editing operations, which are then used to calculate the HTER score. This
+also gives the possibility to correct invalid (e.g.~negative) predicted values
+prior to the calculation of the HTER score. Without any feature exploration, a
+multi-layer perceptron with 4 outputs yields small but significant improvements
+over the baseline.
+Author{1}{Firstname}#=%=#Eleftherios
+Author{1}{Lastname}#=%=#Avramidis
+Author{1}{Email}#=%=#eleftherios.avramidis@gmail.com
+Author{1}{Affiliation}#=%=#German Research Center for Artificial Intelligence (DFKI)
+
+==========

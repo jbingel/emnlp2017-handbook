@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#61
+FinalPaperTitle#=%=#Adapting Neural Machine Translation with Parallel Synthetic Data
+ShortPaperTitle#=%=#Adapting Neural Machine Translation with Parallel Synthetic Data
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Mara Chinea-Rios
+JobTitle#==#
+Organization#==#Pattern Recognition and Human Language Technology Research Center
+Universitat Politècnica de València, València, Spain
+Abstract#==#Recent works have shown that the usage
+of a synthetic parallel corpus can be effectively exploited by a neural machine
+translation system. In this paper, we propose
+a new method for adapting a general neural machine translation system to a
+specific task, by exploiting synthetic data.
+The method consists in selecting, from a large monolingual pool of sentences in
+the
+source language, those instances that are more related to a given test set.
+Next, this selection is automatically translated and
+the general neural machine translation system is fine-tuned with these data.
+
+For evaluating the adaptation method, we first conducted experiments in two
+controlled domains, with common and wellstudied corpora. Then, we evaluated our
+proposal on a real e-commerce task, yielding consistent improvements in terms
+of translation quality.
+Author{1}{Firstname}#=%=#Mara
+Author{1}{Lastname}#=%=#Chinea-Rios
+Author{1}{Email}#=%=#machirio@prhlt.upv.es
+Author{1}{Affiliation}#=%=#Universitat Politècnica de València
+Author{2}{Firstname}#=%=#Álvaro
+Author{2}{Lastname}#=%=#Peris
+Author{2}{Email}#=%=#lvapeab@prhlt.upv.es
+Author{2}{Affiliation}#=%=#Universitat Politècnica de València
+Author{3}{Firstname}#=%=#Francisco
+Author{3}{Lastname}#=%=#Casacuberta
+Author{3}{Email}#=%=#fcn@dsic.upv.es
+Author{3}{Affiliation}#=%=#Universitat Politècnica de València
+
+==========

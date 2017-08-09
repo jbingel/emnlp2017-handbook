@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#90
+FinalPaperTitle#=%=#UHH Submission to the WMT17 Quality Estimation Shared Task
+ShortPaperTitle#=%=#UHH Submission to the WMT17 Quality Estimation Shared Task
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Melania Duma
+JobTitle#==#
+Organization#==#Universitaet Hamburg
+Fakultaet fuer Mathematik, Informatik und Naturwissenschaften
+Fachbereich Informatik
+AB Natuerlichsprachliche Systeme
+Vogt-Koelln-Strasse 30
+D-22527 Hamburg
+Abstract#==#The field of Quality Estimation (QE) has the goal to provide automatic methods
+for the evaluation of Machine Translation (MT), that do not require reference
+translations in their computation. We present our submission to the sentence
+level WMT17 Quality Estimation Shared Task. It combines tree and sequence
+kernels for predicting the post-editing effort of the target sentence. The
+kernels exploit both the source and target sentences, but also a
+back-translation of the candidate translation. The evaluation results show that
+the kernel approach combined with the baseline features brings substantial
+improvement over the baseline system.
+Author{1}{Firstname}#=%=#Melania
+Author{1}{Lastname}#=%=#Duma
+Author{1}{Email}#=%=#melaniaduma@gmail.com
+Author{1}{Affiliation}#=%=#University of Hamburg
+Author{2}{Firstname}#=%=#Wolfgang
+Author{2}{Lastname}#=%=#Menzel
+Author{2}{Email}#=%=#menzel@informatik.uni-hamburg.de
+Author{2}{Affiliation}#=%=#University of Hamburg
+
+==========
