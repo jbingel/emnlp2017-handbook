@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#67
+FinalPaperTitle#=%=#Word Representations in Factored Neural Machine Translation
+ShortPaperTitle#=%=#Word Representations in Factored Neural Machine Translation
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Franck Burlot
+JobTitle#==#
+Organization#==#LIMSI-CNRS, Rue John Von Neumann, 91400 Orsay, France
+Abstract#==#Translation into a morphologically rich language
+requires a large output vocabulary to model various
+morphological phenomena, which is a challenge for
+neural machine translation architectures. To address this issue,
+the present paper investigates the impact of having
+two output factors with a system able to generate
+separately two distinct representations of the target
+words. Within this framework, we investigate
+several word representations that correspond to
+different distributions of morpho-syntactic information
+across both factors. We report experiments for translation
+from English into two morphologically rich languages,
+Czech and Latvian, and show the importance of explicitly
+modeling target morphology.
+Author{1}{Firstname}#=%=#Franck
+Author{1}{Lastname}#=%=#Burlot
+Author{1}{Email}#=%=#franck.burlot@limsi.fr
+Author{1}{Affiliation}#=%=#LIMSI-CNRS
+Author{2}{Firstname}#=%=#Mercedes
+Author{2}{Lastname}#=%=#García-Martínez
+Author{2}{Email}#=%=#mercedes.garcia_martinez@univ-lemans.fr
+Author{2}{Affiliation}#=%=#LIUM, Le Mans University
+Author{3}{Firstname}#=%=#Loïc
+Author{3}{Lastname}#=%=#Barrault
+Author{3}{Email}#=%=#loic.barrault@univ-lemans.fr
+Author{3}{Affiliation}#=%=#LIUM, Le Mans University
+Author{4}{Firstname}#=%=#Fethi
+Author{4}{Lastname}#=%=#Bougares
+Author{4}{Email}#=%=#fethi.bougares@univ-lemans.fr
+Author{4}{Affiliation}#=%=#LIUM- Le Mans University
+Author{5}{Firstname}#=%=#François
+Author{5}{Lastname}#=%=#Yvon
+Author{5}{Email}#=%=#francois.yvon@limsi.fr
+Author{5}{Affiliation}#=%=#LIMSI/CNRS
+
+==========

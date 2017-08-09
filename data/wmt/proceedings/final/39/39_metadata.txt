@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#39
+FinalPaperTitle#=%=#The AFRL WMT17 Neural Machine Translation Training Task Submission
+ShortPaperTitle#=%=#The AFRL WMT17 Neural Machine Translation Training Task Submission
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#Air Force Research Laboratory
+2255 H Street
+WPAFB, OH 45433
+USA
+Abstract#==#The WMT17 Neural Machine Translation Training Task aimed to test various
+methods of training neural machine translation systems. We describe the AFRL
+submission, including preprocessing and its knowledge distillation framework.
+The teacher systems are given factors for domain, case, and subword location.
+The student systems are given multiple teachers’ output and a subselected set
+of the training data designed to match the target domain. Numerical results
+indicate that the
+student systems surpass the teachers in translation quality and that this
+benefit comes directly from the inclusion of the teachers’ output.
+Author{1}{Firstname}#=%=#Jeremy
+Author{1}{Lastname}#=%=#Gwinnup
+Author{1}{Email}#=%=#jeremy.gwinnup.1@us.af.mil
+Author{1}{Affiliation}#=%=#Air Force Research Laboratory
+Author{2}{Firstname}#=%=#Grant
+Author{2}{Lastname}#=%=#Erdmann
+Author{2}{Email}#=%=#grant.erdmann@us.af.mil
+Author{2}{Affiliation}#=%=#Air Force Research Laboratory
+Author{3}{Firstname}#=%=#Katherine
+Author{3}{Lastname}#=%=#Young
+Author{3}{Email}#=%=#nspaceanalysis@earthlink.net
+Author{3}{Affiliation}#=%=#N-Space Analysis LLC
+
+==========

@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#73
+FinalPaperTitle#=%=#Linguistic Reflexes of Well-Being and Happiness in Echo
+ShortPaperTitle#=%=#Linguistic Reflexes of Well-Being and Happiness in Echo
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jiaqi Wu
+JobTitle#==#
+Organization#==#University of California Santa Cruz
+Abstract#==#Different theories posit different sources for feelings of well-being and
+happiness.  Appraisal theory grounds our emotional responses in our goals and
+desires and their fulfillment, or lack of fulfillment. Self-Determination
+theory posits that the basis for well-being rests on our assessments of our
+competence, autonomy and social connection. And surveys that measure happiness
+empirically note that people require their basic needs to be met for food and
+shelter, but beyond that tend to be happiest when socializing, eating or having
+sex. We analyze a corpus of private micro-blogs from a well-being application
+called Echo, where users label each written post about daily events with a
+happiness score between 1 and 9.  Our goal is to ground the linguistic
+descriptions of events that users experience in theories of well-being and
+happiness, and then examine the extent to which different theoretical accounts
+can explain the variance in the happiness scores.  We show that recurrent event
+types, such as obligation and
+incompetence, which affect people's feelings of well-being are not captured in
+current lexical or semantic resources.
+Author{1}{Firstname}#=%=#Jiaqi
+Author{1}{Lastname}#=%=#Wu
+Author{1}{Email}#=%=#jwu64@ucsc.edu
+Author{1}{Affiliation}#=%=#University of California, Santa Cruz
+Author{2}{Firstname}#=%=#Marilyn
+Author{2}{Lastname}#=%=#Walker
+Author{2}{Email}#=%=#maw@soe.ucsc.edu
+Author{2}{Affiliation}#=%=#University of California Santa Cruz
+Author{3}{Firstname}#=%=#Pranav
+Author{3}{Lastname}#=%=#Anand
+Author{3}{Email}#=%=#panand@ucsc.edu
+Author{3}{Affiliation}#=%=#University of California, Santa Cruz
+Author{4}{Firstname}#=%=#Steve
+Author{4}{Lastname}#=%=#Whittaker
+Author{4}{Email}#=%=#swhittak@ucsc.edu
+Author{4}{Affiliation}#=%=#University of California, Santa Cruz
+
+==========

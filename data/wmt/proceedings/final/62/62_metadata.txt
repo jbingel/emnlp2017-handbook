@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#62
+FinalPaperTitle#=%=#LIG-CRIStAL Submission for the WMT 2017 Automatic Post-Editing Task
+ShortPaperTitle#=%=#LIG-CRIStAL Submission for the WMT 2017 APE Task
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Alexandre Bérard
+JobTitle#==#
+Organization#==#Univ. Lille, France
+Abstract#==#This paper presents the LIG-CRIStAL submission to the shared Automatic
+Post-Editing task of WMT 2017.
+We propose two neural post-editing models: a mono-source model with a
+task-specific attention mechanism, which performs particularly well in a
+low-resource scenario; and a chained architecture which makes use of the source
+sentence to provide extra context. This latter architecture manages to slightly
+improve our scores when more training data is available. We present and discuss
+our results on two datasets (en-de and de-en) that are made available for the
+task.
+Author{1}{Firstname}#=%=#Alexandre
+Author{1}{Lastname}#=%=#Berard
+Author{1}{Email}#=%=#alexandre.berard@ed.univ-lille1.fr
+Author{1}{Affiliation}#=%=#Univ. Lille
+Author{2}{Firstname}#=%=#Laurent
+Author{2}{Lastname}#=%=#Besacier
+Author{2}{Email}#=%=#laurent.besacier@imag.fr
+Author{2}{Affiliation}#=%=#LIG
+Author{3}{Firstname}#=%=#Olivier
+Author{3}{Lastname}#=%=#Pietquin
+Author{3}{Email}#=%=#olivier.pietquin@univ-lille1.fr
+Author{3}{Affiliation}#=%=#Google DeepMind
+
+==========

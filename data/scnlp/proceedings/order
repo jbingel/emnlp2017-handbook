@@ -1,0 +1,23 @@
+* September 7, 2017
+! 8:50--9:00 Opening Remarks %by Nicholas Ruiz and Srinivas Bangalore
+= 9:00--10:00 Invited Talk
+!  Modelling turn-taking in spoken interaction %by Gabriel Skantze
+= 10:00--10:30 Session I
+5   # Functions of Silences towards Information Flow in Spoken Conversation
++ 10:30--11:00 Coffee Break
+= 11:00--12:30 Session II
+3   # Encoding Word Confusion Networks with Recurrent Neural Networks for Dialog State Tracking
+11   # Analyzing Human and Machine Performance In Resolving Ambiguous Spoken Sentences
+7   # Parsing transcripts of speech
+12   # Enriching ASR Lattices with POS Tags for Dependency Parsing
++ 12:30--14:00 Lunch
+= 14:00--15:30 Session III
+8   # End-to-End Information Extraction without Token-Level Supervision
+10   # Spoken Term Discovery for Language Documentation using Translations
+9   # Amharic-English Speech Translation in Tourism Domain
+6   # Speech- and Text-driven Features for Automated Scoring of English Speaking Tasks
++ 15:30--16:00 Coffee Break / Poster Discussion
+= 16:00--16:25 Session IV
+4   # Improving coreference resolution with automatically predicted prosodic information
+= 16:25--17:50 Round-table: Issues in Speech-centric NLP
++ 17:50--18:00 Closing

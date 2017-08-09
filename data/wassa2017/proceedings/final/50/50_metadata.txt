@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#50
+FinalPaperTitle#=%=#Seernet at EmoInt-2017: Tweet Emotion Intensity Estimator
+ShortPaperTitle#=%=#Tweet Emotion Intensity Estimator
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Venkatesh Duppada
+JobTitle#==#
+Organization#==#
+Abstract#==#The paper describes experiments on estimating emotion intensity in tweets
+using a generalized regressor system. The system combines various independent
+feature extractors, trains them on general regressors and finally combines
+the best performing models to create an ensemble. The pro- posed system stood
+3rd out of 22 systems in leaderboard of WASSA-2017 Shared Task on Emotion
+Intensity.
+Author{1}{Firstname}#=%=#Venkatesh
+Author{1}{Lastname}#=%=#Duppada
+Author{1}{Email}#=%=#venkateshduppada9@gmail.com
+Author{1}{Affiliation}#=%=#Seernet Technologies, LLC
+Author{2}{Firstname}#=%=#Sushant
+Author{2}{Lastname}#=%=#Hiray
+Author{2}{Email}#=%=#hiraysushant@gmail.com
+Author{2}{Affiliation}#=%=#Seernet Technologies, LLC
+
+==========

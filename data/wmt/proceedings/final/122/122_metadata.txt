@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#122
+FinalPaperTitle#=%=#Findings of the Second Shared Task on Multimodal Machine Translation and Multilingual Image Description
+ShortPaperTitle#=%=#Findings of the Second Shared Task on Multimodal Machine Translation and Multilingual Image Description
+NumberOfPages#=%=#19
+CopyrightSigned#=%=#Desmond Elliott
+JobTitle#==#
+Organization#==#University of Edinburgh
+Abstract#==#We present the results from the second shared task on multimodal machine
+translation and multilingual image description. Nine teams submitted 19 systems
+to two tasks. The multimodal translation task, in which the source sentence is
+supplemented by an image, was extended with a new language (French) and two new
+test sets. The multilingual image description task was changed such that at
+test time, only the image is given. Compared to last year, multimodal systems
+improved, but text-only systems remain competitive.
+Author{1}{Firstname}#=%=#Desmond
+Author{1}{Lastname}#=%=#Elliott
+Author{1}{Email}#=%=#d.elliott@ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Stella
+Author{2}{Lastname}#=%=#Frank
+Author{2}{Email}#=%=#stella.frank@ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+Author{3}{Firstname}#=%=#Loïc
+Author{3}{Lastname}#=%=#Barrault
+Author{3}{Email}#=%=#loic.barrault@univ-lemans.fr
+Author{3}{Affiliation}#=%=#LIUM, Le Mans University
+Author{4}{Firstname}#=%=#Fethi
+Author{4}{Lastname}#=%=#Bougares
+Author{4}{Email}#=%=#fethi.bougares@univ-lemans.fr
+Author{4}{Affiliation}#=%=#LIUM- Le Mans University
+Author{5}{Firstname}#=%=#Lucia
+Author{5}{Lastname}#=%=#Specia
+Author{5}{Email}#=%=#l.specia@sheffield.ac.uk
+Author{5}{Affiliation}#=%=#University of Sheffield
+
+==========

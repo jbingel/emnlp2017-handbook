@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#75
+FinalPaperTitle#=%=#Multi-Domain Neural Machine Translation through Unsupervised Adaptation
+ShortPaperTitle#=%=#Multi-Domain Neural Machine Translation through Unsupervised Adaptation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#M. Amin Farajian
+JobTitle#==#
+Organization#==#
+Abstract#==#We investigate the application of Neural Machine Translation (NMT) under the
+following three conditions posed by real-world application scenarios. First, we
+operate with an input stream of sentences coming from many different domains
+and with no predefined order. Second, the sentences are presented without
+domain information. Third, the input stream should be processed by a single
+generic NMT model.
+To tackle the weaknesses of current NMT technology in this unsupervised
+multi-domain setting, we explore an efficient instance-based adaptation method
+that, by exploiting the similarity between the training instances and each test
+sentence, dynamically sets the hyperparameters of the learning algorithm and
+updates the generic model on-the-fly.
+The results of our experiments with multi-domain data show that local
+adaptation outperforms not only the original generic NMT system, but also a
+strong phrase-based system and even single-domain NMT models  specifically
+optimized on each domain and applicable only by violating two of our
+aforementioned assumptions.
+Author{1}{Firstname}#=%=#M. Amin
+Author{1}{Lastname}#=%=#Farajian
+Author{1}{Email}#=%=#farajian@fbk.eu
+Author{1}{Affiliation}#=%=#University of Trento, FBK
+Author{2}{Firstname}#=%=#Marco
+Author{2}{Lastname}#=%=#Turchi
+Author{2}{Email}#=%=#marco.turchi@gmail.com
+Author{2}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{3}{Firstname}#=%=#Matteo
+Author{3}{Lastname}#=%=#Negri
+Author{3}{Email}#=%=#negri@fbk.eu
+Author{3}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{4}{Firstname}#=%=#Marcello
+Author{4}{Lastname}#=%=#Federico
+Author{4}{Email}#=%=#federico@fbk.eu
+Author{4}{Affiliation}#=%=#FBK
+
+==========

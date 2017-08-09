@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Towards Syntactic Iberian Polarity Classification
+ShortPaperTitle#=%=#Towards Syntactic Iberian Polarity Classification
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#David
+JobTitle#==#
+Organization#==#Universidade da Coruña, Rúa da Maestranza, 9, 15001, A Coruña
+Abstract#==#Lexicon-based methods using syntactic rules for polarity classification rely on
+parsers that are dependent on the language and on  treebank guidelines. Thus,
+rules are also dependent and require adaptation, especially in multilingual
+scenarios. We tackle this challenge in the context of the Iberian Peninsula,
+releasing the first symbolic syntax-based Iberian system with rules shared
+across five official languages: Basque, Catalan, Galician, Portuguese and
+Spanish. The model is made available.
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#Vilares
+Author{1}{Email}#=%=#david.vilares@udc.es
+Author{1}{Affiliation}#=%=#Universidade da Coruña
+Author{2}{Firstname}#=%=#Marcos
+Author{2}{Lastname}#=%=#Garcia
+Author{2}{Email}#=%=#marcos.garcia.gonzalez@udc.gal
+Author{2}{Affiliation}#=%=#Universidade da Corunha
+Author{3}{Firstname}#=%=#Miguel A.
+Author{3}{Lastname}#=%=#Alonso
+Author{3}{Email}#=%=#miguel.alonso@udc.es
+Author{3}{Affiliation}#=%=#Universidade da Coruña
+Author{4}{Firstname}#=%=#Carlos
+Author{4}{Lastname}#=%=#Gómez-Rodríguez
+Author{4}{Email}#=%=#cgomezr@udc.es
+Author{4}{Affiliation}#=%=#Universidade da Coruña
+
+==========

@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#115
+FinalPaperTitle#=%=#UHH Submission to the WMT17 Metrics Shared Task
+ShortPaperTitle#=%=#UHH Submission to the WMT17 Metrics Shared Task
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Melania Duma
+JobTitle#==#
+Organization#==#Universitaet Hamburg
+Fakultaet fuer Mathematik,
+Informatik und Naturwissenschaften
+Fachbereich Informatik
+AB Natuerlichsprachliche Systeme
+Vogt-Koelln-Strasse 30
+D-22527 Hamburg
+Abstract#==#In this paper the UHH submission to the WMT17 Metrics Shared Task is presented,
+which is based on sequence and tree kernel functions applied to the reference
+and candidate translations. In addition we also explore the effect of applying
+the kernel functions on the source sentence and a back-translation of the MT
+output, but also on the pair composed of the candidate translation and a
+pseudo-reference of the source segment. The newly proposed metric was evaluated
+using the data from WMT16, with the results demonstrating a high correlation
+with human judgments.
+Author{1}{Firstname}#=%=#Melania
+Author{1}{Lastname}#=%=#Duma
+Author{1}{Email}#=%=#melaniaduma@gmail.com
+Author{1}{Affiliation}#=%=#University of Hamburg
+Author{2}{Firstname}#=%=#Wolfgang
+Author{2}{Lastname}#=%=#Menzel
+Author{2}{Email}#=%=#menzel@informatik.uni-hamburg.de
+Author{2}{Affiliation}#=%=#University of Hamburg
+
+==========

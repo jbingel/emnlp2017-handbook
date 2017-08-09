@@ -1,10 +1,12 @@
 SubmissionNumber#=%=#1
 FinalPaperTitle#=%=#The NLTK FrameNet API: Designing for Discoverability with a Rich Linguistic Resource
-ShortPaperTitle#=%=#
-NumberOfPages#=%=#
-CopyrightSigned#=%=#
+ShortPaperTitle#=%=#The NLTK FrameNet API: Designing for Discoverability with a Rich Linguistic Resource
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Nathan Schneider
 JobTitle#==#
-Organization#==#
+Organization#==#Georgetown University
+37th and O St. NW
+Washington, DC 20057
 Abstract#==#A new Python API, integrated within the NLTK suite, offers access to the
 FrameNet 1.7 lexical database. The lexicon (structured in terms of frames) as
 well as annotated sentences can be processed programatically, or browsed with

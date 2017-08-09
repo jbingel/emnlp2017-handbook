@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#12
+FinalPaperTitle#=%=#Enriching ASR Lattices with POS Tags for Dependency Parsing
+ShortPaperTitle#=%=#Enriching ASR Lattices with POS Tags for Dependency Parsing
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Moritz Stiefel
+JobTitle#==#
+Organization#==#Institute for Natural Language Processing (IMS)
+Universität Stuttgart
+Pfaffenwaldring 5B
+70569 Stuttgart
+Abstract#==#Parsing speech requires a richer representation than 1-best or n-best
+hypotheses, e.g. lattices. Moreover, previous work shows that part-of-speech
+(POS) tags are a valuable resource for parsing. In this paper, we therefore
+explore a joint modeling approach of automatic speech recognition (ASR) and POS
+tagging to enrich ASR word lattices. To that end, we manipulate the ASR process
+from the pronouncing dictionary onward to use word-POS pairs instead of words.
+We evaluate ASR, POS tagging and dependency parsing (DP) performance
+demonstrating a successful lattice-based integration of ASR and POS tagging.
+Author{1}{Firstname}#=%=#Moritz
+Author{1}{Lastname}#=%=#Stiefel
+Author{1}{Email}#=%=#moritz.stiefel@ims.uni-stuttgart.de
+Author{1}{Affiliation}#=%=#IMS, University of Stuttgart
+Author{2}{Firstname}#=%=#Ngoc Thang
+Author{2}{Lastname}#=%=#Vu
+Author{2}{Email}#=%=#thangvu@ims.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#University of Stuttgart
+
+==========

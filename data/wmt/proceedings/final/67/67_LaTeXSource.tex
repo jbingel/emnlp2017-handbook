@@ -1,0 +1,112 @@
+%\title{emnlp 2017 instructions}
+% File emnlp2017.tex
+%
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{emnlp2017}
+\usepackage{times}
+\usepackage{latexsym}
+
+\usepackage[pdftex]{graphicx}     
+\graphicspath{{./figures}}  
+\usepackage{caption}  
+\usepackage[draft]{fixme}
+
+\usepackage{multirow}
+
+% Uncomment this line for the final submission:
+\emnlpfinalcopy
+
+%  Enter the EMNLP Paper ID here:
+\def\emnlppaperid{***}
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+
+\title{Word Representations in Factored Neural Machine Translation}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a seperate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+% If the title and author information does not fit in the area allocated,
+% place \setlength\titlebox{<new height>} right after
+% at the top, where <new height> can be something larger than 2.25in
+
+\author{Franck Burlot\thanks{\hspace{1.5mm}Both authors have contributed equally to this work.} \\ LIMSI, CNRS, Universit\'{e} Paris Saclay
+  \And Mercedes Garc\'{i}a-Mart\'{i}nez\footnotemark[1] \\ LIUM, University of Le Mans
+  \AND Lo\"{i}c Barrault  \\ LIUM, University of Le Mans
+  \And Fethi Bougares \\ LIUM, University of Le Mans
+  \AND Fran\c{c}ois Yvon \\ LIMSI, CNRS, Universit\'{e} Paris Saclay}
+%% \AND
+%%   {\tt firstname.lastname@limsi.fr}
+%% \AND
+%%    {\tt firstname.lastname@univ-lemans.fr}}\\
+
+
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  Translation into a morphologically rich language
+  requires a large output vocabulary to model various
+  morphological phenomena, which is a challenge for
+  neural machine translation architectures. To address this issue,
+  the present paper investigates the impact of having
+  two output factors with a system able to generate
+  separately two distinct representations of the target
+  words. Within this framework, we investigate
+  several word representations that correspond to
+  different distributions of morpho-syntactic information
+  across both factors. We report experiments for translation
+  from English into two morphologically rich languages,
+  Czech and Latvian, and show the importance of explicitly
+  modeling target morphology.
+\end{abstract}
+
+
+\input{intro}
+
+\input{related_work}
+
+\input{fnmt}
+
+\input{word_representations}
+
+\input{experiments}
+
+\input{aut_eval}
+
+\input{qua_eval}
+
+\input{conclusion}
+
+\section*{Acknowledgments}
+
+This work has been partly funded by the European Union’s
+Horizon 2020 research and innovation programme under grant
+agreement No.~645452 (QT21) and the French National Research Agency (ANR) through the CHIST-ERA M2CR project, under the contract number ANR-15-CHR2-0006-01. 
+
+\bibliography{biblio}
+\bibliographystyle{emnlp_natbib}
+
+\end{document}

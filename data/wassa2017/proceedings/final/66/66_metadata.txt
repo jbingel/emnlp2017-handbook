@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#66
+FinalPaperTitle#=%=#UWat-Emote at EmoInt-2017: Emotion Intensity Detection using Affect Clues, Sentiment Polarity and Word Embeddings
+ShortPaperTitle#=%=#Emotion Intensity Detection using Affect Clues, Sentiment Polarity and Word Embeddings
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Vineet John
+JobTitle#==#
+Organization#==#University of Waterloo, 200 University Ave W, Waterloo, ON N2L 3G1, Canada
+Abstract#==#This paper describes the UWaterloo affect prediction system developed for
+EmoInt-2017. We delve into our feature selection approach for affect intensity,
+affect presence, sentiment intensity and sentiment presence lexica alongside
+pre-trained word embeddings, which are utilized to extract emotion intensity
+signals from tweets in an ensemble learning approach. The system employs
+emotion specific model training, and utilizes distinct models for each of the
+emotion corpora in isolation. Our system utilizes gradient boosted regression
+as the primary learning technique to predict the final emotion intensities.
+Author{1}{Firstname}#=%=#Vineet
+Author{1}{Lastname}#=%=#John
+Author{1}{Email}#=%=#vineet.john@uwaterloo.ca
+Author{1}{Affiliation}#=%=#University of Waterloo
+Author{2}{Firstname}#=%=#Olga
+Author{2}{Lastname}#=%=#Vechtomova
+Author{2}{Email}#=%=#ovechtom@uwaterloo.ca
+Author{2}{Affiliation}#=%=#University of Waterloo
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#79
+FinalPaperTitle#=%=#Understanding human values and their emotional effect
+ShortPaperTitle#=%=#Understanding human values and their emotional effect
+NumberOfPages#=%=#1
+CopyrightSigned#=%=#Alexandra Balahur
+JobTitle#==#
+Organization#==#European Commission Joint Research Centre
+Abstract#==#Emotions can be triggered by various factors. According to the Appraisal
+Theories (De Rivera, 1977; Frijda, 1986; Ortony et al., 1988; Johnson-Laird and
+Oatley, 1989) emotions are elicited and differentiated on the basis of the
+cognitive evaluation of the personal significance of a situation, object or
+event based on “appraisal criteria” (intrinsic characteristics of objects
+and events, significance of events to individual needs and goals,
+individual’s ability to cope with the consequences of the event,
+compatibility of event with social or personal standards, norms and values).
+These differences in values can trigger reactions such as anger, disgust
+(contempt), sadness, etc., because these behaviors are evaluated by the public
+as being incompatible with their social/personal standards, norms or values. 
+Such arguments are frequently present both in mainstream media, as well as
+social media, building a society-wide view, attitude and emotional reaction
+towards refugees/immigrants. In this demo, I will talk about experiments to
+annotate and detect factual arguments that are linked to human
+needs/motivations from text and in consequence trigger emotion in the media
+audience and propose a new task for next year's WASSA.
+Author{1}{Firstname}#=%=#Alexandra
+Author{1}{Lastname}#=%=#Balahur
+Author{1}{Email}#=%=#abalahur@gmail.com
+Author{1}{Affiliation}#=%=#Joint Research Centre, European Commission
+
+==========

@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#51
+FinalPaperTitle#=%=#Sogou Neural Machine Translation Systems for WMT17
+ShortPaperTitle#=%=#Sogou Neural Machine Translation Systems for WMT17
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Yuguang Wang
+JobTitle#==#
+Organization#==#
+Abstract#==#This is the last submission for Sogou Neural Machine Translation Systems for
+WMT17.
+Author{1}{Firstname}#=%=#Yuguang
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#wangyuguang@sogou-inc.com
+Author{1}{Affiliation}#=%=#Sogou Inc.
+Author{2}{Firstname}#=%=#Shanbo
+Author{2}{Lastname}#=%=#Cheng
+Author{2}{Email}#=%=#chengshanbo@sogou-inc.com
+Author{2}{Affiliation}#=%=#Sogou Inc.
+Author{3}{Firstname}#=%=#Liyang
+Author{3}{Lastname}#=%=#Jiang
+Author{3}{Email}#=%=#jiangliyang@sogou-inc.com
+Author{3}{Affiliation}#=%=#Sogou Inc.
+Author{4}{Firstname}#=%=#Jiajun
+Author{4}{Lastname}#=%=#Yang
+Author{4}{Email}#=%=#yangjiajun@sogou-inc.com
+Author{4}{Affiliation}#=%=#Sogou Inc.
+Author{5}{Firstname}#=%=#Wei
+Author{5}{Lastname}#=%=#Chen
+Author{5}{Email}#=%=#chenweibj8871@sogou-inc.com
+Author{5}{Affiliation}#=%=#Sogou Inc.
+Author{6}{Firstname}#=%=#Muze
+Author{6}{Lastname}#=%=#Li
+Author{6}{Email}#=%=#limuze@sogou-inc.com
+Author{6}{Affiliation}#=%=#Sogou Inc.
+Author{7}{Firstname}#=%=#Lin
+Author{7}{Lastname}#=%=#Shi
+Author{7}{Email}#=%=#shilin@sogou-inc.com
+Author{7}{Affiliation}#=%=#Sogou Inc.
+Author{8}{Firstname}#=%=#Yanfeng
+Author{8}{Lastname}#=%=#Wang
+Author{8}{Email}#=%=#wangyanfeng@sogou-inc.com
+Author{8}{Affiliation}#=%=#Sogou Inc.
+Author{9}{Firstname}#=%=#Hongtao
+Author{9}{Lastname}#=%=#Yang
+Author{9}{Email}#=%=#yanghongtao@sogou-inc.com
+Author{9}{Affiliation}#=%=#Sogou Inc.
+
+==========

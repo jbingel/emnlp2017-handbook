@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#87
+FinalPaperTitle#=%=#Target-side Word Segmentation Strategies for Neural Machine Translation
+ShortPaperTitle#=%=#Target-side Word Segmentation Strategies for Neural Machine Translation
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Matthias Huck
+JobTitle#==#
+Organization#==#Ludwig-Maximilians-Universität München
+Centrum für Informations- und Sprachverarbeitung
+Oettingenstr. 67
+D-80538 München
+Germany
+Abstract#==#For efficiency considerations, state-of-the-art neural machine translation
+(NMT) requires the vocabulary to be restricted to a limited-size set of several
+thousand symbols. This is highly problematic when translating into inflected or
+compounding languages. A typical remedy is the use of subword units, where
+words are segmented into smaller components. Byte pair encoding, a purely
+corpus-based approach, has proved effective recently.
+
+In this paper, we investigate word segmentation strategies that incorporate
+more linguistic knowledge. We demonstrate that linguistically informed target
+word segmentation is better suited for NMT, leading to improved translation
+quality on the order of magnitude of +0.5 BLEU and -0.9 TER for a medium-scale
+English-to-German translation task.
+
+Our work is important in that it shows that linguistic knowledge can be used to
+improve NMT results over results based only on the language-agnostic byte pair
+encoding vocabulary reduction technique.
+Author{1}{Firstname}#=%=#Matthias
+Author{1}{Lastname}#=%=#Huck
+Author{1}{Email}#=%=#mhuck@cis.lmu.de
+Author{1}{Affiliation}#=%=#LMU Munich
+Author{2}{Firstname}#=%=#Simon
+Author{2}{Lastname}#=%=#Riess
+Author{2}{Email}#=%=#riess.simon@campus.lmu.de
+Author{2}{Affiliation}#=%=#LMU Munich
+Author{3}{Firstname}#=%=#Alexander
+Author{3}{Lastname}#=%=#Fraser
+Author{3}{Email}#=%=#fraser@cis.uni-muenchen.de
+Author{3}{Affiliation}#=%=#Ludwig-Maximilians-Universität München
+
+==========

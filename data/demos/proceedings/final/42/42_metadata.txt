@@ -1,10 +1,11 @@
 SubmissionNumber#=%=#42
 FinalPaperTitle#=%=#NeuroNER: an easy-to-use program for named-entity recognition based on neural networks
-ShortPaperTitle#=%=#
-NumberOfPages#=%=#
-CopyrightSigned#=%=#
+ShortPaperTitle#=%=#NeuroNER: an easy-to-use program for named-entity recognition based on neural networks
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Franck Dernoncourt
 JobTitle#==#
-Organization#==#
+Organization#==#Massachusetts Institute of Technology  
+77 Massachusetts Ave, Cambridge, MA 02139
 Abstract#==#Named-entity recognition (NER) aims at identifying entities of interest in a
 text. Artificial neural networks (ANNs) have recently been shown to outperform
 existing NER systems. However, ANNs remain challenging to use for non-expert

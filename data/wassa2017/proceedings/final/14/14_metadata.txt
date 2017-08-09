@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#14
+FinalPaperTitle#=%=#IMS at EmoInt-2017: Emotion Intensity Prediction with Affective Norms, Automatically Extended Resources and Deep Learning
+ShortPaperTitle#=%=#IMS at EmoInt-2017: Emotion Intensity Prediction with Affective Norms, Automatically Extended Resources and Deep Learning
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Maximilian Köper
+JobTitle#==#
+Organization#==#Institut für Maschinelle Sprachverarbeitung, University of Stuttgart, Pfaffenwaldring 5b, 70569 Stuttgart
+Abstract#==#Our submission to the WASSA-2017 shared task on the prediction of emotion
+intensity in tweets is a supervised learning method with extended lexicons of
+affective norms. We combine three main information sources in a random forrest
+regressor, namely (1), manually created resources, (2) automatically extended
+lexicons, and (3) the output of a neural network (CNN-LSTM) for sentence
+regression. All three feature sets perform similarly well in isolation (≈ .67
+macro average Pearson correlation). The combination achieves .72 on the
+official test set (ranked 2nd out of 22 participants). Our analysis reveals
+that performance is increased by providing cross-emotional intensity
+predictions. The
+automatic extension of lexicon features benefit from domain specific
+embeddings.
+Complementary ratings for affective norms increase the impact of lexicon
+features. Our resources (ratings for 1.6 million twitter specific words) and
+our implementation is publicly available at
+http://www.ims.uni-stuttgart.de/data/ims_emoint.
+Author{1}{Firstname}#=%=#Maximilian
+Author{1}{Lastname}#=%=#Köper
+Author{1}{Email}#=%=#koepermn@ims.uni-stuttgart.de
+Author{1}{Affiliation}#=%=#IMS, University of Stuttgart
+Author{2}{Firstname}#=%=#Evgeny
+Author{2}{Lastname}#=%=#Kim
+Author{2}{Email}#=%=#evgeny.kim@ims.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#Institut für Maschinelle Sprachverarbeitung
+Author{3}{Firstname}#=%=#Roman
+Author{3}{Lastname}#=%=#Klinger
+Author{3}{Email}#=%=#roman.klinger@ims.uni-stuttgart.de
+Author{3}{Affiliation}#=%=#University of Stuttgart
+
+==========

@@ -1,0 +1,709 @@
+%\title{emnlp 2017 instructions}
+% File emnlp2017.tex
+%
+
+\documentclass[11pt,letterpaper,final]{article}
+\usepackage{emnlp2017}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{placeins}
+
+% Uncomment this line for the final submission:
+\emnlpfinalcopy
+
+%  Enter the EMNLP Paper ID here:
+\def\emnlppaperid{***}
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+
+\title{LIMSI@WMT'17}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a seperate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+% If the title and author information does not fit in the area allocated,
+% place \setlength\titlebox{<new height>} right after
+% at the top, where <new height> can be something larger than 2.25in
+\author{Franck Burlot \and Pooyan Safari \and Matthieu Labeau \\
+  {\bf Alexandre Allauzen} \and {\bf Fran\c{c}ois Yvon} \\
+LIMSI, CNRS, Universit\'{e} Paris Saclay, 91~403 Orsay, France \\
+  {\tt firstname.lastname@limsi.fr}}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  This paper describes LIMSI's submissions to the news shared task
+  at WMT'17 for English into Czech and Latvian, as well as related experiments. This year's novelties
+  consist in the use of a neural machine translation system with a factored
+  output predicting simultaneously a lemma decorated with morphological
+  information and a fine-grained part-of-speech. Such a type of system
+  drew our attention to the specific step of reinflection, where
+  lemmas and parts-of-speech are transformed into fully inflected words.
+  Finally, we ran experiments showing an efficient strategy for parameter initialization,
+  as well as data filtering procedures.
+\end{abstract}
+
+
+\section{Introduction}
+
+The contribution of LIMSI laboratory to the WMT 2017 News
+shared task consisted in the submission of different
+systems for English-to-Czech, as well as with this year's ``guest''
+language pair: English-to-Latvian.
+
+Our main focus was on translation into morphologically
+rich languages (MRL), a challenging question in current
+state-of-the-art neural machine translation (NMT) architectures.
+Indeed, the variety of target word forms in these languages requires the
+use of an open vocabulary. To tackle this issue,
+we have experimented with a factored neural machine translation
+system predicting simultaneously at each timestep a normalized word
+and a fine-grained part-of-speech (section~\ref{sec:sys_setup}).
+A normalized word (section~\ref{subsec:normal}) is a
+specific representation where we removed part of the morphological
+content of the word, keeping only the features that are relevant
+to the source language.
+
+Such a factored architecture required a non-trivial step
+consisting in reinflecting the MT predictions, i.e. transforming
+normalized words and parts-of-speech into fully inflected words.
+To this end, we have experimented with a character-based language
+model that is used to select ambiguous word forms returned
+by a look-up table (section~\ref{subsec:reinflection_exp}).
+
+Further experiments show the use of an auto-encoder to
+initialize the NMT system's encoder (section~\ref{subsec:autoenc}), which enables a
+faster convergence of the parameter and therefore a
+lower training time.
+
+Finally, we report experiments performed with
+different data filtering procedures (section~\ref{subsec:filter})
+and their impact on translation quality.
+
+
+\section{Data and Preprocessing}
+\label{subsec:data}
+
+The pre-processing of English data relies on in-house
+tools \cite{Dechelotte08limsi}. All the Czech data were tokenized and truecased 
+using the Moses toolkit \cite{Koehn07moses}. PoS-tagging
+was performed with Morphodita \cite{strakova14morphodita}.
+The pre-processing of Latvian was provided by TILDE.\footnote{\url{www.tilde.com}}
+Latvian PoS-tags were obtained with the LU MII Tagger \cite{paikens13lv}.
+All the data used to train our systems were provided
+at WMT'17.\footnote{\url{www.statmt.org/wmt17}} 
+
+For English-to-Czech, the parallel data used consisted
+in nearly 20M sentences from a subset of WMT data relevant
+to the news domain: News-commentary, Europarl and specific
+categories of the Czeng corpus (news, paraweb, EU, fiction).
+Newstest-2015 was used for validation and the systems are
+tested on Newstest-2016 and 2017. 
+
+All systems were also trained on synthetic
+parallel data \cite{sennrich16backtrans}.
+The Czech monolingual corpus News-2016 was backtranslated to
+English using the single best system provided by the University
+of Edinburgh from WMT'16.\footnote{\url{http://data.statmt.org/rsennrich/wmt16_systems/}}
+We then added five copies of News-commentary and the news subcorpus
+from Czeng, as well as 5M sentences from the Czeng EU corpus randomly selected
+after running modified Moore-Lewis filtering with XenC \cite{Rousseau13}.
+This resulted in about 14M parallel sentences.
+
+The English-to-Latvian systems used all the parallel data
+provided at WMT'17. The DCEP corpus was filtered with the
+Microsoft sentence aligner\footnote{\url{http://research.microsoft.com/apps/catalog/}}
+and using modified Moore-Lewis. We kept the best 1M sentences, which led to
+a total of almost 2M parallel sentences. The systems were validated
+on 2k sentences held out from the LETA corpus and we
+report results on newsdev-2017 and newstest-2017.
+
+Training was carried on with synthetic parallel data. We used a backtranslation
+of the monolingual corpora News-2015 and 2016 provided
+by the University of Edinburgh (Moses system). To these
+corpora were added 10 copies of the LETA corpus, as well
+as 2 copies of Europarl and Rapid.
+
+Bilingual Byte Pair Encoding (BPE) models \cite{Sennrich16BPE}
+for each language pair and system setup
+were learned on the bibtext (ie. not synthetic) parallel data used for
+the MT system. 90k merge operations where performed
+to obtain the final vocabularies.
+
+
+\section{System Setup}
+\label{sec:sys_setup}
+
+Results are reported for two NMT systems: Nematus \cite{nematus17}
+and NMTPY \cite{caglayan17nmtpy}. %%\footnote{\url{https://github.com/lium-lst/nmtpy}}
+
+
+\subsection{NMTPY}
+
+Once the data was preprocessed, only sentences of a maximum
+length of 50 were kept in the training data, except for the
+setup where cluster IDs were split in normalized words (see \textsection~\ref{sec:submitted}).
+In this case, we set the maximum length to 100.
+
+All NMTPY systems have an
+embedding dimension of 512 and hidden states of dimension
+1024 for both encoder and decoder, which are implemented
+as GRU units. Dropout is enabled on source embeddings,
+encoder states, as well as output layer.
+When training starts, all parameters are
+initialized with Xavier \cite{glorotxavier}. In order to slightly speed up
+training on bitext parallel data, the learning rate
+was set to 0.0004, patience to 30 with validation every
+20k updates. On synthetic data, we finally set the learning
+rate to 0.0001 and performed validation every 5k updates.
+These systems were tuned with Adam optimizer \cite{kingma2014adam} and
+have been training for approximately 1 month.
+
+
+\subsection{Nematus}
+
+The setup for Nematus is very similar to the one
+presented in the previous section. Training was performed
+on sentences with the same maximum length, the same
+embedding and hidden unit size. The difference lies
+in the fact that dropout for Nematus systems was
+enabled on all layers. The optimizer used was Adadelta \cite{zeiler2012adadelta}
+and all systems had their learning rate set to 0.0001. 
+
+\section{Experiments}
+
+\subsection{Parameter initialization}
+\label{subsec:autoenc}
+In order to speed up the convergence of the training procedure we tried to initialize the encoder parameters with an a priori-trained model, instead of using random initialization. For the English-to-Czech translation system, this initial model was trained to translate from English into English. In order to do so, the same English corpus was fed into the neural model on both source and target side. After few updates according to the BLEU score on the validation set (which was higher than 99) it was possible to stop the training of this model and use the encoder parameters for the initialization of the main NMT system.
+
+\subsection{Data Filtering}
+\label{subsec:filter}
+
+The English-Czech training data provided at WMT'17 
+was very large and some corpora contained a lot of noise.
+For instance, we noticed several duplicate sentences in the
+Czeng EU parallel corpus and entire paragraphs in it were
+in languages other than English-Czech.
+%% While running our experiments, we have realized that our English-Czech training corpora are too noisy. Looking at the corpora, it became clear that one of the source of this noise is the number of duplicate sentences in the Czeng EU parallel corpus. There were also paragraphs in languages other than English-Czech.
+Therefore, we decided to experiment with a system not
+containing the Czeng EU corpus.
+%%it was decided to train another system after discarding the Czeng EU corpus from the training data.
+However, this lead to a degradation in terms of BLEI (see Table~\ref{tab:filt}). %%, a degradation of BLEU was observed with the models trained with this new data.
+
+In another attempt, instead of removing the EU corpus, a filtering process was performed to discard the duplicate sentences on both sides. As shown in Table~\ref{tab:filt}, filtering the data results in an improvement in terms of BLEU for Newstest-2017, which is also consistent with the results we obtained on Newstest-2016 and validation set.
+
+The filtering process was later followed by a sentence alignment check using the Microsoft sentence aligner. However, no further improvement was achieved with this method. The filtered-only data has shown the best performance on both Newstest-2016 and Newstest-2017 corpora.
+
+\begin{table}[ht!]
+\small
+\caption{\label{tab:filt} Comparison of BLEU scores of different filtering processes for English-to-Czech with Nematus systems. All the systems are evaluated with the beam search of size 2. The term ``\textbf{basic}'' is referred to the data without any filtering or alignment. The term \textbf{discard EU} is adopted to refer to the training without Czeng EU corpus.}
+\vspace{.5cm}
+\centerline{
+\begin{tabular}{lcc}
+\textbf{data filtering} & \textbf{Newstest-2016} & \textbf{Newstest-2017} \\
+  \hline
+\textbf{basic} & 18.66 & 15.67 \\
+\textbf{discard EU} & 18.09 & 16.07 \\
+\textbf{filt} & \textbf{19.31} & \textbf{16.37} \\
+\textbf{filt+align} & 18.72 & 15.91 \\
+\hline
+\end{tabular}}
+\end{table}
+
+It is worthwhile to note that the model which had the best BLEU score performance on the validation data (Newstest-2015) resulted in the BLEU scores of 18.43 and 15.81 on Newstest-2016 and Newstest-2017, respectively.
+
+\begin{figure}[t] 
+  \center{\includegraphics[width=\columnwidth]{plot.eps}}
+  \caption{Comparison of different beam-size in terms of BLEU. The evaluation is performed on Newstest-2016 and Newstest-2017 English-Czech filtered data.}
+  \label{fig:BLEU-beamsize}
+\end{figure}
+
+Figure~\ref{fig:BLEU-beamsize} shows the accuracy wrt. different sizes of beam during decoding. The model was trained using the English-Czech filtered data as reported in the \textbf{filt} row of the Table~\ref{tab:filt}. We observed a similar trend on both Newstest-2016 and Newstest-2017, where the best performance was obtained with a beam of size 3 for both test sets. 
+
+\section{Submitted systems}
+\label{sec:submitted}
+
+%Contrasts with Nematus \cite{nematus17}.
+
+\subsection{Factored NMT}
+\label{subsec:fnmt}
+
+Additionally to standard NMTPY systems (baselines),
+our best submissions in terms of BLEU at WMT'17
+consisted in factored NMT systems.
+
+The architecture of such systems was introduced
+in \cite{Garcia16iwslt}. The specific setup we
+have used for the following factored systems
+consisted in an architecture that enables training
+towards a dual objective: at each timestep in the
+output sentence, a word and a PoS-tag are produced.
+Each one of these objectives produces a cost, that
+is summed in order to compute the gradients to
+be backpropagated.
+
+The encoder and attention mechanism remain the same
+as in the baseline architecture. While in the baseline
+a decoder state takes as input the embedding of the
+prediction made at the previous step, a factored NMT
+decoder unit takes as input a concatenation of the
+two previous predictions for each factor.
+In this situation, the factored NMT systems deal with
+two sets of embeddings on target side.
+
+Another difference lies in the hidden-to-output
+layer. In our setup, we have used an architecture
+with two different such layers: the first one takes
+as input the representation of the previous prediction of the first factor
+(word) and the second one takes the previous second factor prediction (PoS).
+Each layer is then passed through a last feed-forward
+layer leading to distinct softmax layers.
+
+While various word representations \cite{burlot16fnmt} can be used in the
+first factor, our system 
+predict at each timestep on the target side a 
+normalized word and a PoS-tag.
+
+\begin{table}[!htbp]
+\begin{center}
+%\small
+\begin{tabular}{ lll } 
+\hline
+& \textbf{fully infl.} & \textbf{norm. words} \\
+\textbf{plain} & ko\v{c}ky & ko\v{c}ka+Noun+7 \\
+\textbf{subword} & ko- \v{c}ky & ko- \v{c}ka- Noun+7 \\
+\hline
+ \end{tabular} 
+\caption{\label{tab:word_repr} Different representations of the Czech word {\it ko\v{c}ky} (cats).}
+\end{center}
+\end{table}
+
+
+\subsection{Normalization of Target Morphology}
+\label{subsec:normal}
+
+\begin{table*}[!htbp]
+\begin{center}
+\small
+\begin{tabular}{ lcccccc } 
+\hline
+  & \multicolumn{3}{c}{\textbf{Newstest-2016}} & \multicolumn{3}{c}{\textbf{Newstest-2017}} \\
+  & BLEU $\uparrow$ & BEER $\uparrow$ & CTER $\downarrow$ & BLEU $\uparrow$ & BEER $\uparrow$ & CTER $\downarrow$ \\
+\hline
+\textbf{baseline} & 24.24 & 57.41 & 52.81 & 19.89 & 54.51 & 58.29 \\
+\textbf{factored} & 23.77 & 57.50 & 52.53 & 19.95 & 54.71 & 58.30 \\
++ nk-best         & \textbf{24.59} & \textbf{57.95} & \textbf{52.08} & \textbf{20.54} & \textbf{54.99} & \textbf{58.06} \\
+\hline
+ \end{tabular} 
+\caption{\label{tab:wmt_cs} Scores for English-to-Czech systems}
+\end{center}
+%% \end{table*}
+
+%% \begin{table*}[!htbp]
+\begin{center}
+\small
+\begin{tabular}{ lcccccc } 
+\hline
+  & \multicolumn{3}{c}{\textbf{Newsdev-2017}} & \multicolumn{3}{c}{\textbf{Newstest-2017}} \\
+  & BLEU $\uparrow$ & BEER $\uparrow$ & CTER $\downarrow$ & BLEU $\uparrow$ & BEER $\uparrow$ & CTER $\downarrow$ \\
+\hline
+\textbf{baseline} & 22.48 & 57.69 & 52.83 & 14.86 & 52.00 & 62.57 \\
++ n-best          & 23.11 & 58.13 & 52.21 & 15.22 & 52.37 & 62.08\\
+\textbf{factored} & 21.33 & 57.11 & 53.56 & 15.10 & 52.19 & 62.52 \\
++ nk-best         & \textbf{24.19} & \textbf{58.72} & \textbf{51.89} & \textbf{16.30} & \textbf{53.18} & \textbf{61.11} \\
+\hline
+ \end{tabular} 
+\caption{\label{tab:wmt_lv} Scores for English-to-Latvian systems}
+\end{center}
+\end{table*}
+
+
+Both Czech and Latvian are morphologically rich languages,
+as opposed to the English source. Such differences
+between the source and target languages leads to difficulties.
+Indeed, an English adjective, that is invariable, may be translated into multiple different word forms corresponding
+to the same lemma. Such a variety of forms on the target
+side leads to serious sparsity issues and makes the estimate
+of reliable translation probabilities hard.
+
+To address this issue, both Czech and Latvian vocabularies have been
+normalized. The normalization of a MRL consists in
+selecting the morpho-syntactic information that should
+remain encoded in a word. This selection is motivated by
+the fact that a target word contains more specificities
+than its source-side counterpart(s), leading to a lack of
+symmetry between both languages. For instance, when
+translating from English into Czech, target nouns mark
+grammatical case, which is removed in \cite{Burlot16reinflection}
+in order to make Czech nouns look more like their English
+translation(s).
+
+Such a normalization is usually performed using hand-crafted
+rules and requires expert knowledge for each language pair.
+In this paper, normalized words are obtained with an
+automatic and data-driven method\footnote{The source code is available at \url{github.com/franckbrl/bilingual_morph_normalizer}}
+introduced in \cite{burlot17normal}.
+
+In a nutshell, it performs a clustering of the morphologically
+rich language by grouping together words that tend to
+share the same translation(s) in English. In order to measure
+this translation similarity and using word alignments, the
+conditional entropy of the translation probability distribution
+over the English vocabulary is computed for
+each word form. The model merges two words whenever the resulting
+aggregate cluster does not lead to an increase of conditional
+entropy, which guaranties a minimal loss of information
+during the clustering procedure.
+
+The normalization model is delexicalized and operates at
+the level of PoS. Each word is represented as a lemma,
+a coarse PoS and a sequence of morphological tags (e.g.
+{\it ko\v{c}ka+Noun+Sing+Accusative}), therefore
+a merge consists in grouping into one cluster two different
+tag sequences. As a result of this procedure, we obtain
+words represented as a lemma and a cluster identificator (ID),
+i.e. a coarse PoS and an arbitrary integer, like {\it ko\v{c}ka+Noun+7}
+in Table~\ref{tab:word_repr}. In this example, the cluster
+ID {\it Noun+7} stands for a set of fine-grained
+PoS, like \{ {\it Sing+Nominative, Sing+Accusative, ...} \}.
+
+In our setup, the cluster ID was systematically split
+from the lemma. BPE segmentation was thus learned and
+applied to lemmas. Whenever the factored NMT system predicts a lemma
+in the first factor, it is forced to predict a null PoS in the
+second factor. On the other hand, when a split cluster ID is
+predicted, the second factor should output an actual PoS. This
+specific treatment of the second factor is expected to give
+the system a better ability to map a word to a PoS that is
+relevant to it, thus avoiding, for instance, the prediction
+of a verbal PoS for the Czech noun {\it ko\v{c}ka} (cat).
+
+The normalization of the
+Czech data was trained on the bibtext parallel data used to train
+the MT systems (see  \textsection~\ref{subsec:data}),
+except Czeng fiction and paraweb subcorpora,
+which lead to over 10M sentences. As for the normalization of Latvian data
+it was trained on
+the same bitext parallel sentences used to train the MT systems.
+
+
+\subsection{Reinflection}
+\label{subsec:reinflection}
+
+\begin{figure*}[t] %%[!htbp] %%[t]
+\centering\resizebox{0.6\textwidth}{!}{%
+\input{ReinflexFigure.tex}
+}
+\caption{Architecture of the neural reinflection model}
+\label{fig:reinflection_arch}
+\end{figure*}
+
+The factored systems predict at each time step a normalized
+word and a PoS-tag, which requires a non-trivial additional
+step producing sentences in a fully inflected language.
+We refer to this last step as reinflection.
+
+Given a lexical unit and a PoS-tag, word forms are retrieved
+with a dictionary lookup. In the context of MRL, deterministic
+mappings from a lemma and a PoS to a form are very rare. Instead,
+the dictionary often proposes several word forms corresponding
+to the same lexical unit and morphological analysis.
+
+A first way to address this ambiguity is to simply compute
+unigram frequencies of each word form, which was done over
+all the monolingual data available at WMT'17 for both Czech
+and Latvian. During a dictionary lookup, ambiguities can
+then be solved by taking the most frequent word form.
+The downside of this procedure is that it ignores important
+information given by the target monolingual context. For instance,
+the Czech preposition {\it s} (with) will have different
+forms according to the right-side context: {\it \textbf{s} tebou} (with you),
+but {\it \textbf{se} mnou} (with me). A solution is to
+let a word-based system select the right word form from
+the dictionary. To this end, k-best hypothesis from the
+dictionary are generated. Given a sentence containing lemmas
+and PoS, we perform a beam search going through each word and keeping at each
+step the k-best reinflection hypothesis according to the
+unigram model mentioned above.
+
+For Czech word form generation, we used the Morphodita
+generator \cite{strakova14morphodita}. Since we had no
+such tool for Latvian, all monolingual data available at
+WMT'17 were automatically tagged using the LU MII Tagger
+\cite{paikens13lv} and we gathered the result in a dictionary.
+As one could expect, we obtained a large quantity of
+word forms (nearly 2.5M), among which a lot of noise
+was noticed.
+
+
+\begin{table*}[!htbp]
+\begin{center}
+\small
+\begin{tabular}{ lcccccc } 
+\hline
+  & \multicolumn{3}{c}{\textbf{Newstest-2016}} & \multicolumn{3}{c}{\textbf{Newstest-2017}} \\
+  & BLEU $\uparrow$ & BEER $\uparrow$ & CTER $\downarrow$ & BLEU $\uparrow$ & BEER $\uparrow$ & CTER $\downarrow$ \\
+\hline
+\textbf{unigrams} & 24.24 & 57.41 & 52.81 & 19.89 & 54.51 & 58.29  \\
++ n-best          & 24.47 & 57.91 & 52.16 & 20.53 & 54.99 & 58.05 \\
+\textbf{neural}   & 21.10 & 56.35 & 53.35 & 17.60 & 53.47 & 59.34 \\
++ n-best          & 21.52 & 56.36 & 53.52 & 18.12 & 53.64 & 59.21 \\
+\hline
+ \end{tabular} 
+\caption{\label{tab:reinflect_cs} Scores for different English-to-Czech reinflection methods.}
+\end{center}
+%% \end{table*}
+
+%% \begin{table*}[tb] %%[!htbp]
+\begin{center}
+\small
+\begin{tabular}{ lcccccc } 
+\hline
+  & \multicolumn{3}{c}{\textbf{Newsdev-2017}} & \multicolumn{3}{c}{\textbf{Newstest-2017}} \\
+  & BLEU $\uparrow$ & BEER $\uparrow$ & CTER $\downarrow$ & BLEU $\uparrow$ & BEER $\uparrow$ & CTER $\downarrow$ \\
+\hline
+\textbf{unigrams} & 22.48 & 57.69 & 52.83 & 14.86 & 52.00 & 62.57 \\
++ n-best          & 22.06 & 57.58 & 52.92 & 15.34 & 52.52 & 61.98 \\
+\textbf{neural}   & 17.48 & 55.38 & 54.82 & 12.39 & 50.75 & 63.85 \\
++ n-best          & 17.96 & 55.69 & 54.43 & 12.64 & 50.89 & 63.62 \\
+\hline
+ \end{tabular} 
+\caption{\label{tab:reinflect_lv} Scores for different English-to-Latvian reinflection methods.}
+\end{center}
+\end{table*}
+
+\subsection{Experimental Results}
+\label{subsec:res_fnmt}
+
+The systems we have submitted at WMT'17 are more specifically the following:
+
+\begin{itemize}
+  \item English-to-Czech baseline: Ensemble of 5 best models.
+  \item English-to-Czech factored: Ensemble of 2 best models with nk-best rescoring using the single best baseline.
+  \item English-to-Latvian baseline: Ensemble of 3 best models with n-best rescoring using the single best Nematus system.
+  \item English-to-Latvian factored: Ensemble of 3 best models with nk-best rescoring using the single best Nematus system.
+\end{itemize}
+
+%%The results for these systems are shown in tables~\ref{tab:wmt_cs} and \ref{tab:wmt_lv}.
+
+The results are reported for these systems in tables~\ref{tab:wmt_cs} and \ref{tab:wmt_lv}, using BLEU, as well as BEER \cite{stanojevic2014beer} and CharacTER~\cite{wang2016character}, which have shown a high correlation with human rankings for MRL \cite{bojar2016metrics}.
+
+As mentioned in Section~\ref{subsec:reinflection}, k-best
+hypothesis from factored systems are rescored using a
+fully inflected word-based system. For Czech, we set
+$k$ to 10. For Latvian, the $k=100$ best
+hypothesis were taken from the dictionary, in order
+to mitigate the poor quality of this dictionary
+by relying more on the rescoring system.
+Additionally to the k-best hypothesis from the dictionary,
+we also took the n-best hypothesis from the factored
+NMT system ($n=30$), which lead to the rescoring of nk-best
+hypothesis by an inflected word based system.
+
+The improvement given by the nk-best setups show
+the advantage of using a word based model to select
+the right word forms instead of relying on simple
+unigram frequencies.
+
+
+\subsection{Reinflection Experiments}
+\label{subsec:reinflection_exp}
+
+To address the disadvantages of the reinflection methods
+presented in section~\ref{subsec:reinflection}, we investigated a neural
+reinflection model. The general architecture is presented
+ in figure~\ref{fig:reinflection_arch}. The model first takes as input
+a $n$-gram centered on the position to reinflect. To each position corresponds
+a lexical unit and $T$ PoS-tags, which are represented by embeddings
+$\mathbf{l}_{i}$ and $(\mathbf{t}^{n}_{i})_{n=1..T}$.
+These are concatenated into a context representation $\mathbf{x}_{i}$
+and transformed into a hidden representation 
+$\mathbf{h}_{i} = \mathbf{W}^{hidden} \mathbf{x}_{i} + \mathbf{b}$.
+
+The second input is a candidate inflected form $w_{i}^{inflected}$.
+We represent it as the sequence of its characters, and use a convolutional
+layer~\cite{Santos14Character} to build its vectorial representation $\mathbf{e}_{w_{i}^{inflected}}$.
+The product of these two representations goes through
+a \emph{sigmoid} activation function. We train the model in a supervised way, by
+feeding positive and negative examples of inflected forms, with labels $1$ and $0$. 
+At test time, the model is given all possible inflected forms obtained in the 
+dictionary, and we choose the one obtaining the best score.
+
+However, our first results show accuracies under the performances of the unigram
+model presented in section~\ref{subsec:reinflection}, for both Czech and Latvian (see Tables~\ref{tab:reinflect_cs} and \ref{tab:reinflect_lv}).
+In future work, we plan to use such a model with a beam search. %% to see if results are improved.
+
+
+\section{Morphology prediction quality}
+
+
+\begin{table*}[!ht] %%[!htbp]
+\begin{center}
+\small
+\begin{tabular}{ l|ccc|cc|cc||c } 
+\hline
+&  \multicolumn{3}{c}{\textbf{verbs}} & \multicolumn{2}{c}{\textbf{pronouns}}  & \multicolumn{2}{c}{\textbf{others}}  & \multicolumn{1}{c}{\textbf{mean}}\\
+\hline
+System & past & future & neg. & fem. & plur. & noun nb. & compar. & \\
+\hline
+\textbf{NMT baseline}      & 92.6\% & 86.2\% & 96.0\% & 91.4\% & 79.2\% & 94.6\% & 76.2\% & 88.0\% \\ 
+\textbf{Factored NMT}      & 94.2\% & 88.0\% & 95.4\% & 91.2\% & 80.0\% & 96.2\% & 75.0\% & 88.6\% \\
+\hline
+ \end{tabular} 
+\caption{\label{table:eval_cs_A} Sentence pair evaluation for English-to-Czech (A-set).}
+\end{center}
+\begin{center}
+\small
+\begin{tabular}{ l|ccc|c|ccc|c||c }
+\hline
+& \multicolumn{3}{c}{\textbf{coordinated verbs}} & \multicolumn{1}{c}{\textbf{coord.n}} & \multicolumn{3}{c}{\textbf{pronouns to nouns}} & \multicolumn{1}{c}{\textbf{prep.}} & \multicolumn{1}{c}{\textbf{mean}}\\
+\hline
+System & number & person & tense & case & gender & number & case & case & \\
+\hline
+\textbf{NMT baseline}       & 76.6\% & 77.0\% & 69.2\% & 90.4\% & 90.8\% & 92.6\% & 92.2\% & 95.3\% & 85.5\% \\
+\textbf{Factored NMT}       & 77.6\% & 77.4\% & 70.6\% & 89.0\% & 91.4\% & 90.8\% & 91.6\% & 96.1\% & 85.6\% \\
+\hline
+ \end{tabular} 
+\caption{\label{table:eval_cs_B} Sentence pair evaluation for English-to-Czech (B-set).}
+\end{center}
+\begin{center}
+\small
+\begin{tabular}{ l|c|ccc|cccc||c } 
+\hline
+& \multicolumn{1}{c}{\textbf{nouns}} & \multicolumn{3}{c}{\textbf{adjectives}} & \multicolumn{4}{c}{\textbf{verbs}} & \multicolumn{1}{c}{\textbf{mean}} \\
+\hline
+System & case & gender & number & case & number & person & tense & negation & \\
+\hline
+\textbf{NMT baseline}       & .205 & .303 & .262 & .301 & .138 & .068 & .082 & .054 & .177 \\ 
+\textbf{Factored NMT}       & .197 & .287 & .255 & .292 & .110 & .062 & .081 & .056 & .168 \\ 
+\hline
+ \end{tabular} 
+\caption{\label{table:eval_cs_C} Sentence group evaluation for English-to-Czech with Entropy (C-set).}
+\end{center}
+%\end{table*}
+
+%\begin{table*}[!htbp]
+\begin{center}
+\small
+\begin{tabular}{ l|cc|cc|c||c }
+\hline
+& \multicolumn{2}{c}{\textbf{verbs}} & \multicolumn{2}{c}{\textbf{pronouns}} & \multicolumn{1}{c}{\textbf{nouns}}  & \multicolumn{1}{c}{\textbf{mean}} \\
+\hline
+System & past & future & fem. & plur. & number & \\
+\hline
+\textbf{NMT baseline}      & 68.8\% & 84.6\% & 64.2\% & 86.8\% & 73.0\% & 75.5\% \\
+\textbf{Factored NMT}      & 69.6\% & 82.8\% & 62.0\% & 89.0\% & 70.6\% & 74.8\% \\
+\hline
+ \end{tabular} 
+\caption{\label{table:eval_lv_A} Sentence pair evaluation for English-to-Latvian (A-set).}
+\end{center}
+\begin{center}
+\small
+\begin{tabular}{ l|ccc|c|ccc|c||c }
+\hline
+& \multicolumn{3}{c}{\textbf{coordinated verbs}} & \multicolumn{1}{c}{\textbf{coord.n}} & \multicolumn{3}{c}{\textbf{pronouns to nouns}} & \multicolumn{1}{c}{\textbf{prep.}}  & \multicolumn{1}{c}{\textbf{mean}} \\
+\hline
+System & number & person & tense & case & gender & number & case & case & \\
+\hline
+\textbf{NMT baseline}      & 69.2\% & 57.6\% & 70.4\% & 41.8\% & 40.0\% & 40.8\% & 35.8\% & 54.6\% & 51.3\% \\ 
+\textbf{Factored NMT}      & 72.4\% & 63.4\% & 73.2\% & 34.8\% & 43.0\% & 42.2\% & 41.4\% & 55.5\% & 53.2\% \\
+\hline
+ \end{tabular} 
+\caption{\label{table:eval_lv_B} Sentence pair evaluation for English-to-Latvian (B-set).}
+\end{center}
+\begin{center}
+\small
+\begin{tabular}{ l|c|ccc|ccc||c } 
+\hline
+& \multicolumn{1}{c}{\textbf{nouns}} & \multicolumn{3}{c}{\textbf{adjectives}} & \multicolumn{3}{c}{\textbf{verbs}} & \multicolumn{1}{c}{\textbf{mean}} \\
+\hline
+System & case & gender & number & case & number & person & tense & \\
+\hline
+\textbf{NMT baseline}      & .255 & .616 & .610 & .644 & .139 & .221 & .134 & .374 \\ 
+\textbf{Factored NMT}      & .233 & .587 & .582 & .612 & .117 & .182 & .113 & .346 \\
+\hline
+ \end{tabular} 
+\caption{\label{table:eval_lv_C} Sentence group evaluation for English-to-Latvian with Entropy (C-set).}
+\end{center}
+\end{table*}
+
+In this section, we attempt to evaluate the improvement
+of our factored NMT systems over the baselines. To this
+end, we ran the evaluation introduced in \cite{burlot16morpheval}
+over all our WMT submissions.
+
+The evaluation of the morphological competence of a machine translation system is performed on an automatically produced test suite.
+For each source test sentence from a monolingual corpus (the \emph{base}), one (or several) \emph{variant(s)} are generated, containing exactly one difference with the base, focusing on a specific \emph{target} lexeme of the base. These variants differ on a feature that is expressed morphologically in the target, such as the person, number or tense of a verb; or the number or case of a noun or an adjective.
+This artificial test set is then translated with a machine translation system.
+The machine translation system is deemed correct if the translations of the base and variant 
+differ in the same way as their respective source.
+Another setup focuses on a word
+in the \emph{base} sentence and produces \emph{variants} containing antonyms
+and synonyms of this word. The expected translation is then synonyms
+and antonyms bearing the same morphological features as the initial word.
+
+There are three types of contrasts implying different sorts of evaluation:
+
+\begin{itemize}
+  \item A: We check whether the morphological feature inserted in the source sentence
+    has been translated (eg. plural number of a noun). Accuracy for all morphological
+    features is averaged over all sentences. (Tables~\ref{table:eval_cs_A} and \ref{table:eval_lv_A})
+  \item B: We focus on various agreement phenomena by checking whether a given morphological
+    feature is present in both words that need to agree (eg. case of two nouns). Accuracy is computed here as well. (Tables~\ref{table:eval_cs_B} and \ref{table:eval_lv_B})
+  \item C: We test the consistency of morphological choices over lexical variation (eg. synonyms and antonyms all having the same tense)
+    and measure the success based on the average normalized entropy of morphological features in the set of target sentences. (Tables~\ref{table:eval_cs_C} and \ref{table:eval_lv_C})
+\end{itemize}
+
+The A-set focuses on the morphological adequacy of the output towards the source
+sentence, which does not seem to have improved with factored NMT systems. The main
+improvement is related to the morphological fluency of the output (B and C-sets),
+although the contrasts are more visible for Latvian than for Czech.
+
+
+
+
+\FloatBarrier
+\section{Conclusions}
+
+This paper described LIMSI's submissions to the News shared task
+at WMT2017, consisting in English-to-Czech and English-to-Latvian
+systems that address the issues of translating into a morphologically
+rich language. Further experiments reported the benefits obtained
+with an efficient parameter initialization procedure, as well
+as data filtering.
+
+
+\section*{Acknowledgments}
+
+This work has been partly funded by the European Union’s
+Horizon 2020 research and innovation programme under grant
+agreement No.~645452 (QT21).
+
+\bibliography{biblio}
+\bibliographystyle{emnlp_natbib}
+
+\end{document}

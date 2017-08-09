@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#Automated Word Stress Detection in Russian
+ShortPaperTitle#=%=#Automated Word Stress Detection in Russian
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#echernyak
+JobTitle#==#
+Organization#==#
+Abstract#==#In this study we address the problem of automated word stress detection in
+Russian using character level models and no part-speech-taggers. We use a
+simple bidirectional RNN with LSTM nodes and achieve accuracy of 90\% or
+higher. We experiment with two training datasets and show that using the data
+from an annotated corpus is much more efficient than using only a dictionary,
+since it allows to retain the context of the word and its morphological
+features.
+Author{1}{Firstname}#=%=#Maria
+Author{1}{Lastname}#=%=#Ponomareva
+Author{1}{Email}#=%=#maponomareva_2@edu.hse.ru
+Author{1}{Affiliation}#=%=#NRU HSE
+Author{2}{Firstname}#=%=#Kirill
+Author{2}{Lastname}#=%=#Milintsevich
+Author{2}{Email}#=%=#knmilintsevich@edu.hse.ru
+Author{2}{Affiliation}#=%=#NRU HSE
+Author{3}{Firstname}#=%=#Ekaterina
+Author{3}{Lastname}#=%=#Chernyak
+Author{3}{Email}#=%=#echernyak@hse.ru
+Author{3}{Affiliation}#=%=#National Research University – Higher School of Economics, Moscow, Russia
+Author{4}{Firstname}#=%=#Anatoly
+Author{4}{Lastname}#=%=#Starostin
+Author{4}{Email}#=%=#anatoli.starostin@gmail.com
+Author{4}{Affiliation}#=%=#NRU HSE
+
+==========

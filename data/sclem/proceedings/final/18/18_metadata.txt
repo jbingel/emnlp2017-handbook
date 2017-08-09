@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#18
+FinalPaperTitle#=%=#Neural Paraphrase Identification of Questions with Noisy Pretraining
+ShortPaperTitle#=%=#Neural Paraphrase Identification of Questions with Noisy Pretraining
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Gaurav Singh Tomar
+JobTitle#==#
+Organization#==#Google Inc.
+Abstract#==#We present a solution to the problem of paraphrase identification of questions.
+We focus on a recent dataset of question pairs annotated with binary paraphrase
+labels and show that a variant of the decomposable attention model (replacing
+the word embeddings of the decomposable attention model of Parikh et al. 2016
+with character n-gram representations) results in accurate performance on this
+task, while being far simpler than many competing neural architectures.
+Furthermore, when the model is pretrained on a noisy dataset of automatically
+collected question paraphrases, it obtains the best reported performance on the
+dataset.
+Author{1}{Firstname}#=%=#Gaurav Singh
+Author{1}{Lastname}#=%=#Tomar
+Author{1}{Email}#=%=#gtomar@google.com
+Author{1}{Affiliation}#=%=#Google Inc.
+Author{2}{Firstname}#=%=#Thyago
+Author{2}{Lastname}#=%=#Duque
+Author{2}{Email}#=%=#thysduque@gmail.com
+Author{2}{Affiliation}#=%=#Google
+Author{3}{Firstname}#=%=#Oscar
+Author{3}{Lastname}#=%=#Täckström
+Author{3}{Email}#=%=#oscar.tackstrom@gmail.com
+Author{3}{Affiliation}#=%=#Google
+Author{4}{Firstname}#=%=#Jakob
+Author{4}{Lastname}#=%=#Uszkoreit
+Author{4}{Email}#=%=#jakob@uszkoreit.net
+Author{4}{Affiliation}#=%=#Google, Inc.
+Author{5}{Firstname}#=%=#Dipanjan
+Author{5}{Lastname}#=%=#Das
+Author{5}{Email}#=%=#dipanjand@gmail.com
+Author{5}{Affiliation}#=%=#Google Inc.
+
+==========

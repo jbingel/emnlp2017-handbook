@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#59
+FinalPaperTitle#=%=#YZU-NLP at EmoInt-2017: Determining Emotion Intensity Using a Bi-directional LSTM-CNN Model
+ShortPaperTitle#=%=#YZU-NLP at EmoInt-2017: Determining Emotion Intensity Using a Bi-directional LSTM-CNN Model
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Liang-Chih Yu
+JobTitle#==#
+Organization#==#
+Abstract#==#The EmoInt-2017 task aims to determine a continuous numerical value
+representing the intensity to which an emotion is expressed in a tweet.
+Compared to classification tasks that identify 1 among n emotions for a tweet,
+the present task can provide more fine-grained (real-valued) sentiment
+analysis. This paper presents a system that uses a bi-directional LSTM-CNN
+model to complete the competition task. Combining bi-directional LSTM and CNN,
+the prediction process considers both global information in a tweet and local
+important information. The proposed method ranked sixth among twenty-one teams
+in terms of Pearson Correlation Coefficient.
+Author{1}{Firstname}#=%=#Yuanye
+Author{1}{Lastname}#=%=#He
+Author{1}{Email}#=%=#1403237206@qq.com
+Author{1}{Affiliation}#=%=#Yuan Ze University
+Author{2}{Firstname}#=%=#Liang-Chih
+Author{2}{Lastname}#=%=#Yu
+Author{2}{Email}#=%=#lcyu@saturn.yzu.edu.tw
+Author{2}{Affiliation}#=%=#Yuan Ze University
+Author{3}{Firstname}#=%=#K. Robert
+Author{3}{Lastname}#=%=#Lai
+Author{3}{Email}#=%=#krlai@saturn.yzu.edu.tw
+Author{3}{Affiliation}#=%=#Yuan Ze University
+Author{4}{Firstname}#=%=#Weiyi
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Email}#=%=#1403237206@qq.com
+Author{4}{Affiliation}#=%=#Yunnan University
+
+==========

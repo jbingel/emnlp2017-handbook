@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#70
+FinalPaperTitle#=%=#Toward Stance Classification Based on Claim Microstructures
+ShortPaperTitle#=%=#Toward Stance Classification Based on Claim Microstructures
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Jan Snajder
+JobTitle#==#
+Organization#==#University of Zagreb
+Faculty of Electrical Engineering and Computing
+Abstract#==#Claims are the building blocks of arguments and the reasons underpinning
+opinions, thus analyzing claims is important for both argumentation mining and
+opinion mining. We propose a framework for representing claims as
+microstructures, which express the beliefs, judgments, and policies about the
+relations between domain-specific concepts. In a proof-of-concept study, we
+manually build microstructures for over 800 claims extracted from an online
+debate. We test the so-obtained microstructures on the task of claim stance
+classification, achieving considerable improvements over text-based baselines.
+Author{1}{Firstname}#=%=#Filip
+Author{1}{Lastname}#=%=#Boltuzic
+Author{1}{Email}#=%=#filipbolt@gmail.com
+Author{1}{Affiliation}#=%=#
+Author{2}{Firstname}#=%=#Jan
+Author{2}{Lastname}#=%=#Šnajder
+Author{2}{Email}#=%=#jan.snajder@fer.hr
+Author{2}{Affiliation}#=%=#University of Zagreb, Faculty of Electrical Engineering and Computing, Unska 3, 10000 Zagreb
+
+==========

@@ -1,0 +1,13 @@
+Multi-task training is an effective method to mitigate the data sparsity
+	problem. 
+	It has recently been applied for cross-lingual transfer learning for paradigm
+	completion---the task of producing inflected forms of lemmata---with
+	sequence-to-sequence networks.
+	However, it is still vague how the model transfers knowledge across languages,
+	as well as if and which information is shared.
+	To investigate this, we propose a set of data-dependent experiments using an
+	existing 
+	encoder-decoder recurrent neural network for the task. Our results show that 
+	indeed the performance gains surpass a pure regularization effect and that
+	knowledge about language and 
+	morphology can be transferred.

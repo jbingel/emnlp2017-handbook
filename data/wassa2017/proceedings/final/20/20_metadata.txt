@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#Annotation, Modelling and Analysis of Fine-Grained Emotions on a Stance and Sentiment Detection Corpus
+ShortPaperTitle#=%=#Annotation, Modelling and Analysis of Fine-Grained Emotions on a Stance and Sentiment Detection Corpus
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Roman Klinger
+JobTitle#==#
+Organization#==#Institut für Maschinelle Sprachverarbeitung, University of Stuttgart, Pfaffenwaldring 5b, 70569 Stuttgart
+Abstract#==#There is a rich variety of data sets for sentiment analysis
+  (viz.,~polarity and subjectivity classification). For the more
+  challenging task of detecting discrete emotions following the
+  definitions of Ekman and Plutchik, however, there are much fewer
+  data sets, and notably no resources for the social media
+  domain. This paper contributes to closing this gap by extending the
+  \textit{SemEval 2016 stance and sentiment dataset} with emotion
+  annotation. We (a) analyse annotation reliability and annotation
+  merging; (b) investigate the relation between emotion annotation and
+  the other annotation layers (stance, sentiment); (c) report
+  modelling results as a baseline for future work.
+Author{1}{Firstname}#=%=#Hendrik
+Author{1}{Lastname}#=%=#Schuff
+Author{1}{Email}#=%=#hendrik.schuff@ims.uni-stuttgart.de
+Author{1}{Affiliation}#=%=#University of Stuttgart
+Author{2}{Firstname}#=%=#Jeremy
+Author{2}{Lastname}#=%=#Barnes
+Author{2}{Email}#=%=#jeremy.barnes@upf.edu
+Author{2}{Affiliation}#=%=#Universitat Pomeu Fabra
+Author{3}{Firstname}#=%=#Julian
+Author{3}{Lastname}#=%=#Mohme
+Author{3}{Email}#=%=#julian.mohme@uni-stuttgart.de
+Author{3}{Affiliation}#=%=#University of Stuttgart
+Author{4}{Firstname}#=%=#Sebastian
+Author{4}{Lastname}#=%=#Padó
+Author{4}{Email}#=%=#pado@ims.uni-stuttgart.de
+Author{4}{Affiliation}#=%=#Stuttgart University
+Author{5}{Firstname}#=%=#Roman
+Author{5}{Lastname}#=%=#Klinger
+Author{5}{Email}#=%=#roman.klinger@ims.uni-stuttgart.de
+Author{5}{Affiliation}#=%=#University of Stuttgart
+
+==========

@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Improving Machine Translation Quality Estimation with Neural Network Features
+ShortPaperTitle#=%=#Improving Machine Translation Quality Estimation with Neural Network Features
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Zhiming Chen
+JobTitle#==#
+Organization#==#Jiangxi Normal University, Jiangxi Province, China
+Abstract#==#Machine translation quality estimation is a challenging task in the WMT
+evaluation campaign. Feature extraction plays an important role in automatic
+quality estimation, and in this paper, we propose neural network features,
+including embedding features and cross-entropy features of source sentences and
+machine translations, to improve machine translation quality estimation. The
+sentence embedding features are extracted through global average pooling from
+word embedding and are trained by the word2vec toolkits, while the sentence
+cross-entropy features are calculated by the recurrent neural network language
+model. The experimental results on the development set of WMT17 machine
+translation quality estimation tasks show that the neural network features gain
+significant improvements over the baseline. Furthermore, when combining the
+neural network features and the baseline features, the system performance
+obtains further improvement.
+Author{1}{Firstname}#=%=#Zhiming
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#qqchenzhiming@gmail.com
+Author{1}{Affiliation}#=%=#Jiangxi Normal University
+Author{2}{Firstname}#=%=#Yiming
+Author{2}{Lastname}#=%=#Tan
+Author{2}{Email}#=%=#tt_yymm@jxnu.edu.cn
+Author{2}{Affiliation}#=%=#Jiangxi Normal University
+Author{3}{Firstname}#=%=#Chenlin
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Email}#=%=#zhangchenlin@jxnu.edu.cn
+Author{3}{Affiliation}#=%=#Jiangxi Normal University
+Author{4}{Firstname}#=%=#Qingyu
+Author{4}{Lastname}#=%=#Xiang
+Author{4}{Email}#=%=#qingyuxiang@jxnu.edu.cn
+Author{4}{Affiliation}#=%=#Jiangxi Normal University
+Author{5}{Firstname}#=%=#Lilin
+Author{5}{Lastname}#=%=#Zhang
+Author{5}{Email}#=%=#1006806747@qq.com
+Author{5}{Affiliation}#=%=#Jiangxi Normal University
+Author{6}{Firstname}#=%=#Maoxi
+Author{6}{Lastname}#=%=#Li
+Author{6}{Email}#=%=#mosesli@yeah.net
+Author{6}{Affiliation}#=%=#School of Computer Information Engineering, Jiangxi Normal University
+Author{7}{Firstname}#=%=#Mingwen
+Author{7}{Lastname}#=%=#WANG
+Author{7}{Email}#=%=#mwwang@jxnu.edu.cn
+Author{7}{Affiliation}#=%=#jiangxi normal university
+
+==========

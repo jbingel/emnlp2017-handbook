@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#27
+FinalPaperTitle#=%=#CASICT-DCU Neural Machine Translation Systems for WMT17
+ShortPaperTitle#=%=#CASICT-DCU Neural Machine Translation Systems for WMT17
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Jinchao Zhang
+JobTitle#==#
+Organization#==#Institute of Computing Technology, Chinese Academy of Sciences
+Abstract#==#We participated in the WMT 2016 shared news translation task on English and
+Chinese language pair.
+Our systems are based on the encoder-decoder neural machine translation model
+with the attention mechanism.
+We employ the Gated Recurrent Unit (GRU) with the linear associative connection
+to build deep encoder and address the unknown words with the dictionary replace
+approach.
+The dictionaries are extracted from the parallel training data with
+unsupervised word alignment method.
+In the decoding procedure, the translation probabilities of the target word
+from different models are averagely combined as the ensemble strategy.
+In this paper, we introduce our systems from data preprocessing to post-editing
+in details.
+Author{1}{Firstname}#=%=#Jinchao
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#zhangjinchao@ict.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Computing Technology, Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Peerachet
+Author{2}{Lastname}#=%=#Porkaew
+Author{2}{Email}#=%=#dingchunfa@ict.ac.cn
+Author{2}{Affiliation}#=%=#Institute of Computing Technology, Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Jiawei
+Author{3}{Lastname}#=%=#Hu
+Author{3}{Email}#=%=#hujiawei@ict.ac.cn
+Author{3}{Affiliation}#=%=#Institute of Computing Technology, Chinese Academy of Sciences
+Author{4}{Firstname}#=%=#Qiuye
+Author{4}{Lastname}#=%=#Zhao
+Author{4}{Email}#=%=#zhaoqiuye@ict.ac.cn
+Author{4}{Affiliation}#=%=#Institute of Computing Technology, Chinese Academy of Sciences
+Author{5}{Firstname}#=%=#Qun
+Author{5}{Lastname}#=%=#Liu
+Author{5}{Email}#=%=#qun.liu@dcu.ie
+Author{5}{Affiliation}#=%=#Dublin City University
+
+==========

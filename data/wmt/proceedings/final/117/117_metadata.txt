@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#117
+FinalPaperTitle#=%=#bleu2vec: the Painfully Familiar Metric on Continuous Vector Space Steroids
+ShortPaperTitle#=%=#bleu2vec
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Mark Fishel
+JobTitle#==#
+Organization#==#University of Tartu, Ülikooli 18, Tartu 50090, Estonia
+Abstract#==#In this participation in the WMT'2017 metrics shared task we implement a fuzzy
+match score for n-gram precisions in the BLEU metric. To do this we learn
+n-gram embeddings; we describe two ways of extending the word2vec approach to
+do so.
+Evaluation results show that the introduced score beats the original BLEU
+metric on system and segment level.
+Author{1}{Firstname}#=%=#Andre
+Author{1}{Lastname}#=%=#Tättar
+Author{1}{Email}#=%=#andre.tattar@ut.ee
+Author{1}{Affiliation}#=%=#University of Tartu
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Fishel
+Author{2}{Email}#=%=#fishel@ut.ee
+Author{2}{Affiliation}#=%=#University of Tartu
+
+==========

@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#72
+FinalPaperTitle#=%=#Evaluating the morphological competence of Machine Translation Systems
+ShortPaperTitle#=%=#Evaluating the morphological competence of Machine Translation Systems
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Franck Burlot
+JobTitle#==#
+Organization#==#LIMSI-CNRS, Rue John Von Neumann, 91400 Orsay, France
+Abstract#==#While recent changes in Machine Translation state-of-the-art
+brought translation quality a step further, it is regularly acknowledged 
+that the standard automatic metrics do not provide enough insights
+to fully measure the impact of neural models.
+This paper proposes a new type of evaluation focused specifically
+on the morphological competence of a system with respect
+to various grammatical phenomena. Our approach uses automatically generated
+pairs of source sentences, where each pair tests one morphological contrast. 
+This methodology is used to compare several systems submitted
+at WMT'17 for English into Czech and Latvian.
+Author{1}{Firstname}#=%=#Franck
+Author{1}{Lastname}#=%=#Burlot
+Author{1}{Email}#=%=#franck.burlot@limsi.fr
+Author{1}{Affiliation}#=%=#LIMSI-CNRS
+Author{2}{Firstname}#=%=#François
+Author{2}{Lastname}#=%=#Yvon
+Author{2}{Email}#=%=#francois.yvon@limsi.fr
+Author{2}{Affiliation}#=%=#LIMSI/CNRS
+
+==========

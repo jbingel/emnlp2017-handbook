@@ -1,0 +1,41 @@
+* Thursday, September 7, 2017
+! 09:00--09:10 Opening Remarks  %by Manaal Faruqui
+! 09:10--09:50 Subword-level Information in NLP using Neural Networks %by Tomas Mikolov
+! 09:50--10:30 Chewing the Fat about Mincing Words %by Invited Talk by Noah Smith
+! 10:30--11:00 Coffee break
+! 11:00--11:40  Neural WFSTs: Tutorial Talk %Invited Talk by Ryan Cotterell
+! 11:40--12:10 Best paper presentations
+! 12:10--14:00 Poster session & Lunch break
+23   # Character and Subword-Based Word Representation for Neural Language Modeling Prediction
+24   # Learning variable length units for SMT between related languages via Byte Pair Encoding
+25   # Character Based Pattern Mining for Neology Detection
+27   # Automated Word Stress Detection in Russian
+28   # A Syllable-based Technique for Word Embeddings of Korean Words
+31   # Supersense Tagging with a Combination of Character, Subword, and Word-level Representations
+32   # Weakly supervised learning of allomorphy
+34   # Character-based recurrent neural networks for morphological relational reasoning
+37   # Glyph-aware Embedding of Chinese Characters
+38   # Exploring Cross-Lingual Transfer of Morphological Knowledge In Sequence-to-Sequence Models
+11   # Language Generation with Recurrent Generative Adversarial Networks without Pre-training
+35   # Align and Copy: Hard Attention Models for Morphological Inflection Generation
+21   # Natural Language Generation through Character-Based RNNs with Finite-State Prior Knowledge 
+26   # Patterns versus Characters in Subword-aware Neural Language Modeling
+! 14:00--14:40  Fully Character Level Neural Machine Translation %Invited Talk by Kyunghyun Cho
+! 14:40--15:50 Poster session & Coffee break
+5   # Unlabeled Data for Morphological Generation With Character-Based Sequence-to-Sequence Models
+8   # Vowel and Consonant Classification through Spectral Decomposition
+9   # Syllable-level Neural Language Model for Agglutinative Language
+10   # Character-based Bidirectional LSTM-CRF with words and characters for Japanese Named Entity Recognition
+12   # Word Representation Models for Morphologically Rich Languages in Neural Machine Translation
+13   # Spell-Checking based on Syllabification and Character-level Graphs for a Peruvian Agglutinative Language
+14   # What do we need to know about an unknown word when parsing German
+15   # A General-Purpose Tagger with Convolutional Neural Networks
+16   # Reconstruction of Word Embeddings from Sub-Word Parameters
+17   # Inflection Generation for Spanish Verbs using Supervised Learning
+18   # Neural Paraphrase Identification of Questions with Noisy Pretraining
+19   # Sub-character Neural Language Modelling in Japanese
+20   # Byte-based Neural Machine Translation
+22   # Improving Opinion-Target Extraction with Character-Level Word Embeddings
+! 15:50--16:30  Acoustic Word Embeddings %Invited Talk by Karen Livescu
+! 16:30--17:30  Panel discussion%by Kyunghyun Cho, Sharon Goldwater, Karen Livescu, Tomas Mikolov, Noah Smith
+! 17:30--17:45  Closing remarks %by Hinrich Schuetze

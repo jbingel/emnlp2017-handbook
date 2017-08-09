@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#4
+FinalPaperTitle#=%=#Improving coreference resolution with automatically predicted prosodic information
+ShortPaperTitle#=%=#Improving coreference resolution with automatically predicted prosodic information
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ina Rösiger
+JobTitle#==#
+Organization#==#IMS, University of Stuttgart
+Abstract#==#Adding manually annotated prosodic information, specifically pitch accents and
+phrasing, to the typical text-based feature set for coreference resolution has
+previously been shown to have a positive effect on German data. Practical
+applications on spoken language, however, would rely on automatically predicted
+prosodic information. In this paper we predict pitch accents (and phrase
+boundaries) using a convolutional neural network (CNN) model from acoustic
+features extracted from the speech signal. After an assessment of the quality
+of these automatic prosodic annotations, we show that they also significantly
+improve coreference resolution.
+Author{1}{Firstname}#=%=#Ina
+Author{1}{Lastname}#=%=#Roesiger
+Author{1}{Email}#=%=#roesigia@ims.uni-stuttgart.de
+Author{1}{Affiliation}#=%=#University of Stuttgart
+Author{2}{Firstname}#=%=#Sabrina
+Author{2}{Lastname}#=%=#Stehwien
+Author{2}{Email}#=%=#sabrina.stehwien@ims.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#University of Stuttgart
+Author{3}{Firstname}#=%=#Arndt
+Author{3}{Lastname}#=%=#Riester
+Author{3}{Email}#=%=#arndt.riester@ims.uni-stuttgart.de
+Author{3}{Affiliation}#=%=#University of Stuttgart
+Author{4}{Firstname}#=%=#Ngoc Thang
+Author{4}{Lastname}#=%=#Vu
+Author{4}{Email}#=%=#thangvu@ims.uni-stuttgart.de
+Author{4}{Affiliation}#=%=#University of Stuttgart
+
+==========

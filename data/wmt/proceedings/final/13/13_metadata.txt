@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#13
+FinalPaperTitle#=%=#The TALP-UPC Neural Machine Translation System for German/Finnish-English Using the Inverse Direction Model in Rescoring
+ShortPaperTitle#=%=#The TALP-UPC Neural Machine Translation System for German/Finnish-English Using the Inverse Direction Model in Rescoring
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Marta R. Costa-jussà
+JobTitle#==#
+Organization#==#Marta R. Costa-jussà
+UPC CAMPUS NORD, C/Jordi Girona s/n, 08024 Barcelona
+Abstract#==#In this paper, we describe the TALP-UPC participation in the News Task for
+German-English and Finish-English. Our primary submission implements a fully
+character to character neural machine translation architecture with an
+additional rescoring of a n-best list of hypothesis using a forced
+back-translation to the source sentence. This model gives consistent
+improvements on different pairs of languages for the language direction with
+the low-est performance while keeping the quality in the direction with the
+highest performance.
+Additional experiments are reported for multilingual character to character
+neural machine translation, phrase-based translation and the additional
+Turkish-English language pair.
+Author{1}{Firstname}#=%=#Carlos
+Author{1}{Lastname}#=%=#Escolano
+Author{1}{Email}#=%=#carlos.escolano@tsc.upc.edu
+Author{1}{Affiliation}#=%=#TALP-UPC
+Author{2}{Firstname}#=%=#Marta R.
+Author{2}{Lastname}#=%=#Costa-jussà
+Author{2}{Email}#=%=#marta.ruiz@upc.edu
+Author{2}{Affiliation}#=%=#Universitat Politècnica de Catalunya
+Author{3}{Firstname}#=%=#José A. R.
+Author{3}{Lastname}#=%=#Fonollosa
+Author{3}{Email}#=%=#jose.fonollosa@upc.edu
+Author{3}{Affiliation}#=%=#Universitat Politècnica de Catalunya
+
+==========

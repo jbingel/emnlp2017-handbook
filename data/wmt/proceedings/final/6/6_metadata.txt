@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#6
+FinalPaperTitle#=%=#XMU Neural Machine Translation Systems for WMT 17
+ShortPaperTitle#=%=#XMU Neural Machine Translation Systems for WMT 17
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Xiaodong Shi
+JobTitle#==#Professor
+Organization#==#Xiamen University, No. 422, Siming South Road, Xiamen, Fujian, China. 361005
+Abstract#==#This paper describes the Neural Machine Translation systems of Xiamen
+University for the translation tasks of WMT 17. Our systems are based on the
+Encoder-Decoder framework with attention. We participated in three directions
+of shared news translation tasks: Englis->German and Chinese<->English. We
+experimented with deep architectures, different segmentation models, synthetic
+training data and target-bidirectional translation models. Experiments show
+that all methods can give substantial improvements.
+Author{1}{Firstname}#=%=#Zhixing
+Author{1}{Lastname}#=%=#Tan
+Author{1}{Email}#=%=#playinf@stu.xmu.edu.cn
+Author{1}{Affiliation}#=%=#Xiamen Univeristy
+Author{2}{Firstname}#=%=#Boli
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#me@bo-li.wang
+Author{2}{Affiliation}#=%=#Xiamen University
+Author{3}{Firstname}#=%=#Jinming
+Author{3}{Lastname}#=%=#Hu
+Author{3}{Email}#=%=#todtom@stu.xmu.edu.cn
+Author{3}{Affiliation}#=%=#Xiamen University
+Author{4}{Firstname}#=%=#Yidong
+Author{4}{Lastname}#=%=#Chen
+Author{4}{Email}#=%=#ydchen@xmu.edu.cn
+Author{4}{Affiliation}#=%=#Department of Cognitive Science, School of Information Science and Technology, Xiamen University
+Author{5}{Firstname}#=%=#xiaodong
+Author{5}{Lastname}#=%=#shi
+Author{5}{Email}#=%=#mandel@xmu.edu.cn
+Author{5}{Affiliation}#=%=#Xiamen University
+
+==========

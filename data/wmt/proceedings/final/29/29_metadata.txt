@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#29
+FinalPaperTitle#=%=#NICT-NAIST System for WMT17 Multimodal Translation Task
+ShortPaperTitle#=%=#NICT-NAIST System for WMT17 Multimodal Translation Task
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jingyi Zhang
+JobTitle#==#
+Organization#==#National Institute of Information and Communications Technology,
+3-5 Hikaridai, Keihanna Science City, Kyoto 619-0289, Japan
+Abstract#==#This paper describes the NICT-NAIST
+system for the WMT 2017 shared multimodal
+machine translation task for both
+language pairs, English-to-German and
+English-to-French. We built a hierarchical
+phrase-based (Hiero) translation system
+and trained an attentional encoder-decoder
+neural machine translation (NMT) model
+to rerank the n-best output of the Hiero
+system, which obtained significant gains
+over both the Hiero system and NMT decoding
+alone. We also present a multimodal
+NMT model that integrates the target
+language descriptions of images that
+are similar to the image described by the
+source sentence as additional inputs of the
+neural networks to help the translation of
+the source sentence. We give detailed
+analysis for the results of the multimodal
+NMT model.
+Author{1}{Firstname}#=%=#Jingyi
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#zhangjingyizz@gmail.com
+Author{1}{Affiliation}#=%=#NICT
+Author{2}{Firstname}#=%=#Masao
+Author{2}{Lastname}#=%=#Utiyama
+Author{2}{Email}#=%=#mutiyama@nict.go.jp
+Author{2}{Affiliation}#=%=#NICT
+Author{3}{Firstname}#=%=#Eiichro
+Author{3}{Lastname}#=%=#Sumita
+Author{3}{Email}#=%=#eiichiro.sumita@nict.go.jp
+Author{3}{Affiliation}#=%=#NICT
+Author{4}{Firstname}#=%=#Graham
+Author{4}{Lastname}#=%=#Neubig
+Author{4}{Email}#=%=#gneubig@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+Author{5}{Firstname}#=%=#Satoshi
+Author{5}{Lastname}#=%=#Nakamura
+Author{5}{Email}#=%=#s-nakamura@is.naist.jp
+Author{5}{Affiliation}#=%=#NAIST
+
+==========

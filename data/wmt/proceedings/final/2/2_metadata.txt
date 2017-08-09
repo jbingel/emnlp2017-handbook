@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#2
+FinalPaperTitle#=%=#C-3MA: Tartu-Riga-Zurich Translation Systems for WMT17
+ShortPaperTitle#=%=#C-3MA: Tartu-Riga-Zurich Translation Systems for WMT17
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Matīss Rikters
+JobTitle#==#
+Organization#==#University of Latvia, 19 Raina Blvd., Riga LV 1586, Latvia
+Abstract#==#This paper describes the neural machine translation systems of the University
+of Latvia, University of Zurich and University of Tartu. We participated in the
+WMT 2017 shared task on news translation by building systems for two language
+pairs: English - German and English - Latvian. Our systems are based on an
+attentional encoder-decoder, using BPE subword segmentation. We experimented
+with backtranslating the monolingual news corpora and filtering out the best
+translations as additional training data, enforcing named entity translation
+from a dictionary of parallel named entities, penalizing over- and
+under-translated sentences, and combining output from multiple NMT systems with
+SMT. The described methods give 0.7 - 1.8 BLEU point improvements over our
+baseline systems.
+Author{1}{Firstname}#=%=#Matīss
+Author{1}{Lastname}#=%=#Rikters
+Author{1}{Email}#=%=#matiss@lielakeda.lv
+Author{1}{Affiliation}#=%=#University of Latvia
+Author{2}{Firstname}#=%=#Chantal
+Author{2}{Lastname}#=%=#Amrhein
+Author{2}{Email}#=%=#chantal.amrhein@bluewin.ch
+Author{2}{Affiliation}#=%=#University of Zurich
+Author{3}{Firstname}#=%=#Maksym
+Author{3}{Lastname}#=%=#Del
+Author{3}{Email}#=%=#maksym.del@ut.ee
+Author{3}{Affiliation}#=%=#University of Tartu
+Author{4}{Firstname}#=%=#Mark
+Author{4}{Lastname}#=%=#Fishel
+Author{4}{Email}#=%=#fishel@ut.ee
+Author{4}{Affiliation}#=%=#University of Tartu
+
+==========

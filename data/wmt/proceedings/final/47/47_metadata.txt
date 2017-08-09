@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#47
+FinalPaperTitle#=%=#Improving Word Sense Disambiguation in Neural Machine Translation with Sense Embeddings
+ShortPaperTitle#=%=#Improving Word Sense Disambiguation in Neural Machine Translation with Sense Embeddings
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Annette Rios
+JobTitle#==#
+Organization#==#Institute of Computational Linguistics
+University of Zurich
+Abstract#==#Word sense disambiguation is necessary in translation because different word
+senses often have different translations. Neural machine translation models
+learn different senses of words as part of an end-to-end translation task, and
+their capability to perform word sense disambiguation has so far not been
+quantified. 
+We exploit the fact that neural translation models can score arbitrary
+translations to design a novel cross-lingual word sense disambiguation task
+that is tailored towards evaluating neural machine translation models. We
+present a test set of 7,200 lexical ambiguities for German-English, and 6,700
+for German-French, and report baseline results. With 70% of lexical
+ambiguities correctly disambiguated, we find that word sense disambiguation
+remains a challenging problem for neural machine translation, especially for
+rare word senses.
+To improve word sense disambiguation in neural machine translation, we
+experiment with two methods to integrate sense embeddings. In a first approach
+we pass sense embeddings as additional input to the neural machine translation
+system. For the second experiment, we extract lexical chains based on
+sense embeddings from the document and integrate this information into the NMT
+model. While a baseline NMT system disambiguates frequent word senses quite
+reliably, the annotation with both sense labels and lexical chains improves the
+neural models’ performance on rare word senses.
+Author{1}{Firstname}#=%=#Annette
+Author{1}{Lastname}#=%=#Rios Gonzales
+Author{1}{Email}#=%=#arios@ifi.uzh.ch
+Author{1}{Affiliation}#=%=#Institute of Computational Linguistics, University of Zurich
+Author{2}{Firstname}#=%=#Laura
+Author{2}{Lastname}#=%=#Mascarell
+Author{2}{Email}#=%=#mascarell@cl.uzh.ch
+Author{2}{Affiliation}#=%=#University of Zurich
+Author{3}{Firstname}#=%=#Rico
+Author{3}{Lastname}#=%=#Sennrich
+Author{3}{Email}#=%=#rico.sennrich@ed.ac.uk
+Author{3}{Affiliation}#=%=#University of Edinburgh
+
+==========

@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#66
+FinalPaperTitle#=%=#Automatic Threshold Detection for Data Selection in Machine Translation
+ShortPaperTitle#=%=#Automatic Threshold Detection for Data Selection in Machine Translation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Mirela-Stefania Duma
+JobTitle#==#
+Organization#==#Mirela-Stefania Duma
+Universität Hamburg, Department Informatik, Vogt-Kölln-Straße 30, D-22527 Hamburg
+Abstract#==#We present in this paper the participation of the University of Hamburg in the
+Biomedical Translation Task of the Second Conference on Machine Translation
+(WMT 2017). Our contribution lies in adopting a new direction for performing
+data selection for Machine Translation via Paragraph Vector and a Feed Forward
+Neural Network Classifier. Continuous distributed vector representations of the
+sentences are used as features for the binary classifier. Most approaches in
+data selection rely on scoring and ranking general domain sentences with
+respect to their similarity to the in-domain and setting a range of thresholds
+for selecting a percentage of them for training various MT systems. The novelty
+of our method consists in developing an automatic threshold detection paradigm
+for data selection which provides an efficient and simple way for selecting the
+most similar sentences to the in-domain. Encouraging results are obtained using
+this approach for seven language pairs and four data sets.
+Author{1}{Firstname}#=%=#Mirela-Stefania
+Author{1}{Lastname}#=%=#Duma
+Author{1}{Email}#=%=#mduma@informatik.uni-hamburg.de
+Author{1}{Affiliation}#=%=#University of Hamburg
+Author{2}{Firstname}#=%=#Wolfgang
+Author{2}{Lastname}#=%=#Menzel
+Author{2}{Email}#=%=#menzel@informatik.uni-hamburg.de
+Author{2}{Affiliation}#=%=#Hamburg University
+
+==========

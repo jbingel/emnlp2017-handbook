@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#Vowel and Consonant Classification through Spectral Decomposition
+ShortPaperTitle#=%=#Vowel and Consonant Classification through Spectral Decomposition
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Patricia Thaine
+JobTitle#==#
+Organization#==#
+Abstract#==#We consider two related problems in this paper. Given an undeciphered
+alphabetic writing system or mono-alphabetic cipher, determine: (1) which of
+its letters are vowels and which are consonants; and (2) whether the writing
+system is a vocalic alphabet or an abjad.  We are able to show that a very
+simple spectral decomposition based on character co-occurrences provides nearly
+perfect performance with respect to answering both question types.
+Author{1}{Firstname}#=%=#Patricia
+Author{1}{Lastname}#=%=#Thaine
+Author{1}{Email}#=%=#pthaine@cs.toronto.edu
+Author{1}{Affiliation}#=%=#University of Toronto
+Author{2}{Firstname}#=%=#Gerald
+Author{2}{Lastname}#=%=#Penn
+Author{2}{Email}#=%=#gpenn@cs.toronto.edu
+Author{2}{Affiliation}#=%=#University of Toronto
+
+==========

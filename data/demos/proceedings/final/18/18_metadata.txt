@@ -1,28 +1,25 @@
 SubmissionNumber#=%=#18
 FinalPaperTitle#=%=#DLATK: Differential Language Analysis ToolKit
-ShortPaperTitle#=%=#
-NumberOfPages#=%=#
-CopyrightSigned#=%=#
+ShortPaperTitle#=%=#DLATK: Differential Language Analysis ToolKit
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Salvatore Giorgi
 JobTitle#==#
-Organization#==#
-Abstract#==#We present Differential Language Analysis Toolkit (DLATK), an open-source
-python package and command-line tool developed for conducting social scientific
-language analyses. 
+Organization#==#World Well-Being Project, University of Pennsylvania
+Abstract#==#We present Differential Language Analysis Toolkit (DLATK), an
+open-source python package and command-line tool developed for conducting
+social-scientific language analyses. 
 While DLATK provides standard NLP pipeline steps such as tokenization or
-svm-classification, its novel strengths lie in analyses useful for
-psychological, health, and social studies:  
-
+SVM-classification, its novel strengths lie in analyses useful for
+psychological, health, and social science:  
 (1) incorporation of extra-linguistic structured information, 
 (2) specified levels and units of analysis (e.g. document, user, community),
 (3) statistical metrics for continuous outcomes, and 
-(4) robust, proven, and accurate pipelines for social scientific prediction
-problems.
-
+(4) robust, proven, and accurate pipelines for social-scientific prediction
+problems. 
 DLATK integrates multiple popular packages (SKLearn, Mallet), enables
-interactive (iPython, Jupyter) usage, and generally follows abstraction and
-object oriented principles to make it easy to tie in additional libraries or
-storage technologies. DLATK has thus far been used in 32 computer and social
-scientific peer-reviewed publications.
+interactive usage (Jupyter Notebooks), and generally follows object oriented
+principles to make it easy to tie in additional libraries or storage
+technologies.
 Author{1}{Firstname}#=%=#H. Andrew
 Author{1}{Lastname}#=%=#Schwartz
 Author{1}{Email}#=%=#has@cs.stonybrook.edu

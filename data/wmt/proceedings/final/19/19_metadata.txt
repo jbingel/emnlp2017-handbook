@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#19
+FinalPaperTitle#=%=#Predictor-Estimator using Multilevel Task Learning with Stack Propagation for Neural Quality Estimation
+ShortPaperTitle#=%=#Predictor-Estimator using Multilevel Task Learning with Stack Propagation for Neural Quality Estimation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Hyun Kim
+JobTitle#==#Ph.D Candidate
+Organization#==#POSTECH
+77 Cheongam-Ro. Nam-Gu. Pohang. Gyeongbuk. Korea 37673
+Abstract#==#In this paper, we present a two-stage neural quality estimation model that uses
+multilevel task learning for translation quality estimation (QE) at the
+sentence, word, and phrase levels. Our approach is based on an end-to-end
+stacked neural model named Predictor-Estimator, which has two stages consisting
+of a neural word prediction model and neural QE model. 
+To efficiently train the two-stage model, a stack propagation method is
+applied, thereby enabling us to jointly learn the word prediction model and QE
+model in a single learning mode. In addition, we deploy multilevel task
+learning with stack propagation, where the training examples available for all
+QE subtasks (i.e., sentence/word/phrase levels) are used to train a
+Predictor-Estimator for a specific subtask. All of our submissions to the QE
+task of WMT17 are ensembles that combine a set of neural models trained under
+different settings of varying dimensionalities and shuffling training examples,
+eventually achieving the best performances for all subtasks at the sentence,
+word, and phrase levels.
+Author{1}{Firstname}#=%=#Hyun
+Author{1}{Lastname}#=%=#Kim
+Author{1}{Email}#=%=#hkim.postech@gmail.com
+Author{1}{Affiliation}#=%=#POSTECH
+Author{2}{Firstname}#=%=#Jong-Hyeok
+Author{2}{Lastname}#=%=#Lee
+Author{2}{Email}#=%=#jhlee@postech.ac.kr
+Author{2}{Affiliation}#=%=#POSTECH (Pohang Univ. of Sci. & Tech.)
+Author{3}{Firstname}#=%=#Seung-Hoon
+Author{3}{Lastname}#=%=#Na
+Author{3}{Email}#=%=#nash@jbnu.ac.kr
+Author{3}{Affiliation}#=%=#Chonbuk National University
+
+==========

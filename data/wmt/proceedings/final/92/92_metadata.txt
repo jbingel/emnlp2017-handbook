@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#92
+FinalPaperTitle#=%=#LIUM Machine Translation Systems for WMT17 News Translation Task
+ShortPaperTitle#=%=#LIUM Machine Translation Systems for WMT17 News Translation Task
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Mercedes Garcia-Martinez
+JobTitle#==#
+Organization#==#University of Le Mans, France
+Abstract#==#This paper describes LIUM submissions to WMT17 News Translation Task
+for English-German, English-Turkish, English-Czech and English-Latvian language
+pairs. We train BPE-based attentive Neural Machine Translation systems with and
+without factored outputs using the open source nmtpy framework. Competitive
+scores were obtained by ensembling various systems and exploiting the
+availability of target monolingual corpora for back-translation. The impact of
+back-translation quantity and quality is also analyzed for English-Turkish
+where our post-deadline submission surpassed the best entry by +1.6 BLEU.
+Author{1}{Firstname}#=%=#Mercedes
+Author{1}{Lastname}#=%=#García-Martínez
+Author{1}{Email}#=%=#mercedes.garcia_martinez@univ-lemans.fr
+Author{1}{Affiliation}#=%=#LIUM, University of Le Mans
+Author{2}{Firstname}#=%=#Ozan
+Author{2}{Lastname}#=%=#Caglayan
+Author{2}{Email}#=%=#ozancag@gmail.com
+Author{2}{Affiliation}#=%=#LIUM, Le Mans University
+Author{3}{Firstname}#=%=#Walid
+Author{3}{Lastname}#=%=#Aransa
+Author{3}{Email}#=%=#walid.aransa@univ-lemans.fr
+Author{3}{Affiliation}#=%=#LIUM
+Author{4}{Firstname}#=%=#Adrien
+Author{4}{Lastname}#=%=#Bardet
+Author{4}{Email}#=%=#adrienbardet.mt@gmail.com
+Author{4}{Affiliation}#=%=#LIUM - Laboratoire d'Informatique de L'Université du Maine
+Author{5}{Firstname}#=%=#Fethi
+Author{5}{Lastname}#=%=#Bougares
+Author{5}{Email}#=%=#fethi.bougares@univ-lemans.fr
+Author{5}{Affiliation}#=%=#LIUM- Le Mans University
+Author{6}{Firstname}#=%=#Loïc
+Author{6}{Lastname}#=%=#Barrault
+Author{6}{Email}#=%=#loic.barrault@univ-lemans.fr
+Author{6}{Affiliation}#=%=#LIUM, Le Mans University
+
+==========

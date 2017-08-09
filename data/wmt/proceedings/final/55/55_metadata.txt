@@ -1,0 +1,59 @@
+SubmissionNumber#=%=#55
+FinalPaperTitle#=%=#SYSTRAN Purely Neural MT Engines for WMT2017
+ShortPaperTitle#=%=#SYSTRAN Purely Neural MT Engines for WMT2017
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Josep Crego
+JobTitle#==#
+Organization#==#SYSTRAN
+5 rye Feydeau
+75002 Paris (France)
+Abstract#==#This paper describes SYSTRAN's systems submitted to the WMT 2017 shared news
+translation task for English-German, in both translation directions. Our
+systems are built using OpenNMT, an open-source neural machine translation
+system, implementing sequence-to-sequence models with LSTM encoder/decoders and
+attention. We experimented using monolingual data automatically
+back-translated. Our resulting models are further hyper-specialised with an
+adaptation technique that finely tunes models according to the evaluation test
+sentences.
+Author{1}{Firstname}#=%=#Yongchao
+Author{1}{Lastname}#=%=#Deng
+Author{1}{Email}#=%=#yongchao.deng@systrangroup.com
+Author{1}{Affiliation}#=%=#SYSTRAN
+Author{2}{Firstname}#=%=#Jungi
+Author{2}{Lastname}#=%=#Kim
+Author{2}{Email}#=%=#jungi.kim@systrangroup.com
+Author{2}{Affiliation}#=%=#SYSTRAN
+Author{3}{Firstname}#=%=#Guillaume
+Author{3}{Lastname}#=%=#Klein
+Author{3}{Email}#=%=#guillaume.klein@systrangroup.com
+Author{3}{Affiliation}#=%=#SYSTRAN
+Author{4}{Firstname}#=%=#Catherine
+Author{4}{Lastname}#=%=#KOBUS
+Author{4}{Email}#=%=#catherine.kobus@systrangroup.com
+Author{4}{Affiliation}#=%=#Systran
+Author{5}{Firstname}#=%=#Natalia
+Author{5}{Lastname}#=%=#Segal
+Author{5}{Email}#=%=#natalia.segal@systrangroup.com
+Author{5}{Affiliation}#=%=#Systran
+Author{6}{Firstname}#=%=#Christophe
+Author{6}{Lastname}#=%=#Servan
+Author{6}{Email}#=%=#christophe.servan@gmail.com
+Author{6}{Affiliation}#=%=#SYSTRAN
+Author{7}{Firstname}#=%=#Bo
+Author{7}{Lastname}#=%=#Wang
+Author{7}{Email}#=%=#bo.wang@systrangroup.com
+Author{7}{Affiliation}#=%=#SYSTRAN
+Author{8}{Firstname}#=%=#Dakun
+Author{8}{Lastname}#=%=#Zhang
+Author{8}{Email}#=%=#dakun.zhang@systrangroup.com
+Author{8}{Affiliation}#=%=#SYSTRAN
+Author{9}{Firstname}#=%=#Josep
+Author{9}{Lastname}#=%=#Crego
+Author{9}{Email}#=%=#josep.crego@systrangroup.com
+Author{9}{Affiliation}#=%=#SYSTRAN
+Author{10}{Firstname}#=%=#Jean
+Author{10}{Lastname}#=%=#Senellart
+Author{10}{Email}#=%=#senellart@systran.fr
+Author{10}{Affiliation}#=%=#SYSTRAN
+
+==========

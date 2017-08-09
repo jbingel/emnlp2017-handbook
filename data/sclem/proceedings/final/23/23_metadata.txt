@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#Character and Subword-Based Word Representation for Neural Language Modeling Prediction
+ShortPaperTitle#=%=#Character and Subword-Based Word Representation for Neural Language Modeling Prediction
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Matthieu Labeau
+JobTitle#==#
+Organization#==#LIMSI-CNRS
+Campus universitaire bât 508
+Rue John von Neumann
+F - 91405 Orsay cedex
+Abstract#==#Most of neural language models use different kinds of embeddings for
+  word prediction. While word embeddings can be associated to each
+  word in the vocabulary or derived from characters as well as
+  factored morphological decomposition, these word representations are
+  mainly used to parametrize the input, i.e. the context of
+  prediction.  This work investigates the effect of using subword
+  units (character and factored morphological decomposition) to build
+  output representations for neural language modeling. We present a
+  case study on Czech, a morphologically-rich language, experimenting
+  with different input and output representations.  When working with
+  the full training vocabulary, despite unstable training, our
+  experiments show that augmenting the output word representations
+  with character-based embeddings can significantly improve the
+  performance of the model. Moreover, reducing the size of the output
+  look-up table, to let the character-based embeddings represent rare
+  words, brings further improvement.
+Author{1}{Firstname}#=%=#Matthieu
+Author{1}{Lastname}#=%=#Labeau
+Author{1}{Email}#=%=#labeau@limsi.fr
+Author{1}{Affiliation}#=%=#Université de Paris-Sud / LIMSI-CNRS
+Author{2}{Firstname}#=%=#Alexandre
+Author{2}{Lastname}#=%=#Allauzen
+Author{2}{Email}#=%=#allauzen@limsi.fr
+Author{2}{Affiliation}#=%=#Université Paris-Sud / LIMSI-CNRS
+
+==========

@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#Byte-based Neural Machine Translation
+ShortPaperTitle#=%=#Byte-based Neural Machine Translation
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Marta R. Costa-jussà
+JobTitle#==#
+Organization#==#Marta R. Costa-jussà
+UPC Campus Nord, Jordi Girona s/n, 08034 Barcelona
+Abstract#==#This paper presents experiments comparing character-based and byte-based neural
+machine translation systems. The main motivation of the byte-based neural
+machine translation system is to build multi-lingual neural machine translation
+systems that can share the same vocabulary. We compare the performance of both
+systems in several language pairs and we see that the performance in test is
+similar for most language pairs while the training time is slightly reduced in
+the case of byte-based neural machine translation.
+Author{1}{Firstname}#=%=#Marta R.
+Author{1}{Lastname}#=%=#Costa-jussà
+Author{1}{Email}#=%=#marta.ruiz@upc.edu
+Author{1}{Affiliation}#=%=#Universitat Politècnica de Catalunya
+Author{2}{Firstname}#=%=#Carlos
+Author{2}{Lastname}#=%=#Escolano
+Author{2}{Email}#=%=#carlos.escolano@tsc.upc.edu
+Author{2}{Affiliation}#=%=#TALP-UPC
+Author{3}{Firstname}#=%=#José A. R.
+Author{3}{Lastname}#=%=#Fonollosa
+Author{3}{Email}#=%=#jose.fonollosa@upc.edu
+Author{3}{Affiliation}#=%=#Universitat Politècnica de Catalunya
+
+==========

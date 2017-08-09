@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#68
+FinalPaperTitle#=%=#LIPN-UAM at EmoInt-2017:Combination of Lexicon-based features and Sentence-level Vector Representations for Emotion Intensity Determination
+ShortPaperTitle#=%=#LIPN-UAM at EmoInt-2017
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Davide Buscaldi
+JobTitle#==#
+Organization#==#LIPN, Université Paris 13, 99 av. Jean-Baptiste Clément, 99430 Villetaneuse, France
+Abstract#==#This paper presents the combined LIPN-UAM participation in the WASSA 2017
+Shared Task on Emotion Intensity. In particular, the paper provides some
+highlights on the Tweetaneuse system that was presented to the shared task. We
+combined lexicon-based features with sentence-level vector representations to
+implement a random forest regressor.
+Author{1}{Firstname}#=%=#Davide
+Author{1}{Lastname}#=%=#Buscaldi
+Author{1}{Email}#=%=#davide.buscaldi@lipn.univ-paris13.fr
+Author{1}{Affiliation}#=%=#LIPN, Université Paris 13
+Author{2}{Firstname}#=%=#Belem
+Author{2}{Lastname}#=%=#Priego
+Author{2}{Email}#=%=#belemps@gmail.com
+Author{2}{Affiliation}#=%=#UAM
+
+==========

@@ -1,0 +1,50 @@
+SubmissionNumber#=%=#60
+FinalPaperTitle#=%=#The AFRL-MITLL WMT17 Systems: Old, New, Borrowed, BLEU
+ShortPaperTitle#=%=#The AFRL-MITLL WMT17 Systems: Old, New, Borrowed, BLEU
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#Air Force Research Laboratory
+2255 H Street
+WPAFB, OH 45433
+USA
+Abstract#==#This paper describes the AFRL machine translation systems and the improvements
+that were developed during the WMT17 evaluation campaign. This year, we explore
+the continuing proliferation of Neural Machine Translation toolkits, revisit
+our previous data-selection efforts for use in training systems with these
+new toolkits and expand our participation to the Russian–English,
+Turkish–English and Chinese–English translation pairs.
+Author{1}{Firstname}#=%=#Jeremy
+Author{1}{Lastname}#=%=#Gwinnup
+Author{1}{Email}#=%=#jeremy.gwinnup.1@us.af.mil
+Author{1}{Affiliation}#=%=#Air Force Research Laboratory
+Author{2}{Firstname}#=%=#Timothy
+Author{2}{Lastname}#=%=#Anderson
+Author{2}{Email}#=%=#timothy.anderson.20@us.af.mil
+Author{2}{Affiliation}#=%=#Air Force Research Laboratory
+Author{3}{Firstname}#=%=#Grant
+Author{3}{Lastname}#=%=#Erdmann
+Author{3}{Email}#=%=#grand.erdmann@us.af.mil
+Author{3}{Affiliation}#=%=#Air Force Research Laboratory
+Author{4}{Firstname}#=%=#Katherine
+Author{4}{Lastname}#=%=#Young
+Author{4}{Email}#=%=#katherinemccreightyoung@gmail.com
+Author{4}{Affiliation}#=%=#N-Space Analysis LLC
+Author{5}{Firstname}#=%=#Michaeel
+Author{5}{Lastname}#=%=#Kazi
+Author{5}{Email}#=%=#michaeel.kazi@gmail.com
+Author{5}{Affiliation}#=%=#MIT Lincoln Laboratory
+Author{6}{Firstname}#=%=#Elizabeth
+Author{6}{Lastname}#=%=#Salesky
+Author{6}{Email}#=%=#elizabeth.salesky@gmail.com
+Author{6}{Affiliation}#=%=#Carnegie Mellon University
+Author{7}{Firstname}#=%=#Brian
+Author{7}{Lastname}#=%=#Thompson
+Author{7}{Email}#=%=#brian.thompson@ll.mit.edu
+Author{7}{Affiliation}#=%=#MIT Lincoln Laboratory
+Author{8}{Firstname}#=%=#Jonathan
+Author{8}{Lastname}#=%=#Taylor
+Author{8}{Email}#=%=#jonathan.taylor@ll.mit.edu
+Author{8}{Affiliation}#=%=#MIT Lincoln Laboratory
+
+==========

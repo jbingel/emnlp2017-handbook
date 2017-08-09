@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#10
+FinalPaperTitle#=%=#Spoken Term Discovery for Language Documentation using Translations
+ShortPaperTitle#=%=#Spoken Term Discovery for Language Documentation using Translations
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Antonios Anastasopoulos
+JobTitle#==#Graduate Student
+Organization#==#University of Notre Dame du Lac
+Abstract#==#Vast amounts of speech data collected for language documentation and research
+remain untranscribed and unsearchable, but often a small amount of speech may
+have text translations available. We present a method for partially labeling
+additional speech with translations in this scenario. We modify an unsupervised
+speech-to-translation alignment model and obtain prototype speech segments that
+match the translation words, which are in turn used to discover terms in the
+unlabelled data. We evaluate our method on a Spanish-English speech translation
+corpus and on two corpora of endangered languages, Arapaho and Ainu,
+demonstrating its appropriateness and applicability in an actual
+very-low-resource scenario.
+Author{1}{Firstname}#=%=#Antonios
+Author{1}{Lastname}#=%=#Anastasopoulos
+Author{1}{Email}#=%=#aanastas@nd.edu
+Author{1}{Affiliation}#=%=#University of Notre Dame
+Author{2}{Firstname}#=%=#Sameer
+Author{2}{Lastname}#=%=#Bansal
+Author{2}{Email}#=%=#sameer.bansal@ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+Author{3}{Firstname}#=%=#David
+Author{3}{Lastname}#=%=#Chiang
+Author{3}{Email}#=%=#dchiang@nd.edu
+Author{3}{Affiliation}#=%=#University of Notre Dame
+Author{4}{Firstname}#=%=#Sharon
+Author{4}{Lastname}#=%=#Goldwater
+Author{4}{Email}#=%=#sgwater@inf.ed.ac.uk
+Author{4}{Affiliation}#=%=#University of Edinburgh
+Author{5}{Firstname}#=%=#Adam
+Author{5}{Lastname}#=%=#Lopez
+Author{5}{Email}#=%=#alopez@inf.ed.ac.uk
+Author{5}{Affiliation}#=%=#University of Edinburgh
+
+==========

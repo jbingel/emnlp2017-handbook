@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#65
+FinalPaperTitle#=%=#DMGroup at EmoInt-2017: Emotion Intensity Using Ensemble Method
+ShortPaperTitle#=%=#DMGroup at EmoInt-2017: Emotion Intensity Using Ensemble Method
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Song Jiang
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper, we present a novel ensemble learning architecture for emotion
+intensity analysis, particularly a novel framework of ensemble method. The
+ensemble method has two stages and each stage includes several single machine
+learning models. In stage1, we employ both linear and nonlinear regression
+models to obtain a more diverse emotion intensity representation. In stage2, we
+use two regression models including linear regression and XGBoost. The result
+of stage1 serves as the input of stage2, so the two different type models
+(linear and non-linear) in stage2 can describe the input in two opposite
+aspects. We also added a method for analyzing and splitting multi-words
+hashtags and appending them to the emotion intensity corpus before feeding it
+to our model. Our model achieves 0.571 Pearson-measure for the average of four
+emotions.
+Author{1}{Firstname}#=%=#Song
+Author{1}{Lastname}#=%=#Jiang
+Author{1}{Email}#=%=#kakachaguan@126.com
+Author{1}{Affiliation}#=%=#Tsinghua University
+Author{2}{Firstname}#=%=#Xiaotian
+Author{2}{Lastname}#=%=#Han
+Author{2}{Email}#=%=#stentor@163.com
+Author{2}{Affiliation}#=%=#Beijing University of Posts and Telecommunications
+
+==========

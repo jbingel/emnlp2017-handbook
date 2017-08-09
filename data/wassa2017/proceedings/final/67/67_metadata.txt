@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#67
+FinalPaperTitle#=%=#WASSA-2017 Shared Task on Emotion Intensity
+ShortPaperTitle#=%=#WASSA-2017 Shared Task on Emotion Intensity
+NumberOfPages#=%=#16
+CopyrightSigned#=%=#NA
+JobTitle#==#
+Organization#==#National Research Council Canada
+Abstract#==#We present the first shared task on detecting the intensity of emotion felt by
+the speaker of a tweet. We create the first datasets of tweets annotated for
+anger, fear, joy, and sadness intensities using a technique called best–worst
+scaling (BWS). We show that the annotations lead to reliable fine-grained
+intensity scores (rankings of tweets by intensity). The data was partitioned
+into training, development, and test sets for the competition. Twenty-two
+teams participated in the shared task, with the best system obtaining a Pearson
+correlation of 0.747 with the gold intensity scores. We summarize the machine
+learning setups, resources, and tools used by the participating teams, with a
+focus on the techniques and resources that are particularly useful for the
+task. The emotion intensity dataset and the shared task are helping improve our
+understanding of how we convey more or less intense emotions through language.
+Author{1}{Firstname}#=%=#Saif
+Author{1}{Lastname}#=%=#Mohammad
+Author{1}{Email}#=%=#saif.mohammad@nrc-cnrc.gc.ca
+Author{1}{Affiliation}#=%=#NRC
+Author{2}{Firstname}#=%=#Felipe
+Author{2}{Lastname}#=%=#Bravo-Marquez
+Author{2}{Email}#=%=#felipebravom@gmail.com
+Author{2}{Affiliation}#=%=#University of Waikato
+
+==========

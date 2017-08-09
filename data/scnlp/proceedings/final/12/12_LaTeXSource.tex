@@ -1,0 +1,491 @@
+%\title{emnlp 2017 instructions}
+% File emnlp2017.tex
+%
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{emnlp2017}
+\usepackage{natbib}
+\usepackage{times}
+\usepackage{latexsym}
+
+% added packages
+\usepackage[utf8]{inputenc}
+% bold captions and 9pt font (http://tex.stackexchange.com/questions/24599/what-point-pt-font-size-are-large-etc)
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+% Nicer tables, top and bottom rules for table
+\usepackage{booktabs}
+\usepackage{multirow}
+% listings
+\usepackage{listings}
+%\lstset{aboveskip=20pt,belowskip=20pt}
+% Required for including images
+\usepackage{graphicx}
+% dp
+\usepackage{tikz-dependency}
+% phrase-structure trees
+\usepackage{qtree}
+% smaller urls
+\usepackage{relsize}
+\renewcommand*{\UrlFont}{\ttfamily\smaller\relax}
+
+\usepackage[hang,flushmargin]{footmisc} % footnotes not indented
+
+% Last package to be loaded: references with caption names
+\usepackage{cleveref}
+
+% Uncomment this line for the final submission:
+\emnlpfinalcopy
+
+%  Enter the EMNLP Paper ID here:
+\def\emnlppaperid{12}
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+
+\title{Enriching ASR Lattices with POS Tags for Dependency Parsing}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a seperate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+% If the title and author information does not fit in the area allocated,
+% place \setlength\titlebox{<new height>} right after
+% at the top, where <new height> can be something larger than 2.25in
+\author{Moritz Stiefel \and Ngoc Thang Vu \\
+    Institute for Natural Language Processing (IMS) \\
+    Universit\"{a}t Stuttgart \\
+    Pfaffenwaldring 5B \\
+    70569 Stuttgart \\
+    {\tt {\{moritz.stiefel,thang.vu\}}@ims.uni-stuttgart.de}}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Parsing speech requires a richer representation than $1$-best or $n$-best hypotheses, e.g. lattices. Moreover, previous work shows that part-of-speech (POS) tags are a valuable resource for parsing.
+In this paper, we therefore explore a joint modeling approach of automatic speech recognition (ASR) and POS tagging to enrich ASR word lattices.
+To that end, we manipulate the ASR process from the pronouncing dictionary onward to use word-POS pairs instead of words. 
+We evaluate ASR, POS tagging and dependency parsing (DP) performance demonstrating a successful lattice-based integration of ASR and POS tagging.
+\end{abstract}
+
+\section{Introduction}\label{sec:intro}
+Parsing speech is an essential part \citep[][]{ChowRoukos:1989,MooreEtal:1989,SuEtal:1992,ChappelierEtal:1999,CollinsEtal:2004} of spoken language understanding (SLU) and difficult because spontaneous speech and syntax clash \citep[][]{EhrlichHanrieder:1996,CharniakJohnson:2001,BechetEtal:2014:is}. Pipeline approaches concatenating a speech recognizer, a POS tagger and a parser often rely on $n$-best hypotheses decoded from lattices. While $n$-best hypotheses cover more of the hypothesis space than the $1$-best hypothesis, they are redundant and incomplete. Lattices on the other hand are efficiently representing all hypotheses under consideration and therefore allow recovery from more ASR errors. Recent work on recurrent neural network architectures with lattices as input \citep{LadhakEtal:2016,SuEtal:2017} promises the use of enriched lattices in SLU.
+
+The main contribution of this work is establishing a joint ASR and POS tagging approach using the Kaldi \citep{PoveyEtal:2011} toolkit. To that end, we enrich the ASR word lattices with POS labels for all possible hypotheses on the word level. This enables subsequent natural language processing (NLP) machinery to use these syntactically richer lattices. We present our proposed method in detail including Kaldi specifics and address problems that occur when data that requires both speech and text information is used. Our results show a slight but consistent improvement of the joint model throughout the evaluations in ASR, POS tagging and DP performance.
+
+\section{Resources}\label{sec:res}
+We need a data resource with rich annotations for training our integrated model. Since the training process requires audio transcriptions, POS labels and gold-standard syntax annotations, all of these need to be available. Considering the general premise in data-driven methods that more data is better data, we choose the Switchboard-1 Release 2\footnote{LDC: \url{https://catalog.ldc.upenn.edu/LDC97S62} \citep{GodfreyHolliman:1993}} \citep{GodfreyEtal:1992} corpus with about 2400 dialogs. The Switchboard (SWBD) corpus has more recently been furnished with the NXT Switchboard annotations\footnote{LDC (under CC):\newline \url{https://catalog.ldc.upenn.edu/LDC2009T26} \mbox{\citep{CalhounEtal:2009}}} \mbox{\citep{CalhounEtal:2010}}. NXT provides a plethora of annotations and most importantly for our work, an alignment of Treebank-3\footnote{Treebank-3 at the LDC: \url{https://catalog.ldc.upenn.edu/LDC99T42}} \citep{MitchellEtal:1999} text and SWBD transcriptions\footnote{We used the corrected Mississippi State (MS-State) transcriptions: \url{https://www.isip.piconepress.com/projects/switchboard/}}. While the Treebank-3 corpus provides syntax and POS tags, the transcriptions are timestamped. The alignment of these two resources offered by the NXT corpus contains all necessary annotations.
+
+\subsection{Audio}\label{ssec:audio}
+Kaldi's SWBD \emph{s5c} recipe subsets the SWBD (LDC97S62) corpus into various training and development sets for acoustic model (AM) and language model (LM) training. For ASR evaluation, the \emph{s5c} recipe uses a separate evaluation corpus LDC2002S09\footnote{\url{https://catalog.ldc.upenn.edu/LDC2002S09}} of previously unreleased SWBD conversations \citep{LDC:2002}, which was not available to us. Likewise unavailable were the Fisher corpora LDC2004T19\footnote{\url{https://catalog.ldc.upenn.edu/LDC2004T19}} \citep{CieriEtal:2004} and LDC2005T19\footnote{\url{https://catalog.ldc.upenn.edu/LDC2005T19}} \citep{CieriEtal:2005}, which contain transcripts of conversational telephone speech for language modeling. We utilize the available SWBD data (the training set in the \emph{s5c} recipe) and split it into training, development and evaluation set. Our results are therefore not directly comparable to other results generated from the Kaldi \emph{s5c} recipe. We instead split our sets after the Treebank-3 splits as proposed by \citet{CharniakJohnson:2001}. This leads to less training data compared to the standard \emph{s5c} recipe, but also yields splits common in parsing. A data summary of our SWBD splits is given in \Cref{tab:swbd}. The \emph{lmdev} section of the SWBD corpus serves as the LM's development set and was ``reserved for future use'' \citep[p. 121]{CharniakJohnson:2001}.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{@{}lrrr@{}}
+        \toprule
+        Set   & Conv. IDs & \# utt. & \# tok. \\ \midrule
+        train & 2xxx-3xxx     & 90823      & 677160 \\
+        dev   & 4519-4936     & 5697       & 50148 \\
+        eval  & 4004-4153     & 5822       & 48320 \\ 
+        lmdev & 4154-4483     & 5949       & 50017 \\ \bottomrule
+    \end{tabular}
+    \caption{Summary of SWBD data splits. The columns for utterances, tokens, average tokens per utterance and vocabulary depend on the choice of the transcription. These are the counts for our Treebank-3 transcription.}
+    \label{tab:swbd}
+\end{table}
+
+\subsection{Transcription}\label{ssec:trans}
+While the NXT annotations provide a link between MS-State transcriptions and Treebank-3 text, we exploit this link only for the MS-State transcription's timestamps and base our lexicon and LMs on the Treebank-3 text, rather than the MS-State transcriptions. This introduces a number of text-audio mismatches, or in other words, what is said is not what is in the annotated text. \Cref{fig:nxt} illustrates contractions as one characteristic difference in the tokenization of the two transcriptions: ``doesn't'' is represented as two tokens in the Treebank-3 data, while it is expressed as one token in the MS-State version.
+\begin{figure}[h!]
+    \centering
+    \includegraphics[clip, trim=5cm 7.8cm 5cm 19.2cm, width=\columnwidth]{swbd_nxt_trans}
+    \caption[MS-State vs Treebank-3 transcription.]{MS-State vs Treebank-3 transcription, from \citet[p.~392]{CalhounEtal:2010}. Treebank-3 transcriptions (\textit{word}, in light gray) are mapped to the MS-State transcriptions (\textit{phonword} in blue) through 1-to-n relations, where multiple words in one transcription can be linked to one in the other. The box colored in black with \emph{syl/n} in it depicts a unstressed syllable of a different annotation layer we do not consider here.}
+    \label{fig:nxt}
+\end{figure}
+The second important aspect of choosing the Treebank-3 over the MS-State transcription, is the incongruity of utterances \citep[cf.][ch.~3.3,~p.~393ff]{CalhounEtal:2010}. Training and evaluation become easier if the utterances are congruent in the transcription and the Treebank-3 data with the syntactical parses. We decided to directly base the transcriptions on these annotations.
+
+\subsection{Syntax annotation}\label{ssec:syn}
+The linguistic structure annotated in the SWBD Treebank-3 section is available through the NXT Switchboard annotations and is based on the Treebank-3 text. Choosing the Treebank-3 transcription as the gold standard for the ASR system directly yields Treebank-style tokens in the recognized speech. The POS tagset  \citep[p.~394]{CalhounEtal:2010} consists of the 35 POS tags\footnote{It is the PTB tagset without punctuation (which is covered by SYM and the remaining nine punctuation tags).} in the Treebank-3 tagset. Disfluencies in the SWBD corpus are annotated following \citet{Shriberg:1994} and they are present in the Treebank-3 annotations.
+
+\section{Proposed method}\label{sec:prop}
+First, we describe the ASR component based on the default Kaldi \emph{s5c} recipe that generates POS-enriched word lattices in detail. Second, we introduce the POS taggers considered for the pipeline system. Third, we briefly characterize the dependency parser in our experiments.
+
+\subsection{ASR with POS tagging}\label{ssec:asr}
+Starting from the \emph{s5c} recipe, all but the acoustic modeling part underwent significant changes. The pronouncing dictionary (or lexicon), LM and resulting decoding graph now all contain word-POS pairs rather than words. We are going to outline this process step by step.
+
+\textbf{Corpus setup:} Our model does not access resources other than the Switchboard-1 Release 2 (LDC97S62, with updates and corrected speaker information) data, the MS-State transcription and the Switchboard NXT corpus as described in \Cref{sec:res}. All transcription-based resources are being lowercased as they are in the \emph{s5c} recipe scripts.
+
+\textbf{Transcription generation:} To get a Treebank-style transcription, we query the NXT annotation corpus for pointers from MS-State tokens to Treebank-3 tokens. With this mapping, we pick the POS tags for the Treebank-3 orthography and the timestamps for the MS-State words. An example for the POS-tagged gold standard transcription is: ``\texttt{are|VBP you|PRP ready|JJ now|RB}''.
+
+\textbf{POS-enriched lexicon:} We first append the lexicon with some handcrafted lexical additions for contractions of auxiliaries and adjust for tokenization differences between the source MS-State format and the target Treebank-3 format. The pronunciation of the resulting partial words is taken from the respective full entries in the dictionary supplied with the MS-State transcriptions. The lexical unit ``won't'', for example, is mapped to the pronunciation ``w ow n t'' in the MS-State version, but is not readily merged from the existing partial words (``wo'' and ``n't'') in the MS-State lexicon and therefore is a lexical addition. Other auxiliaries, like ``can't'' that needs to be split as ``ca n't'' to conform with the Treebank-3 tokenization, and partial words in general, are added in the lexicon conversion via automated handling where all partials exist.
+
+For all gold standard occurrences of word-POS combinations, we copy the words' pronunciations for all of the POS tags they occur with. Partial words starting with a hyphen are automatically added to the lexicon without the hyphen to account for tokenization differences. Duplicate word-POS pairs are excluded. \Cref{fig:lex} shows part of the resulting POS-enriched lexicon, where ``read'' occurs with four different POS tags and two distinct pronunciations. 
+We use ``\texttt{<unk>|XX}'' for unknown tokens.
+Note that our scheme can overgenerate word-POS combinations, as it does not check whether the pronunciation variation occurs with all POS tags of a word (compare left and right parts of \Cref{fig:lex}). 
+\begin{center}
+\vspace{5pt}
+\begin{minipage}[b]{0.45\columnwidth}
+\begin{lstlisting}[
+basicstyle=\scriptsize\ttfamily,columns=fixed,fontadjust=true,basewidth=0.5em,frame=tb]
+read|VB r eh d
+read|VB r iy d
+read|VBD r eh d
+read|VBD r iy d
+read|VBN r eh d
+read|VBN r iy d
+read|VBP r eh d
+read|VBP r iy d
+\end{lstlisting}\end{minipage}
+\begin{minipage}[b]{0.45\columnwidth}
+\begin{lstlisting}[
+basicstyle=\scriptsize\ttfamily,columns=fixed,fontadjust=true,basewidth=0.5em,frame=tb]
+read r eh d
+read r iy d
+\end{lstlisting}
+\end{minipage}
+\captionof{figure}{Pronunciation entries for ``read'' in the lexicon, with (left) and without (right) POS tags.}\label{fig:lex}
+\vspace{5pt}
+\end{center}
+
+\textbf{Language modeling:} LM training is performed on the \emph{train} set with the \emph{lmdev} set as heldout data. We train the LM on the POS-enriched transcription directly. See \Cref{fig:trigrams} for example trigrams.
+\begin{center}
+\vspace{5pt}
+\begin{lstlisting}[basicstyle=\scriptsize\ttfamily,columns=fixed,fontadjust=true,basewidth=0.5em,frame=tb]
+-0.000432954    we|PRP ca|MD n't|RB
+-0.0004147099   's|BES kind|RB of|RB
+-0.0003858729   they|PRP ca|MD n't|RB
+-0.0002859116   just|RB kind|RB of|RB
+-0.0001056216   you|PRP ca|MD n't|RB
+\end{lstlisting}
+\captionof{figure}{Top 5 trigrams in the Joint-LM, based on the conditional log probabilities in the first column.}\label{fig:trigrams}
+\vspace{5pt}
+\end{center}
+Different from the \emph{s5c} recipe, we compute trigram and bigram LMs with SRILM\footnote{\url{http://www.speech.sri.com/projects/srilm/}} \citep{Stolcke:2002} and ``\texttt{<unk>|XX}'' as unknown token. As discussed in \Cref{sec:res}, we did not use SWBD-external resources for mixing and interpolating our LMs. We use SRILM with modified Kneser-Ney smoothing \citep{ChenGoodman:1999} with interpolated estimates, and use only words occurring in the specified vocabulary and not in the count files. We report LM perplexity (PPL) on the \emph{lmdev} held-out data in \Cref{tab:ppl}.
+Note that the joint model LM in \Cref{tab:ppl} encounters $150$ OOV tokens (e.g. hyphenated numerals like ``thirty-seven''). The PPLs increase slightly for the joint model because the vocabulary has $n$ entries for each word, where $n$ is the number of POS tags the word occurs with.
+
+\begin{table}[h]
+\centering
+            \begin{tabular}{@{}lr@{}}
+                \toprule
+                LM & \multicolumn{1}{l}{PPL} \\ \midrule
+                Baseline 2-gram & 89.4  \\
+                Baseline 3-gram & 76.3  \\
+                Joint 2-gram & 96.4  \\
+                Joint 3-gram & 84.2  \\
+                \bottomrule
+            \end{tabular}%
+\caption{PPL and OOVs on \emph{lmdev}.}
+\label{tab:ppl}
+  
+\end{table}
+
+\textbf{Acoustic modeling:} 
+We use the original \emph{s5c} recipe and only adjust the training, development and evaluation splits after \citet{CharniakJohnson:2001} (cf. \Cref{tab:swbd}). None of the other aforementioned adaptations are applied and the manually corrected MS-State transcriptions are in use. 
+The \emph{tri4} model in the \emph{s5c} recipe is a triphone (with one context phone to the left and right) model which was trained with speaker-adaptive training \citep[SAT,~][]{AnastasakosEtal:1996,PoveyEtal:2008sat} technique using feature-space maximum likelihood linear regression \citep[fMLLR,~][]{Gales:1998}.
+We train this \emph{tri4} AM on the training split in \Cref{tab:swbd} with duplicate utterances removed.
+
+\subsection{Baseline POS tagging}\label{ssec:pos}
+We perform POS tagging with three out-of-the-box taggers, two of them with pretrained models, and choose the best one for our baseline pipeline model.
+
+NLTK's \citep{BirdEtal:2009} former default maximum entropy-based (ME) POS tagger with the pretrained model trained on WSJ data from the PTB \citep[for an overview, see][]{TaylorEtal:2003} is the first tagger and we term it \emph{ME.pre}. We also train a ME POS tagger\footnote{Available in NLTK and at: \url{https://github.com/arne-cl/nltk-maxent-pos-tagger}} that is implemented after \citet{Ratnaparkhi:1996} on the first 70,000 sentences\footnote{The sentences are sorted by their utterance id. The full training set was not computationally feasible: MEGAM threw an ``out of memory'' error.} of our SWBD training split, described in \Cref{sec:res}, and denote our self-trained model by \emph{ME.70k}. We configure the ME classifier to use the optimized version of MEGAM \citep{Daume:2004} for speed.
+
+The second tagger is NLTK's current default tagger, based on a greedy averaged perceptron (AP) tagger developed by Matthew Honnibal\footnote{\url{https://explosion.ai/blog/part-of-speech-pos-tagger-in-python}}. We name the AP tagger with the pretrained NLTK model \emph{AP.pre}, and the same tagger trained on the full training split \emph{AP}.
+
+To have an NLTK-external industry-standard POS tagger in our comparison, we also run spaCy's POS tagger (see \url{https://spacy.io/}, we used spaCy in version 1.0.3) with its pretrained English model (also trained with AP learning).
+
+\subsection{Dependency parsing}\label{ssec:dp}
+In this work, we compare dependency parsing results of (a) the $1$-best hypothesis of the baseline \emph{tri4} ASR system with the self-trained AP POS tagger and (b) the $1$-best hypotheses of our joint model. We use a greedy neural-based dependency parser reimplemented after the greedy baseline in \citet{WeissEtal:2015}. 
+
+The parser's training set is the gold standard data of the training split and identical for the \emph{tri4} and the Joint-POS model with 62728 trainable sentences out of 63304 (= 99.09\%). In this evaluation, we tune the parser based on development data and use word- and POS-based features. The parser implementation uses averaged stochastic gradient descent proposed independently by \citet{Ruppert:1988} and \citet{PolyakJuditsky:1992} with momentum \citep{RumelhartEtal:1986}. We do not embed any external information.
+
+\section{Results}\label{sec:results}
+
+Our evaluation includes intermediate ASR and POS tagging results and a DP-based evaluation. We evaluate partially correct ASR hypotheses with a simplistic scoring method that allows imprecise scoring when the recognized sequence of tokens does not match the gold standard.
+
+\subsection{ASR}
+We test our joint ASR and POS model against the default \emph{tri4} model in a ASR-only evaluation of the $1$-best hypotheses. As we generate the word-POS pairs jointly and they are part of the ASR hypotheses, we strip the POS tags for the word-only evaluation in \Cref{tab:asr}. We evaluate the ASR step based on word error rate (WER) and sentence error rate (SER).
+\begin{table}[h]
+    \centering
+    \begin{tabular}{@{}lrcccccc@{}}
+        \toprule
+        Set                   & \multicolumn{1}{c}{Default \emph{tri4}} & \multicolumn{1}{c}{Joint-POS} \\ \midrule
+        \multirow{1}{*}{dev}  & \textbf{28.75} (65.83) & 28.93 \textbf{(65.28)} \\ \midrule
+        \multirow{1}{*}{eval} & 29.41 (64.41) & \textbf{29.26 (64.15)} \\ \bottomrule
+    \end{tabular}
+    \caption[ASR results: numbers are WER (SER).]{ASR results: numbers are WER (SER) as percentages. POS tags stripped when evaluating joint model.}
+    \label{tab:asr}
+\end{table}
+
+Recall that these results are not directly comparable to other ASR results on the SWBD corpus, because of our data splits with less training data and use of the Treebank-3 transcription. In the unaltered (apart from the splits, see \Cref{ssec:audio}), original \emph{s5c} recipe, the WER on the \emph{eval} set with the original MS-State transcriptions (48926 tokens, 4331 utterances) is 26.51\% with a SER of 67.91\%. Compared to the baseline, the results of our Joint-POS model are slightly better for the \emph{dev} set and \emph{eval} set in SER, and for the \emph{eval} set also in WER.
+
+\subsection{POS tagging}
+We present an evaluation of our joint model's performance up to the baseline model's POS tagging step. We compare against the POS tagger performance on the $1$-best ASR hypotheses in the pipeline approach. As the $1$-best hypotheses of joint and pipeline model can differ, we evaluate the POS tagging step on ASR output against the word-POS pair Treebank-3 gold standard by means of WER.
+\begin{table}[h]
+    \centering
+    \begin{tabular}{lcc}
+    \toprule
+    Tagger & dev & eval \\
+    \midrule
+    ME.pre & 43.29 (94.23) & 44.49 (94.19) \\
+    AP.pre & 45.46 (95.84) & 46.18 (95.74) \\
+    spaCy.pre & 39.17 (82.83) & 40.42 (81.86) \\
+    \midrule
+    ME.70k & 33.24 (68.18) & 36.35 (54.98) \\
+    AP & 32.30 (67.67) & 33.10 (66.85) \\
+    Joint-POS & \textbf{32.05 (67.32)} & \textbf{32.52 (66.52)} \\
+    \bottomrule
+    \end{tabular}
+    \caption[POS tagging results: numbers are WER (SER).]{POS tagging results: numbers are WER (SER) on the $1$-best hypotheses. ME.70k is trained on the first 70,000 training set sentences. A model name ending in \emph{.pre} indicates the use of a pretrained model. Model names without dotted endings are trained on the full SWBD training set. Best scores per set are in boldface.}
+    \label{tab:posres}
+\end{table}
+
+\Cref{tab:posres} shows that the Joint-POS model consistently outperforms the baseline POS taggers on both sets. The pretrained models clearly have not been trained on speech data and unsurprisingly perform poorly. Our self-trained ME and AP models improve at least 6\% in WER and 15\% in SER over the pretrained models. The margin by which our joint model surpasses the self-trained AP tagger is small with an improvement of 0.25\% WER on the \emph{dev} and 0.58\% WER on the \emph{eval} set. The self-trained AP tagger performed best of the baseline taggers and we therefore use it in for the DP-based evaluation in the next section.
+
+\subsection{DP}
+We evaluate our joint ASR-POS model on the target task by running a dependency parser on POS-tagged $1$-best hypotheses. In the competing pipeline model, we score the output of the default \emph{tri4} ASR $1$-best hypotheses tagged by the AP tagger we trained ourselves. All results in \Cref{tab:parres} and \Cref{tab:relres} show that our joint model does profit from the joint ASR and POS modeling in our approach.
+\begin{table}[h]
+    \centering
+    \resizebox{\columnwidth}{!}{%
+    \begin{tabular}{@{}lcccccc@{}}
+        \toprule
+        &        &          & \multicolumn{2}{c}{\emph{tri4}} & \multicolumn{2}{c}{Joint-POS} \\ \cmidrule(lr){4-5} \cmidrule(lr){6-7}
+        Set   & \#utts & \#tokens & UAS         & LAS         & UAS               & LAS              \\ \midrule
+        dev   & 900    & 4881     & 94.30       & 92.71       & \textbf{95.41}    & \textbf{93.63}   \\
+        eval  & 882    & 4827     & 94.68       & 93.06       & \textbf{94.92}    & \textbf{93.52}   \\ \midrule
+        $\mbox{dev}_P$  & 942    & 5261     & 94.16       & 92.38       & ---               & ---              \\
+        $\mbox{eval}_P$ & 921    & 5134     & 94.06       & 92.31       & ---               & ---              \\ \midrule
+        $\mbox{dev}_J$  & 932    & 5158     & ---         & ---         & 94.65             & 92.88            \\
+        $\mbox{eval}_J$ & 921    & 5137     & ---         & ---         & 94.61             & 92.93            \\ \bottomrule
+    \end{tabular}
+       }
+    \caption[Parsing results for subsets of correct tokenizations.]{Parsing results for subsets of correct tokenizations. Labeled attachment scores (LAS) and unlabeled attachment scores (UAS) given as percentages. Best scores on the common sets in boldface.}
+    \label{tab:parres}
+\end{table}
+
+\Cref{tab:parres} features evaluations of six different development and evaluation sets. The sets named \emph{dev} and \emph{eval} are the common subsets of token-level correct hypotheses that the pipeline and joint model share and therefore can be directly compared on. The sets indexed with a $P$ or $J$ are the token-level correct hypotheses for the pipeline and joint model respectively. As the models are not identical with respect to their $1$-best hypotheses that match the Treebank-3 data, we also present the results using all available correctly tokenized ASR hypotheses. Our Joint-POS model consistently outperforms the pipeline \emph{tri4} approach between 1.11\% (\emph{dev}, UAS) and 0.24\% (\emph{eval}, UAS) on the common subsets. The results are similar for the non-matching subsets. Note, that the results in \Cref{tab:parres} are for the small subset of utterances with a correct token sequence, i.e. where the (converted and filtered) Treebank-3 sentence tokens match the ASR hypothesis words exactly. This restriction allows an evaluation with LAS and UAS because the tokenization is identical and we have gold data for this correct token sequence. To (a) have a more extensive evaluation on all the utterances we have hypotheses for\footnote{There are a few empty utterances with negligible counts.} and (b) be able to compare the pipeline and joint approach on the hypotheses coverage and close misses of the correct tokenization, too, we present \Cref{tab:relres}.
+
+We cannot use the standard parsing evaluation measures that depend on a correct word sequence to get scores on imperfectly recognized utterances. We address this problem with a simple but imprecise solution: (1.) Parse the development and evaluation set using the parser models previously trained and tuned on the common sets (see \Cref{tab:parres}); (2.) Evaluate the parser predictions on the ASR hypotheses against the gold Treebank-3 data with a imprecise scoring method that allows for a mismatch of the gold and predicted token sequence. We introduce two simple scores, unlabeled score (US) and labeled score (LS), with their names derived from UAS and LAS respectively (see \Cref{tab:relres}). Recall that UAS requires a relation's head and dependent to match including their position and LAS requires a matching label (or dependency type) on that relation in addition.
+
+The imprecision in the US and LS scoring stems from ignoring the positions of head and dependent in the utterance completely. We iterate over the utterances and for every token (or dependent) look up its head (word) and count this relation as a US match if the lookup is successful. When there is a US match, we also check for a matching label and count that as an LS match. The US and LS counts are normalized by the number of tokens in the Treebank-3 reference. The improvement our Joint-POS model shows over the pipeline \emph{tri4} model is small for all scores, but consistent.
+\begin{table}[h]
+    \centering
+    \begin{tabular}{@{}lccccc@{}}
+        \toprule
+        Model                                                                       & Set  & \multicolumn{1}{c}{UAS} & \multicolumn{1}{c}{LAS} & \multicolumn{1}{c}{US} & \multicolumn{1}{c}{LS} \\ \midrule
+        \multirow{2}{*}{\emph{tri4}}      & dev  & 32.20                   & 31.20                   & 52.02                  & 49.40                  \\
+        & eval & 31.21                   & 30.29                   & 50.72                  & 48.33                  \\ \midrule
+        \multirow{2}{*}{Joint-POS} & dev  & \textbf{32.41}          & \textbf{31.43}          & \textbf{52.21}         & \textbf{49.71}         \\
+        & eval & \textbf{31.56}          & \textbf{30.73}          & \textbf{51.21}         & \textbf{48.99}         \\ \bottomrule
+    \end{tabular}
+    \caption[Parsing results on full \emph{dev} and \emph{eval} sets.]{Parsing results on full \emph{dev} and \emph{eval} sets. LAS, UAS, LS and US are given as percentages. The \emph{dev} set has 3994 utterances with 44760 tokens and the \emph{eval} set has 3912 utterances with 43277 tokens. Best scores per set in boldface.}
+    \label{tab:relres}
+\end{table}
+
+\section{DP-based analysis}\label{sec:dpa}
+We tentatively analyze in which cases the joint model does better than the pipeline approach. We first give absolute counts for how often this is the case in \Cref{tab:better}. While the Joint-POS model receives higher counts for all scores, there are also a considerable number of cases where the pipeline model makes fewer mistakes. We pick all examples randomly from the instances counted in the \emph{All} column of \Cref{tab:better} and focus on short sentences for presentability.
+\begin{table}[h]
+    \centering
+    \begin{tabular}{@{}lccccc@{}}
+        \toprule
+        Model & UAS & LAS & US  & LS  & All \\ \midrule
+        \emph{tri4}  & 320 & 330 & 483 & 496 & 233 \\
+        Joint-POS    & 332 & 363 & 540 & 596 & 267 \\ \bottomrule
+    \end{tabular}
+    \caption{Utterance-based parsing evaluation. The numbers are counts of utterances where the model in the first column is better than the other. Column \emph{All} gives the counts for when it is better on all four measures.}
+    \label{tab:better}
+\end{table}
+
+In the following examples, we highlight the important differences in boldface. In \Cref{fpx1}, we see a fully correct Joint-POS model. While the pipeline approach does also recognize the correct word sequence, a POS tagging error causes the parsing to be erroneous on two arcs. This error affects all four scores (UAS, LAS, US and LS), as the parsing model not only misclassifies the label, but also attaches the head of ``there'' incorrectly. We visualize the error's effect in a correct vs incorrect tree comparison.
+\begin{figure}[h]
+    \centering
+    \resizebox{\columnwidth}{!}{%
+        \begin{dependency}[text only label, label style={above}]
+            \begin{deptext}[column sep=1em, row sep=.5ex]
+                we \& can \& start \& off \& there \\
+                PRP \& MD \& VB \& RP \& RB \\
+            \end{deptext}
+            \deproot{3}{root}
+            \depedge{1}{3}{nsubj}
+            \depedge{2}{3}{aux}
+            \depedge{4}{3}{prt}
+            \depedge{5}{3}{advmod}
+            \qquad
+        \end{dependency}
+        \quad
+        \begin{dependency}[text only label, label style={above}]
+            \begin{deptext}[column sep=1em, row sep=.5ex]
+                we \& can \& start \& off \& there \\
+                PRP \& MD \& VB \& \textbf{IN} \& RB \\
+            \end{deptext}
+            \deproot{3}{root}
+            \depedge{1}{3}{nsubj}
+            \depedge{2}{3}{aux}
+            \depedge{4}{3}{\textbf{prep}}
+            \depedge{5}{4}{\textbf{pcomp}}
+        \end{dependency}
+    } %
+    \caption{Dependency graph comparison \#1. Correct Joint-POS tree on the left, incorrect \emph{tri4} tree on the right.}%
+    \label{fpx1}%
+\end{figure}
+
+We observe a recognition error in the pipeline \emph{tri4} model that causes a different reading and syntactical structure in \Cref{fpx2}. While it is acceptable spontaneous speech (e.g. ``I like rock.. and like some country music.''), ``and'' would not be the subject of the sentence.
+\begin{figure}[h]
+    \centering
+    \resizebox{\columnwidth}{!}{%
+        \begin{dependency}[text only label, label style={above}]
+            \begin{deptext}[column sep=1em, row sep=.5ex]
+                i \& like \& some \& country \& music \\
+                PRP \& VBP \& DT \& NN \& NN \\
+            \end{deptext}
+            \deproot{2}{root}
+            \depedge{1}{2}{nsubj}
+            \depedge{3}{5}{det}
+            \depedge{4}{5}{nn}
+            \depedge[edge start x offset=8pt]{5}{2}{dobj}
+            \qquad
+        \end{dependency}
+        \quad
+        \begin{dependency}[text only label, label style={above}]
+            \begin{deptext}[column sep=1em, row sep=.5ex]
+                \textbf{and} \& like \& some \& country \& music \\
+                \textbf{CC} \& \textbf{UH} \& DT \& NN \& NN \\
+            \end{deptext}
+            \deproot[edge unit distance=4ex]{5}{\textbf{root}}
+            \depedge{1}{5}{\textbf{nsubj}}
+            \depedge{2}{5}{\textbf{det}}
+            \depedge{3}{5}{\textbf{nn}}
+            \depedge{4}{5}{\textbf{dobj}}
+        \end{dependency}
+    } %
+    \caption{Dependency graph comparison \#2. Correct Joint-POS tree on the left, incorrect \emph{tri4} tree on the right.}%
+    \label{fpx2}%
+\end{figure}
+
+The third graph visualization in \Cref{fpx3} illustrates an ASR deletion error on the first word. The pipeline \emph{tri4} model handles the error gracefully, but receives lower US and LS scores because of the token mismatch nonetheless. If we had not allowed the imprecise evaluation, we would not have observed this kind of error.
+\begin{figure}[h]
+    \centering
+    \resizebox{\columnwidth}{!}{%
+        \begin{dependency}[text only label, label style={above}]
+            \begin{deptext}[column sep=1em, row sep=.5ex]
+                do \& you \& like \& rap \& music \\
+                VBP \& PRP \& VB \& NN \& NN \\
+            \end{deptext}
+            \deproot{3}{root}
+            \depedge{1}{3}{aux}
+            \depedge{2}{3}{nsubj}
+            \depedge{4}{5}{nn}
+            \depedge[edge start x offset=8pt]{5}{3}{dobj}
+            \qquad
+        \end{dependency}
+        \quad
+        \begin{dependency}[text only label, label style={above}]
+            \begin{deptext}[column sep=1em, row sep=.5ex]
+                you \& like \& rap \& music \\
+                PRP \& VB \& NN \& NN \\
+            \end{deptext}
+            \deproot{2}{root}
+            \depedge{1}{2}{nsubj}
+            \depedge{3}{4}{nn}
+            \depedge[edge start x offset=8pt]{4}{2}{dobj}
+        \end{dependency}
+    } %
+    \caption{Dependency graph comparison \#3. Correct Joint-POS tree on the left, incorrect \emph{tri4} tree on the right.}%
+    \label{fpx3}%
+\end{figure}
+
+%\vspace{-10pt}
+The example in \Cref{fpx4} also has an ASR error in the pipeline approach at its core. In this case, while the joint model is entirely correct, the recognition error in the pipeline causes two POS tagging errors resulting in an incorrect parse.
+\begin{figure}[h]
+    \centering
+    \resizebox{\columnwidth}{!}{%
+        \begin{dependency}[text only label, label style={above}]
+            \begin{deptext}[column sep=1em, row sep=.5ex]
+                let \& 's \& just \& get \& started \\
+                VB \& PRP \& RB \& VB \& VBN \\
+            \end{deptext}
+            \deproot[edge unit distance=4ex]{1}{root}
+            \depedge{2}{5}{nsubjpass}
+            \depedge{3}{5}{advmod}
+            \depedge{4}{5}{auxpass}
+            \depedge[edge start x offset=8pt]{5}{1}{ccomp}
+            \qquad
+        \end{dependency}
+        \quad
+        \begin{dependency}[text only label, label style={above}]
+            \begin{deptext}[column sep=1em, row sep=.5ex]
+                \textbf{it} \& 's \& just \& get \& started \\
+                \textbf{PRP} \& \textbf{BES} \& RB \& VB \& VBN \\
+            \end{deptext}
+            \deproot[edge unit distance=4ex]{5}{\textbf{root}}
+            \depedge{1}{5}{\textbf{nsubj}}
+            \depedge{2}{5}{\textbf{dep}}
+            \depedge{3}{5}{\textbf{advmod}}
+            \depedge{4}{5}{\textbf{auxpass}}
+        \end{dependency}
+    } %
+    \caption{Dependency graph comparison \#4. Correct Joint-POS tree on the left, incorrect \emph{tri4} tree on the right.}%
+    \label{fpx4}%
+\end{figure}
+
+The example utterance in \Cref{px} contains ASR errors in the both models' hypotheses with subsequent errors in POS tagging and parsing. We can glean that discourse interjections like ``uh.. uh..'' can be misrecognized as regular words, an error characteristic of spontaneous speech. Note, that the joint model gets the word ``families'' right, but as an object instead the subject. The pipeline model produces four word errors in sequence and ``families'' does not appear in its hypothesis.
+\begin{table*}[h]
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{@{}lllclllclllcl@{}}
+            \toprule
+            & \multicolumn{4}{c}{Treebank-3}        & \multicolumn{4}{c}{Joint-POS}                 & \multicolumn{4}{c}{\textit{tri4}}          \\ \cmidrule(lr){2-5} \cmidrule(lr){6-9} \cmidrule(lr){10-13}
+            ID & Word         & POS & Head & Dep.      & Word         & POS         & Head & Dep.      & Word         & POS         & Head & Dep.   \\ \midrule
+            1  & well         & UH  & 7    & discourse & well         & UH          & 7    & discourse & well         & UH          & \textbf{0}    & \textbf{root}   \\
+            2  & how          & WRB & 3    & advmod    & how          & WRB         & 3    & advmod    & how          & WRB         & 3    & advmod \\
+            3  & many         & JJ  & 6    & amod      & many         & JJ          & \textbf{7}    & \textbf{nsubj}     & many         & JJ          & \textbf{1}    & \textbf{dep}    \\
+            4  & uh           & UH  & 6    & discourse & \textbf{of}           & \textbf{IN}          & \textbf{3}    & \textbf{dep}       & \textbf{of}           & \textbf{IN}          & \textbf{3}    & \textbf{dep}    \\
+            5  & uh           & UH  & 6    & discourse & \textbf{of}           & \textbf{IN}          & \textbf{3}    & \textbf{prep}      & \textbf{of}           & \textbf{IN}          & \textbf{3}    & \textbf{prep}   \\
+            6  & families     & NNS & 7    & nsubj     & families     & NNS         & \textbf{5}    & pobj      & \textbf{own}          & NNS         & \textbf{5}    & pobj   \\
+            7  & own          & VBP & 0    & root      & \textbf{own} & \textbf{VB} & 0    & root      & \textbf{on}  & \textbf{IN} & \textbf{3}    & \textbf{prep}   \\
+            8  & a            & DT  & 9    & det       & a            & DT          & 9    & det       & a            & DT          & 9    & det    \\
+            9  & refrigerator & NN  & 7    & dobj      & refrigerator & NN          & 7    & dobj      & refrigerator & NN          & 7    & \textbf{pobj} \\
+            \bottomrule
+        \end{tabular}
+    } %
+    \caption{Example utterance. Errors in both models in boldface.}
+    \label{px}
+\end{table*}
+
+\section{Related work}\label{sec:related}
+Spoken language poses a variety of problems for NLP. The recognition of spoken language can suffer from poor recording equipment, noisy environments, unclear speech or speech pathologies. It also exhibits spontaneity, ungrammaticality and disfluencies, e.g. repairs and restarts (cf. \citet{Shriberg:1994}). Hence, in addition to ASR errors, downstream tasks such as parsing have to deal with these difficulties of conversational speech, whether the ASR output is in the form of $n$-best sequences or lattices. \citet{Joergensen:2007} remove disfluencies prior to parsing and find their removal improves the performance of both a dependency and a head-driven lexicalized statistical parser on SWBD. In a more general joint approach of disfluency detection and DP, \citet{HonnibalJohnson:2014} in contrast to \citet{Joergensen:2007} make use of the disfluency annotations and report strong results for both, disfluency annotation and DP. \citet{RasooliTetreault:2013} extend the arc-eager transition system \citep{Nivre:2008} with actions that handle reparanda, discourse markers and interjections, thereby also explicitly using marked disfluencies on SWBD for joint DP and disfluency detection. Where \citet{RasooliTetreault:2013} and \citet{HonnibalJohnson:2014} work with SWBD text data, \citet{YoshikawaEtal:2016} are close to our setting and assume ASR output text as parser input. \citet{YoshikawaEtal:2016} create an alignment that enables the transfer of gold treebank data to ASR output texts and add three actions to manage disfluencies and ASR errors to the arc-eager shift-reduce transition system of \citet{ZhangNivre:2011}. While they do not parse lattices or confusion networks (lattices can be converted to confusion networks, see \citet{ManguEtal:2000}) directly, \citet{YoshikawaEtal:2016} use information from word confusion networks to discover erroneous regions in the ASR output.
+\citet{CharniakJohnson:2001} parse SWBD after removing edited speech that they identify with a linear classifier. Additionally, \citet{CharniakJohnson:2001} introduce a \emph{relaxed edited} parsing metric that considers a simplified gold standard constituent parse (removed edited words are added back into the constituent parse for evaluation). \citet{JohnsonCharniak:2004} model speech repairs in a noisy channel model utilizing tree adjoining grammars (TAGs). Source sentence probabilities in the noisy channel are computed with a bigram LM and rescored with a syntactic parser for a more global view on the source sentence. The noisy channel is then formalized as TAG that maps source sentences to target sentences, where repairs are treated as the cleaned target side of the reparanda on the source side. Besides the words themselves, \citet{JohnsonCharniak:2004} use POS tags for the alignment of reparandum and repair, which indicates their usefulness in detecting disfluencies. Approaching spontaneous speech issues from another angle, \mbox{\citet{BechetEtal:2014:is}} adapt a parser trained on written text by means of an interactive web interface \citep{BazillonEtal:2012} in which users can modify POS and dependency tags writing regular expressions.
+
+Natural speech poses specific problems, but also comes with acoustic information that can improve parsing speech through its incorporation \citep{TranEtal:2017} or reranking \citep{KahnEtal:2005}. Handling disfluencies following \citet{CharniakJohnson:2001}, \citet{KahnEtal:2005} rerank the $n$-best parses using a set of prosodic features in the reranking framework of \citet{Collins:2000}. \citet{KahnEtal:2005} find that combining prosodic features with non-local syntactic features increase $F$-scores in the relaxed edited metric of \citet{CharniakJohnson:2001}. \citet{KahnOstendorf:2012} present an approach that automatically recognizes speech, segments a stream of words (e.g. a conversation side/speaker turn) into sentences and parses these. A reranker that can take into account ASR posteriors for $n$-best ASR hypotheses as well as parse-specific features for $m$-best parses can then jointly optimize towards WER ($n$ hypotheses) or SParseval \citep{RoarkEtal:2006} ($n \times m$ hypotheses) metrics \citep{KahnOstendorf:2012}.
+\citet{EhrlichHanrieder:1996} describe an agenda-driven chart parser that considers an acoustic word-level score from a word lattice and can combine a sentence-spanning analysis from partial hypotheses if a full parse is unobtainable.  \citet{TranEtal:2017} use speech and text domain cues for constituent parsing in an attention-based encoder-decoder approach based on \citet{VinyalsEtal:2015}. They show that word-level acoustic-prosodic features learned with convolutional neural networks improve performance.
+
+\section{Discussion}
+Replacing words with word-POS pairs throughout the ASR process, as described in \Cref{ssec:asr}, increases the search space considerably. We focus on establishing the feasibility of this approach here and do not detail techniques to address this complexity issue. Including prior distributions of word-POS pair occurrences could help disambiguation early on in lattice creation. The LM in the joint model relies on word-POS pairs as well, and a smoothing approach that backs off to $n$-grams of words instead of $n$-grams of word-POS pairs would counter the increased sparsity due to the combination of words and their POS tags in the LM part. We only explore instances of errors the joint and pipeline models make in our analysis. A systematic error analysis identifying advantages and disadvantages of the joint model would be interesting, especially with the errors involving contractions and disfluencies. As a negative example for our joint model, we observed the separation of ``didn't'' as ``did'' plus ``n't'' as an ASR error for ``did it''. A qualitative analysis of error types could indicate whether this a random or systematic error, and the same is true of the positive examples in \Cref{sec:dpa}.
+
+\section{Conclusion}\label{sec:concl}
+We have demonstrated a method to jointly perform POS tagging and ASR on speech. The tagging and parsing evaluations of the pipeline model vs our joint model confirm the successful integration of POS tags into speech lattices. While the improvements over the pipeline approach are small, we enrich lattices with POS tags that allow for latticed-based NLP in future work.
+
+\section*{Acknowledgments}
+We thank the anonymous reviewers for their extensive and helpful feedback on this work. We also thank Xiang Yu for his parser implementation and Wolfgang Seeker for helping with the conversion to dependency parses. This work was funded by the German Research Foundation (DFG) through the Collaborative Research Center (SFB) 732, project A8, at the University of Stuttgart.
+
+% bibliography
+\bibliography{emnlp2017}
+\bibliographystyle{emnlp_natbib}
+
+\end{document}

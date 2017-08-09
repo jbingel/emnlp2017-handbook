@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#23
+FinalPaperTitle#=%=#FBK’s Participation to the English-to-German News Translation Task of WMT 2017
+ShortPaperTitle#=%=#FBK’s Participation to the English-to-German News Translation Task
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Mattia Antonino Di Gangi
+JobTitle#==#
+Organization#==#Fondazione Bruno Kessler
+via Sommarive 18, Povo (TN), Italy
+Abstract#==#In this paper we report on FBK's participation to the English-to-German news
+translation task of the Second Conference on Machine Translation (WMT'17). The
+submitted system is based on Neural Machine Translation using byte-pair
+encoding segmentation on both source and target languages for open-vocabulary
+translations. Back-translations of news monolingual data are used for improving
+the translations fluency on the in-domain data. With respect to  last year's
+evaluation, our baseline outperforms the 2016 best system's baseline on the
+test sets  2015 and 2016. However, in our set-up  back-translations produced a
+smaller improvement than expected. The final submission is given by the
+combination of 7 systems, including a system trained only on true parallel data
+and two right-to-left systems, which improves over our single best system by
+1.5 BLEU points.
+Author{1}{Firstname}#=%=#Mattia Antonino
+Author{1}{Lastname}#=%=#Di Gangi
+Author{1}{Email}#=%=#digangi@fbk.eu
+Author{1}{Affiliation}#=%=#Fondazione Bruno Kessler
+Author{2}{Firstname}#=%=#Nicola
+Author{2}{Lastname}#=%=#Bertoldi
+Author{2}{Email}#=%=#bertoldi@fbk.eu
+Author{2}{Affiliation}#=%=#FBK
+Author{3}{Firstname}#=%=#Marcello
+Author{3}{Lastname}#=%=#Federico
+Author{3}{Email}#=%=#federico@fbk.eu
+Author{3}{Affiliation}#=%=#FBK
+
+==========

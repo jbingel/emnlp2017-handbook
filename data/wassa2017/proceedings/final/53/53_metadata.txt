@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#53
+FinalPaperTitle#=%=#IITP at EmoInt-2017: Measuring Intensity of Emotions using Sentence Embeddings and Optimized Features
+ShortPaperTitle#=%=#IITP at EmoInt-2017: Measuring Intensity of Emotions using Sentence Embeddings and Optimized Features
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Md Shad Akhtar
+JobTitle#==#
+Organization#==#Md Shad Akhtar, Indian Institute of Technology Patna
+Abstract#==#This paper describes the system that we submitted as part of our participation
+in the shared task on Emotion Intensity (EmoInt-2017). We propose a Long short
+term memory (LSTM) based architecture cascaded with Support Vector Regressor
+(SVR) for intensity prediction. We also employ Particle Swarm Optimization
+(PSO) based feature selection algorithm for obtaining an optimized feature set
+for training and evaluation. System evaluation shows interesting results on the
+four emotion datasets i.e. anger, fear, joy and sadness. In comparison to the
+other participating teams our system was ranked 5th in the competition.
+Author{1}{Firstname}#=%=#Md Shad
+Author{1}{Lastname}#=%=#Akhtar
+Author{1}{Email}#=%=#shad.akhtar@gmail.com
+Author{1}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{2}{Firstname}#=%=#Palaash
+Author{2}{Lastname}#=%=#Sawant
+Author{2}{Email}#=%=#palaash77@gmail.com
+Author{2}{Affiliation}#=%=#Goa University, Goa
+Author{3}{Firstname}#=%=#Asif
+Author{3}{Lastname}#=%=#Ekbal
+Author{3}{Email}#=%=#asif.ekbal@gmail.com
+Author{3}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{4}{Firstname}#=%=#Jyoti
+Author{4}{Lastname}#=%=#Pawar
+Author{4}{Email}#=%=#jdp@unigoa.ac.in
+Author{4}{Affiliation}#=%=#Goa University, Goa
+Author{5}{Firstname}#=%=#Pushpak
+Author{5}{Lastname}#=%=#Bhattacharyya
+Author{5}{Email}#=%=#pb@iitp.ac.in
+Author{5}{Affiliation}#=%=#Indian Institute of Technology Patna
+
+==========

@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#3
+FinalPaperTitle#=%=#Encoding Word Confusion Networks with Recurrent Neural Networks for Dialog State Tracking
+ShortPaperTitle#=%=#Encoding Word Confusion Networks with Recurrent Neural Networks for Dialog State Tracking
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Glorianna Jagfeld
+JobTitle#==#
+Organization#==#Institute for Natural Language Processing (IMS)
+Universität Stuttgart
+Pfaffenwaldring 5B
+70569 Stuttgart
+Abstract#==#This paper presents our novel method to encode word confusion networks, which
+can represent a rich hypothesis space of automatic speech recognition systems,
+via recurrent neural networks.
+We demonstrate the utility of our approach for the task of dialog state
+tracking in spoken dialog systems that relies on automatic speech recognition
+output.
+Encoding confusion networks outperforms encoding the best hypothesis of the
+automatic speech recognition in a neural system for dialog state tracking on
+the well-known second Dialog State Tracking Challenge dataset.
+Author{1}{Firstname}#=%=#Glorianna
+Author{1}{Lastname}#=%=#Jagfeld
+Author{1}{Email}#=%=#glorianna.jagfeld@gmail.com
+Author{1}{Affiliation}#=%=#Institute for Natural Language Processing, University of Stuttgart
+Author{2}{Firstname}#=%=#Ngoc Thang
+Author{2}{Lastname}#=%=#Vu
+Author{2}{Email}#=%=#thangvu@ims.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#University of Stuttgart
+
+==========

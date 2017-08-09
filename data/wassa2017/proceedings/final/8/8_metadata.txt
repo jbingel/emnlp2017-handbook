@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#8
+FinalPaperTitle#=%=#PLN-PUCRS at EmoInt-2017: Psycholinguistic features for emotion intensity prediction in tweets
+ShortPaperTitle#=%=#PLN-PUCRS at EmoInt-2017: Psycholinguistic features for emotion intensity prediction in tweets
+NumberOfPages#=%=#4
+CopyrightSigned#=%=#Henrique D. P. dos Santos
+JobTitle#==#
+Organization#==#Pontifical Catholic University of Rio Grande do Sul
+Av. Ipiranga, 6681 – Prédio 32 – Partenon – Porto Alegre/RS - Brazil
+Zip: 90619-900
+Abstract#==#Linguistic Inquiry and Word Count (LIWC) is a rich dictionary that map words
+into several psychological categories such as Affective, Social, Cognitive,
+Perceptual and Biological processes. In this work, we have used LIWC
+psycholinguistic categories to train regression models and predict emotion
+intensity in tweets for the EmoInt-2017 task. Results show that LIWC features
+may boost emotion intensity prediction on the basis of a low dimension set.
+Author{1}{Firstname}#=%=#Henrique
+Author{1}{Lastname}#=%=#Santos
+Author{1}{Email}#=%=#henrique.santos.003@acad.pucrs.br
+Author{1}{Affiliation}#=%=#PUCRS
+Author{2}{Firstname}#=%=#Renata
+Author{2}{Lastname}#=%=#Vieira
+Author{2}{Email}#=%=#renata.vieira@gmail.com
+Author{2}{Affiliation}#=%=#PUCRS
+
+==========

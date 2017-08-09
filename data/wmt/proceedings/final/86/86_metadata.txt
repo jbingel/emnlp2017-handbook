@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#86
+FinalPaperTitle#=%=#Sheffield MultiMT: Using Object Posterior Predictions for Multimodal Machine Translation
+ShortPaperTitle#=%=#Sheffield MultiMT: Using Object Posterior Predictions for Multimodal Machine Translation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Josiah Wang
+JobTitle#==#
+Organization#==#Department of Computer Science, University of Sheffield
+Regent Court, 211 Portobello Street
+Sheffield S1 4DP
+UK
+Abstract#==#This paper describes the University of Sheffield's submission to the WMT17
+Multimodal Machine Translation shared task. We participated in Task 1 to
+develop an MT system to translate an image description from English to German
+and French, given its corresponding image. Our proposed systems are based on
+the state-of-the-art Neural Machine Translation approach. We investigate the
+effect of replacing the commonly-used image embeddings with an estimated
+posterior probability prediction for 1,000 object categories in the images.
+Author{1}{Firstname}#=%=#Pranava Swaroop
+Author{1}{Lastname}#=%=#Madhyastha
+Author{1}{Email}#=%=#pranava@cs.upc.edu
+Author{1}{Affiliation}#=%=#Universitat Politècnica de Catalunya
+Author{2}{Firstname}#=%=#Josiah
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#j.k.wang@sheffield.ac.uk
+Author{2}{Affiliation}#=%=#University of Sheffield
+Author{3}{Firstname}#=%=#Lucia
+Author{3}{Lastname}#=%=#Specia
+Author{3}{Email}#=%=#l.specia@sheffield.ac.uk
+Author{3}{Affiliation}#=%=#University of Sheffield
+
+==========

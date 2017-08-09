@@ -1,0 +1,49 @@
+* Friday, 8th September 2017
+= 08:30--08:40 Opening Remarks
+= 08:40--10:30 Session 1: Irony, stance and negotiating interpersonal meaning # %chair1 Alexandra Balahur
+81 08:40--09:15  # Detecting Sarcasm Using Different Forms Of Incongruity
+27 09:15--09:40  # Assessing State-of-the-Art Sentiment Models on State-of-the-Art Sentiment Datasets
+20 09:40--10:05  # Annotation, Modelling and Analysis of Fine-Grained Emotions on a Stance and Sentiment Detection Corpus
+25 10:05--10:30  # Ranking Right-Wing Extremist Social Media Profiles by Similarity to Democratic and Extremist Groups
++ 10:30--11:00 Coffee Break
+= 11:00--12:30 Session 2: Emotion Intensity Task # %chair1 Saif Mohammad
+67 11:00--11:40  # WASSA-2017 Shared Task on Emotion Intensity
+14 11:40--12:05  # IMS at EmoInt-2017: Emotion Intensity Prediction with Affective Norms, Automatically Extended Resources and Deep Learning
+61 12:05--12:30  # Prayas at EmoInt 2017: An Ensemble of Deep Neural Architectures for Emotion Intensity Prediction in Tweets
++ 12:30--14:00 Lunch Break
+= 14:00--15:30 Session 3: Sentiment, stance and emotion # %chair1 Roman Klinger
+80 14:00--14:35  # Latest News in Computational Argumentation: Surfing on the Deep Learning Wave, Scuba Diving in the Abyss of Fundamental Questions
+10 14:35--15:00  # Towards Syntactic Iberian Polarity Classification
+70 15:00--15:15  # Toward Stance Classification Based on Claim Microstructures
+73 15:15--15:30  # Linguistic Reflexes of Well-Being and Happiness in Echo
++ 15:30--16:00 Coffee Break
+= 16:00--17:15 Session 4: Preferences and values as determiners of sentiment and emotion # %chair1 Iryna Gurevych
+35 16:00--16:35  # Forecasting Consumer Spending from Purchase Intentions Expressed on Social Media
+13 16:25--16:50  # Mining fine-grained opinions on closed captions of YouTube videos with an attention-RNN
+79 16:50--17:15  # Understanding human values and their emotional effect
++ 17:15--17:25 Break
+= 17:25--18:25 Session 5: Posters (Main Workshop and Emotion Intensity Task)
+19   # Did you ever read about Frogs drinking Coffee? Investigating the Compositionality of Multi-Emoji Expressions
+24   # Investigating Redundancy in Emoji Use: Study on a Twitter Based Corpus
+39   # Modeling Temporal Progression of Emotional Status in Mental Health Forum: A Recurrent Neural Net Approach
+26   # Towards an integrated pipeline for aspect-based sentiment analysis in various domains
+40   # Building a SentiWordNet for Odia
+9   # Lexicon Integrated CNN Models with Attention for Sentiment Analysis
+60   # Explaining Recurrent Neural Network Predictions in Sentiment Analysis
+29   # GradAscent at EmoInt-2017: Character and Word Level Recurrent Neural Network Models for Tweet Emotion Intensity Detection
+30   # NUIG at EmoInt-2017: BiLSTM and SVR Ensemble to Detect Emotion Intensity
+22   # Unsupervised Aspect Term Extraction with B-LSTM & CRF using Automatically Labelled Datasets
+8   # PLN-PUCRS at EmoInt-2017: Psycholinguistic features for emotion intensity prediction in tweets
+16   # Textmining at EmoInt-2017: A Deep Learning Approach to Sentiment Intensity Scoring of English Tweets
+23   # YNU-HPCC at EmoInt-2017: Using a CNN-LSTM Model for Sentiment Intensity Prediction
+50   # Seernet at EmoInt-2017: Tweet Emotion Intensity Estimator
+53   # IITP at EmoInt-2017: Measuring Intensity of Emotions using Sentence Embeddings and Optimized Features
+54   # NSEmo at EmoInt-2017: An Ensemble to Predict Emotion Intensity in Tweets
+57   # Tecnolengua Lingmotif at EmoInt-2017: A lexicon-based approach
+58   # EmoAtt at EmoInt-2017: Inner attention sentence embedding for Emotion Intensity
+59   # YZU-NLP at EmoInt-2017: Determining Emotion Intensity Using a Bi-directional LSTM-CNN Model
+65   # DMGroup at EmoInt-2017: Emotion Intensity Using Ensemble Method
+66   # UWat-Emote at EmoInt-2017: Emotion Intensity Detection using Affect Clues, Sentiment Polarity and Word Embeddings
+68   # LIPN-UAM at EmoInt-2017:Combination of Lexicon-based features and Sentence-level Vector Representations for Emotion Intensity Determination
+76   # deepCybErNet at EmoInt-2017: Deep Emotion Intensities in Tweets
+= 18:25--18:30 Closing remarks

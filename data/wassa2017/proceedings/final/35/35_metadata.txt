@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#Forecasting Consumer Spending from Purchase Intentions Expressed on Social Media
+ShortPaperTitle#=%=#Forecasting Consumer Spending from Purchase Intentions Expressed on Social Media
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Viktor Pekar
+JobTitle#==#
+Organization#==#University of Birmingham, Edgbaston, Birmingham B15 2TT, United Kingdom
+Abstract#==#Consumer spending is an important macroeconomic indicator that is used by
+policy-makers to judge the health of an economy. In this paper we present a
+novel method for predicting future consumer spending from social media data. In
+contrast to previous work that largely relied on sentiment analysis, the
+proposed method models consumer spending from purchase intentions found on
+social media. Our experiments with time series analysis models and
+machine-learning regression models reveal utility of this data for making
+short-term forecasts of consumer spending: for three- and seven-day horizons,
+prediction variables derived from social media help to improve forecast
+accuracy by 11% to 18% for all the three models, in comparison to models that
+used only autoregressive predictors.
+Author{1}{Firstname}#=%=#Viktor
+Author{1}{Lastname}#=%=#Pekar
+Author{1}{Email}#=%=#v.pekar@gmail.com
+Author{1}{Affiliation}#=%=#University of Birmingham
+Author{2}{Firstname}#=%=#Jane
+Author{2}{Lastname}#=%=#Binner
+Author{2}{Email}#=%=#j.m.binner@bham.ac.uk
+Author{2}{Affiliation}#=%=#University of Birmingham
+
+==========

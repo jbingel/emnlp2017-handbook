@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#25
+FinalPaperTitle#=%=#Ranking Right-Wing Extremist Social Media Profiles by Similarity to Democratic and Extremist Groups
+ShortPaperTitle#=%=#Ranking Right-Wing Extremist Social Media Profiles by Similarity to Democratic and Extremist Groups
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Roman Klinger
+JobTitle#==#
+Organization#==#University of Stuttgart
+Abstract#==#Social media are used by an increasing number of political actors. A
+small subset of these is interested in pursuing extremist motives
+such as mobilization, recruiting or radicalization activities. In
+order to counteract these trends, online providers and state
+institutions reinforce their monitoring efforts, mostly relying on
+manual workflows. We propose a machine learning approach
+to support manual attempts towards identifying right-wing extremist
+content in German Twitter profiles. Based on a fine-grained
+conceptualization of right-wing extremism, we frame the task as
+ranking each individual profile on a continuum spanning different
+degrees of right-wing extremism, based on a nearest neighbour
+approach. A quantitative evaluation reveals that our ranking model
+yields robust performance (up to 0.81 F$_1$ score) when being used
+for predicting discrete class labels. At the same time, the model 
+provides plausible continuous ranking scores for a small
+sample of borderline cases at the division of right-wing extremism 
+and New Right political movements.
+Author{1}{Firstname}#=%=#Matthias
+Author{1}{Lastname}#=%=#Hartung
+Author{1}{Email}#=%=#mhartung@cit-ec.uni-bielefeld.de
+Author{1}{Affiliation}#=%=#Bielefeld University, CIT-EC, Semantic Computing Group
+Author{2}{Firstname}#=%=#Roman
+Author{2}{Lastname}#=%=#Klinger
+Author{2}{Email}#=%=#roman.klinger@ims.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#University of Stuttgart
+Author{3}{Firstname}#=%=#Franziska
+Author{3}{Lastname}#=%=#Schmidtke
+Author{3}{Email}#=%=#franziska.schmidtke@uni-jena.de
+Author{3}{Affiliation}#=%=#University of Jena
+Author{4}{Firstname}#=%=#Lars
+Author{4}{Lastname}#=%=#Vogel
+Author{4}{Email}#=%=#lars.vogel@uni-jena.de
+Author{4}{Affiliation}#=%=#University of Jena
+
+==========

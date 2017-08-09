@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#31
+FinalPaperTitle#=%=#University of Rochester WMT 2017 NMT System Submission
+ShortPaperTitle#=%=#University of Rochester WMT 2017 NMT System Submission
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Chester Holtz
+JobTitle#==#
+Organization#==#University of Rochester
+500 Joseph C. Wilson Blvd.
+Rochester, NY 14611
+Abstract#==#We describe the neural machine translation system submitted by the University
+of Rochester to the Chinese-English language pair for the WMT 2017 news
+translation task. We applied unsupervised word and subword segmentation
+techniques and deep learning in order to address (i) the word segmentation
+problem caused by the lack of delimiters between words and phrases in Chinese
+and (ii) the morphological and syntactic differences between Chinese and
+English. We integrated promising recent developments in NMT, including
+back-translations, language model reranking, subword splitting and minimum risk
+tuning.
+Author{1}{Firstname}#=%=#Chester
+Author{1}{Lastname}#=%=#Holtz
+Author{1}{Email}#=%=#choltz2@u.rochester.edu
+Author{1}{Affiliation}#=%=#University of Rochester
+Author{2}{Firstname}#=%=#Chuyang
+Author{2}{Lastname}#=%=#Ke
+Author{2}{Email}#=%=#kechuyang@gmail.com
+Author{2}{Affiliation}#=%=#University of Rochester
+Author{3}{Firstname}#=%=#Daniel
+Author{3}{Lastname}#=%=#Gildea
+Author{3}{Email}#=%=#gildea@cs.rochester.edu
+Author{3}{Affiliation}#=%=#University of Rochester
+
+==========

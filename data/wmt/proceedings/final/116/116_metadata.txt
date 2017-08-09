@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#116
+FinalPaperTitle#=%=#chrF++: words helping character n-grams
+ShortPaperTitle#=%=#chrF++: words helping character n-grams
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Maja Popovic
+JobTitle#==#
+Organization#==#Humboldt University of Berlin
+Unter den Linden 6
+10099 Berlin, Germany
+Abstract#==#Character n-gram F-score (chrF) is shown to correlate very well with human
+relative rankings of different machine translation outputs, especially for
+morphologically rich target languages. However, its relation with direct human
+assessments is not yet clear. 
+In this work, Pearson's correlation coefficients for direct assessments are
+investigated for two currently available target languages, English and Russian.
+First, different beta parameters (in range from 1  to 3) are re-investigated
+with direct assessment,  and it is confirmed that beta = 2 is the optimal
+option.
+Then separate character and word n-grams are investigated, and the main finding
+
+is that, apart from character n-grams, word 1-grams and 2-grams also correlate
+rather well with direct assessments. 
+Further experiments show that adding word unigrams and bigrams to the standard
+chrF score improves the correlations with direct assessments, though it is
+still not clear which option is better, unigrams only (chrF+) or unigrams and
+bigrams (chrF++). This should be investigated in future work on more target
+languages.
+Author{1}{Firstname}#=%=#Maja
+Author{1}{Lastname}#=%=#Popović
+Author{1}{Email}#=%=#maja.popovic.166@gmail.com
+Author{1}{Affiliation}#=%=#Humboldt University of Berlin
+
+==========

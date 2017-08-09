@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#112
+FinalPaperTitle#=%=#Blend: a Novel Combined MT Metric Based on Direct Assessment — CASICT-DCU submission to WMT17 Metrics Task
+ShortPaperTitle#=%=#Blend: a Novel Combined MT Metric Based on Direct Assessment — CASICT-DCU submission to WMT17 Metrics Task
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Qingsong Ma
+JobTitle#==#
+Organization#==#
+Abstract#==#Existing metrics to evaluate the quality of Machine Translation hypotheses take
+different perspectives
+into account. DPMFcomb, a metric combining the merits of a range of metrics,
+achieved the
+best performance for evaluation of to-English language pairs in the previous
+two years of WMT Metrics Shared Tasks.
+This year, we submit a novel combined metric, Blend, to WMT17 Metrics task. 
+Compared to DPMFcomb, Blend includes the following adaptations: i) We use DA
+human evaluation to guide the training process with a vast reduction in
+required training data, while still achieving improved performance when
+evaluated on WMT16 to-English language pairs; 
+ii) We carry out experiments to explore the contribution of metrics
+incorporated in Blend, 
+in order to find a trade-off between performance and efficiency.
+Author{1}{Firstname}#=%=#Qingsong
+Author{1}{Lastname}#=%=#Ma
+Author{1}{Email}#=%=#maqingsong@ict.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Computing Technology Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Yvette
+Author{2}{Lastname}#=%=#Graham
+Author{2}{Email}#=%=#graham.yvette@gmail.com
+Author{2}{Affiliation}#=%=#Dublin City University
+Author{3}{Firstname}#=%=#Shugen
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#wangshugen@ict.ac.cn
+Author{3}{Affiliation}#=%=#Institute of Computing Technology Chinese Academy of Sciences
+Author{4}{Firstname}#=%=#Qun
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Email}#=%=#qun.liu@dcu.ie
+Author{4}{Affiliation}#=%=#Dublin City University
+
+==========

@@ -1,0 +1,21 @@
+SubmissionNumber#=%=#26
+FinalPaperTitle#=%=#Patterns versus Characters in Subword-aware Neural Language Modeling
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#We consider patterns, an alternative to ordinary characters, which encapsulate
+information on character n-gram regularities. In the task of subword-aware
+language modeling, pattern-based models outperform character-based ones by
+2–20 perplexity points.
+Author{1}{Firstname}#=%=#Zhenisbek
+Author{1}{Lastname}#=%=#Assylbekov
+Author{1}{Email}#=%=#zhassylbekov@nu.edu.kz
+Author{1}{Affiliation}#=%=#Nazarbayev University
+Author{2}{Firstname}#=%=#Rustem
+Author{2}{Lastname}#=%=#Takhanov
+Author{2}{Email}#=%=#rustem.takhanov@nu.edu.kz
+Author{2}{Affiliation}#=%=#Nazarbayev University
+
+==========

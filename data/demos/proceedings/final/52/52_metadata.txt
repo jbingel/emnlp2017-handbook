@@ -1,10 +1,10 @@
 SubmissionNumber#=%=#52
 FinalPaperTitle#=%=#Interactive Visualization and Manipulation of Attention-based Neural Machine Translation
-ShortPaperTitle#=%=#
-NumberOfPages#=%=#
-CopyrightSigned#=%=#
+ShortPaperTitle#=%=#Interactive Visualization and Manipulation of Attention-based Neural Machine Translation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jaesong Lee
 JobTitle#==#
-Organization#==#
+Organization#==#NAVER Corp.
 Abstract#==#While neural machine translation (NMT) provides high-quality translation, it is
 still hard to interpret and analyze its behavior. We present an interactive
 interface for visualizing and intervening behavior of NMT, specifically
