@@ -49,7 +49,7 @@
 % the parameters are: title, description, address, url, distance, cost, opening hours
 \newenvironment{fooditem}[7]{
 \noindent
-\begin{minipage}[t]{.5\textwidth}\textbf{#1} \end{minipage}\hfill\begin{minipage}[t]{.2\textwidth}\begin{right}\textbf{#5}\ \ \ \ \ \textbf{#6} \end{right}\end{minipage}
+\begin{minipage}[t]{.5\textwidth}\textbf{#1} \end{minipage}\begin{minipage}[t]{.3\textwidth}\end{minipage}\hfill\begin{minipage}[t]{.2\textwidth}\textbf{#5}\ \ \ \ \ \textbf{#6} \end{minipage}
 \par \noindent\emph{#2}
 \par \noindent\url{#4}
 \par\noindent\begin{minipage}[t]{.37\textwidth}{#3}\end{minipage}\begin{minipage}[t]{.63\textwidth}{#7}\end{minipage}
@@ -59,7 +59,7 @@
 % the parameters are: title, description, address, distance, cost, opening hours
 \newenvironment{fooditemwourl}[6]{
 \noindent
-\begin{minipage}[t]{.5\textwidth}\textbf{#1} \end{minipage}\hfill\begin{minipage}[t]{.2\textwidth}\begin{right}\textbf{#4}\ \ \ \ \ \textbf{#5} \end{right}\end{minipage}
+\begin{minipage}[t]{.5\textwidth}\textbf{#1} \end{minipage}\begin{minipage}[t]{.3\textwidth}\end{minipage}\hfill\begin{minipage}[t]{.2\textwidth}\textbf{#4}\ \ \ \ \ \textbf{#5}\end{minipage}
 \par \noindent\emph{#2}
 \par \noindent\begin{minipage}[t]{.37\textwidth}{#3}\end{minipage}\begin{minipage}[t]{.63\textwidth}{#6}\end{minipage}
 \medskip
@@ -109,13 +109,6 @@
 \index{Bingel, Joachim}
 \index{Hartmann, Mareike}
 \index{Hovy, Dirk}
-
-
-\begin{left}
-
-
-
-
 
 
 
@@ -332,7 +325,7 @@ Kødbyen is a lively place, and you can spend the entire conference within the w
 \end{funitemshort}
 \begin{funitemshort}
 {Jægersborggade}
-{This street in Nørrebro is a hipster’s paradise. Very close to Assistens Kirkegård, it is home to a number of cafés/bars, galleries, craft and (second-hand) clothing shops, as well as combinations thereof (Sneakers&Coffee, Beer&Vinyl, ...). Great for finding gifts to take home. }
+{This street in Nørrebro is a hipster’s paradise. Very close to Assistens Kirkegård, it is home to a number of cafés/bars, galleries, craft and (second-hand) clothing shops, as well as combinations thereof (Sneakers\&Coffee, Beer\&Vinyl, \dots). Great for finding gifts to take home. }
 {\url{http://jaegersborggade.com/wpAB/en/shops/}}
 \end{funitemshort}
 
@@ -437,7 +430,7 @@ Moreover, if your conference schedule permits, here’s a list of events happeni
 {Malmö Arena, September 6--10}%description
 {Hyllie Stationstorg 2, 215 32 Malmö, Sweden.}%adress
 {\url{https://www.cirquedusoleil.com/sweden/malmo/shows}}%url
-\end{funitem}
+\end{eventitem}
 
 
 \begin{eventitem}
@@ -445,14 +438,14 @@ Moreover, if your conference schedule permits, here’s a list of events happeni
 {Runs September 6--10 at different venues in Copenhagen}%description
 {}%adress
 {\url{http://cphworld.dk}}%url
-\end{funitem}
+\end{eventitem}
 
 \begin{eventitem}
 {Luisi leads Danish composer Carl Nielsen’s 5th Symphony in Koncerthuset}%title
 {September 7}%description
 {Koncerthuset, Emil Holms Kanal 20, 2300 Copenhagen S.}%adress
 {\url{http://drkoncerthuset.dk/}}%url
-\end{funitem}
+\end{eventitem}
 
 \section{Day-Trips}
 
@@ -579,16 +572,37 @@ The following restaurants are in very close proximity to the conference venue, m
 {0.3 km}
 {\$\$}
 {\begin{ohours}
-{Tue–Thu}
-{11:30–00:00}
-{Fri–Sat}
-{ 11:30–01:00}
+{Tue--Thu}
+{11:30--00:00}
+{Fri--Sat}
+{11:30--01:00}
 {Sun}
-{11:30–00:00}
+{11:30--00:00}
 {}
 {}
 \end{ohours}}
 \end{fooditem}
+
+
+\begin{fooditemwourl}
+{Bio Mio Organic Bistro}
+{Organic hearty bistro. Vegan and vegetarian options.}
+{\begin{addr}
+{Halmtorvet 19}
+{1700 Copenhagen V}
+\end{addr}}
+{0.2 km}
+{\$\$}
+{\begin{tabular}{l l} 
+Mon--Wed & 12:00--16:00 \& 17:00--22:00\\
+Thu & 12:00--16:00 \& 17:00--22:30\\
+Fri--Sat & 12:00--16:00 \& 17:30--22:30\\
+Sun & 12:00--16:00 \& 17:00--21:00
+\end{tabular}}
+\end{fooditemwourl}
+
+
+
 \begin{fooditem}
 {Hija de Sanchez}
 {Ex-Noma chef decided to leave the big business and make everyday tacos. Get 3 for 100DKK.}
@@ -1192,4 +1206,4 @@ In \textbf{emergency situations}, call 112.
 
 
 
-\end{left}
+
