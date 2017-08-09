@@ -49,6 +49,20 @@ def time_max(a, b):
         return b
     return a
 
+def print_poster_sessions_overview(sessions):
+    if len(sessions) > 0:
+        print >>out, "{\\large {\\bf Poster tracks}} \hfill %s \\\\ \\\\ " % (sessions[0].time)
+        #print >>out, '\\vspace{-0.3em} \\\\'
+        #print >>out, "Session \\hfill Poster Area \\\\" 
+        #print >>out, "\hrulefill \\\\" 
+        #print >>out, "\\rule{\\textwidth}{0.5pt} \\\\" 
+    for i, ps in enumerate(sessions):    
+        print >>out, '\\vspace{1em}'
+        sess_title = ps.desc if ps.desc else ps.name
+        sess_subid = chr(i + 68)
+        print >>out, '{\\bf Track %c}: {\\it %s} \\hfill \\Track%cLoc' % (sess_subid, sess_title, sess_subid)
+        print >>out, '\\\\'
+
 # List of dates
 dates = []
 schedule = defaultdict(defaultdict)
@@ -72,16 +86,21 @@ for file in args.order_files:
             # This names a parallel session that runs at a certain time
             str = line[2:]
             time_range, session_name = str.split(' ', 1)
-            sessions[session_name] = Session(line, (day, date, year))
-
+            session =  Session(line, (day, date, year))
+            if "poster" in session_name.lower():
+                session.poster = True
+            sessions[session_name] = session
         elif line.startswith('+'):
             # This names an event that takes place at a certain time
             timerange, title = line[2:].split(' ', 1)
 
             if "poster" in title.lower() or "demo" in title.lower() or "best paper session" in title.lower():
+                session =  Session(line, (day, date, year))
+                if "poster" in title.lower():
+                    session.poster = True
+                
                 session_name = title
-                sessions[session_name] = Session(line, (day, date, year))
-
+                sessions[session_name] = session
         elif re.match(r'^\d+', line) is not None:
             id, rest = line.split(' ', 1)
             if re.match(r'^\d+:\d+-+\d+:\d+', rest) is not None:
@@ -134,12 +153,13 @@ for date in dates:
 
         parallel_sessions = filter(lambda x: isinstance(x, Session) and not x.poster, events)
         poster_sessions = filter(lambda x: isinstance(x, Session) and x.poster, events)
-
+        print [s.name for s in parallel_sessions]
+        print [s.name for s in poster_sessions]
         # PARALLEL SESSIONS
 
         # Print the Session overview (single-page at-a-glance grid)
         if len(parallel_sessions) > 0:
-            print parallel_sessions[0]
+            #print parallel_sessions[0]
             session_num = parallel_sessions[0].num
 
             path = os.path.join(args.output_dir, '%s-parallel-session-%s.tex' % (day, session_num))
@@ -148,6 +168,7 @@ for date in dates:
             
             print >>out, '\\clearpage'
             print >>out, '\\setheaders{Session %s}{\\daydateyear}' % (session_num)
+            #print >>out, "{\\large {\\bf Oral tracks}}\\\\"
             print >>out, '\\begin{ThreeSessionOverview}{Session %s}{\daydateyear}' % (session_num)
             # print the session overview
             for session in parallel_sessions:
@@ -165,6 +186,8 @@ for date in dates:
 
             print >>out, '\\end{ThreeSessionOverview}\n'
 
+            print_poster_sessions_overview(poster_sessions)
+
             # Now print the papers in each of the sessions
             # Print the papers
             print >>out, '\\newpage'
@@ -179,20 +202,31 @@ for date in dates:
 
             print >>out, '\n'
 
+            # Include parallel poster sessions in session overview .tex
+            for session in poster_sessions:
+                poster_session_path = os.path.join(args.output_dir, '%s-%s.tex' % (day, session.name.replace(' ', '-')))
+                print >>out, "\\input{%s} \\\\" % poster_session_path[:-4]
+                print >>out, "\\clearpage \\\\"
+
             out.close()
 
         # POSTER SESSIONS
-        for session in poster_sessions:
+        for i, session in enumerate(poster_sessions):
             path = os.path.join(args.output_dir, '%s-%s.tex' % (day, session.name.replace(' ', '-')))
             out = open(path, 'w')
             print >> sys.stderr, "\\input{%s}" % (path)
 
-            print >>out, '{\\section{%s}' % (session.name)
-            print >>out, '{\\setheaders{%s}{\\daydateyear}' % (session.name)
-            print >>out, '{\large Time: \emph{%s}\\hfill Location: \\PosterLoc}\\\\' % (minus12(session.time))
+            #print >>out, '{\\section{%s}' % (session.name)
+            if session.desc:
+                print >>out, '{\\bfseries\\large %s: %s} \\hfill %s \\\\' % (session.name, session.desc, session.time)
+            else:
+                print >>out, '{\\bfseries\\large %s} \\hfill %s \\\\' % (session.name, session.time)
+                #print >>out, '{\\setheaders{%s}{\\daydateyear}' % (session.name)
             chair = session.chair()
             if chair[1] != '':
-                print >>out, '\\emph{\\sessionchair{%s}{%s}}' % (chair[0], chair[1])
+                print >>out, '\\Track%cLoc' % (chr(i + 68))
+            else:
+                print >>out, '\\Track%cLoc\\hfill\\sessionchair{%s}{%s}' % (chr(i + 68),chair[0],chair[1])
             print >>out, '\\\\'
             for paper in session.papers:
                 print >>out, '\\posterabstract{%s}' % (paper.id)

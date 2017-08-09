@@ -1,11 +1,11 @@
-* Friday, September 8, 2017
-= 18:30--20:00 Welcome Reception
+#* Friday, September 8, 2017
+#= 18:30--20:00 Welcome Reception
 * Saturday, September 9, 2017
 = 07:30--17:30 Registration Day 1
 + 08:00--08:30 Morning Coffee
-= 08:30--09:00 Session P1: Plenary Session: Opening Remarks # %room BigRoom
++ 08:30--09:00 Session P1: Plenary Session: Opening Remarks # %room BigRoom
 ! 08:30--09:00 Opening Remarks %by General Chair, PC Co-Chairs
-= 09:00--10:00 Session P2: Plenary Session: Invited Talk by Christopher Potts # %room BigRoom
++ 09:00--10:00 Session P2: Plenary Session: Invited Talk by Christopher Potts # %room BigRoom
 + 10:00--10:30 Coffee Break
 = 10:30--12:10 Session 1A: Syntax 1 # %room BigRoom %chair1 Joakim Nivre %aff1 SessChairAff
 617 10:30--10:55  # Monolingual Phrase Alignment on Parse Forests

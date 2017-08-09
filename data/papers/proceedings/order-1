@@ -1,0 +1,138 @@
+#* Friday, September 8, 2017
+#= 18:30--20:00 Welcome Reception
+* Saturday, September 9, 2017
+= 07:30--17:30 Registration Day 1
++ 08:00--08:30 Morning Coffee
++ 08:30--09:00 Session P1: Plenary Session: Opening Remarks # %room BigRoom
+! 08:30--09:00 Opening Remarks %by General Chair, PC Co-Chairs
++ 09:00--10:00 Session P2: Plenary Session: Invited Talk by Christopher Potts # %room BigRoom
++ 10:00--10:30 Coffee Break
+= 10:30--12:10 Session 1A: Syntax 1 # %room BigRoom %chair1 Joakim Nivre %aff1 SessChairAff
+617 10:30--10:55  # Monolingual Phrase Alignment on Parse Forests
+1381 10:55--11:20  # Fast(er) Exact Decoding and Global Training for Transition-Based Dependency Parsing via a Minimal Feature Set
+1381 11:20--11:45  # Fast(er) Exact Decoding and Global Training for Transition-Based Dependency Parsing via a Minimal Feature Set
+1501 11:45--12:10  # Quasi-Second-Order Parsing for 1-Endpoint-Crossing, Pagenumber-2 Graphs
+= 10:30--12:10 Session 1B: Information Extraction # %room SmallRoomA %chair1 Heng Ji %aff1 SessChairAff
+1082 10:30--10:55  # Integrating Order Information and Event Relation for Script Event Prediction
+1321 10:55--11:20  # Heterogeneous Supervision for Relation Extraction: A Representation Learning Approach
+1417 11:20--11:45  # Position-aware Attention and Supervised Data Improve Slot Filling
+313 11:45--12:10  # Entity Linking for Queries by Searching Wikipedia Sentences
+= 10:30--12:10 Session 1C: Multilingual NLP # %room SmallRoomB %chair1 Ivan Titov %aff1 SessChairAff
+336 10:30--10:55  # Train-O-Matic: Large-Scale Supervised Word Sense Disambiguation in Multiple Languages without Manual Training Data
+857 10:55--11:20  # Universal Semantic Parsing
+1195 11:20--11:45  # Mimicking Word Embeddings using Subword RNNs
+963 11:45--12:10  # Past, Present, Future: A Computational Investigation of the Typology of Tense in 1000 Languages
+= 10:30--12:10 Demo # %room DemoArea %chair1 SessChair %aff1 SessChairAff
++ 12:10--13:40 Lunch
+= 13:40--15:20 Session 2A: Machine Translation 1 # %room BigRoom %chair1 Graham Neubig %aff1 CMU
+994 13:40--14:05  # Neural Machine Translation with Source-Side Latent Graph Parsing
+1213 14:05--14:30  # Neural Machine Translation with Word Predictions
+1250 14:30--14:55  # Towards Decoding as Continuous Optimisation in Neural Machine Translation
+= 13:40--15:20 Session 2B: Language Grounding # %room SmallRoomA %chair1 Yejin Choi %aff1 University of Washington
+1085 13:40--14:05  # Where is Misty? Interpreting Spatial Descriptors by Modeling Regions in Space
+480 14:05--14:30  # Continuous Representation of Location for Geolocation and Lexical Dialectology using Mixture Density Networks
+1367 14:55--15:20  # Obj2Text: Generating Visually Descriptive Language from Object Layouts
+= 13:40--15:20 Session 2C: Discourse and Summarization # %room SmallRoomB %chair1 Lu Wang %aff1 Northeastern University
+912 13:40--14:05  # End-to-end Neural Coreference Resolution
+20 14:05--14:30  # Neural Net Models of Open-domain Discourse Coherence
+524 14:30--14:55  # Affinity-Preserving Random Walk for Multi-Document Summarization
+779 14:55--15:20  # A Mention-Ranking Model for Abstract Anaphora Resolution
+= 13:40--15:20 Session 2D: Embeddings (Poster) # %room PosterAreaA %chair1 SessChair %aff1 SessChairAff
+188   # Hierarchical Embeddings for Hypernymy Detection and Directionality
+193   # Ngram2vec: Learning Improved Word Representations from Ngram Co-occurrence Statistics
+663   # Dict2vec : Learning Word Embeddings using Lexical Dictionaries
+1197   # Learning Chinese Word Representations From Glyphs Of Characters
+1396   # Learning Paraphrastic Sentence Embeddings from Back-Translated Bitext
+102   # Joint Embeddings of Chinese Words, Characters, and Fine-grained Subcharacter Components
+427   # Exploiting Morphological Regularities in Distributional Word Representations
+600   # Exploiting Word Internal Structures for Generic Chinese Sentence Representation
+853   # High-risk learning: acquiring new word vectors from tiny data
+884   # Word Embeddings based on Fixed-Size Ordinally Forgetting Encoding
+990   # VecShare: A Framework for Sharing Word Representation Vectors
+898   # Word Re-Embedding via Manifold Dimensionality Retention
+1302   # MUSE: Modularizing Unsupervised Sense Embeddings
+= 13:40--15:20 Session 2E: Machine Learning (Poster) # %room PosterAreaB %chair1 SessChair %aff1 SessChairAff
+65   # Reporting Score Distributions Makes a Difference: Performance Study of LSTM-networks for Sequence Tagging
+111   # Learning What's Easy: Fully Differentiable Neural Easy-First Taggers
+516   # Incremental Skip-gram Model with Negative Sampling
+737   # Learning to select data for transfer learning with Bayesian Optimization
+754   # Unsupervised Pretraining for Sequence to Sequence Learning
+1046   # Efficient Attention using a Fixed-Size Memory Representation
+1211   # Rotated Word Vector Representations and their Interpretability
+1260   # A causal framework for explaining the predictions of black-box sequence-to-sequence models
+1462   # Piecewise Latent Variables for Neural Variational Text Processing
+690   # Learning the Structure of Variable-Order CRFs: a finite-state perspective
+864   # Sparse Communication for Distributed Gradient Descent
+1011   # A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks
+1229   # Why ADAGRAD Fails for Online Topic Modeling
+= 13:40--15:20 Session 2F: Sentiment Analysis (Poster) # %room PosterAreaC %chair1 SessChair %aff1 SessChairAff
+215   # Recurrent Attention Network on Memory for Aspect Sentiment Analysis
+378   # A Cognition Based Attention Model for Sentiment Analysis
+623   # Author-aware Aspect Topic Sentiment Model to Retrieve Supporting Opinions from Reviews
+988   # Magnets for Sarcasm: Making Sarcasm Detection Timely, Contextual and Very Personal
+1118   # Identifying Humor in Reviews using Background Text Sources
+1169   # Sentiment Lexicon Construction with Representation Learning Based on Hierarchical Sentiment Supervision
+1399   # Towards a Universal Sentiment Classifier in Multiple languages
+696   # Capturing User and Product Information for Document Level Sentiment Analysis with Deep Memory Network
+948   # Identifying and Tracking Sentiments and Topics from Social Media Texts during Natural Disasters
+1126   # Refining Word Embeddings for Sentiment Analysis
+1416   # A Multilayer Perceptron based Ensemble Technique for Fine-grained Financial Sentiment Analysis
+1436   # Sentiment Intensity Ranking among Adjectives Using Sentiment Bearing Word Embeddings
+723   # Sentiment Lexicon Expansion Based on Neural PU Learning, Double Dictionary Lookup, and Polarity Association
+! 15:50 Break %by 15:20
+= 15:50--17:30 Session 3A: Machine Learning 1 # %room BigRoom %chair1 Mohit Bansal %aff1 SessChairAff
+1047 15:50--16:15  # DeepPath: A Reinforcement Learning Method for Knowledge Graph Reasoning
+434 16:15--16:40  # Task-Oriented Query Reformulation with Reinforcement Learning
+437 16:40--17:05  # Sentence Simplification with Deep Reinforcement Learning
+679 17:05--17:30  # Learning how to Active Learn: A Deep Reinforcement Learning Approach
+= 15:50--17:30 Session 3B: Generation # %room SmallRoomA %chair1 Wei Xu %aff1 Ohio State University
+842 15:50--16:15  # Split and Rephrase
+1344 16:15--16:40  # Neural Response Generation via GAN with an Approximate Embedding Layer
+591 16:40--17:05  # A Hybrid Convolutional Variational Autoencoder for Text Generation
+1035 17:05--17:30  # Filling the Blanks (hint: plural noun) for Mad Libs Humor
+= 15:50--17:30 Session 3C: Semantics 1 # %room SmallRoomB %chair1 Felix Hill %aff1 Deep Mind
+84 15:50--16:15  # Measuring Thematic Fit with Distributional Feature Overlap
+822 16:15--16:40  # SCDV : Sparse Composite Document Vectors using soft clustering over distributional representations
+871 16:40--17:05  # Supervised Learning of Universal Sentence Representations from Natural Language Inference Data
+624 17:05--17:30  # Determining Semantic Textual Similarity using Natural Deduction Proofs
+= 15:50--17:30 Session 3D: Segmentation (Poster) # %room PosterRoomA %chair1 SessChair %aff1 SessChairAff
+43   # Multi-Grained Chinese Word Segmentation
+996   # Don't Throw Those Morphological Analyzers Away Just Yet: Neural Morphological Disambiguation for Arabic
+127   # Paradigm Completion for Derivational Morphology
+650   # A Sub-Character Architecture for Korean Language Processing
+39   # Do LSTMs really work so well for PoS tagging? -- A replication study
+493   # Semi-supervised Structured Prediction with Neural CRF Autoencoder
+1377   # TAG Parsing with Neural Networks and Vector Representations of Supertags
+446   # The Labeled Segmentation of Printed Books
+128   # Cross-lingual Character-Level Neural Morphological Tagging
+1299   # Word-Context Character Embeddings for Chinese Word Segmentation
+44   # Segmentation-Free Word Embedding for Unsegmented Languages
+= 15:50--17:30 Session 3E: Question Answering and Machine Comprehension (Poster) # %room PosterRoomB %chair1 SessChair %aff1 SessChairAff
+22   # From Textbooks to Knowledge: A Case Study in Harvesting Axiomatic Knowledge from Textbooks to Solve Geometry Problems
+37   # RACE: Large-scale ReAding Comprehension Dataset From Examinations
+432   # Beyond Sentential Semantic Parsing: Tackling the Math SAT with a Cascade of Tree Transducers
+627   # Learning Fine-Grained Expressions to Solve Math Word Problems
+1219   # Structural Embedding of Syntactic Trees for Machine Comprehension
+856   # World Knowledge for Reading Comprehension: Rare Entity Prediction with Hierarchical LSTMs Using External Descriptions
+1145   # Two-Stage Synthesis Networks for Transfer Learning in Machine Comprehension
+359   # Deep Neural Solver for Math Word Problems
+72   # Latent Space Embedding for Retrieval in Question-Answer Archives
+294   # Question Generation for Question Answering
+770   # Learning to Paraphrase for Question Answering
+1419   # Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture
+797   # Ranking Kernels for Structures and Embeddings: A Hybrid Preference and Classification Model
+1405   # Recovering Question Answering Errors via Query Revision
+= 15:50--17:30 Session 3F: Multimodal NLP (Poster) # %room PosterRoomC %chair1 SessChair %aff1 SessChairAff
+1026   # An empirical study on the effectiveness of images in Multimodal Neural Machine Translation
+1037   # Sound-Word2Vec: Learning Word Representations Grounded in Sounds
+7   # The Promise of Premise: Harnessing Question Premises in Visual Question Answering
+169   # Guided Open Vocabulary Image Captioning with Constrained Beam Search
+1459   # Zero-Shot Activity Recognition with Verb Attribute Induction
+553   # Deriving continous grounded meaning representations from referentially structured multimodal contexts
+1151   # Hierarchically-Attentive RNN for Album Summarization and Storytelling
+1223   # Video Highlight Prediction Using Audience Chat Reactions
+1296   # Reinforced Video Captioning with Entailment Rewards
+1446   # Evaluating Hierarchies of Verb Argument Structure with Hierarchical Clustering
+163   # Incorporating Global Visual Features into Attention-based Neural Machine Translation.
+138   # Mapping Instructions and Visual Observations to Actions with Reinforcement Learning
+301   # An analysis of eye-movements during reading for the detection of mild cognitive impairment

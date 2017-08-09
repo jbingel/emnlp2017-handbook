@@ -492,6 +492,21 @@ Human Language Technologies}\par
       \hline\hline}
 {\hline\end{tabular}\end{center}}
 
+\newenvironment{ThreeOralThreePosterOverview}[8]{
+  \section[#1]{#1 Overview -- #2}
+  \setheaders{#1}{#2}
+  {\large {\bf Oral Tracks}}
+  \begin{center}
+    \righthyphenmin2
+    \sloppy
+    \begin{tabular}{|>{\RaggedRight}p{1.3in}|>{\RaggedRight}p{1.3in}|>{\RaggedRight}p{1.3in}|}
+      \hline
+      \bf Track A & \bf Track B & \bf Track C \\\hline
+      \it #3 & \it #4 & \it #5 \\
+      \TrackALoc & \TrackBLoc & \TrackCLoc \\
+      \hline\hline}
+{\hline\end{tabular}\end{center}}
+
 \newcommand{\daydate}{DAY, DATE}
 \newcommand{\daydateyear}{DAY, DATE, YEAR}
 \newcommand{\setdaydateyear}[3]{
