@@ -113,6 +113,7 @@ for date in dates:
     print >>out, '\\renewcommand{\\arraystretch}{1.2}'
     print >>out, '\\begin{SingleTrackSchedule}'
     for timerange, events in sorted(schedule[date].iteritems(), cmp=sort_times):
+        print timerange, events
         start, stop = timerange.split('--')
 
         if len(events) >= 3:
@@ -122,22 +123,41 @@ for date in dates:
             # turn "Session 9A" to "Session 9"
             title = 'Session %s' % (sessions[0].num)
             num_parallel_sessions = len(sessions)
-            rooms = ['\emph{\Track%cLoc}' % (chr(65+x)) for x in range(num_parallel_sessions)]
-            # column width in inches
-            width = 3.3 / num_parallel_sessions
-            print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
-            print >>out, '  \\begin{tabular}{|%s|}' % ('|'.join(['p{%.1fin}' % width for x in range(num_parallel_sessions)]))
-            print >>out, '    \\multicolumn{%d}{l}{{\\bfseries %s}}\\\\\\hline' % (num_parallel_sessions,title)
-            print >>out, ' & '.join([session.desc for session in sessions]), '\\\\'
-            print >>out, ' & '.join(rooms), '\\\\'
-            print >>out, '  \\hline\\end{tabular} \\\\'
-
+            if num_parallel_sessions <= 3:
+                rooms = ['\emph{\Track%cLoc}' % (chr(65+x)) for x in range(num_parallel_sessions)]
+                # column width in inches
+                width = 3.7 / num_parallel_sessions
+                print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
+                print >>out, '  \\begin{tabular}{|%s|}' % ('|'.join(['p{%.1fin}' % width for x in range(num_parallel_sessions)]))
+                print >>out, '    \\multicolumn{%d}{l}{{\\bfseries %s}}\\\\\\hline' % (num_parallel_sessions,title)
+                print >>out, ' & '.join([session.desc for session in sessions]), '\\\\'
+                print >>out, ' & '.join(rooms), '\\\\'
+                print >>out, '  \\hline\\end{tabular} \\\\'
+            else:
+                max_cols = 3
+                rooms = ['\emph{\Track%cLoc}' % (chr(65+x)) for x in range(num_parallel_sessions)]
+                # column width in inches
+                width = 3.7 / max_cols
+                print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
+                print >>out, '  \\begin{tabular}{|%s|}' % ('|'.join(['p{%.1fin}' % width for x in range(max_cols)]))
+                print >>out, '    \\multicolumn{%d}{l}{{\\bfseries %s}}\\\\\\hline' % (max_cols,title)
+                for i in range(num_parallel_sessions / max_cols):
+                    if i > 0:
+                        print >>out, '\\hline'
+                    print >>out, ' & '.join([session.desc for session in sessions[i*max_cols:(i+1)*max_cols]]), '\\\\'
+                    print >>out, ' & '.join(rooms[i*max_cols:(i+1)*max_cols]), '\\\\'
+                print >>out, '  \\hline\\end{tabular} \\\\'
+                
         else:
 
             for event in events:
                 # A regular event
+                print "event:", event, " ", type(event)
                 print >>out, '  %s & -- & %s &' % (minus12(start), minus12(stop))
-                loc = event.split(' ')[0].capitalize()
+                try:
+                    loc = event.split(' ')[0].capitalize()
+                except AttributeError:
+                    loc = "TODO Location"
                 print >>out, '  {\\bfseries %s} \\hfill \emph{\\%sLoc}' % (event, loc)
                 print >>out, '  \\\\'
 

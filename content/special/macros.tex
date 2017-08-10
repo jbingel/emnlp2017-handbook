@@ -481,31 +481,17 @@ Human Language Technologies}\par
 \newenvironment{ThreeSessionOverview}[5]{
   \section[#1]{#1 Overview -- #2}
   \setheaders{#1}{#2}
+  {\large {\bf Oral tracks}}
   \begin{center}
     \righthyphenmin2
     \sloppy
-    \begin{tabular}{|>{\RaggedRight}p{1.3in}|>{\RaggedRight}p{1.3in}|>{\RaggedRight}p{1.3in}|}
-      \hline
-      \bf Track A & \bf Track B & \bf Track C \\\hline
+    \begin{tabular}{>{\RaggedRight}p{1.4in} >{\RaggedRight}p{1.4in} >{\RaggedRight}p{1.4in}}
+      
+      \bf Track A & \bf Track B & \bf Track C \\
       \it #3 & \it #4 & \it #5 \\
       \TrackALoc & \TrackBLoc & \TrackCLoc \\
-      \hline\hline}
-{\hline\end{tabular}\end{center}}
-
-\newenvironment{ThreeOralThreePosterOverview}[8]{
-  \section[#1]{#1 Overview -- #2}
-  \setheaders{#1}{#2}
-  {\large {\bf Oral Tracks}}
-  \begin{center}
-    \righthyphenmin2
-    \sloppy
-    \begin{tabular}{|>{\RaggedRight}p{1.3in}|>{\RaggedRight}p{1.3in}|>{\RaggedRight}p{1.3in}|}
-      \hline
-      \bf Track A & \bf Track B & \bf Track C \\\hline
-      \it #3 & \it #4 & \it #5 \\
-      \TrackALoc & \TrackBLoc & \TrackCLoc \\
-      \hline\hline}
-{\hline\end{tabular}\end{center}}
+      \midrule\midrule}
+{\end{tabular}\end{center}}
 
 \newcommand{\daydate}{DAY, DATE}
 \newcommand{\daydateyear}{DAY, DATE, YEAR}

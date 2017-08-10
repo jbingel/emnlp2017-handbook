@@ -178,7 +178,7 @@ for date in dates:
             num_papers = len(parallel_sessions[0].papers)
             for paper_num in range(num_papers):
                 if paper_num > 0:
-                    print >>out, '  \\hline'
+                    print >>out, '  \\midrule'
                 print >>out, '  \\marginnote{\\rotatebox{90}{%s}}[2mm]' % (times[paper_num])
                 papers = [session.papers[paper_num] for session in parallel_sessions]
                 print >>out, ' ', ' & '.join(['\\papertableentry{%s}' % (p.id) for p in papers])

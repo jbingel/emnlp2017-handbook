@@ -21,7 +21,7 @@
 857 10:55--11:20  # Universal Semantic Parsing
 1195 11:20--11:45  # Mimicking Word Embeddings using Subword RNNs
 963 11:45--12:10  # Past, Present, Future: A Computational Investigation of the Typology of Tense in 1000 Languages
-= 10:30--12:10 Demo # %room DemoArea %chair1 SessChair %aff1 SessChairAff
+#= 10:30--12:10 Demo # %room DemoArea %chair1 SessChair %aff1 SessChairAff
 + 12:10--13:40 Lunch
 = 13:40--15:20 Session 2A: Machine Translation 1 # %room BigRoom %chair1 Graham Neubig %aff1 CMU
 994 13:40--14:05  # Neural Machine Translation with Source-Side Latent Graph Parsing
@@ -78,7 +78,7 @@
 1416   # A Multilayer Perceptron based Ensemble Technique for Fine-grained Financial Sentiment Analysis
 1436   # Sentiment Intensity Ranking among Adjectives Using Sentiment Bearing Word Embeddings
 723   # Sentiment Lexicon Expansion Based on Neural PU Learning, Double Dictionary Lookup, and Polarity Association
-! 15:50 Break %by 15:20
+! 15:20--15:50 Break 
 = 15:50--17:30 Session 3A: Machine Learning 1 # %room BigRoom %chair1 Mohit Bansal %aff1 SessChairAff
 1047 15:50--16:15  # DeepPath: A Reinforcement Learning Method for Knowledge Graph Reasoning
 434 16:15--16:40  # Task-Oriented Query Reformulation with Reinforcement Learning
@@ -260,6 +260,7 @@
 = 15:50--17:30 Session 6B: Text Mining and NLP applications # %room SmallRoomA %chair1 Jill Burstein %aff1 ETS
 455 15:50--16:15  # Satirical News Detection and Analysis using Attention Mechanism and Linguistic Features
 299 16:15--16:40  # Fine Grained Citation Span for References in Wikipedia
+971 16:40--17:05  # Graph Convolutional Encoders for Syntax-aware Neural Machine Translation
 472 17:05--17:30  # Identifying Semantic Edit Intentions from Revisions in Wikipedia
 = 15:50--17:30 Session 6C: Machine Comprehension # %room SmallRoomB %chair1 Ndapa Nakashole %aff1 SessChairAff
 467 15:50--16:15  # Accurate Supervised and Semi-Supervised Machine Reading for Long Documents
@@ -314,13 +315,16 @@
 977 11:20--11:45  # Learning Generic Sentence Representations Using Convolutional Neural Networks
 916 11:45--12:10  # Repeat before Forgetting: Spaced Repetition for Efficient and Effective Training of Neural Networks
 = 10:30--12:10 Session 7B: Syntax 2 # %room SmallRoomA %chair1 Zeljko Agic %aff1 IT University of Copenhagen
-264 10:30--10:55  # Part-of-Speech Tagging for Twitter with Adversarial Neural Networks
-559 10:55--11:20  # Investigating Different Syntactic Context Types and Context Representations for Learning Word Embeddings
+1310 10:30--10:55  # Maximum Margin Reward Networks for Learning from Explicit and Implicit Supervision
+349 10:55--11:20  # The Impact of Modeling Overall Argumentation with Tree Kernels
+977 11:20--11:45  # Learning Generic Sentence Representations Using Convolutional Neural Networks
+916 11:45--12:10  # Repeat before Forgetting: Spaced Repetition for Efficient and Effective Training of Neural Networks
 #1113 11:20--11:45 # NOTE: PAPER PRESENT MORE THAN ONCE IN THE SCHEDULE  # Does syntax help discourse segmentation? Not so much
 = 10:30--12:10 Session 7C: Dialogue # %room SmallRoomB %chair1 Marilyn A. Walker %aff1 UC Santa Cruz
-1270 10:30--10:55  # Deal or No Deal? End-to-End Learning of Negotiation Dialogues
-1403 10:55--11:20  # Agent-Aware Dropout DQN for Safe and Efficient On-line Dialogue Policy Learning
-1372 11:20--11:45  # Towards Debate Automation: a Recurrent Model for Predicting Debate Winners
+1310 10:30--10:55  # Maximum Margin Reward Networks for Learning from Explicit and Implicit Supervision
+349 10:55--11:20  # The Impact of Modeling Overall Argumentation with Tree Kernels
+977 11:20--11:45  # Learning Generic Sentence Representations Using Convolutional Neural Networks
+916 11:45--12:10  # Repeat before Forgetting: Spaced Repetition for Efficient and Effective Training of Neural Networks
 = 10:30--12:10 Session 7D: Machine Translation and Multilinguality 2 # %room PosterAreaA %chair1 SessChair %aff1 SessChairAff
 476   # Zipporah: a Fast and Scalable Data Cleaning System for Noisy Web-Crawled Parallel Corpora
 194   # Further Investigation into Reference Bias in Monolingual Evaluation of Machine Translation
@@ -371,26 +375,27 @@
 538 14:55--15:10  # Neural Machine Translation with Source Dependency Representation
 1388 15:10--15:25  # Visual Denotations for Recognizing Textual Entailment
 = 13:40--15:25 Session 8B: Machine Learning (Short) # %room SmallRoomA %chair1 Samuel R. Bowman %aff1 NYU
-1430 13:40--13:55  # Sequence Effects in Crowdsourced Annotations
-1017 13:55--14:10  # No Need to Pay Attention: Simple Recurrent Neural Networks Work!
-888 14:10--14:25  # The strange geometry of skip-gram with negative sampling
-1281 14:25--14:40  # Natural Language Processing with Small Feed-Forward Networks
-1318 14:40--14:55  # Deep Multi-Task Learning for Aspect Term Extraction with Memory Interaction
-300 14:55--15:10  # Analogs of Linguistic Structure in Deep Representations
-1249 15:10--15:25  # A Simple Regularization-based Algorithm for Learning Cross-Domain Word Embeddings
+1411 13:40--13:55  # A Study of Style in Machine Translation: Controlling the Formality of Machine Translation Output
+469 13:55--14:10  # Sharp Models on Dull Hardware: Fast and Accurate Neural Machine Translation Decoding on the CPU
+716 14:10--14:25  # Exploiting Cross-Sentence Context for Neural Machine Translation
+1511 14:25--14:40  # Cross-Lingual Transfer Learning for POS Tagging without Cross-Lingual Resources
+644 14:40--14:55  # Image Pivoting for Learning Multilingual Multimodal Representations
+538 14:55--15:10  # Neural Machine Translation with Source Dependency Representation
+1388 15:10--15:25  # Visual Denotations for Recognizing Textual Entailment
 = 13:40--15:25 Session 8C: NLP Applications(?) # %room SmallRoomB %chair1 Joel Tetreault %aff1 Grammerly
-1188 13:40--13:55  # Learning what to read: Focused machine reading
-1420 13:55--14:10  # DOC: Deep Open Classification of Text Documents
-852 14:10--14:25  # Charmanteau: Character Embedding Models For Portmanteau Creation
-709 14:25--14:40  # Using Automated Metaphor Identification to Aid in Detection and Prediction of First-Episode Schizophrenia
-1326 14:40--14:55  # Truth of Varying Shades: Analyzing Language in Fake News and Political Fact-Checking
-196 14:55--15:10  # Topic-Based Agreement and Disagreement in US Electoral Manifestos
+1411 13:40--13:55  # A Study of Style in Machine Translation: Controlling the Formality of Machine Translation Output
+469 13:55--14:10  # Sharp Models on Dull Hardware: Fast and Accurate Neural Machine Translation Decoding on the CPU
+716 14:10--14:25  # Exploiting Cross-Sentence Context for Neural Machine Translation
+1511 14:25--14:40  # Cross-Lingual Transfer Learning for POS Tagging without Cross-Lingual Resources
+644 14:40--14:55  # Image Pivoting for Learning Multilingual Multimodal Representations
+538 14:55--15:10  # Neural Machine Translation with Source Dependency Representation
+1388 15:10--15:25  # Visual Denotations for Recognizing Textual Entailment
 + 15:25--15:50 Coffee Break
-= 15:50--17:25 Session P10: Plenary Session: Best Paper # %room BigRoom %chair1 SessChair %aff1 SessChairAff
+! 15:50--17:25 Plenary Session. Best Paper # %room BigRoom %chair1 SessChair %aff1 SessChairAff
 1470 15:55--16:20  # Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints
 633 16:20--16:45  # Depression and Self-Harm Risk Assessment in Online Forums
 505 16:45--17:00  # Natural Language Does Not Emerge ___Naturally___ in Multi-Agent Dialog
 341 17:00--17:25  # Bringing Structure into Summaries: Crowdsourcing a Benchmark Corpus of Concept Maps
-= 17:25--17:45 Session P11: Plenary Session: Closing Remarks # %room BigRoom
+#= 17:25--17:45 Closing Remarks # %room BigRoom
 ! 17:25--17:45 Closing Remarks %by General Chair
 637   # Counterfactual Learning from Bandit Feedback under Deterministic Logging : A Case Study in Statistical Machine Translation}
