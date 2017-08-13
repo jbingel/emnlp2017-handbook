@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#1184
+FinalPaperTitle#=%=#Detecting and Explaining Causes From Text For a Time Series Event
+ShortPaperTitle#=%=#Detecting and Explaining Causes From Text For a Time Series Event
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Dongyeop Kang
+JobTitle#==#Research assistant
+Organization#==#Carnegie Mellon University
+5000 Forbes Ave, Pittsburgh, PA 15213
+Abstract#==#Explaining underlying causes or effects about events is a challenging but
+valuable task.
+We define a novel problem of generating explanations of a time series event by
+(1) searching cause and effect relationships of the time series with textual
+data and (2) constructing a connecting chain between them to generate an
+explanation.
+To detect causal features from text, we propose a novel method based on the
+Granger causality of time series between features extracted from text such as
+N-grams, topics, sentiments, and their composition.
+The generation of the sequence of causal entities requires a commonsense
+causative knowledge base with efficient reasoning. 
+To ensure good interpretability and appropriate lexical usage we combine
+symbolic and neural representations, using a neural reasoning algorithm trained
+on commonsense causal tuples to predict the next cause step.
+Our quantitative and human analysis show empirical evidence that our method
+successfully extracts meaningful causality relationships between time series
+with textual features and generates appropriate explanation between them.
+Author{1}{Firstname}#=%=#Dongyeop
+Author{1}{Lastname}#=%=#Kang
+Author{1}{Email}#=%=#dongyeok@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Varun
+Author{2}{Lastname}#=%=#Gangal
+Author{2}{Email}#=%=#vgangal@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Ang
+Author{3}{Lastname}#=%=#Lu
+Author{3}{Email}#=%=#alu1@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Zheng
+Author{4}{Lastname}#=%=#Chen
+Author{4}{Email}#=%=#zhengc1@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+Author{5}{Firstname}#=%=#Eduard
+Author{5}{Lastname}#=%=#Hovy
+Author{5}{Email}#=%=#hovy@cs.cmu.edu
+Author{5}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

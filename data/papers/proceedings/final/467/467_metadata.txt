@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#467
+FinalPaperTitle#=%=#Accurate Supervised and Semi-Supervised Machine Reading for Long Documents
+ShortPaperTitle#=%=#Accurate Supervised and Semi-Supervised Machine Reading for Long Documents
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#IZZEDDIN
+JobTitle#==#
+Organization#==#Google Inc. 1600 Amphitheatre Parkway Mountain View, CA 94043 USA
+Abstract#==#We introduce a hierarchical architecture for machine reading capable of
+extracting precise information from long documents.
+The model divides the document into small, overlapping windows and encodes all
+windows in parallel with an RNN.
+It then attends over these window encodings, reducing them to a single
+encoding, which is decoded into an answer using a sequence decoder.
+This hierarchical approach allows the model to scale to longer documents
+without increasing the number of sequential steps.
+In a supervised setting, our model achieves state of the art accuracy of 76.8
+on the WikiReading dataset.
+We also evaluate the model in a semi-supervised setting by downsampling the
+WikiReading training set to create increasingly smaller amounts of supervision,
+while leaving the full unlabeled document corpus to train a sequence
+autoencoder on document windows.
+We evaluate models that can reuse autoencoder states and outputs without
+fine-tuning their weights, allowing for more efficient training and inference.
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Hewlett
+Author{1}{Email}#=%=#dhewlett@google.com
+Author{1}{Affiliation}#=%=#Google
+Author{2}{Firstname}#=%=#Llion
+Author{2}{Lastname}#=%=#Jones
+Author{2}{Email}#=%=#llion@google.com
+Author{2}{Affiliation}#=%=#Google
+Author{3}{Firstname}#=%=#Alexandre
+Author{3}{Lastname}#=%=#Lacoste
+Author{3}{Email}#=%=#allac@google.com
+Author{3}{Affiliation}#=%=#Google
+Author{4}{Firstname}#=%=#izzeddin
+Author{4}{Lastname}#=%=#gur
+Author{4}{Email}#=%=#izzeddingur@umail.ucsb.edu
+Author{4}{Affiliation}#=%=#university of california santa barbara
+
+==========

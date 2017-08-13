@@ -1,0 +1,55 @@
+SubmissionNumber#=%=#11
+FinalPaperTitle#=%=#Adversarial Learning for Neural Dialogue Generation
+ShortPaperTitle#=%=#Adversarial Learning for Neural Dialogue Generation
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Jiwei Li
+JobTitle#==#
+Organization#==#
+Abstract#==#We apply adversarial training to open-domain dialogue generation,
+training a system to produce sequences that are
+ indistinguishable from human-generated dialogue utterances. 
+We cast the task as a reinforcement learning problem where we jointly train two
+systems: a generative model to produce response sequences, and a
+discriminator---analagous to the human evaluator in the Turing test--- to
+distinguish between 
+ the 
+ human-generated dialogues and the machine-generated ones. 
+In this generative adversarial network approach,
+the outputs from the discriminator are 
+used to encourage the system towards more human-like dialogue.
+
+Further, we investigate models
+for adversarial  evaluation that 
+uses success in fooling an adversary as a dialogue evaluation metric,
+while avoiding a number of potential pitfalls.
+
+Experimental results on several
+metrics, including adversarial evaluation, demonstrate
+that the adversarially-trained system generates higher-quality responses
+than previous baselines
+Author{1}{Firstname}#=%=#Jiwei
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#jiweil@stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Will
+Author{2}{Lastname}#=%=#Monroe
+Author{2}{Email}#=%=#wmonroe4@cs.stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+Author{3}{Firstname}#=%=#Tianlin
+Author{3}{Lastname}#=%=#Shi
+Author{3}{Email}#=%=#tianlins@stanford.edu
+Author{3}{Affiliation}#=%=#Stanford University
+Author{4}{Firstname}#=%=#S\'ebastien
+Author{4}{Lastname}#=%=#Jean
+Author{4}{Email}#=%=#sebastien@cs.nyu.edu
+Author{4}{Affiliation}#=%=#New York University
+Author{5}{Firstname}#=%=#Alan
+Author{5}{Lastname}#=%=#Ritter
+Author{5}{Email}#=%=#ritter.1492@osu.edu
+Author{5}{Affiliation}#=%=#The Ohio State University
+Author{6}{Firstname}#=%=#Dan
+Author{6}{Lastname}#=%=#Jurafsky
+Author{6}{Email}#=%=#jurafsky@stanford.edu
+Author{6}{Affiliation}#=%=#Stanford University
+
+==========

@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#690
+FinalPaperTitle#=%=#Learning the Structure of Variable-Order CRFs: a finite-state perspective
+ShortPaperTitle#=%=#Learning the Structure of Variable-Order CRFs: a finite-state perspective
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Thomas Lavergne
+JobTitle#==#
+Organization#==#LIMSI, CNRS, Univ. Paris-Sud, Université Paris Saclay
+Campus Universitaire, F-91 403 Orsay, France
+Abstract#==#The computational complexity of linear-chain Conditional Random Fields (CRFs)
+makes it difficult to deal with very large label sets and long range
+dependencies. Such situations are not rare and arise when dealing with
+morphologically rich languages or joint labelling tasks. We extend here recent
+proposals to consider variable order CRFs. Using an effective finite-state
+representation of variable-length dependencies, we propose new ways to perform
+feature selection at large scale and report experimental results where we
+outperform strong baselines on a tagging task.
+Author{1}{Firstname}#=%=#Thomas
+Author{1}{Lastname}#=%=#Lavergne
+Author{1}{Email}#=%=#lavergne@limsi.fr
+Author{1}{Affiliation}#=%=#LIMSI/CNRS & Université Paris Sud
+Author{2}{Firstname}#=%=#François
+Author{2}{Lastname}#=%=#Yvon
+Author{2}{Email}#=%=#francois.yvon@limsi.fr
+Author{2}{Affiliation}#=%=#LIMSI/CNRS
+
+==========

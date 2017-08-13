@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#880
+FinalPaperTitle#=%=#What is it? Disambiguating the different readings of the pronoun ‘it’
+ShortPaperTitle#=%=#What is it? Disambiguating the different readings of the pronoun ‘it’
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Sharid Loáiciga
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper, we address the problem of predicting one of three functions for
+the English pronoun `it': anaphoric, event reference or pleonastic. This
+disambiguation is valuable in the context of machine translation and
+coreference resolution. We present experiments using a MAXENT classifier
+trained on gold-standard data and self-training experiments of an RNN trained
+on silver-standard data, annotated using the MAXENT classifier. Lastly, we
+report on an analysis of the strengths of these two models.
+Author{1}{Firstname}#=%=#Sharid
+Author{1}{Lastname}#=%=#Loáiciga
+Author{1}{Email}#=%=#sharid.loaiciga@lingfil.uu.se
+Author{1}{Affiliation}#=%=#Uppsala University
+Author{2}{Firstname}#=%=#Liane
+Author{2}{Lastname}#=%=#Guillou
+Author{2}{Email}#=%=#lguillou@inf.ed.ac.uk
+Author{2}{Affiliation}#=%=#The University of Edinburgh
+Author{3}{Firstname}#=%=#Christian
+Author{3}{Lastname}#=%=#Hardmeier
+Author{3}{Email}#=%=#christian.hardmeier@lingfil.uu.se
+Author{3}{Affiliation}#=%=#Uppsala universitet
+
+==========

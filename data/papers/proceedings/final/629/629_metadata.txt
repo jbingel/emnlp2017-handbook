@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#629
+FinalPaperTitle#=%=#Inducing Semantic Micro-Clusters from Deep Multi-View Representations of Novels
+ShortPaperTitle#=%=#Inducing Semantic Micro-Clusters from Deep Multi-View Representations of Novels
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Lea Frermann
+JobTitle#==#
+Organization#==#University of Edinburgh
+10 Crichton Street
+Edinburgh EH89AB
+Scotland / UK
+Abstract#==#Automatically understanding the plot of novels is important both for informing
+literary scholarship and applications such as summarization or recommendation.
+Various models have addressed this task, but their evaluation has remained
+largely intrinsic and qualitative. Here, we propose a principled and scalable
+framework leveraging expert-provided semantic tags (e.g., mystery, pirates) to
+evaluate plot representations in an extrinsic fashion, assessing their ability
+to produce locally coherent groupings of novels (micro-clusters) in model
+space. We present a deep recurrent autoencoder model that learns richly
+structured multi-view plot representations, and show that they i) yield better
+micro-clusters than less structured representations; and ii) are interpretable,
+and thus useful for further literary analysis or labeling of the emerging
+micro-clusters.
+Author{1}{Firstname}#=%=#Lea
+Author{1}{Lastname}#=%=#Frermann
+Author{1}{Email}#=%=#lfrerman@staffmail.ed.ac.uk
+Author{1}{Affiliation}#=%=#School of Informatics, University of Edinburgh
+Author{2}{Firstname}#=%=#György
+Author{2}{Lastname}#=%=#Szarvas
+Author{2}{Email}#=%=#gyorgy.szarvas@gmail.com
+Author{2}{Affiliation}#=%=#Amazon Development Center Germany GmbH
+
+==========

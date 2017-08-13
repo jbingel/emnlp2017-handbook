@@ -1,0 +1,3163 @@
+P: 7
+M: 
+T: The Promise of Premise: Harnessing Question Premises in Visual Question Answering
+A: Mahendru, Aroma
+A: Prabhu, Viraj
+A: Mohapatra, Akrit
+A: Batra, Dhruv
+A: Lee, Stefan
+F: final/7/7_Paper.pdf
+L: 10
+
+P: 11
+M: 
+T: Adversarial Learning for Neural Dialogue Generation
+A: Li, Jiwei
+A: Monroe, Will
+A: Shi, Tianlin
+A: Jean, S\'ebastien
+A: Ritter, Alan
+A: Jurafsky, Dan
+F: final/11/11_Paper.pdf
+L: 13
+
+P: 20
+M: 
+T: Neural Net Models of Open-domain Discourse Coherence
+A: Li, Jiwei
+A: Jurafsky, Dan
+F: final/20/20_Paper.pdf
+L: 12
+
+P: 22
+M: 
+T: From Textbooks to Knowledge: A Case Study in Harvesting Axiomatic Knowledge from Textbooks to Solve Geometry Problems
+A: Sachan, Mrinmaya
+A: Dubey, Kumar
+A: Xing, Eric
+F: final/22/22_Paper.pdf
+L: 12
+
+P: 37
+M: 
+T: RACE: Large-scale ReAding Comprehension Dataset From Examinations
+A: Lai, Guokun
+A: Xie, Qizhe
+A: Liu, Hanxiao
+A: Yang, Yiming
+A: Hovy, Eduard
+F: final/37/37_Paper.pdf
+L: 10
+
+P: 39
+M: 
+T: Do LSTMs really work so well for PoS tagging? -- A replication study
+A: Horsmann, Tobias
+A: Zesch, Torsten
+F: final/39/39_Paper.pdf
+L: 10
+
+P: 43
+M: 
+T: Multi-Grained Chinese Word Segmentation
+A: Gong, Chen
+A: Li, Zhenghua
+A: Zhang, Min
+A: Jiang, Xinzhou
+F: final/43/43_Paper.pdf
+L: 12
+
+P: 44
+M: 
+T: Segmentation-Free Word Embedding for Unsegmented Languages
+A: Oshikiri, Takamasa
+F: final/44/44_Paper.pdf
+L: 6
+
+P: 49
+M: 
+T: A Simpler and More Generalizable Story Detector using Verb and Character Features
+A: Eisenberg, Joshua
+A: Finlayson, Mark
+F: final/49/49_Paper.pdf
+L: 8
+
+P: 65
+M: 
+T: Reporting Score Distributions Makes a Difference: Performance Study of LSTM-networks for Sequence Tagging
+A: Reimers, Nils
+A: Gurevych, Iryna
+F: final/65/65_Paper.pdf
+L: 11
+
+P: 72
+M: 
+T: Latent Space Embedding for Retrieval in Question-Answer Archives
+A: P, Deepak
+A: Garg, Dinesh
+A: Shevade, Shirish
+F: final/72/72_Paper.pdf
+L: 11
+
+P: 75
+M: 
+T: Multi-modal Summarization for Asynchronous Collection of Text, Image, Audio and Video
+A: Li, Haoran
+A: Zhu, Junnan
+A: Ma, Cong
+A: Zhang, Jiajun
+A: Zong, Chengqing
+F: final/75/75_Paper.pdf
+L: 11
+
+P: 76
+M: 
+T: GRASP: Rich Patterns for Argumentation Mining
+A: Shnarch, Eyal
+A: Levy, Ran
+A: Raykar, Vikas
+A: Slonim, Noam
+F: final/76/76_Paper.pdf
+L: 6
+
+P: 77
+M: 
+T: Classification of telicity using cross-linguistic annotation projection
+A: Friedrich, Annemarie
+A: Gateva, Damyana
+F: final/77/77_Paper.pdf
+L: 7
+
+P: 84
+M: 
+T: Measuring Thematic Fit with Distributional Feature Overlap
+A: Santus, Enrico
+A: Chersoni, Emmanuele
+A: Lenci, Alessandro
+A: Blache, Philippe
+F: final/84/84_Paper.pdf
+L: 11
+
+P: 102
+M: 
+T: Joint Embeddings of Chinese Words, Characters, and Fine-grained Subcharacter Components
+A: Yu, Jinxing
+A: Jian, Xun
+A: Xin, Hao
+A: Song, Yangqiu
+F: final/102/102_Paper.pdf
+L: 6
+
+P: 111
+M: 
+T: Learning What's Easy: Fully Differentiable Neural Easy-First Taggers
+A: Martins, Andr\'{e} F. T.
+A: Kreutzer, Julia
+F: final/111/111_Paper.pdf
+L: 12
+
+P: 117
+M: 
+T: Inter-Weighted Alignment Network for Sentence Pair Modeling
+A: Shen, Gehui
+A: Yang, Yunlun
+A: Deng, Zhi-Hong
+F: final/117/117_Paper.pdf
+L: 11
+
+P: 119
+M: 
+T: Learning Fine-grained Relations from Chinese User Generated Categories
+A: Wang, Chengyu
+A: Fan, Yan
+A: He, Xiaofeng
+A: Zhou, Aoying
+F: final/119/119_Paper.pdf
+L: 11
+
+P: 120
+M: 
+T: A Short Survey on Taxonomy Learning from Text Corpora: Issues, Resources and Recent Advances
+A: Wang, Chengyu
+A: He, Xiaofeng
+A: Zhou, Aoying
+F: final/120/120_Paper.pdf
+L: 14
+
+P: 127
+M: 
+T: Paradigm Completion for Derivational Morphology
+A: Cotterell, Ryan
+A: Vylomova, Ekaterina
+A: Khayrallah, Huda
+A: Kirov, Christo
+A: Yarowsky, David
+F: final/127/127_Paper.pdf
+L: 7
+
+P: 128
+M: 
+T: Cross-lingual Character-Level Neural Morphological Tagging
+A: Cotterell, Ryan
+A: Heigold, Georg
+F: final/128/128_Paper.pdf
+L: 12
+
+P: 138
+M: 
+T: Mapping Instructions and Visual Observations to Actions with Reinforcement Learning
+A: Misra, Dipendra
+A: Langford, John
+A: Artzi, Yoav
+F: final/138/138_Paper.pdf
+L: 12
+
+P: 142
+M: 
+T: Improving Slot Filling Performance with Attentive Neural Networks on Dependency Structures
+A: Huang, Lifu
+A: Sil, Avirup
+A: Ji, Heng
+A: Florian, Radu
+F: final/142/142_Paper.pdf
+L: 10
+
+P: 147
+M: 
+T: Towards Automatic Construction of News Overview Articles by News Synthesis
+A: Zhang, Jianmin
+A: Wan, Xiaojun
+F: final/147/147_Paper.pdf
+L: 6
+
+P: 163
+M: 
+T: Incorporating Global Visual Features into Attention-based Neural Machine Translation.
+A: Calixto, Iacer
+A: Liu, Qun
+F: final/163/163_Paper.pdf
+L: 12
+
+P: 169
+M: 
+T: Guided Open Vocabulary Image Captioning with Constrained Beam Search
+A: Anderson, Peter
+A: Fernando, Basura
+A: Johnson, Mark
+A: Gould, Stephen
+F: final/169/169_Paper.pdf
+L: 10
+
+P: 170
+M: 
+T: Adversarial Training for Relation Extraction
+A: Wu, Yi
+A: Bamman, David
+A: Russell, Stuart
+F: final/170/170_Paper.pdf
+L: 7
+
+P: 177
+M: 
+T: Document-Level Multi-Aspect Sentiment Classification as Machine Comprehension
+A: Yin, Yichun
+A: Song, Yangqiu
+A: Zhang, Ming
+F: final/177/177_Paper.pdf
+L: 11
+
+P: 179
+M: 
+T: Initializing Convolutional Filters with Semantic Features for Text Classification
+A: Li, Shen
+A: Zhao, Zhe
+A: Liu, Tao
+A: Hu, Renfen
+A: Du, Xiaoyong
+F: final/179/179_Paper.pdf
+L: 6
+
+P: 188
+M: 
+T: Hierarchical Embeddings for Hypernymy Detection and Directionality
+A: Nguyen, Kim Anh
+A: K\"{o}per, Maximilian
+A: Schulte im Walde, Sabine
+A: Vu, Ngoc Thang
+F: final/188/188_Paper.pdf
+L: 11
+
+P: 191
+M: 
+T: Unfolding and Shrinking Neural Machine Translation Ensembles
+A: Stahlberg, Felix
+A: Byrne, Bill
+F: final/191/191_Paper.pdf
+L: 11
+
+P: 193
+M: 
+T: Ngram2vec: Learning Improved Word Representations from Ngram Co-occurrence Statistics
+A: Zhao, Zhe
+A: Liu, Tao
+A: Li, Shen
+A: Li, Bofang
+A: Du, Xiaoyong
+F: final/193/193_Paper.pdf
+L: 10
+
+P: 194
+M: 
+T: Further Investigation into Reference Bias in Monolingual Evaluation of Machine Translation
+A: Ma, Qingsong
+A: Graham, Yvette
+A: Baldwin, Timothy
+A: Liu, Qun
+F: final/194/194_Paper.pdf
+L: 10
+
+P: 196
+M: 
+T: Topic-Based Agreement and Disagreement in US Electoral Manifestos
+A: Menini, Stefano
+A: Nanni, Federico
+A: Ponzetto, Simone Paolo
+A: Tonelli, Sara
+F: final/196/196_Paper.pdf
+L: 7
+
+P: 201
+M: 
+T: Identifying attack and support argumentative relations using deep learning
+A: Cocarascu, Oana
+A: Toni, Francesca
+F: final/201/201_Paper.pdf
+L: 6
+
+P: 204
+M: 
+T: Learning Contextually Informed Representations for Linear-Time Discourse Parsing
+A: Liu, Yang
+A: Lapata, Mirella
+F: final/204/204_Paper.pdf
+L: 10
+
+P: 206
+M: 
+T: Identifying Where to Focus in Reading Comprehension for Neural Question Generation
+A: Du, Xinya
+A: Cardie, Claire
+F: final/206/206_Paper.pdf
+L: 7
+
+P: 215
+M: 
+T: Recurrent Attention Network on Memory for Aspect Sentiment Analysis
+A: Chen, Peng
+A: Sun, Zhongqian
+A: Bing, Lidong
+A: Yang, Wei
+F: final/215/215_Paper.pdf
+L: 10
+
+P: 223
+M: 
+T: Neural Lattice-to-Sequence Models for Uncertain Inputs
+A: Sperber, Matthias
+A: Neubig, Graham
+A: Niehues, Jan
+A: Waibel, Alex
+F: final/223/223_Paper.pdf
+L: 10
+
+P: 236
+M: 
+T: Multi-modular domain-tailored OCR post-correction
+A: Schulz, Sarah
+A: Kuhn, Jonas
+F: final/236/236_Paper.pdf
+L: 11
+
+P: 246
+M: 
+T: Cascaded Attention based Unsupervised Information Distillation for Compressive Summarization
+A: Li, Piji
+A: Lam, Wai
+A: Bing, Lidong
+A: Guo, Weiwei
+A: Li, Hang
+F: final/246/246_Paper.pdf
+L: 10
+
+P: 247
+M: 
+T: A Novel Cascade Model for Learning Latent Similarity from Heterogeneous Sequential Data of MOOC
+A: Jiang, Zhuoxuan
+A: Feng, Shanshan
+A: Cong, Gao
+A: Miao, Chunyan
+A: Li, Xiaoming
+F: final/247/247_Paper.pdf
+L: 6
+
+P: 264
+M: 
+T: Part-of-Speech Tagging for Twitter with Adversarial Neural Networks
+A: Gui, Tao
+A: Zhang, Qi
+A: Huang, Haoran
+A: Peng, Minlong
+A: Huang, Xuanjing
+F: final/264/264_Paper.pdf
+L: 10
+
+P: 277
+M: 
+T: Memory-augmented Neural Machine Translation
+A: Feng, Yang
+A: Zhang, Shiyue
+A: Zhang, Andi
+A: Wang, Dong
+A: Abel, Andrew
+F: final/277/277_Paper.pdf
+L: 10
+
+P: 281
+M: 
+T: Using Context Information for Dialog Act Classification in DNN Framework
+A: Liu, Yang
+A: Han, Kun
+A: Tan, Zhao
+A: Lei, Yun
+F: final/281/281_Paper.pdf
+L: 9
+
+P: 282
+M: 
+T: Learning to Predict Charges for Criminal Cases with Legal Basis
+A: Luo, Bingfeng
+A: Feng, Yansong
+A: Xu, Jianbo
+A: Zhang, Xiang
+A: Zhao, Dongyan
+F: final/282/282_Paper.pdf
+L: 10
+
+P: 286
+M: 
+T: Using Argument-based Features to Predict and Analyse Review Helpfulness
+A: Liu, Haijing
+A: Gao, Yang
+A: Lv, Pin
+A: Li, Mengxue
+A: Geng, Shiqiang
+A: Li, Minglan
+A: Wang, Hao
+F: final/286/286_Paper.pdf
+L: 6
+
+P: 294
+M: 
+T: Question Generation for Question Answering
+A: Duan, Nan
+A: Tang, Duyu
+A: Chen, Peng
+A: Zhou, Ming
+F: final/294/294_Paper.pdf
+L: 9
+
+P: 299
+M: 
+T: Fine Grained Citation Span for References in Wikipedia
+A: Fetahu, Besnik
+A: Markert, Katja
+A: Anand, Avishek
+F: final/299/299_Paper.pdf
+L: 10
+
+P: 300
+M: 
+T: Analogs of Linguistic Structure in Deep Representations
+A: Andreas, Jacob
+A: Klein, Dan
+F: final/300/300_Paper.pdf
+L: 5
+
+P: 301
+M: 
+T: An analysis of eye-movements during reading for the detection of mild cognitive impairment
+A: Fraser, Kathleen C.
+A: Lundholm Fors, Kristina
+A: Kokkinakis, Dimitrios
+A: Nordlund, Arto
+F: final/301/301_Paper.pdf
+L: 11
+
+P: 306
+M: 
+T: Context-Aware Representations for Knowledge Base Relation Extraction
+A: Sorokin, Daniil
+A: Gurevych, Iryna
+F: final/306/306_Paper.pdf
+L: 6
+
+P: 308
+M: 
+T: End-to-End Neural Relation Extraction with Global Optimization
+A: Zhang, Meishan
+A: Zhang, Yue
+A: Fu, Guohong
+F: final/308/308_Paper.pdf
+L: 11
+
+P: 313
+M: 
+T: Entity Linking for Queries by Searching Wikipedia Sentences
+A: Tan, Chuanqi
+A: Wei, Furu
+A: Ren, Pengjie
+A: Lv, Weifeng
+A: Zhou, Ming
+F: final/313/313_Paper.pdf
+L: 10
+
+P: 329
+M: 
+T: Detecting Perspectives in Political Debates
+A: Vilares, David
+A: He, Yulan
+F: final/329/329_Paper.pdf
+L: 10
+
+P: 330
+M: 
+T: Shortest-Path Graph Kernels for Document Similarity
+A: Nikolentzos, Giannis
+A: Meladianos, Polykarpos
+A: Rousseau, Francois
+A: Stavrakas, Yannis
+A: Vazirgiannis, Michalis
+F: final/330/330_Paper.pdf
+L: 11
+
+P: 336
+M: 
+T: Train-O-Matic: Large-Scale Supervised Word Sense Disambiguation in Multiple Languages without Manual Training Data
+A: Pasini, Tommaso
+A: Navigli, Roberto
+F: final/336/336_Paper.pdf
+L: 11
+
+P: 338
+M: 
+T: Towards Compact and Fast Neural Machine Translation Using a Combined Method
+A: Zhang, Xiaowei
+A: Chen, Wei
+A: Wang, Feng
+A: Xu, Shuang
+A: Xu, Bo
+F: final/338/338_Paper.pdf
+L: 7
+
+P: 341
+M: 
+T: Bringing Structure into Summaries: Crowdsourcing a Benchmark Corpus of Concept Maps
+A: Falke, Tobias
+A: Gurevych, Iryna
+F: final/341/341_Paper.pdf
+L: 11
+
+P: 343
+M: 
+T: Global Normalization of Convolutional Neural Networks for Joint Entity and Relation Classification
+A: Adel, Heike
+A: Sch\"{u}tze, Hinrich
+F: final/343/343_Paper.pdf
+L: 7
+
+P: 349
+M: 
+T: The Impact of Modeling Overall Argumentation with Tree Kernels
+A: Wachsmuth, Henning
+A: Da San Martino, Giovanni
+A: Kiesel, Dora
+A: Stein, Benno
+F: final/349/349_Paper.pdf
+L: 11
+
+P: 359
+M: 
+T: Deep Neural Solver for Math Word Problems
+A: Wang, Yan
+A: Liu, Xiaojiang
+A: Shi, Shuming
+F: final/359/359_Paper.pdf
+L: 10
+
+P: 361
+M: 
+T: Combining Generative and Discriminative Approaches to Unsupervised Dependency Parsing via Dual Decomposition
+A: Jiang, Yong
+A: Han, Wenjuan
+A: Tu, Kewei
+F: final/361/361_Paper.pdf
+L: 6
+
+P: 372
+M: 
+T: Dynamic Data Selection for Neural Machine Translation
+A: van der Wees, Marlies
+A: Bisazza, Arianna
+A: Monz, Christof
+F: final/372/372_Paper.pdf
+L: 11
+
+P: 378
+M: 
+T: A Cognition Based Attention Model for Sentiment Analysis
+A: Long, Yunfei
+A: Qin, Lu
+A: Xiang, Rong
+A: Li, Minglei
+A: Huang, Chu-Ren
+F: final/378/378_Paper.pdf
+L: 10
+
+P: 380
+M: 
+T: What is the Essence of a Claim? Cross-Domain Claim Identification
+A: Daxenberger, Johannes
+A: Eger, Steffen
+A: Habernal, Ivan
+A: Stab, Christian
+A: Gurevych, Iryna
+F: final/380/380_Paper.pdf
+L: 12
+
+P: 387
+M: 
+T: Why We Need New Evaluation Metrics for NLG
+A: Novikova, Jekaterina
+A: Du\v{s}ek, Ond\v{r}ej
+A: Cercas Curry, Amanda
+A: Rieser, Verena
+F: final/387/387_Paper.pdf
+L: 12
+
+P: 391
+M: 
+T: Human Centered NLP with User-Factor Adaptation
+A: Lynn, Veronica
+A: Son, Youngseo
+A: Kulkarni, Vivek
+A: Balasubramanian, Niranjan
+A: Schwartz, H. Andrew
+F: final/391/391_Paper.pdf
+L: 10
+
+P: 392
+M: 
+T: A Simple Language Model based on PMI Matrix Approximations
+A: Melamud, Oren
+A: Dagan, Ido
+A: Goldberger, Jacob
+F: final/392/392_Paper.pdf
+L: 6
+
+P: 398
+M: 
+T: Neural Machine Translation Leveraging Phrase-based Models in a Hybrid Search
+A: Dahlmann, Leonard
+A: Matusov, Evgeny
+A: Petrushkov, Pavel
+A: Khadivi, Shahram
+F: final/398/398_Paper.pdf
+L: 10
+
+P: 399
+M: 
+T: Syllable-aware Neural Language Models: A Failure to Beat Character-aware Ones
+A: Assylbekov, Zhenisbek
+A: Takhanov, Rustem
+A: Myrzakhmetov, Bagdat
+A: Washington, Jonathan N.
+F: final/399/399_Paper.pdf
+L: 7
+
+P: 400
+M: 
+T: All that is English may be Hindi: Enhancing language identification through automatic ranking of the likeliness of word borrowing in social media
+A: Patro, Jasabanta
+A: Samanta, Bidisha
+A: Singh, Saurabh
+A: Basu, Abhipsa
+A: Mukherjee, Prithwish
+A: Choudhury, Monojit
+A: Mukherjee, Animesh
+F: final/400/400_Paper.pdf
+L: 11
+
+P: 412
+M: 
+T: ConStance: Modeling Annotation Contexts to Improve Stance Classification
+A: Joseph, Kenneth
+A: Friedland, Lisa
+A: Hobbs, William
+A: Lazer, David
+A: Tsur, Oren
+F: final/412/412_Paper.pdf
+L: 10
+
+P: 425
+M: 
+T: Patterns of Argumentation Strategies across Topics
+A: Al Khatib, Khalid
+A: Wachsmuth, Henning
+A: Hagen, Matthias
+A: Stein, Benno
+F: final/425/425_Paper.pdf
+L: 7
+
+P: 427
+M: 0
+T: Exploiting Morphological Regularities in Distributional Word Representations
+A: Gupta, Arihant
+A: Akhtar, Syed Sarfaraz
+A: Vajpayee, Avijit
+A: Srivastava, Arjit
+A: Jhanwar, Madan Gopal
+A: Shrivastava, Manish
+F: final/427/427_Paper.pdf
+L: 6
+
+P: 432
+M: 
+T: Beyond Sentential Semantic Parsing: Tackling the Math SAT with a Cascade of Tree Transducers
+A: Hopkins, Mark
+A: Petrescu-Prahova, Cristian
+A: Levin, Roie
+A: Le Bras, Ronan
+A: Herrasti, Alvaro
+A: Joshi, Vidur
+F: final/432/432_Paper.pdf
+L: 10
+
+P: 434
+M: 
+T: Task-Oriented Query Reformulation with Reinforcement Learning
+A: Nogueira, Rodrigo
+A: Cho, Kyunghyun
+F: final/434/434_Paper.pdf
+L: 10
+
+P: 435
+M: 
+T: Grasping the Finer Point: A Supervised Similarity Network for Metaphor Detection
+A: Rei, Marek
+A: Bulat, Luana
+A: Kiela, Douwe
+A: Shutova, Ekaterina
+F: final/435/435_Paper.pdf
+L: 10
+
+P: 437
+M: 
+T: Sentence Simplification with Deep Reinforcement Learning
+A: Zhang, Xingxing
+A: Lapata, Mirella
+F: final/437/437_Paper.pdf
+L: 11
+
+P: 439
+M: 
+T: A Question Answering Approach for Emotion Cause Extraction
+A: Gui, Lin
+A: Hu, Jiannan
+A: He, Yulan
+A: Xu, Ruifeng
+A: Qin, Lu
+A: Du, Jiachen
+F: final/439/439_Paper.pdf
+L: 10
+
+P: 445
+M: 
+T: Speech segmentation with a neural encoder model of working memory
+A: Elsner, Micha
+A: Shain, Cory
+F: final/445/445_Paper.pdf
+L: 11
+
+P: 446
+M: 
+T: The Labeled Segmentation of Printed Books
+A: McConnaughey, Lara
+A: Dai, Jennifer
+A: Bamman, David
+F: final/446/446_Paper.pdf
+L: 11
+
+P: 455
+M: 
+T: Satirical News Detection and Analysis using Attention Mechanism and Linguistic Features
+A: Yang, Fan
+A: Mukherjee, Arjun
+A: Dragut, Eduard
+F: final/455/455_Paper.pdf
+L: 11
+
+P: 457
+M: 
+T: Neural Sequence-Labelling Models for Grammatical Error Correction
+A: Yannakoudakis, Helen
+A: Rei, Marek
+A: Andersen, {\O}istein E.
+A: Yuan, Zheng
+F: final/457/457_Paper.pdf
+L: 12
+
+P: 467
+M: 
+T: Accurate Supervised and Semi-Supervised Machine Reading for Long Documents
+A: Hewlett, Daniel
+A: Jones, Llion
+A: Lacoste, Alexandre
+A: gur, izzeddin
+F: final/467/467_Paper.pdf
+L: 10
+
+P: 469
+M: 
+T: Sharp Models on Dull Hardware: Fast and Accurate Neural Machine Translation Decoding on the CPU
+A: Devlin, Jacob
+F: final/469/469_Paper.pdf
+L: 6
+
+P: 472
+M: 
+T: Identifying Semantic Edit Intentions from Revisions in Wikipedia
+A: Yang, Diyi
+A: Halfaker, Aaron
+A: Kraut, Robert
+A: Hovy, Eduard
+F: final/472/472_Paper.pdf
+L: 11
+
+P: 474
+M: 
+T: Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm
+A: Felbo, Bjarke
+A: Mislove, Alan
+A: S{\o}gaard, Anders
+A: Rahwan, Iyad
+A: Lehmann, Sune
+F: final/474/474_Paper.pdf
+L: 11
+
+P: 476
+M: 
+T: Zipporah: a Fast and Scalable Data Cleaning System for Noisy Web-Crawled Parallel Corpora
+A: Xu, Hainan
+A: Koehn, Philipp
+F: final/476/476_Paper.pdf
+L: 6
+
+P: 477
+M: 
+T: A Challenge Set Approach to Evaluating Machine Translation
+A: Isabelle, Pierre
+A: Cherry, Colin
+A: Foster, George
+F: final/477/477_Paper.pdf
+L: 11
+
+P: 480
+M: 
+T: Continuous Representation of Location for Geolocation and Lexical Dialectology using Mixture Density Networks
+A: Rahimi, Afshin
+A: Baldwin, Timothy
+A: Cohn, Trevor
+F: final/480/480_Paper.pdf
+L: 10
+
+P: 488
+M: 
+T: Quantifying the Effects of Text Duplication on Semantic Models
+A: Schofield, Alexandra
+A: Thompson, Laure
+A: Mimno, David
+F: final/488/488_Paper.pdf
+L: 11
+
+P: 493
+M: 
+T: Semi-supervised Structured Prediction with Neural CRF Autoencoder
+A: Zhang, Xiao
+A: Jiang, Yong
+A: Peng, Hao
+A: Tu, Kewei
+A: Goldwasser, Dan
+F: final/493/493_Paper.pdf
+L: 11
+
+P: 497
+M: 
+T: Learning to Rank Semantic Coherence for Topic Segmentation
+A: Wang, Liang
+A: Li, Sujian
+A: Lv, Yajuan
+A: WANG, Houfeng
+F: final/497/497_Paper.pdf
+L: 5
+
+P: 501
+M: 
+T: Assessing Objective Recommendation Quality through Political Forecasting
+A: Schwartz, H. Andrew
+A: Rouhizadeh, Masoud
+A: Bishop, Michael
+A: Tetlock, Philip
+A: Mellers, Barbara
+A: Ungar, Lyle
+F: final/501/501_Paper.pdf
+L: 10
+
+P: 504
+M: 
+T: A Structured Learning Approach to Temporal Relation Extraction
+A: Ning, Qiang
+A: Feng, Zhili
+A: Roth, Dan
+F: final/504/504_Paper.pdf
+L: 11
+
+P: 505
+M: 
+T: Natural Language Does Not Emerge ‘Naturally’ in Multi-Agent Dialog
+A: Kottur, Satwik
+A: Moura, Jos\'{e}
+A: Lee, Stefan
+A: Batra, Dhruv
+F: final/505/505_Paper.pdf
+L: 6
+
+P: 506
+M: 
+T: Globally Normalized Reader
+A: Raiman, Jonathan
+A: Miller, John
+F: final/506/506_Paper.pdf
+L: 11
+
+P: 516
+M: 
+T: Incremental Skip-gram Model with Negative Sampling
+A: Kaji, Nobuhiro
+A: Kobayashi, Hayato
+F: final/516/516_Paper.pdf
+L: 9
+
+P: 519
+M: 
+T: Modeling Dialogue Acts with Content Word Filtering and Speaker Preferences
+A: Jo, Yohan
+A: Yoder, Michael
+A: Jang, Hyeju
+A: Rose, Carolyn
+F: final/519/519_Paper.pdf
+L: 11
+
+P: 524
+M: 
+T: Affinity-Preserving Random Walk for Multi-Document Summarization
+A: Wang, Kexiang
+A: Liu, Tianyu
+A: Sui, Zhifang
+A: Chang, Baobao
+F: final/524/524_Paper.pdf
+L: 11
+
+P: 529
+M: 
+T: Identifying Products in Online Cybercrime Marketplaces: A Dataset for Fine-grained Domain Adaptation
+A: Durrett, Greg
+A: Kummerfeld, Jonathan K.
+A: Berg-Kirkpatrick, Taylor
+A: Portnoff, Rebecca
+A: Afroz, Sadia
+A: McCoy, Damon
+A: Levchenko, Kirill
+A: Paxson, Vern
+F: final/529/529_Paper.pdf
+L: 10
+
+P: 536
+M: 
+T: Never Abandon Minorities: Exhaustive Extraction of Bursty Phrases on Microblogs Using Set Cover Problem
+A: Shirakawa, Masumi
+A: Hara, Takahiro
+A: Maekawa, Takuya
+F: final/536/536_Paper.pdf
+L: 10
+
+P: 538
+M: 
+T: Neural Machine Translation with Source Dependency Representation
+A: Chen, Kehai
+A: Wang, Rui
+A: Utiyama, Masao
+A: Liu, Lemao
+A: Tamura, Akihiro
+A: Sumita, Eiichiro
+A: Zhao, Tiejun
+F: final/538/538_Paper.pdf
+L: 7
+
+P: 539
+M: 
+T: CROWD-IN-THE-LOOP: A Hybrid Approach for Annotating Semantic Roles
+A: Wang, Chenguang
+A: Akbik, Alan
+A: chiticariu, laura
+A: Li, Yunyao
+A: Xia, Fei
+A: Xu, Anbang
+F: final/539/539_Paper.pdf
+L: 10
+
+P: 543
+M: 
+T: Earth Mover's Distance Minimization for Unsupervised Bilingual Lexicon Induction
+A: Zhang, Meng
+A: Liu, Yang
+A: Luan, Huanbo
+A: Sun, Maosong
+F: final/543/543_Paper.pdf
+L: 12
+
+P: 550
+M: 
+T: Deep Recurrent Generative Decoder for Abstractive Text Summarization
+A: Li, Piji
+A: Lam, Wai
+A: Bing, Lidong
+A: Wang, Zihao
+F: final/550/550_Paper.pdf
+L: 10
+
+P: 552
+M: 
+T: Instance Weighting for Neural Machine Translation Domain Adaptation
+A: Wang, Rui
+A: Utiyama, Masao
+A: Liu, Lemao
+A: Chen, Kehai
+A: Sumita, Eiichiro
+F: final/552/552_Paper.pdf
+L: 7
+
+P: 553
+M: 
+T: Deriving continous grounded meaning representations from referentially structured multimodal contexts
+A: Zarrie{\ss}, Sina
+A: Schlangen, David
+F: final/553/553_Paper.pdf
+L: 7
+
+P: 559
+M: 
+T: Investigating Different Syntactic Context Types and Context Representations for Learning Word Embeddings
+A: Li, Bofang
+A: Liu, Tao
+A: Zhao, Zhe
+A: Tang, Buzhou
+A: Drozd, Aleksandr
+A: Rogers, Anna
+A: Du, Xiaoyong
+F: final/559/559_Paper.pdf
+L: 11
+
+P: 566
+M: 
+T: Neural Sequence Learning Models for Word Sense Disambiguation
+A: Raganato, Alessandro
+A: Delli Bovi, Claudio
+A: Navigli, Roberto
+F: final/566/566_Paper.pdf
+L: 12
+
+P: 581
+M: 
+T: Topic Signatures in Political Campaign Speeches
+A: Gautrais, Cl\'{e}ment
+A: Cellier, Peggy
+A: Quiniou, Ren\'{e}
+A: Termier, Alexandre
+F: final/581/581_Paper.pdf
+L: 6
+
+P: 591
+M: 
+T: A Hybrid Convolutional Variational Autoencoder for Text Generation
+A: Semeniuta, Stanislau
+A: Severyn, Aliaksei
+A: Barth, Erhardt
+F: final/591/591_Paper.pdf
+L: 11
+
+P: 600
+M: 
+T: Exploiting Word Internal Structures for Generic Chinese Sentence Representation
+A: Wang, Shaonan
+A: Zhang, Jiajun
+A: Zong, Chengqing
+F: final/600/600_Paper.pdf
+L: 6
+
+P: 603
+M: 
+T: Towards Quantum Language Models
+A: Basile, Ivano
+A: Tamburini, Fabio
+F: final/603/603_Paper.pdf
+L: 10
+
+P: 614
+M: 
+T: Efficient Discontinuous Phrase-Structure Parsing via the Generalized Maximum Spanning Arborescence
+A: Corro, Caio
+A: Le Roux, Joseph
+A: Lacroix, Mathieu
+F: final/614/614_Paper.pdf
+L: 11
+
+P: 617
+M: 
+T: Monolingual Phrase Alignment on Parse Forests
+A: Arase, Yuki
+A: Tsujii, Jun'ichi
+F: final/617/617_Paper.pdf
+L: 11
+
+P: 623
+M: 
+T: Author-aware Aspect Topic Sentiment Model to Retrieve Supporting Opinions from Reviews
+A: Poddar, Lahari
+A: Hsu, Wynne
+A: Lee, Mong Li
+F: final/623/623_Paper.pdf
+L: 10
+
+P: 624
+M: 
+T: Determining Semantic Textual Similarity using Natural Deduction Proofs
+A: Yanaka, Hitomi
+A: Mineshima, Koji
+A: Mart\'{i}nez-G\'{o}mez, Pascual
+A: Bekki, Daisuke
+F: final/624/624_Paper.pdf
+L: 11
+
+P: 625
+M: 
+T: Labeling Gaps Between Words: Recognizing Overlapping Mentions with Mention Separators
+A: Muis, Aldrian Obaja
+A: Lu, Wei
+F: final/625/625_Paper.pdf
+L: 11
+
+P: 627
+M: 
+T: Learning Fine-Grained Expressions to Solve Math Word Problems
+A: Huang, Danqing
+A: Shi, Shuming
+A: Lin, Chin-Yew
+A: Yin, Jian
+F: final/627/627_Paper.pdf
+L: 10
+
+P: 629
+M: 
+T: Inducing Semantic Micro-Clusters from Deep Multi-View Representations of Novels
+A: Frermann, Lea
+A: Szarvas, Gy\"{o}rgy
+F: final/629/629_Paper.pdf
+L: 11
+
+P: 633
+M: 
+T: Depression and Self-Harm Risk Assessment in Online Forums
+A: Yates, Andrew
+A: Cohan, Arman
+A: Goharian, Nazli
+F: final/633/633_Paper.pdf
+L: 11
+
+P: 634
+M: 
+T: NITE: A Neural Inductive Teaching Framework for Domain Specific NER
+A: Tang, Siliang
+A: Zhang, Ning
+A: Zhang, Jinjiang
+A: Wu, Fei
+A: Zhuang, Yueting
+F: final/634/634_Paper.pdf
+L: 6
+
+P: 635
+M: 
+T: Reasoning with Heterogeneous Knowledge for Commonsense Machine Comprehension
+A: Lin, Hongyu
+A: Sun, Le
+A: Han, Xianpei
+F: final/635/635_Paper.pdf
+L: 12
+
+P: 637
+M: 
+T: Counterfactual Learning from Bandit Feedback under Deterministic Logging : A Case Study in Statistical Machine Translation
+A: Lawrence, Carolin
+A: Sokolov, Artem
+A: Riezler, Stefan
+F: final/637/637_Paper.pdf
+L: 11
+
+P: 638
+M: 
+T: Stack-based Multi-layer Attention for Transition-based Dependency Parsing
+A: Zhang, Zhirui
+A: Liu, Shujie
+A: Li, Mu
+A: Zhou, Ming
+A: Chen, Enhong
+F: final/638/638_Paper.pdf
+L: 6
+
+P: 642
+M: 
+T: Word Etymology as Native Language Interference
+A: Nastase, Vivi
+A: Strapparava, Carlo
+F: final/642/642_Paper.pdf
+L: 6
+
+P: 644
+M: 
+T: Image Pivoting for Learning Multilingual Multimodal Representations
+A: Gella, Spandana
+A: Sennrich, Rico
+A: Keller, Frank
+A: Lapata, Mirella
+F: final/644/644_Paper.pdf
+L: 7
+
+P: 650
+M: 
+T: A Sub-Character Architecture for Korean Language Processing
+A: Stratos, Karl
+F: final/650/650_Paper.pdf
+L: 6
+
+P: 654
+M: 
+T: Dependency Grammar Induction with Neural Lexicalization and Big Training Data
+A: Han, Wenjuan
+A: Jiang, Yong
+A: Tu, Kewei
+F: final/654/654_Paper.pdf
+L: 6
+
+P: 659
+M: 0 0
+T: Outta Control: Laws of Semantic Change and Inherent Biases in Word Representation Models
+A: dubossarsky, haim
+A: Weinshall, Daphna
+A: Grossman, Eitan
+F: final/659/659_Paper.pdf
+L: 10
+
+P: 663
+M: 
+T: Dict2vec : Learning Word Embeddings using Lexical Dictionaries
+A: Tissier, Julien
+A: Gravier, Christopher
+A: Habrard, Amaury
+F: final/663/663_Paper.pdf
+L: 10
+
+P: 674
+M: 
+T: Identifying Semantically Deviating Outlier Documents
+A: Zhuang, Honglei
+A: Wang, Chi
+A: Tao, Fangbo
+A: Kaplan, Lance
+A: Han, Jiawei
+F: final/674/674_Paper.pdf
+L: 10
+
+P: 679
+M: 
+T: Learning how to Active Learn: A Deep Reinforcement Learning Approach
+A: Fang, Meng
+A: Li, Yuan
+A: Cohn, Trevor
+F: final/679/679_Paper.pdf
+L: 11
+
+P: 683
+M: 
+T: Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling
+A: Marcheggiani, Diego
+A: Titov, Ivan
+F: final/683/683_Paper.pdf
+L: 10
+
+P: 686
+M: 
+T: Temporal dynamics of semantic relations in word embeddings: an application to predicting armed conflict participants
+A: Kutuzov, Andrey
+A: Velldal, Erik
+A: {\O}vrelid, Lilja
+F: final/686/686_Paper.pdf
+L: 6
+
+P: 689
+M: 
+T: Towards Implicit Content-Introducing for Generative Short-Text Conversation Systems
+A: Yao, Lili
+A: Zhang, Yaoyuan
+A: Feng, Yansong
+A: Zhao, Dongyan
+A: Yan, Rui
+F: final/689/689_Paper.pdf
+L: 10
+
+P: 690
+M: 
+T: Learning the Structure of Variable-Order CRFs: a finite-state perspective
+A: Lavergne, Thomas
+A: Yvon, Fran\c{c}ois
+F: final/690/690_Paper.pdf
+L: 7
+
+P: 696
+M: 
+T: Capturing User and Product Information for Document Level Sentiment Analysis with Deep Memory Network
+A: Dou, Zi-Yi
+F: final/696/696_Paper.pdf
+L: 6
+
+P: 697
+M: 
+T: Affordable On-line Dialogue Policy Learning
+A: Chang, Cheng
+A: Yang, Runzhe
+A: Chen, Lu
+A: Zhou, Xiang
+A: Yu, Kai
+F: final/697/697_Paper.pdf
+L: 10
+
+P: 699
+M: 
+T: Translating Phrases in Neural Machine Translation
+A: Wang, Xing
+A: Tu, Zhaopeng
+A: Xiong, Deyi
+A: Zhang, Min
+F: final/699/699_Paper.pdf
+L: 11
+
+P: 704
+M: 
+T: Regularization techniques for fine-tuning in neural machine translation
+A: Miceli Barone, Antonio Valerio
+A: Haddow, Barry
+A: Germann, Ulrich
+A: Sennrich, Rico
+F: final/704/704_Paper.pdf
+L: 6
+
+P: 705
+M: 
+T: How much progress have we made on RST discourse parsing? A replication study of recent results on the RST-DT
+A: Morey, Mathieu
+A: Muller, Philippe
+A: Asher, Nicholas
+F: final/705/705_Paper.pdf
+L: 6
+
+P: 709
+M: 
+T: Using Automated Metaphor Identification to Aid in Detection and Prediction of First-Episode Schizophrenia
+A: Gutierrez, E. Dario
+A: Cecchi, Guillermo
+A: Corcoran, Cheryl
+A: Corlett, Philip
+F: final/709/709_Paper.pdf
+L: 8
+
+P: 714
+M: 
+T: Multi-View Unsupervised User Feature Embedding for Social Media-based Substance Use Prediction
+A: Ding, Tao
+A: Bickel, Warren K.
+A: Pan, Shimei
+F: final/714/714_Paper.pdf
+L: 10
+
+P: 716
+M: 
+T: Exploiting Cross-Sentence Context for Neural Machine Translation
+A: Wang, Longyue
+A: Tu, Zhaopeng
+A: Way, Andy
+A: Liu, Qun
+F: final/716/716_Paper.pdf
+L: 6
+
+P: 720
+M: 
+T: Incremental Graph-based Neural Dependency Parsing
+A: Zheng, Xiaoqing
+F: final/720/720_Paper.pdf
+L: 11
+
+P: 723
+M: 
+T: Sentiment Lexicon Expansion Based on Neural PU Learning, Double Dictionary Lookup, and Polarity Association
+A: Wang, Yasheng
+A: Zhang, Yang
+A: Liu, Bing
+F: final/723/723_Paper.pdf
+L: 11
+
+P: 730
+M: 
+T: Break it Down for Me: A Study in Automated Lyric Annotation
+A: Sterckx, Lucas
+A: Naradowsky, Jason
+A: Byrne, Bill
+A: Demeester, Thomas
+A: Develder, Chris
+F: final/730/730_Paper.pdf
+L: 7
+
+P: 732
+M: 
+T: Multi-task Attention-based Neural Networks for Implicit Discourse Relationship Representation and Identification
+A: Lan, Man
+A: Wang, Jianxiang
+A: Wu, Yuanbin
+A: Niu, Zheng-Yu
+A: Wang, Haifeng
+F: final/732/732_Paper.pdf
+L: 10
+
+P: 737
+M: 
+T: Learning to select data for transfer learning with Bayesian Optimization
+A: Ruder, Sebastian
+A: Plank, Barbara
+F: final/737/737_Paper.pdf
+L: 11
+
+P: 744
+M: 
+T: Source-Side Left-to-Right or Target-Side Left-to-Right? An Empirical Comparison of Two Phrase-Based Decoding Algorithms
+A: Chang, Yin-Wen
+A: Collins, Michael
+F: final/744/744_Paper.pdf
+L: 5
+
+P: 747
+M: 
+T: Identifying the Provision of Choices in Privacy Policy Text
+A: Mysore Sathyendra, Kanthashree
+A: Wilson, Shomir
+A: Schaub, Florian
+A: Zimmeck, Sebastian
+A: Sadeh, Norman
+F: final/747/747_Paper.pdf
+L: 6
+
+P: 751
+M: 
+T: Chinese Zero Pronoun Resolution with Deep Memory Network
+A: Yin, Qingyu
+A: Zhang, Yu
+A: Zhang, Weinan
+A: Liu, Ting
+F: final/751/751_Paper.pdf
+L: 10
+
+P: 754
+M: 
+T: Unsupervised Pretraining for Sequence to Sequence Learning
+A: Ramachandran, Prajit
+A: Liu, Peter
+A: Le, Quoc
+F: final/754/754_Paper.pdf
+L: 9
+
+P: 770
+M: 
+T: Learning to Paraphrase for Question Answering
+A: Dong, Li
+A: Mallinson, Jonathan
+A: Reddy, Siva
+A: Lapata, Mirella
+F: final/770/770_Paper.pdf
+L: 12
+
+P: 779
+M: 
+T: A Mention-Ranking Model for Abstract Anaphora Resolution
+A: Marasovic, Ana
+A: Born, Leo
+A: Opitz, Juri
+A: Frank, Anette
+F: final/779/779_Paper.pdf
+L: 12
+
+P: 785
+M: 
+T: Exploring Vector Spaces for Semantic Relations
+A: G\'{a}bor, Kata
+A: Zargayouna, Haifa
+A: Tellier, Isabelle
+A: Buscaldi, Davide
+A: Charnois, Thierry
+F: final/785/785_Paper.pdf
+L: 10
+
+P: 792
+M: 
+T: Demographic-aware word associations
+A: Garimella, Aparna
+A: Banea, Carmen
+A: Mihalcea, Rada
+F: final/792/792_Paper.pdf
+L: 11
+
+P: 794
+M: 
+T: Using Target-side Monolingual Data for Neural Machine Translation through Multi-task Learning
+A: Domhan, Tobias
+A: Hieber, Felix
+F: final/794/794_Paper.pdf
+L: 6
+
+P: 797
+M: 
+T: Ranking Kernels for Structures and Embeddings: A Hybrid Preference and Classification Model
+A: Tymoshenko, Kateryna
+A: Bonadiman, Daniele
+A: Moschitti, Alessandro
+F: final/797/797_Paper.pdf
+L: 6
+
+P: 811
+M: 
+T: Idiom-Aware Compositional Distributed Semantics
+A: Liu, Pengfei
+A: Qian, Kaiyu
+A: Qiu, Xipeng
+A: Huang, Xuanjing
+F: final/811/811_Paper.pdf
+L: 10
+
+P: 817
+M: 
+T: Cross-Lingual Induction and Transfer of Verb Classes Based on Word Vector Space Specialisation
+A: Vuli\'{c}, Ivan
+A: Mrk\v{s}i\'{c}, Nikola
+A: Korhonen, Anna
+F: final/817/817_Paper.pdf
+L: 13
+
+P: 820
+M: 
+T: AMR Parsing using Stack-LSTMs
+A: Ballesteros, Miguel
+A: Al-Onaizan, Yaser
+F: final/820/820_Paper.pdf
+L: 7
+
+P: 822
+M: 
+T: SCDV : Sparse Composite Document Vectors using soft clustering over distributional representations
+A: Mekala, Dheeraj
+A: Gupta, Vivek
+A: Paranjape, Bhargavi
+A: Karnick, Harish
+F: final/822/822_Paper.pdf
+L: 11
+
+P: 826
+M: 
+T: A Soft-label Method for Noise-tolerant Distantly Supervised Relation Extraction
+A: Liu, Tianyu
+A: Wang, Kexiang
+A: Chang, Baobao
+A: Sui, Zhifang
+F: final/826/826_Paper.pdf
+L: 6
+
+P: 836
+M: 
+T: CRF Autoencoder for Unsupervised Dependency Parsing
+A: Cai, Jiong
+A: Jiang, Yong
+A: Tu, Kewei
+F: final/836/836_Paper.pdf
+L: 6
+
+P: 842
+M: 
+T: Split and Rephrase
+A: Narayan, Shashi
+A: Gardent, Claire
+A: Cohen, Shay B.
+A: Shimorina, Anastasia
+F: final/842/842_Paper.pdf
+L: 11
+
+P: 844
+M: 
+T: Generating High-Quality and Informative Conversation Responses with Sequence-to-Sequence Models
+A: Shao, Yuanlong
+A: Gouws, Stephan
+A: Britz, Denny
+A: Goldie, Anna
+A: Strope, Brian
+A: Kurzweil, Ray
+F: final/844/844_Paper.pdf
+L: 10
+
+P: 852
+M: 
+T: Charmanteau: Character Embedding Models For Portmanteau Creation
+A: Gangal, Varun
+A: Jhamtani, Harsh
+A: Neubig, Graham
+A: Hovy, Eduard
+A: Nyberg, Eric
+F: final/852/852_Paper.pdf
+L: 6
+
+P: 853
+M: 
+T: High-risk learning: acquiring new word vectors from tiny data
+A: Herbelot, Aur\'{e}lie
+A: Baroni, Marco
+F: final/853/853_Paper.pdf
+L: 6
+
+P: 856
+M: 
+T: World Knowledge for Reading Comprehension: Rare Entity Prediction with Hierarchical LSTMs Using External Descriptions
+A: Long, Teng
+A: Bengio, Emmanuel
+A: Lowe, Ryan
+A: Cheung, Jackie Chi Kit
+A: Precup, Doina
+F: final/856/856_Paper.pdf
+L: 10
+
+P: 857
+M: 
+T: Universal Semantic Parsing
+A: Reddy, Siva
+A: T\"{a}ckstr\"{o}m, Oscar
+A: Petrov, Slav
+A: Steedman, Mark
+A: Lapata, Mirella
+F: final/857/857_Paper.pdf
+L: 13
+
+P: 864
+M: 
+T: Sparse Communication for Distributed Gradient Descent
+A: Aji, Alham Fikri
+A: Heafield, Kenneth
+F: final/864/864_Paper.pdf
+L: 6
+
+P: 869
+M: 0 8,scale=0.92
+T: Identifying civilians killed by police with distantly supervised entity-event extraction
+A: Keith, Katherine
+A: Handler, Abram
+A: Pinkham, Michael
+A: Magliozzi, Cara
+A: McDuffie, Joshua
+A: O'Connor, Brendan
+F: final/869/869_Paper.pdf
+L: 11
+
+P: 871
+M: 
+T: Supervised Learning of Universal Sentence Representations from Natural Language Inference Data
+A: Conneau, Alexis
+A: Kiela, Douwe
+A: Schwenk, Holger
+A: Barrault, Lo\"{i}c
+A: Bordes, Antoine
+F: final/871/871_Paper.pdf
+L: 11
+
+P: 880
+M: 
+T: What is it? Disambiguating the different readings of the pronoun ‘it’
+A: Lo\'{a}iciga, Sharid
+A: Guillou, Liane
+A: Hardmeier, Christian
+F: final/880/880_Paper.pdf
+L: 7
+
+P: 884
+M: 
+T: Word Embeddings based on Fixed-Size Ordinally Forgetting Encoding
+A: Sanu, Joseph
+A: Xu, Mingbin
+A: Jiang, Hui
+A: Liu, Quan
+F: final/884/884_Paper.pdf
+L: 6
+
+P: 888
+M: 
+T: The strange geometry of skip-gram with negative sampling
+A: Mimno, David
+A: Thompson, Laure
+F: final/888/888_Paper.pdf
+L: 6
+
+P: 898
+M: 
+T: Word Re-Embedding via Manifold Dimensionality Retention
+A: Hasan, Souleiman
+A: Curry, Edward
+F: final/898/898_Paper.pdf
+L: 6
+
+P: 909
+M: 
+T: Deeper Attention to Abusive User Content Moderation
+A: Pavlopoulos, John
+A: Malakasiotis, Prodromos
+A: Androutsopoulos, Ion
+F: final/909/909_Paper.pdf
+L: 11
+
+P: 912
+M: 
+T: End-to-end Neural Coreference Resolution
+A: Lee, Kenton
+A: He, Luheng
+A: Lewis, Mike
+A: Zettlemoyer, Luke
+F: final/912/912_Paper.pdf
+L: 10
+
+P: 916
+M: 
+T: Repeat before Forgetting: Spaced Repetition for Efficient and Effective Training of Neural Networks
+A: Amiri, Hadi
+A: Miller, Timothy
+A: Savova, Guergana
+F: final/916/916_Paper.pdf
+L: 10
+
+P: 934
+M: 
+T: Argument Mining on Twitter: Arguments, Facts and Sources
+A: Dusmanu, Mihai
+A: Cabrio, Elena
+A: Villata, Serena
+F: final/934/934_Paper.pdf
+L: 6
+
+P: 938
+M: 
+T: Reference-Aware Language Models
+A: Yang, Zichao
+A: Blunsom, Phil
+A: Dyer, Chris
+A: Ling, Wang
+F: final/938/938_Paper.pdf
+L: 10
+
+P: 948
+M: 
+T: Identifying and Tracking Sentiments and Topics from Social Media Texts during Natural Disasters
+A: Yang, Min
+A: Mei, Jincheng
+A: Ji, Heng
+A: wei, zhao
+A: Zhao, Zhou
+A: Chen, Xiaojun
+F: final/948/948_Paper.pdf
+L: 7
+
+P: 956
+M: 
+T: Bootstrapping incremental dialogue systems from minimal data: the generalisation power of dialogue grammars
+A: Eshghi, Arash
+A: Shalyminov, Igor
+A: Lemon, Oliver
+F: final/956/956_Paper.pdf
+L: 11
+
+P: 959
+M: 
+T: Speaking, Seeing, Understanding: Correlating semantic models with conceptual representation in the brain
+A: Bulat, Luana
+A: Clark, Stephen
+A: Shutova, Ekaterina
+F: final/959/959_Paper.pdf
+L: 11
+
+P: 961
+M: 
+T: PACRR: A Position-Aware Neural IR Model for Relevance Matching
+A: Hui, Kai
+A: Yates, Andrew
+A: Berberich, Klaus
+A: de Melo, Gerard
+F: final/961/961_Paper.pdf
+L: 10
+
+P: 962
+M: 
+T: Learning Word Relatedness over Time
+A: Rosin, Guy D.
+A: Adar, Eytan
+A: Radinsky, Kira
+F: final/962/962_Paper.pdf
+L: 11
+
+P: 963
+M: 
+T: Past, Present, Future: A Computational Investigation of the Typology of Tense in 1000 Languages
+A: Asgari, Ehsaneddin
+A: Sch\"{u}tze, Hinrich
+F: final/963/963_Paper.pdf
+L: 12
+
+P: 970
+M: 
+T: Event Coreference Resolution by Iteratively Unfolding Inter-dependencies among Events
+A: Choubey, Prafulla Kumar
+A: Huang, Ruihong
+F: final/970/970_Paper.pdf
+L: 10
+
+P: 971
+M: 
+T: Graph Convolutional Encoders for Syntax-aware Neural Machine Translation
+A: Bastings, Joost
+A: Titov, Ivan
+A: Aziz, Wilker
+A: Marcheggiani, Diego
+A: Simaan, Khalil
+F: final/971/971_Paper.pdf
+L: 11
+
+P: 977
+M: 
+T: Learning Generic Sentence Representations Using Convolutional Neural Networks
+A: Gan, Zhe
+A: Pu, Yunchen
+A: Henao, Ricardo
+A: Li, Chunyuan
+A: He, Xiaodong
+A: Carin, Lawrence
+F: final/977/977_Paper.pdf
+L: 11
+
+P: 982
+M: 
+T: Macro Grammars and Holistic Triggering for Efficient Semantic Parsing
+A: Zhang, Yuchen
+A: Pasupat, Panupong
+A: Liang, Percy
+F: final/982/982_Paper.pdf
+L: 10
+
+P: 986
+M: 
+T: An Empirical Analysis of Edit Importance between Document Versions
+A: Goyal, Tanya
+A: Kelkar, Sachin
+A: Agarwal, Manas
+A: Grover, Jeenu
+F: final/986/986_Paper.pdf
+L: 5
+
+P: 988
+M: 
+T: Magnets for Sarcasm: Making Sarcasm Detection Timely, Contextual and Very Personal
+A: Ghosh, Aniruddha
+A: Veale, Tony
+F: final/988/988_Paper.pdf
+L: 10
+
+P: 990
+M: 
+T: VecShare: A Framework for Sharing Word Representation Vectors
+A: Fernandez, Jared
+A: Yu, Zhaocheng
+A: Downey, Doug
+F: final/990/990_Paper.pdf
+L: 5
+
+P: 992
+M: 
+T: Towards Bidirectional Hierarchical Representations for Attention-based Neural Machine Translation
+A: Yang, Baosong
+A: Wong, Derek F.
+A: Xiao, Tong
+A: Chao, Lidia S.
+A: Zhu, Jingbo
+F: final/992/992_Paper.pdf
+L: 10
+
+P: 994
+M: 
+T: Neural Machine Translation with Source-Side Latent Graph Parsing
+A: Hashimoto, Kazuma
+A: Tsuruoka, Yoshimasa
+F: final/994/994_Paper.pdf
+L: 11
+
+P: 996
+M: 
+T: Don't Throw Those Morphological Analyzers Away Just Yet: Neural Morphological Disambiguation for Arabic
+A: Zalmout, Nasser
+A: Habash, Nizar
+F: final/996/996_Paper.pdf
+L: 10
+
+P: 1005
+M: 
+T: Fast and Accurate Entity Recognition with Iterated Dilated Convolutions
+A: Strubell, Emma
+A: Verga, Patrick
+A: Belanger, David
+A: McCallum, Andrew
+F: final/1005/1005_Paper.pdf
+L: 11
+
+P: 1006
+M: 
+T: A Sequential Model for Classifying Temporal Relations between Intra-Sentence Events
+A: Choubey, Prafulla Kumar
+A: Huang, Ruihong
+F: final/1006/1006_Paper.pdf
+L: 7
+
+P: 1011
+M: 
+T: A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks
+A: Hashimoto, Kazuma
+A: xiong, caiming
+A: Tsuruoka, Yoshimasa
+A: Socher, Richard
+F: final/1011/1011_Paper.pdf
+L: 11
+
+P: 1013
+M: 
+T: Transition-Based Disfluency Detection using LSTMs
+A: Wang, Shaolei
+A: Che, Wanxiang
+A: Zhang, Yue
+A: Zhang, Meishan
+A: Liu, Ting
+F: final/1013/1013_Paper.pdf
+L: 10
+
+P: 1017
+M: 
+T: No Need to Pay Attention: Simple Recurrent Neural Networks Work!
+A: Ture, Ferhan
+A: Jojic, Oliver
+F: final/1017/1017_Paper.pdf
+L: 7
+
+P: 1019
+M: 
+T: Revisiting Selectional Preferences for Coreference Resolution
+A: Heinzerling, Benjamin
+A: Moosavi, Nafise Sadat
+A: Strube, Michael
+F: final/1019/1019_Paper.pdf
+L: 8
+
+P: 1022
+M: 
+T: "i have a feeling trump will win..................": Forecasting Winners and Losers from User Predictions on Twitter
+A: Swamy, Sandesh
+A: Ritter, Alan
+A: de Marneffe, Marie-Catherine
+F: final/1022/1022_Paper.pdf
+L: 10
+
+P: 1023
+M: 
+T: Cheap Translation for Cross-Lingual Named Entity Recognition
+A: Mayhew, Stephen
+A: Tsai, Chen-Tse
+A: Roth, Dan
+F: final/1023/1023_Paper.pdf
+L: 10
+
+P: 1026
+M: 
+T: An empirical study on the effectiveness of images in Multimodal Neural Machine Translation
+A: Delbrouck, Jean-Benoit
+A: Dupont, St\'{e}phane
+F: final/1026/1026_Paper.pdf
+L: 10
+
+P: 1033
+M: 
+T: Neural Semantic Parsing with Type Constraints for Semi-Structured Tables
+A: Krishnamurthy, Jayant
+A: Dasigi, Pradeep
+A: Gardner, Matt
+F: final/1033/1033_Paper.pdf
+L: 11
+
+P: 1035
+M: 
+T: Filling the Blanks (hint: plural noun) for Mad Libs Humor
+A: Hossain, Nabil
+A: Krumm, John
+A: Vanderwende, Lucy
+A: Horvitz, Eric
+A: Kautz, Henry
+F: final/1035/1035_Paper.pdf
+L: 10
+
+P: 1037
+M: 
+T: Sound-Word2Vec: Learning Word Representations Grounded in Sounds
+A: Vijayakumar, Ashwin
+A: Vedantam, Ramakrishna
+A: Parikh, Devi
+F: final/1037/1037_Paper.pdf
+L: 6
+
+P: 1042
+M: 
+T: A Continuously Growing Dataset of Sentential Paraphrases
+A: Lan, Wuwei
+A: Qiu, Siyu
+A: He, Hua
+A: Xu, Wei
+F: final/1042/1042_Paper.pdf
+L: 11
+
+P: 1043
+M: 
+T: Here's My Point: Joint Pointer Architecture for Argument Mining
+A: Potash, Peter
+A: Romanov, Alexey
+A: Rumshisky, Anna
+F: final/1043/1043_Paper.pdf
+L: 10
+
+P: 1044
+M: 
+T: Deep Joint Entity Disambiguation with Local Neural Attention
+A: Ganea, Octavian-Eugen
+A: Hofmann, Thomas
+F: final/1044/1044_Paper.pdf
+L: 11
+
+P: 1046
+M: 
+T: Efficient Attention using a Fixed-Size Memory Representation
+A: Britz, Denny
+A: Guan, Melody
+A: Luong, Minh-Thang
+F: final/1046/1046_Paper.pdf
+L: 9
+
+P: 1047
+M: 
+T: DeepPath: A Reinforcement Learning Method for Knowledge Graph Reasoning
+A: Xiong, Wenhan
+A: Hoang, Thien
+A: Wang, William Yang
+F: final/1047/1047_Paper.pdf
+L: 10
+
+P: 1048
+M: 
+T: Cross-domain Semantic Parsing via Paraphrasing
+A: Su, Yu
+A: Yan, Xifeng
+F: final/1048/1048_Paper.pdf
+L: 12
+
+P: 1056
+M: 
+T: Dual Tensor Model for Detecting Asymmetric Lexico-Semantic Relations
+A: Glava\v{s}, Goran
+A: Ponzetto, Simone Paolo
+F: final/1056/1056_Paper.pdf
+L: 11
+
+P: 1062
+M: 
+T: A Factored Neural Network Model for Characterizing Online Discussions in Vector Space
+A: Cheng, Hao
+A: Fang, Hao
+A: Ostendorf, Mari
+F: final/1062/1062_Paper.pdf
+L: 11
+
+P: 1073
+M: 
+T: Machine Translation, it's a question of style, innit? The case of English tag questions
+A: Bawden, Rachel
+F: final/1073/1073_Paper.pdf
+L: 6
+
+P: 1075
+M: 
+T: Adapting Topic Models using Lexical Associations with Tree Priors
+A: Yang, Weiwei
+A: Boyd-Graber, Jordan
+A: Resnik, Philip
+F: final/1075/1075_Paper.pdf
+L: 6
+
+P: 1076
+M: 
+T: Dynamic Entity Representations in Neural Language Models
+A: Ji, Yangfeng
+A: Tan, Chenhao
+A: Martschat, Sebastian
+A: Choi, Yejin
+A: Smith, Noah A.
+F: final/1076/1076_Paper.pdf
+L: 10
+
+P: 1077
+M: 
+T: Opinion Recommendation Using A Neural Model
+A: Wang, Zhongqing
+A: Zhang, Yue
+F: final/1077/1077_Paper.pdf
+L: 12
+
+P: 1079
+M: 
+T: Finding Patterns in Noisy Crowds: Regression-based Annotation Aggregation for Crowdsourced Data
+A: Parde, Natalie
+A: Nielsen, Rodney
+F: final/1079/1079_Paper.pdf
+L: 6
+
+P: 1082
+M: 
+T: Integrating Order Information and Event Relation for Script Event Prediction
+A: Wang, Zhongqing
+A: Zhang, Yue
+A: Chang, Ching-Yun
+F: final/1082/1082_Paper.pdf
+L: 11
+
+P: 1085
+M: 
+T: Where is Misty? Interpreting Spatial Descriptors by Modeling Regions in Space
+A: Kitaev, Nikita
+A: Klein, Dan
+F: final/1085/1085_Paper.pdf
+L: 10
+
+P: 1087
+M: 
+T: A Joint Sequential and Relational Model for Frame-Semantic Parsing
+A: Yang, Bishan
+A: Mitchell, Tom
+F: final/1087/1087_Paper.pdf
+L: 10
+
+P: 1094
+M: 
+T: MinIE: Minimizing Facts in Open Information Extraction
+A: Gashteovski, Kiril
+A: Gemulla, Rainer
+A: Del Corro, Luciano
+F: final/1094/1094_Paper.pdf
+L: 11
+
+P: 1113
+M: 
+T: Does syntax help discourse segmentation? Not so much
+A: Braud, Chlo\'{e}
+A: Lacroix, Oph\'{e}lie
+A: S{\o}gaard, Anders
+F: final/1113/1113_Paper.pdf
+L: 11
+
+P: 1118
+M: 
+T: Identifying Humor in Reviews using Background Text Sources
+A: Morales, Alex
+A: Zhai, Chengxiang
+F: final/1118/1118_Paper.pdf
+L: 10
+
+P: 1126
+M: 
+T: Refining Word Embeddings for Sentiment Analysis
+A: Yu, Liang-Chih
+A: Wang, Jin
+A: Lai, K. Robert
+A: Zhang, Xuejie
+F: final/1126/1126_Paper.pdf
+L: 6
+
+P: 1127
+M: 
+T: Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short
+A: Pujara, Jay
+A: Augustine, Eriq
+A: Getoor, Lise
+F: final/1127/1127_Paper.pdf
+L: 6
+
+P: 1131
+M: 
+T: Identifying Cognate Sets Across Dictionaries of Related Languages
+A: St Arnaud, Adam
+A: Beck, David
+A: Kondrak, Grzegorz
+F: final/1131/1131_Paper.pdf
+L: 10
+
+P: 1132
+M: 
+T: Extractive Summarization Using Multi-Task Learning with Document Classification
+A: Isonuma, Masaru
+A: Fujino, Toru
+A: Mori, Junichiro
+A: Matsuo, Yutaka
+A: Sakata, Ichiro
+F: final/1132/1132_Paper.pdf
+L: 10
+
+P: 1134
+M: 
+T: An End-to-End Deep Framework for Answer Triggering with a Novel Group-Level Objective
+A: Zhao, Jie
+A: Su, Yu
+A: Guan, Ziyu
+A: Sun, Huan
+F: final/1134/1134_Paper.pdf
+L: 7
+
+P: 1138
+M: 
+T: Story Comprehension for Predicting What Happens Next
+A: Chaturvedi, Snigdha
+A: Peng, Haoruo
+A: Roth, Dan
+F: final/1138/1138_Paper.pdf
+L: 12
+
+P: 1145
+M: 
+T: Two-Stage Synthesis Networks for Transfer Learning in Machine Comprehension
+A: Golub, David
+A: Huang, Po-Sen
+A: He, Xiaodong
+A: Deng, Li
+F: final/1145/1145_Paper.pdf
+L: 10
+
+P: 1151
+M: 
+T: Hierarchically-Attentive RNN for Album Summarization and Storytelling
+A: Yu, Licheng
+A: Bansal, Mohit
+A: Berg, Tamara
+F: final/1151/1151_Paper.pdf
+L: 6
+
+P: 1157
+M: 
+T: Exploring Hyperparameter Sensitivity in Neural Machine Translation Architectures
+A: Britz, Denny
+A: Goldie, Anna
+A: Luong, Minh-Thang
+A: Le, Quoc
+F: 
+L: 0
+
+P: 1159
+M: 
+T: Distinguishing Japanese Non-standard Usages from Standard Ones
+A: Aoki, Tatsuya
+A: Sasano, Ryohei
+A: Takamura, Hiroya
+A: Okumura, Manabu
+F: final/1159/1159_Paper.pdf
+L: 6
+
+P: 1161
+M: 
+T: Learning Translations via Matrix Completion
+A: Wijaya, Derry Tanti
+A: Callahan, Brendan
+A: Hewitt, John
+A: Gao, Jie
+A: Ling, Xiao
+A: Apidianaki, Marianna
+A: Callison-Burch, Chris
+F: final/1161/1161_Paper.pdf
+L: 12
+
+P: 1163
+M: 
+T: Dimensions of Interpersonal Relationships: Corpus and Experiments
+A: Rashid, Farzana
+A: Blanco, Eduardo
+F: final/1163/1163_Paper.pdf
+L: 10
+
+P: 1165
+M: 
+T: Asking too much? The rhetorical role of questions in political discourse
+A: Zhang, Justine
+A: Spirling, Arthur
+A: Danescu-Niculescu-Mizil, Cristian
+F: final/1165/1165_Paper.pdf
+L: 15
+
+P: 1169
+M: 
+T: Sentiment Lexicon Construction with Representation Learning Based on Hierarchical Sentiment Supervision
+A: Wang, Leyi
+A: Xia, Rui
+F: final/1169/1169_Paper.pdf
+L: 9
+
+P: 1176
+M: 
+T: Composite Task-Completion Dialogue Policy Learning via Hierarchical Deep Reinforcement Learning
+A: Peng, Baolin
+A: Li, Xiujun
+A: Li, Lihong
+A: Gao, Jianfeng
+A: Celikyilmaz, Asli
+A: Lee, Sungjin
+A: Wong, Kam-Fai
+F: final/1176/1176_Paper.pdf
+L: 10
+
+P: 1184
+M: 
+T: Detecting and Explaining Causes From Text For a Time Series Event
+A: Kang, Dongyeop
+A: Gangal, Varun
+A: Lu, Ang
+A: Chen, Zheng
+A: Hovy, Eduard
+F: final/1184/1184_Paper.pdf
+L: 10
+
+P: 1188
+M: 
+T: Learning what to read: Focused machine reading
+A: Noriega-Atala, Enrique
+A: Valenzuela-Esc\'{a}rcega, Marco A.
+A: Morrison, Clayton
+A: Surdeanu, Mihai
+F: final/1188/1188_Paper.pdf
+L: 6
+
+P: 1195
+M: 
+T: Mimicking Word Embeddings using Subword RNNs
+A: Pinter, Yuval
+A: Guthrie, Robert
+A: Eisenstein, Jacob
+F: final/1195/1195_Paper.pdf
+L: 11
+
+P: 1197
+M: 
+T: Learning Chinese Word Representations From Glyphs Of Characters
+A: Su, Tzu-ray
+A: Lee, Hung-yi
+F: final/1197/1197_Paper.pdf
+L: 10
+
+P: 1211
+M: 
+T: Rotated Word Vector Representations and their Interpretability
+A: Park, Sungjoon
+A: Bak, JinYeong
+A: Oh, Alice
+F: final/1211/1211_Paper.pdf
+L: 11
+
+P: 1213
+M: 
+T: Neural Machine Translation with Word Predictions
+A: Weng, Rongxiang
+A: Huang, Shujian
+A: Zheng, Zaixiang
+A: DAI, XIN-YU
+A: CHEN, Jiajun
+F: final/1213/1213_Paper.pdf
+L: 10
+
+P: 1219
+M: 
+T: Structural Embedding of Syntactic Trees for Machine Comprehension
+A: Liu, Rui
+A: Hu, Junjie
+A: Wei, Wei
+A: Yang, Zi
+A: Nyberg, Eric
+F: final/1219/1219_Paper.pdf
+L: 10
+
+P: 1222
+M: 
+T: Deep Residual Learning for Weakly-Supervised Relation Extraction
+A: Huang, YiYao
+A: Wang, William Yang
+F: final/1222/1222_Paper.pdf
+L: 5
+
+P: 1223
+M: 
+T: Video Highlight Prediction Using Audience Chat Reactions
+A: Fu, Cheng-Yang
+A: Lee, Joon
+A: Bansal, Mohit
+A: Berg, Alexander
+F: final/1223/1223_Paper.pdf
+L: 7
+
+P: 1229
+M: 
+T: Why ADAGRAD Fails for Online Topic Modeling
+A: Lu, You
+A: Lund, Jeffrey
+A: Boyd-Graber, Jordan
+F: final/1229/1229_Paper.pdf
+L: 6
+
+P: 1236
+M: 
+T: Deciphering Related Languages
+A: Pourdamghani, Nima
+A: Knight, Kevin
+F: final/1236/1236_Paper.pdf
+L: 6
+
+P: 1249
+M: 
+T: A Simple Regularization-based Algorithm for Learning Cross-Domain Word Embeddings
+A: Yang, Wei
+A: Lu, Wei
+A: Zheng, Vincent
+F: final/1249/1249_Paper.pdf
+L: 7
+
+P: 1250
+M: 
+T: Towards Decoding as Continuous Optimisation in Neural Machine Translation
+A: Hoang, Cong Duy Vu
+A: Haffari, Gholamreza
+A: Cohn, Trevor
+F: final/1250/1250_Paper.pdf
+L: 11
+
+P: 1254
+M: 
+T: Adapting Sequence Models for Sentence Correction
+A: Schmaltz, Allen
+A: Kim, Yoon
+A: Rush, Alexander
+A: Shieber, Stuart
+F: final/1254/1254_Paper.pdf
+L: 7
+
+P: 1255
+M: 
+T: Joint Concept Learning and Semantic Parsing from Natural Language Explanations
+A: Srivastava, Shashank
+A: Labutov, Igor
+A: Mitchell, Tom
+F: final/1255/1255_Paper.pdf
+L: 10
+
+P: 1260
+M: 
+T: A causal framework for explaining the predictions of black-box sequence-to-sequence models
+A: Alvarez-Melis, David
+A: Jaakkola, Tommi
+F: final/1260/1260_Paper.pdf
+L: 10
+
+P: 1270
+M: 
+T: Deal or No Deal? End-to-End Learning of Negotiation Dialogues
+A: Lewis, Mike
+A: Yarats, Denis
+A: Dauphin, Yann
+A: Parikh, Devi
+A: Batra, Dhruv
+F: final/1270/1270_Paper.pdf
+L: 11
+
+P: 1274
+M: 
+T: Knowledge Distillation for Bilingual Dictionary Induction
+A: Nakashole, Ndapandula
+A: Flauger, Raphael
+F: final/1274/1274_Paper.pdf
+L: 10
+
+P: 1281
+M: 
+T: Natural Language Processing with Small Feed-Forward Networks
+A: Botha, Jan A.
+A: Pitler, Emily
+A: Ma, Ji
+A: Bakalov, Anton
+A: Salcianu, Alex
+A: Weiss, David
+A: McDonald, Ryan
+A: Petrov, Slav
+F: final/1281/1281_Paper.pdf
+L: 7
+
+P: 1288
+M: 
+T: Adversarial Examples for Evaluating Reading Comprehension Systems
+A: Jia, Robin
+A: Liang, Percy
+F: final/1288/1288_Paper.pdf
+L: 11
+
+P: 1289
+M: 
+T: KGEval: Accuracy Estimation of Automatically Constructed Knowledge Graphs
+A: Ojha, Prakhar
+A: Talukdar, Partha
+F: final/1289/1289_Paper.pdf
+L: 10
+
+P: 1295
+M: 
+T: An Insight Extraction System on BioMedical Literature with Deep Neural Networks
+A: He, Hua
+A: Ganjam, Kris
+A: Jain, Navendu
+A: Lundin, Jessica
+A: White, Ryen
+A: Lin, Jimmy
+F: final/1295/1295_Paper.pdf
+L: 11
+
+P: 1296
+M: 
+T: Reinforced Video Captioning with Entailment Rewards
+A: Pasunuru, Ramakanth
+A: Bansal, Mohit
+F: final/1296/1296_Paper.pdf
+L: 7
+
+P: 1297
+M: 
+T: Trainable Greedy Decoding for Neural Machine Translation
+A: Gu, Jiatao
+A: Cho, Kyunghyun
+A: Li, Victor O.K.
+F: final/1297/1297_Paper.pdf
+L: 11
+
+P: 1298
+M: 
+T: Effective Inference for Generative Neural Parsing
+A: Stern, Mitchell
+A: Fried, Daniel
+A: Klein, Dan
+F: final/1298/1298_Paper.pdf
+L: 6
+
+P: 1299
+M: 
+T: Word-Context Character Embeddings for Chinese Word Segmentation
+A: Zhou, Hao
+A: Yu, Zhenting
+A: Zhang, Yue
+A: Huang, Shujian
+A: DAI, XIN-YU
+A: Chen, Jiajun
+F: final/1299/1299_Paper.pdf
+L: 7
+
+P: 1301
+M: 
+T: Scientific Information Extraction with Semi-supervised Neural Tagging
+A: Luan, Yi
+A: Ostendorf, Mari
+A: Hajishirzi, Hannaneh
+F: final/1301/1301_Paper.pdf
+L: 11
+
+P: 1302
+M: 
+T: MUSE: Modularizing Unsupervised Sense Embeddings
+A: Lee, Guang-He
+A: Chen, Yun-Nung
+F: final/1302/1302_Paper.pdf
+L: 11
+
+P: 1305
+M: 
+T: Noise-Clustered Distant Supervision for Relation Extraction: A Nonparametric Bayesian Perspective
+A: Zhang, Qing
+A: Wang, Houfeng
+F: final/1305/1305_Paper.pdf
+L: 6
+
+P: 1310
+M: 
+T: Maximum Margin Reward Networks for Learning from Explicit and Implicit Supervision
+A: Peng, Haoruo
+A: Chang, Ming-Wei
+A: Yih, Wen-tau
+F: final/1310/1310_Paper.pdf
+L: 11
+
+P: 1318
+M: 
+T: Deep Multi-Task Learning for Aspect Term Extraction with Memory Interaction
+A: Li, Xin
+A: Lam, Wai
+F: final/1318/1318_Paper.pdf
+L: 7
+
+P: 1321
+M: 0 6
+T: Heterogeneous Supervision for Relation Extraction: A Representation Learning Approach
+A: Liu, Liyuan
+A: Ren, Xiang
+A: Zhu, Qi
+A: Zhi, Shi
+A: Gui, Huan
+A: Ji, Heng
+A: Han, Jiawei
+F: final/1321/1321_Paper.pdf
+L: 11
+
+P: 1324
+M: 
+T: Speeding up Reinforcement Learning-based Information Extraction Training using Asynchronous Methods
+A: Sharma, Aditya
+A: Parekh, Zarana
+A: Talukdar, Partha
+F: final/1324/1324_Paper.pdf
+L: 6
+
+P: 1326
+M: 
+T: Truth of Varying Shades: Analyzing Language in Fake News and Political Fact-Checking
+A: Rashkin, Hannah
+A: Choi, Eunsol
+A: Jang, Jin Yea
+A: Volkova, Svitlana
+A: Choi, Yejin
+F: final/1326/1326_Paper.pdf
+L: 7
+
+P: 1327
+M: 
+T: Connotation Frames of Power and Agency in Modern Films
+A: Sap, Maarten
+A: Prasettio, Marcella Cindy
+A: Holtzman, Ari
+A: Rashkin, Hannah
+A: Choi, Yejin
+F: final/1327/1327_Paper.pdf
+L: 6
+
+P: 1333
+M: 
+T: Incorporating Relation Paths in Neural Relation Extraction
+A: Zeng, Wenyuan
+A: Lin, Yankai
+A: Liu, Zhiyuan
+A: Sun, Maosong
+F: final/1333/1333_Paper.pdf
+L: 10
+
+P: 1344
+M: 
+T: Neural Response Generation via GAN with an Approximate Embedding Layer
+A: Xu, Zhen
+A: Liu, Bingquan
+A: Wang, Baoxun
+A: SUN, Chengjie
+A: Wang, Xiaolong
+A: Wang, Zhuoran
+A: Qi, Chao
+F: final/1344/1344_Paper.pdf
+L: 10
+
+P: 1355
+M: 
+T: Reinforcement Learning for Bandit Neural Machine Translation with Simulated Human Feedback
+A: Nguyen, Khanh
+A: Daum\'{e} III, Hal
+A: Boyd-Graber, Jordan
+F: final/1355/1355_Paper.pdf
+L: 11
+
+P: 1356
+M: 
+T: Entity Linking via Joint Encoding of Types, Descriptions, and Context
+A: Gupta, Nitish
+A: Singh, Sameer
+A: Roth, Dan
+F: final/1356/1356_Paper.pdf
+L: 10
+
+P: 1363
+M: 
+T: Challenges in Data-to-Document Generation
+A: Wiseman, Sam
+A: Shieber, Stuart
+A: Rush, Alexander
+F: final/1363/1363_Paper.pdf
+L: 11
+
+P: 1367
+M: 
+T: Obj2Text: Generating Visually Descriptive Language from Object Layouts
+A: Yin, Xuwang
+A: Ordonez, Vicente
+F: final/1367/1367_Paper.pdf
+L: 11
+
+P: 1372
+M: 
+T: Towards Debate Automation: a Recurrent Model for Predicting Debate Winners
+A: Potash, Peter
+A: Rumshisky, Anna
+F: final/1372/1372_Paper.pdf
+L: 11
+
+P: 1376
+M: 
+T: Importance sampling for unbiased on-demand evaluation of knowledge base population
+A: Chaganty, Arun
+A: Paranjape, Ashwin
+A: Liang, Percy
+A: Manning, Christopher D.
+F: final/1376/1376_Paper.pdf
+L: 11
+
+P: 1377
+M: 
+T: TAG Parsing with Neural Networks and Vector Representations of Supertags
+A: Kasai, Jungo
+A: Frank, Bob
+A: McCoy, Tom
+A: Rambow, Owen
+A: Nasr, Alexis
+F: final/1377/1377_Paper.pdf
+L: 11
+
+P: 1380
+M: 
+T: Steering Output Style and Topic in Neural Response Generation
+A: Wang, Di
+A: Jojic, Nebojsa
+A: Brockett, Chris
+A: Nyberg, Eric
+F: final/1380/1380_Paper.pdf
+L: 11
+
+P: 1381
+M: 
+T: Fast(er) Exact Decoding and Global Training for Transition-Based Dependency Parsing via a Minimal Feature Set
+A: Shi, Tianze
+A: Huang, Liang
+A: Lee, Lillian
+F: final/1381/1381_Paper.pdf
+L: 12
+
+P: 1388
+M: 
+T: Visual Denotations for Recognizing Textual Entailment
+A: Han, Dan
+A: Mart\'{i}nez-G\'{o}mez, Pascual
+A: Mineshima, Koji
+F: final/1388/1388_Paper.pdf
+L: 7
+
+P: 1396
+M: 
+T: Learning Paraphrastic Sentence Embeddings from Back-Translated Bitext
+A: Wieting, John
+A: Mallinson, Jonathan
+A: Gimpel, Kevin
+F: final/1396/1396_Paper.pdf
+L: 12
+
+P: 1397
+M: 
+T: Preserving Distributional Information in Dialogue Act Classification
+A: Tran, Quan Hung
+A: Zukerman, Ingrid
+A: Haffari, Gholamreza
+F: final/1397/1397_Paper.pdf
+L: 6
+
+P: 1399
+M: 
+T: Towards a Universal Sentiment Classifier in Multiple languages
+A: Xu, Kui
+A: Wan, Xiaojun
+F: final/1399/1399_Paper.pdf
+L: 10
+
+P: 1400
+M: 
+T: Tensor Fusion Network for Multimodal Sentiment Analysis
+A: Zadeh, Amir
+A: Chen, Minghai
+A: Poria, Soujanya
+A: Cambria, Erik
+A: Morency, Louis-Philippe
+F: final/1400/1400_Paper.pdf
+L: 12
+
+P: 1403
+M: 
+T: Agent-Aware Dropout DQN for Safe and Efficient On-line Dialogue Policy Learning
+A: Chen, Lu
+A: Zhou, Xiang
+A: Chang, Cheng
+A: Yang, Runzhe
+A: Yu, Kai
+F: final/1403/1403_Paper.pdf
+L: 11
+
+P: 1405
+M: 
+T: Recovering Question Answering Errors via Query Revision
+A: Yavuz, Semih
+A: Gur, Izzeddin
+A: Su, Yu
+A: Yan, Xifeng
+F: final/1405/1405_Paper.pdf
+L: 7
+
+P: 1407
+M: 
+T: Getting the Most out of AMR Parsing
+A: Wang, Chuan
+A: Xue, Nianwen
+F: final/1407/1407_Paper.pdf
+L: 12
+
+P: 1408
+M: 
+T: Leveraging Linguistic Structures for Named Entity Recognition with Bidirectional Recursive Neural Networks
+A: Li, Peng-Hsuan
+A: Dong, Ruo-Ping
+A: Wang, Yu-Siang
+A: Chou, Ju-Chieh
+A: Ma, Wei-Yun
+F: final/1408/1408_Paper.pdf
+L: 6
+
+P: 1411
+M: 
+T: A Study of Style in Machine Translation: Controlling the Formality of Machine Translation Output
+A: Niu, Xing
+A: Martindale, Marianna
+A: Carpuat, Marine
+F: final/1411/1411_Paper.pdf
+L: 6
+
+P: 1415
+M: 
+T: Controlling Human Perception of Basic User Traits
+A: Preoţiuc-Pietro, Daniel
+A: Chandra Guntuku, Sharath
+A: Ungar, Lyle
+F: final/1415/1415_Paper.pdf
+L: 7
+
+P: 1416
+M: 0
+T: A Multilayer Perceptron based Ensemble Technique for Fine-grained Financial Sentiment Analysis
+A: Akhtar, Md Shad
+A: Kumar, Abhishek
+A: Ghosal, Deepanway
+A: Ekbal, Asif
+A: Bhattacharyya, Pushpak
+F: final/1416/1416_Paper.pdf
+L: 7
+
+P: 1417
+M: 
+T: Position-aware Attention and Supervised Data Improve Slot Filling
+A: Zhang, Yuhao
+A: Zhong, Victor
+A: Chen, Danqi
+A: Angeli, Gabor
+A: Manning, Christopher D.
+F: final/1417/1417_Paper.pdf
+L: 11
+
+P: 1419
+M: 
+T: Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture
+A: Meng, Yuanliang
+A: Rumshisky, Anna
+A: Romanov, Alexey
+F: final/1419/1419_Paper.pdf
+L: 10
+
+P: 1420
+M: 
+T: DOC: Deep Open Classification of Text Documents
+A: Shu, Lei
+A: Xu, Hu
+A: Liu, Bing
+F: final/1420/1420_Paper.pdf
+L: 6
+
+P: 1424
+M: 
+T: Learning Language Representations for Typology Prediction
+A: Malaviya, Chaitanya
+A: Neubig, Graham
+A: Littell, Patrick
+F: final/1424/1424_Paper.pdf
+L: 7
+
+P: 1430
+M: 
+T: Sequence Effects in Crowdsourced Annotations
+A: Mathur, Nitika
+A: Baldwin, Timothy
+A: Cohn, Trevor
+F: final/1430/1430_Paper.pdf
+L: 6
+
+P: 1436
+M: 
+T: Sentiment Intensity Ranking among Adjectives Using Sentiment Bearing Word Embeddings
+A: Sharma, Raksha
+A: Somani, Arpan
+A: Kumar, Lakshya
+A: Bhattacharyya, Pushpak
+F: final/1436/1436_Paper.pdf
+L: 6
+
+P: 1443
+M: 
+T: Predicting Word Association Strengths
+A: Cattle, Andrew
+A: Ma, Xiaojuan
+F: final/1443/1443_Paper.pdf
+L: 6
+
+P: 1446
+M: 
+T: Evaluating Hierarchies of Verb Argument Structure with Hierarchical Clustering
+A: Mu, Jesse
+A: Hartshorne, Joshua K.
+A: O'Donnell, Timothy
+F: final/1446/1446_Paper.pdf
+L: 6
+
+P: 1459
+M: 
+T: Zero-Shot Activity Recognition with Verb Attribute Induction
+A: Zellers, Rowan
+A: Choi, Yejin
+F: final/1459/1459_Paper.pdf
+L: 13
+
+P: 1462
+M: 
+T: Piecewise Latent Variables for Neural Variational Text Processing
+A: Serban, Iulian Vlad
+A: Ororbia, Alexander G.
+A: Pineau, Joelle
+A: Courville, Aaron
+F: final/1462/1462_Paper.pdf
+L: 11
+
+P: 1464
+M: 
+T: Neural Discontinuous Constituency Parsing
+A: Stanojevi\'{c}, Milo\v{s}
+A: Garrido Alhama, Raquel
+F: final/1464/1464_Paper.pdf
+L: 11
+
+P: 1468
+M: 
+T: When to Finish? Optimal Beam Search for Neural Text Generation (modulo beam size)
+A: Huang, Liang
+A: Zhao, Kai
+A: Ma, Mingbo
+F: 
+L: 0
+
+P: 1470
+M: 
+T: Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints
+A: Zhao, Jieyu
+A: Wang, Tianlu
+A: Yatskar, Mark
+A: Ordonez, Vicente
+A: Chang, Kai-Wei
+F: final/1470/1470_Paper.pdf
+L: 11
+
+P: 1495
+M: 
+T: Joint Syntacto-Discourse Parsing and the Syntacto-Discourse Treebank
+A: Zhao, Kai
+A: Huang, Liang
+F: final/1495/1495_Paper.pdf
+L: 7
+
+P: 1501
+M: 
+T: Quasi-Second-Order Parsing for 1-Endpoint-Crossing, Pagenumber-2 Graphs
+A: Cao, Junjie
+A: Huang, Sheng
+A: Sun, Weiwei
+A: Wan, Xiaojun
+F: final/1501/1501_Paper.pdf
+L: 11
+
+P: 1511
+M: 
+T: Cross-Lingual Transfer Learning for POS Tagging without Cross-Lingual Resources
+A: Kim, Joo-Kyung
+A: Kim, Young-Bum
+A: Sarikaya, Ruhi
+A: Fosler-Lussier, Eric
+F: final/1511/1511_Paper.pdf
+L: 7
+
+P: 1525
+M: 
+T: Nonparametric Bayesian Semi-supervised Word Segmentation
+A: Mochihashi, Daichi
+A: Fujii, Ryo
+A: Domoto, Ryo
+F: 
+L: 0
+
+P: 1526
+M: 
+T: Joint Prediction of Word Alignment with Alignment Types
+A: Mansouri Bigvand, Anahita
+A: Bu, Te
+A: Sarkar, Anoop
+F: 
+L: 0
+
+P: 1527
+M: 
+T: Joint Modeling of Topics, Citations, and Topical Authority in Academic Corpora
+A: Kim, Jooyeon
+A: Kim, Dongwoo
+A: Oh, Alice
+F: 
+L: 0
+
+P: 1529
+M: 
+T: Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation
+A: Johnson, Melvin
+A: Schuster, Mike
+A: Le, Quoc V.
+A: Krikun, Maxim
+A: Wu, Yonghui
+A: Chen, Zhifeng
+A: Thorat, Nikhil
+A: Vi\'{e}gas, Fernanda
+A: Wattenberg, Martin
+A: Corrado, Greg
+A: Hughes, Macduff
+A: Dean, Jeffrey
+F: 
+L: 0
+
+P: 1530
+M: 
+T: Conversation Modeling on Reddit Using a Graph-Structured LSTM
+A: Zayats, Victoria
+A: Ostendorf, Mari
+F: 
+L: 0
+
+P: 1531
+M: 
+T: Colors in Context: A Pragmatic Neural Model for Grounded Language Understanding
+A: Monroe, Will
+A: Hawkins, Robert X. D.
+A: Goodman, Noah D.
+A: Potts, Christopher
+F: 
+L: 0
+
+P: 1532
+M: 
+T: Parsing with Traces: An O(n\^{}4) Algorithm and a Structural Representation
+A: Kummerfeld, Jonathan K.
+A: Klein, Dan
+F: 
+L: 0
+
+P: 1533
+M: 
+T: Semantic Specialisation of Distributional Word Vector Spaces using Monolingual and Cross-Lingual Constraints
+A: Mrk\v{s}i\'{c}, Nikola
+A: Vuli\'{c}, Ivan
+A: \'{O} S\'{e}aghdha, Diarmuid
+A: Reichart, Roi
+A: Leviant, Ira
+A: Ga\v{s}i\'{c}, Milica
+A: Korhonen, Anna
+A: Young, Steve
+F: 
+L: 0
+
+P: 1534
+M: 
+T: Evaluating Low-Level Speech Features Against Human Perceptual Data
+A: Feldman, Naomi H
+A: Richter, Caitlin
+A: Salgado, Harini
+A: Jansen, Aren
+F: 
+L: 0

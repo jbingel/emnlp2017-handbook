@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#264
+FinalPaperTitle#=%=#Part-of-Speech Tagging for Twitter with Adversarial Neural Networks
+ShortPaperTitle#=%=#Part-of-Speech Tagging for Twitter with Adversarial Neural Networks
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Qi Zhang
+JobTitle#==#
+Organization#==#Shanghai Key Laboratory of Intelligent Information Processing,
+School of Computer Science, Fudan University,
+825 Zhangheng Road, Shanghai, China
+Abstract#==#In this work, we study the problem of part-of-speech tagging for Tweets. In
+contrast to newswire articles, Tweets are usually informal and contain numerous
+out-of-vocabulary words. Moreover, there is a lack of large scale labeled
+datasets for this domain. To tackle these challenges, we propose a novel neural
+network to make use of out-of-domain labeled data, unlabeled in-domain data,
+and labeled in-domain data.  Inspired by adversarial neural networks, the
+proposed method tries to learn common features through adversarial
+discriminator. In addition, we hypothesize that domain-specific features of
+target domain should be preserved in some degree. Hence, the proposed method
+adopts a sequence-to-sequence autoencoder to perform this task.  Experimental
+results on three different datasets  show that our method achieves better
+performance than state-of-the-art methods.
+Author{1}{Firstname}#=%=#Tao
+Author{1}{Lastname}#=%=#Gui
+Author{1}{Email}#=%=#16210240030@fudan.edu.cn
+Author{1}{Affiliation}#=%=#Fudan University
+Author{2}{Firstname}#=%=#Qi
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#qz@fudan.edu.cn
+Author{2}{Affiliation}#=%=#Fudan University
+Author{3}{Firstname}#=%=#Haoran
+Author{3}{Lastname}#=%=#Huang
+Author{3}{Email}#=%=#huanghr15@fudan.edu.cn
+Author{3}{Affiliation}#=%=#Fudan University
+Author{4}{Firstname}#=%=#Minlong
+Author{4}{Lastname}#=%=#Peng
+Author{4}{Email}#=%=#16110240005@fudan.edu.cn
+Author{4}{Affiliation}#=%=#Fudan University
+Author{5}{Firstname}#=%=#Xuanjing
+Author{5}{Lastname}#=%=#Huang
+Author{5}{Email}#=%=#xjhuang@fudan.edu.cn
+Author{5}{Affiliation}#=%=#Fudan University
+
+==========

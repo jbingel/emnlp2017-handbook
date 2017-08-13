@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#1299
+FinalPaperTitle#=%=#Word-Context Character Embeddings for Chinese Word Segmentation
+ShortPaperTitle#=%=#Word-Context Character Embeddings for Chinese Word Segmentation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Hao Zhou
+JobTitle#==#Research Scientist
+Organization#==#
+Abstract#==#Neural parsers have benefited from automatically labeled data via
+dependency-context word embeddings. 
+We investigate training character embeddings on a word-based context in a
+similar way, showing that the simple method improves state-of-the-art neural
+word segmentation models significantly, beating tri-training baselines for
+leveraging auto-segmented data.
+Author{1}{Firstname}#=%=#Hao
+Author{1}{Lastname}#=%=#Zhou
+Author{1}{Email}#=%=#zhouh@nlp.nju.edu.cn
+Author{1}{Affiliation}#=%=#Nanjing University
+Author{2}{Firstname}#=%=#Zhenting
+Author{2}{Lastname}#=%=#Yu
+Author{2}{Email}#=%=#yuzt@nlp.nju.edu.cn
+Author{2}{Affiliation}#=%=#Nanjing University
+Author{3}{Firstname}#=%=#Yue
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Email}#=%=#yue_zhang@sutd.edu.sg
+Author{3}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{4}{Firstname}#=%=#Shujian
+Author{4}{Lastname}#=%=#Huang
+Author{4}{Email}#=%=#huangshujian@gmail.com
+Author{4}{Affiliation}#=%=#Nanjing University
+Author{5}{Firstname}#=%=#XIN-YU
+Author{5}{Lastname}#=%=#DAI
+Author{5}{Email}#=%=#daixinyu@nju.edu.cn
+Author{5}{Affiliation}#=%=#National Key Laboratory for Novel Software Technology, Nanjing University
+Author{6}{Firstname}#=%=#Jiajun
+Author{6}{Lastname}#=%=#Chen
+Author{6}{Email}#=%=#chenjj@nlp.nju.edu.cn
+Author{6}{Affiliation}#=%=#Nanjing University
+
+==========

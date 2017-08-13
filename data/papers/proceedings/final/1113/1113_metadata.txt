@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#1113
+FinalPaperTitle#=%=#Does syntax help discourse segmentation? Not so much
+ShortPaperTitle#=%=#Does syntax help discourse segmentation? Not so much
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Chloé Braud
+JobTitle#==#
+Organization#==#DIKU, University of Copenhagen, University Park 5, 2100 Copenhagen
+Abstract#==#Discourse segmentation is the first step in building discourse parsers. Most
+work on discourse segmentation does not scale to real-world discourse parsing
+across languages, for two reasons: (i) models rely on constituent trees, and
+(ii) experiments have relied on gold standard identification of sentence and
+token boundaries. We therefore investigate to what extent constituents can be
+replaced with universal dependencies, or left out completely, as well as how
+state-of-the-art segmenters fare in the absence of sentence boundaries. Our
+results show that dependency information is less useful than expected, but we
+provide a fully scalable, robust model that only relies on part-of-speech
+information, and show that it performs well across languages in the absence of
+any gold-standard annotation.
+Author{1}{Firstname}#=%=#Chloé
+Author{1}{Lastname}#=%=#Braud
+Author{1}{Email}#=%=#chloe.braud@gmail.com
+Author{1}{Affiliation}#=%=#University of Copenhagen
+Author{2}{Firstname}#=%=#Ophélie
+Author{2}{Lastname}#=%=#Lacroix
+Author{2}{Email}#=%=#lacroix@di.ku.dk
+Author{2}{Affiliation}#=%=#University of Copenhagen
+Author{3}{Firstname}#=%=#Anders
+Author{3}{Lastname}#=%=#Søgaard
+Author{3}{Email}#=%=#soegaard@di.ku.dk
+Author{3}{Affiliation}#=%=#University of Copenhagen
+
+==========

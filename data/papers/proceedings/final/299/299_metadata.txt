@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#299
+FinalPaperTitle#=%=#Fine Grained Citation Span for References in Wikipedia
+ShortPaperTitle#=%=#Fine Grained Citation Span for References in Wikipedia
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Besnik Fetahu
+JobTitle#==#
+Organization#==#L3S Research, Leibniz University of Hannover
+Appelstr. 4, 30167 Hannover, Germany
+Abstract#==#Verifiability is one of the core editing principles in Wikipedia, where editors
+are encouraged to provide  citations for the added content. For a Wikipedia
+article determining what content is covered by a citation or the citation span
+is not trivial, an important aspect for automated citation finding for
+uncovered content, or fact assessments.
+
+We address the problem of determining the citation span in Wikipedia articles.
+We approach this problem by classifying which textual fragments in an article
+are covered or hold true given a citation. We propose a sequence classification
+approach where for a paragraph and a citation, we determine the citation span
+at a fine-grained
+level.
+
+We provide a thorough experimental evaluation and compare our approach against
+baselines adopted from the scientific domain, where we show improvement for all
+evaluation metrics.
+Author{1}{Firstname}#=%=#Besnik
+Author{1}{Lastname}#=%=#Fetahu
+Author{1}{Email}#=%=#fetahu@l3s.de
+Author{1}{Affiliation}#=%=#L3S Research Center / Leibniz University Hannover
+Author{2}{Firstname}#=%=#Katja
+Author{2}{Lastname}#=%=#Markert
+Author{2}{Email}#=%=#markert@cl.uni-heidelberg.de
+Author{2}{Affiliation}#=%=#Institute of Computational Linguistics, Heidelberg University
+Author{3}{Firstname}#=%=#Avishek
+Author{3}{Lastname}#=%=#Anand
+Author{3}{Email}#=%=#anand@l3s.de
+Author{3}{Affiliation}#=%=#L3S Research Center / Leibniz University Hannover
+
+==========

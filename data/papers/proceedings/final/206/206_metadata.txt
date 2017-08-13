@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#206
+FinalPaperTitle#=%=#Identifying Where to Focus in Reading Comprehension for Neural Question Generation
+ShortPaperTitle#=%=#Identifying Where to Focus in Reading Comprehension for Neural Question Generation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Xinya Du
+JobTitle#==#student
+Organization#==#Department of Computer Science, Cornell University, Ithaca, NY, 14853, USA
+Abstract#==#A first step in the task of automatically generating questions for testing
+reading comprehension is to identify \emph{question-worthy} sentences, i.e.
+sentences in a text passage that humans find it worthwhile to ask questions
+about. We propose a hierarchical neural sentence-level sequence tagging model
+for this task, which existing approaches to question generation have ignored.
+The approach is fully data-driven — with no sophisticated NLP pipelines or
+any hand-crafted rules/features — and compares favorably to a number of
+baselines when evaluated on the SQuAD data set. When incorporated into an
+existing neural question generation system, the resulting end-to-end system
+achieves state-of-the-art performance for paragraph-level question generation
+for reading comprehension.
+Author{1}{Firstname}#=%=#Xinya
+Author{1}{Lastname}#=%=#Du
+Author{1}{Email}#=%=#xd75@cornell.edu
+Author{1}{Affiliation}#=%=#Cornell University
+Author{2}{Firstname}#=%=#Claire
+Author{2}{Lastname}#=%=#Cardie
+Author{2}{Email}#=%=#cardie@cs.cornell.edu
+Author{2}{Affiliation}#=%=#Cornell University
+
+==========

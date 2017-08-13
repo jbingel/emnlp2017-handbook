@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#553
+FinalPaperTitle#=%=#Deriving continous grounded meaning representations from referentially structured multimodal contexts
+ShortPaperTitle#=%=#Deriving continous grounded meaning representations from referentially structured multimodal contexts
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Sina Zarrieß
+JobTitle#==#
+Organization#==#Bielefeld University
+Universitätsstr. 25
+33615 Bielefeld
+Germany
+Abstract#==#Corpora of referring expressions paired with their visual referents are a good
+source for learning word meanings directly grounded in visual representations.
+Here, we explore additional ways of extracting from them word representations
+linked to  multi-modal context: through expressions that refer to the same
+object, and through expressions that refer to different objects in the same
+scene. We show that continuous meaning representations derived from these
+contexts capture complementary aspects of similarity, , even if not
+outperforming textual embeddings trained on very large amounts of raw text when
+tested on standard similarity benchmarks. We propose a new task for evaluating
+grounded meaning representations---detection of potentially co-referential
+phrases---and show that it requires precise denotational representations of
+attribute meanings, which our method provides.
+Author{1}{Firstname}#=%=#Sina
+Author{1}{Lastname}#=%=#Zarrieß
+Author{1}{Email}#=%=#sina.zarriess@uni-bielefeld.de
+Author{1}{Affiliation}#=%=#University of Bielefeld
+Author{2}{Firstname}#=%=#David
+Author{2}{Lastname}#=%=#Schlangen
+Author{2}{Email}#=%=#david.schlangen@uni-bielefeld.de
+Author{2}{Affiliation}#=%=#Bielefeld University
+
+==========

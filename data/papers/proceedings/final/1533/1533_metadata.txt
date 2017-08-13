@@ -1,0 +1,54 @@
+SubmissionNumber#=%=#1533
+FinalPaperTitle#=%=#Semantic Specialisation of Distributional Word Vector Spaces using Monolingual and Cross-Lingual Constraints
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#We present Attract-Repel, an algorithm for improving the semantic quality of
+word vectors by injecting constraints extracted from lexical resources.
+Attract-Repel facilitates the use of constraints from mono- and cross-lingual
+resources, yielding semantically specialised cross-lingual vector spaces. Our
+evaluation shows that the method can make use of existing cross-lingual
+lexicons to construct high-quality vector spaces for a plethora of different
+languages, facilitating semantic transfer from high- to lower-resource ones.
+The effectiveness of our approach is demonstrated with state-of-the-art results
+on semantic similarity datasets in six languages. We next show that
+Attract-Repel-specialised vectors boost performance in the downstream task of
+dialogue state tracking (DST) across multiple languages. Finally, we show that
+cross-lingual vector spaces produced by our algorithm facilitate the training
+of multilingual DST models, which brings further performance improvements.
+Author{1}{Firstname}#=%=#Nikola
+Author{1}{Lastname}#=%=#Mrkšić
+Author{1}{Email}#=%=#nikola.mrksic@gmail.com
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Ivan
+Author{2}{Lastname}#=%=#Vulić
+Author{2}{Email}#=%=#iv250@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Diarmuid
+Author{3}{Lastname}#=%=#Ó Séaghdha
+Author{3}{Email}#=%=#do242@cam.ac.uk
+Author{3}{Affiliation}#=%=#Apple Inc.
+Author{4}{Firstname}#=%=#Roi
+Author{4}{Lastname}#=%=#Reichart
+Author{4}{Email}#=%=#roiri@ie.technion.ac.il
+Author{4}{Affiliation}#=%=#Technion, Israel Institute of Technology
+Author{5}{Firstname}#=%=#Ira
+Author{5}{Lastname}#=%=#Leviant
+Author{5}{Email}#=%=#ira.leviant@campus.technion.ac.il
+Author{5}{Affiliation}#=%=#Technion, Israel Institute of Technology
+Author{6}{Firstname}#=%=#Milica
+Author{6}{Lastname}#=%=#Gašić
+Author{6}{Email}#=%=#mg436@cam.ac.uk
+Author{6}{Affiliation}#=%=#University of Cambridge
+Author{7}{Firstname}#=%=#Anna
+Author{7}{Lastname}#=%=#Korhonen
+Author{7}{Email}#=%=#alk23@cam.ac.uk
+Author{7}{Affiliation}#=%=#University of Cambridge
+Author{8}{Firstname}#=%=#Steve
+Author{8}{Lastname}#=%=#Young
+Author{8}{Email}#=%=#sjy11@cam.ac.uk
+Author{8}{Affiliation}#=%=#University of Cambridge
+
+==========

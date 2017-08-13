@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#1044
+FinalPaperTitle#=%=#Deep Joint Entity Disambiguation with Local Neural Attention
+ShortPaperTitle#=%=#Deep Joint Entity Disambiguation with Local Neural Attention
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Octavian-Eugen Ganea
+JobTitle#==#
+Organization#==#ETH Zürich, Rämistrasse 101, 8092 Zürich, Switzerland
+Abstract#==#We propose a novel deep learning model for joint document-level entity
+disambiguation, which leverages learned neural representations. Key components
+are entity embeddings, a neural attention mechanism over local context windows,
+and a differentiable joint inference stage for disambiguation. Our approach
+thereby combines benefits of deep learning with more traditional approaches
+such as graphical models and probabilistic mention-entity maps. Extensive
+experiments show that we are able to obtain competitive or state-of-the-art
+accuracy at moderate computational costs.
+Author{1}{Firstname}#=%=#Octavian-Eugen
+Author{1}{Lastname}#=%=#Ganea
+Author{1}{Email}#=%=#octavian.ganea@inf.ethz.ch
+Author{1}{Affiliation}#=%=#ETH Zurich
+Author{2}{Firstname}#=%=#Thomas
+Author{2}{Lastname}#=%=#Hofmann
+Author{2}{Email}#=%=#thomas.hofmann@inf.ethz.ch
+Author{2}{Affiliation}#=%=#ETH Zurich
+
+==========

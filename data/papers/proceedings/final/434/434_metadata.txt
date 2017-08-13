@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#434
+FinalPaperTitle#=%=#Task-Oriented Query Reformulation with Reinforcement Learning
+ShortPaperTitle#=%=#Task-Oriented Query Reformulation with Reinforcement Learning
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Rodrigo Frassetto Nogueira
+JobTitle#==#
+Organization#==#
+Abstract#==#Search engines play an important role in our everyday lives by assisting us in
+finding the information we need. When we input a complex query, however,
+results are often far from satisfactory. In this work, we introduce a query
+reformulation system based on a neural network that rewrites a query to
+maximize the number of relevant documents returned.
+We train this neural network with reinforcement learning. The actions
+correspond to selecting terms to build a reformulated query, and the reward is
+the document recall. We evaluate our approach on three datasets against strong
+baselines and show a relative improvement of 5-20% in terms of recall.
+Furthermore, we present a simple method to estimate a conservative upper-bound
+performance of a model in a particular environment and verify that there is
+still large room for improvements.
+Author{1}{Firstname}#=%=#Rodrigo
+Author{1}{Lastname}#=%=#Nogueira
+Author{1}{Email}#=%=#rodrigonogueira@nyu.edu
+Author{1}{Affiliation}#=%=#New York University
+Author{2}{Firstname}#=%=#Kyunghyun
+Author{2}{Lastname}#=%=#Cho
+Author{2}{Email}#=%=#kyunghyun.cho@nyu.edu
+Author{2}{Affiliation}#=%=#New York University
+
+==========

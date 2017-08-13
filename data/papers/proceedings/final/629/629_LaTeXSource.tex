@@ -1,0 +1,431 @@
+%\title{emnlp 2017 instructions}
+% File emnlp2017.tex
+%
+
+\documentclass[11pt,letterpaper]{article}
+% \usepackage[draft]{hyperref}
+\usepackage[x11names,dvipsnames,table]{xcolor}
+\usepackage{emnlp2017}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{tikz}
+\usepackage{ifthen}
+\usepackage{multirow,bigdelim}
+\usepackage{amsmath}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.10}
+\usetikzlibrary{bayesnet}
+
+\definecolor{leaRed}{rgb}{0.722, 0, 0.278}
+\definecolor{gl1}{HTML}{1B9E77}
+\definecolor{gl2}{HTML}{D95F02}
+\definecolor{gl3}{HTML}{7570B3}
+\definecolor{gl4}{HTML}{E7298A}
+\definecolor{gl5}{HTML}{66A61E}
+
+% Uncomment this line for the final submission:
+\emnlpfinalcopy
+
+%  Enter the EMNLP Paper ID here:
+\def\emnlppaperid{629}
+
+
+
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+\DeclareMathOperator*{\argmax}{arg\,max}
+\DeclareMathOperator*{\argmin}{arg\,min}
+
+
+\title{Inducing Semantic Micro-Clusters from Deep Multi-View Representations of Novels}
+
+
+\author{Lea Frermann \\
+  University of Edinburgh \thanks{\quad Work done while the first author was an intern at Amazon (ADC Germany GmbH, Berlin).}\\
+  {\tt  l.frermann@ed.ac.uk} \\\And
+  Gy\"orgy Szarvas \\
+  Amazon Development Center Germany GmbH \\
+  {\tt szarvasg@amazon.de} \\
+}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Automatically understanding the plot of novels is important both for informing literary scholarship and applications such as summarization or recommendation.
+Various models have addressed this task, but their evaluation has remained largely intrinsic and qualitative. Here, we propose a principled and scalable framework leveraging expert-provided semantic tags (e.g.,~{\it mystery}, {\it pirates}) to evaluate plot representations in an extrinsic fashion, assessing their ability to produce locally coherent groupings of novels ({\it micro-clusters}) in model space. We present a deep recurrent autoencoder model that learns richly structured {\it multi-view} plot representations, and show that they i) yield better micro-clusters than less structured representations; and ii) are interpretable, and thus useful for further literary analysis or labelling of the emerging micro-clusters.
+\end{abstract}
+
+
+\section{Introduction}
+For the literature aficionado, the quest for the next novel to read can be daunting: the sheer number of novels of different styles, topics and genres is difficult to navigate. It is intuitively clear that readers select novels based on specific but potentially diverse and structured preferences (e.g.,~they might prefer novels of a particular theme ({\it small-town romance}), mood ({\it dark}) or based on character types ({\it grumpy boss}), character relations ({\it love, enmity}) and their development). These preferences also manifest in the organization of online book stores or recommendation platforms.\footnote{E.g.,~\mbox{\url{www.amazon.com}} or \url{www.goodreads.com}} For example, the Amazon book catalog contains semantic tags provided by experts (publishers), including labels of character types ({\it pirates}) or theme ({\it secret baby romance}) to aid focused search for novels of interest. 
+
+Although these tags are already fairly granular, many cover large sets of novels (e.g.,~the tag {\it secret baby romance} covers almost $4,000$~novels), limiting their utility for exhaustive exploration and call for even finer grained micro-groupings. %\footnote{\url{goo.gl/TGYTKY}}
+Can we instead {\it automatically} induce fine-grained novel clusters in an unsupervised, data-driven way? 
+
+We propose a framework to learn structured, interpretable book representations that capture different aspects of the plot, and verify that such representations are rich enough to support downstream tasks like generating interpretable book groupings. A real-world application of this work is content-based book recommendation based on diverse and interpretable book characteristics. Content-based recommendation has been criticized by the limited complexity of typically employed features~({\it limited content analysis}; \newcite{Lops:2011, Adomavicius:2005}). This work addresses this problem by inducing complex, structured and interpretable representations. Our contributions are two-fold.
+
+
+First, assuming that richly {\it structured} book tags
+call for rich content representations (which expert taggers arguably possess), we describe a deep unsupervised model for learning {\it multi-view} representations of novel plots. 
+We use the term {\it view} to refer to specific types of plot characteristics (e.g., pertaining to events, characters or mood), and {\it multi-view} to refer to combinations of these views.  We use multi-view book representations to construct meaningful and locally coherent neighbourhoods in model space, which we will refer to as {\it micro-clusters}. To this end, we extend a recent autoencoder model~\citep{Iyyer:2016} to learn multi-view representations of books. Our model encodes properties of characters (view $v_1$), relations between characters (view $v_2$), and their respective trajectories over the plot.\footnote{We argue 
+that both characters, and their relations evolve throughout the plot: Heroes pick up new attitudes or skills, and utilize those to different extents; relations change and develop over time (hate to love, friendship to enmity and back).} View-specific encodings are learnt in an unsupervised way from raw text as separate sets of word clusters which are jointly optimized to encode {\tt relevant} and {\tt distinct} information. These properties are crucial for applications such as book recommendation, because they allow to i) explain why particular books are similar based on the inferred latent structure and ii) find similarities based on important and distinct aspects of a novel (character types or interactions). Our framework of unsupervised multi-view learning is very flexible and can straightforwardly be applied to learn arbitrary kinds and numbers of views from raw text.
+
+
+Secondly, we propose an empirical evaluation framework. Before we can use models to {\it extend} existing categories as discussed above, it must be shown that the representations capture {\it existing} associations. To this end, we investigate whether micro-clusters derived from induced representations resemble reference clusters defined as groups of novels sharing tags in the Amazon catalog. While automatic induction of plot representations has attracted considerable attention~(see~\newcite{Jockers:2013}), evaluation has remained largely qualitative and intrinsic. To the best of our knowledge, we are the first to investigate the utility of automatically induced plot representations on an extrinsic task at scale. We evaluate micro-clusters as local neighbourhoods in model space containing $10,000$~novels under $50$~reference tags.
+
+We show that rich multi-view representations produce better micro-clusters compared to competitive but simpler models, and that interpretability of the learnt representations is not compromised despite the more complex objective. We also qualitatively demonstrate that high-quality micro-clusters emerge from a smaller, more homogeneous data set of Gutenberg\footnote{\url{https://www.gutenberg.org/}} novels.
+
+\section{Related Work}
+Automatically learning representations of book plots, as structured summaries of their content, has attracted much attention~(cf,~\newcite{Jockers:2013} for a review). Unsupervised models have been proposed which, given raw text, extract prototypical event structure~\cite{Mcintyre:2010,Chambers:2009}, prototypical characters~\cite{Bamman:2013,Bamman:2014,Elsner:2012} and their social networks~\cite{Elson:2010}. 
+
+Other work focused on the {\it dynamics} of a plot, learning trajectories of relations between two characters~\cite{Iyyer:2016,Chaturvedi:2017}. \newcite{Iyyer:2016} combine dictionary learning~\citep{Olshausen:1997} with deep recurrent autoencoders to learn interpretable character relationship descriptors.
+They show that their deep model learns better representations than conceptually similar topic models~\cite{Gruber:2007,Chang:2009}. Here, we extend the model of~\newcite{Iyyer:2016} to simultaneously induce multiple views on the plot.
+
+Methodologically, our work falls into the class of multi-view learning, and we propose a novel formulation of the model objective which encourages encoding of {\it distinct} information in the views.
+Our objective function is inspired by prior work in multi-task learning and deep domain adaptation for classification~\cite{Ganin:2015,Ganin:2016}. They train neural networks to simultaneously learn classifiers which are accurate on their target task and are agnostic about feature fluctuation pertaining to domain shift. We adapt this idea to unsupervised models with a reconstruction objective and learn multi-view representations which efficiently encode the input data and, at the same time, learn to {\it only} encode information relevant for the particular view.
+
+% As repeatedly acknowledged in the literature, 
+Evaluating induced plot representations is notoriously difficult. Most evaluation has resorted to manual inspection, or crowd-sourced human judgments of the coherence and interpretability of the representations~\cite{Iyyer:2016,Chaturvedi:2017}. While such evaluations demonstrated that the induced representations are qualitatively valuable, it is not clear whether they are rich and general enough to be used for downstream tasks and applications. 
+Others have used automatically created gold-standards of re-occurring character names across scripts (`gang member')~\cite{Bamman:2013}, prototypical plot
+templates (tropes, e.g.,~`corrupt corporate executive') or manually created gold-standards of character types~\citep{Vala:2016} or their relations~\cite{Massey:2015,Chaturvedi:2017} to automatically measure the {\it intrinsic} value of learnt representations. 
+Here, we investigate how these results extend to {\it extrinsic} tasks, and use structured plot representations for the task of inducing micro-clusters of novels. 
+
+\newcite{Elsner:2012} depart from the above pattern, suggesting an extrinsic, albeit artificial, evaluation paradigm. Approaching plot understanding from the angle of its utility for summarization, they use kernel methods to learn character-centric plot representations. They evaluate their trained models on their ability to differentiate between real and artificially distorted novels (e.g., with shuffled chapters). While this evaluation is extrinsic and quantitative, it leverages artificial data and it is not clear how the results extend to real-world summaries.
+
+Language features were previously used in content-based book recommendation e.g.,~as bags-of-words~\citep{Mooney:1999} or semantic frames~\citep{Clercq:2014}. Both works use structured databases and plot summaries rather than the raw book text. Other work used topic models to augment a recommender system of scientific articles~\citep{Wang:2011}. Similar to our work, these works emphasize the added value of {\it interpretable} representations and recommendations, however, they do not leverage the raw content of entire novels and the richness of information encoded in those.
+
+\section{Multi-View Novel Representations}
+\label{sec-mvplot}
+We first provide an intuitive description of Relationship Modeling Networks (RMN; \citealt{Iyyer:2016}), and our extension (henceforth \mbox{MVPlot}), which {\it jointly} induces temporally aware {\it multi-view} representations of novel plots. Afterwards we describe the \mbox{MVPlot} model in technical detail.
+\subsection{Intuition}
+\label{ssec-rmn}
+\newcite{Iyyer:2016} introduce the RMN, an unsupervised model which learns interpretable plot representations in terms of types of relations between pairs of book characters, and their development over time. Given a book and a character pair, the model learns relation types as word clusters (not unlike topics in a topic model \cite{Blei:2003}) from local contexts mentioning both characters. In addition the RMN learns for each character pair how these relations vary over time as a trajectory of relations. Methodologically, the RMN combines a deep recurrent autoencoder with dictionary learning, where terms in the dictionary are relationship descriptors. The RMN learns to efficiently encode local text spans as a linear combination of these relation descriptors.
+
+We extend RMNs to induce temporally aware multi-view representations of novel plots. Multiple interpretable views are induced jointly within one process in an unsupervised way. The core of our model closely corresponds to the structure of the RMN (as technically described in Section~\ref{ssec-mvplot}). However, we provide the model with distinct types of informative input for each view, and, reformulate the objective in a way that jointly optimizes parameterizations of all views to encode {\it distinct} information (cf.,~Section~\ref{ssec-mvplot-loss}). 
+\begin{table}
+\rowcolors{2}{white}{gray!11}
+ \small{\begin{tabular}{cp{6cm}}
+  \hline
+  {\bf View} & {\bf Descriptor} \\\hline
+  \multirow{2}{*}{$v_1$} & laugh scream laughing yell joke cringe disgrace embarrassment hate cursing\\%  \\
+  \multirow{2}{*}{$v_1$} & snug fleece warm comfortable wet blanket flannel cozy comfort roomy\\
+  \multirow{2}{*}{$v_1$} & excellency mademoiselle monsieur majesty duchess empress madame countess madam\\%dowager \\
+  \multirow{2}{*}{$v_2$} & love loving lovely dear sweetest dearest thank darling congratulation hello\\% \\
+  \multirow{2}{*}{$v_2$} & associate assistant senior chairman executive leadership vice director liaison vice-president\\\hline% t \\\hline
+ \end{tabular}}
+ \caption{Example property ($v_1$) and relation ($v_2$) descriptors induced by MVPlot on the Gutenberg corpus, as their nearest neighbours in GloVe space.}
+ \label{fig-descriptors}
+\end{table}
+
+Our~\mbox{MVPlot} model learns two views: properties associated with individual characters ($v_1$), relations between character pairs ($v_2$, as in the RMN) and their respective development over the course of the plot (examples of descriptors learnt by \mbox{MVPlot} for both views are shown in Table~\ref{fig-descriptors}). Our modeling framework, however, is very general in the sense that any number and type of views can be learnt jointly as long as input with relevant signals can be provided for each view. For example, we could naturally extend the model described here with a `plot' view to capture properties of the story which are not related to any character.
+
+
+\subsection{The~\mbox{MVPlot} Model}
+\label{ssec-mvplot}
+\begin{figure}
+\begin{center}
+ \input{nn}
+\end{center}
+ \caption{Visualization of the MVPlot model.}
+ \label{fig-model}
+\end{figure}
+We now formally describe the~\mbox{MVPlot} model for learning multi-view plot representations encoding individual character properties ($v_1)$, character pair relationships ($v_2$), and their respective trajectories. The full model is shown in Figure~\ref{fig-model}.
+\paragraph{Input} to our model are two corpora of text spans, one for each view, $S_{v1}$ and $S_{v2}$. The corpora consist of different sets of relevant view-specific local contexts as described in Section~\ref{sec-data}. Given a book $b$ and a character $c$, $S^{c,b}_{v1}$ contains linearly ordered\footnote{with respect to their occurrence in the novel} sequences of text spans $s^t$ at time $t{=}\{1...T\}$ in which character $c$ is mentioned, but no other character, 
+\begin{equation*}
+\small
+   S_{v1}^{c,b}       {=} \{s^1, s^2, ..., s^T\}\ s.th.\ \forall_t:c \in s^t \\
+\end{equation*}
+Similarly, $S^{c_1,c_2,b}_{v_2}$, given a book $b$ and a pair of characters $c_1$ and $c_2$, contains linearly ordered text spans which mention both $c_1$ and $c_2$, but no other character,
+\begin{equation*}
+\small
+ \begin{aligned}
+   S_{2}^{c_1,c_2,b} {=} \{s^1, s^2, ..., s^T\}\ s.th.\ \forall_t:\ c_1 \in s^t ,
+                                                                   c_2 \in s^t.
+ \end{aligned}
+\end{equation*}
+The rest of the input preparation follows~\newcite{Iyyer:2016} as follows. We map text spans into word embedding space, by mapping each word~$w$ to its 300-dimensional GloVe embedding~${e}_w$~\citep{Pennington:2014} pre-trained on CommonCrawl, and averaging the word embeddings,
+\begin{equation}
+\small
+ \begin{aligned}
+  \mathbf{e}^t = \frac{1}{|s^t|} \sum_{w \in s^t} {e}_w.
+ \end{aligned}
+\end{equation}
+We provide~\mbox{MVPlot} with a trainable matrix~$\mathbf{B}$ of dimensions~$b \times n$, where $b$ is the number of books in our data set, and each row~$\mathbf{e}^b$ is an~\mbox{$n$-dimensional} book embedding, encoding background information (e.g,~about its general setting or style) which is relevant to neither view of~\mbox{MVPlot}.\footnote{The RMN learns background encodings for characters in addition to the book embeddings. We omit this for~\mbox{MVPlot} as this information is explicitly learned in the views.}
+Finally the span embedding and the corresponding book embedding are concatenated, and passed through a ReLu non-linearity (cf.,~Figure~\ref{fig-model}, bottom),
+\begin{equation}
+\small
+ \begin{aligned}
+  \label{eqn-hidden}
+  \mathbf{h}^t = ReLu(\mathbf{W_h}[\mathbf{e}^t;\mathbf{e}^{b^t}]).
+ \end{aligned}
+\end{equation}
+\paragraph{Model architecture} \mbox{MVPlot} uses the architecture of the RMN autoencoder, but replicates it for each input view,~$v_1$ and~$v_2$ (cf.,~Figure~\ref{fig-model}, center). Each part will induce an encoding of view-specific information. The feed-forward pass, described below, is identical for both parts, however, the loss and backpropagation will differ (cf.,~Section~\ref{ssec-mvplot-loss}). 
+
+We describe the feed-forward pass for $v_2$, noting that it works analogously for $v_1$. The latent input representation $\mathbf{h}^t$ (eqn~(\ref{eqn-hidden})) is passed through a softmax layer which returns a weight vector over descriptors,~\mbox{$\mathbf{d}_{v2}^t=softmax(\mathbf{W}^d_{v2}[\mathbf{h}^t])$}. Descriptors are rows in the $k\times d$-dimensional descriptor matrix $\mathbf{R}_{v2}$, with each row $k$ corresponding to one $d$-dimensional descriptor (similar to a topic in a topic model). The input $\mathbf{e}^t$ is reconstructed through the dot product of $\mathbf{d}^t_{v2}$ and the descriptor matrix $\mathbf{R}_{v2}$, 
+\begin{equation}
+\small
+ \begin{aligned}
+  \mathbf{r}^t = \mathbf{d}^t_{v2} \mathbf{R}_{v2}.
+ \end{aligned}
+\end{equation}
+Like in the original RMN, we want to capture the {\it temporal} development of character relations or properties. Intuitively, we assume that the relations between (or properties of) characters at time $t$ depend on their relations (or properties) at time $t-1$. As in the RMN, we factor the descriptor weights of the {\it previous} time step $\mathbf{d}^{t-1}$ into the representation at time $t$, such that
+\begin{equation}
+\small
+ \begin{aligned}
+  \mathbf{d}_{v2}^t=\alpha\ softmax\big(\mathbf{W}_{v2}^d[\mathbf{h}_t;\mathbf{d}_{v2}^{t-1}]\big){+}(1-\alpha)\mathbf{d}_{v2}^{t-1}
+ \end{aligned}
+\end{equation}
+\paragraph{Output} First, the model induces property descriptors (rows in $\mathbf{R}_{v1}$) and the  relationship descriptors (rows in $\mathbf{R}_{v2}$). Both sets of descriptors are optimized to reconstruct model input in GloVe embedding space (cf.,~Section~\ref{ssec-mvplot-loss} for details). They consequently themselves live in GloVe word embedding space, and can be visualized through their nearest neighbours in this space. In addition, for each book $b$, character $c^b$ and character pair $\{c_1,c_2\}$, sequences of weight vectors over relations 
+\begin{equation*}
+\small
+\mathbf{\mathcal{T}}_{v_2}^{c_1,c_2,b} =\mathbf{d}_{v2}^1...\mathbf{d}_{v2}^T,
+\end{equation*}
+and over properties 
+\begin{equation*}                                                                                                                                                                                                                                                                                                                                                                                         
+\small
+\mathbf{\mathcal{T}}_{v_1}^{c,b} =\mathbf{d}_{v1}^1...\mathbf{d}_{v1}^T
+\end{equation*} 
+are induced, which encode their trajectory of relations and properties, respectively. We will utilize these trajectories for inducing micro-clusters of novels (Section~\ref{ssec-knn}).
+
+\subsection{The Multi-View Loss}
+\label{ssec-mvplot-loss}
+We formulate our loss as a Hinge loss within the contrastive max-margin framework. Our objective is to learn parameters for each view~\mbox{$\in \{v_1,v_2\}$} which efficiently encode view-specific input in a low-dimensional space from which the original input can be re-constructed with high accuracy. In addition, we want to learn view-specific parameters which encode {\it distinct} information such that when utilized together, they provide an improved embedding of the data. Intuitively, we achieve this by {\it discouraging} parameters of view $v_1$ from accurately reconstructing input spans from view $v_2$, and vice versa. 
+
+Our loss combines these two objectives as follows. The first part of the loss corresponds to the loss of the RMN. We use negative sampling to induce parameters for each view which reconstruct their respective view-specific input well. Formally, assuming model input from view $v_1$, $\mathbf{e}_{v1}^t$, we construct a set of $10$ `negative inputs'\mbox{$\{\mathbf{e}_{v1}^{n_1},...\mathbf{e}_{v1}^{n_I}\}$} which are sampled at random from the $v1$ input corpus. We want to learn parameters encoding view $v_1$ to reconstruct the input such that the inner product between the true input~$\mathbf{e}_{v_1}^t$ and its reconstruction~$\mathbf{r}_{v1}^t$ is 
+higher than the inner product between~$\mathbf{r}_{v1}^t$ and any of the negative samples~$\mathbf{e}_{v1}^{n_i}$ by a margin of at least~$1$,
+\begin{equation}
+\small
+ \begin{aligned}
+   J(\theta) =\sum_t \sum_i max(0, 1-\mathbf{r}_{v1}^t\mathbf{e}^t_{v1} + \mathbf{r}_{v1}^t\mathbf{e}^{n_i}_{v1}),
+ \end{aligned}
+\end{equation}
+where $\theta$ refers to the set of all model parameters. We add an orthogonality-encouraging regularizing term to this objective in order to obtain view-specific descriptors which are distant from each other~\citep{Hyvarinen:2000},
+\begin{equation}
+\small
+ \begin{aligned}
+ \label{eq-loss-1}
+  J(\theta) = & \sum_t\sum_i max(0, 1-\mathbf{r}_{v1}^t\mathbf{e^t}_{v1} + \mathbf{r}_{v1}^t\mathbf{e}^{n_i}_{v1}) \\&+ \lambda ||\mathbf{R}_{v1}\mathbf{R}_{v1}^T-\mathbf{I}||.
+  \end{aligned}
+\end{equation}
+The loss is defined analogously for input of view~$v_2$. Note that so far, the loss is defined in an entirely view-specific way, independent of the $v2$ parameters (e.g., the $v1$ loss in equation~(\ref{eq-loss-1}) is independent of the $v2$ parameters).
+
+We break this independence by adding a second term to our loss function, which ensures that view-specific parameters encode {\it only relevant} information. That is, we want $v_2$-specific parameters to {\it only} encode $v_2$-specific information, and vice versa. Assuming model input from view $v_1$, $\mathbf{e}^t_{v_1}$, we learn parameters for to view $v_2$ that reconstruct the input poorly. Again, we use the max-margin framework, maximizing the margin between the (high) quality reconstruction of~$\mathbf{e}^t_{v_1}$ from $v_1$ parameters, $\mathbf{r}_{v1}^t$, and the (poor) quality of the reconstruction from $v_2$ parameters, $\mathbf{r}_{v2}^t$,
+\begin{equation}
+\small
+ \begin{aligned}
+   \label{eq-loss-2}
+  K(\theta) = max(0, 1-\mathbf{e}^t_{v_1}\mathbf{r}_{v1}^{t} + \mathbf{e}^t_{v_1}\mathbf{r}_{v2}^{t}).
+ \end{aligned}
+\end{equation}
+The update is defined analogously, swapping $v1$ and $v2$ subscripts, when the true input stems from $v2$.
+The full loss is defined as a weighted linear combination of its terms (eqns~(\ref{eq-loss-1}) and (\ref{eq-loss-2})),
+\begin{equation}
+\small
+ \begin{aligned}
+  L(\theta) = &\beta J(\theta) + (1-\beta) K(\theta).
+ \end{aligned}
+\end{equation}
+
+
+
+\section{Semantic Micro-Cluster Evaluation}
+\label{sec-task}
+\begin{table}
+\rowcolors{2}{white}{gray!11}
+\small{\begin{tabular}{p{1cm}p{5.9cm}}
+  \hline
+  {\bf Genre} & {\bf Example Tags} \\\hline
+  \multirow{2}{*}{Mystery} & British Detectives; FBI Agents; Female Protagonists; Private Investigators\\
+  \multirow{2}{*}{Romance} & Cowboys; Criminals \& Outlaws; Doctors; Royalty \& Aristocrats; Spies; Wealthy\\
+  \multirow{2}{*}{SciFi}   & AIs; Aliens; Clones; Corporations; Mutants; Pirates; Psychics; Robots \& Androids\\\hline
+ \end{tabular}}
+ \caption{Example tags from the Amazon book catalog for the refinement {\tt character type}.}
+ \label{fig-Amazon-tags}
+\end{table}
+MVPlot induces structured representations of a novel $b$ as relation trajectories between characters pairs in $b$, and property trajectories of individual characters in $b$. Are those representations rich and informative enough to produce meaningful and interpretable micro-clusters of novels? In Section~\ref{ssec-knn} we evaluate the quality of such micro-clusters, i.e.,~local novel neighbourhoods in model space. We propose an objective and empirical evaluation employing expert-provided semantic novel tags in the Amazon catalog.
+
+Novels listed in the Amazon catalog are tagged with respect to their {\tt genre} (e.g.,~{\it mystery, romance}). They are further labelled with {\it refinements} pertaining to diverse information like {\tt character types} or {\tt mood}, which take different sets of values, depending on the genre, and are as such predestined as an objective reference for evaluating the diverse information captured by our model. Table~\ref{fig-Amazon-tags} lists example tags for the refinement {\tt character type}.
+
+All tags are provided by publishers and can consequently be taken as a reliable source of information. In our evaluation we assume that novels which share a tag are related to each other. We use this tag-overlap metric to evaluate local neighbourhoods of book representations in model space. We selected a set of $50$ representative tags from the Amazon catalog and did not tune this set for our evaluation. The full tag set is included in the supplementary material.
+
+Note that while this scheme provides an empirical way of evaluating plot representations, it may not capture their full potential: our models are not explicitly tuned towards producing micro-clusters which are coherent with respect to our gold-standard tags, and may encode additional structure which is not probed in this evaluation. 
+That said, we consider this evaluation as a good procedure to evaluate the {\it relative} quality of different models in the sense that a better model should produce micro-clusters that better correspond to reference clusters derived from gold-standard tags.
+
+\section{Data}
+\label{sec-data}
+\begin{table}
+\rowcolors{2}{white}{gray!11}
+\small{\begin{tabular}{cccc}
+ \hline
+ &\# novels & \# $v_1$ sequences & \# $v_2$ sequences\\\hline
+ Gutenberg&3,500&45,182&60,493\\
+ Amazon&10,000&91,511&70,156\\\hline
+\end{tabular}}
+ \caption{The number of novels and property (${v_1}$) relation (${v_2}$) input sequences for the Gutenberg and the Amazon corpus.}
+ \label{tab-data sets}
+\end{table}
+
+We evaluate our model on two data sets. First, we create a diverse data set by sampling 10,000 digital novels under our $50$ gold-standard tags (cf.,~Section~\ref{sec-task}) of the Amazon catalog (Amazon). Our second data set consists of 3,500 novels from Project Gutenberg, a large digital collection of freely available novels consisting primarily of classic literature (Gutenberg). The Amazon novels are already labelled with genre and refinement tags, such that evaluation using our gold-standard is straightforward. 
+While Gutenberg novels come with the advantage of being freely available, they are unlabelled, and not fully covered by our $50$ gold-standard tags. We therefore restrict our quantitative analysis to the Amazon data set. However, we also report qualitative results on the Gutenberg corpus, demonstrating that our model induces meaningful novel representations for corpora of varying size and diversity.
+
+Both data sets were pre-processed with the BookNLP pipeline~\cite{Bamman:2014} for coreference resolution of character mentions. We filtered stop-words and low-frequency words by discarding the $500$ most frequent words and those which occur in less than $100$~novels, and discarded novels less than $100$~sentences long or containing fewer than $5$~characters from our data set.
+
+We created view-specific input corpora as follows: (1)~a relation corpus of chronologically ordered sequences of text spans of $20$~words for character pairs $\{c_1,c_2\}$ in a book $b$,  $S_{v2}^{c_1,c_2,b}$, which mention {\it only} $c_1$ and $c_2$ with a margin of $10$~words for the Amazon corpus ($1$~word for the smaller Gutenberg corpus) but no other character; and (2)~a  property corpus of chronologically ordered sequences of $20$~word text spans for individual characters $c$ in book $b$, $S_{v2}^{c_1,c_2,b}$, which mention {\it only} $c$, using the same margins as above. 
+
+We keep only sequences of length $n$~time steps s.th., \mbox{$5 \leq n \leq 250$}. We only keep pair sequences if we also obtain sequences for each individual character confirming to the above criteria. Table~\ref{tab-data sets} summarizes statistics on our input corpora.
+
+\section{Evaluation}
+\label{sec-evaluation}
+Section~\ref{ssec-knn} quantitatively evaluates the quality of local neighbourhoods in model space induced from the Amazon corpus against our proposed gold-standard. Section~\ref{ssec-mturk} evaluates the quality of the induced descriptors from both the Amazon and Gutenberg corpus both through crowd sourcing and illustrative examples.
+
+\paragraph{Models} We set the MVPlot performance into perspective comparing it against the RMN.\footnote{We do not compare against topic model baselines because they were outperformed by RMN~\cite{Iyyer:2016}.} MVPlot induces both character properties and relations, and is trained on both the relation-view and property-view input, while the RMN only induces pair relationships and can only utilize relation-view input. 
+In addition, we report a frequency baseline, which is trained on both property and relation-view input. We concatenate all input spans of a given view for a particular novel; construct its term frequency vector and use cosine similarity to compute the nearest neighbours to each novel. 
+
+\paragraph{Parameter settings} Across all experiments and corpus-specific models, we set $\beta{=}0.99$ for MVPlot, and for both MVPlot and RMN we set~$\alpha{=}0.5,\ \lambda{=}10^{-5},\ k{=}50$.\footnote{Parameters were tuned on a small subset of books used in the nearest neighbourhood evaluation (Section~\ref{ssec-knn}).} We train both RMN and MVPlot for $15$~epochs using SGD and ADAM~\cite{Kingma:2014}.\footnote{Our implementation builds on the available RMN code \url{https://github.com/miyyer/rmn}.}
+
+
+\subsection{Nearest Neighbours Evaluation}
+\label{ssec-knn}
+We evaluate local neighbourhoods in model space using the $500$ most popular novels by their number of Amazon reviews as reference novels from the Amazon corpus.
+For each reference novel we compute the~$10$ nearest neighbours as described below. We measure neighbourhood quality using the gold-standard tags from Section~\ref{sec-task}, regarding neighbours as {\it relevant} if at least one tag is shared with the reference novel. We report precision at rank~10 ($P@10$) and mean average precision ($MAP$).
+
+\paragraph{Method}
+MVPlot represents a book~$b$ in terms of trajectories of weight vectors over relation descriptors $\mathbf{\mathcal{T}}_{v2}^b$ and property descriptors $\mathbf{\mathcal{T}}_{v1}^b$. RMN only learns relation descriptors and their trajectories. For both models, we map each induced trajectory for book $b$ to a fixed-sized $k$-dimensional vector representation by averaging the time-specific weight vectors, for example for a  $v_2$ trajectory,
+\begin{equation}
+\small
+ \mathcal{T}_{v_2}^{c_1,c_2,b} = \frac{1}{\big|\mathbf{\mathcal{T}}_{v2}^{c_1,c_2,b}\big|} \sum_{t \in \big|\mathbf{\mathcal{T}}_{v2}^{c_1,c_2,b}\big|} \mathbf{d}_{v2}^t,
+\end{equation}
+and equivalently for $v_1$ trajectories, $\mathbf{\mathcal{T}}_{v1}^{c,b}$. 
+
+We compute the similarity between two books~$\{b_{r},b_{c}\}$ as follows. We align the $v_2$ trajectory for each character pair $\{c_1,c_2\}$ in $b_{r}$, $\mathcal{T}^{c_1,c_2,b_{r}}$, to its closest neighbouring character pair vector in $b_{c}$, $\mathcal{T}^{c'_1,c'_2,b_{c}}$, by Euclidean distance, and compute the overall book similarity in terms of character relations between~$b_{r}$ and~$b_{c}$ as the average over all distances. 
+\begin{equation}
+\small
+\begin{aligned}
+ sim^{b_{r},b_{c}}_{v2} = \frac{1}{|\mathbf{\mathcal{T}}_{v_2}^{b_{r}}|} \sum_{\mathcal{T} \in \mathbf{\mathcal{T}}_{v_2}^{b_{r}}} \argmin_{\mathcal{T}' \in \mathbf{\mathcal{T}}_{v_2}^{b_{c}}}\ dist(\mathcal{T},\mathcal{T}').
+ \end{aligned}
+\end{equation}
+We obtain $sim^{b_{r},b_{c}}_{v1}$ in an analogous process. 
+For $cosine$ and MVPlot we obtain a final, {\it multi-view} similarity by averaging similarity scores obtained in each view's space, 
+\begin{equation}
+\small
+ sim^{b_r,b_c}_{both} = \frac{1}{2} \big(sim^{b_{r},b_{c}}_{v1} + sim^{b_{r},b_{c}}_{v2}\big).
+\end{equation}
+For RMN we compute similarity only in character relation space.
+\paragraph{Results}
+\begin{table}
+\centering
+\begin{tabular}{lccc}
+\hline 
+\bf Model & \bf View & \bf $P@10$ & \bf $MAP$ \\ 
+\hline\multirow{3}{*}{cosine} & $v_1$ & 0.516 \ddag & 0.392 \dag\\
+& $v_2$ & 0.468 \ddag & 0.339 \ddag\\
+& $both$ & 0.512 \ddag & 0.390 \ddag \\\hline
+RMN & $v_2$ & 0.479 \ddag & 0.347 \ddag \\\hline
+\multirow{3}{*}{MVPlot} & $v_1$ & 0.529 \dag & 0.401 \dag \\
+& $v_2$ & 0.496 \ddag & 0.367 \ddag\\
+& $both$ & \bf 0.546\,\,\,\, & \bf 0.421\,\,\,\, \\\hline
+\end{tabular}
+\caption{\label{table:Amazon-tag} Micro-cluster quality results (Amazon corpus). Differences of $cosine$ and RMN compared to the best MVPlot result are significant with \mbox{$p<0.05$~(\dag)} or \mbox{$p<0.01$ (\ddag)} (paired t-test).}
+\end{table}
+
+Table \ref{table:Amazon-tag} presents micro-cluster quality in terms of  $precision@10$ and $MAP$.
+The full MVPlot model statistically significantly outperfoms all other models.\footnote{Also, intra-view comparisons except for MVPlot $v_1$ and cosine $v_1$ are statistically significant.} The same pattern emerges when comparing models with the same underlying views: MVPlot $v2$ outperforms both cosine $v2$ and RMN $v2$ (similarly for MVPlot $v1$ and cosine $v1$), indicating that the MVPlot character relation representations are most informative for micro-cluster induction.
+
+
+In order to shed light on the contribution of individual model components, we compare the full MVPlot model ($both$) to model versions with access to only $v1$ or $v2$ (Table~\ref{table:Amazon-tag} bottom). Combining information from both views boosts performance compared to the single-view versions. This confirms that MVPlot indeed encodes distinct and relevant information in the respective views.
+
+
+While cosine is a strong baseline, its representations are not structured or interpretable. It consequently does not provide sufficient information for applications like book tagging or recommendation with respect to specific aspects or criteria. Similarly, RMN cannot learn representations of multiple, distinct views of the plot.
+
+
+
+
+Advancing our understanding of the information encoded in the individual views of MVPlot, we took a closer look at the refinement tags for which the single view MVPlot model ($v1$) has the clearest advantage over the pair view MVPlot model ($v2$), and vice-versa. We computed tag-wise F1-scores for the two MVPlot variants. Table~\ref{tab-toptags} lists the book tags for which the scores of the two views diverge the most.
+
+In terms of types of refinements, view $v2$ suffers most for predicting book categories, or topical tags (`sports', `second changes'), while view $v1$ is particularly deficient for predicting character types. While this seems counterintuitive we hypothesize that character types are to a large extent defined by their interactions with, or relations to, other characters. Topical information, however, is encoded robustly in the properties of individual characters.
+
+\subsection{Evaluating Induced Descriptors}
+\label{ssec-mturk}
+
+\begin{table}
+ \setlength{\tabcolsep}{3pt} % Default value: 6pt
+ \begin{small}\begin{tabular}{|cc|cc|}
+ \hline
+  \multicolumn{2}{|c|}{$F1\_v2 >> F1\_v1$} & \multicolumn{2}{c|}{$F1\_v1 >> F1\_v2$} \\
+{\bf Tag} & {\bf RefType} & {\bf Tag} & {\bf RefType} \\\hline
+Robots \& Androids & Character & Hard SciFi & Category\\
+Corporations & Character &    Sports & Category\\
+International & Theme &  Horror & Theme\\
+Aliens & Character & Second Chances & Theme\\
+Cowboys & Character & Crime & Category\\\hline
+
+ 
+ \end{tabular}\end{small}
+ \caption{The tags (Tag) and their refinement types (RefType) for which MVPlot $v1$ most clearly outperforms MVPlot $v2$ (left) and vice versa (right) in terms of tag-specific F1-measure.}
+ \label{tab-toptags}
+\end{table}
+
+
+
+
+
+This evaluation investigates whether induced relation descriptors indeed capture relational information. We evaluate the interpretability of the induced descriptors, comparing the $v_2$ (relation) descriptors induced by RMN and MVPlot. We apply both models to both the Amazon and the Gutenberg corpus, and report results on both data sets.
+
+
+\paragraph{Method} We collect crowdsourced judgments on Amazon Mechanical Turk%\footnote{\url{https://www.mturk.com/}} 
+to qualitatively evaluate the learnt descriptors, following~\newcite{Chaturvedi:2017}. 
+In each task a worker is shown one induced descriptor as a set of its 10 closest words in GloVe space (like in~Table~\ref{fig-descriptors}), and is asked to indicate whether "the words in the group describe a relation, event or interaction between people". We compare the proportion of positive answers, i.e.,~the number of descriptors considered {\it relevant}, for RMN descriptors and MVPlot pair descriptors.
+We collect 30 judgments for each of $k{=}50$~descriptors induced by the respective models.
+
+
+\paragraph{Results} Figure~\ref{fig-mturk} displays our results. We observe a similar pattern of ratings across models and corpora, e.g.,~around 50\% of the descriptors are labelled as relevant by at least 50\% of the annotators. None of the differences are statistically significant which lets us conclude that interpretability of induced descriptors is comparable for the RMN and MVPlot. This is encouraging because we confirm that representation interpretability is not compromised by MVPlot's more complex objective.
+
+\begin{figure}
+ \input{mturk}
+ \caption{Results of descriptor interpretability. \\ (\% of descriptors marked as `relevant descriptors of relations' by various proportions of annotators).}
+ \label{fig-mturk}
+\end{figure}
+
+
+Table~\ref{fig-descriptors} displays examples of property and relation descriptors induced by MVPlot from the Gutenberg corpus. We can see that the different views indeed capture differing information (e.g.,~a $v_1$ descriptor refers to individuals' {\it titles}, while a $v_2$ descriptor refers to a {\it love} relation). Despite its smaller size and more homogeneous nature, we show that MVPlot learns meaningful representations from the Gutenberg corpus, demonstrating the flexibility of our model. 
+
+Figure~\ref{fig-screenshot} further illustrates this, displaying example local neighbourhoods of four reference novels (left) with their eight nearest neighbours ordered by proximity (left to right). The neighbourhoods are intuitively meaningful, and particularly impressive bearing in mind that the full model space contains $3,500$~novels. While most neighbourhoods are dominated by novels of the same author, some exceptions emerge. Row two, for example, contains novels by Thomas Hardy and Charles Dickens who both are known for biographical 17th century novels focusing on class and social changes.
+
+
+\begin{figure*}[ht!]
+\begin{center}
+\includegraphics[width=\textwidth, height=9cm,trim={0 0cm 0 0},clip]{{gutenberg}.jpg}
+\end{center}
+\caption{Nearest neighbours for four classic stories from the Gutenberg Corpus. Target novels on the left (with red border), and NNs are presented in the same row, ordered by their distance to the target novel.}
+\label{fig-screenshot}
+\end{figure*}
+
+\section{Conclusions}
+
+Content-based micro-clustering of novels is a complex but interesting task. In order to eventually augment the diverse associations humans have, models must be able to pick up rich and structured signals from raw text. This paper presented a deep recurrent autoencoder which learns multi-view representations of plots, and introduced a principled evaluation framework using clusters based on expert-provided book tags.
+
+Our evaluation showed that rich multi-view representations are better suited to recover such reference clusters compared to each individual view, as well as compared to simpler, but competitive models which induce less structured representations. Our view-specific representations are interpretable which allows to analyse and explain the emerging micro-clusters, and might reveal previously unnoticed parallels between novels and may be useful for literary analysis or content-based recommendation. This is an exciting avenue for future work.
+
+Our method is general and scalable both in terms of its input, utilizing raw text with only automatic pre-processing, and in terms of the number of distinct views it can learn. We described an objective function which triggers views to encode {\it distinct} information. In future work we plan to explore joint learning of more and different views.
+
+Our approach relies strongly on the assumption that text spans mentioning two characters contain information about character relations, and that text spans mentioning one character contain information about the character's properties. While our results suggest that these assumptions are valid, they are arguably crude. In the future we plan to define more targeted input, e.g.,~by using semantic and syntactic information from dependency parses.
+
+In this work we induced dual-view representations of book content, however, we emphasize that the proposed method is very general. The number and kinds of views, as well as underlying data are in no way constrained, as long as relevant view-specific input can be defined. In the context of novel representation it would be interesting to induce additional views, for example one that captures the mood of a novel. Another interesting avenue for future work would be to apply the framework to questions arising in the digital humanities, e.g.,~to extract different views from news articles.
+
+The presented model and evaluation are designed with the objective to detect a different kinds of similarity between novels, with the ultimate goal to {\it enrich} human-provided genres and tags. We described a first step in this direction, verifying that the learnt information is meaningful and can {\it reproduce} human-created semantic book tags.
+Expert book tags exist for a wide variety of information (mood, theme, characters), and provide a rich evaluation environment for learnt representations. We invite the community to join us in exploring the full space of opportunities and evaluating induced representations {\it holistically} in the future.
+
+\section*{Acknowledgements}
+We would like to thank Alex Klementiev, Kevin Small, Joon Hao Chuah and Mohammad Kanso for their valuable insights, feedback and technical help on the work presented in this paper. We also thank the anonymous reviewers for their valuable feedback and suggestions.
+
+
+\bibliography{booksnlp}
+\bibliographystyle{emnlp_natbib}
+\end{document}

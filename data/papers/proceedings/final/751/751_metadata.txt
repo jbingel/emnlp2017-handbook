@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#751
+FinalPaperTitle#=%=#Chinese Zero Pronoun Resolution with Deep Memory Network
+ShortPaperTitle#=%=#Chinese Zero Pronoun Resolution with Deep Memory Network
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Qingyu Yin
+JobTitle#==#
+Organization#==#
+Abstract#==#Existing approaches for Chinese zero pronoun resolution typically utilize only
+syntactical and lexical features while ignoring semantic information. The
+fundamental reason is that zero pronouns have no descriptive information, which
+brings difficulty in explicitly capturing their semantic similarities with
+antecedents. Meanwhile, representing zero pronouns is challenging since they
+are merely gaps that convey no actual content. In this paper, we address this
+issue by building a deep memory network that is capable of encoding zero
+pronouns into vector representations with information obtained from their
+contexts and potential antecedents. Consequently, our resolver takes advantage
+of semantic information by using these continuous distributed representations.
+Experiments on the OntoNotes 5.0 dataset show that the proposed memory network
+could substantially outperform the state-of-the-art systems in various
+experimental settings.
+Author{1}{Firstname}#=%=#Qingyu
+Author{1}{Lastname}#=%=#Yin
+Author{1}{Email}#=%=#qyyin@qq.com
+Author{1}{Affiliation}#=%=#Research Center for Social Computing and Information Retrieval, Harbin Institute of Technology, China
+Author{2}{Firstname}#=%=#Yu
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#zhangyu@ir.hit.edu.cn
+Author{2}{Affiliation}#=%=#Harbin Institute of Technology
+Author{3}{Firstname}#=%=#Weinan
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Email}#=%=#wnzhang@ir.hit.edu.cn
+Author{3}{Affiliation}#=%=#Harbin Institute of Technology
+Author{4}{Firstname}#=%=#Ting
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Email}#=%=#tliu72@vip.126.com
+Author{4}{Affiliation}#=%=#Harbin Institute of Technology
+
+==========

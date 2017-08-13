@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#1223
+FinalPaperTitle#=%=#Video Highlight Prediction Using Audience Chat Reactions
+ShortPaperTitle#=%=#Video Highlight Prediction Using Audience Chat Reactions
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Cheng-Yang Fu
+JobTitle#==#
+Organization#==#UNC Chapel Hill, USA
+Abstract#==#Sports channel video portals offer an exciting domain for research on
+multimodal, multilingual analysis. We present methods addressing the problem of
+automatic video highlight prediction based on joint visual features and textual
+analysis of the real-world audience discourse with complex slang, in both
+English and traditional Chinese. We present a novel dataset based on League of
+Legends championships recorded from North American and Taiwanese Twitch.tv
+channels (will be released for further research), and demonstrate strong
+results on these using multimodal, character-level CNN-RNN model architectures.
+Author{1}{Firstname}#=%=#Cheng-Yang
+Author{1}{Lastname}#=%=#Fu
+Author{1}{Email}#=%=#cyfu@cs.unc.edu
+Author{1}{Affiliation}#=%=#University of North Carolina at Chapel Hill
+Author{2}{Firstname}#=%=#Joon
+Author{2}{Lastname}#=%=#Lee
+Author{2}{Email}#=%=#joonlee@live.unc.edu
+Author{2}{Affiliation}#=%=#University of North Carolina at Chapel Hill
+Author{3}{Firstname}#=%=#Mohit
+Author{3}{Lastname}#=%=#Bansal
+Author{3}{Email}#=%=#mbansal@cs.unc.edu
+Author{3}{Affiliation}#=%=#University of North Carolina at Chapel Hill
+Author{4}{Firstname}#=%=#Alexander
+Author{4}{Lastname}#=%=#Berg
+Author{4}{Email}#=%=#aberg@cs.unc.edu
+Author{4}{Affiliation}#=%=#UNC Chapel Hill
+
+==========

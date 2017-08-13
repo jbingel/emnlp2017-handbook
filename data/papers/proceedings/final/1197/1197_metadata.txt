@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#1197
+FinalPaperTitle#=%=#Learning Chinese Word Representations From Glyphs Of Characters
+ShortPaperTitle#=%=#Learning Chinese Word Representations From Glyphs Of Characters
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Tzu-Ray Su
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper, we propose new methods to learn Chinese word representations.
+Chinese characters are composed of graphical components, which carry rich
+semantics. It is common for a Chinese learner to comprehend the meaning of a
+word from these graphical components. As a result, we propose models that
+enhance word representations by character glyphs. The character glyph features
+are directly learned from the bitmaps of characters by convolutional
+auto-encoder(convAE), and the glyph features improve Chinese word
+representations which are already enhanced by character embeddings. Another
+contribution in this paper is that we created several evaluation datasets in
+traditional Chinese and made them public.
+Author{1}{Firstname}#=%=#Tzu-ray
+Author{1}{Lastname}#=%=#Su
+Author{1}{Email}#=%=#b01901007@ntu.edu.tw
+Author{1}{Affiliation}#=%=#National Taiwan University
+Author{2}{Firstname}#=%=#Hung-yi
+Author{2}{Lastname}#=%=#Lee
+Author{2}{Email}#=%=#tlkagkb93901106@gmail.com
+Author{2}{Affiliation}#=%=#National Taiwan University (NTU)
+
+==========

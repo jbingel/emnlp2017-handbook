@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#399
+FinalPaperTitle#=%=#Syllable-aware Neural Language Models: A Failure to Beat Character-aware Ones
+ShortPaperTitle#=%=#Syllable-aware Neural Language Models: A Failure to Beat Character-aware Ones
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Zhenisbek Assylbekov
+JobTitle#==#
+Organization#==#Nazarbayev University
+53 Kabanbay Batyr Ave, Astana,
+Republic of Kazakhstan, 010000
+Abstract#==#Syllabification does not seem to improve word-level RNN language modeling
+quality when compared to character-based segmentation. However, our best
+syllable-aware language model, achieving performance comparable to the
+competitive character-aware model, has 18%-33% fewer parameters and is trained
+1.2-2.2 times faster.
+Author{1}{Firstname}#=%=#Zhenisbek
+Author{1}{Lastname}#=%=#Assylbekov
+Author{1}{Email}#=%=#zhassylbekov@nu.edu.kz
+Author{1}{Affiliation}#=%=#Nazarbayev University
+Author{2}{Firstname}#=%=#Rustem
+Author{2}{Lastname}#=%=#Takhanov
+Author{2}{Email}#=%=#rustem.takhanov@nu.edu.kz
+Author{2}{Affiliation}#=%=#Nazarbayev University
+Author{3}{Firstname}#=%=#Bagdat
+Author{3}{Lastname}#=%=#Myrzakhmetov
+Author{3}{Email}#=%=#bagdat.myrzakhmetov@nu.edu.kz
+Author{3}{Affiliation}#=%=#National Laboratory Astana
+Author{4}{Firstname}#=%=#Jonathan N.
+Author{4}{Lastname}#=%=#Washington
+Author{4}{Email}#=%=#jwashin1@swarthmore.edu
+Author{4}{Affiliation}#=%=#Swarthmore College
+
+==========

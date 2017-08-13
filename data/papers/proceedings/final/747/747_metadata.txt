@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#747
+FinalPaperTitle#=%=#Identifying the Provision of Choices in Privacy Policy Text
+ShortPaperTitle#=%=#Identifying the Provision of Choices in Privacy Policy Text
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Kanthashree Mysore Sathyendra
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+5000 Forbes Ave
+Pittsburgh 15213
+Abstract#==#Websites' and mobile apps' privacy policies, written in natural language, tend
+to be long and difficult to understand. Information privacy revolves around the
+fundamental principle of Notice and choice, namely the idea that users should
+be able to make informed decisions about what information about them can be
+collected and how it can be used. Internet users want control over their
+privacy, but their choices are often hidden in long and convoluted privacy
+policy texts. Moreover, little (if any) prior work has been done to detect the
+provision of choices in text. We address this challenge of enabling user choice
+by automatically identifying and extracting pertinent choice language in
+privacy policies. In particular, we present a two-stage architecture of
+classification models to identify opt-out choices in privacy policy text,
+labelling common varieties of choices with a mean F1 score of 0.735. Our
+techniques enable the creation of systems to help Internet users to learn about
+their choices, thereby effectuating notice and choice and improving Internet
+privacy.
+Author{1}{Firstname}#=%=#Kanthashree
+Author{1}{Lastname}#=%=#Mysore Sathyendra
+Author{1}{Email}#=%=#kanthashree.ms@gmail.com
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Shomir
+Author{2}{Lastname}#=%=#Wilson
+Author{2}{Email}#=%=#shomir.wilson@uc.edu
+Author{2}{Affiliation}#=%=#University of Cincinnati
+Author{3}{Firstname}#=%=#Florian
+Author{3}{Lastname}#=%=#Schaub
+Author{3}{Email}#=%=#fschaub@umich.edu
+Author{3}{Affiliation}#=%=#University of Michigan
+Author{4}{Firstname}#=%=#Sebastian
+Author{4}{Lastname}#=%=#Zimmeck
+Author{4}{Email}#=%=#sebastian@sebastianzimmeck.de
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+Author{5}{Firstname}#=%=#Norman
+Author{5}{Lastname}#=%=#Sadeh
+Author{5}{Email}#=%=#sadeh@cs.cmu.edu
+Author{5}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

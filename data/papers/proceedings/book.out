@@ -1,0 +1,322 @@
+\BOOKMARK [0][-]{section*.1}{Program}{}
+\BOOKMARK [0][-]{chapter.1}{Monolingual Phrase Alignment on Parse Forests}{}
+\BOOKMARK [0][-]{chapter.2}{Fast\(er\) Exact Decoding and Global Training for Transition-Based Dependency Parsing via a Minimal Feature Set}{}
+\BOOKMARK [0][-]{chapter.3}{Quasi-Second-Order Parsing for 1-Endpoint-Crossing, Pagenumber-2 Graphs}{}
+\BOOKMARK [0][-]{chapter.4}{Position-aware Attention and Supervised Data Improve Slot Filling}{}
+\BOOKMARK [0][-]{chapter.5}{Heterogeneous Supervision for Relation Extraction: A Representation Learning Approach}{}
+\BOOKMARK [0][-]{chapter.6}{Integrating Order Information and Event Relation for Script Event Prediction}{}
+\BOOKMARK [0][-]{chapter.7}{Entity Linking for Queries by Searching Wikipedia Sentences}{}
+\BOOKMARK [0][-]{chapter.8}{Train-O-Matic: Large-Scale Supervised Word Sense Disambiguation in Multiple Languages without Manual Training Data}{}
+\BOOKMARK [0][-]{chapter.9}{Universal Semantic Parsing}{}
+\BOOKMARK [0][-]{chapter.10}{Mimicking Word Embeddings using Subword RNNs}{}
+\BOOKMARK [0][-]{chapter.11}{Past, Present, Future: A Computational Investigation of the Typology of Tense in 1000 Languages}{}
+\BOOKMARK [0][-]{chapter.12}{Neural Machine Translation with Source-Side Latent Graph Parsing}{}
+\BOOKMARK [0][-]{chapter.13}{Neural Machine Translation with Word Predictions}{}
+\BOOKMARK [0][-]{chapter.14}{Towards Decoding as Continuous Optimisation in Neural Machine Translation}{}
+\BOOKMARK [0][-]{chapter.15}{Where is Misty? Interpreting Spatial Descriptors by Modeling Regions in Space}{}
+\BOOKMARK [0][-]{chapter.16}{Continuous Representation of Location for Geolocation and Lexical Dialectology using Mixture Density Networks}{}
+\BOOKMARK [0][-]{chapter.17}{Obj2Text: Generating Visually Descriptive Language from Object Layouts}{}
+\BOOKMARK [0][-]{chapter.18}{End-to-end Neural Coreference Resolution}{}
+\BOOKMARK [0][-]{chapter.19}{Neural Net Models of Open-domain Discourse Coherence}{}
+\BOOKMARK [0][-]{chapter.20}{Affinity-Preserving Random Walk for Multi-Document Summarization}{}
+\BOOKMARK [0][-]{chapter.21}{A Mention-Ranking Model for Abstract Anaphora Resolution}{}
+\BOOKMARK [0][-]{chapter.22}{Hierarchical Embeddings for Hypernymy Detection and Directionality}{}
+\BOOKMARK [0][-]{chapter.23}{Ngram2vec: Learning Improved Word Representations from Ngram Co-occurrence Statistics}{}
+\BOOKMARK [0][-]{chapter.24}{Dict2vec : Learning Word Embeddings using Lexical Dictionaries}{}
+\BOOKMARK [0][-]{chapter.25}{Learning Chinese Word Representations From Glyphs Of Characters}{}
+\BOOKMARK [0][-]{chapter.26}{Learning Paraphrastic Sentence Embeddings from Back-Translated Bitext}{}
+\BOOKMARK [0][-]{chapter.27}{Joint Embeddings of Chinese Words, Characters, and Fine-grained Subcharacter Components}{}
+\BOOKMARK [0][-]{chapter.28}{Exploiting Morphological Regularities in Distributional Word Representations}{}
+\BOOKMARK [0][-]{chapter.29}{Exploiting Word Internal Structures for Generic Chinese Sentence Representation}{}
+\BOOKMARK [0][-]{chapter.30}{High-risk learning: acquiring new word vectors from tiny data}{}
+\BOOKMARK [0][-]{chapter.31}{Word Embeddings based on Fixed-Size Ordinally Forgetting Encoding}{}
+\BOOKMARK [0][-]{chapter.32}{VecShare: A Framework for Sharing Word Representation Vectors}{}
+\BOOKMARK [0][-]{chapter.33}{Word Re-Embedding via Manifold Dimensionality Retention}{}
+\BOOKMARK [0][-]{chapter.34}{MUSE: Modularizing Unsupervised Sense Embeddings}{}
+\BOOKMARK [0][-]{chapter.35}{Reporting Score Distributions Makes a Difference: Performance Study of LSTM-networks for Sequence Tagging}{}
+\BOOKMARK [0][-]{chapter.36}{Learning What's Easy: Fully Differentiable Neural Easy-First Taggers}{}
+\BOOKMARK [0][-]{chapter.37}{Incremental Skip-gram Model with Negative Sampling}{}
+\BOOKMARK [0][-]{chapter.38}{Learning to select data for transfer learning with Bayesian Optimization}{}
+\BOOKMARK [0][-]{chapter.39}{Unsupervised Pretraining for Sequence to Sequence Learning}{}
+\BOOKMARK [0][-]{chapter.40}{Efficient Attention using a Fixed-Size Memory Representation}{}
+\BOOKMARK [0][-]{chapter.41}{Rotated Word Vector Representations and their Interpretability}{}
+\BOOKMARK [0][-]{chapter.42}{A causal framework for explaining the predictions of black-box sequence-to-sequence models}{}
+\BOOKMARK [0][-]{chapter.43}{Piecewise Latent Variables for Neural Variational Text Processing}{}
+\BOOKMARK [0][-]{chapter.44}{Learning the Structure of Variable-Order CRFs: a finite-state perspective}{}
+\BOOKMARK [0][-]{chapter.45}{Sparse Communication for Distributed Gradient Descent}{}
+\BOOKMARK [0][-]{chapter.46}{A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks}{}
+\BOOKMARK [0][-]{chapter.47}{Why ADAGRAD Fails for Online Topic Modeling}{}
+\BOOKMARK [0][-]{chapter.48}{Recurrent Attention Network on Memory for Aspect Sentiment Analysis}{}
+\BOOKMARK [0][-]{chapter.49}{A Cognition Based Attention Model for Sentiment Analysis}{}
+\BOOKMARK [0][-]{chapter.50}{Author-aware Aspect Topic Sentiment Model to Retrieve Supporting Opinions from Reviews}{}
+\BOOKMARK [0][-]{chapter.51}{Magnets for Sarcasm: Making Sarcasm Detection Timely, Contextual and Very Personal}{}
+\BOOKMARK [0][-]{chapter.52}{Identifying Humor in Reviews using Background Text Sources}{}
+\BOOKMARK [0][-]{chapter.53}{Sentiment Lexicon Construction with Representation Learning Based on Hierarchical Sentiment Supervision}{}
+\BOOKMARK [0][-]{chapter.54}{Towards a Universal Sentiment Classifier in Multiple languages}{}
+\BOOKMARK [0][-]{chapter.55}{Capturing User and Product Information for Document Level Sentiment Analysis with Deep Memory Network}{}
+\BOOKMARK [0][-]{chapter.56}{Identifying and Tracking Sentiments and Topics from Social Media Texts during Natural Disasters}{}
+\BOOKMARK [0][-]{chapter.57}{Refining Word Embeddings for Sentiment Analysis}{}
+\BOOKMARK [0][-]{chapter.58}{A Multilayer Perceptron based Ensemble Technique for Fine-grained Financial Sentiment Analysis}{}
+\BOOKMARK [0][-]{chapter.59}{Sentiment Intensity Ranking among Adjectives Using Sentiment Bearing Word Embeddings}{}
+\BOOKMARK [0][-]{chapter.60}{Sentiment Lexicon Expansion Based on Neural PU Learning, Double Dictionary Lookup, and Polarity Association}{}
+\BOOKMARK [0][-]{chapter.61}{DeepPath: A Reinforcement Learning Method for Knowledge Graph Reasoning}{}
+\BOOKMARK [0][-]{chapter.62}{Task-Oriented Query Reformulation with Reinforcement Learning}{}
+\BOOKMARK [0][-]{chapter.63}{Sentence Simplification with Deep Reinforcement Learning}{}
+\BOOKMARK [0][-]{chapter.64}{Learning how to Active Learn: A Deep Reinforcement Learning Approach}{}
+\BOOKMARK [0][-]{chapter.65}{Split and Rephrase}{}
+\BOOKMARK [0][-]{chapter.66}{Neural Response Generation via GAN with an Approximate Embedding Layer}{}
+\BOOKMARK [0][-]{chapter.67}{A Hybrid Convolutional Variational Autoencoder for Text Generation}{}
+\BOOKMARK [0][-]{chapter.68}{Filling the Blanks \(hint: plural noun\) for Mad Libs Humor}{}
+\BOOKMARK [0][-]{chapter.69}{Measuring Thematic Fit with Distributional Feature Overlap}{}
+\BOOKMARK [0][-]{chapter.70}{SCDV : Sparse Composite Document Vectors using soft clustering over distributional representations}{}
+\BOOKMARK [0][-]{chapter.71}{Supervised Learning of Universal Sentence Representations from Natural Language Inference Data}{}
+\BOOKMARK [0][-]{chapter.72}{Determining Semantic Textual Similarity using Natural Deduction Proofs}{}
+\BOOKMARK [0][-]{chapter.73}{Multi-Grained Chinese Word Segmentation}{}
+\BOOKMARK [0][-]{chapter.74}{Don't Throw Those Morphological Analyzers Away Just Yet: Neural Morphological Disambiguation for Arabic}{}
+\BOOKMARK [0][-]{chapter.75}{Paradigm Completion for Derivational Morphology}{}
+\BOOKMARK [0][-]{chapter.76}{A Sub-Character Architecture for Korean Language Processing}{}
+\BOOKMARK [0][-]{chapter.77}{Do LSTMs really work so well for PoS tagging? -- A replication study}{}
+\BOOKMARK [0][-]{chapter.78}{The Labeled Segmentation of Printed Books}{}
+\BOOKMARK [0][-]{chapter.79}{Cross-lingual Character-Level Neural Morphological Tagging}{}
+\BOOKMARK [0][-]{chapter.80}{Word-Context Character Embeddings for Chinese Word Segmentation}{}
+\BOOKMARK [0][-]{chapter.81}{Segmentation-Free Word Embedding for Unsegmented Languages}{}
+\BOOKMARK [0][-]{chapter.82}{From Textbooks to Knowledge: A Case Study in Harvesting Axiomatic Knowledge from Textbooks to Solve Geometry Problems}{}
+\BOOKMARK [0][-]{chapter.83}{RACE: Large-scale ReAding Comprehension Dataset From Examinations}{}
+\BOOKMARK [0][-]{chapter.84}{Beyond Sentential Semantic Parsing: Tackling the Math SAT with a Cascade of Tree Transducers}{}
+\BOOKMARK [0][-]{chapter.85}{Learning Fine-Grained Expressions to Solve Math Word Problems}{}
+\BOOKMARK [0][-]{chapter.86}{Structural Embedding of Syntactic Trees for Machine Comprehension}{}
+\BOOKMARK [0][-]{chapter.87}{World Knowledge for Reading Comprehension: Rare Entity Prediction with Hierarchical LSTMs Using External Descriptions}{}
+\BOOKMARK [0][-]{chapter.88}{Two-Stage Synthesis Networks for Transfer Learning in Machine Comprehension}{}
+\BOOKMARK [0][-]{chapter.89}{Deep Neural Solver for Math Word Problems}{}
+\BOOKMARK [0][-]{chapter.90}{Latent Space Embedding for Retrieval in Question-Answer Archives}{}
+\BOOKMARK [0][-]{chapter.91}{Question Generation for Question Answering}{}
+\BOOKMARK [0][-]{chapter.92}{Learning to Paraphrase for Question Answering}{}
+\BOOKMARK [0][-]{chapter.93}{Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture}{}
+\BOOKMARK [0][-]{chapter.94}{Ranking Kernels for Structures and Embeddings: A Hybrid Preference and Classification Model}{}
+\BOOKMARK [0][-]{chapter.95}{Recovering Question Answering Errors via Query Revision}{}
+\BOOKMARK [0][-]{chapter.96}{An empirical study on the effectiveness of images in Multimodal Neural Machine Translation}{}
+\BOOKMARK [0][-]{chapter.97}{Sound-Word2Vec: Learning Word Representations Grounded in Sounds}{}
+\BOOKMARK [0][-]{chapter.98}{The Promise of Premise: Harnessing Question Premises in Visual Question Answering}{}
+\BOOKMARK [0][-]{chapter.99}{Guided Open Vocabulary Image Captioning with Constrained Beam Search}{}
+\BOOKMARK [0][-]{chapter.100}{Zero-Shot Activity Recognition with Verb Attribute Induction}{}
+\BOOKMARK [0][-]{chapter.101}{Deriving continous grounded meaning representations from referentially structured multimodal contexts}{}
+\BOOKMARK [0][-]{chapter.102}{Hierarchically-Attentive RNN for Album Summarization and Storytelling}{}
+\BOOKMARK [0][-]{chapter.103}{Video Highlight Prediction Using Audience Chat Reactions}{}
+\BOOKMARK [0][-]{chapter.104}{Reinforced Video Captioning with Entailment Rewards}{}
+\BOOKMARK [0][-]{chapter.105}{Evaluating Hierarchies of Verb Argument Structure with Hierarchical Clustering}{}
+\BOOKMARK [0][-]{chapter.106}{Incorporating Global Visual Features into Attention-based Neural Machine Translation.}{}
+\BOOKMARK [0][-]{chapter.107}{Mapping Instructions and Visual Observations to Actions with Reinforcement Learning}{}
+\BOOKMARK [0][-]{chapter.108}{An analysis of eye-movements during reading for the detection of mild cognitive impairment}{}
+\BOOKMARK [0][-]{chapter.109}{A Structured Learning Approach to Temporal Relation Extraction}{}
+\BOOKMARK [0][-]{chapter.110}{Importance sampling for unbiased on-demand evaluation of knowledge base population}{}
+\BOOKMARK [0][-]{chapter.111}{PACRR: A Position-Aware Neural IR Model for Relevance Matching}{}
+\BOOKMARK [0][-]{chapter.112}{Globally Normalized Reader}{}
+\BOOKMARK [0][-]{chapter.113}{Speech segmentation with a neural encoder model of working memory}{}
+\BOOKMARK [0][-]{chapter.114}{Speaking, Seeing, Understanding: Correlating semantic models with conceptual representation in the brain}{}
+\BOOKMARK [0][-]{chapter.115}{Multi-modal Summarization for Asynchronous Collection of Text, Image, Audio and Video}{}
+\BOOKMARK [0][-]{chapter.116}{Tensor Fusion Network for Multimodal Sentiment Analysis}{}
+\BOOKMARK [0][-]{chapter.117}{ConStance: Modeling Annotation Contexts to Improve Stance Classification}{}
+\BOOKMARK [0][-]{chapter.118}{Deeper Attention to Abusive User Content Moderation}{}
+\BOOKMARK [0][-]{chapter.119}{Outta Control: Laws of Semantic Change and Inherent Biases in Word Representation Models}{}
+\BOOKMARK [0][-]{chapter.120}{Human Centered NLP with User-Factor Adaptation}{}
+\BOOKMARK [0][-]{chapter.121}{Neural Sequence Learning Models for Word Sense Disambiguation}{}
+\BOOKMARK [0][-]{chapter.122}{Learning Word Relatedness over Time}{}
+\BOOKMARK [0][-]{chapter.123}{Inter-Weighted Alignment Network for Sentence Pair Modeling}{}
+\BOOKMARK [0][-]{chapter.124}{A Short Survey on Taxonomy Learning from Text Corpora: Issues, Resources and Recent Advances}{}
+\BOOKMARK [0][-]{chapter.125}{Idiom-Aware Compositional Distributed Semantics}{}
+\BOOKMARK [0][-]{chapter.126}{Macro Grammars and Holistic Triggering for Efficient Semantic Parsing}{}
+\BOOKMARK [0][-]{chapter.127}{A Continuously Growing Dataset of Sentential Paraphrases}{}
+\BOOKMARK [0][-]{chapter.128}{Cross-domain Semantic Parsing via Paraphrasing}{}
+\BOOKMARK [0][-]{chapter.129}{A Joint Sequential and Relational Model for Frame-Semantic Parsing}{}
+\BOOKMARK [0][-]{chapter.130}{Getting the Most out of AMR Parsing}{}
+\BOOKMARK [0][-]{chapter.131}{AMR Parsing using Stack-LSTMs}{}
+\BOOKMARK [0][-]{chapter.132}{An End-to-End Deep Framework for Answer Triggering with a Novel Group-Level Objective}{}
+\BOOKMARK [0][-]{chapter.133}{Predicting Word Association Strengths}{}
+\BOOKMARK [0][-]{chapter.134}{Learning Contextually Informed Representations for Linear-Time Discourse Parsing}{}
+\BOOKMARK [0][-]{chapter.135}{Multi-task Attention-based Neural Networks for Implicit Discourse Relationship Representation and Identification}{}
+\BOOKMARK [0][-]{chapter.136}{Chinese Zero Pronoun Resolution with Deep Memory Network}{}
+\BOOKMARK [0][-]{chapter.137}{How much progress have we made on RST discourse parsing? A replication study of recent results on the RST-DT}{}
+\BOOKMARK [0][-]{chapter.138}{What is it? Disambiguating the different readings of the pronoun \217it\220}{}
+\BOOKMARK [0][-]{chapter.139}{Revisiting Selectional Preferences for Coreference Resolution}{}
+\BOOKMARK [0][-]{chapter.140}{Learning to Rank Semantic Coherence for Topic Segmentation}{}
+\BOOKMARK [0][-]{chapter.141}{GRASP: Rich Patterns for Argumentation Mining}{}
+\BOOKMARK [0][-]{chapter.142}{Patterns of Argumentation Strategies across Topics}{}
+\BOOKMARK [0][-]{chapter.143}{Using Argument-based Features to Predict and Analyse Review Helpfulness}{}
+\BOOKMARK [0][-]{chapter.144}{Here's My Point: Joint Pointer Architecture for Argument Mining}{}
+\BOOKMARK [0][-]{chapter.145}{Identifying attack and support argumentative relations using deep learning}{}
+\BOOKMARK [0][-]{chapter.146}{Neural Lattice-to-Sequence Models for Uncertain Inputs}{}
+\BOOKMARK [0][-]{chapter.147}{Memory-augmented Neural Machine Translation}{}
+\BOOKMARK [0][-]{chapter.148}{Dynamic Data Selection for Neural Machine Translation}{}
+\BOOKMARK [0][-]{chapter.149}{Neural Machine Translation Leveraging Phrase-based Models in a Hybrid Search}{}
+\BOOKMARK [0][-]{chapter.150}{Translating Phrases in Neural Machine Translation}{}
+\BOOKMARK [0][-]{chapter.151}{Towards Bidirectional Hierarchical Representations for Attention-based Neural Machine Translation}{}
+\BOOKMARK [0][-]{chapter.152}{Learning Translations via Matrix Completion}{}
+\BOOKMARK [0][-]{chapter.153}{Reinforcement Learning for Bandit Neural Machine Translation with Simulated Human Feedback}{}
+\BOOKMARK [0][-]{chapter.154}{Towards Compact and Fast Neural Machine Translation Using a Combined Method}{}
+\BOOKMARK [0][-]{chapter.155}{Instance Weighting for Neural Machine Translation Domain Adaptation}{}
+\BOOKMARK [0][-]{chapter.156}{Regularization techniques for fine-tuning in neural machine translation}{}
+\BOOKMARK [0][-]{chapter.157}{Source-Side Left-to-Right or Target-Side Left-to-Right? An Empirical Comparison of Two Phrase-Based Decoding Algorithms}{}
+\BOOKMARK [0][-]{chapter.158}{Using Target-side Monolingual Data for Neural Machine Translation through Multi-task Learning}{}
+\BOOKMARK [0][-]{chapter.159}{Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling}{}
+\BOOKMARK [0][-]{chapter.160}{Neural Semantic Parsing with Type Constraints for Semi-Structured Tables}{}
+\BOOKMARK [0][-]{chapter.161}{Joint Concept Learning and Semantic Parsing from Natural Language Explanations}{}
+\BOOKMARK [0][-]{chapter.162}{Grasping the Finer Point: A Supervised Similarity Network for Metaphor Detection}{}
+\BOOKMARK [0][-]{chapter.163}{Identifying civilians killed by police with distantly supervised entity-event extraction}{}
+\BOOKMARK [0][-]{chapter.164}{Asking too much? The rhetorical role of questions in political discourse}{}
+\BOOKMARK [0][-]{chapter.165}{Detecting Perspectives in Political Debates}{}
+\BOOKMARK [0][-]{chapter.166}{"i have a feeling trump will win..................": Forecasting Winners and Losers from User Predictions on Twitter}{}
+\BOOKMARK [0][-]{chapter.167}{A Question Answering Approach for Emotion Cause Extraction}{}
+\BOOKMARK [0][-]{chapter.168}{Story Comprehension for Predicting What Happens Next}{}
+\BOOKMARK [0][-]{chapter.169}{Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm}{}
+\BOOKMARK [0][-]{chapter.170}{Opinion Recommendation Using A Neural Model}{}
+\BOOKMARK [0][-]{chapter.171}{CRF Autoencoder for Unsupervised Dependency Parsing}{}
+\BOOKMARK [0][-]{chapter.172}{Efficient Discontinuous Phrase-Structure Parsing via the Generalized Maximum Spanning Arborescence}{}
+\BOOKMARK [0][-]{chapter.173}{Incremental Graph-based Neural Dependency Parsing}{}
+\BOOKMARK [0][-]{chapter.174}{Neural Discontinuous Constituency Parsing}{}
+\BOOKMARK [0][-]{chapter.175}{Stack-based Multi-layer Attention for Transition-based Dependency Parsing}{}
+\BOOKMARK [0][-]{chapter.176}{Dependency Grammar Induction with Neural Lexicalization and Big Training Data}{}
+\BOOKMARK [0][-]{chapter.177}{Combining Generative and Discriminative Approaches to Unsupervised Dependency Parsing via Dual Decomposition}{}
+\BOOKMARK [0][-]{chapter.178}{Effective Inference for Generative Neural Parsing}{}
+\BOOKMARK [0][-]{chapter.179}{Semi-supervised Structured Prediction with Neural CRF Autoencoder}{}
+\BOOKMARK [0][-]{chapter.180}{TAG Parsing with Neural Networks and Vector Representations of Supertags}{}
+\BOOKMARK [0][-]{chapter.181}{Global Normalization of Convolutional Neural Networks for Joint Entity and Relation Classification}{}
+\BOOKMARK [0][-]{chapter.182}{End-to-End Neural Relation Extraction with Global Optimization}{}
+\BOOKMARK [0][-]{chapter.183}{KGEval: Accuracy Estimation of Automatically Constructed Knowledge Graphs}{}
+\BOOKMARK [0][-]{chapter.184}{Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short}{}
+\BOOKMARK [0][-]{chapter.185}{Dual Tensor Model for Detecting Asymmetric Lexico-Semantic Relations}{}
+\BOOKMARK [0][-]{chapter.186}{Incorporating Relation Paths in Neural Relation Extraction}{}
+\BOOKMARK [0][-]{chapter.187}{Adversarial Training for Relation Extraction}{}
+\BOOKMARK [0][-]{chapter.188}{Context-Aware Representations for Knowledge Base Relation Extraction}{}
+\BOOKMARK [0][-]{chapter.189}{A Soft-label Method for Noise-tolerant Distantly Supervised Relation Extraction}{}
+\BOOKMARK [0][-]{chapter.190}{A Sequential Model for Classifying Temporal Relations between Intra-Sentence Events}{}
+\BOOKMARK [0][-]{chapter.191}{Deep Residual Learning for Weakly-Supervised Relation Extraction}{}
+\BOOKMARK [0][-]{chapter.192}{Noise-Clustered Distant Supervision for Relation Extraction: A Nonparametric Bayesian Perspective}{}
+\BOOKMARK [0][-]{chapter.193}{Exploring Vector Spaces for Semantic Relations}{}
+\BOOKMARK [0][-]{chapter.194}{Temporal dynamics of semantic relations in word embeddings: an application to predicting armed conflict participants}{}
+\BOOKMARK [0][-]{chapter.195}{Dynamic Entity Representations in Neural Language Models}{}
+\BOOKMARK [0][-]{chapter.196}{Towards Quantum Language Models}{}
+\BOOKMARK [0][-]{chapter.197}{Reference-Aware Language Models}{}
+\BOOKMARK [0][-]{chapter.198}{A Simple Language Model based on PMI Matrix Approximations}{}
+\BOOKMARK [0][-]{chapter.199}{Syllable-aware Neural Language Models: A Failure to Beat Character-aware Ones}{}
+\BOOKMARK [0][-]{chapter.200}{Inducing Semantic Micro-Clusters from Deep Multi-View Representations of Novels}{}
+\BOOKMARK [0][-]{chapter.201}{Initializing Convolutional Filters with Semantic Features for Text Classification}{}
+\BOOKMARK [0][-]{chapter.202}{Shortest-Path Graph Kernels for Document Similarity}{}
+\BOOKMARK [0][-]{chapter.203}{Adapting Topic Models using Lexical Associations with Tree Priors}{}
+\BOOKMARK [0][-]{chapter.204}{Finding Patterns in Noisy Crowds: Regression-based Annotation Aggregation for Crowdsourced Data}{}
+\BOOKMARK [0][-]{chapter.205}{CROWD-IN-THE-LOOP: A Hybrid Approach for Annotating Semantic Roles}{}
+\BOOKMARK [0][-]{chapter.206}{Earth Mover's Distance Minimization for Unsupervised Bilingual Lexicon Induction}{}
+\BOOKMARK [0][-]{chapter.207}{Unfolding and Shrinking Neural Machine Translation Ensembles}{}
+\BOOKMARK [0][-]{chapter.208}{Graph Convolutional Encoders for Syntax-aware Neural Machine Translation}{}
+\BOOKMARK [0][-]{chapter.209}{Trainable Greedy Decoding for Neural Machine Translation}{}
+\BOOKMARK [0][-]{chapter.210}{Satirical News Detection and Analysis using Attention Mechanism and Linguistic Features}{}
+\BOOKMARK [0][-]{chapter.211}{Fine Grained Citation Span for References in Wikipedia}{}
+\BOOKMARK [0][-]{chapter.212}{Identifying Semantic Edit Intentions from Revisions in Wikipedia}{}
+\BOOKMARK [0][-]{chapter.213}{Accurate Supervised and Semi-Supervised Machine Reading for Long Documents}{}
+\BOOKMARK [0][-]{chapter.214}{Adversarial Examples for Evaluating Reading Comprehension Systems}{}
+\BOOKMARK [0][-]{chapter.215}{Reasoning with Heterogeneous Knowledge for Commonsense Machine Comprehension}{}
+\BOOKMARK [0][-]{chapter.216}{Document-Level Multi-Aspect Sentiment Classification as Machine Comprehension}{}
+\BOOKMARK [0][-]{chapter.217}{What is the Essence of a Claim? Cross-Domain Claim Identification}{}
+\BOOKMARK [0][-]{chapter.218}{Identifying Where to Focus in Reading Comprehension for Neural Question Generation}{}
+\BOOKMARK [0][-]{chapter.219}{Break it Down for Me: A Study in Automated Lyric Annotation}{}
+\BOOKMARK [0][-]{chapter.220}{Cascaded Attention based Unsupervised Information Distillation for Compressive Summarization}{}
+\BOOKMARK [0][-]{chapter.221}{Deep Recurrent Generative Decoder for Abstractive Text Summarization}{}
+\BOOKMARK [0][-]{chapter.222}{Extractive Summarization Using Multi-Task Learning with Document Classification}{}
+\BOOKMARK [0][-]{chapter.223}{Towards Automatic Construction of News Overview Articles by News Synthesis}{}
+\BOOKMARK [0][-]{chapter.224}{Joint Syntacto-Discourse Parsing and the Syntacto-Discourse Treebank}{}
+\BOOKMARK [0][-]{chapter.225}{Event Coreference Resolution by Iteratively Unfolding Inter-dependencies among Events}{}
+\BOOKMARK [0][-]{chapter.226}{Steering Output Style and Topic in Neural Response Generation}{}
+\BOOKMARK [0][-]{chapter.227}{Preserving Distributional Information in Dialogue Act Classification}{}
+\BOOKMARK [0][-]{chapter.228}{Adversarial Learning for Neural Dialogue Generation}{}
+\BOOKMARK [0][-]{chapter.229}{Using Context Information for Dialog Act Classification in DNN Framework}{}
+\BOOKMARK [0][-]{chapter.230}{Modeling Dialogue Acts with Content Word Filtering and Speaker Preferences}{}
+\BOOKMARK [0][-]{chapter.231}{Towards Implicit Content-Introducing for Generative Short-Text Conversation Systems}{}
+\BOOKMARK [0][-]{chapter.232}{Affordable On-line Dialogue Policy Learning}{}
+\BOOKMARK [0][-]{chapter.233}{Generating High-Quality and Informative Conversation Responses with Sequence-to-Sequence Models}{}
+\BOOKMARK [0][-]{chapter.234}{Bootstrapping incremental dialogue systems from minimal data: the generalisation power of dialogue grammars}{}
+\BOOKMARK [0][-]{chapter.235}{Composite Task-Completion Dialogue Policy Learning via Hierarchical Deep Reinforcement Learning}{}
+\BOOKMARK [0][-]{chapter.236}{Why We Need New Evaluation Metrics for NLG}{}
+\BOOKMARK [0][-]{chapter.237}{Challenges in Data-to-Document Generation}{}
+\BOOKMARK [0][-]{chapter.238}{All that is English may be Hindi: Enhancing language identification through automatic ranking of the likeliness of word borrowing in social media}{}
+\BOOKMARK [0][-]{chapter.239}{Multi-View Unsupervised User Feature Embedding for Social Media-based Substance Use Prediction}{}
+\BOOKMARK [0][-]{chapter.240}{Demographic-aware word associations}{}
+\BOOKMARK [0][-]{chapter.241}{A Factored Neural Network Model for Characterizing Online Discussions in Vector Space}{}
+\BOOKMARK [0][-]{chapter.242}{Dimensions of Interpersonal Relationships: Corpus and Experiments}{}
+\BOOKMARK [0][-]{chapter.243}{Argument Mining on Twitter: Arguments, Facts and Sources}{}
+\BOOKMARK [0][-]{chapter.244}{Distinguishing Japanese Non-standard Usages from Standard Ones}{}
+\BOOKMARK [0][-]{chapter.245}{Connotation Frames of Power and Agency in Modern Films}{}
+\BOOKMARK [0][-]{chapter.246}{Controlling Human Perception of Basic User Traits}{}
+\BOOKMARK [0][-]{chapter.247}{Topic Signatures in Political Campaign Speeches}{}
+\BOOKMARK [0][-]{chapter.248}{Assessing Objective Recommendation Quality through Political Forecasting}{}
+\BOOKMARK [0][-]{chapter.249}{Never Abandon Minorities: Exhaustive Extraction of Bursty Phrases on Microblogs Using Set Cover Problem}{}
+\BOOKMARK [0][-]{chapter.250}{Maximum Margin Reward Networks for Learning from Explicit and Implicit Supervision}{}
+\BOOKMARK [0][-]{chapter.251}{The Impact of Modeling Overall Argumentation with Tree Kernels}{}
+\BOOKMARK [0][-]{chapter.252}{Learning Generic Sentence Representations Using Convolutional Neural Networks}{}
+\BOOKMARK [0][-]{chapter.253}{Repeat before Forgetting: Spaced Repetition for Efficient and Effective Training of Neural Networks}{}
+\BOOKMARK [0][-]{chapter.254}{Part-of-Speech Tagging for Twitter with Adversarial Neural Networks}{}
+\BOOKMARK [0][-]{chapter.255}{Investigating Different Syntactic Context Types and Context Representations for Learning Word Embeddings}{}
+\BOOKMARK [0][-]{chapter.256}{Does syntax help discourse segmentation? Not so much}{}
+\BOOKMARK [0][-]{chapter.257}{Deal or No Deal? End-to-End Learning of Negotiation Dialogues}{}
+\BOOKMARK [0][-]{chapter.258}{Agent-Aware Dropout DQN for Safe and Efficient On-line Dialogue Policy Learning}{}
+\BOOKMARK [0][-]{chapter.259}{Towards Debate Automation: a Recurrent Model for Predicting Debate Winners}{}
+\BOOKMARK [0][-]{chapter.260}{Further Investigation into Reference Bias in Monolingual Evaluation of Machine Translation}{}
+\BOOKMARK [0][-]{chapter.261}{A Challenge Set Approach to Evaluating Machine Translation}{}
+\BOOKMARK [0][-]{chapter.262}{Knowledge Distillation for Bilingual Dictionary Induction}{}
+\BOOKMARK [0][-]{chapter.263}{Machine Translation, it's a question of style, innit? The case of English tag questions}{}
+\BOOKMARK [0][-]{chapter.264}{Deciphering Related Languages}{}
+\BOOKMARK [0][-]{chapter.265}{Identifying Cognate Sets Across Dictionaries of Related Languages}{}
+\BOOKMARK [0][-]{chapter.266}{Learning Language Representations for Typology Prediction}{}
+\BOOKMARK [0][-]{chapter.267}{Cheap Translation for Cross-Lingual Named Entity Recognition}{}
+\BOOKMARK [0][-]{chapter.268}{Cross-Lingual Induction and Transfer of Verb Classes Based on Word Vector Space Specialisation}{}
+\BOOKMARK [0][-]{chapter.269}{Classification of telicity using cross-linguistic annotation projection}{}
+\BOOKMARK [0][-]{chapter.270}{Counterfactual Learning from Bandit Feedback under Deterministic Logging : A Case Study in Statistical Machine Translation}{}
+\BOOKMARK [0][-]{chapter.271}{Learning Fine-grained Relations from Chinese User Generated Categories}{}
+\BOOKMARK [0][-]{chapter.272}{Improving Slot Filling Performance with Attentive Neural Networks on Dependency Structures}{}
+\BOOKMARK [0][-]{chapter.273}{Identifying Products in Online Cybercrime Marketplaces: A Dataset for Fine-grained Domain Adaptation}{}
+\BOOKMARK [0][-]{chapter.274}{Labeling Gaps Between Words: Recognizing Overlapping Mentions with Mention Separators}{}
+\BOOKMARK [0][-]{chapter.275}{Deep Joint Entity Disambiguation with Local Neural Attention}{}
+\BOOKMARK [0][-]{chapter.276}{MinIE: Minimizing Facts in Open Information Extraction}{}
+\BOOKMARK [0][-]{chapter.277}{Scientific Information Extraction with Semi-supervised Neural Tagging}{}
+\BOOKMARK [0][-]{chapter.278}{NITE: A Neural Inductive Teaching Framework for Domain Specific NER}{}
+\BOOKMARK [0][-]{chapter.279}{Speeding up Reinforcement Learning-based Information Extraction Training using Asynchronous Methods}{}
+\BOOKMARK [0][-]{chapter.280}{Leveraging Linguistic Structures for Named Entity Recognition with Bidirectional Recursive Neural Networks}{}
+\BOOKMARK [0][-]{chapter.281}{Fast and Accurate Entity Recognition with Iterated Dilated Convolutions}{}
+\BOOKMARK [0][-]{chapter.282}{Entity Linking via Joint Encoding of Types, Descriptions, and Context}{}
+\BOOKMARK [0][-]{chapter.283}{An Insight Extraction System on BioMedical Literature with Deep Neural Networks}{}
+\BOOKMARK [0][-]{chapter.284}{Word Etymology as Native Language Interference}{}
+\BOOKMARK [0][-]{chapter.285}{A Simpler and More Generalizable Story Detector using Verb and Character Features}{}
+\BOOKMARK [0][-]{chapter.286}{Multi-modular domain-tailored OCR post-correction}{}
+\BOOKMARK [0][-]{chapter.287}{Learning to Predict Charges for Criminal Cases with Legal Basis}{}
+\BOOKMARK [0][-]{chapter.288}{Quantifying the Effects of Text Duplication on Semantic Models}{}
+\BOOKMARK [0][-]{chapter.289}{Identifying Semantically Deviating Outlier Documents}{}
+\BOOKMARK [0][-]{chapter.290}{Detecting and Explaining Causes From Text For a Time Series Event}{}
+\BOOKMARK [0][-]{chapter.291}{A Novel Cascade Model for Learning Latent Similarity from Heterogeneous Sequential Data of MOOC}{}
+\BOOKMARK [0][-]{chapter.292}{Identifying the Provision of Choices in Privacy Policy Text}{}
+\BOOKMARK [0][-]{chapter.293}{An Empirical Analysis of Edit Importance between Document Versions}{}
+\BOOKMARK [0][-]{chapter.294}{Transition-Based Disfluency Detection using LSTMs}{}
+\BOOKMARK [0][-]{chapter.295}{Neural Sequence-Labelling Models for Grammatical Error Correction}{}
+\BOOKMARK [0][-]{chapter.296}{Adapting Sequence Models for Sentence Correction}{}
+\BOOKMARK [0][-]{chapter.297}{A Study of Style in Machine Translation: Controlling the Formality of Machine Translation Output}{}
+\BOOKMARK [0][-]{chapter.298}{Sharp Models on Dull Hardware: Fast and Accurate Neural Machine Translation Decoding on the CPU}{}
+\BOOKMARK [0][-]{chapter.299}{Exploiting Cross-Sentence Context for Neural Machine Translation}{}
+\BOOKMARK [0][-]{chapter.300}{Cross-Lingual Transfer Learning for POS Tagging without Cross-Lingual Resources}{}
+\BOOKMARK [0][-]{chapter.301}{Image Pivoting for Learning Multilingual Multimodal Representations}{}
+\BOOKMARK [0][-]{chapter.302}{Neural Machine Translation with Source Dependency Representation}{}
+\BOOKMARK [0][-]{chapter.303}{Visual Denotations for Recognizing Textual Entailment}{}
+\BOOKMARK [0][-]{chapter.304}{Sequence Effects in Crowdsourced Annotations}{}
+\BOOKMARK [0][-]{chapter.305}{No Need to Pay Attention: Simple Recurrent Neural Networks Work!}{}
+\BOOKMARK [0][-]{chapter.306}{The strange geometry of skip-gram with negative sampling}{}
+\BOOKMARK [0][-]{chapter.307}{Natural Language Processing with Small Feed-Forward Networks}{}
+\BOOKMARK [0][-]{chapter.308}{Deep Multi-Task Learning for Aspect Term Extraction with Memory Interaction}{}
+\BOOKMARK [0][-]{chapter.309}{Analogs of Linguistic Structure in Deep Representations}{}
+\BOOKMARK [0][-]{chapter.310}{A Simple Regularization-based Algorithm for Learning Cross-Domain Word Embeddings}{}
+\BOOKMARK [0][-]{chapter.311}{Learning what to read: Focused machine reading}{}
+\BOOKMARK [0][-]{chapter.312}{DOC: Deep Open Classification of Text Documents}{}
+\BOOKMARK [0][-]{chapter.313}{Charmanteau: Character Embedding Models For Portmanteau Creation}{}
+\BOOKMARK [0][-]{chapter.314}{Using Automated Metaphor Identification to Aid in Detection and Prediction of First-Episode Schizophrenia}{}
+\BOOKMARK [0][-]{chapter.315}{Truth of Varying Shades: Analyzing Language in Fake News and Political Fact-Checking}{}
+\BOOKMARK [0][-]{chapter.316}{Topic-Based Agreement and Disagreement in US Electoral Manifestos}{}
+\BOOKMARK [0][-]{chapter.317}{Zipporah: a Fast and Scalable Data Cleaning System for Noisy Web-Crawled Parallel Corpora}{}
+\BOOKMARK [0][-]{chapter.318}{Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints}{}
+\BOOKMARK [0][-]{chapter.319}{Natural Language Does Not Emerge \217Naturally\220 in Multi-Agent Dialog}{}
+\BOOKMARK [0][-]{chapter.320}{Depression and Self-Harm Risk Assessment in Online Forums}{}
+\BOOKMARK [0][-]{chapter.321}{Bringing Structure into Summaries: Crowdsourcing a Benchmark Corpus of Concept Maps}{}

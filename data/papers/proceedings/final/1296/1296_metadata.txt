@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#1296
+FinalPaperTitle#=%=#Reinforced Video Captioning with Entailment Rewards
+ShortPaperTitle#=%=#Reinforced Video Captioning with Entailment Rewards
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Mohit Bansal
+JobTitle#==#
+Organization#==#UNC Chapel Hill
+Abstract#==#Sequence-to-sequence models have shown promising  improvements on the temporal
+task of video captioning, but they optimize word-level cross-entropy loss
+during training. First, using policy gradient and mixed-loss methods for
+reinforcement learning,  we directly optimize sentence-level task-based metrics
+(as rewards), achieving significant improvements over the baseline, based on
+both automatic metrics and human evaluation on multiple datasets. Next, we
+propose a novel entailment-enhanced reward (CIDEnt) that corrects
+phrase-matching based metrics (such as CIDEr) to only allow for
+logically-implied partial matches and avoid contradictions, achieving further
+significant improvements over the CIDEr-reward model. Overall, our
+CIDEnt-reward model achieves the new state-of-the-art on the MSR-VTT dataset.
+Author{1}{Firstname}#=%=#Ramakanth
+Author{1}{Lastname}#=%=#Pasunuru
+Author{1}{Email}#=%=#ram@cs.unc.edu
+Author{1}{Affiliation}#=%=#UNC Chapel Hill
+Author{2}{Firstname}#=%=#Mohit
+Author{2}{Lastname}#=%=#Bansal
+Author{2}{Email}#=%=#mbansal@cs.unc.edu
+Author{2}{Affiliation}#=%=#University of North Carolina at Chapel Hill
+
+==========

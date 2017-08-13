@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#480
+FinalPaperTitle#=%=#Continuous Representation of Location for Geolocation and Lexical Dialectology using Mixture Density Networks
+ShortPaperTitle#=%=#Continuous Representation of Location for Geolocation and Lexical Dialectology using Mixture Density Networks
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Afshin Rahimi
+JobTitle#==#
+Organization#==#
+Abstract#==#We propose a method for embedding two-dimensional locations in a continuous
+vector space using a neural network-based model incorporating mixtures of
+Gaussian distributions, presenting two model variants for text-based
+geolocation and lexical dialectology. Evaluated over Twitter data, the proposed
+model outperforms conventional regression-based geolocation and provides a
+better estimate of uncertainty. We also show the effectiveness of the
+representation for predicting words from location in lexical dialectology, and
+evaluate it using the DARE dataset.
+Author{1}{Firstname}#=%=#Afshin
+Author{1}{Lastname}#=%=#Rahimi
+Author{1}{Email}#=%=#afshinrahimi@gmail.com
+Author{1}{Affiliation}#=%=#The University of Melbourne
+Author{2}{Firstname}#=%=#Timothy
+Author{2}{Lastname}#=%=#Baldwin
+Author{2}{Email}#=%=#tb@ldwin.net
+Author{2}{Affiliation}#=%=#The University of Melbourne
+Author{3}{Firstname}#=%=#Trevor
+Author{3}{Lastname}#=%=#Cohn
+Author{3}{Email}#=%=#tcohn@unimelb.edu.au
+Author{3}{Affiliation}#=%=#University of Melbourne
+
+==========

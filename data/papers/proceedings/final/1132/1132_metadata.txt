@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#1132
+FinalPaperTitle#=%=#Extractive Summarization Using Multi-Task Learning with Document Classification
+ShortPaperTitle#=%=#Extractive Summarization Using Multi-Task Learning with Document Classification
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Masaru Isonuma
+JobTitle#==#
+Organization#==#The University of Tokyo, 7-3-1, Hongo, Bunkyo, Tokyo, Japan
+Abstract#==#The need for automatic document summarization that can be used for practical
+applications is increasing rapidly. In this paper, we propose a general
+framework for summarization that extracts sentences from a document using
+externally related information. Our work is aimed at single document
+summarization using small amounts of reference summaries. In particular, we
+address document summarization in the framework of multi-task learning using
+curriculum learning for sentence extraction and document classification. The
+proposed framework enables us to obtain better feature representations to
+extract sentences from documents. We evaluate our proposed summarization method
+on two datasets: financial report and news corpus. Experimental results
+demonstrate that our summarizers achieve performance that is comparable to
+state-of-the-art systems.
+Author{1}{Firstname}#=%=#Masaru
+Author{1}{Lastname}#=%=#Isonuma
+Author{1}{Email}#=%=#isonuma@ipr-ctr.t.u-tokyo.ac.jp
+Author{1}{Affiliation}#=%=#The University of Tokyo
+Author{2}{Firstname}#=%=#Toru
+Author{2}{Lastname}#=%=#Fujino
+Author{2}{Email}#=%=#tr.fujino@scslab.k.u-tokyo.ac.jp
+Author{2}{Affiliation}#=%=#The University of Tokyo
+Author{3}{Firstname}#=%=#Junichiro
+Author{3}{Lastname}#=%=#Mori
+Author{3}{Email}#=%=#jmori@ipr-ctr.t.u-tokyo.ac.jp
+Author{3}{Affiliation}#=%=#The University of Tokyo
+Author{4}{Firstname}#=%=#Yutaka
+Author{4}{Lastname}#=%=#Matsuo
+Author{4}{Email}#=%=#matsuo@weblab.t.u-tokyo.ac.jp
+Author{4}{Affiliation}#=%=#The University of Tokyo
+Author{5}{Firstname}#=%=#Ichiro
+Author{5}{Lastname}#=%=#Sakata
+Author{5}{Email}#=%=#isakata@ipr-ctr.t.u-tokyo.ac.jp
+Author{5}{Affiliation}#=%=#The University of Tokyo
+
+==========

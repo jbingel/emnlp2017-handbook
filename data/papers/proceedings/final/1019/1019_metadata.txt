@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#1019
+FinalPaperTitle#=%=#Revisiting Selectional Preferences for Coreference Resolution
+ShortPaperTitle#=%=#Revisiting Selectional Preferences for Coreference Resolution
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Benjamin Heinzerling
+JobTitle#==#
+Organization#==#
+Abstract#==#Selectional preferences have long been claimed to be essential for coreference
+resolution. However, they are modeled only implicitly by current coreference
+resolvers. We propose a dependency-based embedding model of selectional
+preferences which allows fine-grained compatibility judgments with high
+coverage. Incorporating our model improves performance, matching
+state-of-the-art results of a more complex system. However, it comes with a
+cost that makes it debatable how worthwhile are such improvements.
+Author{1}{Firstname}#=%=#Benjamin
+Author{1}{Lastname}#=%=#Heinzerling
+Author{1}{Email}#=%=#benjamin.heinzerling@h-its.org
+Author{1}{Affiliation}#=%=#Heidelberg Institute for Theoretical Studies
+Author{2}{Firstname}#=%=#Nafise Sadat
+Author{2}{Lastname}#=%=#Moosavi
+Author{2}{Email}#=%=#ns.moosavi@gmail.com
+Author{2}{Affiliation}#=%=#Heidelberg Institute for Theoretical Studies
+Author{3}{Firstname}#=%=#Michael
+Author{3}{Lastname}#=%=#Strube
+Author{3}{Email}#=%=#michael.strube@h-its.org
+Author{3}{Affiliation}#=%=#Heidelberg Institute for Theoretical Studies
+
+==========

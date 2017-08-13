@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#477
+FinalPaperTitle#=%=#A Challenge Set Approach to Evaluating Machine Translation
+ShortPaperTitle#=%=#A Challenge Set Approach to Evaluating Machine Translation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#George Foster
+JobTitle#==#
+Organization#==#
+Abstract#==#Neural machine translation represents an exciting leap forward in translation
+quality. But what longstanding weaknesses does it resolve, and which remain?
+We address these questions with a challenge set approach to translation
+evaluation and error analysis. A challenge set consists of a small set of
+sentences, each hand-designed to probe a system's capacity to bridge a
+particular structural divergence between languages.  To exemplify this
+approach, we present an English-French challenge set, and use it to analyze
+phrase-based and neural systems. The resulting analysis provides not only a
+more fine-grained picture of the strengths of neural systems, but also insight
+into which linguistic phenomena remain out of reach.
+Author{1}{Firstname}#=%=#Pierre
+Author{1}{Lastname}#=%=#Isabelle
+Author{1}{Email}#=%=#pierre.isabelle@cnrc-nrc.gc.ca
+Author{1}{Affiliation}#=%=#National Research Council
+Author{2}{Firstname}#=%=#Colin
+Author{2}{Lastname}#=%=#Cherry
+Author{2}{Email}#=%=#colin.a.cherry@gmail.com
+Author{2}{Affiliation}#=%=#NRC
+Author{3}{Firstname}#=%=#George
+Author{3}{Lastname}#=%=#Foster
+Author{3}{Email}#=%=#geord.foster@gmail.com
+Author{3}{Affiliation}#=%=#National Research Council
+
+==========

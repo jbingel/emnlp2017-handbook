@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#204
+FinalPaperTitle#=%=#Learning Contextually Informed Representations for Linear-Time Discourse Parsing
+ShortPaperTitle#=%=#Learning Contextually Informed Representations for Linear-Time Discourse Parsing
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yang Liu
+JobTitle#==#
+Organization#==#
+Abstract#==#Recent advances in RST discourse parsing have focused on two modeling
+paradigms: (a) high order parsers which jointly predict the tree structure of
+the discourse and the relations it encodes; or                                (b)
+linear-time
+parsers
+which
+are efficient but mostly based on local features.  In this work, we propose a
+linear-time parser with a novel way of representing discourse constituents
+based on neural networks which takes into account global contextual information
+and is able to capture long-distance dependencies. Experimental results show
+that our parser obtains state-of-the art performance on benchmark datasets,
+while being efficient (with time complexity linear in the number of sentences
+in the document) and requiring minimal feature engineering.
+Author{1}{Firstname}#=%=#Yang
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Email}#=%=#yang.liu2@ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Mirella
+Author{2}{Lastname}#=%=#Lapata
+Author{2}{Email}#=%=#mlap@inf.ed.ac.uk
+Author{2}{Affiliation}#=%=#School of Informatics, University of Edinburgh
+
+==========

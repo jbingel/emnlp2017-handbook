@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#797
+FinalPaperTitle#=%=#Ranking Kernels for Structures and Embeddings: A Hybrid Preference and Classification Model
+ShortPaperTitle#=%=#Ranking Kernels for Structures and Embeddings: A Hybrid Preference and Classification Model
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Kateryna Tymoshenko
+JobTitle#==#
+Organization#==#Department of Information Engineering and Computer Science, University of Trento, Via Sommarive, 9, 38123 Povo,Trento TN, Italy
+Abstract#==#Recent work has shown that Tree Kernels (TKs) and Convolutional Neural Networks
+(CNNs) obtain the state of the art in answer sentence reranking. Additionally,
+their combination used in Support Vector Machines (SVMs) is promising as it can
+exploit both the syntactic patterns captured by TKs and the embeddings learned
+by CNNs. However, the embeddings are constructed according to a classification
+function, which is not directly exploitable in the preference ranking algorithm
+of SVMs. In this work, we propose a new hybrid approach combining preference
+ranking applied to TKs and pointwise ranking applied to CNNs. We show that our
+approach produces better results on two well-known and rather different
+datasets: WikiQA for answer sentence selection and SemEval cQA for comment
+selection in Community Question Answering.
+Author{1}{Firstname}#=%=#Kateryna
+Author{1}{Lastname}#=%=#Tymoshenko
+Author{1}{Email}#=%=#k.tymoshenko@gmail.com
+Author{1}{Affiliation}#=%=#University of Trento
+Author{2}{Firstname}#=%=#Daniele
+Author{2}{Lastname}#=%=#Bonadiman
+Author{2}{Email}#=%=#bonadiman.daniele@gmail.com
+Author{2}{Affiliation}#=%=#University of Trento
+Author{3}{Firstname}#=%=#Alessandro
+Author{3}{Lastname}#=%=#Moschitti
+Author{3}{Email}#=%=#amoschitti@gmail.com
+Author{3}{Affiliation}#=%=#Qatar Computing Research Institute (prof. in Computer Science at University of Trento)
+
+==========

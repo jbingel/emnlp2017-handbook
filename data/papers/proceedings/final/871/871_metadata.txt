@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#871
+FinalPaperTitle#=%=#Supervised Learning of Universal Sentence Representations from Natural Language Inference Data
+ShortPaperTitle#=%=#Supervised Learning of Universal Sentence Representations from Natural Language Inference Data
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#AC
+JobTitle#==#
+Organization#==#
+Abstract#==#Many modern NLP systems rely on word embeddings, previously trained in an
+unsupervised manner on large corpora, as base features. Efforts to obtain
+embeddings for larger chunks of text, such as sentences, have however not been
+so successful. Several attempts at learning unsupervised representations of
+sentences have not reached satisfactory enough performance to be widely
+adopted.
+In this paper, we show how universal sentence representations trained using the
+supervised data of the Stanford Natural Language Inference datasets can
+consistently outperform unsupervised methods like SkipThought vectors on a wide
+range of transfer tasks. Much like how computer vision uses ImageNet to obtain
+features, which can then be transferred to other tasks, our work tends to
+indicate the suitability of natural language inference for transfer learning to
+other NLP tasks. Our encoder is publicly available.
+Author{1}{Firstname}#=%=#Alexis
+Author{1}{Lastname}#=%=#Conneau
+Author{1}{Email}#=%=#aconneau@fb.com
+Author{1}{Affiliation}#=%=#FAIR Paris/University Le Mans
+Author{2}{Firstname}#=%=#Douwe
+Author{2}{Lastname}#=%=#Kiela
+Author{2}{Email}#=%=#douwe.kiela@cl.cam.ac.uk
+Author{2}{Affiliation}#=%=#Facebook
+Author{3}{Firstname}#=%=#Holger
+Author{3}{Lastname}#=%=#Schwenk
+Author{3}{Email}#=%=#schwenk@fb.com
+Author{3}{Affiliation}#=%=#Facebook AI Research
+Author{4}{Firstname}#=%=#Loïc
+Author{4}{Lastname}#=%=#Barrault
+Author{4}{Email}#=%=#loic.barrault@univ-lemans.fr
+Author{4}{Affiliation}#=%=#LIUM, Le Mans University
+Author{5}{Firstname}#=%=#Antoine
+Author{5}{Lastname}#=%=#Bordes
+Author{5}{Email}#=%=#abordes@fb.com
+Author{5}{Affiliation}#=%=#Facebook
+
+==========

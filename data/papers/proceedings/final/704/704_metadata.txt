@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#704
+FinalPaperTitle#=%=#Regularization techniques for fine-tuning in neural machine translation
+ShortPaperTitle#=%=#Regularization techniques for fine-tuning in neural machine translation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Antonio Valerio Miceli Barone
+JobTitle#==#
+Organization#==#School of Informatics, The University of Edinburgh
+Abstract#==#We investigate techniques for supervised domain adaptation for neural machine
+translation where an existing model trained on a large out-of-domain dataset is
+adapted to a small in-domain dataset.  
+In this scenario, overfitting is a major challenge. We investigate a number of
+techniques to reduce overfitting and improve transfer learning, including
+regularization techniques such as dropout and L2-regularization towards an
+out-of-domain prior. In addition, we introduce tuneout, a novel regularization
+technique inspired by dropout.
+We apply these techniques, alone and in combination, to neural machine
+translation, obtaining improvements on IWSLT datasets for English->German and
+English$->Russian.
+We also investigate the amounts of in-domain training data needed for domain
+adaptation in NMT, and find a logarithmic relationship between the amount of
+training data and gain in BLEU score.
+Author{1}{Firstname}#=%=#Antonio Valerio
+Author{1}{Lastname}#=%=#Miceli Barone
+Author{1}{Email}#=%=#miceli@di.unipi.it
+Author{1}{Affiliation}#=%=#The University of Edinburgh
+Author{2}{Firstname}#=%=#Barry
+Author{2}{Lastname}#=%=#Haddow
+Author{2}{Email}#=%=#bhaddow@inf.ed.ac.uk
+Author{2}{Affiliation}#=%=#University of Edinburgh
+Author{3}{Firstname}#=%=#Ulrich
+Author{3}{Lastname}#=%=#Germann
+Author{3}{Email}#=%=#ugermann@inf.ed.ac.uk
+Author{3}{Affiliation}#=%=#University of Edinburgh
+Author{4}{Firstname}#=%=#Rico
+Author{4}{Lastname}#=%=#Sennrich
+Author{4}{Email}#=%=#rico.sennrich@ed.ac.uk
+Author{4}{Affiliation}#=%=#University of Edinburgh
+
+==========

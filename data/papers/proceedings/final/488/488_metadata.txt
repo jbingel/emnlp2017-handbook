@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#488
+FinalPaperTitle#=%=#Quantifying the Effects of Text Duplication on Semantic Models
+ShortPaperTitle#=%=#Quantifying the Effects of Text Duplication on Semantic Models
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Alexandra Schofield
+JobTitle#==#
+Organization#==#Cornell University
+Dept. of Computer Science
+107 Hoy Road
+Ithaca, NY 14853
+Abstract#==#Duplicate documents are a pervasive problem in text datasets and can have a
+strong effect on unsupervised models. Methods to remove duplicate texts are
+typically heuristic or very expensive, so it is vital to know when and why they
+are needed. We measure the sensitivity of two latent semantic methods to the
+presence of different levels of document repetition. By artificially creating
+different forms of duplicate text we confirm several hypotheses about how
+repeated text impacts models. While a small amount of duplication is tolerable,
+substantial over-representation of subsets of the text may overwhelm meaningful
+topical patterns.
+Author{1}{Firstname}#=%=#Alexandra
+Author{1}{Lastname}#=%=#Schofield
+Author{1}{Email}#=%=#xanda@cs.cornell.edu
+Author{1}{Affiliation}#=%=#Cornell University
+Author{2}{Firstname}#=%=#Laure
+Author{2}{Lastname}#=%=#Thompson
+Author{2}{Email}#=%=#laurejt@cs.cornell.edu
+Author{2}{Affiliation}#=%=#Cornell University
+Author{3}{Firstname}#=%=#David
+Author{3}{Lastname}#=%=#Mimno
+Author{3}{Email}#=%=#david.mimno@gmail.com
+Author{3}{Affiliation}#=%=#Cornell University
+
+==========

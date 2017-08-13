@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#635
+FinalPaperTitle#=%=#Reasoning with Heterogeneous Knowledge for Commonsense Machine Comprehension
+ShortPaperTitle#=%=#Reasoning with Heterogeneous Knowledge for Commonsense Machine Comprehension
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Hongyu Lin
+JobTitle#==#
+Organization#==#
+Abstract#==#Reasoning with commonsense knowledge is critical for natural language
+understanding. Traditional methods for commonsense machine comprehension mostly
+only focus on one specific kind of knowledge, neglecting the fact that
+commonsense reasoning requires simultaneously considering different kinds of
+commonsense knowledge. In this paper, we propose a multi-knowledge reasoning
+method, which can exploit heterogeneous knowledge for commonsense machine
+comprehension. Specifically, we first mine different kinds of knowledge
+(including event narrative knowledge, entity semantic knowledge and sentiment
+coherent knowledge) and encode them as inference rules with costs. Then we
+propose a multi-knowledge reasoning model, which selects inference rules for a
+specific reasoning context using attention mechanism, and reasons by
+summarizing all valid inference rules. Experiments on RocStories show that our
+method outperforms traditional models significantly.
+Author{1}{Firstname}#=%=#Hongyu
+Author{1}{Lastname}#=%=#Lin
+Author{1}{Email}#=%=#sanmu_sunrise@foxmail.com
+Author{1}{Affiliation}#=%=#Institute of Software, Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Le
+Author{2}{Lastname}#=%=#Sun
+Author{2}{Email}#=%=#lesunle@163.com
+Author{2}{Affiliation}#=%=#ISCAS
+Author{3}{Firstname}#=%=#Xianpei
+Author{3}{Lastname}#=%=#Han
+Author{3}{Email}#=%=#hanxianpei@gmail.com
+Author{3}{Affiliation}#=%=#Institute of Software, Chinese Academy of Sciences
+
+==========

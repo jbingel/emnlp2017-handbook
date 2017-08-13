@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#120
+FinalPaperTitle#=%=#A Short Survey on Taxonomy Learning from Text Corpora: Issues, Resources and Recent Advances
+ShortPaperTitle#=%=#A Short Survey on Taxonomy Learning from Text Corpora: Issues, Resources and Recent Advances
+NumberOfPages#=%=#14
+CopyrightSigned#=%=#Chengyu Wang
+JobTitle#==#
+Organization#==#East China Normal University
+3663 North Zhongshan Road, Shanghai, 200062, China
+Abstract#==#A taxonomy is a semantic hierarchy, consisting of concepts linked by is-a
+relations. While a large number of taxonomies have been constructed from
+human-compiled resources (e.g., Wikipedia), learning taxonomies from text
+corpora has received a growing interest and is essential for long-tailed and
+domain-specific knowledge acquisition. In this paper, we overview recent
+advances on taxonomy construction from free texts, reorganizing relevant
+subtasks into a complete framework. We also overview resources for evaluation
+and discuss challenges for future research.
+Author{1}{Firstname}#=%=#Chengyu
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#chywang2013@gmail.com
+Author{1}{Affiliation}#=%=#East China Normal University
+Author{2}{Firstname}#=%=#Xiaofeng
+Author{2}{Lastname}#=%=#He
+Author{2}{Email}#=%=#xfhe@sei.ecnu.edu.cn
+Author{2}{Affiliation}#=%=#East China Normal University
+Author{3}{Firstname}#=%=#Aoying
+Author{3}{Lastname}#=%=#Zhou
+Author{3}{Email}#=%=#ayzhou@sei.ecnu.edu.cn
+Author{3}{Affiliation}#=%=#East China Normal University
+
+==========

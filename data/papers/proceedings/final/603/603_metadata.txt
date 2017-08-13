@@ -1,0 +1,25 @@
+SubmissionNumber#=%=#603
+FinalPaperTitle#=%=#Towards Quantum Language Models
+ShortPaperTitle#=%=#Towards Quantum Language Models
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Fabio Tamburini
+JobTitle#==#
+Organization#==#FICLIT - University of Bologna
+Abstract#==#This paper presents a new approach for building Language Models using the
+Quantum Probability Theory, a Quantum Language Model (QLM). It mainly shows
+that relying on this probability calculus it is possible to build stochastic
+models able to benefit from quantum correlations due to interference and
+entanglement. We extensively tested our approach showing its superior
+performances, both in terms of model perplexity and inserting it into an
+automatic speech recognition evaluation setting, when compared with
+state-of-the-art language modelling techniques.
+Author{1}{Firstname}#=%=#Ivano
+Author{1}{Lastname}#=%=#Basile
+Author{1}{Email}#=%=#ivano.basile@sns.it
+Author{1}{Affiliation}#=%=#Scuola Normale Superiore, Pisa
+Author{2}{Firstname}#=%=#Fabio
+Author{2}{Lastname}#=%=#Tamburini
+Author{2}{Email}#=%=#fabio.tamburini@unibo.it
+Author{2}{Affiliation}#=%=#FICLIT - University of Bologna
+
+==========

@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#689
+FinalPaperTitle#=%=#Towards Implicit Content-Introducing for Generative Short-Text Conversation Systems
+ShortPaperTitle#=%=#Towards Implicit Content-Introducing for Generative Short-Text Conversation Systems
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#LiLi Yao
+JobTitle#==#
+Organization#==#
+Abstract#==#The study on human-computer conversation systems is a hot research topic
+nowadays. One of the prevailing methods to build the system is using the
+generative Sequence-to-Sequence (Seq2Seq) model through neural networks.
+However, the standard Seq2Seq model is prone to generate trivial responses. In
+this paper, we aim to generate a more meaningful and informative reply when
+answering a given question. We propose an implicit content-introducing method
+which incorporates additional information into the Seq2Seq model in a flexible
+way. Specifically, we fuse the general decoding and the auxiliary cue word
+information through our proposed hierarchical gated fusion unit. Experiments on
+real-life data demonstrate that our model consistently outperforms a set of
+competitive baselines in terms of BLEU scores and human evaluation.
+Author{1}{Firstname}#=%=#Lili
+Author{1}{Lastname}#=%=#Yao
+Author{1}{Email}#=%=#yaolili12235@gmail.com
+Author{1}{Affiliation}#=%=#Institute of Computer Science and Technology, Peking University
+Author{2}{Firstname}#=%=#Yaoyuan
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#zhang_yaoyuan@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Yansong
+Author{3}{Lastname}#=%=#Feng
+Author{3}{Email}#=%=#fengyansong@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+Author{4}{Firstname}#=%=#Dongyan
+Author{4}{Lastname}#=%=#Zhao
+Author{4}{Email}#=%=#zhaodongyan@pku.edu.cn
+Author{4}{Affiliation}#=%=#Peking University
+Author{5}{Firstname}#=%=#Rui
+Author{5}{Lastname}#=%=#Yan
+Author{5}{Email}#=%=#ruiyan@pku.edu.cn
+Author{5}{Affiliation}#=%=#Peking University
+
+==========

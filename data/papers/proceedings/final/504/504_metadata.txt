@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#504
+FinalPaperTitle#=%=#A Structured Learning Approach to Temporal Relation Extraction
+ShortPaperTitle#=%=#A Structured Learning Approach to Temporal Relation Extraction
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Qiang Ning
+JobTitle#==#
+Organization#==#
+Abstract#==#Identifying temporal relations between events is an essential step towards
+natural language understanding. However, the temporal relation between two
+events in a story depends on, and is often dictated by, relations among other
+events. Consequently, effectively identifying temporal relations between events
+is a challenging problem even for human annotators. This paper suggests that it
+is important to take these dependencies into account while learning to identify
+these relations and proposes a structured learning approach to address this
+challenge. As a byproduct, this provides a new perspective on handling missing
+relations, a known issue that hurts existing methods. As we show, the proposed
+approach results in significant improvements on the two commonly used data sets
+for this problem.
+Author{1}{Firstname}#=%=#Qiang
+Author{1}{Lastname}#=%=#Ning
+Author{1}{Email}#=%=#qning2@illinois.edu
+Author{1}{Affiliation}#=%=#Univ. of Illinois, Urbana-Champaign
+Author{2}{Firstname}#=%=#Zhili
+Author{2}{Lastname}#=%=#Feng
+Author{2}{Email}#=%=#zfeng6@illinois.edu
+Author{2}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{3}{Firstname}#=%=#Dan
+Author{3}{Lastname}#=%=#Roth
+Author{3}{Email}#=%=#danr@illinois.edu
+Author{3}{Affiliation}#=%=#University of Illinois
+
+==========

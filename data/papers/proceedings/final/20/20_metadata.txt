@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#20
+FinalPaperTitle#=%=#Neural Net Models of Open-domain Discourse Coherence
+ShortPaperTitle#=%=#Neural Net Models of Open-domain Discourse Coherence
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Jiwei Li
+JobTitle#==#
+Organization#==#
+Abstract#==#Discourse coherence is strongly associated with text quality,
+making it important to natural language generation and understanding.
+Yet existing models of coherence focus on measuring individual aspects of
+coherence
+(lexical overlap, rhetorical structure, entity centering) in narrow domains.
+
+In this paper, we describe domain-independent neural models
+of discourse coherence that are capable of measuring multiple aspects of
+coherence 
+in existing sentences and can maintain coherence while generating new
+sentences.
+We study both
+discriminative models that learn to distinguish coherent from incoherent
+discourse,
+and generative models that produce coherent text,
+including a novel neural latent-variable Markovian generative model that 
+captures the latent discourse dependencies between sentences in a text.
+
+Our work achieves state-of-the-art performance on multiple coherence
+evaluations,
+and marks an initial step in generating coherent texts given discourse
+contexts.
+Author{1}{Firstname}#=%=#Jiwei
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#jiweil@stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Dan
+Author{2}{Lastname}#=%=#Jurafsky
+Author{2}{Email}#=%=#jurafsky@stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+
+==========

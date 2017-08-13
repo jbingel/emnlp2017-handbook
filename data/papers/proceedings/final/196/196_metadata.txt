@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#196
+FinalPaperTitle#=%=#Topic-Based Agreement and Disagreement in US Electoral Manifestos
+ShortPaperTitle#=%=#Topic-Based Agreement and Disagreement in US Electoral Manifestos
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Stefano Menini
+JobTitle#==#
+Organization#==#Fondazione Bruno Kessler, Trento, Italy
+Abstract#==#We present a topic-based analysis of agreement and disagreement in political
+manifestos, which relies on a new method for topic detection based on key
+concept  clustering. Our approach outperforms both standard techniques like LDA
+and a state-of-the-art graph-based method, and provides promising initial
+results for this new task in computational social science.
+Author{1}{Firstname}#=%=#Stefano
+Author{1}{Lastname}#=%=#Menini
+Author{1}{Email}#=%=#menini@fbk.eu
+Author{1}{Affiliation}#=%=#Fondazione Bruno Kessler - University of Trento
+Author{2}{Firstname}#=%=#Federico
+Author{2}{Lastname}#=%=#Nanni
+Author{2}{Email}#=%=#federico@informatik.uni-mannheim.de
+Author{2}{Affiliation}#=%=#University of Mannheim
+Author{3}{Firstname}#=%=#Simone Paolo
+Author{3}{Lastname}#=%=#Ponzetto
+Author{3}{Email}#=%=#simone@informatik.uni-mannheim.de
+Author{3}{Affiliation}#=%=#University of Mannheim
+Author{4}{Firstname}#=%=#Sara
+Author{4}{Lastname}#=%=#Tonelli
+Author{4}{Email}#=%=#satonelli@fbk.eu
+Author{4}{Affiliation}#=%=#FBK
+
+==========

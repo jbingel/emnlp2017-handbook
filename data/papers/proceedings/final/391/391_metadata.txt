@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#391
+FinalPaperTitle#=%=#Human Centered NLP with User-Factor Adaptation
+ShortPaperTitle#=%=#Human Centered NLP with User-Factor Adaptation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Veronica Lynn
+JobTitle#==#
+Organization#==#
+Abstract#==#We pose the general task of user-factor adaptation -- adapting supervised
+learning models to real-valued user factors inferred from a background of their
+language, reflecting the idea that a piece of text should be understood within
+the context of the user that wrote it. We introduce a continuous adaptation
+technique, suited for real-valued user factors that are common in social
+science and bringing us closer to personalized NLP, adapting to each user
+uniquely. We apply this technique with known user factors including age,
+gender, and personality traits, as well as latent factors, evaluating over five
+tasks: POS tagging, PP-attachment, sentiment analysis, sarcasm detection, and
+stance detection. Adaptation provides statistically significant benefits for 3
+of the 5 tasks: up to +1.2 points for PP-attachment, +3.4 points for sarcasm,
+and +3.0 points for stance.
+Author{1}{Firstname}#=%=#Veronica
+Author{1}{Lastname}#=%=#Lynn
+Author{1}{Email}#=%=#velynn@cs.stonybrook.edu
+Author{1}{Affiliation}#=%=#Stony Brook University
+Author{2}{Firstname}#=%=#Youngseo
+Author{2}{Lastname}#=%=#Son
+Author{2}{Email}#=%=#yson@cs.stonybrook.edu
+Author{2}{Affiliation}#=%=#Stony Brook University
+Author{3}{Firstname}#=%=#Vivek
+Author{3}{Lastname}#=%=#Kulkarni
+Author{3}{Email}#=%=#viveksck@gmail.com
+Author{3}{Affiliation}#=%=#Stony Brook University
+Author{4}{Firstname}#=%=#Niranjan
+Author{4}{Lastname}#=%=#Balasubramanian
+Author{4}{Email}#=%=#niranjan@cs.stonybrook.edu
+Author{4}{Affiliation}#=%=#Stony Brook University
+Author{5}{Firstname}#=%=#H. Andrew
+Author{5}{Lastname}#=%=#Schwartz
+Author{5}{Email}#=%=#has@cs.stonybrook.edu
+Author{5}{Affiliation}#=%=#Stony Brook University
+
+==========

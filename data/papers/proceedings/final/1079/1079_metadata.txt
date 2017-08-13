@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#1079
+FinalPaperTitle#=%=#Finding Patterns in Noisy Crowds: Regression-based Annotation Aggregation for Crowdsourced Data
+ShortPaperTitle#=%=#Finding Patterns in Noisy Crowds: Regression-based Annotation Aggregation for Crowdsourced Data
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Natalie Parde
+JobTitle#==#
+Organization#==#Department of Computer Science and Engineering
+University of North Texas Discovery Park
+3940 N. Elm, Room F201
+Denton, TX 76207-7102
+Abstract#==#Crowdsourcing offers a convenient means of obtaining labeled data quickly and
+inexpensively.              However, crowdsourced labels are often noisier than
+expert-annotated data, making it difficult to aggregate them meaningfully.  We
+present an aggregation approach that learns a regression model from
+crowdsourced annotations to predict aggregated labels for instances that have
+no expert adjudications.  The predicted labels achieve a correlation of 0.594
+with expert labels on our data, outperforming the best alternative aggregation
+method by 11.9%.  Our approach also outperforms the alternatives on third-party
+datasets.
+Author{1}{Firstname}#=%=#Natalie
+Author{1}{Lastname}#=%=#Parde
+Author{1}{Email}#=%=#natalieparde@my.unt.edu
+Author{1}{Affiliation}#=%=#University of North Texas
+Author{2}{Firstname}#=%=#Rodney
+Author{2}{Lastname}#=%=#Nielsen
+Author{2}{Email}#=%=#rodney.nielsen@unt.edu
+Author{2}{Affiliation}#=%=#University of North Texas ; University of Colorado
+
+==========

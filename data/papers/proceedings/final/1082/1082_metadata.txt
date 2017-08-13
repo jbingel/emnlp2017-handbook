@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#1082
+FinalPaperTitle#=%=#Integrating Order Information and Event Relation for Script Event Prediction
+ShortPaperTitle#=%=#Integrating Order Information and Event Relation for Script Event Prediction
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Zhongqing Wang
+JobTitle#==#
+Organization#==#
+Abstract#==#There has been a recent line of work automatically learning scripts from
+unstructured texts, by modeling narrative event chains. While the dominant
+approach group events using event pair relations, LSTMs have been used to
+encode full chains of narrative events. The latter has the advantage of
+learning long-range temporal orders, yet the former is more adaptive to partial
+orders. We propose a neural model that leverages the advantages of both
+methods, by using LSTM hidden states as features for event pair modelling. A
+dynamic memory network is utilized to automatically induce weights on existing
+events for inferring a subsequent event. Standard evaluation shows that our
+method significantly outperforms both methods above, giving the best results
+reported so far.
+Author{1}{Firstname}#=%=#Zhongqing
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#wangzq.antony@gmail.com
+Author{1}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{2}{Firstname}#=%=#Yue
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#yue_zhang@sutd.edu.sg
+Author{2}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{3}{Firstname}#=%=#Ching-Yun
+Author{3}{Lastname}#=%=#Chang
+Author{3}{Email}#=%=#chang.frannie@gmail.com
+Author{3}{Affiliation}#=%=#Singapore University of Technology and Design
+
+==========

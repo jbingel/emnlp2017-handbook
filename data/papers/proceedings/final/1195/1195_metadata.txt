@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#1195
+FinalPaperTitle#=%=#Mimicking Word Embeddings using Subword RNNs
+ShortPaperTitle#=%=#Mimicking Word Embeddings using Subword RNNs
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yuval Pinter
+JobTitle#==#
+Organization#==#
+Abstract#==#Word embeddings improve generalization over lexical features by placing each
+word in a lower-dimensional space, using distributional information obtained
+from unlabeled data. However, the effectiveness of word embeddings for
+downstream NLP tasks is limited by out-of-vocabulary (OOV) words, for which
+embeddings do not exist. In this paper, we present MIMICK, an approach to
+generating OOV word embeddings compositionally, by learning a function from
+spellings to distributional embeddings. Unlike prior work, MIMICK does not
+require re-training on the original word embedding corpus; instead, learning is
+performed at the type level. Intrinsic and extrinsic evaluations demonstrate
+the power of this simple approach. On 23 languages, MIMICK improves
+performance over a word-based baseline for tagging part-of-speech and
+morphosyntactic attributes. It is competitive with (and complementary to) a
+supervised character-based model in low resource settings.
+Author{1}{Firstname}#=%=#Yuval
+Author{1}{Lastname}#=%=#Pinter
+Author{1}{Email}#=%=#yuvalpinter@gmail.com
+Author{1}{Affiliation}#=%=#Georgia Tech
+Author{2}{Firstname}#=%=#Robert
+Author{2}{Lastname}#=%=#Guthrie
+Author{2}{Email}#=%=#rguthrie3@gatech.edu
+Author{2}{Affiliation}#=%=#Georgia Tech
+Author{3}{Firstname}#=%=#Jacob
+Author{3}{Lastname}#=%=#Eisenstein
+Author{3}{Email}#=%=#jacobe@gmail.com
+Author{3}{Affiliation}#=%=#Georgia Institute of Technology
+
+==========

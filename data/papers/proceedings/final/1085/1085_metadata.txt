@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#1085
+FinalPaperTitle#=%=#Where is Misty? Interpreting Spatial Descriptors by Modeling Regions in Space
+ShortPaperTitle#=%=#Where is Misty? Interpreting Spatial Descriptors by Modeling Regions in Space
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Nikita Kitaev
+JobTitle#==#
+Organization#==#
+Abstract#==#We present a model for locating regions in space based on natural language
+descriptions. Starting with a 3D scene and a sentence, our model is able to
+associate words in the sentence with regions in the scene, interpret relations
+such as `on top of' or `next to,' and finally locate the region described in
+the sentence. All components form a single neural network that is trained
+end-to-end without prior knowledge of object segmentation. To evaluate our
+model, we construct and release a new dataset consisting of Minecraft scenes
+with crowdsourced natural language descriptions. We achieve a 32% relative
+error reduction compared to a strong neural baseline.
+Author{1}{Firstname}#=%=#Nikita
+Author{1}{Lastname}#=%=#Kitaev
+Author{1}{Email}#=%=#kitaev@cs.berkeley.edu
+Author{1}{Affiliation}#=%=#University of California, Berkeley
+Author{2}{Firstname}#=%=#Dan
+Author{2}{Lastname}#=%=#Klein
+Author{2}{Email}#=%=#klein@cs.berkeley.edu
+Author{2}{Affiliation}#=%=#UC Berkeley
+
+==========

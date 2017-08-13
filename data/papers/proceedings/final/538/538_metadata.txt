@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#538
+FinalPaperTitle#=%=#Neural Machine Translation with Source Dependency Representation
+ShortPaperTitle#=%=#Neural Machine Translation with Source Dependency Representation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Kehai Chen
+JobTitle#==#
+Organization#==#Harbin Institute of Technology
+National Institute of Information and Communications Technology
+Abstract#==#Source dependency information has been successfully introduced into statistical
+machine translation. However, there are only a few preliminary attempts for
+Neural Machine Translation (NMT), such as concatenating representations of
+source word and its dependency label together. In this paper, we propose a
+novel NMT with source dependency representation to improve translation
+performance of NMT, especially long sentences. Empirical results on NIST
+Chinese-to-English translation task show that our method achieves 1.6 BLEU
+improvements on average over a strong NMT system.
+Author{1}{Firstname}#=%=#Kehai
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#chenkehai@gmail.com
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology
+Author{2}{Firstname}#=%=#Rui
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#wangrui.nlp@gmail.com
+Author{2}{Affiliation}#=%=#NICT
+Author{3}{Firstname}#=%=#Masao
+Author{3}{Lastname}#=%=#Utiyama
+Author{3}{Email}#=%=#mutiyama@nict.go.jp
+Author{3}{Affiliation}#=%=#NICT
+Author{4}{Firstname}#=%=#Lemao
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Email}#=%=#lemaoliu@gmail.com
+Author{4}{Affiliation}#=%=#Tencent AI Lab
+Author{5}{Firstname}#=%=#Akihiro
+Author{5}{Lastname}#=%=#Tamura
+Author{5}{Email}#=%=#akihiro.tamura@gmail.com
+Author{5}{Affiliation}#=%=#Ehime University
+Author{6}{Firstname}#=%=#Eiichiro
+Author{6}{Lastname}#=%=#Sumita
+Author{6}{Email}#=%=#eiichiro.sumita@nict.go.jp
+Author{6}{Affiliation}#=%=#NICT
+Author{7}{Firstname}#=%=#Tiejun
+Author{7}{Lastname}#=%=#Zhao
+Author{7}{Email}#=%=#tjzhao@hit.edu.cn
+Author{7}{Affiliation}#=%=#Harbin Institute of Technology
+
+==========

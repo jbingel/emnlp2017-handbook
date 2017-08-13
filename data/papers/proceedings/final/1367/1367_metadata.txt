@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#1367
+FinalPaperTitle#=%=#Obj2Text: Generating Visually Descriptive Language from Object Layouts
+ShortPaperTitle#=%=#Obj2Text: Generating Visually Descriptive Language from Object Layouts
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Vicente Ordonez
+JobTitle#==#
+Organization#==#University of Virginia
+85 Engineers Way, 
+Charlottesville, VA 22902, 
+United States of America
+Abstract#==#Generating captions for images is a task that has recently received
+considerable attention. Another type of visual inputs are abstract scenes or
+object layouts where the only information provided is a set of objects and
+their locations. This type of imagery is commonly found in many applications in
+computer graphics, virtual reality, and storyboarding. We explore in this paper
+OBJ2TEXT, a sequence-to-sequence model that encodes a set of objects and their
+locations as an input sequence using an LSTM network, and decodes this
+representation using an LSTM language model. We show in our paper that this
+model despite using a sequence encoder can effectively represent complex
+spatial object-object relationships and produce descriptions that are globally
+coherent and semantically relevant. We test our approach for the task of
+describing object layouts in the MS-COCO dataset by producing sentences given
+only object annotations. We additionally show that our model combined with a
+state-of-the-art object detector can improve the accuracy of an image
+captioning model.
+Author{1}{Firstname}#=%=#Xuwang
+Author{1}{Lastname}#=%=#Yin
+Author{1}{Email}#=%=#xy4cm@virginia.edu
+Author{1}{Affiliation}#=%=#University of Virginia
+Author{2}{Firstname}#=%=#Vicente
+Author{2}{Lastname}#=%=#Ordonez
+Author{2}{Email}#=%=#vicente@virginia.edu
+Author{2}{Affiliation}#=%=#University of Virginia
+
+==========

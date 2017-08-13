@@ -1,0 +1,22 @@
+SubmissionNumber#=%=#1073
+FinalPaperTitle#=%=#Machine Translation, it's a question of style, innit? The case of English tag questions
+ShortPaperTitle#=%=#Machine Translation, it's a question of style, innit? The case of English tag questions
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Rachel Bawden
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper, we address the problem of generating English tag questions (TQs)
+(e.g. it is, isn’t it?) in Machine Translation (MT). We propose a
+post-edition solution, formulating the problem as a multi-class classification
+task. We present (i) the automatic annotation of English TQs in a parallel
+corpus of subtitles and (ii) an approach using a series of classifiers to
+predict TQ forms, which we use to post-edit state-of-the-art MT outputs. Our
+method provides significant improvements in English TQ translation when
+translating from Czech, French and German, in turn improving the fluidity,
+naturalness, grammatical correctness and pragmatic coherence of MT output.
+Author{1}{Firstname}#=%=#Rachel
+Author{1}{Lastname}#=%=#Bawden
+Author{1}{Email}#=%=#rachel.bawden@limsi.fr
+Author{1}{Affiliation}#=%=#LIMSI, CNRS, Univ. Paris-Sud, Université Paris-Saclay
+
+==========

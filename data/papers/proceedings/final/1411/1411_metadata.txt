@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#1411
+FinalPaperTitle#=%=#A Study of Style in Machine Translation: Controlling the Formality of Machine Translation Output
+ShortPaperTitle#=%=#A Study of Style in Machine Translation: Controlling the Formality of Machine Translation Output
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Xing Niu
+JobTitle#==#
+Organization#==#
+Abstract#==#Stylistic variations of language, such as formality, carry speakers' intention
+beyond literal meaning and should be conveyed adequately in translation. We
+propose to use lexical formality models to control the formality level of
+machine translation output. We demonstrate the effectiveness of our approach in
+empirical evaluations, as measured by automatic metrics and human assessments.
+Author{1}{Firstname}#=%=#Xing
+Author{1}{Lastname}#=%=#Niu
+Author{1}{Email}#=%=#xingniu@cs.umd.edu
+Author{1}{Affiliation}#=%=#University of Maryland
+Author{2}{Firstname}#=%=#Marianna
+Author{2}{Lastname}#=%=#Martindale
+Author{2}{Email}#=%=#mmartind@umd.edu
+Author{2}{Affiliation}#=%=#University of Maryland, College Park
+Author{3}{Firstname}#=%=#Marine
+Author{3}{Lastname}#=%=#Carpuat
+Author{3}{Email}#=%=#marine@cs.umd.edu
+Author{3}{Affiliation}#=%=#University of Maryland
+
+==========

@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#1530
+FinalPaperTitle#=%=#Conversation Modeling on Reddit Using a Graph-Structured LSTM
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper presents a novel approach for modeling threaded discussions on
+social media using a graph-structured bidirectional LSTM which represents both
+hierarchical and temporal conversation structure. In experiments with a task of
+predicting popularity of comments in Reddit discussions, the proposed model
+outperforms a node-independent architecture for different sets of input
+features. Analyses show a benefit to the model over the full course of the
+discussion, improving detection in both early and late stages. Further, the use
+of language cues with the bidirectional tree state updates helps with
+identifying controversial comments.
+Author{1}{Firstname}#=%=#Victoria
+Author{1}{Lastname}#=%=#Zayats
+Author{1}{Email}#=%=#vzayats@uw.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Mari
+Author{2}{Lastname}#=%=#Ostendorf
+Author{2}{Email}#=%=#ostendor@uw.edu
+Author{2}{Affiliation}#=%=#University of Washington
+
+==========

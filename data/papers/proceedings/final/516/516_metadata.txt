@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#516
+FinalPaperTitle#=%=#Incremental Skip-gram Model with Negative Sampling
+ShortPaperTitle#=%=#Incremental Skip-gram Model with Negative Sampling
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Nobuhiro Kaji
+JobTitle#==#
+Organization#==#Yahoo Japan Corporation
+Kioi Tower, Tokyo Garden Terrace Kioicho, 1-3, Kioi-cho, Chiyoda-ku, Tokyo, 102-8282
+Abstract#==#This paper explores an incremental training strategy for the skip-gram model
+with negative sampling (SGNS) from both empirical and theoretical perspectives.
+Existing methods of neural word embeddings, including SGNS, are multi-pass
+algorithms and thus cannot perform incremental model update. To address this
+problem, we present a simple incremental extension of SGNS and provide a
+thorough theoretical analysis to demonstrate its validity. Empirical
+experiments demonstrated the correctness of the theoretical analysis as well as
+the practical usefulness of the incremental algorithm.
+Author{1}{Firstname}#=%=#Nobuhiro
+Author{1}{Lastname}#=%=#Kaji
+Author{1}{Email}#=%=#nkaji@yahoo-corp.jp
+Author{1}{Affiliation}#=%=#Yahoo Japan Corporation
+Author{2}{Firstname}#=%=#Hayato
+Author{2}{Lastname}#=%=#Kobayashi
+Author{2}{Email}#=%=#hayato.kobayashi@gmail.com
+Author{2}{Affiliation}#=%=#Yahoo Japan Corporation
+
+==========

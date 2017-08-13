@@ -1,0 +1,407 @@
+* Friday, September 8, 2017
+= 18:30--20:00 Welcome Reception
+* Saturday, September 9, 2017
+= 7:30--17:30 Registration Day 1
++ 8:00--8:30 Morning Coffee
++ 8:30--9:00 Plenary Session. Opening Remarks # %room Jutland
+! 8:30--9:00 Opening Remarks %by General Chair, PC Co-Chairs
++ 9:00--10:00 Plenary Session. Invited Talk by Nando de Freitas # %room Jutland
+! 9:00--10:00 Physical simulation, learning and language %by Nando de Freitas
++ 10:00--10:30 Coffee Break
+= 10:30--12:10 Session 3A: Syntax 1 # %room Jutland %chair Joakim Nivre %aff1 Uppsala University
+617 10:30--10:55  # Monolingual Phrase Alignment on Parse Forests
+1381 10:55--11:20  # Fast(er) Exact Decoding and Global Training for Transition-Based Dependency Parsing via a Minimal Feature Set
+1532 11:20--11:45  # Parsing with Traces: An O(n^4) Algorithm and a Structural Representation
+1501 11:45--12:10  # Quasi-Second-Order Parsing for 1-Endpoint-Crossing, Pagenumber-2 Graphs
+= 10:30--12:10 Session 3B: Information Extraction 1 # %room Funen %chair Ming-Wei Chang %aff1 Google
+1417 10:30--10:55  # Position-aware Attention and Supervised Data Improve Slot Filling
+1321 10:55--11:20  # Heterogeneous Supervision for Relation Extraction: A Representation Learning Approach
+1082 11:20--11:45  # Integrating Order Information and Event Relation for Script Event Prediction
+313 11:45--12:10  # Entity Linking for Queries by Searching Wikipedia Sentences
+= 10:30--12:10 Session 3C: Multilingual NLP # %room Zealand %chair1 Ivan Titov %aff1 University of Edinburgh
+336 10:30--10:55  # Train-O-Matic: Large-Scale Supervised Word Sense Disambiguation in Multiple Languages without Manual Training Data
+857 10:55--11:20  # Universal Semantic Parsing
+1195 11:20--11:45  # Mimicking Word Embeddings using Subword RNNs
+963 11:45--12:10  # Past, Present, Future: A Computational Investigation of the Typology of Tense in 1000 Languages
+= 10:30--12:10 Demo # %room Odense
++ 12:10--13:40 Lunch
+= 13:40--15:20 Session 4A: Machine Translation 1 # %room Jutland %chair1 Graham Neubig %aff1 Carnegie Mellon University
+994 13:40--14:05  # Neural Machine Translation with Source-Side Latent Graph Parsing
+1213 14:05--14:30  # Neural Machine Translation with Word Predictions
+1250 14:30--14:55  # Towards Decoding as Continuous Optimisation in Neural Machine Translation
+1529 14:55--15:20  # Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation
+= 13:40--15:20 Session 4B: Language Grounding # %room Funen %chair1 Yejin Choi %aff1 University of Washington
+1085 13:40--14:05  # Where is Misty? Interpreting Spatial Descriptors by Modeling Regions in Space
+480 14:05--14:30  # Continuous Representation of Location for Geolocation and Lexical Dialectology using Mixture Density Networks
+1531 14:30--14:55  # Colors in Context: A Pragmatic Neural Model for Grounded Language Understanding
+1367 14:55--15:20  # Obj2Text: Generating Visually Descriptive Language from Object Layouts
+= 13:40--15:20 Session 4C: Discourse and Summarization # %room Zealand %chair1 Lu Wang %aff1 Northeastern University
+912 13:40--14:05  # End-to-end Neural Coreference Resolution
+20 14:05--14:30  # Neural Net Models of Open-domain Discourse Coherence
+524 14:30--14:55  # Affinity-Preserving Random Walk for Multi-Document Summarization
+779 14:55--15:20  # A Mention-Ranking Model for Abstract Anaphora Resolution
+= 13:40--15:20 Session 4D: Poster Session. Embeddings # %room Aarhus %chair1 Heike Adel %aff1 LMU Munich
+188   # Hierarchical Embeddings for Hypernymy Detection and Directionality
+193   # Ngram2vec: Learning Improved Word Representations from Ngram Co-occurrence Statistics
+663   # Dict2vec : Learning Word Embeddings using Lexical Dictionaries
+1197   # Learning Chinese Word Representations From Glyphs Of Characters
+1396   # Learning Paraphrastic Sentence Embeddings from Back-Translated Bitext
+102   # Joint Embeddings of Chinese Words, Characters, and Fine-grained Subcharacter Components
+427   # Exploiting Morphological Regularities in Distributional Word Representations
+600   # Exploiting Word Internal Structures for Generic Chinese Sentence Representation
+853   # High-risk learning: acquiring new word vectors from tiny data
+884   # Word Embeddings based on Fixed-Size Ordinally Forgetting Encoding
+990   # VecShare: A Framework for Sharing Word Representation Vectors
+898   # Word Re-Embedding via Manifold Dimensionality Retention
+1302   # MUSE: Modularizing Unsupervised Sense Embeddings
+= 13:40--15:20 Session 4E: Poster Session. Machine Learning 1 # %room Odense %chair1 Pontus Stenetorp %aff1 University College London
+65   # Reporting Score Distributions Makes a Difference: Performance Study of LSTM-networks for Sequence Tagging
+111   # Learning What's Easy: Fully Differentiable Neural Easy-First Taggers
+516   # Incremental Skip-gram Model with Negative Sampling
+737   # Learning to select data for transfer learning with Bayesian Optimization
+754   # Unsupervised Pretraining for Sequence to Sequence Learning
+1046   # Efficient Attention using a Fixed-Size Memory Representation
+1211   # Rotated Word Vector Representations and their Interpretability
+1260   # A causal framework for explaining the predictions of black-box sequence-to-sequence models
+1462   # Piecewise Latent Variables for Neural Variational Text Processing
+690   # Learning the Structure of Variable-Order CRFs: a finite-state perspective
+864   # Sparse Communication for Distributed Gradient Descent
+1011   # A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks
+1229   # Why ADAGRAD Fails for Online Topic Modeling
+= 13:40--15:20 Session 4F: Poster Session. Sentiment Analysis 1 # %room Copenhagen %chair1 Diyi Yang %aff1 Carnegie Mellon University
+215   # Recurrent Attention Network on Memory for Aspect Sentiment Analysis
+378   # A Cognition Based Attention Model for Sentiment Analysis
+623   # Author-aware Aspect Topic Sentiment Model to Retrieve Supporting Opinions from Reviews
+988   # Magnets for Sarcasm: Making Sarcasm Detection Timely, Contextual and Very Personal
+1118   # Identifying Humor in Reviews using Background Text Sources
+1169   # Sentiment Lexicon Construction with Representation Learning Based on Hierarchical Sentiment Supervision
+1399   # Towards a Universal Sentiment Classifier in Multiple languages
+696   # Capturing User and Product Information for Document Level Sentiment Analysis with Deep Memory Network
+948   # Identifying and Tracking Sentiments and Topics from Social Media Texts during Natural Disasters
+1126   # Refining Word Embeddings for Sentiment Analysis
+1416   # A Multilayer Perceptron based Ensemble Technique for Fine-grained Financial Sentiment Analysis
+1436   # Sentiment Intensity Ranking among Adjectives Using Sentiment Bearing Word Embeddings
+723   # Sentiment Lexicon Expansion Based on Neural PU Learning, Double Dictionary Lookup, and Polarity Association
+! 15:50 Break %by 15:20
+= 15:50--17:30 Session 5A: Machine Learning 2 # %room Jutland %chair1 Karl Moritz Hermann %aff1 DeepMind
+1047 15:50--16:15  # DeepPath: A Reinforcement Learning Method for Knowledge Graph Reasoning
+434 16:15--16:40  # Task-Oriented Query Reformulation with Reinforcement Learning
+437 16:40--17:05  # Sentence Simplification with Deep Reinforcement Learning
+679 17:05--17:30  # Learning how to Active Learn: A Deep Reinforcement Learning Approach
+= 15:50--17:30 Session 5B: Generation # %room Funen %chair1 Wei Xu %aff1 Ohio State University
+842 15:50--16:15  # Split and Rephrase
+1344 16:15--16:40  # Neural Response Generation via GAN with an Approximate Embedding Layer
+591 16:40--17:05  # A Hybrid Convolutional Variational Autoencoder for Text Generation
+1035 17:05--17:30  # Filling the Blanks (hint: plural noun) for Mad Libs Humor
+= 15:50--17:30 Session 5C: Semantics 1 # %room Zealand %chair1 Felix Hill %aff1 DeepMind
+84 15:50--16:15  # Measuring Thematic Fit with Distributional Feature Overlap
+822 16:15--16:40  # SCDV : Sparse Composite Document Vectors using soft clustering over distributional representations
+871 16:40--17:05  # Supervised Learning of Universal Sentence Representations from Natural Language Inference Data
+624 17:05--17:30  # Determining Semantic Textual Similarity using Natural Deduction Proofs
+= 15:50--17:30 Session 5D: Poster Session. Syntax 2 # %room Aarhus %chair1 Yuval Pinter %aff1 Georgia Tech
+43   # Multi-Grained Chinese Word Segmentation
+996   # Don't Throw Those Morphological Analyzers Away Just Yet: Neural Morphological Disambiguation for Arabic
+127   # Paradigm Completion for Derivational Morphology
+650   # A Sub-Character Architecture for Korean Language Processing
+39   # Do LSTMs really work so well for PoS tagging? -- A replication study
+446   # The Labeled Segmentation of Printed Books
+128   # Cross-lingual Character-Level Neural Morphological Tagging
+1299   # Word-Context Character Embeddings for Chinese Word Segmentation
+44   # Segmentation-Free Word Embedding for Unsegmented Languages
+= 15:50--17:30 Session 5E: Poster Session. Question Answering and Machine Comprehension # %room Odense %chair1 Jay Pujara %aff1 University of Maryland
+22   # From Textbooks to Knowledge: A Case Study in Harvesting Axiomatic Knowledge from Textbooks to Solve Geometry Problems
+37   # RACE: Large-scale ReAding Comprehension Dataset From Examinations
+432   # Beyond Sentential Semantic Parsing: Tackling the Math SAT with a Cascade of Tree Transducers
+627   # Learning Fine-Grained Expressions to Solve Math Word Problems
+1219   # Structural Embedding of Syntactic Trees for Machine Comprehension
+856   # World Knowledge for Reading Comprehension: Rare Entity Prediction with Hierarchical LSTMs Using External Descriptions
+1145   # Two-Stage Synthesis Networks for Transfer Learning in Machine Comprehension
+359   # Deep Neural Solver for Math Word Problems
+72   # Latent Space Embedding for Retrieval in Question-Answer Archives
+294   # Question Generation for Question Answering
+770   # Learning to Paraphrase for Question Answering
+1419   # Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture
+797   # Ranking Kernels for Structures and Embeddings: A Hybrid Preference and Classification Model
+1405   # Recovering Question Answering Errors via Query Revision
+= 15:50--17:30 Session 5F: Poster Session. Multimodal NLP 1 # %room Copenhagen %chair1 Tianze Shi %aff1 Cornell University
+1026   # An empirical study on the effectiveness of images in Multimodal Neural Machine Translation
+1037   # Sound-Word2Vec: Learning Word Representations Grounded in Sounds
+7   # The Promise of Premise: Harnessing Question Premises in Visual Question Answering
+169   # Guided Open Vocabulary Image Captioning with Constrained Beam Search
+1459   # Zero-Shot Activity Recognition with Verb Attribute Induction
+553   # Deriving continous grounded meaning representations from referentially structured multimodal contexts
+1151   # Hierarchically-Attentive RNN for Album Summarization and Storytelling
+1223   # Video Highlight Prediction Using Audience Chat Reactions
+1296   # Reinforced Video Captioning with Entailment Rewards
+1446   # Evaluating Hierarchies of Verb Argument Structure with Hierarchical Clustering
+163   # Incorporating Global Visual Features into Attention-based Neural Machine Translation.
+138   # Mapping Instructions and Visual Observations to Actions with Reinforcement Learning
+301   # An analysis of eye-movements during reading for the detection of mild cognitive impairment
+1534   # Evaluating Low-Level Speech Features Against Human Perceptual Data
+* Sunday, September 10, 2017
+= 7:30--17:30 Registration Day 2
++ 8:00--9:00 Morning Coffee
++ 9:00--10:00 Plenary Session. Invited Talk by Sharon Goldwater # %room Jutland
+! 9:00--10:00 Towards more universal language technology: unsupervised learning from speech %by Sharon Goldwater
++ 10:00--10:30 Coffee Break
+= 10:30--12:10 Session 7A: Reading and Retrieving # %room Jutland %chair1 Heng Ji %aff1 Rensselaer Polytechnic Institute
+504 10:30--10:55  # A Structured Learning Approach to Temporal Relation Extraction
+1376 10:55--11:20  # Importance sampling for unbiased on-demand evaluation of knowledge base population
+961 11:20--11:45  # PACRR: A Position-Aware Neural IR Model for Relevance Matching
+506 11:45--12:10  # Globally Normalized Reader
+= 10:30--12:10 Session 7B: Multimodal NLP 2 # %room Funen %chair1 Brian Roark %aff1 Google
+445 10:30--10:55  # Speech segmentation with a neural encoder model of working memory
+959 10:55--11:20  # Speaking, Seeing, Understanding: Correlating semantic models with conceptual representation in the brain
+75 11:20--11:45  # Multi-modal Summarization for Asynchronous Collection of Text, Image, Audio and Video
+1400 11:45--12:10  # Tensor Fusion Network for Multimodal Sentiment Analysis
+= 10:30--12:10 Session 7C: Human Centered NLP and Linguistic Theory # %room Zealand %chair1 Alan Ritter %aff1 Ohio State University
+412 10:30--10:55  # ConStance: Modeling Annotation Contexts to Improve Stance Classification
+909 10:55--11:20  # Deeper Attention to Abusive User Content Moderation
+659 11:20--11:45  # Outta Control: Laws of Semantic Change and Inherent Biases in Word Representation Models
+391 11:45--12:10  # Human Centered NLP with User-Factor Adaptation
+= 10:30--12:10 Session 7D: Poster Session. Semantics 2 # %room Aarhus %chair1 Ivan Vulić %aff1 University of Cambridge
+566   # Neural Sequence Learning Models for Word Sense Disambiguation
+962   # Learning Word Relatedness over Time
+117   # Inter-Weighted Alignment Network for Sentence Pair Modeling
+120   # A Short Survey on Taxonomy Learning from Text Corpora: Issues, Resources and Recent Advances
+811   # Idiom-Aware Compositional Distributed Semantics
+982   # Macro Grammars and Holistic Triggering for Efficient Semantic Parsing
+1042   # A Continuously Growing Dataset of Sentential Paraphrases
+1048   # Cross-domain Semantic Parsing via Paraphrasing
+1087   # A Joint Sequential and Relational Model for Frame-Semantic Parsing
+1407   # Getting the Most out of AMR Parsing
+820   # AMR Parsing using Stack-LSTMs
+1134   # An End-to-End Deep Framework for Answer Triggering with a Novel Group-Level Objective
+1443   # Predicting Word Association Strengths
+= 10:30--12:10 Session 7E: Poster Session. Discourse # %room Odense %chair1 Sam Wiseman %aff1 Harvard University
+204   # Learning Contextually Informed Representations for Linear-Time Discourse Parsing
+732   # Multi-task Attention-based Neural Networks for Implicit Discourse Relationship Representation and Identification
+751   # Chinese Zero Pronoun Resolution with Deep Memory Network
+705   # How much progress have we made on RST discourse parsing? A replication study of recent results on the RST-DT
+880   # What is it? Disambiguating the different readings of the pronoun ___it___
+1019   # Revisiting Selectional Preferences for Coreference Resolution
+497   # Learning to Rank Semantic Coherence for Topic Segmentation
+76   # GRASP: Rich Patterns for Argumentation Mining
+425   # Patterns of Argumentation Strategies across Topics
+286   # Using Argument-based Features to Predict and Analyse Review Helpfulness
+1043   # Here's My Point: Joint Pointer Architecture for Argument Mining
+201   # Identifying attack and support argumentative relations using deep learning
+= 10:30--12:10 Session 7F: Poster Session. Machine Translation and Multilingual NLP 1 # %room Copenhagen %chair1 Anahita Mansouri Bigvand %aff1 Simon Fraser University
+223   # Neural Lattice-to-Sequence Models for Uncertain Inputs
+277   # Memory-augmented Neural Machine Translation
+372   # Dynamic Data Selection for Neural Machine Translation
+398   # Neural Machine Translation Leveraging Phrase-based Models in a Hybrid Search
+699   # Translating Phrases in Neural Machine Translation
+992   # Towards Bidirectional Hierarchical Representations for Attention-based Neural Machine Translation
+1157   # Exploring Hyperparameter Sensitivity in Neural Machine Translation Architectures
+1161   # Learning Translations via Matrix Completion
+1355   # Reinforcement Learning for Bandit Neural Machine Translation with Simulated Human Feedback
+338   # Towards Compact and Fast Neural Machine Translation Using a Combined Method
+552   # Instance Weighting for Neural Machine Translation Domain Adaptation
+704   # Regularization techniques for fine-tuning in neural machine translation
+744   # Source-Side Left-to-Right or Target-Side Left-to-Right? An Empirical Comparison of Two Phrase-Based Decoding Algorithms
+794   # Using Target-side Monolingual Data for Neural Machine Translation through Multi-task Learning
++ 12:10--13:40 Lunch
+= 12:40--13:40 Session 8: SIGDAT Business Meeting
+= 13:40--15:20 Session 9A: Semantics 3 # %room Jutland %chair1 Roberto Navigli %aff1 Sapienza University of Rome
+683 13:40--14:05  # Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling
+1033 14:05--14:30  # Neural Semantic Parsing with Type Constraints for Semi-Structured Tables
+1255 14:30--14:55  # Joint Concept Learning and Semantic Parsing from Natural Language Explanations
+435 14:55--15:20  # Grasping the Finer Point: A Supervised Similarity Network for Metaphor Detection
+= 13:40--15:20 Session 9B: Computational Social Science 1 # %room Funen %chair1 Noah A. Smith %aff1 University of Washington
+869 13:40--14:05  # Identifying civilians killed by police with distantly supervised entity-event extraction
+1165 14:05--14:30  # Asking too much? The rhetorical role of questions in political discourse
+329 14:30--14:55  # Detecting Perspectives in Political Debates
+1022 14:55--15:20  # "i have a feeling trump will win..................": Forecasting Winners and Losers from User Predictions on Twitter
+= 13:40--15:20 Session 9C: Sentiment Analysis 2 # %room Zealand %chair1 Pascale Fung %aff1 Hong Kong University of Science & Technology
+439 13:40--14:05  # A Question Answering Approach for Emotion Cause Extraction
+1138 14:05--14:30  # Story Comprehension for Predicting What Happens Next
+474 14:30--14:55  # Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm
+1077 14:55--15:20  # Opinion Recommendation Using A Neural Model
+= 13:40--15:20 Session 9D: Poster Session. Syntax 3 # %room Aarhus %chair1 Ryan Cotterell %aff1 Johns Hopkins University
+836   # CRF Autoencoder for Unsupervised Dependency Parsing
+614   # Efficient Discontinuous Phrase-Structure Parsing via the Generalized Maximum Spanning Arborescence
+720   # Incremental Graph-based Neural Dependency Parsing
+1464   # Neural Discontinuous Constituency Parsing
+638   # Stack-based Multi-layer Attention for Transition-based Dependency Parsing
+654   # Dependency Grammar Induction with Neural Lexicalization and Big Training Data
+361   # Combining Generative and Discriminative Approaches to Unsupervised Dependency Parsing via Dual Decomposition
+1298   # Effective Inference for Generative Neural Parsing
+493   # Semi-supervised Structured Prediction with Neural CRF Autoencoder
+1377   # TAG Parsing with Neural Networks and Vector Representations of Supertags
+= 13:40--15:20 Session 9E: Poster Session. Relations # %room Odense %chair1 Bishan Yang %aff1 Carnegie Mellon University
+343   # Global Normalization of Convolutional Neural Networks for Joint Entity and Relation Classification
+308   # End-to-End Neural Relation Extraction with Global Optimization
+1289   # KGEval: Accuracy Estimation of Automatically Constructed Knowledge Graphs
+1127   # Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short
+1056   # Dual Tensor Model for Detecting Asymmetric Lexico-Semantic Relations
+1333   # Incorporating Relation Paths in Neural Relation Extraction
+170   # Adversarial Training for Relation Extraction
+306   # Context-Aware Representations for Knowledge Base Relation Extraction
+826   # A Soft-label Method for Noise-tolerant Distantly Supervised Relation Extraction
+1006   # A Sequential Model for Classifying Temporal Relations between Intra-Sentence Events
+1222   # Deep Residual Learning for Weakly-Supervised Relation Extraction
+1305   # Noise-Clustered Distant Supervision for Relation Extraction: A Nonparametric Bayesian Perspective
+785   # Exploring Vector Spaces for Semantic Relations
+686   # Temporal dynamics of semantic relations in word embeddings: an application to predicting armed conflict participants
+= 13:40--15:20 Session 9F: Poster Session. Language Models, Text Mining, and Crowd Sourcing # %room Copenhagen %chair1 Allen Schmaltz %aff1 Harvard University
+1076   # Dynamic Entity Representations in Neural Language Models
+603   # Towards Quantum Language Models
+938   # Reference-Aware Language Models
+392   # A Simple Language Model based on PMI Matrix Approximations
+399   # Syllable-aware Neural Language Models: A Failure to Beat Character-aware Ones
+629   # Inducing Semantic Micro-Clusters from Deep Multi-View Representations of Novels
+179   # Initializing Convolutional Filters with Semantic Features for Text Classification
+330   # Shortest-Path Graph Kernels for Document Similarity
+1075   # Adapting Topic Models using Lexical Associations with Tree Priors
+1079   # Finding Patterns in Noisy Crowds: Regression-based Annotation Aggregation for Crowdsourced Data
+539   # CROWD-IN-THE-LOOP: A Hybrid Approach for Annotating Semantic Roles
++ 15:20--15:50 Coffee Break
+= 15:50--17:30 Session 10A: Machine Translation 2 # %room Jutland %chair1 Timothy Baldwin %aff1 University of Melbourne
+543 15:50--16:15  # Earth Mover's Distance Minimization for Unsupervised Bilingual Lexicon Induction
+191 16:15--16:40  # Unfolding and Shrinking Neural Machine Translation Ensembles
+971 16:40--17:05  # Graph Convolutional Encoders for Syntax-aware Neural Machine Translation
+1297 17:05--17:30  # Trainable Greedy Decoding for Neural Machine Translation
+= 15:50--17:30 Session 10B: Text Mining and NLP applications # %room Funen %chair1 Jill Burstein %aff1 ETS
+455 15:50--16:15  # Satirical News Detection and Analysis using Attention Mechanism and Linguistic Features
+299 16:15--16:40  # Fine Grained Citation Span for References in Wikipedia
+1527 16:40--17:05  # Joint Modeling of Topics, Citations, and Topical Authority in Academic Corpora
+472 17:05--17:30  # Identifying Semantic Edit Intentions from Revisions in Wikipedia
+= 15:50--17:30 Session 10C: Machine Comprehension # %room Zealand %chair1 Ndapa Nakashole %aff1 University of California, San Diego
+467 15:50--16:15  # Accurate Supervised and Semi-Supervised Machine Reading for Long Documents
+1288 16:15--16:40  # Adversarial Examples for Evaluating Reading Comprehension Systems
+635 16:40--17:05  # Reasoning with Heterogeneous Knowledge for Commonsense Machine Comprehension
+177 17:05--17:30  # Document-Level Multi-Aspect Sentiment Classification as Machine Comprehension
+= 15:50--17:30 Session 10D: Poster Session. Summarization, Generation, Dialog, and Discourse 1 # %room Aarhus %chair1 Yangfeng Ji %aff1 University of Washington
+380   # What is the Essence of a Claim? Cross-Domain Claim Identification
+206   # Identifying Where to Focus in Reading Comprehension for Neural Question Generation
+730   # Break it Down for Me: A Study in Automated Lyric Annotation
+246   # Cascaded Attention based Unsupervised Information Distillation for Compressive Summarization
+550   # Deep Recurrent Generative Decoder for Abstractive Text Summarization
+1132   # Extractive Summarization Using Multi-Task Learning with Document Classification
+147   # Towards Automatic Construction of News Overview Articles by News Synthesis
+1495   # Joint Syntacto-Discourse Parsing and the Syntacto-Discourse Treebank
+970   # Event Coreference Resolution by Iteratively Unfolding Inter-dependencies among Events
+1468   # When to Finish? Optimal Beam Search for Neural Text Generation (modulo beam size)
+1380   # Steering Output Style and Topic in Neural Response Generation
+= 15:50--17:30 Session 10E: Poster Session. Summarization, Generation, Dialog, and Discourse 2 # %room Odense %chair1 Natalie Schluter %aff1 IT University of Copenhagen %chair2 Elkin Dario Gutierrez
+1397   # Preserving Distributional Information in Dialogue Act Classification
+11   # Adversarial Learning for Neural Dialogue Generation
+281   # Using Context Information for Dialog Act Classification in DNN Framework
+519   # Modeling Dialogue Acts with Content Word Filtering and Speaker Preferences
+689   # Towards Implicit Content-Introducing for Generative Short-Text Conversation Systems
+697   # Affordable On-line Dialogue Policy Learning
+844   # Generating High-Quality and Informative Conversation Responses with Sequence-to-Sequence Models
+956   # Bootstrapping incremental dialogue systems from minimal data: the generalisation power of dialogue grammars
+1176   # Composite Task-Completion Dialogue Policy Learning via Hierarchical Deep Reinforcement Learning
+387   # Why We Need New Evaluation Metrics for NLG
+1363   # Challenges in Data-to-Document Generation
+= 15:50--17:30 Session 10F: Poster Session. Computational Social Science 2 # %room Copenhagen %chair1 Afshin Rahimi %aff1 University of Melbourne
+400   # All that is English may be Hindi: Enhancing language identification through automatic ranking of the likeliness of word borrowing in social media
+714   # Multi-View Unsupervised User Feature Embedding for Social Media-based Substance Use Prediction
+792   # Demographic-aware word associations
+1062   # A Factored Neural Network Model for Characterizing Online Discussions in Vector Space
+1163   # Dimensions of Interpersonal Relationships: Corpus and Experiments
+934   # Argument Mining on Twitter: Arguments, Facts and Sources
+1159   # Distinguishing Japanese Non-standard Usages from Standard Ones
+1327   # Connotation Frames of Power and Agency in Modern Films
+1415   # Controlling Human Perception of Basic User Traits
+581   # Topic Signatures in Political Campaign Speeches
+501   # Assessing Objective Recommendation Quality through Political Forecasting
+536   # Never Abandon Minorities: Exhaustive Extraction of Bursty Phrases on Microblogs Using Set Cover Problem
+* Monday, September 11, 2017
+= 7:30--17:30 Registration Day 3
++ 8:00--9:00 Morning Coffee
++ 9:00--10:00 Plenary Session. Invited Talk by Dan Jurafsky # %room Jutland
+! 9:00--10:00 "Does This Vehicle Belong to You”?  Processing the Language of Policing for Improving Police-Community Relations %by Dan Jurafsky
++ 10:00--10:30 Coffee Break
+= 10:30--12:10 Session 12A: Machine Learning 3 # %room Jutland %chair1 Barbara Plank %aff1 University of Groningen
+1310 10:30--10:55  # Maximum Margin Reward Networks for Learning from Explicit and Implicit Supervision
+349 10:55--11:20  # The Impact of Modeling Overall Argumentation with Tree Kernels
+977 11:20--11:45  # Learning Generic Sentence Representations Using Convolutional Neural Networks
+916 11:45--12:10  # Repeat before Forgetting: Spaced Repetition for Efficient and Effective Training of Neural Networks
+= 10:30--12:10 Session 12B: Syntax 4 # %room Funen %chair1 Zeljko Agic %aff1 IT University of Copenhagen
+264 10:30--10:55  # Part-of-Speech Tagging for Twitter with Adversarial Neural Networks
+559 10:55--11:20  # Investigating Different Syntactic Context Types and Context Representations for Learning Word Embeddings
+1113 11:20--11:45  # Does syntax help discourse segmentation? Not so much
+1525 11:45--12:10  # Nonparametric Bayesian Semi-supervised Word Segmentation
+= 10:30--12:10 Session 12C: Dialogue # %room Zealand %chair1 Amanda Stent %aff1 Bloomberg
+1270 10:30--10:55  # Deal or No Deal? End-to-End Learning of Negotiation Dialogues
+1403 10:55--11:20  # Agent-Aware Dropout DQN for Safe and Efficient On-line Dialogue Policy Learning
+1372 11:20--11:45  # Towards Debate Automation: a Recurrent Model for Predicting Debate Winners
+1530 11:45--12:10  # Conversation Modeling on Reddit Using a Graph-Structured LSTM
+= 10:30--12:10 Session 12D: Poster Session. Machine Translation and Multilingual NLP 2 # %room Aarhus %chair1 Marianna Apidianaki %aff1 LIMSI, CNRS and University of Pennsylvania
+1526   # Joint Prediction of Word Alignment with Alignment Types
+194   # Further Investigation into Reference Bias in Monolingual Evaluation of Machine Translation
+477   # A Challenge Set Approach to Evaluating Machine Translation
+1274   # Knowledge Distillation for Bilingual Dictionary Induction
+1073   # Machine Translation, it's a question of style, innit? The case of English tag questions
+1236   # Deciphering Related Languages
+1131   # Identifying Cognate Sets Across Dictionaries of Related Languages
+1424   # Learning Language Representations for Typology Prediction
+1023   # Cheap Translation for Cross-Lingual Named Entity Recognition
+817   # Cross-Lingual Induction and Transfer of Verb Classes Based on Word Vector Space Specialisation
+77   # Classification of telicity using cross-linguistic annotation projection
+1533   # Semantic Specialisation of Distributional Word Vector Spaces using Monolingual and Cross-Lingual Constraints
+637   # Counterfactual Learning from Bandit Feedback under Deterministic Logging : A Case Study in Statistical Machine Translation
+= 10:30--12:10 Session 12E: Poster Session. Information Extraction 2 # %room Odense %chair1 Isabelle Augenstein %aff1 University of Copenhagen
+119   # Learning Fine-grained Relations from Chinese User Generated Categories
+142   # Improving Slot Filling Performance with Attentive Neural Networks on Dependency Structures
+529   # Identifying Products in Online Cybercrime Marketplaces: A Dataset for Fine-grained Domain Adaptation
+625   # Labeling Gaps Between Words: Recognizing Overlapping Mentions with Mention Separators
+1044   # Deep Joint Entity Disambiguation with Local Neural Attention
+1094   # MinIE: Minimizing Facts in Open Information Extraction
+1301   # Scientific Information Extraction with Semi-supervised Neural Tagging
+634   # NITE: A Neural Inductive Teaching Framework for Domain Specific NER
+1324   # Speeding up Reinforcement Learning-based Information Extraction Training using Asynchronous Methods
+1408   # Leveraging Linguistic Structures for Named Entity Recognition with Bidirectional Recursive Neural Networks
+1005   # Fast and Accurate Entity Recognition with Iterated Dilated Convolutions
+1356   # Entity Linking via Joint Encoding of Types, Descriptions, and Context
+1295   # An Insight Extraction System on BioMedical Literature with Deep Neural Networks
+= 10:30--12:10 Session 12F: Poster Session. NLP Applications # %room Copenhagen %chair1 Courtney Napoles %aff1 Johns Hopkins University
+642   # Word Etymology as Native Language Interference
+49   # A Simpler and More Generalizable Story Detector using Verb and Character Features
+236   # Multi-modular domain-tailored OCR post-correction
+282   # Learning to Predict Charges for Criminal Cases with Legal Basis
+488   # Quantifying the Effects of Text Duplication on Semantic Models
+674   # Identifying Semantically Deviating Outlier Documents
+1184   # Detecting and Explaining Causes From Text For a Time Series Event
+247   # A Novel Cascade Model for Learning Latent Similarity from Heterogeneous Sequential Data of MOOC
+747   # Identifying the Provision of Choices in Privacy Policy Text
+986   # An Empirical Analysis of Edit Importance between Document Versions
+1013   # Transition-Based Disfluency Detection using LSTMs
+457   # Neural Sequence-Labelling Models for Grammatical Error Correction
+1254   # Adapting Sequence Models for Sentence Correction
++ 12:10--13:40 Lunch
+= 13:40--15:25 Session 13A: Machine Translation and Multilingual/Multimodal NLP (Short) # %room Jutland %chair1 Yulia Tsvetkov %aff1 Carnegie Mellon University
+1411 13:40--13:55  # A Study of Style in Machine Translation: Controlling the Formality of Machine Translation Output
+469 13:55--14:10  # Sharp Models on Dull Hardware: Fast and Accurate Neural Machine Translation Decoding on the CPU
+716 14:10--14:25  # Exploiting Cross-Sentence Context for Neural Machine Translation
+1511 14:25--14:40  # Cross-Lingual Transfer Learning for POS Tagging without Cross-Lingual Resources
+644 14:40--14:55  # Image Pivoting for Learning Multilingual Multimodal Representations
+538 14:55--15:10  # Neural Machine Translation with Source Dependency Representation
+1388 15:10--15:25  # Visual Denotations for Recognizing Textual Entailment
+= 13:40--15:25 Session 13B: Machine Learning (Short) # %room Funen %chair1 Samuel R. Bowman %aff1 NYU
+1430 13:40--13:55  # Sequence Effects in Crowdsourced Annotations
+1017 13:55--14:10  # No Need to Pay Attention: Simple Recurrent Neural Networks Work!
+888 14:10--14:25  # The strange geometry of skip-gram with negative sampling
+1281 14:25--14:40  # Natural Language Processing with Small Feed-Forward Networks
+1318 14:40--14:55  # Deep Multi-Task Learning for Aspect Term Extraction with Memory Interaction
+300 14:55--15:10  # Analogs of Linguistic Structure in Deep Representations
+1249 15:10--15:25  # A Simple Regularization-based Algorithm for Learning Cross-Domain Word Embeddings
+= 13:40--15:25 Session 13C: NLP Applications (Short) # %room Zealand %chair1 Joel Tetreault %aff1 Grammarly
+1188 13:40--13:55  # Learning what to read: Focused machine reading
+1420 13:55--14:10  # DOC: Deep Open Classification of Text Documents
+852 14:10--14:25  # Charmanteau: Character Embedding Models For Portmanteau Creation
+709 14:25--14:40  # Using Automated Metaphor Identification to Aid in Detection and Prediction of First-Episode Schizophrenia
+1326 14:40--14:55  # Truth of Varying Shades: Analyzing Language in Fake News and Political Fact-Checking
+196 14:55--15:10  # Topic-Based Agreement and Disagreement in US Electoral Manifestos
+476 15:10--15:25  # Zipporah: a Fast and Scalable Data Cleaning System for Noisy Web-Crawled Parallel Corpora
++ 15:25--15:50 Coffee Break
++ 15:50--17:25 Plenary Session. Best Paper # %room Jutland %chair1 Sebastian Riedel %aff1 University College London %chair2 Rebecca Hwa
+1470 15:55--16:20  # Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints
+505 16:20--16:35  # Natural Language Does Not Emerge ___Naturally___ in Multi-Agent Dialog
+633 16:35--17:00  # Depression and Self-Harm Risk Assessment in Online Forums
+341 17:00--17:25  # Bringing Structure into Summaries: Crowdsourcing a Benchmark Corpus of Concept Maps
++ 17:25--17:45 Plenary Session. Closing Remarks # %room Jutland
+! 17:25--17:45 Closing Remarks %by General Chair

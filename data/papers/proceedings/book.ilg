@@ -1,0 +1,6 @@
+This is makeindex, version 2.14 [02-Oct-2002] (kpathsea + Thai support).
+Scanning input file book.idx.....done (1124 entries accepted, 0 rejected).
+Sorting entries............done (12787 comparisons).
+Generating output file book.ind.....done (1034 lines written, 0 warnings).
+Output written in book.ind.
+Transcript written in book.ilg.

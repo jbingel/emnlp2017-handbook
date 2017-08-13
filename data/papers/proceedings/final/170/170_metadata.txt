@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#170
+FinalPaperTitle#=%=#Adversarial Training for Relation Extraction
+ShortPaperTitle#=%=#Adversarial Training for Relation Extraction
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Yi Wu
+JobTitle#==#
+Organization#==#
+Abstract#==#Adversarial training is a mean of regularizing classification algorithms by
+generating adversarial noise to the training data. We apply adversarial
+training in relation extraction within the multi-instance multi-label learning
+framework. We evaluate various neural network architectures on two different
+datasets. Experimental results demonstrate that adversarial training is
+generally effective for both CNN and RNN models and significantly improves the
+precision of predicted relations.
+Author{1}{Firstname}#=%=#Yi
+Author{1}{Lastname}#=%=#Wu
+Author{1}{Email}#=%=#jxwuyi@gmail.com
+Author{1}{Affiliation}#=%=#UC Berkeley
+Author{2}{Firstname}#=%=#David
+Author{2}{Lastname}#=%=#Bamman
+Author{2}{Email}#=%=#dbamman@berkeley.edu
+Author{2}{Affiliation}#=%=#University of California, Berkeley
+Author{3}{Firstname}#=%=#Stuart
+Author{3}{Lastname}#=%=#Russell
+Author{3}{Email}#=%=#russell@cs.berkeley.edu
+Author{3}{Affiliation}#=%=#UC Berkeley
+
+==========

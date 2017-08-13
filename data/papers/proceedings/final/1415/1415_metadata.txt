@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#1415
+FinalPaperTitle#=%=#Controlling Human Perception of Basic User Traits
+ShortPaperTitle#=%=#Controlling Human Perception of Basic User Traits
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Daniel Preotiuc-Pietro
+JobTitle#==#
+Organization#==#University of Pennsylvania
+Abstract#==#Much of our online communication is text-mediated and, lately, more common with
+automated agents. Unlike interacting with humans, these agents currently do not
+tailor their language to the type of person they are communicating to. In this
+pilot study, we measure the extent to which human perception of basic user
+trait information -- gender and age -- is controllable through text. Using
+automatic models of gender and age prediction, we estimate which tweets posted
+by a user are more likely to mis-characterize his traits. We perform multiple
+controlled crowdsourcing experiments in which we show that we can reduce the
+human prediction accuracy of gender to almost random -- an over 20\% drop in
+accuracy. Our experiments show that it is practically feasible for multiple
+applications such as text generation, text summarization or machine translation
+to be tailored to specific traits and perceived as such.
+Author{1}{Firstname}#=%=#Daniel
+Author{1}{Lastname}#=%=#Preoţiuc-Pietro
+Author{1}{Email}#=%=#danielpr@gmail.com
+Author{1}{Affiliation}#=%=#University of Pennsylvania
+Author{2}{Firstname}#=%=#Sharath
+Author{2}{Lastname}#=%=#Chandra Guntuku
+Author{2}{Email}#=%=#sharathg@sas.upenn.edu
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+Author{3}{Firstname}#=%=#Lyle
+Author{3}{Lastname}#=%=#Ungar
+Author{3}{Email}#=%=#ungar@cis.upenn.edu
+Author{3}{Affiliation}#=%=#University of Pennsylvania
+
+==========

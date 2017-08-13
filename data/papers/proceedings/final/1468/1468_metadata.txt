@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#1468
+FinalPaperTitle#=%=#When to Finish? Optimal Beam Search for Neural Text Generation (modulo beam size)
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#In neural text generation such as neural
+machine translation, summarization, and
+image captioning, beam search is widely
+used to improve the output text quality.
+However, in the neural generation set-
+ting, hypotheses can finish in different
+steps, which makes it difficult to decide
+when to end beam search to ensure op-
+timality. We propose a provably optimal
+beam search algorithm that will always re-
+turn the optimal-score complete hypothe-
+sis (modulo beam size), and finish as soon
+as the optimality is established. To counter
+neural generation’s tendency for shorter
+hypotheses, we also introduce a bounded
+length reward mechanism which allows a
+modified version of our beam search al-
+gorithm to remain optimal. Experiments
+on neural machine translation demonstrate
+that our principled beam search algorithm
+leads to improvement in BLEU score over
+previously proposed alternatives.
+Author{1}{Firstname}#=%=#Liang
+Author{1}{Lastname}#=%=#Huang
+Author{1}{Email}#=%=#liang.huang.sh@gmail.com
+Author{1}{Affiliation}#=%=#Oregon State University
+Author{2}{Firstname}#=%=#Kai
+Author{2}{Lastname}#=%=#Zhao
+Author{2}{Email}#=%=#kzhao.hf@gmail.com
+Author{2}{Affiliation}#=%=#Oregon State University
+Author{3}{Firstname}#=%=#Mingbo
+Author{3}{Lastname}#=%=#Ma
+Author{3}{Email}#=%=#cosmmb@gmail.com
+Author{3}{Affiliation}#=%=#Oregon State University
+
+==========

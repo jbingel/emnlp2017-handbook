@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1151
+FinalPaperTitle#=%=#Hierarchically-Attentive RNN for Album Summarization and Storytelling
+ShortPaperTitle#=%=#Hierarchically-Attentive RNN for Album Summarization and Storytelling
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Licheng Yu
+JobTitle#==#
+Organization#==#University of North Carolina at Chapel Hill
+Abstract#==#We address the problem of end-to-end visual storytelling. 
+Given a photo album, our model first selects the most representative (summary)
+photos, and then composes a natural language story for the album.
+For this task, we make use of the Visual Storytelling dataset and a model
+composed of three hierarchically-attentive Recurrent Neural Nets (RNNs) to:
+encode the album photos, select representative (summary) photos, and  compose
+the story. Automatic and human evaluations show our model achieves better
+performance on
+selection, generation, and retrieval than baselines.
+Author{1}{Firstname}#=%=#Licheng
+Author{1}{Lastname}#=%=#Yu
+Author{1}{Email}#=%=#licheng@cs.unc.edu
+Author{1}{Affiliation}#=%=#University of North Carolina at Chapel Hill
+Author{2}{Firstname}#=%=#Mohit
+Author{2}{Lastname}#=%=#Bansal
+Author{2}{Email}#=%=#mbansal@cs.unc.edu
+Author{2}{Affiliation}#=%=#University of North Carolina at Chapel Hill
+Author{3}{Firstname}#=%=#Tamara
+Author{3}{Lastname}#=%=#Berg
+Author{3}{Email}#=%=#berg.tamara@gmail.com
+Author{3}{Affiliation}#=%=#University of North Carolina Chapel Hill
+
+==========

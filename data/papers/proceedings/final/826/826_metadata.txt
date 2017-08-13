@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#826
+FinalPaperTitle#=%=#A Soft-label Method for Noise-tolerant Distantly Supervised Relation Extraction
+ShortPaperTitle#=%=#A Soft-label Method for Noise-tolerant Distantly Supervised Relation Extraction
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Tianyu Liu
+JobTitle#==#
+Organization#==#
+Abstract#==#Distant-supervised relation extraction inevitably suffers from wrong labeling
+problems because it heuristically labels relational facts with knowledge bases.
+Previous sentence level denoise models don’t achieve satisfying performances
+because they use hard labels which are determined by distant supervision and
+immutable during training. To this end, we introduce an entity-pair level
+denoise method which exploits semantic information from correctly labeled
+entity pairs to correct wrong labels dynamically during training. We propose a
+joint score
+function which combines the relational scores based on the entity-pair
+representation and the confidence of the hard label to obtain a new label,
+namely a soft label, for certain entity pair. During training, soft labels
+instead of hard labels serve as gold labels. Experiments on the benchmark
+dataset show that our method dramatically reduces noisy instances and
+outperforms other state-of-the-art systems.
+Author{1}{Firstname}#=%=#Tianyu
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Email}#=%=#tianyu0421@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Kexiang
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#wkx@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Baobao
+Author{3}{Lastname}#=%=#Chang
+Author{3}{Email}#=%=#chbb@pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+Author{4}{Firstname}#=%=#Zhifang
+Author{4}{Lastname}#=%=#Sui
+Author{4}{Email}#=%=#szf@pku.edu.cn
+Author{4}{Affiliation}#=%=#
+
+==========

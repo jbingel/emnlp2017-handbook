@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#1026
+FinalPaperTitle#=%=#An empirical study on the effectiveness of images in Multimodal Neural Machine Translation
+ShortPaperTitle#=%=#An empirical study on the effectiveness of images in Multimodal Neural Machine Translation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Delbrouck Jean-Benoit
+JobTitle#==#
+Organization#==#
+Abstract#==#In state-of-the-art Neural Machine Trans-
+lation (NMT), an attention mechanism is
+used during decoding to enhance the trans-
+lation. At every step, the decoder uses this
+mechanism to focus on different parts of
+the source sentence to gather the most use-
+ful information before outputting its tar-
+get word. Recently, the effectiveness of
+the attention mechanism has also been ex-
+plored for multi-modal tasks, where it be-
+comes possible to focus both on sentence
+parts and image regions that they describe.
+In this paper, we compare several atten-
+tion mechanism on the multi-modal trans-
+lation task (English, image → German)
+and evaluate the ability of the model to
+make use of images to improve translation.
+We surpass state-of-the-art scores on the
+Multi30k data set, we nevertheless iden-
+tify and report different misbehavior of the
+machine while translating.
+Author{1}{Firstname}#=%=#Jean-Benoit
+Author{1}{Lastname}#=%=#Delbrouck
+Author{1}{Email}#=%=#jean-benoit.delbrouck@umons.ac.be
+Author{1}{Affiliation}#=%=#UMONS
+Author{2}{Firstname}#=%=#Stéphane
+Author{2}{Lastname}#=%=#Dupont
+Author{2}{Email}#=%=#stephane.dupont@umons.ac.be
+Author{2}{Affiliation}#=%=#University of Mons
+
+==========

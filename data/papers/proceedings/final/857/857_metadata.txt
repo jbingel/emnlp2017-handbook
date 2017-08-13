@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#857
+FinalPaperTitle#=%=#Universal Semantic Parsing
+ShortPaperTitle#=%=#Universal Semantic Parsing
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Siva Reddy
+JobTitle#==#
+Organization#==#Stanford University
+Abstract#==#Universal Dependencies (UD) offer a uniform cross-lingual syntactic
+representation, with the aim of advancing multilingual applications. Recent
+work shows that semantic parsing can be accomplished by transforming syntactic
+dependencies to logical forms. However, this work is limited to English, and
+cannot process dependency graphs, which allow handling complex phenomena such
+as control. In this work, we introduce UDepLambda, a semantic interface for UD,
+which maps natural language to logical forms in an almost language-independent
+fashion and can process dependency graphs. We perform experiments on question
+answering against Freebase and provide German and Spanish translations of the
+WebQuestions and GraphQuestions datasets to facilitate multilingual evaluation.
+Results show that UDepLambda outperforms strong baselines across languages and
+datasets.  For English, it achieves a 4.9 F1 point improvement over the
+state-of-the-art on GraphQuestions.
+Author{1}{Firstname}#=%=#Siva
+Author{1}{Lastname}#=%=#Reddy
+Author{1}{Email}#=%=#sivar@stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Oscar
+Author{2}{Lastname}#=%=#Täckström
+Author{2}{Email}#=%=#oscar.tackstrom@gmail.com
+Author{2}{Affiliation}#=%=#Google
+Author{3}{Firstname}#=%=#Slav
+Author{3}{Lastname}#=%=#Petrov
+Author{3}{Email}#=%=#slav@petrovi.de
+Author{3}{Affiliation}#=%=#Google
+Author{4}{Firstname}#=%=#Mark
+Author{4}{Lastname}#=%=#Steedman
+Author{4}{Email}#=%=#steedman@inf.ed.ac.uk
+Author{4}{Affiliation}#=%=#University of Edinburgh
+Author{5}{Firstname}#=%=#Mirella
+Author{5}{Lastname}#=%=#Lapata
+Author{5}{Email}#=%=#mlap@inf.ed.ac.uk
+Author{5}{Affiliation}#=%=#School of Informatics, University of Edinburgh
+
+==========

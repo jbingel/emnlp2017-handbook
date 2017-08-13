@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#519
+FinalPaperTitle#=%=#Modeling Dialogue Acts with Content Word Filtering and Speaker Preferences
+ShortPaperTitle#=%=#Modeling Dialogue Acts with Content Word Filtering and Speaker Preferences
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yohan Jo
+JobTitle#==#
+Organization#==#
+Abstract#==#We present an unsupervised model of dialogue act sequences in conversation. By
+modeling topical themes as transitioning more slowly than dialogue acts in
+conversation, our model de-emphasizes content-related words in order to focus
+on conversational function words that signal dialogue acts. We also incorporate
+speaker tendencies to use some acts more than others as an additional predictor
+of dialogue act prevalence beyond temporal dependencies. According to the
+evaluation presented on two dissimilar corpora, the CNET forum and NPS Chat
+corpus, the effectiveness of each modeling assumption is found to vary
+depending on characteristics of the data. De-emphasizing content-related words
+yields improvement on the CNET corpus, while utilizing speaker tendencies is
+advantageous on the NPS corpus. The components of our model complement one
+another to achieve robust performance on both corpora and outperform
+state-of-the-art baseline models.
+Author{1}{Firstname}#=%=#Yohan
+Author{1}{Lastname}#=%=#Jo
+Author{1}{Email}#=%=#yohanj@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Yoder
+Author{2}{Email}#=%=#michaelmilleryoder@gmail.com
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Hyeju
+Author{3}{Lastname}#=%=#Jang
+Author{3}{Email}#=%=#hyejuj@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Carolyn
+Author{4}{Lastname}#=%=#Rose
+Author{4}{Email}#=%=#cprose@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

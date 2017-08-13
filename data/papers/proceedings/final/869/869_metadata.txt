@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#869
+FinalPaperTitle#=%=#Identifying civilians killed by police with distantly supervised entity-event extraction
+ShortPaperTitle#=%=#Identifying civilians killed by police with distantly supervised entity-event extraction
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Katherine Keith
+JobTitle#==#
+Organization#==#University of Massachusetts Amherst, 140 Governors Dr, Amherst, MA 01002
+Abstract#==#We propose a new, socially-impactful task for natural language processing: from
+a news corpus, extract names of persons who have been killed by police. We
+present a newly collected police fatality corpus, which we release publicly,
+and present a model to solve this problem that uses EM-based distant
+supervision with logistic regression and convolutional neural network
+classifiers. Our model outperforms two off-the-shelf event extractor systems,
+and it can suggest candidate victim names in some cases faster than one of the
+major manually-collected police fatality databases.
+Author{1}{Firstname}#=%=#Katherine
+Author{1}{Lastname}#=%=#Keith
+Author{1}{Email}#=%=#kkeith@cs.umass.edu
+Author{1}{Affiliation}#=%=#Univ. of Massachusetts, Amherst
+Author{2}{Firstname}#=%=#Abram
+Author{2}{Lastname}#=%=#Handler
+Author{2}{Email}#=%=#ahandler@cs.umass.edu
+Author{2}{Affiliation}#=%=#Univ. of Massachusetts, Amherst
+Author{3}{Firstname}#=%=#Michael
+Author{3}{Lastname}#=%=#Pinkham
+Author{3}{Email}#=%=#mlp2185@columbia.edu
+Author{3}{Affiliation}#=%=#Columbia University
+Author{4}{Firstname}#=%=#Cara
+Author{4}{Lastname}#=%=#Magliozzi
+Author{4}{Email}#=%=#caramaglio@gmail.com
+Author{4}{Affiliation}#=%=#Univ. of Massachusetts, Amherst
+Author{5}{Firstname}#=%=#Joshua
+Author{5}{Lastname}#=%=#McDuffie
+Author{5}{Email}#=%=#jomcd92@gmail.com
+Author{5}{Affiliation}#=%=#Univ. of Massachusetts, Amherst
+Author{6}{Firstname}#=%=#Brendan
+Author{6}{Lastname}#=%=#O'Connor
+Author{6}{Email}#=%=#brenocon@cs.umass.edu
+Author{6}{Affiliation}#=%=#Univ. of Massachusetts, Amherst
+
+==========

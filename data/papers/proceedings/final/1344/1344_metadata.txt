@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#1344
+FinalPaperTitle#=%=#Neural Response Generation via GAN with an Approximate Embedding Layer
+ShortPaperTitle#=%=#Neural Response Generation via GAN with an Approximate Embedding Layer
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Zhen Xu
+JobTitle#==#
+Organization#==#School of Computer Science and Technology, Harbin Institute of Technology
+Harbin 150001, China
+Abstract#==#This paper presents a Generative Adversarial Network (GAN) to model single-turn
+short-text conversations, which trains a sequence-to-sequence (Seq2Seq) network
+for response generation simultaneously with a discriminative classifier that
+measures the differences between human-produced responses and machine-generated
+ones. In addition, the proposed method introduces an approximate embedding
+layer to solve the non-differentiable problem caused by the sampling-based
+output decoding procedure in the Seq2Seq generative model. The GAN setup
+provides an effective way to avoid noninformative responses (a.k.a “safe
+responses”), which are frequently observed in traditional neural response
+generators.
+The experimental results show that the proposed approach significantly
+outperforms existing neural response generation models in diversity metrics,
+with slight increases in relevance scores as well, when evaluated on both a
+Mandarin corpus and an English corpus.
+Author{1}{Firstname}#=%=#Zhen
+Author{1}{Lastname}#=%=#Xu
+Author{1}{Email}#=%=#zxu@insun.hit.edu.cn
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology
+Author{2}{Firstname}#=%=#Bingquan
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#liubq@hit.edu.cn
+Author{2}{Affiliation}#=%=#Harbin Institute of Technology
+Author{3}{Firstname}#=%=#Baoxun
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#wangbaoxun@trio.ai
+Author{3}{Affiliation}#=%=#Tricorn (Beijing) Technology Co., Ltd
+Author{4}{Firstname}#=%=#Chengjie
+Author{4}{Lastname}#=%=#SUN
+Author{4}{Email}#=%=#cjsun@insun.hit.edu.cn
+Author{4}{Affiliation}#=%=#Harbin Institute of Technology
+Author{5}{Firstname}#=%=#Xiaolong
+Author{5}{Lastname}#=%=#Wang
+Author{5}{Email}#=%=#wangxl@insun.hit.edu.cn
+Author{5}{Affiliation}#=%=#Harbin Institute of Technology
+Author{6}{Firstname}#=%=#Zhuoran
+Author{6}{Lastname}#=%=#Wang
+Author{6}{Email}#=%=#wangzhuoran@trio.ai
+Author{6}{Affiliation}#=%=#Tricorn (Beijing) Technology Co., Ltd
+Author{7}{Firstname}#=%=#Chao
+Author{7}{Lastname}#=%=#Qi
+Author{7}{Email}#=%=#qichao@trio.ai
+Author{7}{Affiliation}#=%=#Tricorn (Beijing) Technology Co., Ltd
+
+==========

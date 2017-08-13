@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#836
+FinalPaperTitle#=%=#CRF Autoencoder for Unsupervised Dependency Parsing
+ShortPaperTitle#=%=#CRF Autoencoder for Unsupervised Dependency Parsing
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jiong Cai
+JobTitle#==#
+Organization#==#
+Abstract#==#Unsupervised dependency parsing, which tries to discover linguistic dependency
+structures from unannotated data, is a very challenging task. Almost all
+previous work on this task focuses on learning generative models. In this
+paper, we develop an unsupervised dependency parsing model based on the CRF
+autoencoder. The encoder part of our model is discriminative and globally
+normalized which allows us to use rich features as well as universal linguistic
+priors. We propose an exact algorithm for parsing as well as a tractable
+learning algorithm. We evaluated the performance of our model on eight
+multilingual treebanks and found that our model achieved comparable performance
+with state-of-the-art approaches.
+Author{1}{Firstname}#=%=#Jiong
+Author{1}{Lastname}#=%=#Cai
+Author{1}{Email}#=%=#caijiong@shanghaitech.edu.cn
+Author{1}{Affiliation}#=%=#ShanghaiTech University
+Author{2}{Firstname}#=%=#Yong
+Author{2}{Lastname}#=%=#Jiang
+Author{2}{Email}#=%=#jiangyong@shanghaitech.edu.cn
+Author{2}{Affiliation}#=%=#ShanghaiTech University
+Author{3}{Firstname}#=%=#Kewei
+Author{3}{Lastname}#=%=#Tu
+Author{3}{Email}#=%=#tukw@shanghaitech.edu.cn
+Author{3}{Affiliation}#=%=#ShanghaiTech University
+
+==========

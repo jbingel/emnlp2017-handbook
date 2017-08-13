@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1062
+FinalPaperTitle#=%=#A Factored Neural Network Model for Characterizing Online Discussions in Vector Space
+ShortPaperTitle#=%=#A Factored Neural Network Model for Characterizing Online Discussions in Vector Space
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Hao Fang
+JobTitle#==#
+Organization#==#
+Abstract#==#We develop a novel factored neural model that learns comment embeddings in an
+unsupervised way leveraging the structure of distributional context in online
+discussion forums. The model links different context with related language
+factors in the embedding space, providing a way to interpret the factored
+embeddings. Evaluated on a community endorsement prediction task using a large
+collection of topic-varying Reddit discussions, the factored embeddings
+consistently achieve improvement over other text representations. Qualitative
+analysis shows that the model captures community style and topic, as well as
+response trigger patterns.
+Author{1}{Firstname}#=%=#Hao
+Author{1}{Lastname}#=%=#Cheng
+Author{1}{Email}#=%=#chenghao@uw.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Hao
+Author{2}{Lastname}#=%=#Fang
+Author{2}{Email}#=%=#hfang@uw.edu
+Author{2}{Affiliation}#=%=#University of Washington
+Author{3}{Firstname}#=%=#Mari
+Author{3}{Lastname}#=%=#Ostendorf
+Author{3}{Email}#=%=#ostendor@u.washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+
+==========

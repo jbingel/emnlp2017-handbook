@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#1436
+FinalPaperTitle#=%=#Sentiment Intensity Ranking among Adjectives Using Sentiment Bearing Word Embeddings
+ShortPaperTitle#=%=#Sentiment Intensity Ranking among Adjectives Using Sentiment Bearing Word Embeddings
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Raksha Sharma
+JobTitle#==#
+Organization#==#
+Abstract#==#Identification of intensity ordering among polar (positive or negative) words
+which have the same semantics can lead to a fine-grained sentiment analysis.
+For
+example, 'master', 'seasoned' and 'familiar' point to different intensity
+levels, though they all convey the same meaning (semantics), i.e., expertise:
+having a good
+knowledge of. In this paper, we propose a semi-supervised technique that uses
+sentiment
+bearing word embeddings to produce a continuous ranking among adjectives that
+share common semantics. Our system demonstrates a strong Spearman’s rank
+correlation of 0.83 with the gold standard ranking. We show that sentiment
+bearing word embeddings facilitate a more accurate intensity ranking system
+than other standard word embeddings (word2vec and GloVe). Word2vec is the
+state-of-the-art for intensity ordering task.
+Author{1}{Firstname}#=%=#Raksha
+Author{1}{Lastname}#=%=#Sharma
+Author{1}{Email}#=%=#raksha@cse.iitb.ac.in
+Author{1}{Affiliation}#=%=#Indian Institute of Technology Bombay
+Author{2}{Firstname}#=%=#Arpan
+Author{2}{Lastname}#=%=#Somani
+Author{2}{Email}#=%=#somani@cse.iitb.ac.in
+Author{2}{Affiliation}#=%=#Indian Institute of Technology, Bombay
+Author{3}{Firstname}#=%=#Lakshya
+Author{3}{Lastname}#=%=#Kumar
+Author{3}{Email}#=%=#lakshya@cse.iitb.ac.in
+Author{3}{Affiliation}#=%=#Indian Institute of Technology , Bombay
+Author{4}{Firstname}#=%=#Pushpak
+Author{4}{Lastname}#=%=#Bhattacharyya
+Author{4}{Email}#=%=#pushpakbh@gmail.com
+Author{4}{Affiliation}#=%=#CSE Department, IIT Bombay
+
+==========

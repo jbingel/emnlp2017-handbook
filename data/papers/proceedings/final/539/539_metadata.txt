@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#539
+FinalPaperTitle#=%=#CROWD-IN-THE-LOOP: A Hybrid Approach for Annotating Semantic Roles
+ShortPaperTitle#=%=#CROWD-IN-THE-LOOP: A Hybrid Approach for Annotating Semantic Roles
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Chenguang Wang
+JobTitle#==#
+Organization#==#IBM Research - Almaden, 650 Harry Rd, San Jose, CA 95120
+Abstract#==#Crowdsourcing has proven to be an effective method for generating labeled data
+for a range of NLP tasks. However, multiple recent attempts of using
+crowdsourcing to generate gold-labeled training data for semantic role labeling
+(SRL) reported only modest results, indicating that SRL is perhaps too
+difficult a task to be effectively crowdsourced. In this paper, we postulate
+that while producing SRL annotation does require expert involvement in general,
+a large subset of SRL labeling tasks is in fact appropriate for the crowd. We
+present a novel workflow in which we employ a classifier to identify difficult
+annotation tasks and route each task either to experts or crowd workers
+according to their difficulties. Our experimental evaluation shows that the
+proposed approach reduces the workload for experts by over two-thirds, and thus
+significantly reduces the cost of producing SRL annotation at little loss in
+quality.
+Author{1}{Firstname}#=%=#Chenguang
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#chenguang.wang@ibm.com
+Author{1}{Affiliation}#=%=#IBM Research
+Author{2}{Firstname}#=%=#Alan
+Author{2}{Lastname}#=%=#Akbik
+Author{2}{Email}#=%=#alanweissbart@gmail.com
+Author{2}{Affiliation}#=%=#Zalando Research
+Author{3}{Firstname}#=%=#laura
+Author{3}{Lastname}#=%=#chiticariu
+Author{3}{Email}#=%=#chiti@us.ibm.com
+Author{3}{Affiliation}#=%=#IBM Research - Almaden
+Author{4}{Firstname}#=%=#Yunyao
+Author{4}{Lastname}#=%=#Li
+Author{4}{Email}#=%=#yunyaoli@us.ibm.com
+Author{4}{Affiliation}#=%=#IBM Research - Almaden
+Author{5}{Firstname}#=%=#Fei
+Author{5}{Lastname}#=%=#Xia
+Author{5}{Email}#=%=#fxia@uw.edu
+Author{5}{Affiliation}#=%=#University of Washington
+Author{6}{Firstname}#=%=#Anbang
+Author{6}{Lastname}#=%=#Xu
+Author{6}{Email}#=%=#anbangxu@us.ibm.com
+Author{6}{Affiliation}#=%=#IBM Research - Almaden
+
+==========

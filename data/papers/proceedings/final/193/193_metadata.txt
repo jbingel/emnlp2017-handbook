@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#193
+FinalPaperTitle#=%=#Ngram2vec: Learning Improved Word Representations from Ngram Co-occurrence Statistics
+ShortPaperTitle#=%=#Ngram2vec: Learning Improved Word Representations from Ngram Co-occurrence Statistics
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Zhe Zhao
+JobTitle#==#
+Organization#==#Renmin University of China
+No. 59 Zhongguancun Street, Haidian District Beijing, 100872, P.R. China
+Abstract#==#The existing word representation methods mostly limit their information source
+to word co-occurrence statistics. In this paper, we introduce ngrams into four
+representation methods: SGNS, GloVe, PPMI matrix, and its SVD factorization.
+Comprehensive experiments are conducted on word analogy and similarity tasks.
+The results show that improved word representations are learned from ngram
+co-occurrence statistics. We also demonstrate that the trained ngram
+representations are useful in many aspects such as finding antonyms and
+collocations. Besides, a novel approach of building co-occurrence matrix is
+proposed to alleviate the hardware burdens brought by ngrams.
+Author{1}{Firstname}#=%=#Zhe
+Author{1}{Lastname}#=%=#Zhao
+Author{1}{Email}#=%=#helloworld@ruc.edu.cn
+Author{1}{Affiliation}#=%=#Renmin University of China
+Author{2}{Firstname}#=%=#Tao
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#tliu@ruc.edu.cn
+Author{2}{Affiliation}#=%=#Renmin University of China
+Author{3}{Firstname}#=%=#Shen
+Author{3}{Lastname}#=%=#Li
+Author{3}{Email}#=%=#shen@mail.bnu.edu.cn
+Author{3}{Affiliation}#=%=#Beijing Normal University
+Author{4}{Firstname}#=%=#Bofang
+Author{4}{Lastname}#=%=#Li
+Author{4}{Email}#=%=#libofang@ruc.edu.cn
+Author{4}{Affiliation}#=%=#Renmin University of China
+Author{5}{Firstname}#=%=#Xiaoyong
+Author{5}{Lastname}#=%=#Du
+Author{5}{Email}#=%=#duyong@ruc.edu.cn
+Author{5}{Affiliation}#=%=#Renmin University of China
+
+==========

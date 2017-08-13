@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#102
+FinalPaperTitle#=%=#Joint Embeddings of Chinese Words, Characters, and Fine-grained Subcharacter Components
+ShortPaperTitle#=%=#Joint Embeddings of Chinese Words, Characters, and Fine-grained Subcharacter Components
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Jinxing Yu
+JobTitle#==#graduate student
+Organization#==#The Hong Kong University of Science and Technology
+Abstract#==#Word embeddings have attracted much attention recently. Different from
+alphabetic writing systems, Chinese characters are often composed of
+subcharacter components which are also semantically informative. In this work,
+we propose an approach to jointly embed Chinese words as well as their
+characters and fine-grained subcharacter components. We use three likelihoods
+to evaluate whether the context words, characters, and components can predict
+the current target word, and collected 13,253 subcharacter components to
+demonstrate the existing approaches of decomposing Chinese characters are not
+enough. Evaluation on both word similarity and word analogy tasks demonstrates
+the superior performance of our model.
+Author{1}{Firstname}#=%=#Jinxing
+Author{1}{Lastname}#=%=#Yu
+Author{1}{Email}#=%=#jyuat@cse.ust.hk
+Author{1}{Affiliation}#=%=#HKUST
+Author{2}{Firstname}#=%=#Xun
+Author{2}{Lastname}#=%=#Jian
+Author{2}{Email}#=%=#xjian@cse.ust.hk
+Author{2}{Affiliation}#=%=#HKUST
+Author{3}{Firstname}#=%=#Hao
+Author{3}{Lastname}#=%=#Xin
+Author{3}{Email}#=%=#hxinaa@cse.ust.hk
+Author{3}{Affiliation}#=%=#HKUST
+Author{4}{Firstname}#=%=#Yangqiu
+Author{4}{Lastname}#=%=#Song
+Author{4}{Email}#=%=#yqsong@cse.ust.hk
+Author{4}{Affiliation}#=%=#HKUST
+
+==========

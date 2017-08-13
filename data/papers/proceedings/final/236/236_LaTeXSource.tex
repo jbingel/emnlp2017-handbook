@@ -1,0 +1,705 @@
+%
+% File emnlp2016.tex
+%
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{emnlp2017}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{url}
+%\usepackage{gb4e}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{pgfplots, pgfplotstable}
+\usepackage{pifont}
+% Uncomment this line for the final submission:
+\emnlpfinalcopy
+
+%  Enter the EMNLP Paper ID here:
+\def\emnlppaperid{236}
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+\makeatletter
+\renewcommand{\paragraph}{%
+  \@startsection{paragraph}{4}%
+  {\z@}{0.5ex \@plus 1ex \@minus .2ex}{-1em}%
+  {\normalfont\normalsize\bfseries}%
+}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%tikz
+
+\usepackage{tikz}
+\usetikzlibrary{calc,shadings}
+\usetikzlibrary{shapes,arrows}
+\usepackage{pgfplots}
+\usepackage{xcolor}
+\definecolor{rosso}{RGB}{220,57,18}
+\definecolor{giallo}{RGB}{255,153,0}
+\definecolor{blu}{RGB}{102,140,217}
+\definecolor{verde}{RGB}{16,150,24}
+\definecolor{viola}{RGB}{153,0,153}
+
+\newenvironment{customlegend}[1][]{%
+    \begingroup
+    % inits/clears the lists (which might be populated from previous
+    % axes):
+    \csname pgfplots@init@cleared@structures\endcsname
+    \pgfplotsset{#1}%
+}{%
+    % draws the legend:
+    \csname pgfplots@createlegend\endcsname
+    \endgroup
+}%
+
+% makes \addlegendimage available (typically only available within an
+% axis environment):
+\def\addlegendimage{\csname pgfplots@addlegendimage\endcsname}
+
+
+%%--------------------------------
+
+% definition to insert numbers
+\pgfkeys{/pgfplots/number in legend/.style={%
+        /pgfplots/legend image code/.code={%
+            \node at (0.295,-0.0225){#1};
+        },%
+    },
+}
+
+
+\makeatletter
+
+\tikzstyle{chart}=[
+    legend label/.style={font={\scriptsize},anchor=west,align=left},
+    legend box/.style={rectangle, draw, minimum size=5pt},
+    axis/.style={black,semithick,->},
+    axis label/.style={anchor=east,font={\tiny}},
+]
+
+\tikzstyle{bar chart}=[
+    chart,
+    bar width/.code={
+        \pgfmathparse{##1/2}
+        \global\let\bar@w\pgfmathresult
+    },
+    bar/.style={very thick, draw=white},
+    bar label/.style={font={\bf\small},anchor=north},
+    bar value/.style={font={\footnotesize}},
+    bar width=.75,
+]
+
+\tikzstyle{pie chart}=[
+    chart,
+    slice/.style={line cap=round, line join=round, very thick,draw=white},
+    pie title/.style={font={\bf}},
+    slice type/.style 2 args={
+        ##1/.style={fill=##2},
+        values of ##1/.style={}
+    }
+]
+
+\pgfdeclarelayer{background}
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{background,main,foreground}
+
+
+\newcommand{\pie}[3][]{
+    \begin{scope}[#1]
+    \pgfmathsetmacro{\curA}{90}
+    \pgfmathsetmacro{\r}{1}
+    \def\c{(0,0)}
+    \node[pie title] at (90:1.3) {#2};
+    \foreach \v/\s in{#3}{
+        \pgfmathsetmacro{\deltaA}{\v/100*360}
+        \pgfmathsetmacro{\nextA}{\curA + \deltaA}
+        \pgfmathsetmacro{\midA}{(\curA+\nextA)/2}
+
+        \path[slice,\s] \c
+            -- +(\curA:\r)
+            arc (\curA:\nextA:\r)
+            -- cycle;
+        \pgfmathsetmacro{\d}{max((\deltaA * -(.5/50) + 1) , .5)}
+
+        \begin{pgfonlayer}{foreground}
+        \path \c -- node[pos=\d,pie values,values of \s]{$\v\%$} +(\midA:\r);
+        \end{pgfonlayer}
+
+        \global\let\curA\nextA
+    }
+    \end{scope}
+}
+
+\newcommand{\legend}[2][]{
+    \begin{scope}[#1]
+    \path
+        \foreach \n/\s in {#2}
+            {
+                  ++(0,-10pt) node[\s,legend box] {} +(5pt,0) node[legend label] {\n}
+            }
+    ;
+    \end{scope}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%end tikz
+
+
+
+
+\title{Multi-modular domain-tailored OCR post-correction}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a seperate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+% If the title and author information does not fit in the area allocated,
+% place \setlength\titlebox{<new height>} right after
+% at the top, where <new height> can be something larger than 2.25in
+\author{Sarah Schulz\and Jonas Kuhn\\
+        Institute for Natural Language Processing (IMS)\\
+        University of Stuttgart\\
+  {\tt firstname.lastname@ims.uni-stuttgart.de}}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+One of the main obstacles for many Digital Humanities projects is the low data availability.
+Texts have to be digitized in an expensive and time consuming process whereas Optical Character Recognition (OCR) post-correction
+is one of the time-critical factors.
+At the example of OCR post-correction, we show the adaptation of a generic 
+system to solve a specific problem with little data. The system accounts for a diversity of errors 
+encountered in OCRed texts coming from different time periods in the domain of literature. 
+We show that the combination of different approaches, such as e.g. Statistical Machine Translation and spell checking,  with the help of a
+ranking mechanism tremendously improves over single-handed approaches. 
+Since we consider the accessibility of the resulting tool as a crucial part of Digital Humanities
+collaborations, we describe the workflow we suggest for efficient text recognition and 
+subsequent automatic and manual post-correction. 
+\end{abstract}
+
+
+\section{Introduction}
+
+Humanities are no longer just the realm of scholars turning pages of thick books. 
+As the worlds of humanists and computer scientists begin to intertwine, new methods 
+to revisit known ground emerge and options to widen the scope of research questions are available. Moreover,
+the nature of language encountered in such research attracts the attention of the NLP community (\newcite{Kao2015}, \newcite{Milli2016}).
+Yet, the basic requirement for the successful implementation of such projects often poses a stumbling block: large digital corpora comprising the textual material of interest are rare. Archives and individual scholars are in the process of improving this situation by applying Optical Character Recognition (OCR) to the physical resources. In the \textit{Google Books}\footnote{\url{https://books.google.de/}, 02.04.2017.} project books are being digitized on a large scale. But even though collections of literary texts like \textit{Project Gutenberg}\footnote{\url{http://www.gutenberg.org}, 14.04.2017.} exist, these collections often lack the texts of interest to a specific question. As an example, we describe the compilation of a corpus of adaptations of Goethe's \textit{Sorrows of the young Werther} which allows for the analysis of character networks throughout the publishing history of this work.\\
+The success of OCR is highly dependent on the quality of the printed source text. Recognition errors, in turn,  impact results of computer-aided research \cite{Strange2014}. Especially for older books set in hard-to-read fonts and with stained paper the output of OCR systems is not good enough to serve as a basis for Digital Humanities (DH) research. It needs to be post-corrected in a time-consuming and cost-intensive process.\\
+We describe how we support and facilitate the manual post-correction process with 
+the help of informed automatic post-correction. 
+To account for the problem of relative data sparsity, we illustrate how a generic architecture agnostic to a specific domain
+can be adjusted to text specificities such as genre and font characteristics by including 
+just small amounts of domain specific data. We suggest a system architecture (cf. Figure~\ref{fig:OCRpost}) with trainable modules which joins general and specific problem solving as required in many applications.
+
+\begin{figure*}
+\centering
+       
+% Define block styles
+\tikzstyle{every node}=[font=\tiny]
+\tikzstyle{decision} = [diamond, draw, fill=gray!20, 
+    text width=1.5em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=gray!20, 
+    text width=3em, text centered, rounded corners, minimum height=1.5em]
+\tikzstyle{block_focus} = [rectangle, draw, fill=gray!20, 
+    text width=3em, text centered, rounded corners, minimum height=1.5em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=white!20, node distance=1cm,
+    minimum height=1em]
+
+\hspace{11.3cm}\begin{tikzpicture}%[scale=0.8, every node/.style={transform shape}]
+    % Place nodes
+    \node [block, text width=2.7cm] (init) {preprocessing};
+    \node [cloud, left of=init,node distance=3cm] (input) {OCR text};
+    \node [cloud, below of=init,node distance=1.0cm] (prepro) {preprocessed text};
+    \node [block_focus, below of=prepro, node distance=1.0cm] (original) {original};
+    \node [block_focus, left of=original, node distance=2cm,text width=2cm] (SMT) {specific statistical machine translation};
+    \node [block_focus, left of=SMT, node distance=2.5cm,text width=2cm] (SMT2) {general statistical machine translation};
+    \node [block_focus, left of=SMT2, node distance=2.1cm,text width=1.5cm] (lm) {specific vocab};
+
+    \node [block_focus, right of=original, node distance=2cm,text width=2cm] (compound) {compound};
+    \node [block_focus, right of=compound, node distance=2.5cm,text width=2cm] (split) {split};
+    \node [block_focus, right of=split, node distance=2.1cm,text width=1.5cm] (spell checking) {spell check};
+%    \node [block, right of=NE, node distance=2cm,text width=1.2cm] (empty) {empty string};
+    \node [cloud, below of=original,node distance=1.3cm] (sugg) {correction suggestions};
+    \node [block, below of=sugg, node distance=1cm,text width=2cm] (decision) {decision module};
+    \node [cloud, right of=decision,node distance=3cm] (out) {corrected text};
+    % Draw edges
+
+    \path [line] (prepro) -- (SMT.north);
+    \path [line] (prepro) -- (lm.north);
+    \path [line] (prepro) -- (split.north);
+    \path [line] (prepro) -- (compound.north);
+    \path [line] (prepro) -- (original.north);
+    \path [line] (prepro) -- (SMT2.north);
+ %   \path [line] (flood) -| (empty);
+    \path [line] (prepro) -- (spell checking.north);
+    \path [line] (SMT.south) -- (sugg);
+    \path [line] (SMT2.south) -- (sugg);
+    \path [line] (lm.south) -- (sugg);
+    \path [line] (split.south) -- (sugg);
+    \path [line] (compound.south) -- (sugg);
+    \path [line] (original.south) -- (sugg);
+%    \path [line] (empty) |- (sugg);
+    \path [line] (spell checking.south) -- (sugg);
+
+    \path [line] (sugg) -- (decision);
+%    \path [line] (decide) -| node [near start] {yes} (update);
+
+    \path [line,dashed] (input) -- (init);
+    \path [line,dashed] (init) -- (prepro);
+    \path [line,dashed] (decision) -- (out);
+\end{tikzpicture}
+
+
+        \caption{Multi-modular OCR post-correction system.}
+        \label{fig:OCRpost}
+        
+\end{figure*}
+
+\noindent
+We show that the combination of modules via a ranking algorithm yields results far above the performance of single approaches.\\
+We discuss the point of departure for our research in Section~\ref{sec:relwork}
+and introduce the data we base our system on in Section~\ref{sec:data}. In Section~\ref{sec:datadescription}, we 
+illustrate the most common errors and motivate our multi-modular, partly customized architecture. Section~\ref{sec:system} gives an overview 
+of techniques included in our system and the ranking algorithm. In Section~\ref{sec:results}, we discuss results, the limitations of automatic post-correction and the influence the amount of training data takes on the performance of such a system. Finally, Section~\ref{sec:workflow} describes a way to efficiently integrate
+the results of our research into a digitization work-flow as we see the easy accessibility of 
+computer aid as a central point in Digital Humanities collaborations.
+
+\section{Related work}
+\label{sec:relwork}
+There are two obvious ways to automatically improve quality of digitized text: optimization of OCR systems or automatic post-correction.
+Commonly, OCR utilizes just basic linguistic knowledge like character set of a language or reading direction. The focus 
+lies on the image recognition aspect which is often done with artificial neural networks (cf. \newcite{Graves2009}, \newcite{Desai2010}).\\
+Post-correction is focused on the correction of errors in the linguistic context. It thus allows for the purposeful inclusion of knowledge about the text at hand, e.g. genre-specific vocabulary. Nevertheless, post-correction has predominantly been tackled OCR system agnostic as outlined below. As an advantage, post-correction can also be applied when no scan or physical resource is available.\\
+There have been attempts towards shared datasets for evaluation. \newcite{Mihov2005} released a corpus covering four different kinds of OCRed text
+comprising German and Bulgarian. However, in 2017 the corpus was untraceable and no recent research relating to the data could be found.\\
+OCR post-correction is applied in a diversity of fields in order to compile high-quality datasets. This is not merely reflected in the homogeneity of 
+techniques but in the metric of evaluation as well. While accuracy has been widely used as evaluation measure in OCR post-correction research, \newcite{Reynaert2008} advocates the use of precision and recall in order to improve transparency in evaluations. 
+Dependent on the paradigm of the applied technique even evaluation measures like BLEU score can be found (cf. \newcite{Afli2016}).\\
+Since shared tasks are a good opportunity to establish certain standards and facilitate the comparability of techniques, the Competition on Post-OCR Text Correction\footnote{\url{https://sites.google.com/view/icdar2017-postcorrectionocr/home}, 3.07.2017.} organized in the context of ICDAR 2017 could mark a milestone for more unified OCR post-correction research efforts.
+
+Regarding techniques used for OCR post-correction, there are two main trends to be mentioned: statistical approaches utilizing error distributions inferred from training data and lexical approaches oriented towards the comparison of source words to a canonical form. Combinations of the two approaches are also available.\\
+Techniques residing in this \textbf{statistical} domain have the advantage that they can model specific distributions of the target domain if training data is available.
+\newcite{Tong1996} approach post-correction as a statistical language modeling problem, taking context into account.
+\newcite{Perez-Cortes2000} employ stochastic finite-state automaton along with a modified version of the Viterbi Algorithm to perform a stochastic error correcting parsing.
+Extending the simpler stochastic context-sensitive models, \newcite{Kolak2002} apply the first
+noisy channel model, using edit distance from noisy to corrected text on character level. In order to 
+train such a model, manually generated training data is required. 
+\newcite{Reynaert2008b} suggests a corpus-based correction method, taking spelling variation (especially in historical text) into account.
+\newcite{Abdulkader2009} introduce an error estimator neural network that learns to assess error probabilities from ground truth data which in turn is then suggested for manual correction. This decreases the time needed for manual post-correction since correct words do not have to be considered as candidates for correction by the human corrector.
+\newcite{Llobet2010} combine information from the OCR system output, the error distribution and the language as weighted finite-state transducers.
+\newcite{Reffle2013} use global as well as local error information to be able to fine-tune post-correction systems to historical documents.
+Related to the approach introduced by \newcite{Perez-Cortes2000}, \newcite{Afli2016} use statistical machine translation for error correction using the Moses toolkit on character level.
+\newcite{Volk2010} merge the output of two OCR systems with the help of a language model to increase the quality of OCR text. The corpus of yearbooks of the Swiss Alpine Club which has been manually corrected via crowdsourcing (cf. \newcite{Clematide2016}) is available from their website.\\
+\textbf{Lexical} approaches often use rather generic distance measures between an erroneous word and a potential canonical lexical item. \newcite{Strohmaier2003} investigate the influence of the coverage of a lexicon on the post-correction task. Considering the fact that writing in historical documents is often not standardized, the success of such approaches is limited. Moreover, systems based on lexicons rely on the availability of such resources. Historical
+stages of a language -- which constitute the majority of texts in need for OCR post-correction -- often lack such resources or provide incomplete lexicons which 
+would drastically decrease performance of spell-checking-based systems. \newcite{Ringlstetter2007} address this problem by suggesting a way to dynamically collect specialized lexicons for this task.
+\newcite{Takahashi1990} apply spelling correction with preceding candidate word detection.
+\newcite{Bassil2012} use Google's online spelling suggestions for as they draw on a huge lexicon based on contents gathered from all over the web.\\
+The \textbf{human component} as final authority has been mentioned in some of these projects. Visual support of the post-correction process has been emphasized by e.g. \newcite{Vobl2014} who describe a system of iterative post-correction of OCRed historical text which is evaluated in an application-oriented way. They present the human corrector with an alignment of image and OCRed text and make batch correction of the same error in the entire document possible. They can show that the time needed by human correctors considerably decreases.\\
+
+
+
+\section{Evaluation metrics}\label{metrics}
+
+We describe and evaluate our data by means of word error rate (WER) and character error rate (CER).
+The error rates are a commonly used metric in speech recognition and machine translation evaluation and can also be referred to as length normalized edit distance. They quantify the number of operations, namely the number of insertions, deletions and substitutions, that are needed to transform the suggested string into the manually corrected string and are computed as follows:
+
+\begin{small}
+WER = $\displaystyle\frac{\mbox{word insertions + word substitutions + word deletions}}{\mbox{\# words in the reference}}$ \\
+
+CER = $\displaystyle\frac{\mbox{char insertions + char substitutions + char deletions}}{\mbox{\# characters in the reference}}$ \\
+\end{small}
+
+
+\section{Data}\label{sec:data}
+\begin{table*}[ht]
+\centering
+\begin{tiny}
+\begin{tabular}{lp{8cm}p{4cm}l}
+\toprule
+1& Berichtigung der Geschichte des jungen Werthers&H. von Breitenbach&1775\\
+2& Schwacher jedoch wohlgemeynter Tritt vor dem Riss, neben oder hinter Herren Pastor Goeze, gegen die Leiden des jungen Werthers und dessen ruchlose Anh\"{a}nger&anonymous&1775\\
+3& Lorenz Konau& David Iversen& 1776\\
+4& Werther der Jude & Ludwig Jacobowski& 1910\\
+5& Eine r\"{u}hrende Erz\"{a}hlung aus geheimen Nachrichten von Venedig und Cadir (first letter) &Joseph Codardo und Rosaura Bianki& 1778\\
+6& Afterwerther oder Folgen jugendlicher Eifersucht & A. Henselt & 1784\\
+7& Der neue Werther oder Gef\"{u}hl und Liebe & Karl P. Bonafont & 1804\\
+8& Leiden des modernen Werther & Max Kaufmann & 1901\\
+\bottomrule
+\end{tabular}
+\caption{Werther texts included in our corpus from different authors and times of origin.}
+\label{tab:data}
+\end{tiny}
+\end{table*}
+
+As mentioned in the introduction, errors found in OCRed texts are specific to
+time of origin, quality of scan and even the characteristics of a specific text. Our multi-modular
+architecture paves the way for a solution taking this into account by including general as well as specific modules.
+Thus, we suggest to include domain specific data as well as larger, more generic data sets in order to enhance coverage of vocabulary and possible error classes. 
+The data described hereafter constitutes parallel corpora with OCR output and manually corrected text which we utilize for training statistical models.
+
+
+ 
+\subsection{The Werther corpus}\label{Werther}
+
+Since our system is developed to help in the process of compiling a corpus comprising adaptations of Goethe's \textit{The Sorrows Of Young Werther} throughout different text types and centuries, we collected texts from this target domain. To be able to train a specialized system, we manually corrected a small corpus of relevant texts (cf. Table~\ref{specificdata}). We use the output of Abbyy Fine Reader 7 for several Werther adaptations (Table~\ref{tab:data}) all based on scans of books with German Gothic lettering.\\
+
+
+\subsection{The Deutsches Textarchive (DTA) corpus}\label{DTA}
+Even though manual OCR post-correction is a vital part of many projects, only very little detailed 
+documentation of this process exists. \textit{Das Deutsche Textarchiv} (The German Text Archive) (DTA) is one 
+of the few projects providing detailed correction guidelines along with the scans and the text corrected within the project \cite{Geyken2012}. This allows the compilation of a comprehensive parallel corpus of OCR output and corrected text spanning a period of four centuries (17th to 20th) in German Gothic lettering. For OCR, we use the open source software \textit{tesseract}\footnote{Considering the open source aspect of our resulting system, we decided to use the open source OCR software tesseract and move away from Abbyy some time after our project started: \url{https://github.com/tesseract-ocr}.} \cite{Smith07} which comes with recognition models for Gothic font. 
+
+\begin{figure*} 
+\centering
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{img/Wertherderjude}
+        \caption{Werther der Jude (1910)}
+        \label{fig:Wdj}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+      %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{img/Konau}
+        \caption{Lorenz Konau (1776)}
+        \label{fig:konau}
+    \end{subfigure}
+    ~ %add desired spacing between images, e. g. ~, \quad, \qquad, \hfill etc. 
+    %(or a blank line to force the subfigure onto a new line)
+    \begin{subfigure}[b]{0.35\textwidth}
+        \centering
+        \includegraphics[width=0.5\textwidth]{img/DTA_blumenbach}
+        \caption{DTA: Blumenbach (1791): Handbuch der Naturgeschichte}
+        \label{fig:DTA}
+    \end{subfigure}
+    \caption{Scans of three different texts from our corpora. Emphasizes differences 
+    in quality of scan and differences in type setting, font and genre (e.g. drama).}\label{fig:scans}
+\end{figure*}
+
+\subsection{Gutenberg data for language modeling}\label{lm}
+
+Since the output of our system is supposed to consist of well-formed German sentences, we 
+need a method to assess the quality of the output language. This task is generally tackled by
+language modeling. We compiled a collection of 500 randomly 
+chosen texts from Project Gutenberg\footnote{Project Gutenberg. Retrieved January 21, 2017, from \url{www.gutenberg.org}.} comprising 28,528,078 tokens. With its relative closeness to our target domain it constitutes the best approximation of a target language.
+The language model is trained with the KenLM toolkit \cite{Heafield2011} with an order of 5 on token level and 10 on character level following \newcite{DeClercq2013}.
+
+\section{Why OCR post-correction is hard}\label{sec:datadescription}
+
+In tasks like the normalization of historical text \cite{Bollmann12} or social media, one can take advantage of regularities in the deviations from the standard form that appear throughout an entire genre or in case of social media e.g. dialect region \cite{Eisenstein2013}. Errors in OCR, however, depend on the font and quality of the scan as well as the time of origin which makes each text unique in its composition of features and errors.\\
+In order to exemplify this claim, we analyzed three different samples: \textit{Lorenz Konau} (1776), \textit{Werther der Jude} (1910) and a sample from the DTA data. Figure~\ref{fig:scans} (a-c) illustrate the point that the quality of scan is crucial for the OCR success. Figure~\ref{fig:Wdj} shows a text from the 20th century where the type setting is rather regular and the distances between letters is uniform as opposed to Figure~\ref{fig:konau}. Figure~\ref{fig:DTA} shows how the writing from the back of the page shines through and makes the script less readable. Thus, we observe a divergence in the frequency of certain character operations between those texts: the percentage of substitutions range between 74\% for \textit{Lorenz Konau} and 60\% for \textit{Werther der Jude} and 18\% and 30\% of insertions, respectively. The varying percentage of insertions might be due to the fact that some scans are more ``washed out'' than others. Successful insertion of missing characters, however, relies on the precondition that a system knows a lot of actual words and sentences in the respective language and cannot be resolved via e.g. character similarity like in the substitution from \textit{l} to \textit{t}.\\
+Another factor that complicates the correction of a specific text is the number of errors per word. Words with an edit distance of one to the correct version are easier to correct those with more than one necessary operation. With respect to errors per word our corpus shows significant differences in error distributions. Especially in our DTA corpus the number of words with two or more character-level errors per word is considerably higher than those with one error. For \textit{Werther der Jude} (WER 10.0, CER 2.4) the number of errors in general is much lower than for \textit{Konau} (WER: 34.7, CER: 10.9). These characteristics indicate that subcorpus-specific training of a system is promising.
+
+
+
+\section{Specialized multi-modular post-correction}\label{sec:system}
+
+In order to account for the nature of errors that can occur in OCR text, we apply a variety of modules for post-correction.
+The system proceeds in two stages and is largely based on an architecture suggested by \newcite{Schulz2016} for normalization
+of user-generated contents. In the first stage, a set of specialized modules (Section~\ref{sec:sugg}) suggest corrected versions for the tokenized\footnote{Tokenizer of TreeTagger \cite{Schmid1997}.} OCR text lines. Those modules can be context-independent (work on just one word at a time) or context-dependent (an entire text line is processed at a time). The second stage is the decision phase. After the collection of various suggestions per input token, these have to be ranked to enable a decision for the most probable output token given the context. We achieve this by assigning weights the different modules with the help of Minimal Error Rate Training (MERT) \cite{Och2003}. 
+
+
+\subsection{Suggestion modules}\label{sec:sugg}
+
+In the following, we give an outline of techniques included into our system.
+
+\subsubsection{Word level suggestion modules}
+
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+   \item \textbf{Original}: the majority of words do not contain any kind of error, thus we want to have the initial token available in our suggestion pool
+   \item \textbf{Spell checker}: spelling correction suggestion for misspelled words with hunspell\footnote{https://github.com/hunspell/hunspell.} 
+   \item \textbf{Compounder}: merges two tokens into one token if it is evaluated as an existing word by hunspell
+   \item \textbf{Word splitter}: splits two tokens into two words using compound-splitter module from the Moses toolkit \cite{Koehn2007}
+   \item \textbf{Text-Internal Vocabulary}: extracts high-frequent words from the input texts and suggests them as correction of words with small adjusted Levenshtein distance\footnote{OCR-adjusted Levenshtein distance taking frequent substitution, insertion and deletion patterns learned from training data into account.}
+\end{itemize}
+
+\noindent
+The compound and word split techniques react to the variance in manual typesetting, where the distances between letters vary. This means that the word boundary recognition becomes difficult (cf. Figure~\ref{togetherapart}). 
+\begin{figure}
+\setlength{\belowcaptionskip}{-10pt}
+\includegraphics[width=0.5\textwidth]{img/togetherapart}
+\caption{Irregular type setting in German Gothic lettering. \textit{sind} and \textit{insgemein} are two separate words but yet written closely together.}
+\label{togetherapart}
+\end{figure}
+
+\noindent
+A problem related to the spell-checking approach is the limited coverage of the dictionary since it uses a modern German lexicon. Related to this is the difficulty of out-of-vocabulary words above average for literature text. Archaic words from e.g. the 17th century or named entities cannot be found in a dictionary and can therefore not be covered with any of the approaches mentioned above. However, especially named entities are crucial for the automatic or semi-automatic analysis of narratives e.g. with the help of network analysis. Our Text-Internal Vocabulary technique is designed to find frequent words in the input text, following the assumption that errors would not be regular enough to distort those frequencies. We compile a list from those high-frequency words. Subsequently, erroneous words can be corrected calculating an OCR-adjusted Levenshtein distance. In this way misspelled words like \textit{Loveuzo} could be resolved to \textit{Lorenzo} if this name appears frequently. Since the ranking algorithm relies on a language model which will most probable not contain those suggestions, we insert the high-frequency words into the language modeling step.  
+
+
+
+\subsubsection{Sentence level suggestion modules}
+
+As has been suggested by \newcite{Afli2016}, we include Phrase-based \textbf{Statistical Machine Translation} (SMT) into our system. We treat the post-correction as a translation problem translating from erroneous to correct text. Like in standard SMT, we train our models on a parallel corpus, the source language being the OCRed text and the target language being manually corrected text. We train models on token level as well as on character-level (unigram). This way, we aim at correcting frequently mis-recognized words along with frequent character-level errors. We train four different systems:
+
+\begin{itemize} 
+\setlength\itemsep{-0.3em}
+\item token level
+    \begin{itemize}
+    \item domain specific data (cf. Section~\ref{Werther})
+    \item general data (cf. Section~\ref{DTA})
+    \end{itemize}
+\item character level
+    \begin{itemize}
+    \item domain specific data (cf. Section~\ref{Werther})
+    \item general data (cf. Section~\ref{DTA})
+    \end{itemize}
+\end{itemize}
+
+\noindent
+The models are trained with the Moses toolkit \cite{Koehn2007}.  Moreover, we use a subsequent approach by forwarding the output of the character-based SMT model to the token-based SMT.
+
+\subsubsection{Additional feature}
+The information whether a word contains an error can help to avoid the incorrect alternation of an initially correct word (overcorrection).
+In order to deliver this information to the decision module without making a hard choice for each word,
+ we include the information whether a word has been found either in combination with the word before or after in a corpus (cf. Section~\ref{lm}) into the decision process in form of a feature that will be weighted along with the other modules. This naive language modeling approach allows for a context-relevant decision of the correctness of a word.
+
+
+\subsection{Decision modules: the ranking mechanism}
+
+Since the recognition errors appearing in a text are hard to pre-classify by nature, we 
+run all modules on each sentence of the input, returning suggestions for each word. 
+Since the output of some of our modules are entire sentences, input sentence and output sentence 
+have to be word-aligned in order to be able to make suggestions on word level. The word 
+alignment between input and output sentence is done with the Needleman-Wunsch algorithm \cite{Needleman1970}, an algorithm originally developed in bioinformatics.\\
+From all corrected suggestions the most probable well-formed combination has to be chosen. 
+To solve the combinatorial problem of deciding which suggestion is the most probable candidate for a word, the decision module makes use of the Moses decoder.\\
+As in general SMT, the decoder makes use of a language model (cf. Section~\ref{lm}) and a phrase table.
+The phrase table is compiled from all input words along with all possible correction suggestions.
+In order to assign weights to the single modules and the language model, we tune on the phrase tables 
+collected from a run on our dev$_{overall}$ set, following the assumption that suggestions of certain modules are more reliable than others
+and expect their feature weights to be higher after tuning. 
+
+
+\section{Experiments}\label{sec:results}
+
+\subsection{Experimental Setup}
+
+\begin{table}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrr}
+\toprule
+set & \# tokens (OCR) & \# tokens (corr) & WER & CER\\
+\midrule
+train& 70,159 & 68,608 & 15.7 & 5.5\\
+train$_{ext}$& 133,457&131,901& 12.9 & 4.0\\
+dev$_{SMT} $& 12,464 & 12,304 & 13.9 & 3.5\\
+dev$_{overall}$ & 13,663 & 13,396 & 16.75 & 4.6\\
+test$_{init}$ & 17,443 & 17,367 & 9.4 & 2.5\\
+test$_{unk}$ & 13,286 & 13,304 & 31.2 & 9.2\\
+\bottomrule
+\end{tabular}%
+}
+\caption{Werther specific parallel corpus of OCR text and corrected text showing the
+number of tokens before and after post-correction along with WER and 
+CER}
+\label{specificdata}
+\end{table}
+
+To guarantee diversity, we split each of texts 1-4 (cf. Table~\ref{tab:data}) into three parts and combined the respective parts: 80\% train (train), 10\% development (dev$_{SMT}$) and 10\% test (test$_{init}$). 
+
+\paragraph{Test setup}
+We introduce two different test scenarios. Even though both test sets are naturally compiled from unseen data, the first test set consists of a self-contained Werther adaptation introducing new named entities, originating from a different source and thus showing a different error constitution. It constitutes an evaluation in which no initial manual correction as support for the automatic correction is included in the workflow. We henceforth call this unknown set \textit{test$_{unk}$} (text 6). 
+
+In contrast, the second set contains parts of the same texts as the training, thus specific vocabulary might have been introduced already. The results for this test set give a first indication of the extent to which pre-informing the system with manually correcting parts of a text could assist the automatic correction process. Since this scenario can be described as a text-specific initiated post-correction, we henceforth refer to this test set as \textit{test$_{init}$}.
+
+
+We further on experiment with an extended training set train$_{ext}$ (train with texts 7 and 8) to assess the influence of the size of the specific training set on the overall performance. The sizes of the datasets before and after correction along with WER and CER are summarized in Table~\ref{specificdata}. The sizes for the general dataset before and after correction along with WER and CER  are summarized in Table~\ref{generaldata}.
+
+\begin{table}
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{rrrrr}
+\toprule
+set & \# tokens (OCR) & \# tokens (corr) & WER & CER\\
+\midrule
+train  & 3,452,922 & 3,718,712 & 41.6 & 13.2\\
+dev & 663,376 & 836,974 & 30.4 & 9.1\\
+%&test & 791,105 & 791,105 & 26.2 & 7.9\\
+%\midrule
+%\multirow{3}{*}{Antiqua}&train & 655,225 & 603,688 & 26.0 & 9.9\\
+%&dev & 94,155 & 91,913 & 11.4 & 4.3\\
+%&test & 144,538 & 134,246 & 20.6 & 7.9\\
+\bottomrule
+\end{tabular}
+}
+\caption{DTA parallel corpus of OCR text and corrected text showing the
+number of tokens before and after post-correction along with WER and CER}
+\label{generaldata}
+\end{table}
+
+\subsection{Evaluation}
+
+In the following we concentrate on the comparison of WER and CER before and after automatic post-correction. As a baseline for our system we chose the strongest single-handed module (SMT on character-level trained on Werther data). 
+
+
+\begin{table}
+\setlength{\belowcaptionskip}{-10pt}
+\centering
+\tiny
+\begin{tabular}{l|l|cc|cc}
+\small training set &\small system& \multicolumn{2}{c|}{\small test$_{init}$}& \multicolumn{2}{c}{\small test$_{unk}$}\\
+&&\small WER&\small CER&\small WER&\small CER\\
+\toprule
+&original text&23.5&15.1&36.7&30.0\\
+\midrule
+\multirow{2}{*}{\small train}&baseline &22.0&13.2&26.6&26.3\\
+&overall system &\textbf{4.7}&\textbf{8.0}&\textbf{15.4}&\textbf{19.6}\\
+\midrule
+\multirow{2}{*}{\small train$_{ext}$}&baseline&21.1&11.7&24.0&20.4\\
+&overall system &\textbf{4.4}&\textbf{7.2}&\textbf{15.2}&\textbf{16.4}\\
+\bottomrule
+\end{tabular}
+\caption{WER and CER for both test sets before and after automatic post-correction for the 
+system trained with the small training set (train) and the larger training set (train$_{ext}$). Baselines: the 
+original text coming from the OCR system and the character-level SMT system trained on the Werther data.}
+\label{tab:res}
+\end{table}
+
+
+\begin{table*}[h]
+\begin{tiny}
+\begin{tabular}{l|rrr|rrr}
+& \multicolumn{3}{c|}{\small test$_{init}$}& \multicolumn{3}{c}{\small test$_{unk}$}\\
+\small
+module& \small \# overcorrected & \small\# corrected &\small \# unique correct&\small \# overcorrected &\small \# corrected &\small \# unique correct\\
+\toprule
+\tiny
+SMT Werther token & 128 &  364& 10&209 &1,089 &0 \\
+SMT Werther character  & 235 & 684 & 0 &700 & 1,919&0 \\
+SMT Werther cascaded & 273 & 697 & 2 &728&1,933&4\\
+SMT DTA token & 2,179 & 229 & 8 &1,627 & 893&19\\
+SMT DTA character & 4121 & 372 & 22 &3,143 &1,530 &115\\
+text-internal vocab & 3,317 & 131 & 16& 4,142 & 244&60\\
+word split & 594 & 3 & 0 & 720& 45&2\\
+spell check & 1,329 & 219 & 15 &2,819 & 731&40\\
+compound & 222 & 0 & 0 &169&2&2\\
+\midrule
+overall system  & 238 & 2171 & - & 675 & 2,642 & - \\
+\bottomrule
+\end{tabular} 
+\caption{Number of overcorrected, corrected and uniquely corrected words per module out of 17,367 tokens in test$_{init}$ (2,726 erroneous words) and 13,304 tokens in test$_{unk}$ (4,141 erroneous words)}
+\label{tab:evalothermod}
+\end{tiny}
+\end{table*}
+
+\noindent
+\paragraph{Overall performance}
+As indicated previously, our test sets differ with respect to their similarity to the training set. The results for both test scenarios for systems trained on our two training sets are summarized in Table~\ref{tab:res}.
+The results from test$_{init}$ and test$_{unk}$ show that our system performs considerably better than the baseline and can improve quality of the OCR output considerably. 
+
+For test$_{unk}$, the system improves the quality by almost 20 points of WER from 36.7 to 15.4 and over 10 points in CER from 30.0 to 19.6.
+For test$_{init}$, our system improves the quality of the text with a reduction of approximately 20 points of WER from 23.5 to 4.7 and 7 points in CER from 15.1 to 8.0. It is not surprising that the decrease in WER is stronger than the decrease in CER. This is due to the fact that many words contain more than one error and require more than one character level operation to get from the incorrect to the correct string.
+
+Just slight improvement can be shown by adding training material to the Werther-specific parts of the system (cf. train$_{ext}$ row of Table~\ref{tab:res}). Merely the CER can be improved whereas the WER stays about the same. The improvement in test$_{unk}$ is higher than for test$_{init}$.\\
+\hspace{-0.3cm}
+\paragraph{Module specific analysis}
+Since a WER and CER evaluation is not expedient for all modules as they were designed to correct specific problems and not the entirety of them, we look into the specialized modules in terms of correct suggestions contributed to the suggestion pool and correct suggestions only suggested by one module (unique suggestions). As the system including the extended training set train$_{ext}$ delivered slightly better results, in the following we will describe the contribution of the single modules to the overall performance of this system (cf. Table~\ref{tab:evalothermod}). For test$_{unk}$ the number of corrected tokens along with the number of overcorrections is higher than for test$_{init}$ throughout all modules. Clearly, for test$_{init}$ the Werther-specific modules are strongest. The more general modules prove useful for test$_{unk}$. The number of corrected words increases for the SMT module trained on DTA data on character-level. The usefulness of the module extracting specific words (text-internal vocab) as well as the general SMT model and the spell checker becomes evident in terms of unique suggestions contributed by those modules.\\
+The analysis of the output of the individual modules and their contribution to the overall system uncovers an issue: those modules that produce a high number of incorrect suggestions, thus overcorrecting actually correct input tokens, are at the same time those modules that are the only ones producing correct suggestions for some of the incorrect input words. Consequently, those uniquely suggested corrections are not chosen in the decision modules due to an overall weak performance of this module. These suggestions are often crucial to the texts like the suggestions by the special vocabulary module which contain named entities or words specific to the time period. For our test$_{unk}$ set, the text-internal vocabulary module yields around 60 unique suggestions, out of which 15 are names (Friedrich, Amalia) or words really specific to the text (\textit{Auftrit} spelled with one t instead of two).\\
+
+\paragraph{Challenges}
+In the context of literature OCR post-correction is a challenging problem since 
+the texts themselves can be considered \textit{non-standard text}. The aim is not
+ to bring the text at hand to an agreed upon standard form but to digitize exactly what was contained in the print version. 
+ This can be far from the standard form of a language. In one of our texts, we find 
+a character speaking German with a strong dialect. Her speech contains a lot of 
+words that are incorrect in standard German, however, the goal is it to preserve this 
+``errors'' in the digital version. Thus, correction merely on the basis of the OCR text without consulting the printed version or an image-digitized facsimile, can essentially never be perfect. It follows, that the integration of automatic post-correction techniques into the character recognition process could lead to further improvements.
+
+\subsection{Adaptability}
+
+Reusability as a key concept in NLP for DH originates in the time limitations given in such projects. Since DH projects do not evolve around the development of tools but the analysis performed with the help this tools in order to answer a specific question, the tools are expected to be delivered in an early phase of collaborative projects. From-scratch development easily exceeds this time limits. We show that our OCR post-correction system is modular enough to be adjusted to correct texts from other languages by training it for two other languages, English and French, with data released in the OCR post-correction competition organized in the context of ICDAR 2017\footnote{\url{https://sites.google.com/view/icdar2017-postcorrectionocr/home}, 3.07.2017.}. The texts originate from the the last four centuries and come from different collections and therefore have been digitized using different OCR systems. The data is summarized in Table~\ref{sharedtaskdata}\footnote{The test set does not comply with the official shared task set since the manually corrected data is not yet available for the test set. We test on a combination of periodicals and monographs.}.
+
+\begin{table*}[t!]
+\begin{tabular}{lllllllll}
+\toprule
+language & $train_{ocr}$ & $train_{gold}$ &$dev1_{ocr}$ &$dev1_{gold}$ &$dev2_{ocr}$ &$dev2_{gold}$ &$test_{ocr}$ &$test_{gold}$ \\
+\midrule
+English & 309,080 & 282,738 & 71,049 & 65,480 & 13,000 & 11,966 & 14,302&12,859\\
+\midrule
+French &805,438 &783,371 & 167,473&163,373&9,566 &9,216 & 12,289 & 11,780\\
+\bottomrule 
+\end{tabular}
+\caption{Number of tokens in the English and French corpus provided by the competition on OCR-postcorrection.}
+\label{sharedtaskdata}
+\end{table*}
+
+We adjust our system to the language by retraining the SMT models and including spell-checkers for the respective languages. Due to the modular architecture these adjustments can be made easily and with a low expenditure of time. Since the datasets are compilation of a variety of texts, we use all modules but the domain-specific SMT models. We solely include one token-level and character-level SMT module for each language.
+
+\begin{table}[h!]
+\center
+\small
+\begin{tabular}{llll}
+\toprule
+language & system & WER & CER\\
+\midrule
+\multirow{ 3}{*}{ English} & original & 29.4&28.4\\
+                            &SMT Cascaded&22.7&23.6\\
+                            &overall system&22.1&24.5\\
+                            \midrule
+\multirow{ 3}{*}{French} & original text & 13.3 & 25.0\\
+                         & SMT Cascaded & 9.9& 20.0\\
+                         & overall system &8.7&21.5\\
+\bottomrule
+\end{tabular}
+\caption{The results reported in word error rate (WER) and character error rate (CER) for the English and French test set.}
+\label{resultssharedtask}
+\end{table}
+
+The strongest unique module for these two languages is the subsequent combination of the character-level SMT and the token-level SMT models (Cascaded). For English it performs just slightly worse on WER and even outperforms the overall system on the CER. For French, the overall system is clearly stronger than the Cascaded SMT system with more than 1 percent improvement of WER but also performs worse in terms of CER by 1.5 percent. 
+Generally, the OCR post-correction system achieves about 25\% reduction of WER for English and over 30\% reduction in WER for French.
+
+
+\section{Digitization workflow}\label{sec:workflow}
+We integrate the automatic OCR process with tesseract and our automatic post-correction system into a workflow which results in an hocr file, an XML format which is readable by PoCoTo \cite{Vobl2014} a tool for supporting manual post-correction of OCRed text through alignment of image and digitized text. The upload of scans or images is provided online via a webapplication\footnote{\url{http://clarin05.ims.uni-stuttgart.de/ocr/}, for access please contact the author.}. This shields the user from the technicalities of the correction process and provides them with the input for the PoCoTo tool.\\
+The implementation of an easy-to-handle workflow is an often underemphasized aspect of DH. It needs 
+to be intuitive enough to not absorb the time ion has been saved via automation. 
+Since the final post-correction step requires that the human corrector compares the digitized version with the scan, presenting both next to each other is an ideal scenario.  This functionality is one of the main strengths of PoCoTo, a visual correction tool, supporting manually initiated correction operations and batch correction of the same error. 
+
+
+
+\section{Conclusion}
+We can show that the enhancement of a general, adaptable architecture by including small but specific data sets
+can improve results within a specific domain. Moreover, the combination of different 
+techniques for of OCR post-correction is significantly superior to single techniques. Especially the integration of SMT models on token level and character level contributes to the overall success of the system.
+Due to the complexity of OCR post-correction, there cannot be a general solution. 
+Even though the ranking algorithm achieves large improvement, further potential lies in
+the inclusion of fine-tuned language models since the decision process highly depends 
+upon it.
+The intrinsic characteristic of literature as being \textit{non-standard} complicates the task. However, techniques that focus on these features like our module that is specialized on extracting text-specific vocabulary show promising results for e.g. named entity correction.
+
+\section{Acknowledgements}
+We thank the German Ministry of Education and Research (BMBF)  for supporting this research completed within the Center for Reflected Text Analytics (CRETA). Furthermore, we acknowledge the support of our colleagues at Deutsches Textarchiv.
+
+%\section{Acknowledgements}
+%We want to thank the colleagues from \textit{Deutsches Textarchive} for their 
+%support and patience. Thanks are also extended to BMBF for their financial support.
+
+\bibliographystyle{emnlp_natbib}
+\bibliography{OCR}
+
+\end{document}

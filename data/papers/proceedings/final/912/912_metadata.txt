@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#912
+FinalPaperTitle#=%=#End-to-end Neural Coreference Resolution
+ShortPaperTitle#=%=#End-to-end Neural Coreference Resolution
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Kenton Lee
+JobTitle#==#
+Organization#==#University of Washington
+185 E Stevens Way NE, Seattle, WA 98195
+Abstract#==#We introduce the first end-to-end coreference resolution model and show that it
+significantly outperforms all previous work without using a syntactic parser or
+hand-engineered mention detector. The key idea is to directly consider all
+spans in a document as potential mentions and learn distributions over possible
+antecedents for each. The model computes span embeddings that combine
+context-dependent boundary representations with a head-finding attention
+mechanism. It is trained to maximize the marginal likelihood of gold antecedent
+spans from coreference clusters and is factored to enable aggressive pruning of
+potential mentions. Experiments demonstrate state-of-the-art performance, with
+a gain of 1.5 F1 on the OntoNotes benchmark and by 3.1 F1 using a 5-model
+ensemble, despite the fact that this is the first approach to be successfully
+trained with no external resources.
+Author{1}{Firstname}#=%=#Kenton
+Author{1}{Lastname}#=%=#Lee
+Author{1}{Email}#=%=#kentonl@cs.washington.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Luheng
+Author{2}{Lastname}#=%=#He
+Author{2}{Email}#=%=#luheng@uw.edu
+Author{2}{Affiliation}#=%=#University of Washington
+Author{3}{Firstname}#=%=#Mike
+Author{3}{Lastname}#=%=#Lewis
+Author{3}{Email}#=%=#mikelewis0@gmail.com
+Author{3}{Affiliation}#=%=#Facebook AI Research
+Author{4}{Firstname}#=%=#Luke
+Author{4}{Lastname}#=%=#Zettlemoyer
+Author{4}{Email}#=%=#lsz@cs.washington.edu
+Author{4}{Affiliation}#=%=#University of Washington
+
+==========

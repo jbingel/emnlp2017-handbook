@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#277
+FinalPaperTitle#=%=#Memory-augmented Neural Machine Translation
+ShortPaperTitle#=%=#Memory-augmented Neural Machine Translation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yang Feng
+JobTitle#==#
+Organization#==#
+Abstract#==#Neural machine translation (NMT) has achieved notable success in recent times,
+however it is also widely recognized that this approach has limitations with
+handling infrequent words and word pairs. This paper presents a novel
+memory-augmented NMT (M-NMT) architecture, which stores knowledge about how
+words (usually infrequently encountered ones) should be translated in a memory
+and then utilizes them to assist the neural model. We use this memory mechanism
+to combine the knowledge learned from a conventional statistical machine
+translation system and the rules learned by an NMT system, and also propose a
+solution for out-of-vocabulary (OOV) words based on this framework. Our
+experiments on two Chinese-English translation tasks demonstrated that the
+M-NMT architecture outperformed the NMT baseline by $9.0$ and $2.7$ BLEU points
+on the two tasks, respectively. Additionally, we found this architecture
+resulted in a much more effective OOV treatment compared to competitive
+methods.
+Author{1}{Firstname}#=%=#Yang
+Author{1}{Lastname}#=%=#Feng
+Author{1}{Email}#=%=#fengyang@ict.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Computing Technology, Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Shiyue
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#byryuer@gmail.com
+Author{2}{Affiliation}#=%=#BITI
+Author{3}{Firstname}#=%=#Andi
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Email}#=%=#andizhang912@gmail.com
+Author{3}{Affiliation}#=%=#BITI
+Author{4}{Firstname}#=%=#Dong
+Author{4}{Lastname}#=%=#Wang
+Author{4}{Email}#=%=#wangdong99@mails.tsinghua.edu.cn
+Author{4}{Affiliation}#=%=#Tsinghua University
+Author{5}{Firstname}#=%=#Andrew
+Author{5}{Lastname}#=%=#Abel
+Author{5}{Email}#=%=#andrew.abel@xjtlu.edu.cn
+Author{5}{Affiliation}#=%=#Xi'an Jiaotong-Liverpool University
+
+==========

@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#1006
+FinalPaperTitle#=%=#A Sequential Model for Classifying Temporal Relations between Intra-Sentence Events
+ShortPaperTitle#=%=#A Sequential Model for Classifying Temporal Relations between Intra-Sentence Events
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#prafulla kumar choubey
+JobTitle#==#
+Organization#==#Department of Computer Science and Engineering
+Texas A&M University
+College Station, TX 77843-3112 USA
+Abstract#==#We present a sequential model for temporal relation classification between
+intra-sentence events. The key observation is that the overall syntactic
+structure and compositional meanings of the multi-word context between events
+are important for distinguishing among fine-grained temporal relations.
+Specifically, our approach first extracts a sequence of context words that
+indicates the temporal relation between two events, which well align with the
+dependency path between two event mentions. The context word sequence, together
+with a parts-of-speech tag sequence and a dependency relation sequence that are
+generated corresponding to the word sequence, are then provided as input to
+bidirectional recurrent neural network (LSTM) models. The neural nets learn
+compositional syntactic and semantic representations of contexts surrounding
+the two events and predict the temporal relation between them. Evaluation of
+the proposed approach on TimeBank corpus shows that sequential modeling is
+capable of accurately recognizing temporal relations between events, which
+outperforms a neural net model using various discrete features as input that
+imitates previous feature based models.
+Author{1}{Firstname}#=%=#Prafulla Kumar
+Author{1}{Lastname}#=%=#Choubey
+Author{1}{Email}#=%=#prafulla.choubey@tamu.edu
+Author{1}{Affiliation}#=%=#Computer Science and Engineering, Texas A&M University
+Author{2}{Firstname}#=%=#Ruihong
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Email}#=%=#huangrh@cse.tamu.edu
+Author{2}{Affiliation}#=%=#Computer Science and Engineering, Texas A&M University
+
+==========

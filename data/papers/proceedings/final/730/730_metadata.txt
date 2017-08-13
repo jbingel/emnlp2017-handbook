@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#730
+FinalPaperTitle#=%=#Break it Down for Me: A Study in Automated Lyric Annotation
+ShortPaperTitle#=%=#Break it Down for Me: A Study in Automated Lyric Annotation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Lucas Sterckx
+JobTitle#==#
+Organization#==#
+Abstract#==#Comprehending lyrics, as found in songs and poems, can pose a challenge to
+human and machine readers alike.  This motivates the need for systems that can
+understand the ambiguity and jargon found in such creative texts, and provide
+commentary to aid readers in reaching the correct interpretation.
+We introduce the task of automated lyric annotation (ALA).  Like text
+simplification, a goal of ALA is to rephrase the original text in a more easily
+understandable manner. However, in ALA the system must often include additional
+information to clarify niche terminology and abstract concepts. To stimulate
+research on this task, we release a large collection of crowdsourced
+annotations for song lyrics. We analyze the performance of translation and
+retrieval models on this task, measuring performance with both automated and
+human evaluation. We find that each model captures a unique type of information
+important to the task.
+Author{1}{Firstname}#=%=#Lucas
+Author{1}{Lastname}#=%=#Sterckx
+Author{1}{Email}#=%=#lucas.sterckx@ugent.be
+Author{1}{Affiliation}#=%=#Ghent University - imec
+Author{2}{Firstname}#=%=#Jason
+Author{2}{Lastname}#=%=#Naradowsky
+Author{2}{Email}#=%=#jason.narad@gmail.com
+Author{2}{Affiliation}#=%=#University College London
+Author{3}{Firstname}#=%=#Bill
+Author{3}{Lastname}#=%=#Byrne
+Author{3}{Email}#=%=#bill.byrne@eng.cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+Author{4}{Firstname}#=%=#Thomas
+Author{4}{Lastname}#=%=#Demeester
+Author{4}{Email}#=%=#thomas.demeester@ugent.be
+Author{4}{Affiliation}#=%=#Ghent University - iMinds
+Author{5}{Firstname}#=%=#Chris
+Author{5}{Lastname}#=%=#Develder
+Author{5}{Email}#=%=#chris.develder@intec.ugent.be
+Author{5}{Affiliation}#=%=#Ghent University - iMinds
+
+==========

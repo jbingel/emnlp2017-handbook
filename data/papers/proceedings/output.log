@@ -1,0 +1,3372 @@
+initialized directories
+------------------------------------
+unpacked START final submission archive
+------------------------------------
+make db
+tar xfz final.tgz final
+Creating db file ...
+if [ -e "db" ]; then cp -p db db.`perl -e "print time()"`; fi
+/hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl create
+Counting pages for final/7/7_Paper.pdf ...
+Counting pages for final/11/11_Paper.pdf ...
+Counting pages for final/20/20_Paper.pdf ...
+Counting pages for final/22/22_Paper.pdf ...
+Counting pages for final/37/37_Paper.pdf ...
+Counting pages for final/39/39_Paper.pdf ...
+Counting pages for final/43/43_Paper.pdf ...
+Counting pages for final/44/44_Paper.pdf ...
+Counting pages for final/49/49_Paper.pdf ...
+Counting pages for final/65/65_Paper.pdf ...
+Counting pages for final/72/72_Paper.pdf ...
+Counting pages for final/75/75_Paper.pdf ...
+Counting pages for final/76/76_Paper.pdf ...
+Counting pages for final/77/77_Paper.pdf ...
+Counting pages for final/84/84_Paper.pdf ...
+Counting pages for final/102/102_Paper.pdf ...
+Counting pages for final/111/111_Paper.pdf ...
+Counting pages for final/117/117_Paper.pdf ...
+Counting pages for final/119/119_Paper.pdf ...
+Counting pages for final/120/120_Paper.pdf ...
+Counting pages for final/127/127_Paper.pdf ...
+Counting pages for final/128/128_Paper.pdf ...
+Counting pages for final/138/138_Paper.pdf ...
+Counting pages for final/142/142_Paper.pdf ...
+Counting pages for final/147/147_Paper.pdf ...
+Counting pages for final/163/163_Paper.pdf ...
+Counting pages for final/169/169_Paper.pdf ...
+Counting pages for final/170/170_Paper.pdf ...
+Counting pages for final/177/177_Paper.pdf ...
+Counting pages for final/179/179_Paper.pdf ...
+Counting pages for final/188/188_Paper.pdf ...
+Counting pages for final/191/191_Paper.pdf ...
+Counting pages for final/193/193_Paper.pdf ...
+Counting pages for final/194/194_Paper.pdf ...
+Counting pages for final/196/196_Paper.pdf ...
+Counting pages for final/201/201_Paper.pdf ...
+Counting pages for final/204/204_Paper.pdf ...
+Counting pages for final/206/206_Paper.pdf ...
+Counting pages for final/215/215_Paper.pdf ...
+Counting pages for final/223/223_Paper.pdf ...
+Counting pages for final/236/236_Paper.pdf ...
+Counting pages for final/246/246_Paper.pdf ...
+Counting pages for final/247/247_Paper.pdf ...
+Counting pages for final/264/264_Paper.pdf ...
+Counting pages for final/277/277_Paper.pdf ...
+Counting pages for final/281/281_Paper.pdf ...
+Counting pages for final/282/282_Paper.pdf ...
+Counting pages for final/286/286_Paper.pdf ...
+Counting pages for final/294/294_Paper.pdf ...
+Counting pages for final/299/299_Paper.pdf ...
+Counting pages for final/300/300_Paper.pdf ...
+Counting pages for final/301/301_Paper.pdf ...
+Counting pages for final/306/306_Paper.pdf ...
+Counting pages for final/308/308_Paper.pdf ...
+Counting pages for final/313/313_Paper.pdf ...
+Counting pages for final/329/329_Paper.pdf ...
+Counting pages for final/330/330_Paper.pdf ...
+Counting pages for final/336/336_Paper.pdf ...
+Counting pages for final/338/338_Paper.pdf ...
+Counting pages for final/341/341_Paper.pdf ...
+Counting pages for final/343/343_Paper.pdf ...
+Counting pages for final/349/349_Paper.pdf ...
+Counting pages for final/359/359_Paper.pdf ...
+Counting pages for final/361/361_Paper.pdf ...
+Counting pages for final/372/372_Paper.pdf ...
+Counting pages for final/378/378_Paper.pdf ...
+Counting pages for final/380/380_Paper.pdf ...
+Counting pages for final/387/387_Paper.pdf ...
+Counting pages for final/391/391_Paper.pdf ...
+Counting pages for final/392/392_Paper.pdf ...
+Counting pages for final/398/398_Paper.pdf ...
+Counting pages for final/399/399_Paper.pdf ...
+Counting pages for final/400/400_Paper.pdf ...
+Counting pages for final/412/412_Paper.pdf ...
+Counting pages for final/425/425_Paper.pdf ...
+Counting pages for final/427/427_Paper.pdf ...
+Counting pages for final/432/432_Paper.pdf ...
+Counting pages for final/434/434_Paper.pdf ...
+Counting pages for final/435/435_Paper.pdf ...
+Counting pages for final/437/437_Paper.pdf ...
+Counting pages for final/439/439_Paper.pdf ...
+Counting pages for final/445/445_Paper.pdf ...
+Counting pages for final/446/446_Paper.pdf ...
+Counting pages for final/455/455_Paper.pdf ...
+Counting pages for final/457/457_Paper.pdf ...
+Counting pages for final/467/467_Paper.pdf ...
+Counting pages for final/469/469_Paper.pdf ...
+Counting pages for final/472/472_Paper.pdf ...
+Counting pages for final/474/474_Paper.pdf ...
+Counting pages for final/476/476_Paper.pdf ...
+Counting pages for final/477/477_Paper.pdf ...
+Counting pages for final/480/480_Paper.pdf ...
+Counting pages for final/488/488_Paper.pdf ...
+Counting pages for final/493/493_Paper.pdf ...
+Counting pages for final/497/497_Paper.pdf ...
+Counting pages for final/501/501_Paper.pdf ...
+Counting pages for final/504/504_Paper.pdf ...
+Counting pages for final/505/505_Paper.pdf ...
+Counting pages for final/506/506_Paper.pdf ...
+Counting pages for final/516/516_Paper.pdf ...
+Counting pages for final/519/519_Paper.pdf ...
+Counting pages for final/524/524_Paper.pdf ...
+Counting pages for final/529/529_Paper.pdf ...
+Counting pages for final/536/536_Paper.pdf ...
+Counting pages for final/538/538_Paper.pdf ...
+Counting pages for final/539/539_Paper.pdf ...
+Counting pages for final/543/543_Paper.pdf ...
+Counting pages for final/550/550_Paper.pdf ...
+Counting pages for final/552/552_Paper.pdf ...
+Counting pages for final/553/553_Paper.pdf ...
+Counting pages for final/559/559_Paper.pdf ...
+Counting pages for final/566/566_Paper.pdf ...
+Counting pages for final/581/581_Paper.pdf ...
+Counting pages for final/591/591_Paper.pdf ...
+Counting pages for final/600/600_Paper.pdf ...
+Counting pages for final/603/603_Paper.pdf ...
+Counting pages for final/614/614_Paper.pdf ...
+Counting pages for final/617/617_Paper.pdf ...
+Counting pages for final/623/623_Paper.pdf ...
+Counting pages for final/624/624_Paper.pdf ...
+Counting pages for final/625/625_Paper.pdf ...
+Counting pages for final/627/627_Paper.pdf ...
+Counting pages for final/629/629_Paper.pdf ...
+Counting pages for final/633/633_Paper.pdf ...
+Counting pages for final/634/634_Paper.pdf ...
+Counting pages for final/635/635_Paper.pdf ...
+Counting pages for final/637/637_Paper.pdf ...
+Counting pages for final/638/638_Paper.pdf ...
+Counting pages for final/642/642_Paper.pdf ...
+Counting pages for final/644/644_Paper.pdf ...
+Counting pages for final/650/650_Paper.pdf ...
+Counting pages for final/654/654_Paper.pdf ...
+Counting pages for final/659/659_Paper.pdf ...
+Counting pages for final/663/663_Paper.pdf ...
+Counting pages for final/674/674_Paper.pdf ...
+Counting pages for final/679/679_Paper.pdf ...
+Counting pages for final/683/683_Paper.pdf ...
+Counting pages for final/686/686_Paper.pdf ...
+Counting pages for final/689/689_Paper.pdf ...
+Counting pages for final/690/690_Paper.pdf ...
+Counting pages for final/696/696_Paper.pdf ...
+Counting pages for final/697/697_Paper.pdf ...
+Counting pages for final/699/699_Paper.pdf ...
+Counting pages for final/704/704_Paper.pdf ...
+Counting pages for final/705/705_Paper.pdf ...
+Counting pages for final/709/709_Paper.pdf ...
+Counting pages for final/714/714_Paper.pdf ...
+Counting pages for final/716/716_Paper.pdf ...
+Counting pages for final/720/720_Paper.pdf ...
+Counting pages for final/723/723_Paper.pdf ...
+Counting pages for final/730/730_Paper.pdf ...
+Counting pages for final/732/732_Paper.pdf ...
+Counting pages for final/737/737_Paper.pdf ...
+Counting pages for final/744/744_Paper.pdf ...
+Counting pages for final/747/747_Paper.pdf ...
+Counting pages for final/751/751_Paper.pdf ...
+Counting pages for final/754/754_Paper.pdf ...
+Counting pages for final/770/770_Paper.pdf ...
+Counting pages for final/779/779_Paper.pdf ...
+Counting pages for final/785/785_Paper.pdf ...
+Counting pages for final/792/792_Paper.pdf ...
+Counting pages for final/794/794_Paper.pdf ...
+Counting pages for final/797/797_Paper.pdf ...
+Counting pages for final/811/811_Paper.pdf ...
+Counting pages for final/817/817_Paper.pdf ...
+Counting pages for final/820/820_Paper.pdf ...
+Counting pages for final/822/822_Paper.pdf ...
+Counting pages for final/826/826_Paper.pdf ...
+Counting pages for final/836/836_Paper.pdf ...
+Counting pages for final/842/842_Paper.pdf ...
+Counting pages for final/844/844_Paper.pdf ...
+Counting pages for final/852/852_Paper.pdf ...
+Counting pages for final/853/853_Paper.pdf ...
+Counting pages for final/856/856_Paper.pdf ...
+Counting pages for final/857/857_Paper.pdf ...
+Counting pages for final/864/864_Paper.pdf ...
+Counting pages for final/869/869_Paper.pdf ...
+Counting pages for final/871/871_Paper.pdf ...
+Counting pages for final/880/880_Paper.pdf ...
+Counting pages for final/884/884_Paper.pdf ...
+Counting pages for final/888/888_Paper.pdf ...
+Counting pages for final/898/898_Paper.pdf ...
+Counting pages for final/909/909_Paper.pdf ...
+Counting pages for final/912/912_Paper.pdf ...
+Counting pages for final/916/916_Paper.pdf ...
+Counting pages for final/934/934_Paper.pdf ...
+Counting pages for final/938/938_Paper.pdf ...
+Counting pages for final/948/948_Paper.pdf ...
+Counting pages for final/956/956_Paper.pdf ...
+Counting pages for final/959/959_Paper.pdf ...
+Counting pages for final/961/961_Paper.pdf ...
+Counting pages for final/962/962_Paper.pdf ...
+Counting pages for final/963/963_Paper.pdf ...
+Counting pages for final/970/970_Paper.pdf ...
+Counting pages for final/971/971_Paper.pdf ...
+Counting pages for final/977/977_Paper.pdf ...
+Counting pages for final/982/982_Paper.pdf ...
+Counting pages for final/986/986_Paper.pdf ...
+Counting pages for final/988/988_Paper.pdf ...
+Counting pages for final/990/990_Paper.pdf ...
+Counting pages for final/992/992_Paper.pdf ...
+Counting pages for final/994/994_Paper.pdf ...
+Counting pages for final/996/996_Paper.pdf ...
+Counting pages for final/1005/1005_Paper.pdf ...
+Counting pages for final/1006/1006_Paper.pdf ...
+Counting pages for final/1011/1011_Paper.pdf ...
+Counting pages for final/1013/1013_Paper.pdf ...
+Counting pages for final/1017/1017_Paper.pdf ...
+Counting pages for final/1019/1019_Paper.pdf ...
+Counting pages for final/1022/1022_Paper.pdf ...
+Counting pages for final/1023/1023_Paper.pdf ...
+Counting pages for final/1026/1026_Paper.pdf ...
+Counting pages for final/1033/1033_Paper.pdf ...
+Counting pages for final/1035/1035_Paper.pdf ...
+Counting pages for final/1037/1037_Paper.pdf ...
+Counting pages for final/1042/1042_Paper.pdf ...
+Counting pages for final/1043/1043_Paper.pdf ...
+Counting pages for final/1044/1044_Paper.pdf ...
+Counting pages for final/1046/1046_Paper.pdf ...
+Counting pages for final/1047/1047_Paper.pdf ...
+Counting pages for final/1048/1048_Paper.pdf ...
+Counting pages for final/1056/1056_Paper.pdf ...
+Counting pages for final/1062/1062_Paper.pdf ...
+Counting pages for final/1073/1073_Paper.pdf ...
+Counting pages for final/1075/1075_Paper.pdf ...
+Counting pages for final/1076/1076_Paper.pdf ...
+Counting pages for final/1077/1077_Paper.pdf ...
+Counting pages for final/1079/1079_Paper.pdf ...
+Counting pages for final/1082/1082_Paper.pdf ...
+Counting pages for final/1085/1085_Paper.pdf ...
+Counting pages for final/1087/1087_Paper.pdf ...
+Counting pages for final/1094/1094_Paper.pdf ...
+Counting pages for final/1113/1113_Paper.pdf ...
+Counting pages for final/1118/1118_Paper.pdf ...
+Counting pages for final/1126/1126_Paper.pdf ...
+Counting pages for final/1127/1127_Paper.pdf ...
+Counting pages for final/1131/1131_Paper.pdf ...
+Counting pages for final/1132/1132_Paper.pdf ...
+Counting pages for final/1134/1134_Paper.pdf ...
+Counting pages for final/1138/1138_Paper.pdf ...
+Counting pages for final/1145/1145_Paper.pdf ...
+Counting pages for final/1151/1151_Paper.pdf ...
+ls: cannot access final/1157/*Paper.pdf: No such file or directory
+paper 1157: file missing
+Counting pages for final/1159/1159_Paper.pdf ...
+Counting pages for final/1161/1161_Paper.pdf ...
+Counting pages for final/1163/1163_Paper.pdf ...
+Counting pages for final/1165/1165_Paper.pdf ...
+Counting pages for final/1169/1169_Paper.pdf ...
+Counting pages for final/1176/1176_Paper.pdf ...
+Counting pages for final/1184/1184_Paper.pdf ...
+Counting pages for final/1188/1188_Paper.pdf ...
+Counting pages for final/1195/1195_Paper.pdf ...
+Counting pages for final/1197/1197_Paper.pdf ...
+Counting pages for final/1211/1211_Paper.pdf ...
+Counting pages for final/1213/1213_Paper.pdf ...
+Counting pages for final/1219/1219_Paper.pdf ...
+Counting pages for final/1222/1222_Paper.pdf ...
+Counting pages for final/1223/1223_Paper.pdf ...
+Counting pages for final/1229/1229_Paper.pdf ...
+Counting pages for final/1236/1236_Paper.pdf ...
+Counting pages for final/1249/1249_Paper.pdf ...
+Counting pages for final/1250/1250_Paper.pdf ...
+Counting pages for final/1254/1254_Paper.pdf ...
+Counting pages for final/1255/1255_Paper.pdf ...
+Counting pages for final/1260/1260_Paper.pdf ...
+Counting pages for final/1270/1270_Paper.pdf ...
+Counting pages for final/1274/1274_Paper.pdf ...
+Counting pages for final/1281/1281_Paper.pdf ...
+Counting pages for final/1288/1288_Paper.pdf ...
+Counting pages for final/1289/1289_Paper.pdf ...
+Counting pages for final/1295/1295_Paper.pdf ...
+Counting pages for final/1296/1296_Paper.pdf ...
+Counting pages for final/1297/1297_Paper.pdf ...
+Counting pages for final/1298/1298_Paper.pdf ...
+Counting pages for final/1299/1299_Paper.pdf ...
+Counting pages for final/1301/1301_Paper.pdf ...
+Counting pages for final/1302/1302_Paper.pdf ...
+Counting pages for final/1305/1305_Paper.pdf ...
+Counting pages for final/1310/1310_Paper.pdf ...
+Counting pages for final/1318/1318_Paper.pdf ...
+Counting pages for final/1321/1321_Paper.pdf ...
+Counting pages for final/1324/1324_Paper.pdf ...
+Counting pages for final/1326/1326_Paper.pdf ...
+Counting pages for final/1327/1327_Paper.pdf ...
+Counting pages for final/1333/1333_Paper.pdf ...
+Counting pages for final/1344/1344_Paper.pdf ...
+Counting pages for final/1355/1355_Paper.pdf ...
+Counting pages for final/1356/1356_Paper.pdf ...
+Counting pages for final/1363/1363_Paper.pdf ...
+Counting pages for final/1367/1367_Paper.pdf ...
+Counting pages for final/1372/1372_Paper.pdf ...
+Counting pages for final/1376/1376_Paper.pdf ...
+Counting pages for final/1377/1377_Paper.pdf ...
+Counting pages for final/1380/1380_Paper.pdf ...
+Counting pages for final/1381/1381_Paper.pdf ...
+Counting pages for final/1388/1388_Paper.pdf ...
+Counting pages for final/1396/1396_Paper.pdf ...
+Counting pages for final/1397/1397_Paper.pdf ...
+Counting pages for final/1399/1399_Paper.pdf ...
+Counting pages for final/1400/1400_Paper.pdf ...
+Counting pages for final/1403/1403_Paper.pdf ...
+Counting pages for final/1405/1405_Paper.pdf ...
+Counting pages for final/1407/1407_Paper.pdf ...
+Counting pages for final/1408/1408_Paper.pdf ...
+Counting pages for final/1411/1411_Paper.pdf ...
+Counting pages for final/1415/1415_Paper.pdf ...
+Counting pages for final/1416/1416_Paper.pdf ...
+Counting pages for final/1417/1417_Paper.pdf ...
+Counting pages for final/1419/1419_Paper.pdf ...
+Counting pages for final/1420/1420_Paper.pdf ...
+Counting pages for final/1424/1424_Paper.pdf ...
+Counting pages for final/1430/1430_Paper.pdf ...
+Counting pages for final/1436/1436_Paper.pdf ...
+Counting pages for final/1443/1443_Paper.pdf ...
+Counting pages for final/1446/1446_Paper.pdf ...
+Counting pages for final/1459/1459_Paper.pdf ...
+Counting pages for final/1462/1462_Paper.pdf ...
+Counting pages for final/1464/1464_Paper.pdf ...
+ls: cannot access final/1468/*Paper.pdf: No such file or directory
+paper 1468: file missing
+Counting pages for final/1470/1470_Paper.pdf ...
+Counting pages for final/1495/1495_Paper.pdf ...
+Counting pages for final/1501/1501_Paper.pdf ...
+Counting pages for final/1511/1511_Paper.pdf ...
+ls: cannot access final/1525/*Paper.pdf: No such file or directory
+paper 1525: file missing
+ls: cannot access final/1526/*Paper.pdf: No such file or directory
+paper 1526: file missing
+ls: cannot access final/1527/*Paper.pdf: No such file or directory
+paper 1527: file missing
+ls: cannot access final/1529/*Paper.pdf: No such file or directory
+paper 1529: file missing
+ls: cannot access final/1530/*Paper.pdf: No such file or directory
+paper 1530: file missing
+ls: cannot access final/1531/*Paper.pdf: No such file or directory
+paper 1531: file missing
+ls: cannot access final/1532/*Paper.pdf: No such file or directory
+paper 1532: file missing
+ls: cannot access final/1533/*Paper.pdf: No such file or directory
+paper 1533: file missing
+ls: cannot access final/1534/*Paper.pdf: No such file or directory
+paper 1534: file missing
+Note: You may want to create an order file	with "make get-order"
+------------------------------------
+Fixed margins in the db file
+------------------------------------
+make get-order
+/hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl get-order > order
+Now you can edit the order file if you like.
+------------------------------------
+created the order file from the Schedule Maker
+------------------------------------
+created the meta file
+------------------------------------
+touched the order file
+------------------------------------
+make draft
+echo '\def\draftflag{1}' > draftflag.sty
+cp /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/templates/book.tex book.tex  # !!! shouldn't just copy
+cp /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/templates/citation-stamp.tex citation-stamp.tex  # !!! shouldn't just copy
+cp /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/templates/titlepage.tex titlepage.tex  # !!! shouldn't just copy
+quietly running pdflatex titlepage.tex ...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ \write18 enabled.
+ %&-line parsing enabled.
+entering extended mode
+cp /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/templates/copyright.tex copyright.tex  # !!! shouldn't just copy
+quietly running pdflatex copyright.tex ...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ \write18 enabled.
+ %&-line parsing enabled.
+entering extended mode
+cp /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/templates/preface.tex preface.tex  # !!! shouldn't just copy
+quietly running pdflatex preface.tex ...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ \write18 enabled.
+ %&-line parsing enabled.
+entering extended mode
+cp /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/templates/organizers.tex organizers.tex  # !!! shouldn't just copy
+quietly running pdflatex organizers.tex ...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ \write18 enabled.
+ %&-line parsing enabled.
+entering extended mode
+Restructuring db file based on order file ...
+/hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl generate-tex toc
+generating toc...
+/hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl generate-tex program
+generating program...
+/hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl join-papers 2 
+quietly running pdflatex book.tex ...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ \write18 enabled.
+ %&-line parsing enabled.
+entering extended mode
+makeindex book
+This is makeindex, version 2.14 [02-Oct-2002] (kpathsea + Thai support).
+Scanning input file book.idx.....done (1124 entries accepted, 0 rejected).
+Sorting entries............done (12787 comparisons).
+Generating output file book.ind.....done (1034 lines written, 0 warnings).
+Output written in book.ind.
+Transcript written in book.ilg.
+quietly running pdflatex book.tex ...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ \write18 enabled.
+ %&-line parsing enabled.
+entering extended mode
+------------------------------------
+make shipout
+echo '\def\draftflag{0}' > draftflag.sty
+/hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl join-papers final
+You may now edit allpapers.tex if you like.
+quietly running pdflatex book.tex ...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ \write18 enabled.
+ %&-line parsing enabled.
+entering extended mode
+makeindex book
+This is makeindex, version 2.14 [02-Oct-2002] (kpathsea + Thai support).
+Scanning input file book.idx.....done (1124 entries accepted, 0 rejected).
+Sorting entries............done (12787 comparisons).
+Generating output file book.ind.....done (1034 lines written, 0 warnings).
+Output written in book.ind.
+Transcript written in book.ilg.
+quietly running pdflatex book.tex ...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ \write18 enabled.
+ %&-line parsing enabled.
+entering extended mode
+------------------------------------
+make cdrom
+cp /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/templates/cdrom-root-files/*.css .  
+creating HTML program ...
+/hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/program-html.pl db meta > cdrom/program.html
+cp /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/templates/cdrom-root-files/*.css .  
+creating author index page ...
+/hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/authors.pl db meta > cdrom/authors.html
+&oslash;vrelid, lilja
+andersen, &oslash;istein e.
+s&oslash;gaard, anders
+cp /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/templates/cdrom-root-files/*.css .  
+rm -rf cdrom/bib
+creating bib files ...
+/hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/bib.pl db meta
+cp /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/templates/cdrom-root-files/*.css .  
+creating pdf files ...
+/hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl create-cd < meta
+Don't know how to translate \o to PDF metadata; deleting it at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/db-to-pdfmetadata.pl line 288, <> line 1616.
+Don't know how to translate \O to PDF metadata; deleting it at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/db-to-pdfmetadata.pl line 288, <> line 1823.
+Don't know how to translate \o to PDF metadata; deleting it at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/db-to-pdfmetadata.pl line 288, <> line 2437.
+Don't know how to translate \O to PDF metadata; deleting it at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/db-to-pdfmetadata.pl line 288, <> line 2817.
+linking proceedings volume...
+producing front matter...
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 418, <STDIN> line 10.
+creating pdf files stamped with citation info...
+PDF meta-data:
+  title: Monolingual Phrase Alignment on Parse Forests
+  author(s): Yuki Arase ; Jun'ichi Tsujii
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Fast(er) Exact Decoding and Global Training for Transition-Based Dependency Parsing via a Minimal Feature Set
+  author(s): Tianze Shi ; Liang Huang ; Lillian Lee
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Quasi-Second-Order Parsing for 1-Endpoint-Crossing, Pagenumber-2 Graphs
+  author(s): Junjie Cao ; Sheng Huang ; Weiwei Sun ; Xiaojun Wan
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Position-aware Attention and Supervised Data Improve Slot Filling
+  author(s): Yuhao Zhang ; Victor Zhong ; Danqi Chen ; Gabor Angeli ; Christopher D. Manning
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Heterogeneous Supervision for Relation Extraction: A Representation Learning Approach
+  author(s): Liyuan Liu ; Xiang Ren ; Qi Zhu ; Shi Zhi ; Huan Gui ; Heng Ji ; Jiawei Han
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Integrating Order Information and Event Relation for Script Event Prediction
+  author(s): Zhongqing Wang ; Yue Zhang ; Ching-Yun Chang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Entity Linking for Queries by Searching Wikipedia Sentences
+  author(s): Chuanqi Tan ; Furu Wei ; Pengjie Ren ; Weifeng Lv ; Ming Zhou
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Train-O-Matic: Large-Scale Supervised Word Sense Disambiguation in Multiple Languages without Manual Training Data
+  author(s): Tommaso Pasini ; Roberto Navigli
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Universal Semantic Parsing
+  author(s): Siva Reddy ; Oscar Tackstrom ; Slav Petrov ; Mark Steedman ; Mirella Lapata
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Mimicking Word Embeddings using Subword RNNs
+  author(s): Yuval Pinter ; Robert Guthrie ; Jacob Eisenstein
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Past, Present, Future: A Computational Investigation of the Typology of Tense in 1000 Languages
+  author(s): Ehsaneddin Asgari ; Hinrich Schutze
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Neural Machine Translation with Source-Side Latent Graph Parsing
+  author(s): Kazuma Hashimoto ; Yoshimasa Tsuruoka
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Neural Machine Translation with Word Predictions
+  author(s): Rongxiang Weng ; Shujian Huang ; Zaixiang Zheng ; XIN-YU DAI ; Jiajun CHEN
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Towards Decoding as Continuous Optimisation in Neural Machine Translation
+  author(s): Cong Duy Vu Hoang ; Gholamreza Haffari ; Trevor Cohn
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Where is Misty? Interpreting Spatial Descriptors by Modeling Regions in Space
+  author(s): Nikita Kitaev ; Dan Klein
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Continuous Representation of Location for Geolocation and Lexical Dialectology using Mixture Density Networks
+  author(s): Afshin Rahimi ; Timothy Baldwin ; Trevor Cohn
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Obj2Text: Generating Visually Descriptive Language from Object Layouts
+  author(s): Xuwang Yin ; Vicente Ordonez
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: End-to-end Neural Coreference Resolution
+  author(s): Kenton Lee ; Luheng He ; Mike Lewis ; Luke Zettlemoyer
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Neural Net Models of Open-domain Discourse Coherence
+  author(s): Jiwei Li ; Dan Jurafsky
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Affinity-Preserving Random Walk for Multi-Document Summarization
+  author(s): Kexiang Wang ; Tianyu Liu ; Zhifang Sui ; Baobao Chang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Mention-Ranking Model for Abstract Anaphora Resolution
+  author(s): Ana Marasovic ; Leo Born ; Juri Opitz ; Anette Frank
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Hierarchical Embeddings for Hypernymy Detection and Directionality
+  author(s): Kim Anh Nguyen ; Maximilian Koper ; Sabine Schulte im Walde ; Ngoc Thang Vu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Ngram2vec: Learning Improved Word Representations from Ngram Co-occurrence Statistics
+  author(s): Zhe Zhao ; Tao Liu ; Shen Li ; Bofang Li ; Xiaoyong Du
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Dict2vec : Learning Word Embeddings using Lexical Dictionaries
+  author(s): Julien Tissier ; Christopher Gravier ; Amaury Habrard
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Learning Chinese Word Representations From Glyphs Of Characters
+  author(s): Tzu-ray Su ; Hung-yi Lee
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Learning Paraphrastic Sentence Embeddings from Back-Translated Bitext
+  author(s): John Wieting ; Jonathan Mallinson ; Kevin Gimpel
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Joint Embeddings of Chinese Words, Characters, and Fine-grained Subcharacter Components
+  author(s): Jinxing Yu ; Xun Jian ; Hao Xin ; Yangqiu Song
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Exploiting Morphological Regularities in Distributional Word Representations
+  author(s): Arihant Gupta ; Syed Sarfaraz Akhtar ; Avijit Vajpayee ; Arjit Srivastava ; Madan Gopal Jhanwar ; Manish Shrivastava
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Exploiting Word Internal Structures for Generic Chinese Sentence Representation
+  author(s): Shaonan Wang ; Jiajun Zhang ; Chengqing Zong
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: High-risk learning: acquiring new word vectors from tiny data
+  author(s): Aurelie Herbelot ; Marco Baroni
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Word Embeddings based on Fixed-Size Ordinally Forgetting Encoding
+  author(s): Joseph Sanu ; Mingbin Xu ; Hui Jiang ; Quan Liu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: VecShare: A Framework for Sharing Word Representation Vectors
+  author(s): Jared Fernandez ; Zhaocheng Yu ; Doug Downey
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Word Re-Embedding via Manifold Dimensionality Retention
+  author(s): Souleiman Hasan ; Edward Curry
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: MUSE: Modularizing Unsupervised Sense Embeddings
+  author(s): Guang-He Lee ; Yun-Nung Chen
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Reporting Score Distributions Makes a Difference: Performance Study of LSTM-networks for Sequence Tagging
+  author(s): Nils Reimers ; Iryna Gurevych
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Learning What's Easy: Fully Differentiable Neural Easy-First Taggers
+  author(s): Andre F. T. Martins ; Julia Kreutzer
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Incremental Skip-gram Model with Negative Sampling
+  author(s): Nobuhiro Kaji ; Hayato Kobayashi
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Learning to select data for transfer learning with Bayesian Optimization
+  author(s): Sebastian Ruder ; Barbara Plank
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Unsupervised Pretraining for Sequence to Sequence Learning
+  author(s): Prajit Ramachandran ; Peter Liu ; Quoc Le
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Efficient Attention using a Fixed-Size Memory Representation
+  author(s): Denny Britz ; Melody Guan ; Minh-Thang Luong
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Rotated Word Vector Representations and their Interpretability
+  author(s): Sungjoon Park ; JinYeong Bak ; Alice Oh
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A causal framework for explaining the predictions of black-box sequence-to-sequence models
+  author(s): David Alvarez-Melis ; Tommi Jaakkola
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Piecewise Latent Variables for Neural Variational Text Processing
+  author(s): Iulian Vlad Serban ; Alexander G. Ororbia ; Joelle Pineau ; Aaron Courville
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Learning the Structure of Variable-Order CRFs: a finite-state perspective
+  author(s): Thomas Lavergne ; Francois Yvon
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Sparse Communication for Distributed Gradient Descent
+  author(s): Alham Fikri Aji ; Kenneth Heafield
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks
+  author(s): Kazuma Hashimoto ; caiming xiong ; Yoshimasa Tsuruoka ; Richard Socher
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Why ADAGRAD Fails for Online Topic Modeling
+  author(s): You Lu ; Jeffrey Lund ; Jordan Boyd-Graber
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Recurrent Attention Network on Memory for Aspect Sentiment Analysis
+  author(s): Peng Chen ; Zhongqian Sun ; Lidong Bing ; Wei Yang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Cognition Based Attention Model for Sentiment Analysis
+  author(s): Yunfei Long ; Lu Qin ; Rong Xiang ; Minglei Li ; Chu-Ren Huang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Author-aware Aspect Topic Sentiment Model to Retrieve Supporting Opinions from Reviews
+  author(s): Lahari Poddar ; Wynne Hsu ; Mong Li Lee
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Magnets for Sarcasm: Making Sarcasm Detection Timely, Contextual and Very Personal
+  author(s): Aniruddha Ghosh ; Tony Veale
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Identifying Humor in Reviews using Background Text Sources
+  author(s): Alex Morales ; Chengxiang Zhai
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Sentiment Lexicon Construction with Representation Learning Based on Hierarchical Sentiment Supervision
+  author(s): Leyi Wang ; Rui Xia
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Towards a Universal Sentiment Classifier in Multiple languages
+  author(s): Kui Xu ; Xiaojun Wan
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Capturing User and Product Information for Document Level Sentiment Analysis with Deep Memory Network
+  author(s): Zi-Yi Dou
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Identifying and Tracking Sentiments and Topics from Social Media Texts during Natural Disasters
+  author(s): Min Yang ; Jincheng Mei ; Heng Ji ; zhao wei ; Zhou Zhao ; Xiaojun Chen
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Refining Word Embeddings for Sentiment Analysis
+  author(s): Liang-Chih Yu ; Jin Wang ; K. Robert Lai ; Xuejie Zhang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Multilayer Perceptron based Ensemble Technique for Fine-grained Financial Sentiment Analysis
+  author(s): Md Shad Akhtar ; Abhishek Kumar ; Deepanway Ghosal ; Asif Ekbal ; Pushpak Bhattacharyya
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Sentiment Intensity Ranking among Adjectives Using Sentiment Bearing Word Embeddings
+  author(s): Raksha Sharma ; Arpan Somani ; Lakshya Kumar ; Pushpak Bhattacharyya
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Sentiment Lexicon Expansion Based on Neural PU Learning, Double Dictionary Lookup, and Polarity Association
+  author(s): Yasheng Wang ; Yang Zhang ; Bing Liu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: DeepPath: A Reinforcement Learning Method for Knowledge Graph Reasoning
+  author(s): Wenhan Xiong ; Thien Hoang ; William Yang Wang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Task-Oriented Query Reformulation with Reinforcement Learning
+  author(s): Rodrigo Nogueira ; Kyunghyun Cho
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Sentence Simplification with Deep Reinforcement Learning
+  author(s): Xingxing Zhang ; Mirella Lapata
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Learning how to Active Learn: A Deep Reinforcement Learning Approach
+  author(s): Meng Fang ; Yuan Li ; Trevor Cohn
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Split and Rephrase
+  author(s): Shashi Narayan ; Claire Gardent ; Shay B. Cohen ; Anastasia Shimorina
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Neural Response Generation via GAN with an Approximate Embedding Layer
+  author(s): Zhen Xu ; Bingquan Liu ; Baoxun Wang ; Chengjie SUN ; Xiaolong Wang ; Zhuoran Wang ; Chao Qi
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Hybrid Convolutional Variational Autoencoder for Text Generation
+  author(s): Stanislau Semeniuta ; Aliaksei Severyn ; Erhardt Barth
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Filling the Blanks (hint: plural noun) for Mad Libs Humor
+  author(s): Nabil Hossain ; John Krumm ; Lucy Vanderwende ; Eric Horvitz ; Henry Kautz
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Measuring Thematic Fit with Distributional Feature Overlap
+  author(s): Enrico Santus ; Emmanuele Chersoni ; Alessandro Lenci ; Philippe Blache
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: SCDV : Sparse Composite Document Vectors using soft clustering over distributional representations
+  author(s): Dheeraj Mekala ; Vivek Gupta ; Bhargavi Paranjape ; Harish Karnick
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Supervised Learning of Universal Sentence Representations from Natural Language Inference Data
+  author(s): Alexis Conneau ; Douwe Kiela ; Holger Schwenk ; Loic Barrault ; Antoine Bordes
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Determining Semantic Textual Similarity using Natural Deduction Proofs
+  author(s): Hitomi Yanaka ; Koji Mineshima ; Pascual Martinez-Gomez ; Daisuke Bekki
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Multi-Grained Chinese Word Segmentation
+  author(s): Chen Gong ; Zhenghua Li ; Min Zhang ; Xinzhou Jiang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Don't Throw Those Morphological Analyzers Away Just Yet: Neural Morphological Disambiguation for Arabic
+  author(s): Nasser Zalmout ; Nizar Habash
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Paradigm Completion for Derivational Morphology
+  author(s): Ryan Cotterell ; Ekaterina Vylomova ; Huda Khayrallah ; Christo Kirov ; David Yarowsky
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Sub-Character Architecture for Korean Language Processing
+  author(s): Karl Stratos
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Do LSTMs really work so well for PoS tagging? - A replication study
+  author(s): Tobias Horsmann ; Torsten Zesch
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: The Labeled Segmentation of Printed Books
+  author(s): Lara McConnaughey ; Jennifer Dai ; David Bamman
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Cross-lingual Character-Level Neural Morphological Tagging
+  author(s): Ryan Cotterell ; Georg Heigold
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Word-Context Character Embeddings for Chinese Word Segmentation
+  author(s): Hao Zhou ; Zhenting Yu ; Yue Zhang ; Shujian Huang ; XIN-YU DAI ; Jiajun Chen
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Segmentation-Free Word Embedding for Unsegmented Languages
+  author(s): Takamasa Oshikiri
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: From Textbooks to Knowledge: A Case Study in Harvesting Axiomatic Knowledge from Textbooks to Solve Geometry Problems
+  author(s): Mrinmaya Sachan ; Kumar Dubey ; Eric Xing
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: RACE: Large-scale ReAding Comprehension Dataset From Examinations
+  author(s): Guokun Lai ; Qizhe Xie ; Hanxiao Liu ; Yiming Yang ; Eduard Hovy
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Beyond Sentential Semantic Parsing: Tackling the Math SAT with a Cascade of Tree Transducers
+  author(s): Mark Hopkins ; Cristian Petrescu-Prahova ; Roie Levin ; Ronan Le Bras ; Alvaro Herrasti ; Vidur Joshi
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Learning Fine-Grained Expressions to Solve Math Word Problems
+  author(s): Danqing Huang ; Shuming Shi ; Chin-Yew Lin ; Jian Yin
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Structural Embedding of Syntactic Trees for Machine Comprehension
+  author(s): Rui Liu ; Junjie Hu ; Wei Wei ; Zi Yang ; Eric Nyberg
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: World Knowledge for Reading Comprehension: Rare Entity Prediction with Hierarchical LSTMs Using External Descriptions
+  author(s): Teng Long ; Emmanuel Bengio ; Ryan Lowe ; Jackie Chi Kit Cheung ; Doina Precup
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Two-Stage Synthesis Networks for Transfer Learning in Machine Comprehension
+  author(s): David Golub ; Po-Sen Huang ; Xiaodong He ; Li Deng
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Deep Neural Solver for Math Word Problems
+  author(s): Yan Wang ; Xiaojiang Liu ; Shuming Shi
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Latent Space Embedding for Retrieval in Question-Answer Archives
+  author(s): Deepak P ; Dinesh Garg ; Shirish Shevade
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Question Generation for Question Answering
+  author(s): Nan Duan ; Duyu Tang ; Peng Chen ; Ming Zhou
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Learning to Paraphrase for Question Answering
+  author(s): Li Dong ; Jonathan Mallinson ; Siva Reddy ; Mirella Lapata
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture
+  author(s): Yuanliang Meng ; Anna Rumshisky ; Alexey Romanov
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Ranking Kernels for Structures and Embeddings: A Hybrid Preference and Classification Model
+  author(s): Kateryna Tymoshenko ; Daniele Bonadiman ; Alessandro Moschitti
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Recovering Question Answering Errors via Query Revision
+  author(s): Semih Yavuz ; Izzeddin Gur ; Yu Su ; Xifeng Yan
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: An empirical study on the effectiveness of images in Multimodal Neural Machine Translation
+  author(s): Jean-Benoit Delbrouck ; Stephane Dupont
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Sound-Word2Vec: Learning Word Representations Grounded in Sounds
+  author(s): Ashwin Vijayakumar ; Ramakrishna Vedantam ; Devi Parikh
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: The Promise of Premise: Harnessing Question Premises in Visual Question Answering
+  author(s): Aroma Mahendru ; Viraj Prabhu ; Akrit Mohapatra ; Dhruv Batra ; Stefan Lee
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Guided Open Vocabulary Image Captioning with Constrained Beam Search
+  author(s): Peter Anderson ; Basura Fernando ; Mark Johnson ; Stephen Gould
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Zero-Shot Activity Recognition with Verb Attribute Induction
+  author(s): Rowan Zellers ; Yejin Choi
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Deriving continous grounded meaning representations from referentially structured multimodal contexts
+  author(s): Sina Zarriess ; David Schlangen
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Hierarchically-Attentive RNN for Album Summarization and Storytelling
+  author(s): Licheng Yu ; Mohit Bansal ; Tamara Berg
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Video Highlight Prediction Using Audience Chat Reactions
+  author(s): Cheng-Yang Fu ; Joon Lee ; Mohit Bansal ; Alexander Berg
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Reinforced Video Captioning with Entailment Rewards
+  author(s): Ramakanth Pasunuru ; Mohit Bansal
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Evaluating Hierarchies of Verb Argument Structure with Hierarchical Clustering
+  author(s): Jesse Mu ; Joshua K. Hartshorne ; Timothy O'Donnell
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Incorporating Global Visual Features into Attention-based Neural Machine Translation.
+  author(s): Iacer Calixto ; Qun Liu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Mapping Instructions and Visual Observations to Actions with Reinforcement Learning
+  author(s): Dipendra Misra ; John Langford ; Yoav Artzi
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: An analysis of eye-movements during reading for the detection of mild cognitive impairment
+  author(s): Kathleen C. Fraser ; Kristina Lundholm Fors ; Dimitrios Kokkinakis ; Arto Nordlund
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Structured Learning Approach to Temporal Relation Extraction
+  author(s): Qiang Ning ; Zhili Feng ; Dan Roth
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Importance sampling for unbiased on-demand evaluation of knowledge base population
+  author(s): Arun Chaganty ; Ashwin Paranjape ; Percy Liang ; Christopher D. Manning
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: PACRR: A Position-Aware Neural IR Model for Relevance Matching
+  author(s): Kai Hui ; Andrew Yates ; Klaus Berberich ; Gerard de Melo
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Globally Normalized Reader
+  author(s): Jonathan Raiman ; John Miller
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Speech segmentation with a neural encoder model of working memory
+  author(s): Micha Elsner ; Cory Shain
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Speaking, Seeing, Understanding: Correlating semantic models with conceptual representation in the brain
+  author(s): Luana Bulat ; Stephen Clark ; Ekaterina Shutova
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Multi-modal Summarization for Asynchronous Collection of Text, Image, Audio and Video
+  author(s): Haoran Li ; Junnan Zhu ; Cong Ma ; Jiajun Zhang ; Chengqing Zong
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Tensor Fusion Network for Multimodal Sentiment Analysis
+  author(s): Amir Zadeh ; Minghai Chen ; Soujanya Poria ; Erik Cambria ; Louis-Philippe Morency
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: ConStance: Modeling Annotation Contexts to Improve Stance Classification
+  author(s): Kenneth Joseph ; Lisa Friedland ; William Hobbs ; David Lazer ; Oren Tsur
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Deeper Attention to Abusive User Content Moderation
+  author(s): John Pavlopoulos ; Prodromos Malakasiotis ; Ion Androutsopoulos
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Outta Control: Laws of Semantic Change and Inherent Biases in Word Representation Models
+  author(s): haim dubossarsky ; Daphna Weinshall ; Eitan Grossman
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Human Centered NLP with User-Factor Adaptation
+  author(s): Veronica Lynn ; Youngseo Son ; Vivek Kulkarni ; Niranjan Balasubramanian ; H. Andrew Schwartz
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Neural Sequence Learning Models for Word Sense Disambiguation
+  author(s): Alessandro Raganato ; Claudio Delli Bovi ; Roberto Navigli
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Learning Word Relatedness over Time
+  author(s): Guy D. Rosin ; Eytan Adar ; Kira Radinsky
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Inter-Weighted Alignment Network for Sentence Pair Modeling
+  author(s): Gehui Shen ; Yunlun Yang ; Zhi-Hong Deng
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Short Survey on Taxonomy Learning from Text Corpora: Issues, Resources and Recent Advances
+  author(s): Chengyu Wang ; Xiaofeng He ; Aoying Zhou
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Idiom-Aware Compositional Distributed Semantics
+  author(s): Pengfei Liu ; Kaiyu Qian ; Xipeng Qiu ; Xuanjing Huang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Macro Grammars and Holistic Triggering for Efficient Semantic Parsing
+  author(s): Yuchen Zhang ; Panupong Pasupat ; Percy Liang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Continuously Growing Dataset of Sentential Paraphrases
+  author(s): Wuwei Lan ; Siyu Qiu ; Hua He ; Wei Xu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Cross-domain Semantic Parsing via Paraphrasing
+  author(s): Yu Su ; Xifeng Yan
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Joint Sequential and Relational Model for Frame-Semantic Parsing
+  author(s): Bishan Yang ; Tom Mitchell
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Getting the Most out of AMR Parsing
+  author(s): Chuan Wang ; Nianwen Xue
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: AMR Parsing using Stack-LSTMs
+  author(s): Miguel Ballesteros ; Yaser Al-Onaizan
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: An End-to-End Deep Framework for Answer Triggering with a Novel Group-Level Objective
+  author(s): Jie Zhao ; Yu Su ; Ziyu Guan ; Huan Sun
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Predicting Word Association Strengths
+  author(s): Andrew Cattle ; Xiaojuan Ma
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Learning Contextually Informed Representations for Linear-Time Discourse Parsing
+  author(s): Yang Liu ; Mirella Lapata
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Multi-task Attention-based Neural Networks for Implicit Discourse Relationship Representation and Identification
+  author(s): Man Lan ; Jianxiang Wang ; Yuanbin Wu ; Zheng-Yu Niu ; Haifeng Wang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Chinese Zero Pronoun Resolution with Deep Memory Network
+  author(s): Qingyu Yin ; Yu Zhang ; Weinan Zhang ; Ting Liu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: How much progress have we made on RST discourse parsing? A replication study of recent results on the RST-DT
+  author(s): Mathieu Morey ; Philippe Muller ; Nicholas Asher
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: What is it? Disambiguating the different readings of the pronoun ‘it’
+  author(s): Sharid Loaiciga ; Liane Guillou ; Christian Hardmeier
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Revisiting Selectional Preferences for Coreference Resolution
+  author(s): Benjamin Heinzerling ; Nafise Sadat Moosavi ; Michael Strube
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Learning to Rank Semantic Coherence for Topic Segmentation
+  author(s): Liang Wang ; Sujian Li ; Yajuan Lv ; Houfeng WANG
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: GRASP: Rich Patterns for Argumentation Mining
+  author(s): Eyal Shnarch ; Ran Levy ; Vikas Raykar ; Noam Slonim
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Patterns of Argumentation Strategies across Topics
+  author(s): Khalid Al Khatib ; Henning Wachsmuth ; Matthias Hagen ; Benno Stein
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Using Argument-based Features to Predict and Analyse Review Helpfulness
+  author(s): Haijing Liu ; Yang Gao ; Pin Lv ; Mengxue Li ; Shiqiang Geng ; Minglan Li ; Hao Wang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Here's My Point: Joint Pointer Architecture for Argument Mining
+  author(s): Peter Potash ; Alexey Romanov ; Anna Rumshisky
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Identifying attack and support argumentative relations using deep learning
+  author(s): Oana Cocarascu ; Francesca Toni
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Neural Lattice-to-Sequence Models for Uncertain Inputs
+  author(s): Matthias Sperber ; Graham Neubig ; Jan Niehues ; Alex Waibel
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Memory-augmented Neural Machine Translation
+  author(s): Yang Feng ; Shiyue Zhang ; Andi Zhang ; Dong Wang ; Andrew Abel
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Dynamic Data Selection for Neural Machine Translation
+  author(s): Marlies van der Wees ; Arianna Bisazza ; Christof Monz
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Neural Machine Translation Leveraging Phrase-based Models in a Hybrid Search
+  author(s): Leonard Dahlmann ; Evgeny Matusov ; Pavel Petrushkov ; Shahram Khadivi
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Translating Phrases in Neural Machine Translation
+  author(s): Xing Wang ; Zhaopeng Tu ; Deyi Xiong ; Min Zhang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Towards Bidirectional Hierarchical Representations for Attention-based Neural Machine Translation
+  author(s): Baosong Yang ; Derek F. Wong ; Tong Xiao ; Lidia S. Chao ; Jingbo Zhu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Learning Translations via Matrix Completion
+  author(s): Derry Tanti Wijaya ; Brendan Callahan ; John Hewitt ; Jie Gao ; Xiao Ling ; Marianna Apidianaki ; Chris Callison-Burch
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Reinforcement Learning for Bandit Neural Machine Translation with Simulated Human Feedback
+  author(s): Khanh Nguyen ; Hal Daume III ; Jordan Boyd-Graber
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Towards Compact and Fast Neural Machine Translation Using a Combined Method
+  author(s): Xiaowei Zhang ; Wei Chen ; Feng Wang ; Shuang Xu ; Bo Xu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Instance Weighting for Neural Machine Translation Domain Adaptation
+  author(s): Rui Wang ; Masao Utiyama ; Lemao Liu ; Kehai Chen ; Eiichiro Sumita
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Regularization techniques for fine-tuning in neural machine translation
+  author(s): Antonio Valerio Miceli Barone ; Barry Haddow ; Ulrich Germann ; Rico Sennrich
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Source-Side Left-to-Right or Target-Side Left-to-Right? An Empirical Comparison of Two Phrase-Based Decoding Algorithms
+  author(s): Yin-Wen Chang ; Michael Collins
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Using Target-side Monolingual Data for Neural Machine Translation through Multi-task Learning
+  author(s): Tobias Domhan ; Felix Hieber
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling
+  author(s): Diego Marcheggiani ; Ivan Titov
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Neural Semantic Parsing with Type Constraints for Semi-Structured Tables
+  author(s): Jayant Krishnamurthy ; Pradeep Dasigi ; Matt Gardner
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Joint Concept Learning and Semantic Parsing from Natural Language Explanations
+  author(s): Shashank Srivastava ; Igor Labutov ; Tom Mitchell
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Grasping the Finer Point: A Supervised Similarity Network for Metaphor Detection
+  author(s): Marek Rei ; Luana Bulat ; Douwe Kiela ; Ekaterina Shutova
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Identifying civilians killed by police with distantly supervised entity-event extraction
+  author(s): Katherine Keith ; Abram Handler ; Michael Pinkham ; Cara Magliozzi ; Joshua McDuffie ; Brendan O'Connor
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Asking too much? The rhetorical role of questions in political discourse
+  author(s): Justine Zhang ; Arthur Spirling ; Cristian Danescu-Niculescu-Mizil
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Detecting Perspectives in Political Debates
+  author(s): David Vilares ; Yulan He
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: "i have a feeling trump will win..................": Forecasting Winners and Losers from User Predictions on Twitter
+  author(s): Sandesh Swamy ; Alan Ritter ; Marie-Catherine de Marneffe
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Question Answering Approach for Emotion Cause Extraction
+  author(s): Lin Gui ; Jiannan Hu ; Yulan He ; Ruifeng Xu ; Lu Qin ; Jiachen Du
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Story Comprehension for Predicting What Happens Next
+  author(s): Snigdha Chaturvedi ; Haoruo Peng ; Dan Roth
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm
+  author(s): Bjarke Felbo ; Alan Mislove ; Anders Sgaard ; Iyad Rahwan ; Sune Lehmann
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Opinion Recommendation Using A Neural Model
+  author(s): Zhongqing Wang ; Yue Zhang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: CRF Autoencoder for Unsupervised Dependency Parsing
+  author(s): Jiong Cai ; Yong Jiang ; Kewei Tu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Efficient Discontinuous Phrase-Structure Parsing via the Generalized Maximum Spanning Arborescence
+  author(s): Caio Corro ; Joseph Le Roux ; Mathieu Lacroix
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Incremental Graph-based Neural Dependency Parsing
+  author(s): Xiaoqing Zheng
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Neural Discontinuous Constituency Parsing
+  author(s): Milos Stanojevic ; Raquel Garrido Alhama
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Stack-based Multi-layer Attention for Transition-based Dependency Parsing
+  author(s): Zhirui Zhang ; Shujie Liu ; Mu Li ; Ming Zhou ; Enhong Chen
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Dependency Grammar Induction with Neural Lexicalization and Big Training Data
+  author(s): Wenjuan Han ; Yong Jiang ; Kewei Tu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Combining Generative and Discriminative Approaches to Unsupervised Dependency Parsing via Dual Decomposition
+  author(s): Yong Jiang ; Wenjuan Han ; Kewei Tu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Effective Inference for Generative Neural Parsing
+  author(s): Mitchell Stern ; Daniel Fried ; Dan Klein
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Semi-supervised Structured Prediction with Neural CRF Autoencoder
+  author(s): Xiao Zhang ; Yong Jiang ; Hao Peng ; Kewei Tu ; Dan Goldwasser
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: TAG Parsing with Neural Networks and Vector Representations of Supertags
+  author(s): Jungo Kasai ; Bob Frank ; Tom McCoy ; Owen Rambow ; Alexis Nasr
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Global Normalization of Convolutional Neural Networks for Joint Entity and Relation Classification
+  author(s): Heike Adel ; Hinrich Schutze
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: End-to-End Neural Relation Extraction with Global Optimization
+  author(s): Meishan Zhang ; Yue Zhang ; Guohong Fu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: KGEval: Accuracy Estimation of Automatically Constructed Knowledge Graphs
+  author(s): Prakhar Ojha ; Partha Talukdar
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short
+  author(s): Jay Pujara ; Eriq Augustine ; Lise Getoor
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Dual Tensor Model for Detecting Asymmetric Lexico-Semantic Relations
+  author(s): Goran Glavas ; Simone Paolo Ponzetto
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Incorporating Relation Paths in Neural Relation Extraction
+  author(s): Wenyuan Zeng ; Yankai Lin ; Zhiyuan Liu ; Maosong Sun
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Adversarial Training for Relation Extraction
+  author(s): Yi Wu ; David Bamman ; Stuart Russell
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Context-Aware Representations for Knowledge Base Relation Extraction
+  author(s): Daniil Sorokin ; Iryna Gurevych
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Soft-label Method for Noise-tolerant Distantly Supervised Relation Extraction
+  author(s): Tianyu Liu ; Kexiang Wang ; Baobao Chang ; Zhifang Sui
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Sequential Model for Classifying Temporal Relations between Intra-Sentence Events
+  author(s): Prafulla Kumar Choubey ; Ruihong Huang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Deep Residual Learning for Weakly-Supervised Relation Extraction
+  author(s): YiYao Huang ; William Yang Wang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Noise-Clustered Distant Supervision for Relation Extraction: A Nonparametric Bayesian Perspective
+  author(s): Qing Zhang ; Houfeng Wang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Exploring Vector Spaces for Semantic Relations
+  author(s): Kata Gabor ; Haifa Zargayouna ; Isabelle Tellier ; Davide Buscaldi ; Thierry Charnois
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Temporal dynamics of semantic relations in word embeddings: an application to predicting armed conflict participants
+  author(s): Andrey Kutuzov ; Erik Velldal ; Lilja vrelid
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Dynamic Entity Representations in Neural Language Models
+  author(s): Yangfeng Ji ; Chenhao Tan ; Sebastian Martschat ; Yejin Choi ; Noah A. Smith
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Towards Quantum Language Models
+  author(s): Ivano Basile ; Fabio Tamburini
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Reference-Aware Language Models
+  author(s): Zichao Yang ; Phil Blunsom ; Chris Dyer ; Wang Ling
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Simple Language Model based on PMI Matrix Approximations
+  author(s): Oren Melamud ; Ido Dagan ; Jacob Goldberger
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Syllable-aware Neural Language Models: A Failure to Beat Character-aware Ones
+  author(s): Zhenisbek Assylbekov ; Rustem Takhanov ; Bagdat Myrzakhmetov ; Jonathan N. Washington
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Inducing Semantic Micro-Clusters from Deep Multi-View Representations of Novels
+  author(s): Lea Frermann ; Gyorgy Szarvas
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Initializing Convolutional Filters with Semantic Features for Text Classification
+  author(s): Shen Li ; Zhe Zhao ; Tao Liu ; Renfen Hu ; Xiaoyong Du
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Shortest-Path Graph Kernels for Document Similarity
+  author(s): Giannis Nikolentzos ; Polykarpos Meladianos ; Francois Rousseau ; Yannis Stavrakas ; Michalis Vazirgiannis
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Adapting Topic Models using Lexical Associations with Tree Priors
+  author(s): Weiwei Yang ; Jordan Boyd-Graber ; Philip Resnik
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Finding Patterns in Noisy Crowds: Regression-based Annotation Aggregation for Crowdsourced Data
+  author(s): Natalie Parde ; Rodney Nielsen
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: CROWD-IN-THE-LOOP: A Hybrid Approach for Annotating Semantic Roles
+  author(s): Chenguang Wang ; Alan Akbik ; laura chiticariu ; Yunyao Li ; Fei Xia ; Anbang Xu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Earth Mover's Distance Minimization for Unsupervised Bilingual Lexicon Induction
+  author(s): Meng Zhang ; Yang Liu ; Huanbo Luan ; Maosong Sun
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Unfolding and Shrinking Neural Machine Translation Ensembles
+  author(s): Felix Stahlberg ; Bill Byrne
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Graph Convolutional Encoders for Syntax-aware Neural Machine Translation
+  author(s): Joost Bastings ; Ivan Titov ; Wilker Aziz ; Diego Marcheggiani ; Khalil Simaan
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Trainable Greedy Decoding for Neural Machine Translation
+  author(s): Jiatao Gu ; Kyunghyun Cho ; Victor O.K. Li
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Satirical News Detection and Analysis using Attention Mechanism and Linguistic Features
+  author(s): Fan Yang ; Arjun Mukherjee ; Eduard Dragut
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Fine Grained Citation Span for References in Wikipedia
+  author(s): Besnik Fetahu ; Katja Markert ; Avishek Anand
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Identifying Semantic Edit Intentions from Revisions in Wikipedia
+  author(s): Diyi Yang ; Aaron Halfaker ; Robert Kraut ; Eduard Hovy
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Accurate Supervised and Semi-Supervised Machine Reading for Long Documents
+  author(s): Daniel Hewlett ; Llion Jones ; Alexandre Lacoste ; izzeddin gur
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Adversarial Examples for Evaluating Reading Comprehension Systems
+  author(s): Robin Jia ; Percy Liang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Reasoning with Heterogeneous Knowledge for Commonsense Machine Comprehension
+  author(s): Hongyu Lin ; Le Sun ; Xianpei Han
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Document-Level Multi-Aspect Sentiment Classification as Machine Comprehension
+  author(s): Yichun Yin ; Yangqiu Song ; Ming Zhang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: What is the Essence of a Claim? Cross-Domain Claim Identification
+  author(s): Johannes Daxenberger ; Steffen Eger ; Ivan Habernal ; Christian Stab ; Iryna Gurevych
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Identifying Where to Focus in Reading Comprehension for Neural Question Generation
+  author(s): Xinya Du ; Claire Cardie
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Break it Down for Me: A Study in Automated Lyric Annotation
+  author(s): Lucas Sterckx ; Jason Naradowsky ; Bill Byrne ; Thomas Demeester ; Chris Develder
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Cascaded Attention based Unsupervised Information Distillation for Compressive Summarization
+  author(s): Piji Li ; Wai Lam ; Lidong Bing ; Weiwei Guo ; Hang Li
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Deep Recurrent Generative Decoder for Abstractive Text Summarization
+  author(s): Piji Li ; Wai Lam ; Lidong Bing ; Zihao Wang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Extractive Summarization Using Multi-Task Learning with Document Classification
+  author(s): Masaru Isonuma ; Toru Fujino ; Junichiro Mori ; Yutaka Matsuo ; Ichiro Sakata
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Towards Automatic Construction of News Overview Articles by News Synthesis
+  author(s): Jianmin Zhang ; Xiaojun Wan
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Joint Syntacto-Discourse Parsing and the Syntacto-Discourse Treebank
+  author(s): Kai Zhao ; Liang Huang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Event Coreference Resolution by Iteratively Unfolding Inter-dependencies among Events
+  author(s): Prafulla Kumar Choubey ; Ruihong Huang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Steering Output Style and Topic in Neural Response Generation
+  author(s): Di Wang ; Nebojsa Jojic ; Chris Brockett ; Eric Nyberg
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Preserving Distributional Information in Dialogue Act Classification
+  author(s): Quan Hung Tran ; Ingrid Zukerman ; Gholamreza Haffari
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Adversarial Learning for Neural Dialogue Generation
+  author(s): Jiwei Li ; Will Monroe ; Tianlin Shi ; Sebastien Jean ; Alan Ritter ; Dan Jurafsky
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Using Context Information for Dialog Act Classification in DNN Framework
+  author(s): Yang Liu ; Kun Han ; Zhao Tan ; Yun Lei
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Modeling Dialogue Acts with Content Word Filtering and Speaker Preferences
+  author(s): Yohan Jo ; Michael Yoder ; Hyeju Jang ; Carolyn Rose
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Towards Implicit Content-Introducing for Generative Short-Text Conversation Systems
+  author(s): Lili Yao ; Yaoyuan Zhang ; Yansong Feng ; Dongyan Zhao ; Rui Yan
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Affordable On-line Dialogue Policy Learning
+  author(s): Cheng Chang ; Runzhe Yang ; Lu Chen ; Xiang Zhou ; Kai Yu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Generating High-Quality and Informative Conversation Responses with Sequence-to-Sequence Models
+  author(s): Yuanlong Shao ; Stephan Gouws ; Denny Britz ; Anna Goldie ; Brian Strope ; Ray Kurzweil
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Bootstrapping incremental dialogue systems from minimal data: the generalisation power of dialogue grammars
+  author(s): Arash Eshghi ; Igor Shalyminov ; Oliver Lemon
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Composite Task-Completion Dialogue Policy Learning via Hierarchical Deep Reinforcement Learning
+  author(s): Baolin Peng ; Xiujun Li ; Lihong Li ; Jianfeng Gao ; Asli Celikyilmaz ; Sungjin Lee ; Kam-Fai Wong
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Why We Need New Evaluation Metrics for NLG
+  author(s): Jekaterina Novikova ; Ondrej Dusek ; Amanda Cercas Curry ; Verena Rieser
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Challenges in Data-to-Document Generation
+  author(s): Sam Wiseman ; Stuart Shieber ; Alexander Rush
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: All that is English may be Hindi: Enhancing language identification through automatic ranking of the likeliness of word borrowing in social media
+  author(s): Jasabanta Patro ; Bidisha Samanta ; Saurabh Singh ; Abhipsa Basu ; Prithwish Mukherjee ; Monojit Choudhury ; Animesh Mukherjee
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Multi-View Unsupervised User Feature Embedding for Social Media-based Substance Use Prediction
+  author(s): Tao Ding ; Warren K. Bickel ; Shimei Pan
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Demographic-aware word associations
+  author(s): Aparna Garimella ; Carmen Banea ; Rada Mihalcea
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Factored Neural Network Model for Characterizing Online Discussions in Vector Space
+  author(s): Hao Cheng ; Hao Fang ; Mari Ostendorf
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Dimensions of Interpersonal Relationships: Corpus and Experiments
+  author(s): Farzana Rashid ; Eduardo Blanco
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Argument Mining on Twitter: Arguments, Facts and Sources
+  author(s): Mihai Dusmanu ; Elena Cabrio ; Serena Villata
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Distinguishing Japanese Non-standard Usages from Standard Ones
+  author(s): Tatsuya Aoki ; Ryohei Sasano ; Hiroya Takamura ; Manabu Okumura
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Connotation Frames of Power and Agency in Modern Films
+  author(s): Maarten Sap ; Marcella Cindy Prasettio ; Ari Holtzman ; Hannah Rashkin ; Yejin Choi
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Controlling Human Perception of Basic User Traits
+  author(s): Daniel Preoţiuc-Pietro ; Sharath Chandra Guntuku ; Lyle Ungar
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Topic Signatures in Political Campaign Speeches
+  author(s): Clement Gautrais ; Peggy Cellier ; Rene Quiniou ; Alexandre Termier
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Assessing Objective Recommendation Quality through Political Forecasting
+  author(s): H. Andrew Schwartz ; Masoud Rouhizadeh ; Michael Bishop ; Philip Tetlock ; Barbara Mellers ; Lyle Ungar
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Never Abandon Minorities: Exhaustive Extraction of Bursty Phrases on Microblogs Using Set Cover Problem
+  author(s): Masumi Shirakawa ; Takahiro Hara ; Takuya Maekawa
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Maximum Margin Reward Networks for Learning from Explicit and Implicit Supervision
+  author(s): Haoruo Peng ; Ming-Wei Chang ; Wen-tau Yih
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: The Impact of Modeling Overall Argumentation with Tree Kernels
+  author(s): Henning Wachsmuth ; Giovanni Da San Martino ; Dora Kiesel ; Benno Stein
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Learning Generic Sentence Representations Using Convolutional Neural Networks
+  author(s): Zhe Gan ; Yunchen Pu ; Ricardo Henao ; Chunyuan Li ; Xiaodong He ; Lawrence Carin
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Repeat before Forgetting: Spaced Repetition for Efficient and Effective Training of Neural Networks
+  author(s): Hadi Amiri ; Timothy Miller ; Guergana Savova
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Part-of-Speech Tagging for Twitter with Adversarial Neural Networks
+  author(s): Tao Gui ; Qi Zhang ; Haoran Huang ; Minlong Peng ; Xuanjing Huang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Investigating Different Syntactic Context Types and Context Representations for Learning Word Embeddings
+  author(s): Bofang Li ; Tao Liu ; Zhe Zhao ; Buzhou Tang ; Aleksandr Drozd ; Anna Rogers ; Xiaoyong Du
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Does syntax help discourse segmentation? Not so much
+  author(s): Chloe Braud ; Ophelie Lacroix ; Anders Sgaard
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Deal or No Deal? End-to-End Learning of Negotiation Dialogues
+  author(s): Mike Lewis ; Denis Yarats ; Yann Dauphin ; Devi Parikh ; Dhruv Batra
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Agent-Aware Dropout DQN for Safe and Efficient On-line Dialogue Policy Learning
+  author(s): Lu Chen ; Xiang Zhou ; Cheng Chang ; Runzhe Yang ; Kai Yu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Towards Debate Automation: a Recurrent Model for Predicting Debate Winners
+  author(s): Peter Potash ; Anna Rumshisky
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Further Investigation into Reference Bias in Monolingual Evaluation of Machine Translation
+  author(s): Qingsong Ma ; Yvette Graham ; Timothy Baldwin ; Qun Liu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Challenge Set Approach to Evaluating Machine Translation
+  author(s): Pierre Isabelle ; Colin Cherry ; George Foster
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Knowledge Distillation for Bilingual Dictionary Induction
+  author(s): Ndapandula Nakashole ; Raphael Flauger
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Machine Translation, it's a question of style, innit? The case of English tag questions
+  author(s): Rachel Bawden
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Deciphering Related Languages
+  author(s): Nima Pourdamghani ; Kevin Knight
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Identifying Cognate Sets Across Dictionaries of Related Languages
+  author(s): Adam St Arnaud ; David Beck ; Grzegorz Kondrak
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Learning Language Representations for Typology Prediction
+  author(s): Chaitanya Malaviya ; Graham Neubig ; Patrick Littell
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Cheap Translation for Cross-Lingual Named Entity Recognition
+  author(s): Stephen Mayhew ; Chen-Tse Tsai ; Dan Roth
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Cross-Lingual Induction and Transfer of Verb Classes Based on Word Vector Space Specialisation
+  author(s): Ivan Vulic ; Nikola Mrksic ; Anna Korhonen
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Classification of telicity using cross-linguistic annotation projection
+  author(s): Annemarie Friedrich ; Damyana Gateva
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Counterfactual Learning from Bandit Feedback under Deterministic Logging : A Case Study in Statistical Machine Translation
+  author(s): Carolin Lawrence ; Artem Sokolov ; Stefan Riezler
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Learning Fine-grained Relations from Chinese User Generated Categories
+  author(s): Chengyu Wang ; Yan Fan ; Xiaofeng He ; Aoying Zhou
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Improving Slot Filling Performance with Attentive Neural Networks on Dependency Structures
+  author(s): Lifu Huang ; Avirup Sil ; Heng Ji ; Radu Florian
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Identifying Products in Online Cybercrime Marketplaces: A Dataset for Fine-grained Domain Adaptation
+  author(s): Greg Durrett ; Jonathan K. Kummerfeld ; Taylor Berg-Kirkpatrick ; Rebecca Portnoff ; Sadia Afroz ; Damon McCoy ; Kirill Levchenko ; Vern Paxson
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Labeling Gaps Between Words: Recognizing Overlapping Mentions with Mention Separators
+  author(s): Aldrian Obaja Muis ; Wei Lu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Deep Joint Entity Disambiguation with Local Neural Attention
+  author(s): Octavian-Eugen Ganea ; Thomas Hofmann
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: MinIE: Minimizing Facts in Open Information Extraction
+  author(s): Kiril Gashteovski ; Rainer Gemulla ; Luciano Del Corro
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Scientific Information Extraction with Semi-supervised Neural Tagging
+  author(s): Yi Luan ; Mari Ostendorf ; Hannaneh Hajishirzi
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: NITE: A Neural Inductive Teaching Framework for Domain Specific NER
+  author(s): Siliang Tang ; Ning Zhang ; Jinjiang Zhang ; Fei Wu ; Yueting Zhuang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Speeding up Reinforcement Learning-based Information Extraction Training using Asynchronous Methods
+  author(s): Aditya Sharma ; Zarana Parekh ; Partha Talukdar
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Leveraging Linguistic Structures for Named Entity Recognition with Bidirectional Recursive Neural Networks
+  author(s): Peng-Hsuan Li ; Ruo-Ping Dong ; Yu-Siang Wang ; Ju-Chieh Chou ; Wei-Yun Ma
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Fast and Accurate Entity Recognition with Iterated Dilated Convolutions
+  author(s): Emma Strubell ; Patrick Verga ; David Belanger ; Andrew McCallum
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Entity Linking via Joint Encoding of Types, Descriptions, and Context
+  author(s): Nitish Gupta ; Sameer Singh ; Dan Roth
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: An Insight Extraction System on BioMedical Literature with Deep Neural Networks
+  author(s): Hua He ; Kris Ganjam ; Navendu Jain ; Jessica Lundin ; Ryen White ; Jimmy Lin
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Word Etymology as Native Language Interference
+  author(s): Vivi Nastase ; Carlo Strapparava
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Simpler and More Generalizable Story Detector using Verb and Character Features
+  author(s): Joshua Eisenberg ; Mark Finlayson
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Multi-modular domain-tailored OCR post-correction
+  author(s): Sarah Schulz ; Jonas Kuhn
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Learning to Predict Charges for Criminal Cases with Legal Basis
+  author(s): Bingfeng Luo ; Yansong Feng ; Jianbo Xu ; Xiang Zhang ; Dongyan Zhao
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Quantifying the Effects of Text Duplication on Semantic Models
+  author(s): Alexandra Schofield ; Laure Thompson ; David Mimno
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Identifying Semantically Deviating Outlier Documents
+  author(s): Honglei Zhuang ; Chi Wang ; Fangbo Tao ; Lance Kaplan ; Jiawei Han
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Detecting and Explaining Causes From Text For a Time Series Event
+  author(s): Dongyeop Kang ; Varun Gangal ; Ang Lu ; Zheng Chen ; Eduard Hovy
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Novel Cascade Model for Learning Latent Similarity from Heterogeneous Sequential Data of MOOC
+  author(s): Zhuoxuan Jiang ; Shanshan Feng ; Gao Cong ; Chunyan Miao ; Xiaoming Li
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Identifying the Provision of Choices in Privacy Policy Text
+  author(s): Kanthashree Mysore Sathyendra ; Shomir Wilson ; Florian Schaub ; Sebastian Zimmeck ; Norman Sadeh
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: An Empirical Analysis of Edit Importance between Document Versions
+  author(s): Tanya Goyal ; Sachin Kelkar ; Manas Agarwal ; Jeenu Grover
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Transition-Based Disfluency Detection using LSTMs
+  author(s): Shaolei Wang ; Wanxiang Che ; Yue Zhang ; Meishan Zhang ; Ting Liu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Neural Sequence-Labelling Models for Grammatical Error Correction
+  author(s): Helen Yannakoudakis ; Marek Rei ; istein E. Andersen ; Zheng Yuan
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Adapting Sequence Models for Sentence Correction
+  author(s): Allen Schmaltz ; Yoon Kim ; Alexander Rush ; Stuart Shieber
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Study of Style in Machine Translation: Controlling the Formality of Machine Translation Output
+  author(s): Xing Niu ; Marianna Martindale ; Marine Carpuat
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Sharp Models on Dull Hardware: Fast and Accurate Neural Machine Translation Decoding on the CPU
+  author(s): Jacob Devlin
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Exploiting Cross-Sentence Context for Neural Machine Translation
+  author(s): Longyue Wang ; Zhaopeng Tu ; Andy Way ; Qun Liu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Cross-Lingual Transfer Learning for POS Tagging without Cross-Lingual Resources
+  author(s): Joo-Kyung Kim ; Young-Bum Kim ; Ruhi Sarikaya ; Eric Fosler-Lussier
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Image Pivoting for Learning Multilingual Multimodal Representations
+  author(s): Spandana Gella ; Rico Sennrich ; Frank Keller ; Mirella Lapata
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Neural Machine Translation with Source Dependency Representation
+  author(s): Kehai Chen ; Rui Wang ; Masao Utiyama ; Lemao Liu ; Akihiro Tamura ; Eiichiro Sumita ; Tiejun Zhao
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Visual Denotations for Recognizing Textual Entailment
+  author(s): Dan Han ; Pascual Martinez-Gomez ; Koji Mineshima
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Sequence Effects in Crowdsourced Annotations
+  author(s): Nitika Mathur ; Timothy Baldwin ; Trevor Cohn
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: No Need to Pay Attention: Simple Recurrent Neural Networks Work!
+  author(s): Ferhan Ture ; Oliver Jojic
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: The strange geometry of skip-gram with negative sampling
+  author(s): David Mimno ; Laure Thompson
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Natural Language Processing with Small Feed-Forward Networks
+  author(s): Jan A. Botha ; Emily Pitler ; Ji Ma ; Anton Bakalov ; Alex Salcianu ; David Weiss ; Ryan McDonald ; Slav Petrov
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Deep Multi-Task Learning for Aspect Term Extraction with Memory Interaction
+  author(s): Xin Li ; Wai Lam
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Analogs of Linguistic Structure in Deep Representations
+  author(s): Jacob Andreas ; Dan Klein
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: A Simple Regularization-based Algorithm for Learning Cross-Domain Word Embeddings
+  author(s): Wei Yang ; Wei Lu ; Vincent Zheng
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Learning what to read: Focused machine reading
+  author(s): Enrique Noriega-Atala ; Marco A. Valenzuela-Escarcega ; Clayton Morrison ; Mihai Surdeanu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: DOC: Deep Open Classification of Text Documents
+  author(s): Lei Shu ; Hu Xu ; Bing Liu
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Charmanteau: Character Embedding Models For Portmanteau Creation
+  author(s): Varun Gangal ; Harsh Jhamtani ; Graham Neubig ; Eduard Hovy ; Eric Nyberg
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Using Automated Metaphor Identification to Aid in Detection and Prediction of First-Episode Schizophrenia
+  author(s): E. Dario Gutierrez ; Guillermo Cecchi ; Cheryl Corcoran ; Philip Corlett
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Truth of Varying Shades: Analyzing Language in Fake News and Political Fact-Checking
+  author(s): Hannah Rashkin ; Eunsol Choi ; Jin Yea Jang ; Svitlana Volkova ; Yejin Choi
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Topic-Based Agreement and Disagreement in US Electoral Manifestos
+  author(s): Stefano Menini ; Federico Nanni ; Simone Paolo Ponzetto ; Sara Tonelli
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Zipporah: a Fast and Scalable Data Cleaning System for Noisy Web-Crawled Parallel Corpora
+  author(s): Hainan Xu ; Philipp Koehn
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints
+  author(s): Jieyu Zhao ; Tianlu Wang ; Mark Yatskar ; Vicente Ordonez ; Kai-Wei Chang
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Natural Language Does Not Emerge ‘Naturally’ in Multi-Agent Dialog
+  author(s): Satwik Kottur ; Jose Moura ; Stefan Lee ; Dhruv Batra
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Depression and Self-Harm Risk Assessment in Online Forums
+  author(s): Andrew Yates ; Arman Cohan ; Nazli Goharian
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+PDF meta-data:
+  title: Bringing Structure into Summaries: Crowdsourcing a Benchmark Corpus of Concept Maps
+  author(s): Tobias Falke ; Iryna Gurevych
+  subject (venue): TOBEFILLED-EduApp TOBEFILLED-1
+
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6)
+ %&-line parsing enabled.
+entering extended mode
+Use of uninitialized value $digits in concatenation (.) or string at /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/manage-db.pl line 472.
+cp /hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/templates/cdrom-root-files/*.css .  
+creating HTML index page ...
+/hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/index.pl db meta > cdrom/index.html
+------------------------------------
+make advertisement
+creating advertisement.html ...
+/hdc/var/www/v3/emnlp2017/www/papers/manager/aclpub/all/bin/advertisement.pl cdrom/index.html < cdrom/program.html > advertisement.html
+------------------------------------
+make all
+make[1]: `book.pdf' is up to date.
+Almost done ... ready to package things up ...
+cd ..; rm -rf proceedings/abstracts; tar -cz --exclude='proceedings/final' -f proceedings.tgz proceedings; cd proceedings

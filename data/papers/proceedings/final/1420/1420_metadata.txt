@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1420
+FinalPaperTitle#=%=#DOC: Deep Open Classification of Text Documents
+ShortPaperTitle#=%=#DOC: Deep Open Classification of Text Documents
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Lei Shu
+JobTitle#==#
+Organization#==#
+Abstract#==#Traditional supervised learning makes the closed-world assumption that the
+classes appeared in the test data must have appeared in training. This also
+applies to text learning or text classification. As learning is used
+increasingly in dynamic open environments where some new/test documents may not
+belong to any of the training classes, identifying these novel documents during
+classification presents an important problem. This problem is called open-world
+classification or open classification. This paper proposes a novel deep
+learning based approach. It outperforms existing state-of-the-art techniques
+dramatically.
+Author{1}{Firstname}#=%=#Lei
+Author{1}{Lastname}#=%=#Shu
+Author{1}{Email}#=%=#lshu3@uic.edu
+Author{1}{Affiliation}#=%=#Department of Computer Science, University of Illinois at Chicago
+Author{2}{Firstname}#=%=#Hu
+Author{2}{Lastname}#=%=#Xu
+Author{2}{Email}#=%=#hxu48@uic.edu
+Author{2}{Affiliation}#=%=#Department of Computer Science, University of Illinois at Chicago
+Author{3}{Firstname}#=%=#Bing
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Email}#=%=#liub@cs.uic.edu
+Author{3}{Affiliation}#=%=#Department of Computer Science, University of Illinois at Chicago
+
+==========

@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#697
+FinalPaperTitle#=%=#Affordable On-line Dialogue Policy Learning
+ShortPaperTitle#=%=#Affordable On-line Dialogue Policy Learning
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Cheng Chang
+JobTitle#==#
+Organization#==#
+Abstract#==#The key to building an evolvable dialogue system in real-world scenarios is to
+ensure an affordable on-line dialogue policy learning, which requires the
+on-line learning process to be safe, efficient and economical. But in reality,
+due to the scarcity of real interaction data, the dialogue system usually grows
+slowly. Besides, the poor initial dialogue policy easily leads to bad user
+experience and incurs a failure of attracting users to contribute training
+data, so that the learning process is unsustainable. To accurately depict this,
+ two quantitative metrics are proposed to assess safety and efficiency issues.
+For solving the unsustainable learning problem, we proposed a complete
+companion teaching framework incorporating the guidance from the human teacher.
+Since the human teaching is expensive, we compared various teaching schemes
+answering the question how and when to teach, to economically utilize teaching
+budget, so that make the online learning process affordable.
+Author{1}{Firstname}#=%=#Cheng
+Author{1}{Lastname}#=%=#Chang
+Author{1}{Email}#=%=#cheng.chang@sjtu.edu.cn
+Author{1}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{2}{Firstname}#=%=#Runzhe
+Author{2}{Lastname}#=%=#Yang
+Author{2}{Email}#=%=#yang_runzhe@sjtu.edu.cn
+Author{2}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{3}{Firstname}#=%=#Lu
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Email}#=%=#chenlusz@sjtu.edu.cn
+Author{3}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{4}{Firstname}#=%=#Xiang
+Author{4}{Lastname}#=%=#Zhou
+Author{4}{Email}#=%=#owenzx@sjtu.edu.cn
+Author{4}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{5}{Firstname}#=%=#Kai
+Author{5}{Lastname}#=%=#Yu
+Author{5}{Email}#=%=#kai.yu@sjtu.edu.cn
+Author{5}{Affiliation}#=%=#Shanghai Jiao Tong University
+
+==========

@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#852
+FinalPaperTitle#=%=#Charmanteau: Character Embedding Models For Portmanteau Creation
+ShortPaperTitle#=%=#Charmanteau: Character Embedding Models For Portmanteau Creation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Varun Prashant Gangal
+JobTitle#==#
+Organization#==#
+Abstract#==#Portmanteaus are a word formation phenomenon where two words combine into a new
+word. We propose character-level neural sequence-to-sequence (S2S) methods for
+the task of portmanteau generation that are end-to-end-trainable, language
+independent, and do not explicitly use additional phonetic information. We
+propose a noisy-channel-style model, which allows for the incorporation of
+unsupervised word lists, improving performance over a standard source-to-target
+model. This model is made possible by an exhaustive candidate generation
+strategy specifically enabled by the features of the portmanteau task.
+Experiments find our approach superior to a state-of-the-art FST-based baseline
+with respect to ground truth accuracy and human evaluation.
+Author{1}{Firstname}#=%=#Varun
+Author{1}{Lastname}#=%=#Gangal
+Author{1}{Email}#=%=#vgangal@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Harsh
+Author{2}{Lastname}#=%=#Jhamtani
+Author{2}{Email}#=%=#harshjhamtani@gmail.com
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Graham
+Author{3}{Lastname}#=%=#Neubig
+Author{3}{Email}#=%=#gneubig@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Eduard
+Author{4}{Lastname}#=%=#Hovy
+Author{4}{Email}#=%=#hovy@cmu.edu
+Author{4}{Affiliation}#=%=#CMU
+Author{5}{Firstname}#=%=#Eric
+Author{5}{Lastname}#=%=#Nyberg
+Author{5}{Email}#=%=#ehn@cs.cmu.edu
+Author{5}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

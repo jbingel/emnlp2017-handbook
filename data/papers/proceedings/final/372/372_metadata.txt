@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#372
+FinalPaperTitle#=%=#Dynamic Data Selection for Neural Machine Translation
+ShortPaperTitle#=%=#Dynamic Data Selection for Neural Machine Translation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Marlies van der Wees
+JobTitle#==#
+Organization#==#University of Amsterdam
+Abstract#==#Intelligent selection of training data has proven a successful technique to
+simultaneously increase training efficiency and translation performance for
+phrase-based machine translation (PBMT). With the recent increase in popularity
+of neural machine translation (NMT), we explore in this paper to what extent
+and how NMT can also benefit from data selection. While state-of-the-art data
+selection (Axelrod et al., 2011) consistently performs well for PBMT, we show
+that gains are substantially lower for NMT. Next, we introduce 'dynamic data
+selection' for NMT, a method in which we vary the selected subset of training
+data between different training epochs. Our experiments show that the best
+results are achieved when applying a technique we call 'gradual fine-tuning',
+with improvements up to +2.6 BLEU over the original data selection approach and
+up to +3.1 BLEU over a general baseline.
+Author{1}{Firstname}#=%=#Marlies
+Author{1}{Lastname}#=%=#van der Wees
+Author{1}{Email}#=%=#m.e.vanderwees@uva.nl
+Author{1}{Affiliation}#=%=#University of Amsterdam
+Author{2}{Firstname}#=%=#Arianna
+Author{2}{Lastname}#=%=#Bisazza
+Author{2}{Email}#=%=#A.Bisazza@uva.nl
+Author{2}{Affiliation}#=%=#University of Amsterdam
+Author{3}{Firstname}#=%=#Christof
+Author{3}{Lastname}#=%=#Monz
+Author{3}{Email}#=%=#c.monz@uva.nl
+Author{3}{Affiliation}#=%=#University of Amsterdam
+
+==========

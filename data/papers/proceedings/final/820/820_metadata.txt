@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#820
+FinalPaperTitle#=%=#AMR Parsing using Stack-LSTMs
+ShortPaperTitle#=%=#AMR Parsing using Stack-LSTMs
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Miguel Ballesteros
+JobTitle#==#
+Organization#==#IBM
+Abstract#==#We present a transition-based AMR parser that directly generates AMR parses
+from plain text. 
+We use Stack-LSTMs to represent our parser state and make decisions greedily.
+In our experiments, we show that our parser achieves very competitive scores on
+English using only AMR training data. Adding additional information, such as
+POS tags and dependency trees, improves the results further.
+Author{1}{Firstname}#=%=#Miguel
+Author{1}{Lastname}#=%=#Ballesteros
+Author{1}{Email}#=%=#miguel.ballesteros@ibm.com
+Author{1}{Affiliation}#=%=#IBM Research
+Author{2}{Firstname}#=%=#Yaser
+Author{2}{Lastname}#=%=#Al-Onaizan
+Author{2}{Email}#=%=#onaizan@us.ibm.com
+Author{2}{Affiliation}#=%=#IBM T.J. Watson Research Center
+
+==========

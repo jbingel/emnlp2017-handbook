@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#400
+FinalPaperTitle#=%=#All that is English may be Hindi: Enhancing language identification through automatic ranking of the likeliness of word borrowing in social media
+ShortPaperTitle#=%=#All that is English may be Hindi: Enhancing language identification through automatic ranking of the likeliness of word borrowing in social media
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#jasabanta patro
+JobTitle#==#
+Organization#==#
+Abstract#==#n this paper, we present a set of computational methods to identify the
+likeliness of a word being borrowed, based on the signals from social media. In
+terms of Spearman’s correlation values, our methods perform more than two
+times better (∼ 0.62) in predicting the borrowing likeliness compared to the
+best performing baseline (∼ 0.26) reported in literature. Based on this
+likeliness estimate we asked annotators to re-annotate the language tags of
+foreign words in predominantly native contexts. In 88% of cases the annotators
+felt that the foreign language tag should be replaced by native language tag,
+thus indicating a huge scope for improvement of automatic language
+identification systems.
+Author{1}{Firstname}#=%=#Jasabanta
+Author{1}{Lastname}#=%=#Patro
+Author{1}{Email}#=%=#jasabantapatro@gmail.com
+Author{1}{Affiliation}#=%=#IIT Kharagpur
+Author{2}{Firstname}#=%=#Bidisha
+Author{2}{Lastname}#=%=#Samanta
+Author{2}{Email}#=%=#bidisha.samanta@gmail.com
+Author{2}{Affiliation}#=%=#IIT Kharagpur
+Author{3}{Firstname}#=%=#Saurabh
+Author{3}{Lastname}#=%=#Singh
+Author{3}{Email}#=%=#saurabhjan07@gmail.com
+Author{3}{Affiliation}#=%=#IIT Kharagpur
+Author{4}{Firstname}#=%=#Abhipsa
+Author{4}{Lastname}#=%=#Basu
+Author{4}{Email}#=%=#abhipsabasu@gmail.com
+Author{4}{Affiliation}#=%=#IIT Kharagpur
+Author{5}{Firstname}#=%=#Prithwish
+Author{5}{Lastname}#=%=#Mukherjee
+Author{5}{Email}#=%=#pritspido@gmail.com
+Author{5}{Affiliation}#=%=#IIT Kharagpur
+Author{6}{Firstname}#=%=#Monojit
+Author{6}{Lastname}#=%=#Choudhury
+Author{6}{Email}#=%=#monojitc@microsoft.com
+Author{6}{Affiliation}#=%=#Microsoft Research
+Author{7}{Firstname}#=%=#Animesh
+Author{7}{Lastname}#=%=#Mukherjee
+Author{7}{Email}#=%=#animeshm@gmail.com
+Author{7}{Affiliation}#=%=#IIT Kharagpur
+
+==========

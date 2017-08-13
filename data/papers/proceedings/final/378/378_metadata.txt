@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#378
+FinalPaperTitle#=%=#A Cognition Based Attention Model for Sentiment Analysis
+ShortPaperTitle#=%=#A Cognition Based Attention Model for Sentiment Analysis
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yunfei Long
+JobTitle#==#
+Organization#==#Department of Computing, The Hong Kong Polytechnic University
+QT 416, The Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong SAR
+Abstract#==#Attention models are proposed in sentiment analysis because some words are more
+important than others. However,most existing methods either use local context
+based text information or user preference information. In this work, we propose
+a novel attention model trained by cognition grounded eye-tracking data. A
+reading prediction model is first built using eye-tracking data as dependent
+data and other features in the context as independent data. The predicted
+reading time is then used to build a cognition based attention (CBA) layer for
+neural sentiment analysis. As a comprehensive model, We can capture attentions
+of words in sentences as well as sentences in documents. Different attention
+mechanisms can also be incorporated to capture other aspects of attentions.
+Evaluations show the CBA based method outperforms the state-of-the-art local
+context based attention methods significantly. This brings insight to how
+cognition grounded data can be brought into NLP tasks.
+Author{1}{Firstname}#=%=#Yunfei
+Author{1}{Lastname}#=%=#Long
+Author{1}{Email}#=%=#csylong@comp.polyu.edu.hk
+Author{1}{Affiliation}#=%=#Department of Computing,The Hong Kong Polytechnic University
+Author{2}{Firstname}#=%=#Lu
+Author{2}{Lastname}#=%=#Qin
+Author{2}{Email}#=%=#csluqin@comp.polyu.edu.hk
+Author{2}{Affiliation}#=%=#Hong Kong Polytechnic University
+Author{3}{Firstname}#=%=#Rong
+Author{3}{Lastname}#=%=#Xiang
+Author{3}{Email}#=%=#xiangrong0302@gmail.com
+Author{3}{Affiliation}#=%=#Advanced Micro Devices (Shanghai) Co. Ltd.
+Author{4}{Firstname}#=%=#Minglei
+Author{4}{Lastname}#=%=#Li
+Author{4}{Email}#=%=#csmli@comp.polyu.edu.hk
+Author{4}{Affiliation}#=%=#
+Author{5}{Firstname}#=%=#Chu-Ren
+Author{5}{Lastname}#=%=#Huang
+Author{5}{Email}#=%=#churen.huang@polyu.edu.hk
+Author{5}{Affiliation}#=%=#The Hong Kong Polytechnic Universiy
+
+==========

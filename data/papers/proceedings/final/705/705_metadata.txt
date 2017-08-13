@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#705
+FinalPaperTitle#=%=#How much progress have we made on RST discourse parsing? A replication study of recent results on the RST-DT
+ShortPaperTitle#=%=#How much progress have we made on RST discourse parsing?
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Mathieu Morey
+JobTitle#==#
+Organization#==#
+Abstract#==#This article evaluates purported progress over the past years in RST discourse
+parsing.
+Several studies report a relative error reduction of 24 to 51\% on all metrics
+that authors attribute to the introduction of distributed representations of
+discourse units.
+We replicate the standard evaluation of 9 parsers, 5 of which use distributed
+representations, from 8 studies published between 2013 and 2017, using their
+predictions on the test set of the RST-DT.
+Our main finding is that most recently reported increases in RST discourse
+parser performance are an artefact of differences in implementations of the
+evaluation procedure.
+We evaluate all these parsers with the standard Parseval procedure to provide a
+more accurate picture of the actual RST discourse parsers performance in
+standard evaluation settings.
+Under this more stringent procedure, the gains attributable to distributed
+representations represent at most a 16\% relative error reduction on
+fully-labelled structures.
+Author{1}{Firstname}#=%=#Mathieu
+Author{1}{Lastname}#=%=#Morey
+Author{1}{Email}#=%=#mathieu.morey@gmail.com
+Author{1}{Affiliation}#=%=#Université Paul Sabatier, Toulouse
+Author{2}{Firstname}#=%=#Philippe
+Author{2}{Lastname}#=%=#Muller
+Author{2}{Email}#=%=#philippe.muller@irit.fr
+Author{2}{Affiliation}#=%=#IRIT, Toulouse University
+Author{3}{Firstname}#=%=#Nicholas
+Author{3}{Lastname}#=%=#Asher
+Author{3}{Email}#=%=#nicholas.asher@irit.fr
+Author{3}{Affiliation}#=%=#CNRS Institut de Recherche en Informatique de Toulouse
+
+==========

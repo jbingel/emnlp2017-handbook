@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#624
+FinalPaperTitle#=%=#Determining Semantic Textual Similarity using Natural Deduction Proofs
+ShortPaperTitle#=%=#Determining Semantic Textual Similarity using Natural Deduction Proofs
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Hitomi Yanaka
+JobTitle#==#
+Organization#==#University of Tokyo
+7-3-1 Hongo, Bunkyo-ku, Tokyo 113-8654 Japan
+Abstract#==#Determining semantic textual similarity is a core research subject in natural
+language processing.
+Since vector-based models for sentence representation often use shallow
+information, capturing accurate semantics is difficult. By contrast, logical
+semantic representations capture deeper levels of sentence semantics, but their
+symbolic nature does not offer graded notions of textual similarity.
+We propose a method for determining semantic textual similarity by combining
+shallow features with features extracted from natural deduction proofs of
+bidirectional entailment relations between sentence pairs. For the natural
+deduction proofs, we use ccg2lambda, a higher-order automatic inference system,
+which converts Combinatory Categorial Grammar (CCG) derivation trees into
+semantic representations and conducts natural deduction proofs. Experiments
+show that our system was able to outperform other logic-based systems and that
+features derived from the proofs are effective for learning textual similarity.
+Author{1}{Firstname}#=%=#Hitomi
+Author{1}{Lastname}#=%=#Yanaka
+Author{1}{Email}#=%=#hitomiyanaka@g.ecc.u-tokyo.ac.jp
+Author{1}{Affiliation}#=%=#University of Tokyo
+Author{2}{Firstname}#=%=#Koji
+Author{2}{Lastname}#=%=#Mineshima
+Author{2}{Email}#=%=#mineshima.koji@ocha.ac.jp
+Author{2}{Affiliation}#=%=#Ochanomizu University
+Author{3}{Firstname}#=%=#Pascual
+Author{3}{Lastname}#=%=#Martínez-Gómez
+Author{3}{Email}#=%=#pascual.mg@aist.go.jp
+Author{3}{Affiliation}#=%=#National Institute of Advanced Industrial Science and Technology (AIST)
+Author{4}{Firstname}#=%=#Daisuke
+Author{4}{Lastname}#=%=#Bekki
+Author{4}{Email}#=%=#bekki@is.ocha.ac.jp
+Author{4}{Affiliation}#=%=#Ochanomizu University
+
+==========

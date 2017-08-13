@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#77
+FinalPaperTitle#=%=#Classification of telicity using cross-linguistic annotation projection
+ShortPaperTitle#=%=#Classification of telicity using cross-linguistic annotation projection
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Annemarie Friedrich
+JobTitle#==#
+Organization#==#CIS, LMU Munich
+Abstract#==#This paper addresses the automatic recognition of telicity, an aspectual
+notion. A telic event includes a natural endpoint ("she walked home"), while an
+atelic event does not ("she walked around"). Recognizing this difference is a
+prerequisite for temporal natural language understanding. In English, this
+classification task is difficult, as telicity is a covert linguistic category.
+In contrast, in Slavic languages, aspect is part of a verb's meaning and even
+available in machine-readable dictionaries. Our contributions are as follows.
+We successfully leverage additional silver standard training data in the form
+of projected annotations from parallel English-Czech data as well as context
+information, improving automatic telicity classification for English
+significantly compared to previous work. We also create a new data set of
+English texts manually annotated with telicity.
+Author{1}{Firstname}#=%=#Annemarie
+Author{1}{Lastname}#=%=#Friedrich
+Author{1}{Email}#=%=#anne@cis.uni-muenchen.de
+Author{1}{Affiliation}#=%=#Ludwig-Maximilians-Universität München
+Author{2}{Firstname}#=%=#Damyana
+Author{2}{Lastname}#=%=#Gateva
+Author{2}{Email}#=%=#dgateva@coli.uni-saarland.de
+Author{2}{Affiliation}#=%=#Saarland University
+
+==========

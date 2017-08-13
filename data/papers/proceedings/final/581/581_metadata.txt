@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#581
+FinalPaperTitle#=%=#Topic Signatures in Political Campaign Speeches
+ShortPaperTitle#=%=#Topic Signatures in Political Campaign Speeches
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Clément Gautrais
+JobTitle#==#
+Organization#==#
+Abstract#==#Highlighting the recurrence of topics usage in candidates speeches is a key
+feature to identify the main ideas of each candidate during a political
+campaign. In this paper, we present a method combining standard topic modeling
+with signature mining for analyzing topic recurrence in speeches of Clinton and
+Trump during the 2016 American presidential campaign. The results show that the
+method extracts automatically the main ideas of each candidate and, in
+addition, provides information about the evolution of these topics during the
+campaign.
+Author{1}{Firstname}#=%=#Clément
+Author{1}{Lastname}#=%=#Gautrais
+Author{1}{Email}#=%=#clement.gautrais@irisa.fr
+Author{1}{Affiliation}#=%=#University of Rennes 1
+Author{2}{Firstname}#=%=#Peggy
+Author{2}{Lastname}#=%=#Cellier
+Author{2}{Email}#=%=#peggy.cellier@irisa.fr
+Author{2}{Affiliation}#=%=#INSA Rennes
+Author{3}{Firstname}#=%=#René
+Author{3}{Lastname}#=%=#Quiniou
+Author{3}{Email}#=%=#rene.quiniou@inria.fr
+Author{3}{Affiliation}#=%=#Inria Rennes
+Author{4}{Firstname}#=%=#Alexandre
+Author{4}{Lastname}#=%=#Termier
+Author{4}{Email}#=%=#alexandre.termier@irisa.fr
+Author{4}{Affiliation}#=%=#University of Rennes 1
+
+==========

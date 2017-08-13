@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#506
+FinalPaperTitle#=%=#Globally Normalized Reader
+ShortPaperTitle#=%=#Globally Normalized Reader
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jonathan Raiman
+JobTitle#==#
+Organization#==#Baidu Silicon Valley Artificial Intelligence Laboratory, 1195 Bordeaux Dr, Sunnyvale, CA 94089
+Abstract#==#Rapid progress has been made towards question answering (QA) systems that can
+extract answers from text. Existing neural approaches make use of expensive
+bi-directional attention mechanisms or score all possible answer spans,
+limiting scalability. We propose instead to cast extractive QA as an iterative
+search problem: select the answer's sentence, start word, and end word. This
+representation reduces the space of each search step and allows computation to
+be conditionally allocated to promising search paths. We show that globally
+normalizing the decision process and back-propagating through beam search makes
+this representation viable and learning efficient. We empirically demonstrate
+the benefits of this approach using our model, Globally Normalized Reader
+(GNR), which achieves the second highest single model performance on the
+Stanford Question Answering Dataset (68.4 EM, 76.21 F1 dev) and is 24.7x faster
+than bi-attention-flow. We also introduce a data-augmentation method to produce
+semantically valid examples by aligning named entities to a knowledge base and
+swapping them with new entities of the same type. This method  improves the
+performance of all models considered in this work and is of independent
+interest for a variety of NLP tasks.
+Author{1}{Firstname}#=%=#Jonathan
+Author{1}{Lastname}#=%=#Raiman
+Author{1}{Email}#=%=#jonathanraiman@gmail.com
+Author{1}{Affiliation}#=%=#Baidu SVAIL
+Author{2}{Firstname}#=%=#John
+Author{2}{Lastname}#=%=#Miller
+Author{2}{Email}#=%=#johnpmiller16@gmail.com
+Author{2}{Affiliation}#=%=#Baidu Research
+
+==========

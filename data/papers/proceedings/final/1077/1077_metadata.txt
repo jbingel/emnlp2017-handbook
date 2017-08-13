@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#1077
+FinalPaperTitle#=%=#Opinion Recommendation Using A Neural Model
+ShortPaperTitle#=%=#Opinion Recommendation Using A Neural Model
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Zhongqing Wang
+JobTitle#==#
+Organization#==#
+Abstract#==#We present opinion recommendation, a novel task of jointly generating a review
+with a rating score that a certain user would give to a certain product which
+is unreviewed by the user, given existing reviews to the product by other
+users, and the reviews that the user has given to other products. A
+characteristic of opinion recommendation is the reliance of multiple data
+sources for multi-task joint learning. We use a single neural network to model
+users and products, generating customised product representations using a deep
+memory network, from which customised ratings and reviews are constructed
+jointly. Results show that our opinion recommendation system gives ratings that
+are closer to real user ratings on Yelp.com data compared with Yelp's own
+ratings. our methods give better results compared to several pipelines
+baselines.
+Author{1}{Firstname}#=%=#Zhongqing
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#wangzq.antony@gmail.com
+Author{1}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{2}{Firstname}#=%=#Yue
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#yue_zhang@sutd.edu.sg
+Author{2}{Affiliation}#=%=#Singapore University of Technology and Design
+
+==========

@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#654
+FinalPaperTitle#=%=#Dependency Grammar Induction with Neural Lexicalization and Big Training Data
+ShortPaperTitle#=%=#Dependency Grammar Induction with Neural Lexicalization and Big Training Data
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Wenjuan Han
+JobTitle#==#
+Organization#==#ShanghaiTech University
+393 Middle Huaxia Road, Pudong, Shanghai, China
+Abstract#==#We study the impact of big models (in terms of the degree of lexicalization)
+and big data (in terms of the training corpus size) on dependency grammar
+induction.
+We experimented with L-DMV, a lexicalized version of Dependency Model with
+Valence \cite{Klein:2004:CIS:1218955.1219016} and L-NDMV, our lexicalized
+extension of the Neural Dependency Model with Valence
+\cite{jiang-han-tu:2016:EMNLP2016}. 
+We find that L-DMV only benefits from very small degrees of lexicalization and
+moderate sizes of training corpora. L-NDMV can benefit from big training data
+and lexicalization of greater degrees, especially when enhanced with good model
+initialization, and it achieves a result that is competitive with the current
+state-of-the-art.
+Author{1}{Firstname}#=%=#Wenjuan
+Author{1}{Lastname}#=%=#Han
+Author{1}{Email}#=%=#hanwj@shanghaitech.edu.cn
+Author{1}{Affiliation}#=%=#ShanghaiTech University
+Author{2}{Firstname}#=%=#Yong
+Author{2}{Lastname}#=%=#Jiang
+Author{2}{Email}#=%=#jiangyong@shanghaitech.edu.cn
+Author{2}{Affiliation}#=%=#ShanghaiTech University
+Author{3}{Firstname}#=%=#Kewei
+Author{3}{Lastname}#=%=#Tu
+Author{3}{Email}#=%=#tukw@shanghaitech.edu.cn
+Author{3}{Affiliation}#=%=#ShanghaiTech University
+
+==========

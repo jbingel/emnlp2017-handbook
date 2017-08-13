@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#338
+FinalPaperTitle#=%=#Towards Compact and Fast Neural Machine Translation Using a Combined Method
+ShortPaperTitle#=%=#Towards Compact and Fast NMT Using a Combined Method
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Zhang Xiaowei
+JobTitle#==#
+Organization#==#
+Abstract#==#Neural Machine Translation (NMT) lays intensive burden on computation and
+memory cost. It is a challenge to deploy NMT models on the devices with limited
+computation and memory budgets. This paper presents a four stage pipeline to
+compress model and speed up the decoding for NMT. Our method first introduces a
+compact architecture based on convolutional encoder and weight shared
+embeddings. Then weight pruning is applied to obtain a sparse model. Next, we
+propose a fast sequence interpolation approach which enables the greedy
+decoding to achieve performance on par with the beam search. Hence, the
+time-consuming beam search can be replaced by simple greedy decoding. Finally,
+vocabulary selection is used to reduce the computation of softmax layer. Our
+final model achieves 10 times speedup, 17 times parameters reduction, less than
+35MB storage size and comparable performance compared to the baseline model.
+Author{1}{Firstname}#=%=#Xiaowei
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#zhangxiaowei2015@ia.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Science
+Author{2}{Firstname}#=%=#Wei
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Email}#=%=#wei.chen.media@ia.ac.cn
+Author{2}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Feng
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#feng.wang@ia.ac.cn
+Author{3}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{4}{Firstname}#=%=#Shuang
+Author{4}{Lastname}#=%=#Xu
+Author{4}{Email}#=%=#shuang.xu@ia.ac.cn
+Author{4}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+Author{5}{Firstname}#=%=#Bo
+Author{5}{Lastname}#=%=#Xu
+Author{5}{Email}#=%=#boxu@ia.ac.cn
+Author{5}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+
+==========

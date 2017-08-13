@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#552
+FinalPaperTitle#=%=#Instance Weighting for Neural Machine Translation Domain Adaptation
+ShortPaperTitle#=%=#Instance Weighting for NMT Domain Adaptation
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Rui Wang
+JobTitle#==#
+Organization#==#NICT
+Abstract#==#Instance weighting has been widely applied to phrase-based machine translation
+domain adaptation. However, it is challenging to be applied to Neural Machine
+Translation (NMT) directly, because NMT is not a linear model. In this paper,
+two instance weighting technologies, i.e., sentence weighting and domain
+weighting with a dynamic weight learning strategy, are proposed for NMT domain
+adaptation. Empirical results on the IWSLT English-German/French tasks show
+that the proposed methods can substantially improve NMT performance by up to
+2.7-6.7 BLEU points, outperforming the existing baselines by up to 1.6-3.6 BLEU
+points.
+Author{1}{Firstname}#=%=#Rui
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#wangrui.nlp@gmail.com
+Author{1}{Affiliation}#=%=#NICT
+Author{2}{Firstname}#=%=#Masao
+Author{2}{Lastname}#=%=#Utiyama
+Author{2}{Email}#=%=#mutiyama@nict.go.jp
+Author{2}{Affiliation}#=%=#NICT
+Author{3}{Firstname}#=%=#Lemao
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Email}#=%=#lemaoliu@gmail.com
+Author{3}{Affiliation}#=%=#Tencent AI Lab
+Author{4}{Firstname}#=%=#Kehai
+Author{4}{Lastname}#=%=#Chen
+Author{4}{Email}#=%=#chenkehai@gmail.com
+Author{4}{Affiliation}#=%=#Harbin Institute of Technology
+Author{5}{Firstname}#=%=#Eiichiro
+Author{5}{Lastname}#=%=#Sumita
+Author{5}{Email}#=%=#eiichiro.sumita@nict.go.jp
+Author{5}{Affiliation}#=%=#NICT
+
+==========

@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#398
+FinalPaperTitle#=%=#Neural Machine Translation Leveraging Phrase-based Models in a Hybrid Search
+ShortPaperTitle#=%=#Neural Machine Translation Leveraging Phrase-based Models in a Hybrid Search
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Shahram Khadivi
+JobTitle#==#
+Organization#==#eBay Inc., Aachen, Germany
+Abstract#==#In this paper, we introduce a hybrid search for attention-based neural machine
+translation (NMT). A target phrase learned with statistical MT models extends a
+hypothesis in the NMT beam search when the attention of the NMT model focuses
+on the source words translated by this phrase. Phrases added in this way are
+scored with the NMT model, but also with SMT features including phrase-level
+translation probabilities and a target language model. Experimental results on
+German-to-English news domain and English-to-Russian e-commerce domain 
+translation tasks show that using phrase-based models in NMT search improves MT
+quality by up to 2.3\% BLEU absolute as compared to a strong NMT baseline.
+Author{1}{Firstname}#=%=#Leonard
+Author{1}{Lastname}#=%=#Dahlmann
+Author{1}{Email}#=%=#fdahlmann@ebay.com
+Author{1}{Affiliation}#=%=#eBay
+Author{2}{Firstname}#=%=#Evgeny
+Author{2}{Lastname}#=%=#Matusov
+Author{2}{Email}#=%=#ematusov@ebay.com
+Author{2}{Affiliation}#=%=#eBay
+Author{3}{Firstname}#=%=#Pavel
+Author{3}{Lastname}#=%=#Petrushkov
+Author{3}{Email}#=%=#ppetrushkov@ebay.com
+Author{3}{Affiliation}#=%=#eBay
+Author{4}{Firstname}#=%=#Shahram
+Author{4}{Lastname}#=%=#Khadivi
+Author{4}{Email}#=%=#skhadivi@ebay.com
+Author{4}{Affiliation}#=%=#eBay
+
+==========

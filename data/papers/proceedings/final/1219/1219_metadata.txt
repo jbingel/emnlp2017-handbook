@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#1219
+FinalPaperTitle#=%=#Structural Embedding of Syntactic Trees for Machine Comprehension
+ShortPaperTitle#=%=#Structural Embedding of Syntactic Trees for Machine Comprehension
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Rui Liu
+JobTitle#==#
+Organization#==#
+Abstract#==#Deep neural networks for machine comprehension typically utilizes only word or
+character embeddings without explicitly taking advantage of structured
+linguistic information such as constituency trees and dependency trees. In this
+paper, we propose structural embedding of syntactic trees (SEST), an algorithm
+framework to utilize structured information and encode them into vector
+representations that can boost the performance of algorithms for the machine
+comprehension. We evaluate our approach using a state-of-the-art neural
+attention model on the SQuAD dataset. Experimental results demonstrate that our
+model can accurately identify the syntactic boundaries of the sentences and
+extract answers that are syntactically coherent over the baseline methods.
+Author{1}{Firstname}#=%=#Rui
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Email}#=%=#ruil@cs.cmu.edu
+Author{1}{Affiliation}#=%=#CMU LTI
+Author{2}{Firstname}#=%=#Junjie
+Author{2}{Lastname}#=%=#Hu
+Author{2}{Email}#=%=#junjieh@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Wei
+Author{3}{Lastname}#=%=#Wei
+Author{3}{Email}#=%=#ww@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Zi
+Author{4}{Lastname}#=%=#Yang
+Author{4}{Email}#=%=#ziy@cs.cmu.edu
+Author{4}{Affiliation}#=%=#Carnegie Mellon University
+Author{5}{Firstname}#=%=#Eric
+Author{5}{Lastname}#=%=#Nyberg
+Author{5}{Email}#=%=#ehn@cs.cmu.edu
+Author{5}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

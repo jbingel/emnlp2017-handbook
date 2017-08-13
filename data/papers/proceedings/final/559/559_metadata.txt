@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#559
+FinalPaperTitle#=%=#Investigating Different Syntactic Context Types and Context Representations for Learning Word Embeddings
+ShortPaperTitle#=%=#Investigating Different Syntactic Context Types and Context Representations for Learning Word Embeddings
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Bofang Li
+JobTitle#==#
+Organization#==#
+Abstract#==#The number of word embedding models is growing every year. Most of them are
+based on the co-occurrence information of words and their contexts. However, it
+is still an open question what is the best definition of context. We provide a
+systematical investigation of 4 different syntactic context types and context
+representations for learning word embeddings. Comprehensive experiments are
+conducted to evaluate their effectiveness on 6 extrinsic and intrinsic tasks.
+We hope that this paper, along with the published code, would be helpful for
+choosing the best context type and representation for a given task.
+Author{1}{Firstname}#=%=#Bofang
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#libofang@ruc.edu.cn
+Author{1}{Affiliation}#=%=#Renmin University of China
+Author{2}{Firstname}#=%=#Tao
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#tliu@ruc.edu.cn
+Author{2}{Affiliation}#=%=#Renmin University of China
+Author{3}{Firstname}#=%=#Zhe
+Author{3}{Lastname}#=%=#Zhao
+Author{3}{Email}#=%=#helloworld@ruc.edu.cn
+Author{3}{Affiliation}#=%=#Renmin University of China
+Author{4}{Firstname}#=%=#Buzhou
+Author{4}{Lastname}#=%=#Tang
+Author{4}{Email}#=%=#tangbuzhou@gmail.com
+Author{4}{Affiliation}#=%=#Harbin Institute of Technology
+Author{5}{Firstname}#=%=#Aleksandr
+Author{5}{Lastname}#=%=#Drozd
+Author{5}{Email}#=%=#alex@smg.is.titech.ac.jp
+Author{5}{Affiliation}#=%=#Tokyo Institute of Technology
+Author{6}{Firstname}#=%=#Anna
+Author{6}{Lastname}#=%=#Rogers
+Author{6}{Email}#=%=#arogers@cs.uml.edu
+Author{6}{Affiliation}#=%=#University of Massachusetts Lowell
+Author{7}{Firstname}#=%=#Xiaoyong
+Author{7}{Lastname}#=%=#Du
+Author{7}{Email}#=%=#duyong@ruc.edu.cn
+Author{7}{Affiliation}#=%=#Renmin University of China
+
+==========

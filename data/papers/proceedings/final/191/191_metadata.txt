@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#191
+FinalPaperTitle#=%=#Unfolding and Shrinking Neural Machine Translation Ensembles
+ShortPaperTitle#=%=#Unfolding and Shrinking Neural Machine Translation Ensembles
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Felix Stahlberg
+JobTitle#==#
+Organization#==#Engineering Dept, Trumpington St, Cambridge CB2 1PZ, UK
+Abstract#==#Ensembling is a well-known technique in neural machine translation (NMT) to
+improve system performance. Instead of a single neural net, multiple neural
+nets with the same topology are trained separately, and the decoder generates
+predictions by averaging over the individual models. Ensembling often improves
+the quality of the generated translations drastically. However, it is not
+suitable for production systems because it is cumbersome and slow. This work
+aims to reduce the runtime to be on par with a single system without
+compromising the translation quality. First, we show that the ensemble can be
+unfolded into a single large neural network which imitates the output of the
+ensemble system. We show that unfolding can already improve the runtime in
+practice since more work can be done on the GPU. We proceed by describing a set
+of techniques to shrink the unfolded network by reducing the dimensionality of
+layers. On Japanese-English we report that the resulting network has the size
+and decoding speed of a single NMT network but performs on the level of a
+3-ensemble system.
+Author{1}{Firstname}#=%=#Felix
+Author{1}{Lastname}#=%=#Stahlberg
+Author{1}{Email}#=%=#fs439@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge, Department of Engineering
+Author{2}{Firstname}#=%=#Bill
+Author{2}{Lastname}#=%=#Byrne
+Author{2}{Email}#=%=#bill.byrne@eng.cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+
+==========

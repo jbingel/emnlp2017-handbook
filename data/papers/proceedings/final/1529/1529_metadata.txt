@@ -1,0 +1,74 @@
+SubmissionNumber#=%=#1529
+FinalPaperTitle#=%=#Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#We propose a simple solution to use a single Neural Machine Translation (NMT)
+model to translate between multiple languages. Our solution requires no changes
+to the model architecture from a standard NMT system but instead introduces an
+artificial token at the beginning of the input sentence to specify the required
+target language. Using a shared wordpiece vocabulary, our approach enables
+Multilingual NMT using a single model. On the WMT’14 benchmarks, a single
+multilingual model achieves comparable performance for English→French and
+surpasses state-of-the-art results for English→German. Similarly, a single
+multilingual model surpasses state-of-the-art results for French→English and
+German→English on WMT’14 and WMT’15 benchmarks, respectively. On
+production corpora, multilingual models of up to twelve language pairs allow
+for better translation of many individual pairs. Our models can also learn to
+perform implicit bridging between language pairs never seen explicitly during
+training, showing that transfer learning and zero-shot translation is possible
+for neural translation. Finally, we show analyses that hints at a universal
+interlingua representation in our models and show some interesting examples
+when mixing languages.
+Author{1}{Firstname}#=%=#Melvin
+Author{1}{Lastname}#=%=#Johnson
+Author{1}{Email}#=%=#melvinp@google.com
+Author{1}{Affiliation}#=%=#Google
+Author{2}{Firstname}#=%=#Mike
+Author{2}{Lastname}#=%=#Schuster
+Author{2}{Email}#=%=#schuster@google.com
+Author{2}{Affiliation}#=%=#Google
+Author{3}{Firstname}#=%=#Quoc V.
+Author{3}{Lastname}#=%=#Le
+Author{3}{Email}#=%=#qvl@google.com
+Author{3}{Affiliation}#=%=#Google
+Author{4}{Firstname}#=%=#Maxim
+Author{4}{Lastname}#=%=#Krikun
+Author{4}{Email}#=%=#krikun@google.com
+Author{4}{Affiliation}#=%=#Google
+Author{5}{Firstname}#=%=#Yonghui
+Author{5}{Lastname}#=%=#Wu
+Author{5}{Email}#=%=#yonghui@google.com
+Author{5}{Affiliation}#=%=#Google
+Author{6}{Firstname}#=%=#Zhifeng
+Author{6}{Lastname}#=%=#Chen
+Author{6}{Email}#=%=#zhifengc@google.com
+Author{6}{Affiliation}#=%=#Google
+Author{7}{Firstname}#=%=#Nikhil
+Author{7}{Lastname}#=%=#Thorat
+Author{7}{Email}#=%=#nsthorat@google.com
+Author{7}{Affiliation}#=%=#Google
+Author{8}{Firstname}#=%=#Fernanda
+Author{8}{Lastname}#=%=#Viégas
+Author{8}{Email}#=%=#viegas@google.com
+Author{8}{Affiliation}#=%=#Google
+Author{9}{Firstname}#=%=#Martin
+Author{9}{Lastname}#=%=#Wattenberg
+Author{9}{Email}#=%=#wattenberg@google.com
+Author{9}{Affiliation}#=%=#Google
+Author{10}{Firstname}#=%=#Greg
+Author{10}{Lastname}#=%=#Corrado
+Author{10}{Email}#=%=#gcorrado@google.com
+Author{10}{Affiliation}#=%=#Google
+Author{11}{Firstname}#=%=#Macduff
+Author{11}{Lastname}#=%=#Hughes
+Author{11}{Email}#=%=#macduff@google.com
+Author{11}{Affiliation}#=%=#Google
+Author{12}{Firstname}#=%=#Jeffrey
+Author{12}{Lastname}#=%=#Dean
+Author{12}{Email}#=%=#jeff@google.com
+Author{12}{Affiliation}#=%=#Google
+
+==========

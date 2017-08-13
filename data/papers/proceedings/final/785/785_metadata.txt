@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#785
+FinalPaperTitle#=%=#Exploring Vector Spaces for Semantic Relations
+ShortPaperTitle#=%=#Exploring Vector Spaces for Semantic Relations
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Kata Gabor
+JobTitle#==#
+Organization#==#LIPN Université Paris 13
+99, avenue Jean-Baptiste Clément
+93430 - Villetaneuse
+FRANCE
+Abstract#==#Word embeddings are used with success for a variety of tasks involving lexical
+semantic similarities between individual words. Using unsupervised methods and
+just cosine similarity, encouraging results were obtained for analogical
+similarities. In this paper, we explore the potential of pre-trained word
+embeddings to identify generic types of semantic relations in an unsupervised
+experiment. We propose a new relational similarity measure based on the
+combination of word2vec's CBOW input and output vectors which outperforms
+concurrent vector representations, when used for unsupervised clustering on
+SemEval 2010 Relation Classification data.
+Author{1}{Firstname}#=%=#Kata
+Author{1}{Lastname}#=%=#Gábor
+Author{1}{Email}#=%=#katagood@gmail.com
+Author{1}{Affiliation}#=%=#LIPN Université Paris13
+Author{2}{Firstname}#=%=#Haifa
+Author{2}{Lastname}#=%=#Zargayouna
+Author{2}{Email}#=%=#haifa.zargayouna@lipn.univ-paris13.fr
+Author{2}{Affiliation}#=%=#LIPN, UMR CNRS 7030,  Paris 13 University, Sorbonne Paris Cité
+Author{3}{Firstname}#=%=#Isabelle
+Author{3}{Lastname}#=%=#Tellier
+Author{3}{Email}#=%=#isabelle.tellier@univ-paris3.fr
+Author{3}{Affiliation}#=%=#university Paris 3 - Sorbonne Nouvelle, LaTTiCe
+Author{4}{Firstname}#=%=#Davide
+Author{4}{Lastname}#=%=#Buscaldi
+Author{4}{Email}#=%=#davide.buscaldi@lipn.univ-paris13.fr
+Author{4}{Affiliation}#=%=#LIPN, Université Paris 13
+Author{5}{Firstname}#=%=#Thierry
+Author{5}{Lastname}#=%=#Charnois
+Author{5}{Email}#=%=#thierry.charnois@lipn.univ-paris13.fr
+Author{5}{Affiliation}#=%=#LIPN - CNRS University Paris 13
+
+==========

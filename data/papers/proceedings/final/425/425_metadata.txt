@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#425
+FinalPaperTitle#=%=#Patterns of Argumentation Strategies across Topics
+ShortPaperTitle#=%=#Patterns of Argumentation Strategies across Topics
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Khalid Al-Khatib
+JobTitle#==#
+Organization#==#Bauhaus-Universität Weimar, Bauhausstraße 11, 99423 Weimar, Germany
+Abstract#==#This paper presents an analysis of argumentation strategies in news editorials
+within and across topics. Given nearly 29,000 argumentative editorials from the
+New York Times, we develop two machine learning models, one for determining an
+editorial's topic, and one for identifying evidence types in the editorial.
+Based on the distribution and structure of the identified types, we analyze the
+usage patterns of argumentation strategies among 12 different topics. We detect
+several common patterns that provide insights into the manifestation of
+argumentation strategies. Also, our experiments reveal clear correlations
+between the topics and the detected patterns.
+Author{1}{Firstname}#=%=#Khalid
+Author{1}{Lastname}#=%=#Al Khatib
+Author{1}{Email}#=%=#khalid.alkhatib@uni-weimar.de
+Author{1}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{2}{Firstname}#=%=#Henning
+Author{2}{Lastname}#=%=#Wachsmuth
+Author{2}{Email}#=%=#henning.wachsmuth@uni-weimar.de
+Author{2}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{3}{Firstname}#=%=#Matthias
+Author{3}{Lastname}#=%=#Hagen
+Author{3}{Email}#=%=#matthias.hagen@uni-weimar.de
+Author{3}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{4}{Firstname}#=%=#Benno
+Author{4}{Lastname}#=%=#Stein
+Author{4}{Email}#=%=#benno.stein@uni-weimar.de
+Author{4}{Affiliation}#=%=#Bauhaus-Universität Weimar
+
+==========

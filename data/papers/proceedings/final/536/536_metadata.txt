@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#536
+FinalPaperTitle#=%=#Never Abandon Minorities: Exhaustive Extraction of Bursty Phrases on Microblogs Using Set Cover Problem
+ShortPaperTitle#=%=#Never Abandon Minorities: Exhaustive Extraction of Bursty Phrases on Microblogs Using Set Cover Problem
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Masumi Shirakawa
+JobTitle#==#
+Organization#==#
+Abstract#==#We propose a language-independent data-driven method to exhaustively extract
+bursty phrases of arbitrary forms (e.g., phrases other than simple noun
+phrases) from microblogs. The burst (i.e., the rapid increase of the
+occurrence) of a phrase causes the burst of overlapping N-grams including
+incomplete ones. In other words, bursty incomplete N-grams inevitably overlap
+bursty phrases. Thus, the proposed method performs the extraction of bursty
+phrases as the set cover problem in which all bursty N-grams are covered by a
+minimum set of bursty phrases. Experimental results using Japanese Twitter data
+showed that the proposed method outperformed word-based, noun phrase-based, and
+segmentation-based methods both in terms of accuracy and coverage.
+Author{1}{Firstname}#=%=#Masumi
+Author{1}{Lastname}#=%=#Shirakawa
+Author{1}{Email}#=%=#shirakawa@hapicom.jp
+Author{1}{Affiliation}#=%=#hapicom Inc. / Osaka University
+Author{2}{Firstname}#=%=#Takahiro
+Author{2}{Lastname}#=%=#Hara
+Author{2}{Email}#=%=#hara@ist.osaka-u.ac.jp
+Author{2}{Affiliation}#=%=#Osaka University
+Author{3}{Firstname}#=%=#Takuya
+Author{3}{Lastname}#=%=#Maekawa
+Author{3}{Email}#=%=#maekawa@ist.osaka-u.ac.jp
+Author{3}{Affiliation}#=%=#Osaka University
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#659
+FinalPaperTitle#=%=#Outta Control: Laws of Semantic Change and Inherent Biases in Word Representation Models
+ShortPaperTitle#=%=#Outta Control: Laws of Semantic Change and Inherent Biases in Word Representation Models
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Haim Dubossarsky
+JobTitle#==#
+Organization#==#The Hebrew University of Jerusalem
+Abstract#==#This article evaluates three proposed laws of semantic change. Our claim is
+that in order to validate a putative law of semantic change, the effect should
+be observed in the genuine condition but absent or reduced in a suitably
+matched control condition, in which no change can possibly have taken place.
+Our analysis shows that the effects reported in recent literature must be
+substantially revised: (i) the proposed negative correlation between meaning
+change and word frequency is shown to be largely an artefact of the models of
+word representation used; (ii) the proposed negative correlation between
+meaning change and prototypicality is shown to be much weaker than what has
+been claimed in prior art; and (iii) the proposed positive correlation between
+meaning change and polysemy is largely an artefact of word frequency. These
+empirical observations are corroborated by analytical proofs that show that
+count representations introduce an inherent dependence on word frequency, and
+thus word frequency cannot be evaluated as an independent factor with these
+representations.
+Author{1}{Firstname}#=%=#haim
+Author{1}{Lastname}#=%=#dubossarsky
+Author{1}{Email}#=%=#haim.dub@gmail.com
+Author{1}{Affiliation}#=%=#The Hebrew University of Jerusalem
+Author{2}{Firstname}#=%=#Daphna
+Author{2}{Lastname}#=%=#Weinshall
+Author{2}{Email}#=%=#daphna@mail.huji.ac.il
+Author{2}{Affiliation}#=%=#Hebrew University
+Author{3}{Firstname}#=%=#Eitan
+Author{3}{Lastname}#=%=#Grossman
+Author{3}{Email}#=%=#eitan.grossman@mail.huji.ac.il
+Author{3}{Affiliation}#=%=#Hebrew University
+
+==========

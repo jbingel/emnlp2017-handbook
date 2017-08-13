@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#1419
+FinalPaperTitle#=%=#Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture
+ShortPaperTitle#=%=#Temporal Information Extraction in an LSTM-based Architecture
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yuanliang Meng
+JobTitle#==#
+Organization#==#Department of Computer Science
+University of Massachusetts Lowell
+Lowell, MA 01854
+Abstract#==#In this paper, we propose to use a set of simple, uniform in architecture
+LSTM-based models to recover different kinds of temporal relations from text.
+Using the shortest dependency path between entities as input, the same
+architecture is used to extract intra-sentence, cross-sentence, and document
+creation time relations. A ``double-checking'' technique reverses entity pairs
+in classification, boosting the recall of positive cases and reducing
+misclassifications between opposite classes. An efficient pruning algorithm
+resolves conflicts globally. Evaluated on QA-TempEval (SemEval2015 Task 5), our
+proposed technique outperforms state-of-the-art methods by a large margin. We
+also conduct intrinsic evaluation and post state-of-the-art results on
+Timebank-Dense.
+Author{1}{Firstname}#=%=#Yuanliang
+Author{1}{Lastname}#=%=#Meng
+Author{1}{Email}#=%=#yuanliang.meng@gmail.com
+Author{1}{Affiliation}#=%=#University of Massachusetts Lowell
+Author{2}{Firstname}#=%=#Anna
+Author{2}{Lastname}#=%=#Rumshisky
+Author{2}{Email}#=%=#arum@cs.uml.edu
+Author{2}{Affiliation}#=%=#University of Massachusetts Lowell
+Author{3}{Firstname}#=%=#Alexey
+Author{3}{Lastname}#=%=#Romanov
+Author{3}{Email}#=%=#jgc128@outlook.com
+Author{3}{Affiliation}#=%=#UMass Lowell
+
+==========

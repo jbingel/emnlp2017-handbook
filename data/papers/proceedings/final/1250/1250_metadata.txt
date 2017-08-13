@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#1250
+FinalPaperTitle#=%=#Towards Decoding as Continuous Optimisation in Neural Machine Translation
+ShortPaperTitle#=%=#Towards Decoding as Continuous Optimisation in Neural Machine Translation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Hoang Cong Duy Vu
+JobTitle#==#PhD Candidate
+Organization#==#University of Melbourne Melbourne, VIC, Australia
+Abstract#==#We propose a novel decoding approach for neural machine translation (NMT) based
+on continuous optimisation. We reformulate decoding, a discrete optimization
+problem, into a continuous problem, such that optimization can make use of
+efficient gradient-based techniques. Our powerful decoding framework allows for
+more accurate decoding for standard neural machine translation models, as well
+as enabling decoding in intractable models such as intersection of several
+different NMT models. Our empirical results show that our decoding framework is
+effective, and can leads to substantial improvements in translations,
+especially in situations where greedy search and beam search are not feasible.
+Finally, we show how the technique is highly competitive with, and
+complementary to, reranking.
+Author{1}{Firstname}#=%=#Cong Duy Vu
+Author{1}{Lastname}#=%=#Hoang
+Author{1}{Email}#=%=#duyvuleo@gmail.com
+Author{1}{Affiliation}#=%=#The University of Melbourne
+Author{2}{Firstname}#=%=#Gholamreza
+Author{2}{Lastname}#=%=#Haffari
+Author{2}{Email}#=%=#reza.haffari@gmail.com
+Author{2}{Affiliation}#=%=#Monash University
+Author{3}{Firstname}#=%=#Trevor
+Author{3}{Lastname}#=%=#Cohn
+Author{3}{Email}#=%=#tcohn@unimelb.edu.au
+Author{3}{Affiliation}#=%=#University of Melbourne
+
+==========

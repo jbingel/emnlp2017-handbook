@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#1464
+FinalPaperTitle#=%=#Neural Discontinuous Constituency Parsing
+ShortPaperTitle#=%=#Neural Discontinuous Constituency Parsing
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Milos Stanojevic
+JobTitle#==#
+Organization#==#Institute for Logic, Language and Computation, University of Amsterdam
+Science Park 107, 1098 XG Amsterdam, Nederland
+Abstract#==#One of the most pressing issues in discontinuous constituency transition-based
+parsing is that the relevant information for parsing decisions could be located
+in any part of the stack or the buffer. 
+In this paper, we propose a solution to this problem by replacing the
+structured perceptron model with a recursive neural model that computes a
+global representation of the configuration, therefore allowing even the most
+remote parts of the configuration to influence the parsing decisions. We also
+provide a detailed analysis of how this representation should be built out of
+sub-representations of its core elements (words, trees and stack).
+ Additionally, we investigate how different types of swap oracles influence the
+results.  Our model is the first neural discontinuous constituency parser, and
+it outperforms all the previously published models on three out of four
+datasets while on the fourth it obtains second place by a tiny difference.
+Author{1}{Firstname}#=%=#Miloš
+Author{1}{Lastname}#=%=#Stanojević
+Author{1}{Email}#=%=#milosh.stanojevic@gmail.com
+Author{1}{Affiliation}#=%=#University of Amsterdam, ILLC
+Author{2}{Firstname}#=%=#Raquel
+Author{2}{Lastname}#=%=#Garrido Alhama
+Author{2}{Email}#=%=#rgalhama@gmail.com
+Author{2}{Affiliation}#=%=#University of Amsterdam
+
+==========

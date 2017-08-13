@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#1380
+FinalPaperTitle#=%=#Steering Output Style and Topic in Neural Response Generation
+ShortPaperTitle#=%=#Steering Output Style and Topic in Neural Response Generation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Di Wang
+JobTitle#==#
+Organization#==#School of Computer Science, Carnegie Mellon University, Pittsburgh, PA, USA
+Abstract#==#We propose simple and flexible training and decoding methods for influencing
+output style and topic in neural encoder-decoder based language generation.
+This capability is desirable in a variety of applications, including
+conversational systems, where successful agents need to produce language in a
+specific style and generate responses steered by a human puppeteer or external
+knowledge. We decompose the neural generation process into empirically easier
+sub-problems: a faithfulness model and a decoding method based on
+selective-sampling. We also describe training and sampling algorithms that bias
+the generation process with a specific language style restriction, or a topic
+restriction. Human evaluation results show that our proposed methods are able
+to to restrict style and topic without degrading output quality in
+conversational tasks.
+Author{1}{Firstname}#=%=#Di
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#diwang@cs.cmu.edu
+Author{1}{Affiliation}#=%=#School of Computer Science, Carnegie Mellon University
+Author{2}{Firstname}#=%=#Nebojsa
+Author{2}{Lastname}#=%=#Jojic
+Author{2}{Email}#=%=#jojic@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Brockett
+Author{3}{Email}#=%=#chrisbkt@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research
+Author{4}{Firstname}#=%=#Eric
+Author{4}{Lastname}#=%=#Nyberg
+Author{4}{Email}#=%=#ehn@cs.cmu.edu
+Author{4}{Affiliation}#=%=#School of Computer Science, Carnegie Mellon University
+
+==========

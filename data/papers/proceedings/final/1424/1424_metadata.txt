@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#1424
+FinalPaperTitle#=%=#Learning Language Representations for Typology Prediction
+ShortPaperTitle#=%=#Learning Language Representations for Typology Prediction
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Chaitanya Malaviya
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+5000 Forbes Avenue
+Gates Hillman Complex 5409
+Pittsburgh, PA 15213
+USA
+Abstract#==#One central mystery of neural NLP is what neural models "know" about their
+subject matter. When a neural machine translation system learns to translate
+from one language to another, does it learn the syntax or semantics of the
+languages? Can this knowledge be extracted from the system to fill holes in
+human scientific knowledge? Existing typological databases contain relatively
+full feature specifications for only a few hundred languages. Exploiting the
+existence of parallel texts in more than a thousand languages, we build a
+massive many-to-one NMT system from 1017 languages into English, and use this
+to predict information missing from typological databases. Experiments show
+that the proposed method is able to infer not only syntactic, but also
+phonological and phonetic inventory features, and improves over a baseline that
+has access to information about the languages geographic and phylogenetic
+neighbors.
+Author{1}{Firstname}#=%=#Chaitanya
+Author{1}{Lastname}#=%=#Malaviya
+Author{1}{Email}#=%=#cmalaviy@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Graham
+Author{2}{Lastname}#=%=#Neubig
+Author{2}{Email}#=%=#gneubig@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Patrick
+Author{3}{Lastname}#=%=#Littell
+Author{3}{Email}#=%=#plittell@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

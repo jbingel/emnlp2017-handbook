@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#696
+FinalPaperTitle#=%=#Capturing User and Product Information for Document Level Sentiment Analysis with Deep Memory Network
+ShortPaperTitle#=%=#Capturing User and Product Information for Document Level Sentiment Analysis with Deep Memory Network
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Zi-Yi Dou
+JobTitle#==#
+Organization#==#
+Abstract#==#Document-level sentiment classification is a fundamental problem which aims to
+predict a user's overall sentiment about a 
+product in a document. Several methods have been proposed to tackle the problem
+whereas most of them fail to consider the influence of users who express the
+sentiment and products which are evaluated. To address the issue,
+we propose a deep memory network for document-level sentiment classification
+which could capture the user and product information at the same time. To prove
+the effectiveness of our algorithm, we conduct experiments on IMDB and Yelp
+datasets and the results indicate that our model can achieve better performance
+than several existing methods.
+Author{1}{Firstname}#=%=#Zi-Yi
+Author{1}{Lastname}#=%=#Dou
+Author{1}{Email}#=%=#141242042@smail.nju.edu.cn
+Author{1}{Affiliation}#=%=#Nanjing University
+
+==========

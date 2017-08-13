@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#455
+FinalPaperTitle#=%=#Satirical News Detection and Analysis using Attention Mechanism and Linguistic Features
+ShortPaperTitle#=%=#Satirical News Detection and Analysis
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Fan Yang
+JobTitle#==#
+Organization#==#
+Abstract#==#Satirical news is considered to be entertainment, but it is potentially
+deceptive and harmful. Despite the embedded genre in the article, not everyone
+can recognize the satirical cues and therefore believe the news as true news.
+We observe that satirical cues are often reflected in certain paragraphs rather
+than the whole document. Existing works only consider document-level features
+to detect the satire, which could be limited. We consider paragraph-level
+linguistic features to unveil the satire by incorporating neural network and
+attention mechanism. We investigate the difference between paragraph-level
+features and document-level features, and analyze them on a large satirical
+news dataset. The evaluation shows that the proposed model detects satirical
+news effectively and reveals what features are important at which level.
+Author{1}{Firstname}#=%=#Fan
+Author{1}{Lastname}#=%=#Yang
+Author{1}{Email}#=%=#fyang11@uh.edu
+Author{1}{Affiliation}#=%=#University of Houston
+Author{2}{Firstname}#=%=#Arjun
+Author{2}{Lastname}#=%=#Mukherjee
+Author{2}{Email}#=%=#arjun4787@gmail.com
+Author{2}{Affiliation}#=%=#University of Houston
+Author{3}{Firstname}#=%=#Eduard
+Author{3}{Lastname}#=%=#Dragut
+Author{3}{Email}#=%=#edragut@temple.edu
+Author{3}{Affiliation}#=%=#Temple University
+
+==========

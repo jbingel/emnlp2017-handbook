@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#1400
+FinalPaperTitle#=%=#Tensor Fusion Network for Multimodal Sentiment Analysis
+ShortPaperTitle#=%=#Tensor Fusion Network for Multimodal Sentiment Analysis
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Amir Zadeh
+JobTitle#==#
+Organization#==#
+Abstract#==#Multimodal sentiment analysis is an increasingly popular research area, which
+extends the conventional language-based definition of sentiment analysis to a
+multimodal setup where other relevant modalities accompany language. In this
+paper, we pose the problem of multimodal sentiment analysis as modeling
+intra-modality and inter-modality dynamics. We introduce a novel model, termed
+Tensor Fusion Networks, which learns both such dynamics end-to-end. The
+proposed approach is tailored for the volatile nature of spoken language in
+online videos as well as accompanying gestures and voice. In the experiments,
+our model outperforms state-of-the-art approaches for both multimodal and
+unimodal sentiment analysis.
+Author{1}{Firstname}#=%=#Amir
+Author{1}{Lastname}#=%=#Zadeh
+Author{1}{Email}#=%=#abagherz@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#CMU
+Author{2}{Firstname}#=%=#Minghai
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Email}#=%=#minghai.chen.12@gmail.com
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Soujanya
+Author{3}{Lastname}#=%=#Poria
+Author{3}{Email}#=%=#soujanya.poria@gmail.com
+Author{3}{Affiliation}#=%=#Nanyang Technological University
+Author{4}{Firstname}#=%=#Erik
+Author{4}{Lastname}#=%=#Cambria
+Author{4}{Email}#=%=#cambria@media.mit.edu
+Author{4}{Affiliation}#=%=#Nanyang Technological University
+Author{5}{Firstname}#=%=#Louis-Philippe
+Author{5}{Lastname}#=%=#Morency
+Author{5}{Email}#=%=#morency@cs.cmu.edu
+Author{5}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

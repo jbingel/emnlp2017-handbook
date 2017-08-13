@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#948
+FinalPaperTitle#=%=#Identifying and Tracking Sentiments and Topics from Social Media Texts during Natural Disasters
+ShortPaperTitle#=%=#Identifying and Tracking Sentiments and Topics from Social Media Texts
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Min Yang
+JobTitle#==#
+Organization#==#Shenzhen University, 3688 Nanhai Ave, Nanshan Qu, Shenzhen Shi, Guangdong Sheng, China, 518060
+Abstract#==#We study the problem of identifying the topics and sentiments and tracking
+their shifts from social media texts in different geographical regions during
+emergencies and disasters. We propose a location-based dynamic sentiment-topic
+model (LDST) which can jointly model topic, sentiment, time and Geolocation
+information. The experimental results demonstrate that LDST performs very well
+at discovering topics and sentiments from social media and tracking their
+shifts in different geographical regions during emergencies and disasters. We
+will release the data and source code after this work is published.
+Author{1}{Firstname}#=%=#Min
+Author{1}{Lastname}#=%=#Yang
+Author{1}{Email}#=%=#myang@cs.hku.hk
+Author{1}{Affiliation}#=%=#The University of Hong Kong
+Author{2}{Firstname}#=%=#Jincheng
+Author{2}{Lastname}#=%=#Mei
+Author{2}{Email}#=%=#jmei2@ualberta.ca
+Author{2}{Affiliation}#=%=#University of Alberta
+Author{3}{Firstname}#=%=#Heng
+Author{3}{Lastname}#=%=#Ji
+Author{3}{Email}#=%=#jih@rpi.edu
+Author{3}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{4}{Firstname}#=%=#zhao
+Author{4}{Lastname}#=%=#wei
+Author{4}{Email}#=%=#andyweizhao@tencent.com
+Author{4}{Affiliation}#=%=#tencent
+Author{5}{Firstname}#=%=#Zhou
+Author{5}{Lastname}#=%=#Zhao
+Author{5}{Email}#=%=#zhaozhou@zju.edu.cn
+Author{5}{Affiliation}#=%=#
+Author{6}{Firstname}#=%=#Xiaojun
+Author{6}{Lastname}#=%=#Chen
+Author{6}{Email}#=%=#xjchen@szu.edu.cn
+Author{6}{Affiliation}#=%=#Shenzhen University
+
+==========

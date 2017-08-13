@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#1236
+FinalPaperTitle#=%=#Deciphering Related Languages
+ShortPaperTitle#=%=#Deciphering Related Languages
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Nima Pourdamghani
+JobTitle#==#
+Organization#==#Information Sciences Institute, University of Southern California
+Abstract#==#We present a method for translating texts between close language pairs.  The
+method does not require parallel data, and it does not require the languages to
+be written in the same script.              We show results for six language pairs:
+Afrikaans/Dutch, Bosnian/Serbian, Danish/Swedish, Macedonian/Bulgarian,
+Malaysian/Indonesian, and Polish/Belorussian.  We report BLEU scores showing
+our method to outperform others that do not use parallel data.
+Author{1}{Firstname}#=%=#Nima
+Author{1}{Lastname}#=%=#Pourdamghani
+Author{1}{Email}#=%=#damghani@gmail.com
+Author{1}{Affiliation}#=%=#USC / ISI
+Author{2}{Firstname}#=%=#Kevin
+Author{2}{Lastname}#=%=#Knight
+Author{2}{Email}#=%=#knight@isi.edu
+Author{2}{Affiliation}#=%=#USC/ISI
+
+==========

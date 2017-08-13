@@ -1,0 +1,440 @@
+%\title{emnlp 2017 instructions}
+% File emnlp2017.tex
+%
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{emnlp2017}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
+\hyphenpenalty=5000
+\tolerance=2000
+
+
+% Uncomment this line for the final submission:
+\emnlpfinalcopy
+
+%  Enter the EMNLP Paper ID here:
+\def\emnlppaperid{***}
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+
+\title{Part-of-Speech Tagging for Twitter with Adversarial Neural Networks}
+
+\author{Tao Gui, Qi Zhang\thanks{{ }{ }Corresponding author.}, Haoran Huang, Minlong Peng, Xuanjing Huang\\
+Shanghai Key Laboratory of Intelligent Information Processing\\
+School of Computer Science, Fudan University\\
+825 Zhangheng Road, Shanghai, China\\
+\{tgui16,qz,huanghr15,mlpeng16,xjhuang\}@fudan.edu.cn}
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a seperate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+% If the title and author information does not fit in the area allocated,
+% place \setlength\titlebox{<new height>} right after
+% at the top, where <new height> can be something larger than 2.25in
+%\author{Siddharth Patwardhan \and Preethi Raghavan \\
+%  {\tt publication@emnlp2017.net}}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+In this work, we study the problem of part-of-speech tagging for Tweets. In contrast to newswire articles, Tweets are usually informal and contain numerous out-of-vocabulary words. Moreover, there is a lack of large scale labeled datasets for this domain. To tackle these challenges, we propose a novel neural network to make use of out-of-domain labeled data, unlabeled in-domain data, and labeled in-domain data.  Inspired by adversarial neural networks, the proposed method tries to learn common features through adversarial discriminator. In addition, we hypothesize that domain-specific features of target domain should be preserved in some degree. Hence, the proposed method adopts a sequence-to-sequence autoencoder to perform this task.  Experimental results on three different datasets  show that our method achieves better performance than state-of-the-art methods.  
+% Experimental results on three different datasets  show that  it achieves 
+\end{abstract}
+
+\section{Introduction}
+During the last decade, social media have become extremely popular, on which billions of user-generated contents are posted every day. Many users have been writing about their thoughts and lives on the go.  The massive unstructured data from social media provides valuable information for a variety of applications such as stock prediction~\cite{bollen2011twitter}, public health analysis~\cite{wilson2009early,paul2011you}, real-time event detection~\cite{sakaki2010earthquake}, and so on. The quality of these applications is highly impacted by the performance of natural language processing tasks.% when processing user-generated contents. 
+
+\begin{figure}[t]
+\centering
+  \includegraphics[width=3in]{./images/example.pdf}
+  \caption{An example of tagged Tweet, which contains nonstandard orthography, emoticon, and abbreviation. The tagset is defined similar as that of PTB~\cite{marcus1993building}.} \label{fig:example}
+\end{figure}
+
+Part-of-speech (POS) tagging is one of the most important natural language processing tasks. It has also been widely used in the social media analysis systems~\cite{ritter2012open,lamb2013separating,kiritchenko2014sentiment}. Most state-of-the-art POS tagging approaches are based on supervised methods. Hence, they usually require a large amount of annotated data to train models. Many datasets have been constructed for POS tagging task. Because newswire articles are carefully edited, benchmarks usually use them for annotation~\cite{marcus1993building}. However, user-generated contents on social media are usually informal and contain many nonstandard lexical items. Moreover, the difference in domains between training data and evaluation data may heavily impact the performance of approaches based on supervised methods~\cite{caruana2006empirical}. Hence, most POS tagging methods cannot achieve the same performance as reported on newswire domain when applied on Twitter~\cite{owoputi2013improved}.
+
+To perform the Twitter POS tagging task, some approaches have been proposed to perform the task.~\citet{gimpel2011part} manually annotated 1,827 tweets and carefully studied various features.~\citet{ritter2011named} also constructed a labeled dataset, which contained 787 tweets, to empirically evaluate the performance of supervised methods on Twitter.~\citet{owoputi2013improved} incorporated word clusters into the feature sets and further improved the performance. From these works, we can observe that the size of the training data was much smaller than the newswire domain's. 
+
+Besides the challenge of lack of training data, the frequent use of out-of-vocabulary words also makes this problem difficult to address. Social media users often use informal ways of expressing their ideas and often spell words phonetically (e.g., ``2mor'' for ``tomorrow''). In addition, they also make extensive use of emoticons and abbreviations (e.g., ``:-)'' for smiling emotion and ``LOL'' for laughing out loud). Moreover, new symbols, abbreviations, and words are constantly being created. Figure \ref{fig:example} shows an example of tagged Tweet. 
+
+To tackle the challenges posed by the lack of training data and the out-of-vocabulary words, in this paper, we propose  a novel recurrent neural network, which we call \textit{Target Preserved Adversarial Neural Network} (TPANN) to perform the task. It can make use of a large quantity of annotated data from other resource-rich domains, unlabeled in-domain data, and a small amount of labeled in-domain data.  All of these datasets can be easily obtained. To make use of unlabeled data, motivated by the work of~\citet{goodfellow2014generative} and~\citet{chen2016adversarial}, the proposed method extends the bi-directional long short-term memory recurrent neural network (bi-LSTM) with an adversarial predictor. To overcome the defect that adversarial networks can merely learn the common features, we propose to use an autoencoder only acting on target dataset to preserve its own specific features. For tackling the out-of-vocabulary problem, the proposed method also incorporates a character level convolutional neutral network to leverage subword information. %Through experiments on three different datasets on Twitter and conversational text, we observed that the proposed method could make good use of annotated data from other domains and unlabeled in-domain data. The performance was better than those of state-of-the-art methods.  
+
+
+
+%Although pervious works have introduced various valuable features and carefully studied a variety of supervised methods, comparing to the performance on newswire domain, the performance on Twitter can be further improved. 
+
+The contributions of this work are as follows:
+\begin{itemize}
+  \item We propose to incorporate large scale unlabeled in-domain data, out-of-domain labeled data, and in-domain labeled data for Twitter part-of-speech tagging task. 
+  
+  \item We introduce a novel recurrent neural network, which can learn domain-invariant representations through in-domain and out-of-domain data and construct a cross domain POS tagger through the learned representations. The proposed method also tries to preserve the specific features of target domain.
+  %. extends bi-LSTM recurrent neural network with an adversarial predictor, an autoencoder and character level convolutional neural network, to perform the task. %Two phases training procedures are also introduced to perform the task. 
+  \item Experimental results demonstrate that the proposed method can lead to better performance in most of cases on three different datasets.
+\end{itemize}
+
+\section{Approach}
+%Based on the descriptions given above, when doing POS tagging on contents posted in social media, we need to tackle the challenges of lack of training data and out-of-vocabulary words. Although there are only a small of Tweets which are labelled POS tags, we can easily get annotated data from other domains (e.g. PTB~\cite{marcus1993building}), and large scale of unlabeled data.  
+
+%In this work, we propose a model which extend the bi-directional LSTM with an adversarial predictor. In addition, we introduce an autoencoder to preserve the specific features of target domain. to tackle the out-of-vocabulary word problem, we also incorporate character level CNN into the model. In the following sections, we will detail each part of the proposed architecture.
+
+In this work, we propose a novel recurrent neural network, Target Preserved Adversarial Neural Network (TPANN), to  learn common features between resource-rich domain and target domain, simultaneously to preserve target domain-specific features. It extends the bi-directional LSTM with adversarial network and autoencoder. The architecture of TPANN is illustrated in Figure~\ref{fig:arch}. The model consists of four components: \textit{Feature Extractor}, \textit{POS Tagging Classifier}, \textit{Domain Discriminator} and \textit{Target Domain Autoencoder}.  In the following sections, we will detail each part of the proposed architecture and training methods.
+
+\begin{figure*}[t!]
+\centering
+  \includegraphics[width=6.0in]{./images/architecture.pdf}
+  \caption{The general architecture of the proposed method.}
+  \label{fig:arch}
+\end{figure*}
+
+%The input samples of the model are denoted as $x\in X$, where $X$ is the input space from different domains. $y \in Y$ denotes the label of the corresponding input, and $Y$ refers to the label space. The joint feature extractor $\mathcal F$ uses CNN to extract character embedding features $\vec{c}$ and LSTM to extract sequential relations and context information, then produces feature presentations $\mathcal{F}(x)$. $\mathcal{F}(x)$ is mapped to POS tagging classifier and domain discriminator, they will predict the POS tagging label and domain label, respectively. In order to prevent adversarial networks from dropping specific features in target domain, we introduce an autoencoder $\mathcal{R}$ to produce a reconstruction $\textbf{r} = \mathcal{R}(\mathcal{F}(x))$ just for target domain.
+
+%A large set of training samples $\{x_1,x_2,\dots,x_n\}$ are accessed from both the target domain (Twitter) and the source domain (newswire). We denoted target domain distribution and source domain distribution as $\mathcal{T}(x)$ and $\mathcal{S}(x)$, respectively. We use $d_i$, a binary variable, to indicate whether the $i$-th example come from the target distribution ($x_i \sim \mathcal{T}(x)$ if $d_i=1$) or from the source distribution ($x_i \sim \mathcal{S}(x)$ if $d_i=0$). The training procedures are split into two phases: 1) we use in-domain unlabeled data and out-of-domain labeled data to train the feature extractor and POS tagging classifier; 2) in-domain labeled data is used to fine-tune the whole network.
+
+%During training, we know the source domain POS tagging classification labels, but we do not know the target domain POS tagging classification labels, which is what will be predicted during testing. Our ultimate goal is to be able to predict POS tagging labels $y$ given the input $x$ from the target space.
+
+\subsection{Feature Extractor}
+The feature extractor $\mathcal F$ adopts CNN to extract character embedding features, which can tackle the out-of-vocabulary word problem effectively. To incorporate word embedding features, we concatenate word embedding to character embedding as the input of bi-LSTM on the next layer. Utilizing a bi-LSTM to model sentences, $\mathcal{F}$ can extract sequential relations and context information.
+
+We denote the input sentence as $\textbf{x}$ and the i-th word as $x_i$. $x_i \in \mathcal{S}(x)$ and $x_i \in \mathcal{T}(x)$ represent input samples are from source domain and target domain, respectively. We denote the parameters of $\mathcal{F}$ as $\theta_f$. Let $\mathcal{V}$ be the vocabulary of words, and $\mathcal{C}$ be the vocabulary of characters. $d$ is the dimensionality of character embedding then $Q \in \mathbb{R}^{d\times |\mathcal{C}|}$ is the representation matrix of vocabulary. We assume that word $x_i \in \mathcal{V}$ is made up of a sequence of characters $\textbf{C}^i=[c_1,c_2,\dots,c_l]$, where $l$ is the max length of word and every word will be padded to this length. Then $\textbf{C}^i \in \mathbb{R}^{d\times l}$ would be the inputs of CNN.
+
+We apply a narrow convolution between $\textbf{C}^i$ and filter $\textbf{H} \in \mathbb{R}^{d\times k}$, where $k$ is the width of the filter. After that we add a bias and apply nonlinearity to obtain a feature map $\textbf{m}^i \in \mathbb{R}^{l-k+1}$. Specifically, the $j$-th element of $\textbf{m}^i$ is given by:
+\begin{equation}
+\textbf{i}^k[j] = \tanh(\langle\textbf{C}^i[*,j:j+k-1],\textbf{H}\rangle+b),
+\end{equation}
+where $\textbf{C}^k[*,j:j+k-1]$ is the $j$-to-$(j+k-1)$-th column of $\textbf{C}^i$ and $\langle A,B \rangle=\mbox{Tr}(AB^T)$ is the Frobenius inner product. We then apply a max-over-time pooling operation~\cite{collobert2011natural} over the feature map. CNN uses multiple filters with varying widths to obtain the feature vector $\vec{c}_i$ for word $x_i$. Then, the character-level feature vector $\vec{c}_i$ is concatenated to the word embedding $\vec{w}_i$ to form the input of bi-LSTM on the next layer. The word embedding $\vec{w}$ is pretrained on 30 million tweets. Then, the hidden states $\textbf{h}$ of bi-LSTM turn into the features that will be transfered to $\mathcal{P}$, $\mathcal{Q}$ and $\mathcal{R}$, i.e. $\mathcal{F}(\textbf{x}) = \textbf{h}$.
+
+
+%A bidirectional long short-term memory (bi-LSTM) is an extension of LSTM which reads the input sequence twice, from left to right and right to left, and is a variant of RNNs that replace the cells of RNNs with LSTM cells which was designed to prevent vanishing gradients. One step of an bi-LSTM takes as input $x_t,h_{t-1},c_{t-1}$ and produces $h_t,c_t$ via the following intermediate calculations:
+%\begin{equation}
+%\begin{aligned}
+%&i_t = \sigma(W^ix_t + U^ih_{t−1} + b^i )\\
+%&f_t = \sigma(W^fx_t + U^fh_{t−1} + b^f )\\
+%&o_t = \sigma(W^ox_t + U^oh_{t−1} + b^o )\\
+%&g_t = \tanh(W^gx_t + U^gh_{t−1} + b^g )\\
+%&c_t = f_t\odot c_{t−1} + i_t\odot g_t\\
+%&h_t = o_t\odot\tanh(c_t ),\\
+%\end{aligned}
+%\end{equation}
+%where $\sigma(·)$ and $\tanh(·)$ are the element-wise sigmoid and hyperbolic tangent functions, $\odot$ is the element-wise multiplication operator, and $i_t, f_t , o_t$ are referred to as input, forget, and output gates. At $t = 1$, $h_0$ and $c_0$ are initialized to zero vectors. Parameters of the LSTM are $W^j, U^j, b^j$ for $j\in\{i, f, o, g\}$ and we denote these parameters as $\theta_f$.
+
+
+
+\subsection{POS Tagging Classifier and Domain Discriminator}
+POS tagging classifier $\mathcal{P}$ and domain discriminator $\mathcal{Q}$ take $\mathcal{F}(x)$ as input. They are standard feed-forward networks with a softmax layer for classification. $\mathcal{P}$ predicts POS tagging label to get classification capacity, and $\mathcal{Q}$ discriminates domain label to make $\mathcal{F}(x)$ domain-invariant. 
+
+The POS tagging classifier $\mathcal{P}$ maps the feature vector $\mathcal{F}(x_i)$ to its label. We denote the parameters of this mapping as $\theta_y$. The POS tagging classifier is trained on $N_s$ samples from the source domain with the cross entropy loss:
+\begin{equation}
+\mathcal{L}_{task}= -\sum_{i=1}^{N_s} y_i*\log\hat{y_i},
+\end{equation}
+where $y_i$ is the one-hot vector of POS tagging label corresponding to $x_i \in \mathcal{S}(x)$, $\hat{y_i}$ is the output of top softmax layer: $\hat{y_i} = \mathcal{P}(\mathcal{F}(x_i))$. During the training time, The parameters $\theta_f$ and $\theta_y$ are optimized to minimize the classification loss $\mathcal{L}_{task}$. This ensures that $\mathcal{P}(\mathcal{F}(x_i))$ can make accurate prediction on the source domain.
+
+Conversely, domain discriminator maps the same hidden states $\textbf h$  to the domain labels with parameters $\theta_d$. The domain discriminator aims to discriminate the domain label with following loss function: 
+\begin{equation}
+\mathcal{L}_{type}=-\sum_{i=1}^{N_s+N_t}\{d_i\log\hat{d_i}+(1-d_i)\log(1-\hat{d_i})\},
+\end{equation}
+where $d_i$ is the ground truth domain label for sample $i$, $\hat{d_i}$ is the output of top layer: $\hat{d_i}=\mathcal{Q}(\mathcal{F}(x_i))$. $N_t$ means $N_t$ samples from the target domain. The domain discriminator is trained towards a saddle point of the loss function through minimizing the loss over $\theta_d$ while maximizing the loss over $\theta_f$~\cite{ganin2016domain}.  Optimizing $\theta_f$ ensures that the domain discriminator can't discriminate the domain, i.e., the feature extractor finds the common features between the two domains.
+
+
+\subsection{Target Domain Autoencoder}
+Through training adversarial networks, we can obtain domain-invariant features $\textbf{h}_{common}$, but it will weaken some domain-specific features which are useful for POS tagging classification. Merely obtaining domain invariant features would therefore limit the classification ability.
+
+
+Our model tries to tackle this defect by introducing domain-specific autoencoder $\mathcal{R}$, which attempts to reconstruct target domain data. Inspired by~\cite{sutskever2014sequence} but different from~\cite{dai2015semi}, we treat the feature extractor $\mathcal{F}$ as encoder. In addition, we combine the last hidden states of the forward LSTM and backward LSTM in $\mathcal{F}$ as the initial state $h_0(dec)$ of the decoder LSTM. Hence, we don't need to reverse the order of words of the input sentences and the model avoids the difficulty of "establish communication" between the input and the output~\cite{sutskever2014sequence}.
+
+Similar to ~\cite{zhanggenerating}, we use $h_0(dec)$ and embedding vector of the previous word as the inputs of the decoder, but in a computationally more efficient manner by computing previous word representation. We assume that $(\hat{x}_1,\cdots,\hat{x}_T)$ is the output sequence. $z_t$ is the $t$-th word representation: $z_t = MLP(h_t)$, and $MLP$ is the multiple perceptron function. Hidden state $h_t = LSTM([h_0(dec):z_{t-1}],h_{t-1})$, where $[\cdot:\cdot]$ is the concatenation operation. We estimate the conditional probability $p(\hat{x_1},\cdots,\hat{x_T}|h_0(dec))$ as follows:
+% The task of the decoder is to estimate the conditional probability $p(\hat{x_1},\cdots,\hat{x_T}|h_0(dec))$ where $(\hat{x_1},\cdots,\hat{x_T})$ is the sequence the decoder want to reconstruct:
+\begin{equation}
+\begin{aligned}
+&p(\hat{x_1},\cdots,\hat{x_T}|h_0(dec))=\\
+&\prod_{t=1}^Tp(\hat{x_t}|h_0(dec),z_1,\cdots,z_{t-1}),
+\end{aligned}
+\end{equation}
+%\begin{equation}
+%\begin{aligned}
+%&p(\hat{x_1},\cdots,\hat{x_T}|h_0(dec))=\\
+%&\prod_{i=1}^Tp(\hat{x_t}|h_0(dec),h_{t-1}(dec),\hat{x}_{t-1}),
+%\end{aligned}
+%\end{equation}
+where each $p(\hat{x_t}|h_0(dec),z_1,\cdots,z_{t-1})$ distribution is computed with softmax over all the words in the vacabulary. 
+
+Our aim is to minimize the following loss function with respect to parameters $\theta_r$:
+\begin{equation}
+\mathcal{L}_{target} = -\sum_{i=1}^{N_t}x_i*\log\hat{x_i},
+\end{equation}
+where $x_i$ is the one-hot vector of $i$-th word. This makes $h_0(dec)$ learn an undercomplete and most salient sentence representation of target domain data. When the adversarial networks try to optimize the hidden representation to common representation $\textbf{h}_{common}$, The target domain autoencoder counteracts a tendency of the adversarial network to erase target domain features by optimizing the common representation to be informative on the target-domain data.
+
+\subsection{Training}
+Our model can be trained end-to-end with standard back-propagation, which we will detail in this section.
+
+Our ultimate training goal is to minimize the total loss function with parameters $\{\theta_f,\theta_y,\theta_r,\theta_d\}$ as follows:
+\begin{equation}
+\mathcal{L}_{total} =\alpha\mathcal{L}_{task} + \beta\mathcal{L}_{target} + \gamma \mathcal{L}_{type},
+\label{eq:minmax}
+\end{equation}
+where $\alpha,\beta,\gamma$ are the weights to balance the effects of $\mathcal{P}$, $\mathcal{R}$ and $\mathcal{Q}$.
+
+For obtaining domain-invariant representation $\textbf{h}_{common}$, inspired by~\cite{ganin2015unsupervised}, we introduce a special gradient reversal layer (GRL), which does nothing during forward propagation, but negates the gradients if it receives backward propagation, i.e. $g(\mathcal{F}(x))=\mathcal{F}(x)$ but $\nabla g(\mathcal{F}(x))=-\lambda\nabla\mathcal{F}(x)$. We insert the GRL between $\mathcal{F}$ and $\mathcal{Q}$, which can run standard Stochastic Gradient Descent with respect to $\theta_f$ and $\theta_d$. The parameter $-\lambda$ drives the parameters $\theta_f$ not to amplify the dissimilarity of features when minimize $\mathcal{L}_{tpye}$. So by introducing a GRL, $\mathcal{F}$ can drive its parameters $\theta_f$ to extract hidden representations that help the POS tagging classification and hamper the domain discrimination.
+
+In order to preserve target domain-specific features, we only optimize the autoencoder on target domain data for reconstruction tasks.
+
+Through above procedures, the model can learn the common features between domains, simultaneously preserve target domain-specific features. Finally, we can update the parameters as follows:
+\begin{equation}
+\begin{aligned}
+  &\theta_f = \theta_f - \mu(\alpha\frac{\partial \mathcal{L}_{task}^i}{\partial \theta_f}+\beta\frac{\partial \mathcal{L}_{target}^i}{\partial \theta_f}-\gamma\cdot\lambda \frac{\partial \mathcal{L}^i_{type}}{\partial \theta_f})\\
+  &\theta_y= \theta_y-\mu\cdot\alpha \frac{\partial \mathcal{L}^i_{task}}{\partial \theta_y}\\
+  &\theta_r= \theta_r-\mu\cdot\beta \frac{\partial \mathcal{L}^i_{target}}{\partial \theta_r}\\
+  &\theta_d= \theta_d-\mu\cdot\gamma\frac{\partial \mathcal{L}^i_{type}}{\partial \theta_d},
+\end{aligned} \label{eq:fyd}
+\end{equation}
+where $\mu$ is the learning rate. Because the size of the WSJ is more than 100 times that of the labeled Twitter dataset, if we directly train the model with the combined dataset, the final results are much worse than those using two training steps. So, we adopt adversarial training on WSJ and unlabeled Twitter dataset at the first step, then use a small number of in-domain labeled data to fine-tune the parameters with a low learning rate. 
+
+
+
+
+% Total loss can be computed when we insert the labeled source domain inputs ($d_i=0$), while domain loss can be computed when we insert unlabeled target domain inputs. Based on the above idea, the parameters $\theta_f$, $\theta_y$, and $\theta_d$ should be optimized to make the function reach a saddle point:
+
+
+
+%During training, to obtain the domain-invariant features, the parameter $\theta_f$ of the feature extractor is optimized to maximize the loss of domain predictor. Meanwhile, the parameter $\theta_d$ is optimized to minimize the loss of domain predictor. In addition, we can choose the frequency to minimize the loss of the POS tagging classifier. During the training stage, we consider the following function:
+%\begin{equation}
+%\begin{aligned}
+% &E(\theta_f,\theta_y,\theta_d;d_i=0)= \\
+% &\sum_{i=1\dots n}L_y^i(\theta_f,\theta_y;d_i=0)- \lambda\sum_{i=1\dots n}L_d^i(\theta_f,\theta_d)\\
+% &E(\theta_f,\theta_y,\theta_d;d_i=1)= - \lambda\sum_{i=1\dots n}L_d^i(\theta_f,\theta_d),
+%\end{aligned}
+%\end{equation}
+%where $L_y(\cdot,\cdot)$ is the loss of the POS tagging classifier, $L_d(\cdot,\cdot)$ is the loss of the domain predictor, $\lambda$ is a hyper-parameter that balances between the two branches $\mathcal{P}$ and $\mathcal{Q}$, and $i$ denotes the $i$-th training sample. Total loss can be computed when we insert the labeled source domain inputs ($d_i=0$), while domain loss can be computed when we insert unlabeled target domain inputs. Based on the above idea, the parameters $\theta_f$, $\theta_y$, and $\theta_d$ should be optimized to make the function reach a saddle point:
+%\begin{equation}
+%\begin{aligned}
+%&(\hat{\theta}_f,\hat{\theta}_y) = \arg \min_{\theta_f,\theta_y}E(\theta_f,\theta_y,\hat{\theta}_d)\\
+%&\hat{\theta}_d = \arg \max_{\theta_d} E(\theta_f,\hat{\theta}_y,\theta_d).
+%\end{aligned} \label{eq:minmax}
+%\end{equation}
+
+%At the saddle point, the parameters $\theta_d$ of the domain predictor minimize the domain classification loss (since it enters into (1) with the minus sign), while the parameter $\theta_y$ of the label classifier minimizes the label prediction loss. The feature mapping parameter $\theta_f$ minimizes the label prediction loss (i.e., the features are discriminative), while maximizing the domain classification loss (i.e., the features are domain-invariant). The parameter λ controls the trade-off between the two objectives that shape the features during learning. Below, we demonstrate that standard stochastic gradient solvers (SGD) can be adapted to search the saddle point (2)-(3).
+
+%We can update the parameters as follows:
+%\begin{equation}
+%\begin{aligned}
+% &\theta_f = \theta_f - \mu(\frac{\partial L_y^i}{\partial \theta_f}-\lambda \frac{\partial L^i_d}{\partial \theta_f})\\
+% &\theta_y= \theta_y-\mu \frac{\partial L^i_y}{\partial \theta_y}\\
+% &\theta_d= \theta_d-\mu \frac{\partial L^i_d}{\partial \theta_d},
+%\end{aligned} \label{eq:fyd}
+%\end{equation}
+%where $\mu$ is the learning rate. The updates are very similar to the stochastic gradient descent that updates parameters in the opposite direction of the gradient. The difference is that the parameter $-\lambda$ in Eq.(\ref{eq:fyd}) drives the parameter $\theta_f$ of the feature extractor, which will not amplify the dissimilarity of features when minimize the domain classification loss. $\mathcal{P}$ and $\mathcal{Q}$ are individually trying to master their own classification tasks. $\mathcal{F}$ drives its parameters to extract hidden representations that help the POS tagging classification and hamper the domain predictor. Therefore, upon successful training, the feature extractor can extract the domain-invariant features suitable for POS tagging tasks of both domains. Direct implementation of the above functions is not feasible, however. Fortunately, a new form of SGD, through introducing a special gradient reversal layer (GRL), can construct a function where the SGD update is exactly the same as the update of optimizing Eq.(\ref{eq:minmax}).
+
+%The GRL does nothing during forward propagation, but negates the gradients if it receives backward propagation. Specifically, a GRL $R_\lambda$ with hyper-parameter $\lambda$ behaves as follows:
+%\begin{equation}
+%\begin{aligned}
+% &R_\lambda(x)=x\\
+% &\nabla_x R_\lambda(x) = -\lambda I,
+%\end{aligned}
+%\end{equation}
+%where $I$ is the identity matrix. A GRL is inserted between $\mathcal{F}$ and $\mathcal{Q}$, running standard Stochastic Gradient Descent on the entire network optimized for Eq.(\ref{eq:minmax}). After learning is complete, the POS tagging classifier can be used to predict samples from the target domain.
+
+%Through above procedures, the model can learn the common features between domains with large scale out-of-domain labeled data and in-domain unlabeled. After that, a small number of in-domain labeled data is used to fine-tune the parameters with a low learning rate. 
+
+\section{Experiments}
+In this section, we will detail the datasets used for experiments and experimental setup.
+
+\subsection{Datasets}
+The methods proposed in this work incorporate out-of-domain labeled data from resource-rich domains, large scale unlabeled in-domain data, and a small number of labeled in-domain data. The datasets used in this work are as follows:
+
+\noindent \textbf{Labeled out-of-domain data.} We use a standard benchmark dataset for adversarial POS tagging, namely the Wall Street Journal (WSJ) data from the Penn TreeBank v3~\cite{marcus1993building}, sections 0-24 for the out-of-domain data.  
+
+\noindent \textbf{Labeled in-domain data.} For training and evaluating POS tagging approaches, we compare the proposed method with other approaches on three benchmarks: RIT-Twitter~\cite{ritter2011named}, NPSCHAT~\cite{forsyth2007improving}, and ARK-Twitter~\cite{gimpel2011part}. 
+
+\noindent \textbf{Unlabeled in-domain data.} For training the adversarial network, we need to use a dataset that has large scale unlabeled tweets. Hence, in this work, we construct large scale unlabeled data (UNL), from Twitter using its API.
+
+The detailed data statistics of the datasets used in this work are listed in Table~\ref{tab2}.
+\begin{table}[t]
+\centering
+\begin{tabular}{|l|l|r|}
+\hline
+  \multicolumn{2}{|c|}{\textbf{Dataset}} & \textbf{\# Tokens} \\
+  \hline
+  \multicolumn{2}{|l|}{WSJ} & 1,173,766 \\\hline
+  \multicolumn{2}{|l|}{UNL} & 1,177,746  \\\hline
+  \multirow{3}{*}{RIT-Twitter} & RIT-Train & 10,652 \\\cline{2-3}
+  & RIT-Dev & 2,242 \\\cline{2-3}
+  & RIT-Test & 2,291 \\\hline
+  \multicolumn{2}{|l|}{NPSCHAT} & 44,997 \\\hline
+  \multirow{1}{*}{ARK-Twitter} & OCT27 & 26,594 \\\cline{2-3}
+  & DAILY547 & 7,707 \\
+  \hline
+\end{tabular}
+\caption{The statistics of the datasets used in our experiments.}
+  \label{tab2}
+\end{table}
+
+
+\subsection{Experimental Setup}
+
+We select both state-of-the-art and classic methods for comparison, as follows:
+\begin{itemize}
+  \item \textbf{Stanford POS Tagger}: Stanford POS Tagger is a widely used tool for newswire domains~\cite{toutanova2003feature}. In this work, we train it using two different sets, the WSJ (sections 0-18) and a WSJ, IRC, and Twitter mixed corpus. We use \textbf{Stanford-WSJ} and \textbf{Stanford-MIX} to represent them, respectively.  
+  
+  \item \textbf{T-POS}: T-Pos~\cite{ritter2011named} adopts the Conditional Random Fields and clustering algorithm to perform the task. It was trained from a mixture of hand-annotated tweets and existing POS-labeled data. 
+  
+  \item \textbf{GATE Tagger}: GATE tagger~\cite{derczynski2013twitter} is based on vote-constrained bootstrapping with unlabeled data. It combines cases where available taggers use different tagsets.
+  
+  \item \textbf{ARK Tagger}: ARK tagger~\cite{owoputi2013improved} is a system that reports the best accuracy on the RIT dataset. It uses unsupervised word clustering and a variety of lexical features.
+
+  \item \textbf{bi-LSTM}: Bidirectional Long Short-Term Memory (LSTM) networks have been widely used in a variety of sequence labeling tasks~\cite{graves2005framewise}. In this work, we evaluate it at character level, word level, and combining them together. \textbf{bi-LSTM (word level)} uses one layer of bi-LSTM to extract word-level features and adopts a random initialization method to transform words to vectors. \textbf{bi-LSTM (character level)} represents a method that combines bi-LSTM and CNN-based character embedding, a similar approach with character-aware neural network described in~\cite{kim2015character} to handle the out-of-vocabulary words. \textbf{bi-LSTM (word level pretrain)} architecture is the same as that of bi-LSTM(word level) but adopts word2vec tool~\cite{mikolov2013distributed} to vectorize. \textbf{bi-LSTM (combine)} concatenates word to character features.
+\end{itemize}
+
+
+\begin{table*}
+\centering
+\begin{tabular}{lcc}
+  \textbf{Methods} & \textbf{RIT-Test} & \textbf{RIT-Dev}\\
+  \hline
+  Stanford-WSJ~\cite{toutanova2003feature} & 73.37\% & 83.29\% \\
+  Stanford-MIX & 83.14\% & 84.19\% \\
+  T-POS~\cite{ritter2011named}  & 84.55\% & 84.83\% \\
+  GATE Tagger~\cite{derczynski2013twitter} & 88.69\% & 89.37\% \\
+  ARK Tagger~\cite{owoputi2013improved} & 90.40\% & - \\
+  \hline
+  bi-LSTM (word level) & 75.91\% & 76.94\% \\
+  bi-LSTM (word level pretrain) & 85.99\% & 86.93\% \\
+  bi-LSTM (character level)  & 82.85\% & 84.30\% \\
+  bi-LSTM (combine)  & 89.48\% & 89.30\% \\
+  \hline
+  bi-LSTM (combine + WSJ) & 83.54\% & 83.64\% \\
+  bi-LSTM (combine + WSJ + adversarial) & 83.76\% & 84.45\% \\
+  bi-LSTM (combine + WSJ + fine-tune) & 89.87\% & 90.23\% \\  
+  bi-LSTM (combine + WSJ + adversarial + fine-tune)& 90.60\% & 90.73\% \\
+  TPANN (combine + WSJ + adversarial + fine-tune + autoencoder) & \textbf{90.92\%} & \textbf{91.08\%} \\
+  \hline
+\end{tabular}
+\caption{Token level accuracies of different methods on RIT-Test and RIT-Dev. bi-LSTM(combine) refers to combining word level with character level. bi-LSTM(combine + WSJ) refers to the model trained on WSJ and tested on RIT. bi-LSTM(combine + WSJ + adversarial) refers to adversarial model trained on 1.1 million tokens of labeled WSJ data and the same scale of unlabeled Twitter data, then tested on RIT. Fine-tune means adding RIT-train data to fine-tune.}
+
+
+%Stanford-WSJ and Stanford-MIX mean Token tagging performance of Stanford POS tagger trained on WSJ (sections 0-18) and on a WSJ/IRC/RIT-TW-train mixed corpus respectively .}
+  \label{tb:ritterresult}
+\end{table*}
+
+
+The hyper-parameters used for our model are as follows. AdaGrad optimizer trained with cross-entropy loss is used with 0.1 as the default learning rate. The dimensionality of word embedding is set to 200. The dimensionality for random initialized character embedding is set to 25.
+We adopt a bi-LSTM for encoding with each layer consisting of 250 hidden neurons. We set three layers of standard LSTM for decoding. Each LSTM layer consists of 500 hidden neurons. Adam optimizer trained with cross-entropy loss is used to fine-tune with 0.0001 as the default learning rate. Fine-tuning is run for 100 epochs using early stop.
+
+
+
+\section{Results and Discussion}
+In this section, we will report experimental results and a detailed analysis of the results for the three different datasets. 
+
+
+\subsection{Evaluation on RIT-Twitter}
+\begin{figure*}[t]
+\centering
+\includegraphics[width=3.2in]{./images/NOduikang_unlabel9.pdf}
+\includegraphics[width=2.7in]{./images/duikang9.pdf} 
+\caption{The visualization of bi-LSTM's outputs of the extracted features. The left figure shows the results when no adversary is performed. The right figure shows the results when the adversary procedure is incorporated into training. Blue points correspond to the source PTB domain examples, and red points correspond to the target Twitter domain. }
+\label{fig:visualization}
+\end{figure*}
+
+The RIT-Twitter is split into training, development and evaluation sets (RIT-Train, RIT-Dev, RIT-Test). The splitting method is shown in~\cite{derczynski2013twitter}, and the dataset statistics are listed in Table~\ref{tab2}. Table~\ref{tb:ritterresult} shows the results of our method and other approaches on the RIT-Twitter dataset. RIT-Twitter uses the PTB tagset with several Twitter-specific tags: retweets, @usernames, $hashtags$, and urls. Since words in these categories can be tagged almost perfectly using simple regular expressions, similar to~\cite{owoputi2013improved}, we use regular expressions to tags these words appropriately for all systems.
+
+From the results of the Stanford-WSJ, we can observe that the newswire domain is different from Twitter. Although the token-level accuracy of the Stanford POS Tagger is higher than 97.0\% on the PTB dataset, its performance on Twitter drops sharply to 73.37\%. By incorporating some in-domain labeled data for training, the accuracy of Stanford POS Tagger can reach up to 83.14\%. Taking a variety of linguistic features and many other resources into consideration, the T-POS, GATE tagger, and ARK tagger can achieve better performance. 
+
+The second part of Table~\ref{tb:ritterresult} shows the results of the bi-LSTM based methods, which are trained on the RIT-Train dataset. According to the results of word level, we can see that word2vec can provide valuable information. The pre-trained word vectors in bi-LSTM(word level pretrain) give almost $10\%$ higher accuracy than bi-LSTM(word level).
+
+Comparing the character-level bi-LSTM with word-level bi-LSTM with random initialization, we can observe that the character-level method can achieve better performance than the word-level method. bi-LSTM(combine) combines word with character features, as described in Section 2.1, which achieves the best results at $89.48\%$ in the bi-LSTM based baseline systems and shows that the morphological features and pre-trained word vectors are both useful for POS tagging. 
+
+
+
+The third part of Table~\ref{tb:ritterresult} shows the results of our methods incorporating out-of-domain labeled data, in-domain unlabeled data, and in-domain labeled data. Putting everything together, our model can achieve 90.92\% on this dataset. Compared with the architecture without an adversarial model, our method is almost $1\%$ better. It demonstrates that adversarial networks can significantly help with tasks of this nature. Through introducing the autoencoder in target domain, we can preserve domain-specific features for better performance. Compared with the ARK tagger, which achieves the previous best result on this dataset, our model is also $0.52\%$ better, the error reduction rate is more than 5.5\%.
+
+To better understand why adversarial networks can help transfer domains from newswire to Twitter, in this work we also followed the method~\citet{ganin2015unsupervised} used to visualize the outputs of LSTM with t-SNE~\cite{van2013barnes}. Figure \ref{fig:visualization} shows the visualization results. From the figure, we can see that the adversary in our method makes the two distributions of features much more similar, which means that the outputs of bi-LSTM are domain-invariant. Hence, the PTB training data can provide much more help than directly combining PTB and RIT-Train together. 
+
+\subsection{Evaluation on NPSChat}
+
+\begin{table}
+\centering
+\begin{tabular}{cc}
+\begin{tabular}{|l|l|}
+\hline
+{\bf Methods} & {\bf Accuracy}\\\hline
+Forsyth \shortcite{forsyth2007improving} & 90.8\%\\
+ARK Tagger & 93.4\% $\pm$ 0.3\% \\
+TPANN & \bf{94.1}\% \\ 
+\hline
+\end{tabular} & 
+
+\end{tabular}
+\caption{Tagging accuracies on NPSChat Corpus.}
+\label{tab:IRC}
+\end{table}
+
+IRC, which contains Internet relay room messages from 2006, is a medium of online conversational text. Its content is very similar to tweets. We evaluate the proposed method on the NPSChat corpus~\cite{forsyth2007improving}, a PTB-part-of-speech annotated dataset of IRC.
+
+We compared our method with a tagger in the same setup as experiments with~\cite{forsyth2007improving}. The training part contains 90\% of the data. The testing part contains the other 10\%. Table \ref{tab:IRC} shows the results of the ARK Tagger and our method. We used PTB, unlabeled Twitter, and the training part of NPSChat to train our model. From the results, we can see that our model achieved $94.1\%$ accuracy. This is significantly better than the result~\citet{forsyth2007improving} reported, which was 90.8\%. They trained their tagger with a mix of several POS-annotated corpora (12K from Twitter, 40K from IRC, and 50K from PTB). Our method also outperforms state-of-the-art results 93.4\%$\pm$0.3\%, which was achieved by the ARK Tagger with various external corpus and features, e.g., Brown clustering, PTB, Freebase lists of celebrities, and video games. 
+
+\subsection{Evaluation on ARK-Twitter}
+ARK-Twitter data contains an entire dataset consisting of a number of tweets sampled from one particular day (October 27, 2010) described in~\cite{gimpel2011part}. This part is used for training. They also created another dataset, which consists of 547 tweets, for evaluation (DAILY547). This dataset consists of one random English tweet from every day between January 1, 2011 and June 30, 2012. The distribution of training data may be slightly different from the testing data, for example a substantial fraction of the messages in the training data are about a basketball game. Since ARK-Twitter uses a different tagset with PTB, we manually construct a table to link tags for the two datasets. 
+
+Table \ref{tab:Gim} shows the results of different methods on this dataset. From the results, we can see that our method can achieve a better result than~\cite{gimpel2011part}. However, the performance of our method is worse than the ARK Tagger. Through analyzing the errors, we find that $16.7\%$ errors occurr between nouns and proper nouns. Since our method do not include any ontology or knowledge, proper nouns can not be easily detected. However, the ATK Tagge add a token-level name list feature. The name list is useful for proper nouns recognition, which fires on names from many sources, such as Freebase lists of celebrities, the Moby Words list of US Locations, proper names from Mark Kantrowitz's name corpus and so on. So, our model is also competitive when lacking of manual feature knowledge.
+
+\begin{table}
+\centering
+\begin{tabular}{cc}
+\begin{tabular}{|l|l|}
+\hline
+{\bf Methods} & {\bf Accuracy}\\\hline
+Gimpel et al. \shortcite{gimpel2011part} version 0.2 & 90.8\% \\
+ARK Tagger & 93.2\% \\
+TPANN & 92.8\% \\
+\hline
+\end{tabular} & 
+
+\end{tabular}
+\caption{Tagging accuracies on DAILY547.}
+\label{tab:Gim}
+\end{table}
+
+
+
+\section{Related Work}
+Part-of-Speech tagging is an important pre-processing step and can provide valuable information for various natural language processing tasks. In recent years, deep learning algorithms have been successfully used  for POS tagging. A number of approaches have been proposed and have achieved some progress.~\citet{santos2015boosting} proposed using a character-based convolutional neural network to perform the POS tagging problem. Bi-LSTMs with word, character or unicode byte embedding were also introduced to achieve the POS tagging and named entity recognition tasks \cite{plank2016multilingual,chiu2015named,ma2016end}. In this work, we study the problem from a domain adaption perspective. Inspired by these works, we also propose to use character-level methods to handle out-of-vocabulary words and bi-LSTMs to model the sequence relations. 
+
+Adversarial networks were successfully used for image generation~\cite{goodfellow2014generative,dosovitskiy2015learning,denton2015deep}, domain adaption~\cite{tzeng2014deep,ganin2016domain}, and semi-supervised learning~\cite{denton2016semi}. The key idea of adversarial networks for domain adaption is to construct invariant features by optimizing the feature extractor as an adversary against the domain classifier~\cite{zhang2017aspect}.
+
+Sequence autoencoder reads the input sequence into a vector and then tries to reconstruct it. \citet{dai2015semi} used the model on a number of different tasks and verified its validity.~\citet{li2015hierarchical} introduced the model to hierarchically build an embedding for a paragraph, showing that the model was able to encode texts to preserve syntactic, semantic, and discourse coherence.
+
+In this work, we incorporate adversarial networks with autoencoder to obtain domain-invariant features and keep domain-specific features. Our model is more suitable for target domain tasks.
+
+
+\section{Conclusion}
+In this work, we propose a novel adversarial neural network to address the POS tagging problem. Besides learning common representations between source domain and target domain, it can simultaneously preserve specific features of target domain. The proposed method leverages newswire resources and large scale in-domain unlabeled data to help POS tagging classification on Twitter, which has a few of labeled data. We evaluate the proposed method and several state-of-the-art methods on three different corpora. In most of the cases, the proposed method can achieve better performance than previous methods. Experimental results demonstrate that the proposed method can make full use of these resources, which can be easily obtained. 
+
+\section*{Acknowledgments}
+The authors wish to thank the anonymous reviewers for their helpful comments. This work was partially funded by National Natural Science Foundation of China (No. 61532011, 61473092, and 61472088) and STCSM (No.16JC1420401).
+
+\bibliography{emnlp2017}
+\bibliographystyle{emnlp_natbib}
+
+\end{document}

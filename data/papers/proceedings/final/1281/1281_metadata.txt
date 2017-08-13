@@ -1,0 +1,53 @@
+SubmissionNumber#=%=#1281
+FinalPaperTitle#=%=#Natural Language Processing with Small Feed-Forward Networks
+ShortPaperTitle#=%=#Natural Language Processing with Small Feed-Forward Networks
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Jan A. Botha
+JobTitle#==#
+Organization#==#Google Inc.
+1600 Amphitheatre Parkway
+Mountain View
+CA 94043
+Abstract#==#We show that small and shallow feed-forward neural networks can achieve near
+state-of-the-art results on a range of unstructured and structured language
+processing tasks while being considerably cheaper in memory and computational
+requirements than deep recurrent models.
+
+Motivated by resource-constrained environments like mobile phones, we showcase
+simple techniques for obtaining such small neural network models, and
+investigate different tradeoffs when deciding how to allocate a small memory
+budget.
+Author{1}{Firstname}#=%=#Jan A.
+Author{1}{Lastname}#=%=#Botha
+Author{1}{Email}#=%=#jabot@google.com
+Author{1}{Affiliation}#=%=#Google
+Author{2}{Firstname}#=%=#Emily
+Author{2}{Lastname}#=%=#Pitler
+Author{2}{Email}#=%=#emily.pitler@gmail.com
+Author{2}{Affiliation}#=%=#Google, Inc.
+Author{3}{Firstname}#=%=#Ji
+Author{3}{Lastname}#=%=#Ma
+Author{3}{Email}#=%=#majineu@gmail.com
+Author{3}{Affiliation}#=%=#Google
+Author{4}{Firstname}#=%=#Anton
+Author{4}{Lastname}#=%=#Bakalov
+Author{4}{Email}#=%=#abakalov@cs.umass.edu
+Author{4}{Affiliation}#=%=#University of Massachusetts Amherst
+Author{5}{Firstname}#=%=#Alex
+Author{5}{Lastname}#=%=#Salcianu
+Author{5}{Email}#=%=#salcianu@google.com
+Author{5}{Affiliation}#=%=#Google Inc.
+Author{6}{Firstname}#=%=#David
+Author{6}{Lastname}#=%=#Weiss
+Author{6}{Email}#=%=#djweiss@google.com
+Author{6}{Affiliation}#=%=#Google
+Author{7}{Firstname}#=%=#Ryan
+Author{7}{Lastname}#=%=#McDonald
+Author{7}{Email}#=%=#ryanmcd@gmail.com
+Author{7}{Affiliation}#=%=#Google
+Author{8}{Firstname}#=%=#Slav
+Author{8}{Lastname}#=%=#Petrov
+Author{8}{Email}#=%=#slav@petrovi.de
+Author{8}{Affiliation}#=%=#Google
+
+==========

@@ -1,0 +1,23 @@
+SubmissionNumber#=%=#744
+FinalPaperTitle#=%=#Source-Side Left-to-Right or Target-Side Left-to-Right? An Empirical Comparison of Two Phrase-Based Decoding Algorithms
+ShortPaperTitle#=%=#Source-Side Left-to-Right or Target-Side Left-to-Right? An Empirical Comparison of Two Phrase-Based Decoding Algorithms
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Yin-Wen Chang
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper describes an empirical study of the phrase-based decoding algorithm
+proposed by Chang and Collins (2017).  The algorithm produces a translation by
+processing the source-language sentence in strictly left-to-right order,
+differing from commonly used approaches that build the target-language sentence
+in left-to-right order. Our results show that the new algorithm is competitive
+with Moses (Koehn et al., 2007) in terms of both speed and BLEU scores.
+Author{1}{Firstname}#=%=#Yin-Wen
+Author{1}{Lastname}#=%=#Chang
+Author{1}{Email}#=%=#yinwen@google.com
+Author{1}{Affiliation}#=%=#Google Inc.
+Author{2}{Firstname}#=%=#Michael
+Author{2}{Lastname}#=%=#Collins
+Author{2}{Email}#=%=#mjcollins@google.com
+Author{2}{Affiliation}#=%=#Columbia University
+
+==========

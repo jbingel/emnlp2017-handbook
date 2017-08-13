@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#625
+FinalPaperTitle#=%=#Labeling Gaps Between Words: Recognizing Overlapping Mentions with Mention Separators
+ShortPaperTitle#=%=#Recognizing Overlapping Mentions with Mention Separators
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Aldrian Obaja Muis
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper, we propose a new model that is capable of recognizing
+overlapping mentions. We introduce a novel notion of mention separators that
+can be effectively used to capture how mentions overlap with one another. On
+top of a novel multigraph representation that we introduce, we show that
+efficient and exact inference can still be performed. We present some
+theoretical analysis on the differences between our model and a recently
+proposed model for recognizing overlapping mentions, and discuss the possible
+implications of the differences. Through extensive empirical analysis on
+standard datasets, we demonstrate the effectiveness of our approach.
+Author{1}{Firstname}#=%=#Aldrian Obaja
+Author{1}{Lastname}#=%=#Muis
+Author{1}{Email}#=%=#aldrianobaja.m@gmail.com
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Wei
+Author{2}{Lastname}#=%=#Lu
+Author{2}{Email}#=%=#luwei@sutd.edu.sg
+Author{2}{Affiliation}#=%=#Singapore University of Technology and Design
+
+==========

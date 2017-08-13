@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#1405
+FinalPaperTitle#=%=#Recovering Question Answering Errors via Query Revision
+ShortPaperTitle#=%=#Recovering Question Answering Errors via Query Revision
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Semih Yavuz
+JobTitle#==#
+Organization#==#
+Abstract#==#The existing factoid QA systems often
+lack a post-inspection component that can
+help models recover from their own mistakes.
+In this work, we propose to crosscheck
+the corresponding KB relations behind
+the predicted answers and identify
+potential inconsistencies. Instead of developing
+a new model that accepts evidences
+collected from these relations, we choose
+to plug them back to the original questions
+directly and check if the revised question
+makes sense or not. A bidirectional LSTM
+is applied to encode revised questions. We
+develop a scoring mechanism over the revised
+question encodings to refine the predictions
+of a base QA system. This approach
+can improve the F1 score of STAGG
+(Yih et al., 2015), one of the leading QA
+systems, from 52.5% to 53.9% on WEBQUESTIONS
+data.
+Author{1}{Firstname}#=%=#Semih
+Author{1}{Lastname}#=%=#Yavuz
+Author{1}{Email}#=%=#syavuz@cs.ucsb.edu
+Author{1}{Affiliation}#=%=#University of California Santa Barbara
+Author{2}{Firstname}#=%=#Izzeddin
+Author{2}{Lastname}#=%=#Gur
+Author{2}{Email}#=%=#izzeddingur@cs.ucsb.edu
+Author{2}{Affiliation}#=%=#UC Santa Barbara
+Author{3}{Firstname}#=%=#Yu
+Author{3}{Lastname}#=%=#Su
+Author{3}{Email}#=%=#ysu@cs.ucsb.edu
+Author{3}{Affiliation}#=%=#University of California Santa Barbara
+Author{4}{Firstname}#=%=#Xifeng
+Author{4}{Lastname}#=%=#Yan
+Author{4}{Email}#=%=#xyan@cs.ucsb.edu
+Author{4}{Affiliation}#=%=#University of California Santa Barbara
+
+==========

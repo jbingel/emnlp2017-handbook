@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#674
+FinalPaperTitle#=%=#Identifying Semantically Deviating Outlier Documents
+ShortPaperTitle#=%=#Identifying Semantically Deviating Outlier Documents
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Honglei Zhuang
+JobTitle#==#
+Organization#==#University of Illinois at Urbana-Champaign
+201 N Goodwin Ave
+Urbana, IL 61801
+Abstract#==#A document outlier is a document that substantially deviates in semantics from
+the majority ones in a corpus.              Automatic identification of document
+outliers
+can be valuable in many applications, such as screening health records for
+medical mistakes.  In this paper, we study the problem of mining semantically
+deviating document outliers in a given corpus.              We develop a generative
+model
+to identify frequent and characteristic semantic regions in the word embedding
+space to represent the given corpus, and a robust outlierness measure which is
+resistant to noisy content in documents.  Experiments conducted on two
+real-world textual data sets show that our method can achieve an up to 135%
+improvement over baselines in terms of recall at top-1% of the outlier ranking.
+Author{1}{Firstname}#=%=#Honglei
+Author{1}{Lastname}#=%=#Zhuang
+Author{1}{Email}#=%=#hzhuang3@illinois.edu
+Author{1}{Affiliation}#=%=#University of Illinois
+Author{2}{Firstname}#=%=#Chi
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#wang.chi@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research
+Author{3}{Firstname}#=%=#Fangbo
+Author{3}{Lastname}#=%=#Tao
+Author{3}{Email}#=%=#ftao2@illinois.edu
+Author{3}{Affiliation}#=%=#University of Illinois
+Author{4}{Firstname}#=%=#Lance
+Author{4}{Lastname}#=%=#Kaplan
+Author{4}{Email}#=%=#lance.m.kaplan.civ@mail.mil
+Author{4}{Affiliation}#=%=#US Army Research Lab
+Author{5}{Firstname}#=%=#Jiawei
+Author{5}{Lastname}#=%=#Han
+Author{5}{Email}#=%=#hanj@cs.uiuc.edu
+Author{5}{Affiliation}#=%=#UIUC
+
+==========

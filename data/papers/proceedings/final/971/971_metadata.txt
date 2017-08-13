@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#971
+FinalPaperTitle#=%=#Graph Convolutional Encoders for Syntax-aware Neural Machine Translation
+ShortPaperTitle#=%=#Graph Convolutional Encoders for Syntax-aware Neural Machine Translation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Joost Bastings
+JobTitle#==#
+Organization#==#ILLC, University of Amsterdam
+Abstract#==#We present a simple and effective approach to incorporating syntactic structure
+into neural attention-based encoder-decoder models for machine translation. We
+rely on graph-convolutional networks (GCNs), a recent class of neural networks
+developed for modeling graph-structured data. Our GCNs use predicted syntactic
+dependency trees of source sentences to produce representations of words (i.e.
+hidden states of the encoder) that are sensitive to their syntactic
+neighborhoods. GCNs take word representations as input and produce word
+representations as output, so they can easily be incorporated as layers into
+standard encoders (e.g., on top of bidirectional RNNs or convolutional neural
+networks). We evaluate their effectiveness with English-German and
+English-Czech translation experiments for different types of encoders and
+observe substantial improvements over their syntax-agnostic versions in all the
+considered setups.
+Author{1}{Firstname}#=%=#Joost
+Author{1}{Lastname}#=%=#Bastings
+Author{1}{Email}#=%=#joost.bastings@gmail.com
+Author{1}{Affiliation}#=%=#University of Amsterdam
+Author{2}{Firstname}#=%=#Ivan
+Author{2}{Lastname}#=%=#Titov
+Author{2}{Email}#=%=#titov@uva.nl
+Author{2}{Affiliation}#=%=#University of Edinburgh / University of Amsterdam
+Author{3}{Firstname}#=%=#Wilker
+Author{3}{Lastname}#=%=#Aziz
+Author{3}{Email}#=%=#will.aziz@gmail.com
+Author{3}{Affiliation}#=%=#University of Amsterdam
+Author{4}{Firstname}#=%=#Diego
+Author{4}{Lastname}#=%=#Marcheggiani
+Author{4}{Email}#=%=#marcheggiani@uva.nl
+Author{4}{Affiliation}#=%=#University of Amsterdam
+Author{5}{Firstname}#=%=#Khalil
+Author{5}{Lastname}#=%=#Simaan
+Author{5}{Email}#=%=#k.simaan@uva.nl
+Author{5}{Affiliation}#=%=#ILLC, University of Amsterdam
+
+==========

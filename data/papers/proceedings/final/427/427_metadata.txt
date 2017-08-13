@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#427
+FinalPaperTitle#=%=#Exploiting Morphological Regularities in Distributional Word Representations
+ShortPaperTitle#=%=#Exploiting Morphological Regularities in Distributional Word Representations
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Arihant Gupta
+JobTitle#==#
+Organization#==#International Institute of Information Technology
+Gachibowli, Hyderabad 500 032
+Telangana, INDIA
+Phone : +91-40-6653 1000
+Fax : +91-40-6653 1413
+Abstract#==#We present an unsupervised, language agnostic approach for exploiting
+morphological regularities present in high dimensional vector spaces. We
+propose a novel method for generating embeddings of words from their
+morphological variants using morphological transformation operators. We
+evaluate this approach on MSR word analogy test set with an accuracy of 85%
+which is 12% higher than the previous best known system.
+Author{1}{Firstname}#=%=#Arihant
+Author{1}{Lastname}#=%=#Gupta
+Author{1}{Email}#=%=#arihant.gupta@research.iiit.ac.in
+Author{1}{Affiliation}#=%=#International Institute of Information Technology at Hyderabad
+Author{2}{Firstname}#=%=#Syed Sarfaraz
+Author{2}{Lastname}#=%=#Akhtar
+Author{2}{Email}#=%=#syedsarfarazakhtar@gmail.com
+Author{2}{Affiliation}#=%=#International Institute of Information Technology - Hyderabad
+Author{3}{Firstname}#=%=#Avijit
+Author{3}{Lastname}#=%=#Vajpayee
+Author{3}{Email}#=%=#avijit6394@gmail.com
+Author{3}{Affiliation}#=%=#International Institute of Information Technology Hyderabad
+Author{4}{Firstname}#=%=#Arjit
+Author{4}{Lastname}#=%=#Srivastava
+Author{4}{Email}#=%=#arjitcapricorn@gmail.com
+Author{4}{Affiliation}#=%=#International Institute of Information Technology Hyderabad
+Author{5}{Firstname}#=%=#Madan Gopal
+Author{5}{Lastname}#=%=#Jhanwar
+Author{5}{Email}#=%=#madangopal.jhanwar@research.iiit.ac.in
+Author{5}{Affiliation}#=%=#International Institute of Information Technology Hyderabad
+Author{6}{Firstname}#=%=#Manish
+Author{6}{Lastname}#=%=#Shrivastava
+Author{6}{Email}#=%=#m.shrivastava@iiit.ac.in
+Author{6}{Affiliation}#=%=#International Institute of Information Technology Hyderabad
+
+==========

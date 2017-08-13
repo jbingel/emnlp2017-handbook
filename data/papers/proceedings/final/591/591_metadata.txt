@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#591
+FinalPaperTitle#=%=#A Hybrid Convolutional Variational Autoencoder for Text Generation
+ShortPaperTitle#=%=#A Hybrid Convolutional Variational Autoencoder for Text Generation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Stanislau Semeniuta
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper we explore the effect of architectural choices on learning a
+variational autoencoder (VAE) for text generation. In contrast to the
+previously introduced VAE model for text where both the encoder and decoder are
+RNNs, we propose a novel hybrid architecture that blends fully feed-forward
+convolutional and deconvolutional components with a recurrent language model.
+Our architecture exhibits several attractive properties such as faster run time
+and convergence, ability to better handle long sequences and, more importantly,
+it helps to avoid the issue of the VAE collapsing to a deterministic model.
+Author{1}{Firstname}#=%=#Stanislau
+Author{1}{Lastname}#=%=#Semeniuta
+Author{1}{Email}#=%=#stas@inb.uni-luebeck.de
+Author{1}{Affiliation}#=%=#Universität zu Lübeck, Institut für Neuro- und Bioinformatik
+Author{2}{Firstname}#=%=#Aliaksei
+Author{2}{Lastname}#=%=#Severyn
+Author{2}{Email}#=%=#severyn@google.com
+Author{2}{Affiliation}#=%=#Google Research
+Author{3}{Firstname}#=%=#Erhardt
+Author{3}{Lastname}#=%=#Barth
+Author{3}{Email}#=%=#barth@inb.uni-luebeck.de
+Author{3}{Affiliation}#=%=#Universität zu Lübeck, Institut für Neuro- und Bioinformatik
+
+==========

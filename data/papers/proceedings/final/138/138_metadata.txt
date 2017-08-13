@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#138
+FinalPaperTitle#=%=#Mapping Instructions and Visual Observations to Actions with Reinforcement Learning
+ShortPaperTitle#=%=#Mapping Instructions and Visual Observations to Actions with Reinforcement Learning
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Dipendra Kumar Misra
+JobTitle#==#
+Organization#==#Cornell University,
+Ithaca, NY 14850, USA
+Abstract#==#We propose to directly map raw visual observations and text input to actions
+for instruction execution. While existing approaches assume access to
+structured environment representations or use a pipeline of separately trained
+models, we learn a single model to jointly reason about linguistic and visual
+input. We use reinforcement learning in a contextual bandit setting to train a
+neural network agent. To guide the agent's exploration, we use reward shaping
+with different forms of supervision. Our approach does not require intermediate
+representations, planning procedures, or training different models. We evaluate
+in a simulated environment, and show significant improvements over supervised
+learning and common reinforcement learning variants.
+Author{1}{Firstname}#=%=#Dipendra
+Author{1}{Lastname}#=%=#Misra
+Author{1}{Email}#=%=#dkm@cs.cornell.edu
+Author{1}{Affiliation}#=%=#Cornell University
+Author{2}{Firstname}#=%=#John
+Author{2}{Lastname}#=%=#Langford
+Author{2}{Email}#=%=#jl@hunch.net
+Author{2}{Affiliation}#=%=#Microsoft Research
+Author{3}{Firstname}#=%=#Yoav
+Author{3}{Lastname}#=%=#Artzi
+Author{3}{Email}#=%=#yoav@cs.cornell.edu
+Author{3}{Affiliation}#=%=#Cornell University
+
+==========

@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#223
+FinalPaperTitle#=%=#Neural Lattice-to-Sequence Models for Uncertain Inputs
+ShortPaperTitle#=%=#Neural Lattice-to-Sequence Models for Uncertain Inputs
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Matthias Sperber
+JobTitle#==#
+Organization#==#
+Abstract#==#The input to a neural sequence-to-sequence model is often determined by an
+up-stream system, e.g. a word segmenter, part of speech tagger, or speech
+recognizer. These up-stream models are potentially error-prone. Representing
+inputs through word lattices allows making this uncertainty explicit by
+capturing alternative sequences and their posterior probabilities in a compact
+form.
+In this work, we extend the TreeLSTM (Tai et al., 2015) into a LatticeLSTM that
+is able to consume word lattices, and can be used as encoder in an attentional
+encoder-decoder model. We integrate lattice posterior scores into this
+architecture by extending the TreeLSTM's child-sum and forget gates and
+introducing a bias term into the attention mechanism. We experiment with speech
+translation lattices and report consistent improvements over baselines that
+translate either the 1-best hypothesis or the lattice without posterior scores.
+Author{1}{Firstname}#=%=#Matthias
+Author{1}{Lastname}#=%=#Sperber
+Author{1}{Email}#=%=#matthias.sperber@kit.edu
+Author{1}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{2}{Firstname}#=%=#Graham
+Author{2}{Lastname}#=%=#Neubig
+Author{2}{Email}#=%=#gneubig@cs.cmu.edu
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Jan
+Author{3}{Lastname}#=%=#Niehues
+Author{3}{Email}#=%=#jan.niehues@kit.edu
+Author{3}{Affiliation}#=%=#Karlsruhe Institute of Technology
+Author{4}{Firstname}#=%=#Alex
+Author{4}{Lastname}#=%=#Waibel
+Author{4}{Email}#=%=#waibel@kit.edu
+Author{4}{Affiliation}#=%=#Karlsruhe Institute of Technology
+
+==========

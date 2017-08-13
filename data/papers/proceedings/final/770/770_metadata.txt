@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#770
+FinalPaperTitle#=%=#Learning to Paraphrase for Question Answering
+ShortPaperTitle#=%=#Learning to Paraphrase for Question Answering
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Li Dong
+JobTitle#==#
+Organization#==#University of Edinburgh
+3.48, Informatics Forum
+10 Crichton Street
+Edinburgh, EH8 9AB
+Scotland, UK
+Abstract#==#Question answering (QA) systems are sensitive to the many different ways
+natural language expresses the same information need. In this paper we turn to
+paraphrases as a means of capturing this knowledge and present a general
+framework which learns felicitous paraphrases for various QA tasks. Our method
+is trained end-to-end using question-answer pairs as a supervision signal. A
+question and its paraphrases serve as input to a neural scoring model which
+assigns higher weights to linguistic expressions most likely to yield correct
+answers. We evaluate our approach on QA over Freebase and answer sentence
+selection. Experimental results on three datasets show that our framework
+consistently improves performance, achieving competitive results despite the
+use of simple QA models.
+Author{1}{Firstname}#=%=#Li
+Author{1}{Lastname}#=%=#Dong
+Author{1}{Email}#=%=#li.dong@ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Jonathan
+Author{2}{Lastname}#=%=#Mallinson
+Author{2}{Email}#=%=#jsmallins@gmail.com
+Author{2}{Affiliation}#=%=#The University of Edinburgh
+Author{3}{Firstname}#=%=#Siva
+Author{3}{Lastname}#=%=#Reddy
+Author{3}{Email}#=%=#sivar@stanford.edu
+Author{3}{Affiliation}#=%=#Stanford University
+Author{4}{Firstname}#=%=#Mirella
+Author{4}{Lastname}#=%=#Lapata
+Author{4}{Email}#=%=#mlap@inf.ed.ac.uk
+Author{4}{Affiliation}#=%=#School of Informatics, University of Edinburgh
+
+==========

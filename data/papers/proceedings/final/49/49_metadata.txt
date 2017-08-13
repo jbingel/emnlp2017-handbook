@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#49
+FinalPaperTitle#=%=#A Simpler and More Generalizable Story Detector using Verb and Character Features
+ShortPaperTitle#=%=#A Simpler and More Generalizable Story Detector using Verb and Character Features
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#Joshua D Eisenberg
+JobTitle#==#
+Organization#==#Cognac laboratory
+Florida International University
+11200 SW 8th St, Miami, FL 33199
+Abstract#==#Story detection is the task of determining whether or not a unit of text
+contains a story. Prior approaches achieved a maximum performance of 0.66 F1,
+and did not generalize well across different corpora. We present a new
+state-of-the-art detector that achieves a maximum performance of 0.75 F1 (a 14%
+improvement), with significantly greater generalizability than previous work.
+In particular, our detector achieves performance above 0.70 F1 across a variety
+of combinations of lexically different corpora for training and testing, as
+well as dramatic improvements (up to 4,000%) in performance when trained on a
+small, disfluent data set. The new detector uses two basic types of
+features–ones related to events, and ones related to characters–totaling
+283 specific features overall; previous detectors used tens of thousands of
+features, and so this detector represents a significant simplification along
+with increased performance.
+Author{1}{Firstname}#=%=#Joshua
+Author{1}{Lastname}#=%=#Eisenberg
+Author{1}{Email}#=%=#jeise003@fiu.edu
+Author{1}{Affiliation}#=%=#Florida international university
+Author{2}{Firstname}#=%=#Mark
+Author{2}{Lastname}#=%=#Finlayson
+Author{2}{Email}#=%=#markaf@fiu.edu
+Author{2}{Affiliation}#=%=#Florida International University
+
+==========

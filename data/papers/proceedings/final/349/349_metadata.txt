@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#349
+FinalPaperTitle#=%=#The Impact of Modeling Overall Argumentation with Tree Kernels
+ShortPaperTitle#=%=#The Impact of Modeling Overall Argumentation with Tree Kernels
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Henning Wachsmuth
+JobTitle#==#
+Organization#==#Bauhaus-Universität Weimar, Bauhausstraße 11, 99423 Weimar, Germany
+Abstract#==#Several approaches have been proposed to model either the explicit sequential
+structure of an argumentative text or its implicit hierarchical structure. So
+far, the adequacy of these models of overall argumentation remains unclear.
+This paper asks what type of structure is actually important to tackle
+downstream tasks in computational argumentation. We analyze patterns in the
+overall argumentation of texts from three corpora. Then, we adapt the idea of
+positional tree kernels in order to capture sequential and hierarchical
+argumentative structure together for the first time. In systematic experiments
+for three text classification tasks, we find strong evidence for the impact of
+both types of structure. Our results suggest that either of them is necessary
+while their combination may be beneficial.
+Author{1}{Firstname}#=%=#Henning
+Author{1}{Lastname}#=%=#Wachsmuth
+Author{1}{Email}#=%=#henning.wachsmuth@uni-weimar.de
+Author{1}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{2}{Firstname}#=%=#Giovanni
+Author{2}{Lastname}#=%=#Da San Martino
+Author{2}{Email}#=%=#gmartino@qf.org.qa
+Author{2}{Affiliation}#=%=#Qatar Computing Research Institute, HBKU
+Author{3}{Firstname}#=%=#Dora
+Author{3}{Lastname}#=%=#Kiesel
+Author{3}{Email}#=%=#dora@kiesels.de
+Author{3}{Affiliation}#=%=#Bauhaus-Universität Weimar
+Author{4}{Firstname}#=%=#Benno
+Author{4}{Lastname}#=%=#Stein
+Author{4}{Email}#=%=#benno.stein@uni-weimar.de
+Author{4}{Affiliation}#=%=#Bauhaus-Universität Weimar
+
+==========

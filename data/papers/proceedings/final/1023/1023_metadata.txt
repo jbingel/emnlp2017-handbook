@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#1023
+FinalPaperTitle#=%=#Cheap Translation for Cross-Lingual Named Entity Recognition
+ShortPaperTitle#=%=#Cheap Translation for Cross-Lingual Named Entity Recognition
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Stephen Mayhew
+JobTitle#==#
+Organization#==#University of Illinois
+Abstract#==#Recent work in NLP has attempted to deal with low-resource languages but still
+assumed a resource level that is not present for most languages, e.g., the
+availability of Wikipedia in the target language. We propose a simple method
+for cross-lingual named entity recognition (NER) that works well in settings
+with {\em very} minimal resources. Our approach makes use of a lexicon to
+``translate" annotated data available in one or several high resource
+language(s) into the target language, and learns a standard monolingual NER
+model there. Further, when Wikipedia is available in the target language, our
+method can enhance Wikipedia based methods to yield state-of-the-art NER
+results; we evaluate on 7 diverse languages, improving the state-of-the-art by
+an average of 5.5\% F1 points. With the minimal resources required, this is an
+extremely portable cross-lingual NER approach, as illustrated using a truly
+low-resource language, Uyghur.
+Author{1}{Firstname}#=%=#Stephen
+Author{1}{Lastname}#=%=#Mayhew
+Author{1}{Email}#=%=#mayhew2@illinois.edu
+Author{1}{Affiliation}#=%=#University of Illinois
+Author{2}{Firstname}#=%=#Chen-Tse
+Author{2}{Lastname}#=%=#Tsai
+Author{2}{Email}#=%=#ctsai12@illinois.edu
+Author{2}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{3}{Firstname}#=%=#Dan
+Author{3}{Lastname}#=%=#Roth
+Author{3}{Email}#=%=#danr@illinois.edu
+Author{3}{Affiliation}#=%=#University of Illinois
+
+==========

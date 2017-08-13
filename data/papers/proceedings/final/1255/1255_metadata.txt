@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#1255
+FinalPaperTitle#=%=#Joint Concept Learning and Semantic Parsing from Natural Language Explanations
+ShortPaperTitle#=%=#Joint Concept Learning and Semantic Parsing from Natural Language Explanations
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Shashank Srivastava
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+Abstract#==#Natural language constitutes a predominant medium for much of human learning
+and pedagogy. We consider the problem of concept learning from natural language
+explanations, and a small number of labeled examples of the concept. For
+example, in learning the concept of a phishing email, one might say `this is a
+phishing email because it asks for your bank account number'. Solving this
+problem involves both learning to interpret open ended natural language
+statements, and learning the concept itself. We present a joint model for (1)
+language interpretation (semantic parsing) and (2) concept learning
+(classification) that does not require labeling statements with logical forms.
+Instead, the model prefers discriminative interpretations of statements in
+context of observable features of the data as a weak signal for parsing. On a
+dataset of email-related concepts, our approach yields across-the-board
+improvements in classification performance, with a 30% relative improvement in
+F1 score over competitive methods in the low data regime.
+Author{1}{Firstname}#=%=#Shashank
+Author{1}{Lastname}#=%=#Srivastava
+Author{1}{Email}#=%=#shsriva@gmail.com
+Author{1}{Affiliation}#=%=#Carnegie Mellon/MSR
+Author{2}{Firstname}#=%=#Igor
+Author{2}{Lastname}#=%=#Labutov
+Author{2}{Email}#=%=#igor.labutov@gmail.com
+Author{2}{Affiliation}#=%=#Cornell University
+Author{3}{Firstname}#=%=#Tom
+Author{3}{Lastname}#=%=#Mitchell
+Author{3}{Email}#=%=#tom.mitchell@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#119
+FinalPaperTitle#=%=#Learning Fine-grained Relations from Chinese User Generated Categories
+ShortPaperTitle#=%=#Learning Fine-grained Relations from Chinese User Generated Categories
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Chengyu Wang
+JobTitle#==#
+Organization#==#East China Normal University
+3663 North Zhongshan Road, Shanghai, 200062, China
+Abstract#==#User generated categories (UGCs) are short texts that reflect how people
+describe and organize entities, expressing rich semantic relations implicitly.
+While most methods on UGC relation extraction are based on pattern matching in
+English circumstances, learning relations from Chinese UGCs poses different
+challenges due to the flexibility of expressions. In this paper, we present a
+weakly supervised learning framework to harvest relations from Chinese UGCs. We
+identify is-a relations via word embedding based projection and inference,
+extract non-taxonomic relations and their category patterns by graph mining. We
+conduct experiments on Chinese Wikipedia and achieve high accuracy,
+outperforming state-of-the-art methods.
+Author{1}{Firstname}#=%=#Chengyu
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#chywang2013@gmail.com
+Author{1}{Affiliation}#=%=#East China Normal University
+Author{2}{Firstname}#=%=#Yan
+Author{2}{Lastname}#=%=#Fan
+Author{2}{Email}#=%=#eileen940531@gmail.com
+Author{2}{Affiliation}#=%=#East China Normal University
+Author{3}{Firstname}#=%=#Xiaofeng
+Author{3}{Lastname}#=%=#He
+Author{3}{Email}#=%=#xfhe@sei.ecnu.edu.cn
+Author{3}{Affiliation}#=%=#East China Normal University
+Author{4}{Firstname}#=%=#Aoying
+Author{4}{Lastname}#=%=#Zhou
+Author{4}{Email}#=%=#ayzhou@sei.ecnu.edu.cn
+Author{4}{Affiliation}#=%=#East China Normal University
+
+==========

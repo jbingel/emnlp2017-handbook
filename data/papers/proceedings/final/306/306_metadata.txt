@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#306
+FinalPaperTitle#=%=#Context-Aware Representations for Knowledge Base Relation Extraction
+ShortPaperTitle#=%=#Context-Aware Representations for Knowledge Base Relation Extraction
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Daniil Sorokin
+JobTitle#==#
+Organization#==#
+Abstract#==#We demonstrate that for sentence-level relation extraction it is beneficial to
+consider other relations in the sentential context while predicting the target
+relation. Our architecture uses an LSTM-based encoder to jointly learn
+representations for all relations in a single sentence.  We combine the context
+representations with an attention mechanism to make the final prediction. 
+
+We use the Wikidata knowledge base to construct a dataset of multiple relations
+per sentence and to evaluate our approach. Compared to a baseline system, our
+method results in an average error reduction of 24 on a held-out set of
+relations.
+
+The code and the dataset to replicate the experiments are made available at
+https://github.com/ukplab/.
+Author{1}{Firstname}#=%=#Daniil
+Author{1}{Lastname}#=%=#Sorokin
+Author{1}{Email}#=%=#sorokin@ukp.informatik.tu-darmstadt.de
+Author{1}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+Author{2}{Firstname}#=%=#Iryna
+Author{2}{Lastname}#=%=#Gurevych
+Author{2}{Email}#=%=#gurevych@ukp.informatik.tu-darmstadt.de
+Author{2}{Affiliation}#=%=#UKP Lab, Technische Universität Darmstadt
+
+==========

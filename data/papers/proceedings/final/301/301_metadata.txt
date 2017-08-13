@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#301
+FinalPaperTitle#=%=#An analysis of eye-movements during reading for the detection of mild cognitive impairment
+ShortPaperTitle#=%=#An analysis of eye-movements during reading for the detection of mild cognitive impairment
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Kathleen Fraser
+JobTitle#==#
+Organization#==#
+Abstract#==#We present a machine learning analysis of eye-tracking data for the detection
+of mild cognitive impairment, a decline in cognitive abilities that is
+associated with an increased risk of developing dementia. We compare two
+experimental configurations (reading aloud versus reading silently), as well as
+two methods of combining information from the two trials (concatenation and
+merging). Additionally, we annotate the words being read with information about
+their frequency and syntactic category, and use these annotations to generate
+new features. Ultimately, we are able to distinguish between participants with
+and without cognitive impairment with up to 86% accuracy.
+Author{1}{Firstname}#=%=#Kathleen C.
+Author{1}{Lastname}#=%=#Fraser
+Author{1}{Email}#=%=#kathleen.fraser@svenska.gu.se
+Author{1}{Affiliation}#=%=#University of Gothenburg
+Author{2}{Firstname}#=%=#Kristina
+Author{2}{Lastname}#=%=#Lundholm Fors
+Author{2}{Email}#=%=#kristina.lundholm@gu.se
+Author{2}{Affiliation}#=%=#University of Gothenburg
+Author{3}{Firstname}#=%=#Dimitrios
+Author{3}{Lastname}#=%=#Kokkinakis
+Author{3}{Email}#=%=#dimitrios.kokkinakis@svenska.gu.se
+Author{3}{Affiliation}#=%=#University of Gothenburg
+Author{4}{Firstname}#=%=#Arto
+Author{4}{Lastname}#=%=#Nordlund
+Author{4}{Email}#=%=#arto.nordlund@neuro.gu.se
+Author{4}{Affiliation}#=%=#Sahlgrenska Academy at University of Gothenburg
+
+==========

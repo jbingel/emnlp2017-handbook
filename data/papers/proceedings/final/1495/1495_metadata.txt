@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#1495
+FinalPaperTitle#=%=#Joint Syntacto-Discourse Parsing and the Syntacto-Discourse Treebank
+ShortPaperTitle#=%=#Joint Syntacto-Discourse Parsing and the Syntacto-Discourse Treebank
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Kai Zhao
+JobTitle#==#
+Organization#==#Dept EECS, Oregon State University
+Abstract#==#Discourse parsing has long been treated as a stand-alone problem independent
+from constituency or dependency parsing. Most attempts at this problem rely on
+annotated text segmentations (Elementary Discourse Units, EDUs) and
+sophisticated sparse or continuous features to extract syntactic information.
+In this paper we propose the first end-to-end discourse parser that jointly
+parses in both syntax and discourse levels, as well as the first
+syntactic-discourse treebank by integrating the Penn Treebank and the RST
+Treebank. Built upon our recent span-based constituency parser, this joint
+syntactic-discourse parser requires no preprocessing efforts such as
+segmentation or feature extraction, making discourse parsing more convenient.
+Empirically, our parser achieves the state-of-the-art end-to-end discourse
+parsing accuracy.
+Author{1}{Firstname}#=%=#Kai
+Author{1}{Lastname}#=%=#Zhao
+Author{1}{Email}#=%=#kzhao.hf@gmail.com
+Author{1}{Affiliation}#=%=#Oregon State University
+Author{2}{Firstname}#=%=#Liang
+Author{2}{Lastname}#=%=#Huang
+Author{2}{Email}#=%=#liang.huang.sh@gmail.com
+Author{2}{Affiliation}#=%=#Oregon State University
+
+==========

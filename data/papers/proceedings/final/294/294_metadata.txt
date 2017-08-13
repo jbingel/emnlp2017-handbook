@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#294
+FinalPaperTitle#=%=#Question Generation for Question Answering
+ShortPaperTitle#=%=#Question Generation for Question Answering
+NumberOfPages#=%=#9
+CopyrightSigned#=%=#Nan Duan
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper presents how to generate questions from given passages using neural
+networks, where large scale QA pairs are automatically crawled and processed
+from Community-QA website, and used as training data. The contribution of the
+paper is 2-fold: First, two types of question generation approaches are
+proposed, one is a retrieval-based method using convolution neural network
+(CNN), the other is a generation-based method using recurrent
+neural network (RNN); Second, we show how to leverage the generated questions
+to improve existing question answering systems. We evaluate our question
+generation method for the answer sentence selection task on three benchmark
+datasets, including SQuAD, MS MARCO, and WikiQA. Experimental results show
+that, by using generated questions as an extra signal, significant QA
+improvement can be achieved.
+Author{1}{Firstname}#=%=#Nan
+Author{1}{Lastname}#=%=#Duan
+Author{1}{Email}#=%=#nanduan@microsoft.com
+Author{1}{Affiliation}#=%=#Microsoft Research Asia
+Author{2}{Firstname}#=%=#Duyu
+Author{2}{Lastname}#=%=#Tang
+Author{2}{Email}#=%=#dytang.hit@hotmail.com
+Author{2}{Affiliation}#=%=#Microsoft Research Asia
+Author{3}{Firstname}#=%=#Peng
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Email}#=%=#peche@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research and AI Group
+Author{4}{Firstname}#=%=#Ming
+Author{4}{Lastname}#=%=#Zhou
+Author{4}{Email}#=%=#mingzhou@microsoft.com
+Author{4}{Affiliation}#=%=#microsoft research asia
+
+==========

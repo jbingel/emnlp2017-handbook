@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#524
+FinalPaperTitle#=%=#Affinity-Preserving Random Walk for Multi-Document Summarization
+ShortPaperTitle#=%=#Affinity-Preserving Random Walk for Multi-Document Summarization
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Kexiang Wang
+JobTitle#==#doctoral student
+Organization#==#Peking University, No.5 Yiheyuan Road Haidian District, Beijing, P.R.China 100871
+Abstract#==#Multi-document summarization provides users with a short text that summarizes
+the information in a set of related documents. This paper introduces
+affinity-preserving random walk to the summarization task, which preserves the
+affinity relations of sentences by an absorbing random walk model. Meanwhile,
+we put forward adjustable affinity-preserving random walk to enforce the
+diversity constraint of summarization in the random walk process. The ROUGE
+evaluations on DUC 2003 topic-focused summarization task and DUC 2004 generic
+summarization task show the good performance of our method, which has the best
+ROUGE-2 recall among the graph-based ranking methods.
+Author{1}{Firstname}#=%=#Kexiang
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#wkx@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Tianyu
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#tianyu0421@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Zhifang
+Author{3}{Lastname}#=%=#Sui
+Author{3}{Email}#=%=#szf@pku.edu.cn
+Author{3}{Affiliation}#=%=#
+Author{4}{Firstname}#=%=#Baobao
+Author{4}{Lastname}#=%=#Chang
+Author{4}{Email}#=%=#chbb@pku.edu.cn
+Author{4}{Affiliation}#=%=#Peking University
+
+==========

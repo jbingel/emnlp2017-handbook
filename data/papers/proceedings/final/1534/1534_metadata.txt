@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#1534
+FinalPaperTitle#=%=#Evaluating Low-Level Speech Features Against Human Perceptual Data
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#We introduce a method for measuring the correspondence between low-level speech
+features and human perception, using a cognitive model of speech perception
+implemented directly on speech recordings.  We evaluate two speaker
+normalization techniques using this method and find that in both cases, speech
+features that are normalized across speakers predict human data better than
+unnormalized speech features, consistent with previous research.  Results
+further reveal differences across normalization methods in how well each
+predicts human data.  This work provides a new framework for evaluating
+low-level representations of speech on their match to human perception, and
+lays the groundwork for creating more ecologically valid models of speech
+perception.
+Author{1}{Firstname}#=%=#Naomi H
+Author{1}{Lastname}#=%=#Feldman
+Author{1}{Email}#=%=#nhf@umd.edu
+Author{1}{Affiliation}#=%=#University of Maryland
+Author{2}{Firstname}#=%=#Caitlin
+Author{2}{Lastname}#=%=#Richter
+Author{2}{Email}#=%=#ricca@sas.upenn.edu
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+Author{3}{Firstname}#=%=#Harini
+Author{3}{Lastname}#=%=#Salgado
+Author{3}{Email}#=%=#harini.salgado@gmail.com
+Author{3}{Affiliation}#=%=#Pomona College
+Author{4}{Firstname}#=%=#Aren
+Author{4}{Lastname}#=%=#Jansen
+Author{4}{Email}#=%=#arenjansen1@gmail.com
+Author{4}{Affiliation}#=%=#Johns Hopkins University
+
+==========

@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#1470
+FinalPaperTitle#=%=#Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints
+ShortPaperTitle#=%=#Men Also Like Shopping: Reducing Gender Bias Amplification using Corpus-level Constraints
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jieyu Zhao
+JobTitle#==#
+Organization#==#
+Abstract#==#Language is increasingly being used to de-fine rich visual recognition problems
+with supporting image collections sourced from the web. Structured prediction
+models are used  in  these  tasks  to  take  advantage              of correlations 
+between  co-occurring  labels and visual input but risk inadvertently encoding
+social biases found in web corpora. In this work, we study data and models
+associated with multilabel object classification and visual semantic role
+labeling. We find that (a) datasets for these tasks contain significant gender
+bias and (b) models  trained  on  these  datasets  further  amplify existing
+bias.             For example,  the activity cooking is over 33% more likely to 
+involve 
+females  than  males  in  a  training set, and a trained model further
+amplifies the disparity to 68% at test time.  We propose to inject corpus-level
+constraints for calibrating existing structured prediction models and design an
+algorithm based on Lagrangian relaxation for collective inference.  Our method
+results in almost no performance loss for the underlying recognition task but
+decreases the magnitude of bias amplification by 47.5% and 40.5% for multilabel
+classification and visual semantic role labeling, respectively。
+Author{1}{Firstname}#=%=#Jieyu
+Author{1}{Lastname}#=%=#Zhao
+Author{1}{Email}#=%=#jz4fu@virginia.edu
+Author{1}{Affiliation}#=%=#University of Virginia
+Author{2}{Firstname}#=%=#Tianlu
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#tw8cb@virginia.edu
+Author{2}{Affiliation}#=%=#University of Virginia
+Author{3}{Firstname}#=%=#Mark
+Author{3}{Lastname}#=%=#Yatskar
+Author{3}{Email}#=%=#my89@cs.washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+Author{4}{Firstname}#=%=#Vicente
+Author{4}{Lastname}#=%=#Ordonez
+Author{4}{Email}#=%=#vicente@virginia.edu
+Author{4}{Affiliation}#=%=#University of Virginia
+Author{5}{Firstname}#=%=#Kai-Wei
+Author{5}{Lastname}#=%=#Chang
+Author{5}{Email}#=%=#kw@kwchang.net
+Author{5}{Affiliation}#=%=#UCLA
+
+==========

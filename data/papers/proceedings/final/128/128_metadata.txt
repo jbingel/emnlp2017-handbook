@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#128
+FinalPaperTitle#=%=#Cross-lingual Character-Level Neural Morphological Tagging
+ShortPaperTitle#=%=#Cross-lingual Character-Level Neural Morphological Tagging
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Ryan Cotterell
+JobTitle#==#Graduate Student
+Organization#==#Johns Hopkins University
+Baltimore, MD
+21218
+Abstract#==#Even for common NLP tasks, sufficient supervision is not available in many
+languages -- morphological tagging is no exception. In the work presented here,
+we explore a transfer learning scheme, whereby we train character-level
+recurrent neural taggers to predict morphological taggings for high-resource
+languages and low-resource languages together. Learning joint character
+representations among multiple related languages successfully enables knowledge
+transfer from the high-resource languages to the low-resource ones.
+Author{1}{Firstname}#=%=#Ryan
+Author{1}{Lastname}#=%=#Cotterell
+Author{1}{Email}#=%=#ryan.cotterell@gmail.com
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Georg
+Author{2}{Lastname}#=%=#Heigold
+Author{2}{Email}#=%=#georg.heigold@gmail.com
+Author{2}{Affiliation}#=%=#Apple
+
+==========

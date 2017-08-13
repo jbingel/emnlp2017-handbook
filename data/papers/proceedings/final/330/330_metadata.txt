@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#330
+FinalPaperTitle#=%=#Shortest-Path Graph Kernels for Document Similarity
+ShortPaperTitle#=%=#Shortest-Path Graph Kernels for Document Similarity
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Giannis Nikolentzos
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper, we present a novel document similarity measure based on the
+definition of a graph kernel between pairs of documents. The proposed measure
+takes into account both the terms contained in the documents and the
+relationships between them. By representing each document as a graph-of-words,
+we are able to model these relationships and then determine how similar two
+documents are by using a modified shortest-path graph kernel. We evaluate our
+approach on two tasks and compare it against several baseline approaches using
+various performance metrics such as DET curves and macro-average F1-score.
+Experimental results on a range of datasets showed that our proposed approach
+outperforms traditional techniques and is capable of measuring more accurately
+the similarity between two documents.
+Author{1}{Firstname}#=%=#Giannis
+Author{1}{Lastname}#=%=#Nikolentzos
+Author{1}{Email}#=%=#giannisnik@hotmail.com
+Author{1}{Affiliation}#=%=#Athens University of Economics and Business
+Author{2}{Firstname}#=%=#Polykarpos
+Author{2}{Lastname}#=%=#Meladianos
+Author{2}{Email}#=%=#pmeladianos@aueb.gr
+Author{2}{Affiliation}#=%=#AUEB
+Author{3}{Firstname}#=%=#Francois
+Author{3}{Lastname}#=%=#Rousseau
+Author{3}{Email}#=%=#rousseau@lix.polytechnique.fr
+Author{3}{Affiliation}#=%=#Ecole Polytechnique
+Author{4}{Firstname}#=%=#Yannis
+Author{4}{Lastname}#=%=#Stavrakas
+Author{4}{Email}#=%=#yannis@imis.athena-innovation.gr
+Author{4}{Affiliation}#=%=#IMIS/RC ATHENA
+Author{5}{Firstname}#=%=#Michalis
+Author{5}{Lastname}#=%=#Vazirgiannis
+Author{5}{Email}#=%=#mvazirg@lix.polytechnique.fr
+Author{5}{Affiliation}#=%=#Ecole Polytechnique
+
+==========

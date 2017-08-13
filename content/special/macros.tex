@@ -409,7 +409,7 @@ Human Language Technologies}\par
     %%   \ifthenelse{\equal{#2}{0}}{{}}{{\huge{Workshop #2:\\\vspace{.5ex}}}}
     %%   #1\par}
     {\ifthenelse{\equal{#4}{0}}{{}}{{Organizers: \paperauthor{\citefullauthornames{#4}}}\par}}
-    {\large Venue: #5 \vspace{2em}}\\
+    {\large Location: #5 \vspace{2em}}\\
     %% {\huge Workshop Program\vspace{1ex}}
   \end{center}
   \markright{{\bfseries W~#2:} #1}{}%
@@ -442,7 +442,7 @@ Human Language Technologies}\par
     \end{Large}
     {\itshape \tutorialauthors{#2}}\vspace{1em}\par
     #3 \vspace{1em}\\
-    #4
+    Location: #4
   \end{center}}
 
 \newcounter{TutorialCounter}
@@ -455,7 +455,7 @@ Human Language Technologies}\par
     \paperauthor{\citefullauthornames{#1}}}}
 
 \newcommand{\sessionchair}[2]{
-  \emph{Chair: #1 #2}\par\index{#2, #1}}
+  \emph{#1 #2} \index{#2, #1}}
 
 \newcommand{\papertitleandauthor}[1]{
   {\bfseries \papertitle{#1}}\\

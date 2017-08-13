@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#1355
+FinalPaperTitle#=%=#Reinforcement Learning for Bandit Neural Machine Translation with Simulated Human Feedback
+ShortPaperTitle#=%=#Reinforcement Learning for Bandit Neural Machine Translation with Simulated Human Feedback
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Khanh Xuan Nguyen
+JobTitle#==#
+Organization#==#University of Maryland, College Park
+8223 Paint Branch Dr
+College Park, MD 20740, USA
+Abstract#==#Machine translation is a natural candidate
+problem for reinforcement learning from
+human feedback: users provide quick,
+dirty ratings on candidate translations to
+guide a system to improve. Yet, current
+neural machine translation training focuses
+on expensive human-generated reference
+translations. We describe a reinforcement
+learning algorithm that improves
+neural machine translation systems
+from simulated human feedback.
+Our algorithm combines the advantage
+actor-critic algorithm (Mnih et al., 2016)
+with the attention-based neural encoder-decoder
+architecture (Luong et al., 2015).
+This algorithm (a) is well-designed for
+problems with a large action space and
+delayed rewards, (b) effectively optimizes
+traditional corpus-level machine translation
+metrics, and (c) is robust to skewed,
+high-variance, granular feedback modeled
+after actual human behaviors.
+Author{1}{Firstname}#=%=#Khanh
+Author{1}{Lastname}#=%=#Nguyen
+Author{1}{Email}#=%=#nguyenxuankhanhm@gmail.com
+Author{1}{Affiliation}#=%=#University of Maryland, College Park
+Author{2}{Firstname}#=%=#Hal
+Author{2}{Lastname}#=%=#Daumé III
+Author{2}{Email}#=%=#me@hal3.name
+Author{2}{Affiliation}#=%=#UMD
+Author{3}{Firstname}#=%=#Jordan
+Author{3}{Lastname}#=%=#Boyd-Graber
+Author{3}{Email}#=%=#jbg@umiacs.umd.edu
+Author{3}{Affiliation}#=%=#University of Maryland
+
+==========

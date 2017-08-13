@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#792
+FinalPaperTitle#=%=#Demographic-aware word associations
+ShortPaperTitle#=%=#Demographic-aware word associations
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Carmen Banea
+JobTitle#==#
+Organization#==#University of Michigan
+Computer Science and Engineering 
+Bob and Betty Beyster Building 
+2260 Hayward Street 
+Ann Arbor, MI 48109-2121
+Abstract#==#Variations of word associations across different groups of people can provide
+insights into people’s psychologies and their world views. To capture these
+variations, we introduce the task of demographic-aware word associations. We
+build a new gold standard dataset consisting of word association responses for
+approximately 300 stimulus words, collected from more than 800 respondents of
+different gender (male/female) and from different locations (India/United
+States), and show that there are significant variations in the word
+associations made by these groups. We also introduce a new demographic-aware
+word association model based on a neural net skip-gram architecture, and show
+how computational methods for measuring word associations that specifically
+account for writer demographics can outperform generic methods that are
+agnostic to such information.
+Author{1}{Firstname}#=%=#Aparna
+Author{1}{Lastname}#=%=#Garimella
+Author{1}{Email}#=%=#gaparna@umich.edu
+Author{1}{Affiliation}#=%=#University of Michigan
+Author{2}{Firstname}#=%=#Carmen
+Author{2}{Lastname}#=%=#Banea
+Author{2}{Email}#=%=#carmen.banea@gmail.com
+Author{2}{Affiliation}#=%=#University of Michigan
+Author{3}{Firstname}#=%=#Rada
+Author{3}{Lastname}#=%=#Mihalcea
+Author{3}{Email}#=%=#mihalcea@umich.edu
+Author{3}{Affiliation}#=%=#University of Michigan
+
+==========

@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#147
+FinalPaperTitle#=%=#Towards Automatic Construction of News Overview Articles by News Synthesis
+ShortPaperTitle#=%=#Towards Automatic Construction of News Overview Articles by News Synthesis
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Xiaojun Wan
+JobTitle#==#
+Organization#==#Peking University, Haidian District, Beijing 100871, China
+Abstract#==#In this paper we investigate a new task of automatically constructing an
+overview article from a given set of news articles about a news event.
+We propose a news synthesis approach to address this task based on passage
+segmentation, ranking, selection and merging.
+Our proposed approach is compared with several typical multi-document
+summarization methods on the Wikinews dataset, and achieves the best
+performance on both automatic evaluation and manual evaluation.
+Author{1}{Firstname}#=%=#Jianmin
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#zhangjianmin2015@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Xiaojun
+Author{2}{Lastname}#=%=#Wan
+Author{2}{Email}#=%=#wanxiaojun@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+
+==========

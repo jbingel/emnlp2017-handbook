@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#1138
+FinalPaperTitle#=%=#Story Comprehension for Predicting What Happens Next
+ShortPaperTitle#=%=#Story Comprehension for Predicting What Happens Next
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Snigdha Chaturvedi
+JobTitle#==#
+Organization#==#University of Illinois, Urbana-Champaign,
+Siebel Center,
+201 N. Goodwin Avenue, 
+Urbana, IL 61801
+Abstract#==#Automatic story comprehension is a fundamental challenge in Natural Language
+Understanding, and can enable computers to learn about social norms, human
+behavior and commonsense. In this paper, we present a story comprehension model
+that explores three distinct semantic aspects: (i) the sequence of events
+described in the story, (ii) its emotional trajectory, and (iii) its plot
+consistency. We judge the model's understanding of real-world stories by
+inquiring if, like humans, it can develop an expectation of what will happen
+next in a given story. Specifically, we use it to predict the correct ending of
+a given short story from possible alternatives. The model uses a hidden
+variable to weigh the semantic aspects in the context of the story. Our
+experiments demonstrate the potential of our approach to characterize these
+semantic aspects, and the strength of the hidden variable based approach. The
+model outperforms the state-of-the-art approaches and achieves best results on
+a publicly available dataset.
+Author{1}{Firstname}#=%=#Snigdha
+Author{1}{Lastname}#=%=#Chaturvedi
+Author{1}{Email}#=%=#snigdhac@gmail.com
+Author{1}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{2}{Firstname}#=%=#Haoruo
+Author{2}{Lastname}#=%=#Peng
+Author{2}{Email}#=%=#hpeng7@illinois.edu
+Author{2}{Affiliation}#=%=#UIUC
+Author{3}{Firstname}#=%=#Dan
+Author{3}{Lastname}#=%=#Roth
+Author{3}{Email}#=%=#danr@illinois.edu
+Author{3}{Affiliation}#=%=#University of Illinois
+
+==========

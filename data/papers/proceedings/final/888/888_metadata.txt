@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#888
+FinalPaperTitle#=%=#The strange geometry of skip-gram with negative sampling
+ShortPaperTitle#=%=#The strange geometry of skip-gram with negative sampling
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#David Mimno
+JobTitle#==#
+Organization#==#
+Abstract#==#Despite their ubiquity, word embeddings trained with skip-gram negative
+sampling (SGNS) remain poorly understood. We find that vector positions are not
+simply determined by semantic similarity, but rather occupy a narrow cone,
+diametrically opposed to the context vectors. We show that this geometric
+concentration depends on the ratio of positive to negative examples, and that
+it is neither theoretically nor empirically inherent in related embedding
+algorithms.
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#Mimno
+Author{1}{Email}#=%=#david.mimno@gmail.com
+Author{1}{Affiliation}#=%=#Cornell University
+Author{2}{Firstname}#=%=#Laure
+Author{2}{Lastname}#=%=#Thompson
+Author{2}{Email}#=%=#laurejt@cs.cornell.edu
+Author{2}{Affiliation}#=%=#Cornell University
+
+==========

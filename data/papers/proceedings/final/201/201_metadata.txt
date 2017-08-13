@@ -1,0 +1,24 @@
+SubmissionNumber#=%=#201
+FinalPaperTitle#=%=#Identifying attack and support argumentative relations using deep learning
+ShortPaperTitle#=%=#Identifying attack and support argumentative relations using deep learning
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Oana Cocarascu
+JobTitle#==#
+Organization#==#
+Abstract#==#We propose a deep learning architecture to capture argumentative relations of
+attack and support from one piece of text to another, of the kind that
+naturally occur in a debate. The architecture uses two (unidirectional or
+bidirectional) Long Short-Term Memory networks and (trained or non-trained)
+word embeddings, and allows to considerably improve upon existing techniques
+that use syntactic features and supervised classifiers for the same form of
+(relation-based) argument mining.
+Author{1}{Firstname}#=%=#Oana
+Author{1}{Lastname}#=%=#Cocarascu
+Author{1}{Email}#=%=#oana.cocarascu11@imperial.ac.uk
+Author{1}{Affiliation}#=%=#Imperial College London
+Author{2}{Firstname}#=%=#Francesca
+Author{2}{Lastname}#=%=#Toni
+Author{2}{Email}#=%=#f.toni@imperial.ac.uk
+Author{2}{Affiliation}#=%=#Imperial College London
+
+==========

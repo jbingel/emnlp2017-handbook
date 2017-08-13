@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#246
+FinalPaperTitle#=%=#Cascaded Attention based Unsupervised Information Distillation for Compressive Summarization
+ShortPaperTitle#=%=#Cascaded Attention based Unsupervised Information Distillation for Compressive Summarization
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Piji Li
+JobTitle#==#
+Organization#==#Department of Systems Engineering and Engineering Management, The Chinese University of Hong Kong, Shatin, Hong Kong, China
+Abstract#==#When people recall and digest what they have read for writing summaries, the
+important content is more likely to attract their attention.
+  Inspired by this observation, we propose a cascaded attention based
+unsupervised
+  model to estimate the salience information from the text for compressive
+multi-document summarization.
+  The attention weights are learned automatically by an unsupervised data
+reconstruction framework which can capture the sentence salience.
+  By adding sparsity constraints on the number of output vectors, we can
+generate condensed information which can be treated as word salience.
+  Fine-grained and coarse-grained sentence compression strategies are
+incorporated to produce compressive summaries. 
+  Experiments on some benchmark data sets show that our framework achieves
+better results than the state-of-the-art methods.
+Author{1}{Firstname}#=%=#Piji
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#lipiji.pz@gmail.com
+Author{1}{Affiliation}#=%=#The Chinese University of Hong Kong
+Author{2}{Firstname}#=%=#Wai
+Author{2}{Lastname}#=%=#Lam
+Author{2}{Email}#=%=#wlam@se.cuhk.edu.hk
+Author{2}{Affiliation}#=%=#The Chinese University of Hong Kong
+Author{3}{Firstname}#=%=#Lidong
+Author{3}{Lastname}#=%=#Bing
+Author{3}{Email}#=%=#binglidong@gmail.com
+Author{3}{Affiliation}#=%=#AI Lab, Tencent Iinc.
+Author{4}{Firstname}#=%=#Weiwei
+Author{4}{Lastname}#=%=#Guo
+Author{4}{Email}#=%=#wguo.cu@gmail.com
+Author{4}{Affiliation}#=%=#LinkedIn Inc.
+Author{5}{Firstname}#=%=#Hang
+Author{5}{Lastname}#=%=#Li
+Author{5}{Email}#=%=#HangLi.HL@huawei.com
+Author{5}{Affiliation}#=%=#Noah's Ark Lab, Huawei Technologies
+
+==========

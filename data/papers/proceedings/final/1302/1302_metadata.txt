@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#1302
+FinalPaperTitle#=%=#MUSE: Modularizing Unsupervised Sense Embeddings
+ShortPaperTitle#=%=#MUSE: Modularizing Unsupervised Sense Embeddings
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Guang-He Lee
+JobTitle#==#
+Organization#==#Massachusetts Institute of Technology
+77 Massachusetts Ave, Cambridge, MA 02139, United States of America
+Abstract#==#This paper proposes to address the word sense ambiguity issue in an
+unsupervised manner, where word sense representations are learned along a word
+sense selection mechanism given contexts. Prior work focused on designing a
+single model to deliver both mechanisms, and thus suffered from either
+coarse-grained representation learning or inefficient sense selection. The
+proposed modular approach, MUSE, implements flexible modules to optimize
+distinct mechanisms, achieving the first purely sense-level representation
+learning system with linear-time sense selection. We leverage reinforcement
+learning to enable joint training on the proposed modules, and introduce
+various exploration techniques on sense selection for better robustness. The
+experiments on benchmark data show that the proposed approach achieves the
+state-of-the-art performance on synonym selection as well as on contextual word
+similarities in terms of MaxSimC.
+Author{1}{Firstname}#=%=#Guang-He
+Author{1}{Lastname}#=%=#Lee
+Author{1}{Email}#=%=#guanghe@mit.edu
+Author{1}{Affiliation}#=%=#Massachusetts Institute of Technology
+Author{2}{Firstname}#=%=#Yun-Nung
+Author{2}{Lastname}#=%=#Chen
+Author{2}{Email}#=%=#y.v.chen@ieee.org
+Author{2}{Affiliation}#=%=#National Taiwan University
+
+==========

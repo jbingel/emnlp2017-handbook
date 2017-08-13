@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#43
+FinalPaperTitle#=%=#Multi-Grained Chinese Word Segmentation
+ShortPaperTitle#=%=#Multi-Grained Chinese Word Segmentation
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Zhenghua Li
+JobTitle#==#
+Organization#==#
+Abstract#==#Traditionally, word segmentation (WS) adopts the single-grained formalism,
+where a sentence corresponds to a single word sequence. However, Sproat et al.
+(1997) show that the inter-native-speaker consistency ratio over Chinese word
+boundaries is only 76\%, indicating single-grained WS (SWS) imposes unnecessary
+challenges on both manual annotation and statistical modeling.
+Moreover, WS results of different granularities can be complementary and
+beneficial for high-level applications. 
+
+This work proposes and addresses multi-grained WS (MWS). We build a large-scale
+pseudo MWS dataset for model training and tuning by leveraging the annotation
+heterogeneity of 
+three SWS datasets.
+Then we manually annotate 1,500 test sentences with true MWS annotations. 
+Finally, we propose three benchmark approaches by casting MWS as constituent
+parsing and sequence
+labeling. 
+Experiments and analysis lead to many interesting findings.
+Author{1}{Firstname}#=%=#Chen
+Author{1}{Lastname}#=%=#Gong
+Author{1}{Email}#=%=#gongchen18@163.com
+Author{1}{Affiliation}#=%=#Soochow University
+Author{2}{Firstname}#=%=#Zhenghua
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#zhli13@suda.edu.cn
+Author{2}{Affiliation}#=%=#Soochow University
+Author{3}{Firstname}#=%=#Min
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Email}#=%=#minzhang@suda.edu.cn
+Author{3}{Affiliation}#=%=#Suda
+Author{4}{Firstname}#=%=#Xinzhou
+Author{4}{Lastname}#=%=#Jiang
+Author{4}{Email}#=%=#381542235@qq.com
+Author{4}{Affiliation}#=%=#Soochow University
+
+==========

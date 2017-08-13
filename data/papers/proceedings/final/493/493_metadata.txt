@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#493
+FinalPaperTitle#=%=#Semi-supervised Structured Prediction with Neural CRF Autoencoder
+ShortPaperTitle#=%=#Semi-supervised Structured Prediction with Neural CRF Autoencoder
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#xiao zhang
+JobTitle#==#
+Organization#==#Purdue University
+Abstract#==#In this paper we propose an end-to-end neural CRF autoencoder (NCRF-AE) model
+for semi-supervised learning of sequential structured prediction problems. Our
+NCRF-AE consists of two parts: an encoder which is a CRF model enhanced by deep
+neural networks, and a decoder which is a generative model trying to
+reconstruct the input. Our model has a unified structure with different loss
+functions for labeled and unlabeled data with shared parameters. We developed a
+variation of the EM algorithm for optimizing both the encoder and the decoder
+simultaneously by decoupling their parameters. Our Experimental results over
+the Part-of-Speech (POS) tagging task on eight different languages, show that
+our model can outperform competitive systems in both supervised and
+semi-supervised scenarios.
+Author{1}{Firstname}#=%=#Xiao
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#zhang923@purdue.edu
+Author{1}{Affiliation}#=%=#Purdue University
+Author{2}{Firstname}#=%=#Yong
+Author{2}{Lastname}#=%=#Jiang
+Author{2}{Email}#=%=#jiangyong@shanghaitech.edu.cn
+Author{2}{Affiliation}#=%=#ShanghaiTech University
+Author{3}{Firstname}#=%=#Hao
+Author{3}{Lastname}#=%=#Peng
+Author{3}{Email}#=%=#pengh@purdue.edu
+Author{3}{Affiliation}#=%=#Purdue University
+Author{4}{Firstname}#=%=#Kewei
+Author{4}{Lastname}#=%=#Tu
+Author{4}{Email}#=%=#tukw@shanghaitech.edu.cn
+Author{4}{Affiliation}#=%=#ShanghaiTech University
+Author{5}{Firstname}#=%=#Dan
+Author{5}{Lastname}#=%=#Goldwasser
+Author{5}{Email}#=%=#goldan55@gmail.com
+Author{5}{Affiliation}#=%=#Purdue University
+
+==========

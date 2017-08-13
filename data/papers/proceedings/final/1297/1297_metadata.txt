@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#1297
+FinalPaperTitle#=%=#Trainable Greedy Decoding for Neural Machine Translation
+ShortPaperTitle#=%=#Trainable Greedy Decoding for Neural Machine Translation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jiatao Gu
+JobTitle#==#
+Organization#==#The University of Hong Kong, Hong Kong
+Abstract#==#Recent research in neural machine translation has largely focused on two
+aspects; neural network architectures and end-to-end learning algorithms. The
+problem of decoding, however, has received relatively little attention from the
+research community. In this paper, we solely focus on the problem of decoding
+given a trained neural machine translation model. Instead of trying to build a
+new decoding algorithm for any specific decoding objective, we propose the idea
+of trainable decoding algorithm in which we train a decoding algorithm to find
+a translation that maximizes an arbitrary decoding objective. More
+specifically, we design an actor that observes and manipulates the hidden state
+of the neural machine translation decoder and propose to train it using a
+variant of deterministic policy gradient. We extensively evaluate the proposed
+algorithm using four language pairs and two decoding objectives and show that
+we can indeed train a trainable greedy decoder that generates a better
+translation (in terms of a target decoding objective) with minimal
+computational overhead.
+Author{1}{Firstname}#=%=#Jiatao
+Author{1}{Lastname}#=%=#Gu
+Author{1}{Email}#=%=#jiataogu@eee.hku.hk
+Author{1}{Affiliation}#=%=#Department of Electrical and Electronic Engineering, The University of Hong Kong
+Author{2}{Firstname}#=%=#Kyunghyun
+Author{2}{Lastname}#=%=#Cho
+Author{2}{Email}#=%=#kyunghyun.cho@nyu.edu
+Author{2}{Affiliation}#=%=#New York University
+Author{3}{Firstname}#=%=#Victor O.K.
+Author{3}{Lastname}#=%=#Li
+Author{3}{Email}#=%=#vli@eee.hku.hk
+Author{3}{Affiliation}#=%=#The University of Hong Kong
+
+==========

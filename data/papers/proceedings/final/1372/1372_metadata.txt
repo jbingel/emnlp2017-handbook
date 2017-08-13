@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1372
+FinalPaperTitle#=%=#Towards Debate Automation: a Recurrent Model for Predicting Debate Winners
+ShortPaperTitle#=%=#Towards Debate Automation: a Recurrent Model for Predicting Debate Winners
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Peter Potash
+JobTitle#==#
+Organization#==#University of Massachusetts Lowell
+220 Pawtucket St, Lowell, MA 01854
+Abstract#==#In this paper we introduce a practical first step towards the creation of an
+automated debate agent: a state-of-the-art recurrent predictive model for
+predicting debate winners. By having an accurate predictive model, we are able
+to objectively rate the quality of a statement made at a specific turn in a
+debate. The model is based on a recurrent neural network architecture with
+attention, which allows the model to effectively account for the entire debate
+when making its prediction. Our model achieves state-of-the-art accuracy on a
+dataset of debate transcripts annotated with audience favorability of the
+debate teams. Finally, we discuss how future work can leverage our proposed
+model for the creation of an automated debate agent. We accomplish this by
+determining the model input that will maximize audience favorability toward a
+given side of a debate at an arbitrary turn.
+Author{1}{Firstname}#=%=#Peter
+Author{1}{Lastname}#=%=#Potash
+Author{1}{Email}#=%=#ppotash@cs.uml.edu
+Author{1}{Affiliation}#=%=#University of Massachusetts Lowell
+Author{2}{Firstname}#=%=#Anna
+Author{2}{Lastname}#=%=#Rumshisky
+Author{2}{Email}#=%=#arum@cs.uml.edu
+Author{2}{Affiliation}#=%=#University of Massachusetts Lowell
+
+==========

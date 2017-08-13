@@ -1,0 +1,46 @@
+SubmissionNumber#=%=#1403
+FinalPaperTitle#=%=#Agent-Aware Dropout DQN for Safe and Efficient On-line Dialogue Policy Learning
+ShortPaperTitle#=%=#Agent-Aware Dropout DQN for Safe and Efficient On-line Dialogue Policy Learning
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Lu Chen
+JobTitle#==#
+Organization#==#Name: Shanghai Jiao Tong University
+Address: 800 Dongchuan Road, Minhang District, Shanghai, China.
+Abstract#==#Hand-crafted rules and reinforcement learning (RL) are two popular choices to
+obtain dialogue policy.  The rule-based policy is often reliable within
+predefined scope but not self-adaptable, whereas RL is evolvable with data but
+often suffers from a bad initial performance. We employ a {\em companion
+learning} framework to integrate the two approaches for {\em on-line} dialogue
+policy learning, in which a pre-defined rule-based policy acts as a
+“teacher” and guides a data-driven RL system by giving example actions as
+well as additional rewards. A novel {\em agent-aware dropout} Deep Q-Network
+(AAD-DQN) is proposed to address the problem of when to consult the teacher and
+how to learn from the teacher's experiences. AAD-DQN, as a data-driven student
+policy, provides (1) two separate experience memories for student and teacher,
+(2) an uncertainty estimated by dropout to control the timing of consultation
+and learning. Simulation experiments showed that the proposed approach can
+significantly improve both {\em safety} and {\em efficiency} of on-line policy
+optimization compared to other companion learning approaches as well as
+supervised pre-training using static dialogue corpus.
+Author{1}{Firstname}#=%=#Lu
+Author{1}{Lastname}#=%=#Chen
+Author{1}{Email}#=%=#chenlusz@sjtu.edu.cn
+Author{1}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{2}{Firstname}#=%=#Xiang
+Author{2}{Lastname}#=%=#Zhou
+Author{2}{Email}#=%=#owenzx@sjtu.edu.cn
+Author{2}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{3}{Firstname}#=%=#Cheng
+Author{3}{Lastname}#=%=#Chang
+Author{3}{Email}#=%=#cheng.chang@sjtu.edu.cn
+Author{3}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{4}{Firstname}#=%=#Runzhe
+Author{4}{Lastname}#=%=#Yang
+Author{4}{Email}#=%=#yang_runzhe@sjtu.edu.cn
+Author{4}{Affiliation}#=%=#Shanghai Jiao Tong University
+Author{5}{Firstname}#=%=#Kai
+Author{5}{Lastname}#=%=#Yu
+Author{5}{Email}#=%=#kai.yu@sjtu.edu.cn
+Author{5}{Affiliation}#=%=#Shanghai Jiao Tong University
+
+==========

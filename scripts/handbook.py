@@ -98,3 +98,15 @@ class Session:
         else:
             return ('', '')
 
+    def chairs(self):
+        chairs = []
+        for kw, val in self.keywords.items():
+            if kw.startswith("chair"):
+                fullname = val
+                if ', ' in fullname:
+                    names = fullname.split(', ', 1)
+                    chairs.append((names[1].strip(), names[0].strip()))
+                else:
+                    names = fullname.split(' ', 1)
+                    chairs.append((names[0].strip(), names[1].strip()))
+        return chairs 

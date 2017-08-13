@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#934
+FinalPaperTitle#=%=#Argument Mining on Twitter: Arguments, Facts and Sources
+ShortPaperTitle#=%=#Argument Mining on Twitter: Arguments, Facts and Sources
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Serena Villata
+JobTitle#==#
+Organization#==#
+Abstract#==#Social media collect and spread on the Web personal opinions, facts, fake news
+and all kind of information users may be interested in. Applying argument
+mining methods to such heterogeneous data sources is a challenging open
+research issue, in particular considering the peculiarities of the language
+used to write textual messages on social media. In addition, new issues emerge
+when dealing with arguments posted on such platforms, such as the need to make
+a distinction between personal opinions and actual facts, and to detect the
+source disseminating information about such facts to allow for provenance
+verification. In this paper, we apply supervised classification to identify
+arguments on Twitter, and we present two new tasks for argument mining, namely
+facts recognition and source identification. We study the feasibility of the
+approaches proposed to address these tasks on a set of tweets related to the
+Grexit and Brexit news topics.
+Author{1}{Firstname}#=%=#Mihai
+Author{1}{Lastname}#=%=#Dusmanu
+Author{1}{Email}#=%=#mihai.dusmanu@ens.fr
+Author{1}{Affiliation}#=%=#Université Côte d’Azur, Inria, CNRS, I3S, France
+Author{2}{Firstname}#=%=#Elena
+Author{2}{Lastname}#=%=#Cabrio
+Author{2}{Email}#=%=#elena.cabrio@unice.fr
+Author{2}{Affiliation}#=%=#Université Côte d’Azur, Inria, CNRS, I3S, France
+Author{3}{Firstname}#=%=#Serena
+Author{3}{Lastname}#=%=#Villata
+Author{3}{Email}#=%=#serena.villata@inria.fr
+Author{3}{Affiliation}#=%=#Université Côte d’Azur, CNRS, Inria, I3S
+
+==========

@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#600
+FinalPaperTitle#=%=#Exploiting Word Internal Structures for Generic Chinese Sentence Representation
+ShortPaperTitle#=%=#Exploiting Word Internal Structures for Generic Chinese Sentence Representation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Shaonan Wang
+JobTitle#==#
+Organization#==#Institute of Automation
+No 95. Zhongguancun East Road, Haidian District, Beijing, China
+Abstract#==#We introduce a novel mixed characterword architecture to improve Chinese
+sentence representations, by utilizing rich semantic information of word
+internal structures. Our architecture uses two key strategies. The first is a
+mask gate on characters, learning the relation among characters in a word. The
+second is a maxpooling operation on words, adaptively finding the optimal
+mixture of the atomic and compositional word representations. Finally, the
+proposed architecture is applied to various sentence composition models, which
+achieves substantial performance gains over baseline models on sentence
+similarity task.
+Author{1}{Firstname}#=%=#Shaonan
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#shaonan.wang@nlpr.ia.ac.cn
+Author{1}{Affiliation}#=%=#National Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Jiajun
+Author{2}{Lastname}#=%=#Zhang
+Author{2}{Email}#=%=#jiajun.zhang@ia.ac.cn
+Author{2}{Affiliation}#=%=#Institute of Automation Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Chengqing
+Author{3}{Lastname}#=%=#Zong
+Author{3}{Email}#=%=#cqzong@nlpr.ia.ac.cn
+Author{3}{Affiliation}#=%=#Institute of Automation, Chinese Academy of Sciences
+
+==========

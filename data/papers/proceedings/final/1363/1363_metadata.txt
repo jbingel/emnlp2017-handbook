@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#1363
+FinalPaperTitle#=%=#Challenges in Data-to-Document Generation
+ShortPaperTitle#=%=#Challenges in Data-to-Document Generation
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Sam Wiseman
+JobTitle#==#
+Organization#==#
+Abstract#==#Recent neural models have shown significant progress on the problem of
+generating short descriptive texts conditioned on a small number of database
+records. In this work, we suggest a slightly more difficult data-to-text
+generation task, and investigate how effective current approaches are on this
+task. In particular, we introduce a new, large-scale corpus of data records
+paired with descriptive documents, propose a series of extractive evaluation
+methods for analyzing performance, and obtain baseline results using current
+neural generation methods. Experiments show that these models produce fluent
+text, but fail to convincingly approximate human-generated documents. Moreover,
+even templated baselines exceed the performance of these neural models on some
+metrics, though copy- and reconstruction-based extensions lead to noticeable
+improvements.
+Author{1}{Firstname}#=%=#Sam
+Author{1}{Lastname}#=%=#Wiseman
+Author{1}{Email}#=%=#swiseman@seas.harvard.edu
+Author{1}{Affiliation}#=%=#Harvard University
+Author{2}{Firstname}#=%=#Stuart
+Author{2}{Lastname}#=%=#Shieber
+Author{2}{Email}#=%=#shieber@seas.harvard.edu
+Author{2}{Affiliation}#=%=#
+Author{3}{Firstname}#=%=#Alexander
+Author{3}{Lastname}#=%=#Rush
+Author{3}{Email}#=%=#srush@seas.harvard.edu
+Author{3}{Affiliation}#=%=#Harvard University
+
+==========

@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#1035
+FinalPaperTitle#=%=#Filling the Blanks (hint: plural noun) for Mad Libs Humor
+ShortPaperTitle#=%=#Filling the Blanks for Mad Libs Humor
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Nabil Tarique Hossain
+JobTitle#==#
+Organization#==#Department of Computer Science
+University of Rochester
+Rochester, NY 14627
+Abstract#==#Computerized generation of humor is a notoriously difficult AI problem. We
+develop an algorithm called Libitum that helps humans generate humor in a Mad
+Lib, which is a popular fill-in-the-blank game. The algorithm is based on a
+machine learned classifier that determines whether a potential fill-in word is
+funny in the context of the Mad Lib story. We use Amazon Mechanical Turk to
+create ground truth data and to judge humor for our classifier to mimic, and we
+make this data freely available. Our testing shows that Libitum successfully
+aids humans in filling in Mad Libs that are usually judged funnier than those
+filled in by humans with no computerized help. We go on to analyze why some
+words are better than others at making a Mad Lib funny.
+Author{1}{Firstname}#=%=#Nabil
+Author{1}{Lastname}#=%=#Hossain
+Author{1}{Email}#=%=#nabilhossain@gmail.com
+Author{1}{Affiliation}#=%=#University of Rochester
+Author{2}{Firstname}#=%=#John
+Author{2}{Lastname}#=%=#Krumm
+Author{2}{Email}#=%=#jckrumm@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research
+Author{3}{Firstname}#=%=#Lucy
+Author{3}{Lastname}#=%=#Vanderwende
+Author{3}{Email}#=%=#lucyv@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research
+Author{4}{Firstname}#=%=#Eric
+Author{4}{Lastname}#=%=#Horvitz
+Author{4}{Email}#=%=#horvitz@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Research
+Author{5}{Firstname}#=%=#Henry
+Author{5}{Lastname}#=%=#Kautz
+Author{5}{Email}#=%=#kautz@cs.rochester.edu
+Author{5}{Affiliation}#=%=#University of Rochester
+
+==========

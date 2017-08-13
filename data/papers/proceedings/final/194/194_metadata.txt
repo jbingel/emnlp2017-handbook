@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#194
+FinalPaperTitle#=%=#Further Investigation into Reference Bias in Monolingual Evaluation of Machine Translation
+ShortPaperTitle#=%=#Further Investigation into Reference Bias in Monolingual Evaluation of Machine Translation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yvette Graham
+JobTitle#==#
+Organization#==#ADAPT Research Centre,
+Dublin City University,
+Dublin 9,
+Ireland
+Abstract#==#Monolingual evaluation of Machine Translation (MT) aims to simplify human
+assessment by requiring assessors to compare the meaning of the MT output with
+a reference
+translation, opening up the task to a much larger pool of genuinely qualified
+evaluators. Monolingual evaluation runs the risk, however, of bias in favour of
+MT systems that happen to produce translations superficially similar to the
+reference and, consistent with this intuition, previous investigations have
+concluded monolingual assessment to be strongly biased in this respect. On
+re-examination of past analyses, we identify a series of potential analytical
+errors that force some important questions to be raised about the reliability
+of past conclusions, however. We subsequently carry out further investigation
+into reference bias via direct human assessment of MT adequacy via quality
+controlled crowd-sourcing. Contrary to both intuition and past conclusions,
+results for show no significant evidence of reference bias
+in monolingual evaluation of MT.
+Author{1}{Firstname}#=%=#Qingsong
+Author{1}{Lastname}#=%=#Ma
+Author{1}{Email}#=%=#maqingsong@ict.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Computing Technology Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Yvette
+Author{2}{Lastname}#=%=#Graham
+Author{2}{Email}#=%=#graham.yvette@gmail.com
+Author{2}{Affiliation}#=%=#Dublin City University
+Author{3}{Firstname}#=%=#Timothy
+Author{3}{Lastname}#=%=#Baldwin
+Author{3}{Email}#=%=#tb@ldwin.net
+Author{3}{Affiliation}#=%=#The University of Melbourne
+Author{4}{Firstname}#=%=#Qun
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Email}#=%=#qun.liu@dcu.ie
+Author{4}{Affiliation}#=%=#Dublin City University
+
+==========

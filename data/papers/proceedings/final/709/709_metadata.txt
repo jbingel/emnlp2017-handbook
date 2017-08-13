@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#709
+FinalPaperTitle#=%=#Using Automated Metaphor Identification to Aid in Detection and Prediction of First-Episode Schizophrenia
+ShortPaperTitle#=%=#Using Automated Metaphor Identification to Aid in Detection and Prediction of First-Episode Schizophrenia
+NumberOfPages#=%=#8
+CopyrightSigned#=%=#E Dario Gutierrez
+JobTitle#==#
+Organization#==#
+Abstract#==#The diagnosis of serious mental health conditions such as schizophrenia is
+based on the judgment of clinicians whose training takes several years, and
+cannot be easily formalized into objective measures. However, previous research
+suggests there are disturbances in aspects of the language use of patients with
+schizophrenia.                                      
+
+Using metaphor-identification and sentiment-analysis
+algorithms to automatically generate features, we create a classifier,               
+     
+
+that,
+with high
+accuracy, can predict which patients will develop (or currently suffer from)
+schizophrenia.                                      
+
+To our knowledge, this study is the first to demonstrate
+the utility of automated metaphor identification algorithms for detection or
+prediction of disease.
+Author{1}{Firstname}#=%=#E. Dario
+Author{1}{Lastname}#=%=#Gutierrez
+Author{1}{Email}#=%=#edg2103@gmail.com
+Author{1}{Affiliation}#=%=#University of California, San Diego
+Author{2}{Firstname}#=%=#Guillermo
+Author{2}{Lastname}#=%=#Cecchi
+Author{2}{Email}#=%=#gcecchi@us.ibm.com
+Author{2}{Affiliation}#=%=#IBM
+Author{3}{Firstname}#=%=#Cheryl
+Author{3}{Lastname}#=%=#Corcoran
+Author{3}{Email}#=%=#Corcora@nyspi.columbia.edu
+Author{3}{Affiliation}#=%=#New York State Psychiatric Institute
+Author{4}{Firstname}#=%=#Philip
+Author{4}{Lastname}#=%=#Corlett
+Author{4}{Email}#=%=#philip.corlett@yale.edu
+Author{4}{Affiliation}#=%=#Yale University
+
+==========

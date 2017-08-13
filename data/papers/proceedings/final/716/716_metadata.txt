@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#716
+FinalPaperTitle#=%=#Exploiting Cross-Sentence Context for Neural Machine Translation
+ShortPaperTitle#=%=#Exploiting Cross-Sentence Context for Neural Machine Translation
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Longyue Wang
+JobTitle#==#
+Organization#==#ADAPT Centre, Dublin City University, Ireland
+Abstract#==#In translation, considering the document as a whole can help to resolve
+ambiguities and inconsistencies. In this paper, we propose a cross-sentence
+context-aware approach and investigate the influence of historical contextual
+information on the performance of neural machine translation (NMT). First, this
+history is summarized in a hierarchical way. We then integrate the historical
+representation into NMT in two strategies: 1) a warm-start of encoder and
+decoder states, and 2) an auxiliary context source for updating decoder states.
+Experimental results on a large Chinese-English translation task show that our
+approach significantly improves upon a strong attention-based NMT system by up
+to +2.1 BLEU points.
+Author{1}{Firstname}#=%=#Longyue
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#lwang@computing.dcu.ie
+Author{1}{Affiliation}#=%=#ADAPT Centre, School of Computing, Dublin City University
+Author{2}{Firstname}#=%=#Zhaopeng
+Author{2}{Lastname}#=%=#Tu
+Author{2}{Email}#=%=#tuzhaopeng@gmail.com
+Author{2}{Affiliation}#=%=#Tencent AI Lab
+Author{3}{Firstname}#=%=#Andy
+Author{3}{Lastname}#=%=#Way
+Author{3}{Email}#=%=#away@computing.dcu.ie
+Author{3}{Affiliation}#=%=#ADAPT, Dublin City University
+Author{4}{Firstname}#=%=#Qun
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Email}#=%=#qun.liu@dcu.ie
+Author{4}{Affiliation}#=%=#Dublin City University
+
+==========

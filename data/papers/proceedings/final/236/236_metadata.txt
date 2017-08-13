@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#236
+FinalPaperTitle#=%=#Multi-modular domain-tailored OCR post-correction
+ShortPaperTitle#=%=#Multi-modular domain-tailored OCR post-correction
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Sarah Schulz
+JobTitle#==#
+Organization#==#Institute for Natural Language Processing
+Pfaffenwaldring 5b
+70569 Stuttgart
+Germany
+Abstract#==#One of the main obstacles for many Digital Humanities projects is the low data
+availability. Texts have to be digitized in an expensive and time consuming
+process whereas Optical Character Recognition (OCR) post-correction is one of
+the time-critical factors. At the example of OCR post-correction, we show the
+adaptation of a generic system to solve a specific problem with little data.
+The system accounts for a diversity of errors encountered in OCRed texts coming
+from different time periods in the domain of literature. We show that the
+combination of different approaches, such as e.g. Statistical Machine
+Translation and spell checking, with the help of a ranking mechanism
+tremendously improves over single-handed approaches. Since we consider the
+accessibility of the resulting tool as
+a crucial part of Digital Humanities collaborations, we describe the workflow
+we suggest for efficient text recognition and subsequent automatic and manual
+post-correction
+Author{1}{Firstname}#=%=#Sarah
+Author{1}{Lastname}#=%=#Schulz
+Author{1}{Email}#=%=#sarah.schulz@ims.uni-stuttgart.de
+Author{1}{Affiliation}#=%=#University of Stuttgart
+Author{2}{Firstname}#=%=#Jonas
+Author{2}{Lastname}#=%=#Kuhn
+Author{2}{Email}#=%=#jonas@ims.uni-stuttgart.de
+Author{2}{Affiliation}#=%=#Stuttgart University
+
+==========

@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#822
+FinalPaperTitle#=%=#SCDV : Sparse Composite Document Vectors using soft clustering over distributional representations
+ShortPaperTitle#=%=#Text Categorization using Sparse Composite Document Vectors
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Vivek Gupta
+JobTitle#==#
+Organization#==#Research Fellow, Microsoft Research Lab, India, “Vigyan”, #9, Lavelle Road, Bangalore, 560 001, India
+Abstract#==#We present a feature vector formation technique for documents - Sparse
+Composite Document Vector (SCDV) - which overcomes several shortcomings of the
+current distributional paragraph vector representations that are widely used
+for text representation. In SCDV, word embeddings are clustered to capture
+multiple semantic contexts in which words occur. They are then chained together
+to form document topic-vectors that can express complex, multi-topic documents.
+Through extensive experiments on multi-class and multi-label classification
+tasks, we outperform the previous state-of-the-art method, NTSG. We also show
+that SCDV embeddings perform well on heterogeneous tasks like Topic Coherence,
+context-sensitive Learning and Information Retrieval. Moreover, we achieve a
+significant reduction in training and prediction times compared to other
+representation methods. SCDV achieves best of both worlds - better performance
+with lower time and space complexity.
+Author{1}{Firstname}#=%=#Dheeraj
+Author{1}{Lastname}#=%=#Mekala
+Author{1}{Email}#=%=#dheerajm@iitk.ac.in
+Author{1}{Affiliation}#=%=#IIT Kanpur
+Author{2}{Firstname}#=%=#Vivek
+Author{2}{Lastname}#=%=#Gupta
+Author{2}{Email}#=%=#t-vigu@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research
+Author{3}{Firstname}#=%=#Bhargavi
+Author{3}{Lastname}#=%=#Paranjape
+Author{3}{Email}#=%=#t-bhpara@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research
+Author{4}{Firstname}#=%=#Harish
+Author{4}{Lastname}#=%=#Karnick
+Author{4}{Email}#=%=#hk@iitk.ac.in
+Author{4}{Affiliation}#=%=#IIT Kanpur
+
+==========

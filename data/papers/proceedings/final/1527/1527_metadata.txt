@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#1527
+FinalPaperTitle#=%=#Joint Modeling of Topics, Citations, and Topical Authority in Academic Corpora
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Much of scientific progress stems from previously published findings, but
+searching through the vast sea of scientific publications is difficult. We
+often rely on metrics of scholarly authority to find the prominent authors but
+these authority indices do not differentiate authority based on research
+topics. We present Latent Topical-Authority Indexing (LTAI) for jointly
+modeling the topics, citations, and topical authority in a corpus of academic
+papers. Compared to previous models, LTAI differs in two main aspects. First,
+it explicitly models the generative process of the citations, rather than
+treating the citations as given. Second, it models each author's influence on
+citations of a paper based on the topics of the cited papers, as well as the
+citing papers. We fit LTAI to four academic corpora: CORA, Arxiv Physics, PNAS,
+and Citeseer. We compare the performance of LTAI against various baselines,
+starting with the latent Dirichlet allocation, to the more advanced models
+including author-link topic model and dynamic author citation topic model. The
+results show that LTAI achieves improved accuracy over other similar models
+when predicting words, citations and authors of publications.
+Author{1}{Firstname}#=%=#Jooyeon
+Author{1}{Lastname}#=%=#Kim
+Author{1}{Email}#=%=#jooyeon.kim@kaist.ac.kr
+Author{1}{Affiliation}#=%=#Korea Advanced Institute of Science and Technology
+Author{2}{Firstname}#=%=#Dongwoo
+Author{2}{Lastname}#=%=#Kim
+Author{2}{Email}#=%=#dongwoo.kim@anu.edu.au
+Author{2}{Affiliation}#=%=#Australian National University
+Author{3}{Firstname}#=%=#Alice
+Author{3}{Lastname}#=%=#Oh
+Author{3}{Email}#=%=#alice.oh@kaist.edu
+Author{3}{Affiliation}#=%=#Korea Advanced Institute of Science and Technology
+
+==========

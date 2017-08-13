@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#982
+FinalPaperTitle#=%=#Macro Grammars and Holistic Triggering for Efficient Semantic Parsing
+ShortPaperTitle#=%=#Macro Grammars and Holistic Triggering for Efficient Semantic Parsing
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yuchen Zhang
+JobTitle#==#
+Organization#==#Stanford University, Stanford, CA 94305
+Abstract#==#To learn a semantic parser from denotations, a learning algorithm must search
+over a combinatorially large space of logical forms for ones consistent with
+the annotated denotations. We propose a new online learning algorithm that
+searches faster as training progresses. The two key ideas are using macro
+grammars to cache the abstract patterns of useful logical forms found thus far,
+and holistic triggering to efficiently retrieve the most relevant patterns
+based on sentence similarity. On the WikiTableQuestions dataset, we first
+expand the search space of an existing model to improve the state-of-the-art
+accuracy from 38.7% to 42.7%, and then use macro grammars and holistic
+triggering to achieve an 11x speedup and an accuracy of 43.7%.
+Author{1}{Firstname}#=%=#Yuchen
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#zhangyuc@gmail.com
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Panupong
+Author{2}{Lastname}#=%=#Pasupat
+Author{2}{Email}#=%=#ppasupat@cs.stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+Author{3}{Firstname}#=%=#Percy
+Author{3}{Lastname}#=%=#Liang
+Author{3}{Email}#=%=#pliang@cs.stanford.edu
+Author{3}{Affiliation}#=%=#Stanford University
+
+==========

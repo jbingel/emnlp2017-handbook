@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#732
+FinalPaperTitle#=%=#Multi-task Attention-based Neural Networks for Implicit Discourse Relationship Representation and Identification
+ShortPaperTitle#=%=#Multi-task Attention-based Neural Networks for Implicit Discourse Relationship Representation and Identification
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Lan Man
+JobTitle#==#
+Organization#==#East China Normal University
+No 3663, North Zhong Shan Road, Shanghai, P.R.China
+Abstract#==#We present a novel multi-task attention based neural network model to address
+implicit discourse relationship representation and identification through two
+types of representation learning, an attention based neural network for
+learning discourse relationship representation with two arguments and a
+multi-task framework for learning knowledge from annotated and unannotated
+corpora. The extensive experiments have been performed on two benchmark corpora
+(i.e., PDTB and CoNLL-2016 datasets). Experimental results show that our
+proposed model outperforms the state-of-the-art systems on benchmark corpora.
+Author{1}{Firstname}#=%=#Man
+Author{1}{Lastname}#=%=#Lan
+Author{1}{Email}#=%=#mlan@cs.ecnu.edu.cn
+Author{1}{Affiliation}#=%=#East China Normal University
+Author{2}{Firstname}#=%=#Jianxiang
+Author{2}{Lastname}#=%=#Wang
+Author{2}{Email}#=%=#wangjianxiang01@baidu.com
+Author{2}{Affiliation}#=%=#Baidu Inc., Beijing, P.R.China
+Author{3}{Firstname}#=%=#Yuanbin
+Author{3}{Lastname}#=%=#Wu
+Author{3}{Email}#=%=#ybwu@cs.ecnu.edu.cn
+Author{3}{Affiliation}#=%=#East China Normal University
+Author{4}{Firstname}#=%=#Zheng-Yu
+Author{4}{Lastname}#=%=#Niu
+Author{4}{Email}#=%=#niuzhengyu@baidu.com
+Author{4}{Affiliation}#=%=#Baidu Inc., Beijing, P.R.China
+Author{5}{Firstname}#=%=#Haifeng
+Author{5}{Lastname}#=%=#Wang
+Author{5}{Email}#=%=#wanghaifeng@baidu.com
+Author{5}{Affiliation}#=%=#Baidu Inc., Beijing, P.R.China
+
+==========

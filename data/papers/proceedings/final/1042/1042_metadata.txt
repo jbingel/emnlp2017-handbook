@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#1042
+FinalPaperTitle#=%=#A Continuously Growing Dataset of Sentential Paraphrases
+ShortPaperTitle#=%=#A Continuously Growing Dataset of Sentential Paraphrases
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Wuwei Lan
+JobTitle#==#
+Organization#==#
+Abstract#==#A major challenge in paraphrase research is the lack of parallel corpora. In
+this paper, we present a new method to collect large-scale sentential
+paraphrases from Twitter by linking tweets through shared URLs. The main
+advantage of our method is its simplicity, as it gets rid of the classifier or
+human in the loop needed to select data before annotation and subsequent
+application of paraphrase identification algorithms in the previous work.
+We present the largest human-labeled paraphrase corpus to date of 51,524
+sentence pairs and the first cross-domain benchmarking for automatic paraphrase
+identification. In addition, we show that more than 30,000 new sentential
+paraphrases can be easily and continuously captured every month at ~70\%
+precision, and demonstrate their utility for downstream NLP tasks through
+phrasal paraphrase extraction. We make our code and data freely available.
+Author{1}{Firstname}#=%=#Wuwei
+Author{1}{Lastname}#=%=#Lan
+Author{1}{Email}#=%=#lan.105@osu.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Siyu
+Author{2}{Lastname}#=%=#Qiu
+Author{2}{Email}#=%=#siqiu92@gmail.com
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+Author{3}{Firstname}#=%=#Hua
+Author{3}{Lastname}#=%=#He
+Author{3}{Email}#=%=#huah@cs.umd.edu
+Author{3}{Affiliation}#=%=#University of Maryland, College Park
+Author{4}{Firstname}#=%=#Wei
+Author{4}{Lastname}#=%=#Xu
+Author{4}{Email}#=%=#weixu@cse.ohio-state.edu
+Author{4}{Affiliation}#=%=#Ohio State University
+
+==========

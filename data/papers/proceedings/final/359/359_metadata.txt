@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#359
+FinalPaperTitle#=%=#Deep Neural Solver for Math Word Problems
+ShortPaperTitle#=%=#Deep Neural Solver for Math Word Problems
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Wang Yan
+JobTitle#==#
+Organization#==#Netac Building, No. 10, Gaoxin South 6th Road,
+Nanshan District, Shenzhen, P. R. China
+Abstract#==#This paper presents a deep neural solver to automatically solve math word
+problems. In contrast to previous statistical learning approaches, we directly
+translate math word problems to equation templates using a recurrent neural
+network (RNN) model, without sophisticated feature engineering. We further
+design a hybrid model that combines the RNN model and a similarity-based
+retrieval model to achieve additional performance improvement. Experiments
+conducted on a large dataset show that the RNN model and the hybrid model
+significantly outperform state-of-the-art statistical learning methods for math
+word problem solving.
+Author{1}{Firstname}#=%=#Yan
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#wywhut@163.com
+Author{1}{Affiliation}#=%=#Tencent AI Lab
+Author{2}{Firstname}#=%=#Xiaojiang
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#kieranliu@tencent.com
+Author{2}{Affiliation}#=%=#Tencent AI Lab
+Author{3}{Firstname}#=%=#Shuming
+Author{3}{Lastname}#=%=#Shi
+Author{3}{Email}#=%=#shumingshi@tencent.com
+Author{3}{Affiliation}#=%=#Tencent AI Lab
+
+==========

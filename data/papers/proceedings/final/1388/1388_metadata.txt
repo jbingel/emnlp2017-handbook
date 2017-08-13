@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#1388
+FinalPaperTitle#=%=#Visual Denotations for Recognizing Textual Entailment
+ShortPaperTitle#=%=#Visual Denotations for RTE
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Pascual Martinez-Gomez
+JobTitle#==#Research Scientist
+Organization#==#National Institute of Advanced Industrial Science and Technology
+Abstract#==#In the logic approach to Recognizing Textual Entailment, identifying
+phrase-to-phrase semantic relations is still an unsolved problem. Resources
+such as the Paraphrase Database offer limited coverage despite their large size
+whereas unsupervised distributional models of meaning often fail to recognize
+phrasal entailments. We propose to map phrases to their visual denotations and
+compare their meaning in terms of their images. We show that our approach is
+effective in the task of Recognizing Textual Entailment when combined with
+specific linguistic and logic features.
+Author{1}{Firstname}#=%=#Dan
+Author{1}{Lastname}#=%=#Han
+Author{1}{Email}#=%=#dan.han@aist.go.jp
+Author{1}{Affiliation}#=%=#National Institute of Advanced Industrial Science and Technology (AIST)
+Author{2}{Firstname}#=%=#Pascual
+Author{2}{Lastname}#=%=#Martínez-Gómez
+Author{2}{Email}#=%=#pascual.mg@aist.go.jp
+Author{2}{Affiliation}#=%=#National Institute of Advanced Industrial Science and Technology (AIST)
+Author{3}{Firstname}#=%=#Koji
+Author{3}{Lastname}#=%=#Mineshima
+Author{3}{Email}#=%=#mineshima.koji@ocha.ac.jp
+Author{3}{Affiliation}#=%=#Ochanomizu University
+
+==========

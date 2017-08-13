@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#817
+FinalPaperTitle#=%=#Cross-Lingual Induction and Transfer of Verb Classes Based on Word Vector Space Specialisation
+ShortPaperTitle#=%=#Cross-Lingual Induction and Transfer of Verb Classes Based on Word Vector Space Specialisation
+NumberOfPages#=%=#13
+CopyrightSigned#=%=#Ivan Vulić
+JobTitle#==#Research Associate
+Organization#==#University of Cambridge, Language Technology Lab, 9 West Road, CB3 9DP Cambridge, United Kingdom
+Abstract#==#Existing approaches to automatic VerbNet-style verb classification are heavily
+dependent on feature engineering and therefore limited to languages with mature
+NLP pipelines. In this work, we propose a novel cross-lingual transfer method
+for inducing VerbNets for multiple languages. To the best of our knowledge,
+this is the first study which demonstrates how the architectures for learning
+word embeddings can be applied to this challenging syntactic-semantic task. Our
+method uses cross-lingual translation pairs to tie each of the six target
+languages into a bilingual vector space with English, jointly specialising the
+representations to encode the relational information from English VerbNet. A
+standard clustering algorithm is then run on top of the VerbNet-specialised
+representations, using vector dimensions as features for learning verb classes.
+Our results show that the proposed cross-lingual transfer approach sets new
+state-of-the-art verb classification performance across all six target
+languages explored in this work.
+Author{1}{Firstname}#=%=#Ivan
+Author{1}{Lastname}#=%=#Vulić
+Author{1}{Email}#=%=#iv250@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Nikola
+Author{2}{Lastname}#=%=#Mrkšić
+Author{2}{Email}#=%=#nikola.mrksic@gmail.com
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Anna
+Author{3}{Lastname}#=%=#Korhonen
+Author{3}{Email}#=%=#anna.korhonen@cl.cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+
+==========

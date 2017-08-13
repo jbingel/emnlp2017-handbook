@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#1408
+FinalPaperTitle#=%=#Leveraging Linguistic Structures for Named Entity Recognition with Bidirectional Recursive Neural Networks
+ShortPaperTitle#=%=#NER with Bidirectional Recursive NN
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Peng-Hsuan Li
+JobTitle#==#
+Organization#==#National Taiwan University
+No. 1, Sec. 4, Roosevelt Rd., Taipei 10617, Taiwan
+Abstract#==#In this paper, we utilize the linguistic structures of texts to improve named
+entity recognition by BRNN-CNN, a special bidirectional recursive network
+attached with a convolutional network. Motivated by the observation that named
+entities are highly related to linguistic constituents, we propose a
+constituent-based BRNN-CNN for named entity recognition. In contrast to
+classical sequential labeling methods, the system first identifies which text
+chunks are possible named entities by whether they are linguistic constituents.
+Then it classifies these chunks with a constituency tree structure by
+recursively propagating syntactic and semantic information to each constituent
+node. This method surpasses current state-of-the-art on OntoNotes 5.0 with
+automatically generated parses.
+Author{1}{Firstname}#=%=#Peng-Hsuan
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#jacobvsdanniel@gmail.com
+Author{1}{Affiliation}#=%=#National Taiwan University
+Author{2}{Firstname}#=%=#Ruo-Ping
+Author{2}{Lastname}#=%=#Dong
+Author{2}{Email}#=%=#qwert12457@gmail.com
+Author{2}{Affiliation}#=%=#National Tsing Hua University
+Author{3}{Firstname}#=%=#Yu-Siang
+Author{3}{Lastname}#=%=#Wang
+Author{3}{Email}#=%=#b03202047@ntu.edu.tw
+Author{3}{Affiliation}#=%=#National Taiwan University
+Author{4}{Firstname}#=%=#Ju-Chieh
+Author{4}{Lastname}#=%=#Chou
+Author{4}{Email}#=%=#jjery2243542@gmail.com
+Author{4}{Affiliation}#=%=#National Taiwan University
+Author{5}{Firstname}#=%=#Wei-Yun
+Author{5}{Lastname}#=%=#Ma
+Author{5}{Email}#=%=#ma@iis.sinica.edu.tw
+Author{5}{Affiliation}#=%=#Institute of Information Science, Academia Sinica
+
+==========

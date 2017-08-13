@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#1376
+FinalPaperTitle#=%=#Importance sampling for unbiased on-demand evaluation of knowledge base population
+ShortPaperTitle#=%=#Importance sampling for unbiased on-demand evaluation of knowledge base population
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Arun Tejasvi Chaganty
+JobTitle#==#
+Organization#==#
+Abstract#==#Knowledge base population (KBP) systems take in a large document corpus and
+extract entities and their relations. Thus far, KBP evaluation has relied on
+judgements on the pooled predictions of existing systems.
+We show that this evaluation is problematic: when a new system predicts a
+previously unseen relation, it is penalized even if it is correct. This leads
+to significant bias against new systems, which counterproductively discourages
+innovation in the field. Our first contribution is a new importance-sampling
+based evaluation which corrects for this bias by annotating a new system's
+predictions on-demand via crowdsourcing. We show this eliminates bias and
+reduces variance using data from the 2015 TAC KBP task. Our second contribution
+is an implementation of our method made publicly available as an online KBP
+evaluation service. We pilot the service by testing diverse state-of-the-art
+systems on the TAC KBP 2016 corpus and obtain accurate scores in a cost
+effective manner.
+Author{1}{Firstname}#=%=#Arun
+Author{1}{Lastname}#=%=#Chaganty
+Author{1}{Email}#=%=#chaganty@cs.stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Ashwin
+Author{2}{Lastname}#=%=#Paranjape
+Author{2}{Email}#=%=#ashwinp@cs.stanford.edu
+Author{2}{Affiliation}#=%=#Stanford University
+Author{3}{Firstname}#=%=#Percy
+Author{3}{Lastname}#=%=#Liang
+Author{3}{Email}#=%=#pliang@cs.stanford.edu
+Author{3}{Affiliation}#=%=#Stanford University
+Author{4}{Firstname}#=%=#Christopher D.
+Author{4}{Lastname}#=%=#Manning
+Author{4}{Email}#=%=#manning@cs.stanford.edu
+Author{4}{Affiliation}#=%=#Stanford University
+
+==========

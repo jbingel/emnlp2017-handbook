@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#179
+FinalPaperTitle#=%=#Initializing Convolutional Filters with Semantic Features for Text Classification
+ShortPaperTitle#=%=#Initializing Convolutional Filters with Semantic Features for Text Classification
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Shen Li
+JobTitle#==#
+Organization#==#
+Abstract#==#Convolutional Neural Networks (CNNs) are widely used in NLP tasks. This paper
+presents a novel weight initialization method to improve the CNNs for text
+classification. Instead of randomly initializing the convolutional filters, we
+encode semantic features into them, which helps the model focus on learning
+useful features at the beginning of the training. Experiments demonstrate the
+effectiveness of the initialization technique on seven text classification
+tasks, including sentiment analysis and topic classification.
+Author{1}{Firstname}#=%=#Shen
+Author{1}{Lastname}#=%=#Li
+Author{1}{Email}#=%=#shen@mail.bnu.edu.cn
+Author{1}{Affiliation}#=%=#Institute of Chinese Information Processing, Beijing Normal University
+Author{2}{Firstname}#=%=#Zhe
+Author{2}{Lastname}#=%=#Zhao
+Author{2}{Email}#=%=#helloworld@ruc.edu.cn
+Author{2}{Affiliation}#=%=#School of Information, Renmin University of China
+Author{3}{Firstname}#=%=#Tao
+Author{3}{Lastname}#=%=#Liu
+Author{3}{Email}#=%=#tliu@ruc.edu.cn
+Author{3}{Affiliation}#=%=#School of Information, Renmin University of China
+Author{4}{Firstname}#=%=#Renfen
+Author{4}{Lastname}#=%=#Hu
+Author{4}{Email}#=%=#irishere@mail.bnu.edu.cn
+Author{4}{Affiliation}#=%=#Institute of Chinese Information Processing, Beijing Normal University
+Author{5}{Firstname}#=%=#Xiaoyong
+Author{5}{Lastname}#=%=#Du
+Author{5}{Email}#=%=#duyong@ruc.edu.cn
+Author{5}{Affiliation}#=%=#School of Information, Renmin University of China
+
+==========

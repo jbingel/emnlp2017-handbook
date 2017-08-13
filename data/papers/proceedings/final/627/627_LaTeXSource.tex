@@ -1,0 +1,453 @@
+%\title{emnlp 2017 instructions}
+% File emnlp2017.tex
+%
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{emnlp2017}
+\usepackage{tikz}
+\usepackage{calc}
+\usepackage{placeins}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.14}
+\usepackage{xcolor, colortbl}
+\usepackage{times}
+\usepackage{latexsym}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{arydshln}
+\usepackage{url}
+% Uncomment this line for the final submission:
+\emnlpfinalcopy
+
+%  Enter the EMNLP Paper ID here:
+\def\emnlppaperid{627}
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+
+%\title{Learning to Solve Math Word Problems in Two Stages}
+\title{Learning Fine-Grained Expressions to Solve Math Word Problems}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a seperate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+% If the title and author information does not fit in the area allocated,
+% place \setlength\titlebox{<new height>} right after
+% at the top, where <new height> can be something larger than 2.25in
+\author{Danqing Huang$^1$\thanks{Work done while this author was an intern at Microsoft Research.} , Shuming Shi$^2$, Jian Yin$^1$,
+        and Chin-Yew Lin$^3$\\
+       {\tt \{huangdq2@mail2,issjyin@mail\}.sysu.edu.cn}\\
+       {\tt shumingshi@tencent.com}\\
+       {\tt cyl@microsoft.com}\\
+       $^1$ Guangdong Key Laboratory of Big Data Analysis and Processing, Sun Yat-sen University\\
+       $^2$Tencent AI Lab $^3$ Microsoft Research\\
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  %A math word problems can be formulated as a combination of a math problem type with a theme, e.g. scientific fiction or bank investment. The key to solve a math word problem is to decide its problem type expressed in the theme. This paper presents a two-stage approach for automatically solving math word problems. Our method retrieves relevant equation system templates derived from training data and aligns numbers in math word problems to the templates. It then generates candidate equations and solves the math problems. We model problem types with templates which can be obtained from problem-equation pair annotations, and design features to abstract math word problems from various themes. Experimental results show that our method achieves an accuracy of 28.4\% on the full Dolphin18K benchmark, which is 10\% (54\% relative) higher than previous state-of-art systems while obtains an accuracy of 20\% (71\% relative) increase on the TS6 benchmark subset.
+    This paper presents a novel template-based method to solve math word problems. This method learns the mappings between math concept phrases in math word problems and their math expressions from training data. For each equation template, we automatically construct a rich template sketch by aggregating information from various problems with the same template. Our approach is implemented in a two-stage system. It first retrieves a few relevant equation system templates and aligns numbers in math word problems to those templates for candidate equation generation. It then does a fine-grained inference to obtain the final answer. Experiment results show that our method achieves an accuracy of 28.4\% on the linear Dolphin18K benchmark, which is 10\% (54\% relative) higher than previous state-of-the-art systems while achieving an accuracy increase of 12\% (59\% relative) on the TS6 benchmark subset.
+\end{abstract}
+
+
+\section{Introduction}
+
+The research topic of automatically solving math word problems dates back to the 1960s~\cite{bobrow1964a,bobrow1964b,Charniak1968}. Recently many systems have been proposed to these types of problems~\cite{kushman2014mit,hosseini2014verb,rik2015alges,lipu2015baidu,subhro2015tree,shuming2015dolphin,upadhyay2016implicit,mitra2016}. On a recent evaluation conducted by ~\newcite{huang2016dolphin18k}, current state-of-the-art systems only achieved an 18.3\% accuracy on their published dataset Dolphin18K. Their results indicate that math word problem solving is a very challenging task.
+
+To solve a math word problem, a system needs to understand natural language text to extract information from the problem as local context. Also, it should provide an external knowledge base, including commonsense knowledge (e.g. \emph{"a chicken has two legs"}) and mathematical knowledge (e.g. \emph{"the perimeter of a rectangle = 2 * length + 2 * width"}). The system can then perform reasoning based on the above two resources to generate an answer.
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=8cm,height=6cm]{multi_theme.pdf}
+    \caption{Math Word Problem Examples.}\label{fig:theme}
+\end{figure}
+
+In this paper, we focus on the acquisition of mathematical knowledge, or deriving math concepts from natural language. Consider the first two problems $P1$ and $P2$ in Figure~\ref{fig:theme}. The math concept in the problems tells you to take away a percentage from one and get the resulting percentage of a total. Using mathematical language, it can be formulated as $(1-n_1)*n_2$, where $n_1, n_2$ are quantities. In this example, we can derive the concept of subtraction from the text ``\emph{[NUM] \% off}'' and ``\emph{[NUM] \% discount}''.
+
+Acquisition of mathematical knowledge is nontrivial. Initial statistical approaches~\cite{hosseini2014verb,subhro2015tree,rik2015alges} derive math concepts based on observations from their dataset of specific types of problems, e.g. problems with one single equation. For example, ~\newcite{hosseini2014verb} assumes verbs and only verbs embed math concepts and map them to addition/subtraction. ~\newcite{subhro2015tree,rik2015alges} assume there is only one unknown variable in the problem and cannot derive math concepts involving constants or more than one unknown variables, such as ``\emph{the product of two unknown numbers}''.
+
+Template-based approaches~\cite{kushman2014mit,lipu2015baidu,upadhyay2016implicit}, on the other hand, leverage the built-in composition structure of equation system templates to formulate all types of math concepts seen in training data, such as $(1-n_1)*n_2=x$ in Figure~\ref{fig:theme}. However, they suffer from two major shortcomings. First, the math concepts they learned, which is expressed as an entire template, fails to capture a lot of useful information with sparse training instances. We argue that it would be more expressive if the math concept is learned in a finer granularity. Second, their learning processes rely heavily on lexical and syntactic features, such as the dependency path between two slots in a template. When applied to a large-scale dataset, they create a huge and sparse feature space and it is unclear how these template-related features would contribute.
+
+To alleviate the sparseness problem of math concept learning and better utilize templates, we propose a novel approach to capture rich information contained in templates, including textual expressions that imply math concepts. We parse the template into a tree structure and define ``template fragment'' as any subtree with at least one operator and two operands. We learn fine-grained mappings between textual expressions and template fragments, based on longest common substring. For example, given the three problems in Figure~\ref{fig:theme}, we can map ``\emph{[NUM]} \% off'' and ``\emph{[NUM]} \% discount'' to $1-n_1$, and ``\emph{[NUM]} \% off \emph{[NUM]}'' to $(1-n_1)*n_2=x$. In this way, we can decompose the templates and learn math concepts in a finer grain. Furthermore, we observe that problems of the same template share some common properties. By aggregating problems of the same template and capturing these properties, we automatically construct a sketch for each template in the training data.
+
+Our approach is implemented in a two-stage system. We first retrieve a few relevant templates in the training data. This narrows our search space to focus only on those templates that are likely to be relevant. Then we align numbers in the problem to those few returned templates, and do fine-grained inference to obtain the final answer. We show that the textural expressions and template sketch we propose are effective for both stages. In addition, our system significantly reduces the hypothesis space of candidate equations compared to previous systems, which benefits the learning process and inference at scale.
+
+We evaluate our system on the benchmark dataset provided by \newcite{huang2016dolphin18k}. Experiments show that our system outperforms two state-of-the-art baselines with a more than 10\% absolute (54\% relative) accuracy increase in the linear benchmark and a more than 20\% absolute (71\% relative) accuracy increase for the dataset with a template size greater than or equal to 6.
+
+In the remaining parts of this paper, we introduce related work in Section~\ref{sec:relatedwork}, describe template sketch and textual expression learning in Section~\ref{sec:TemplateProperty}, present our two-stage system in Section~\ref{sec:ourSystem}, summarize experiment setup and results in Section~\ref{sec:experiments}, and conclude this paper in Section~\ref{sec:conclusion}.
+
+\section{Related Work}
+\label{sec:relatedwork}
+Automatic math word problem solving methods~\cite{bobrow1964a,bobrow1964b,Charniak1968,Charniak1969,BriasLarkin1984,Fletcher1985,Dellarosa1986,Bakman2007,Ma2010} developed before 2008 are mostly rule-based. They accept limited well-format input sentences and map them into certain structures by pattern matching. They usually focus on problems with simple math operations such as addition or subtraction. Please see ~\newcite{Mukherjee2008} for a summary.
+
+In recent years, symbolic and statistical methods have been explored by various researchers.
+In the symbolic approach, systems transform math word problems to structured representations. \newcite{Bakman2007} maps math problems to predefined schema with a table of textual formulas and changing verbs. ~\newcite{LigudaPfeiffer2012} uses augmented semantic networks to represent math problems. \newcite{shuming2015dolphin} parses math problems to their pre-defined semantic language. However, these methods are only effective in their designated math problem categories and are not scalable to other categories. For example, the method used by ~\newcite{shuming2015dolphin} works extremely well for solving number word problems but not others.
+
+In the statistical machine learning approach, ~\newcite{hosseini2014verb} solves addition and subtraction problems by extracting quantities as states and derive math concepts from verbs in the training data. ~\newcite{kushman2014mit} and ~\newcite{lipu2015baidu} generalize equations attached to problems with variable slots and number slots. They learn a probabilistic model for finding the best solution equation. ~\newcite{upadhyay2016implicit} follows their approach and leverage math word problems without equation annotation as external resources. ~\newcite{seo2015geo} solves a set of SAT geometry questions with text and diagram provided. ~\newcite{rik2015alges} and ~\newcite{subhro2015tree} target math problems that can be solved by one single linear equation. They map quantities and words to candidate equation trees and select the best tree using a statistical learning model. ~\newcite{mitra2016} considers addition and subtraction problems in three basic problem types: ``Change", ``Part Whole" and ``Comparison". They manually design different features for each type, which is difficult to expand to more types.
+
+In summary, previous methods can achieve high accuracy in limited math problem categories, (i.e.~\cite{kushman2014mit, shuming2015dolphin}), but do not scale or perform well in datasets containing various math problem types as in~\newcite{huang2016dolphin18k}, as their designed features are becoming sparse. Their process of acquiring mathematical knowledge is either sparse or based on certain assumptions of specific problem types. To alleviate this problem, we introduce our template sketch construction and fine-grained expressions learning in the next section.
+
+\section{Template Sketch Construction}
+\label{sec:TemplateProperty}
+A template sketch contains template information. We define three categories of information for the sketch shown in this section. Next we describe how we construct a template sketch, via aggregation of rich information from training problems. We group problems of the same template in training set as one cluster and collect information. See Figure \ref{fig:preprocess} for the outline of our template sketch construction.
+
+\subsection{Definition}
+\textbf{Template:} It is first introduced in ~\newcite{kushman2014mit}. It is a unique form of an equation system. For example, given an equation system as follows:
+\[
+\begin{array}{c}
+2\cdot{}x_1 + 4\cdot{}x_2 = 34\\
+x_1 + 4 = x_2
+\end{array}
+\]
+This equation system is a solution for a specific math word problem. We replace the numbers with four number slots \{$n_1, n_2, n_3, n_4$\} and generalize the equations to the following template:
+\[
+\begin{array}{c}
+n_1\cdot{}x_1 + n_2\cdot{}x_2 = n_3\\
+x_1 + n_4 = x_2
+\end{array}
+\]
+\textbf{Alignment:} We align numbers in the math problem with the number slots of a template. For the first math problem in Figure \ref{fig:theme} with its corresponding template $(1-n_1)*n_2=x$, there are two numbers 0.25 and 139.99 to align with two number slots $n_1$ and $n_2$, which results in two different alignments.
+
+~\newcite{kushman2014mit} aligns nouns to variable slots \{$x_1, x_2, ...\}$ which leads to a huge hypothesis space and does not perform as well as the number slot alignment only method proposed later by~\cite{lipu2015baidu}. Therefore, we only consider number slot alignment in this paper.
+
+\begin{figure*}[htb]
+    \centering
+    \includegraphics[width=16cm]{preprocess.pdf}
+  \caption{Template Sketch Construction.}\label{fig:preprocess}
+\end{figure*}
+
+\subsection{Textual Expressions}
+\label{subsec:textPtr}
+For template fragments, there are usually some textual expressions. For example, ``$n_1$ \% off" and ``$n_1$ \% discount" are both mapped to the template fragment $1-n_1$.
+
+We employ a statistical framework to automatically mine textual expressions for template fragments from a training dataset. First we parse the equation to a hierarchical tree. In a bottom-up approach, we obtain each possible subtree as a template fragment $t_{k}$, which associates with at least one number slot. For each $t_{k}$, we use the numbers to anchor the number-related phrases in the problem, replace numbers with``\emph{[NUM]}'' and noun phrases with ``\emph{[VAR]}'', and cluster the phrases $P = \{p_{1}, p_{2}, \cdots\}$ with the same $t_{k}$ across all data given all training problems. Then we compute the longest common substring $lcs_{ij}^k$ between pairs $p_{i}$ and $p_{j}$ and calculate tf-idf score of $lcs_{ij}^k$. We keep the $lcs_{ij}^k$ with scores above certain empirically determined threshold as the textual expressions.
+
+\subsection{Slot Type}
+\label{subsec:slotType}
+Number slots in templates have their own type of constraints. For example, in the template $(1-n_1)*n_2=x$, usually $n_1$ represents a percentage quantity and $n_2$ is the quantity of an object.
+
+We model slot types with quantity units, and find the direct governing noun phrase as its `owner'. For the problem in Figure \ref{fig:preprocess}, we extract quantity unit sequence as \{\%, \$\}, normalized unit sequence as \{0, 1\} (because \% and \$ are of different quantity types), and quantity owners as \{discount, item\}. The slot type information provides important clues to choose the correct template and alignment.
+
+\subsection{Question Keyword}
+Question keyword decides which template we use. Given the following problem setting: ``A rectangle has a width of 5cm and a length of 10cm.", we can ask either Q1:``What is the {\it area} of the rectangle?" or Q2: ``What is the {\it difference} between width and length?". The question keywords {\it area} and {\it difference} help our system to decide if is should apply template $n_1*n_2=x$ for Q1 and apply template $n_1-n_2=x$ for Q2.
+
+We first detect the question sentence (containing keywords ``what'',``how'',``figure out''...). Then we extract the question keyword on the dependency tree with simple rules that we observed in the dev set (e.g. retrieving nouns with ``$attr-nsubj$'' dependency relation with keyword ``what''). Please note that we favor recall over precision of our detected question keywords since they are used as features instead of hard constrains on template decision. Simple rule-based extraction can already satisfy our need for detecting question keywords in math problems.
+
+\section{Two-Stage System}
+\label{sec:ourSystem}
+
+In this section, we describe our two-stage system for solving math problems, including template retrieval and alignment ranking. We show how to apply textual expressions and template sketch to our system.
+
+\subsection{Template Retrieval}
+We use an efficient retrieval module to first narrow our search space and focus only on templates that are likely to be relevant. Let $\chi$ denote the set of test problems, and $T$ = $\{t_{1},t_{2},\dots,t_{j}\}$ as the template set in the training data. For each test problem $x_{i}$, our goal is to select the correct template $t_{j}$. We define the conditional probability of selecting a template given a problem as follows:
+\begin{gather*}
+p(t_{j}|x_{i};\nu_{t})=\frac{\exp(\nu_{t} \cdot f(x_{i},t_{j}))} {\sum_{t'_{j}\in T} \exp(\nu_{t} \cdot f(x_{i},t'_{j}))}
+\end{gather*}
+where $\nu_{t}$ is the model parameter and $f(x_{i},t_{j})$ is the feature vector.
+We apply the Ranking SVM~\cite{herbrich2010rankingsvm} to minimize a regularized margin-based pairwise loss. We then have the following objective function:
+\begin{gather*}
+\frac{1}{2}\|\nu_{t}\|^2 + C \sum_{i} l(\nu_{t}^T f(x_{i},t_{j})^+-\nu_{t}^T f(x_{i},t_{l})^-)
+\end{gather*}
+where superscript "+" indicates the correct instance and "-" indicates the false ones. We use the loss function $l(t) = max(0, 1 - t)^2$.
+
+To construct the vector $f(x_{i},t_{j})$ for template $t_{j}$, we use the three categories in the template sketch shown in Table \ref{tbl:templateftr}. Let $Q(t_{j})$ represent the cluster of training problems with template $t_{j}$.
+\begin{table}[htb]
+\begin{center}
+	\begin{tabular}{|p{0.9\columnwidth}|}
+        \hline
+        \textbf{Textual Features}\\
+        \hline
+        Contains textual expressions in each template fragments?\\
+        Average Word Overlap with $Q(t_{j})$\\
+        Max Word Overlap with $Q(t_{j})$\\
+        \hline
+        \hline
+		\textbf{Quantity Features}\\
+        \hline
+        Unit sequence in $Q(t_{j})$\\
+        Normalized unit sequence in $Q(t_{j})$\\
+        \hline
+        \hline
+        \textbf{Question Features}\\
+        \hline
+        Is Question keyword in $Q(t_{j})$\\
+		\hline
+    \end{tabular}
+\end{center}
+\caption {Features for template retrieval.}\label{tbl:templateftr}
+\end{table}
+
+At the phrase level, as we have mined different expressions in \ref{subsec:textPtr} for slots in templates, we can extract the phrases related to each number or number pair in a test problem and match them with expressions. For example, given a test problem to match template $(1-n_{1})*n_{2}=x$ in Figure \ref{fig:preprocess}, we have two groups of patterns to match, corresponding to $1.0-n_{1}$ and $(1.0-n_{1})*n_{2}$ respectively.
+
+Quantity types in a problem are important. We use the unit type sequences and normalized unit type sequence for describing number slot types in a template. In addition, if a number unit type cannot differentiate each number slot, we will make use of number ``owner" as defined in subsection \ref{subsec:slotType}. For example, in the sentence "The width is 3cm and the length is 5cm", we extract two quantities with unit type sequence \{cm, cm\}; and owner \{width, length\}.
+
+In addition, we consider question keywords for templates. For example, if the question keyword is "difference", then $x+n_{1}=n_{2}$ will have a higher probability of being selected than $x=n_{1}*n_{2}$.
+
+We observe that in some cases, one word difference can lead to two different templates. To consider cases in which some templates are very similar (e.g. $x+n_1=n_2$ and $n_1+n_2=x$, part/whole unknown), we retrieve the top ranked $N$ ($N$=3) templates as candidates for alignment in the next stage.
+
+\subsection{Alignment Ranking}
+
+For each top $N$ templates from the previous stage, we generate possible alignments $A$ = $\{a_{1},a_{2},\dots,a_{m}\}$ as the candidate equation system for the test problem $x_{i}$. We train a ranking model to choose the alignment with the highest probability $p(a_{k}|x_{i},t_{j};\nu_{a})$, where $\nu_{a}$ is the model parameter vector.\\
+\begin{gather*}
+p(a_{k})=\frac{\exp(\nu_{a} \cdot f(x_{i},a_{k}))} {\sum_{a'_{k}\in A} \exp(\nu_{a'} \cdot f(x_{i},a'_{k}))}
+\end{gather*}
+We use the same ranking model as in template selection stage and the objective function is changed to:
+\begin{gather*}
+\frac{1}{2}\|\nu_{a}\|^2 + C \sum_{i} l(\nu_{a}^T f(x_{i},a_{k})^+-\nu_{a}^T f(x_{i},a_{l})^-)
+\end{gather*}
+
+We design more fine-grained features for each number slot to formulate the alignment feature vector $f(x_{i},a_{k})$. It contains the following features in Table \ref{tbl:alginftr}.
+
+\begin{table}[htb]
+\begin{center}
+	\begin{tabular}{|p{0.9\columnwidth}|}
+        \hline
+		\textbf{Textual Features}\\
+        \hline
+        Match textual expressions in template fragment aligned to each number slot (pair)\\
+        \hline
+        \hline
+        \textbf{Quantity Features}\\
+        \hline
+        Aligned unit sequence in $Q(t_{j})$\\
+        Aligned normalized unit sequence in $Q(t_{j})$\\
+        Relationship with noun phrase\\
+        Optimal number 1 or 2 is used?\\
+        \hline
+        \hline
+        \textbf{Solution Features}\\
+        \hline
+        Is integer solution?\\
+        Is positive solution?\\
+        \hline
+    \end{tabular}
+\end{center}
+\caption {Features for alignment ranking.}\label{tbl:alginftr}
+\end{table}
+
+At the textual level, we want to capture textual expressions describing each number slot. For example, in the template $(1-n_1)*n_2=x$, we have mined patterns of $1-n_1$ in \ref{subsec:textPtr}, such as ``a discount of $n_1$ \%'', ``mark down $n_1$ \%'', etc. Given the problem in Figure \ref{fig:preprocess} as the test problem, alignment $(\textbf{1-0.28})*275=x$  matches textual expressions, while $(\textbf{1-275})*0.28=x$ does not.
+
+For quantity features, we use the alignment-ordered unit sequence. For the problem in Figure \ref{fig:preprocess} mapping to template $(1-n_1)*n_2=x$, we have two different alignments: \{$n_1$:0.28, $n_2$:275\}, \{$n_1$:275,$n_2$:0.28\}. Their aligned unit sequences are \{\%, \$\} and \{\$,\%\} respectively. We also use the relations of quantities with noun phrases to differentiate number slot interaction with unknown variable slots and number slots, such as $n_1*x$ and $n_1*n_2$.
+
+Some templates have numerical solution properties while others do not. For example, template $x_{1}=(n_{1}-n_{2})/(n_{3}-n_{4})$ would be less likely to have any strong indication of integer solution properties. We count the percentage of integer/positive solutions from the corresponding problems as the probability that this template prefers an integer/positive solution.
+
+\subsection{Model Discussion}
+Our method has two main differences from previous template-based methods~\cite{kushman2014mit,lipu2015baidu,upadhyay2016implicit}.
+
+First, previous methods implicitly model mapping from problem text to templates. We learn fine-grained textual expressions mapped to template fragments; and explicitly model the property of templates with template sketches. Second, previous methods align numbers for all templates in a training set, while we only examine the $N$ most probable templates. This significantly reduces the equation candidate search space. Given a problem in which $m$ numbers align with a template of $n$ number slots, the number of possible equation candidates would be $A_{m}^{n}$. The search space grows linearly with the number of templates in the training data. Suppose $m=5$, $n=4$ and we have 1000 templates, the total space would be $(5*4*3*2)*1000=120,000$ for one problem in \newcite{lipu2015baidu}, and will be much larger if it considers unknown variable alignment as in~\cite{kushman2014mit}.
+
+\section{Experiments}
+\label{sec:experiments}
+\textbf{Settings } As demonstrated in \newcite{huang2016dolphin18k}, previous datasets for math problems are limited in both scale and diversity. We conduct our experiment on their dataset Dolphin18K. We use the linear subset, containing 10,644 problems in total.\\
+We use two baseline systems for comparison: (1) ZDC~\cite{lipu2015baidu} is a statistical learning method that is an improved version of KAZB~\cite{kushman2014mit}\footnote{We ignore KAZB because it does not complete running on the dataset in three days}. (2) SIM~\cite{huang2016dolphin18k} is a simple similarity based method. We do not compare other systems because they only solve one specific type of problem, e.g. \newcite{hosseini2014verb} only handle addition/subtraction problems and \newcite{rik2015alges} aim to solve problems with one single linear equation.\\
+%Some systems are not included for evaluation. \newcite{shuming2015dolphin} only considers number word problems. \newcite{hosseini2014verb} only handles homogeneous addition/subtraction problems. The systems of \newcite{rik2015alges} and \newcite{subhro2015tree} only supports problems with one single linear equation.\\
+Experiments are conducted using 5-fold cross-validation with 80\% problems randomly selected as training data and the remaining 20\% for testing. We report the solution accuracy.
+
+\subsection{Overall Evaluation Results}
+Table \ref{tbl:gradientacc} shows the overall performance of different systems. In the table, the size of a template is the number of problems corresponding to a template. For example, for templates with a size 100 or larger, their problem counts add up to 1,807.\\
+\begin{table}[htb]
+\begin{center}
+	\begin{tabular}{c|c|c|c|c}
+        \hline
+		Template & problems  & ZDC & SIM & Ours\\
+         Size    &           &     &     &     \\
+        \hline
+		$>=$100 & 1807 & 34.2\% & 29.7\% & 64.5\% \\
+		$>=$50 & 4281 & 31.1\% & 27.2\% & 39.3\% \\
+		$>=$20 & 5392 & 29.4\% & 25.8\% & 36.9\% \\
+		$>=$10 & 6216 & 25.3\% & 24.6\% & 35.7\% \\
+		$>=$6 & 6827 & 21.7\% & 20.2\% & \textbf{34.6\%} \\
+        \hdashline
+		$>=$5 & 7081 & 21.6\% & 20.1\% & 34.3\% \\
+		$>=$4 & 7262 & 21.1\% & 19.8\% & 33.8\% \\
+		$>=$3 & 7466 & 20.7\% & 19.7\% & 33.2\% \\
+		$>=$2 & 8229 & 20.6\% & 20.3\% & 32.2\% \\
+		$>=$1 & 10644 & 17.9\% & 18.4\% & \textbf{28.4\%} \\
+		\hline
+	\end{tabular}
+\end{center}
+	\caption{Overall evaluation results.}\label{tbl:gradientacc}
+\end{table}
+
+From the table, we observe that our model consistently achieves better performance than the baselines on all template sizes. As the template size becomes larger, all three systems achieve better performance. When template size equals 6 (TS6, as a de-facto template size constrain adopted in ZDC), our model achieve an absolute increase of over 12\% (59\% relative). This demonstrates the effectiveness of our proposed method.
+
+When including long tail problems with a template size less than 2, performance of all three systems drop significantly. This is because the templates of these problems are not seen in the training set, and thus are difficult to solve using these template-based methods. Still, we have at least 10\% absolute (54\% relative) accuracy increase on the whole test set compared to the two baselines. Previous template-based methods require templates size larger than 6 in the data as constraints. From the result, we can see that our method relaxes the template size constraint and matches more problems with less frequent templates.
+
+\subsection{Accuracy per Template}
+Here we investigate the performance of different templates. In Table \ref{tbl:accpertemplate}, we sample some dominant templates and report their accuracies. For our model, we report both template retrieval accuracy and final solution accuracy.
+
+\begin{table*}[htb]
+\begin{center}
+	\begin{tabular}{l|c|c|c|c|c}
+        \hline
+		 &  &  &  & \multicolumn{2}{c}{Ours} \\
+        \hline
+        Template  &   problems &   ZDC  &  SIM   & Template retrieval Acc & Final Acc\\
+        \hline
+		$n_{1}*x_{1}=n_{2}$ & 548 & 26.3\% & 23.9\% & 87.0\% & 58.7\%\\
+        \hline
+		$n_{1}/x_{1}=n_{2}/n_{3}$ & 453 & 21.4\% & 29.8\% & 94.1\% & 61.5\%\\
+        \hline
+		$x_{1}=n_{1}*n_{2}$ & 403 & 23.6\% & 28.0\% & 78.9\% & 63.4\%\\
+        \hline
+		$n_{1}*x_{1}+n_{2}*x_{2}=n_{3};$ & 300 & 86.3\% & 69.7\% & 94.9\% & 85.8\%\\
+        $x_{1}+x_{2}=n_{4}$     &     &        &        &        &\\
+        \hline
+        $x_{1}=n_{1}*n_{2}*n_{3}$ & 103 & 22.3\% & 32.0\% & 67.0\% & 55.0\%\\
+		\hline
+		$x_{1}+x{2}=n_{1}$ & 80 & 39.7\% & 48.8\% & 79.4\% & 65.1\%\\
+        $x{1}-x_{2}=n{2}$  &   &        &         &    &   \\
+		\hline
+        $x_{1}=n_{1}-n_{2}$ & 63 & 11.7\% & 15.9\% & 50.7\% & 23.4\%\\
+		\hline
+        $x_{1}=(n_{1}-n_{2})/(n_{3}-n_{4})$ & 48 & 14.9\% & 18.8\% & 95.7\% & 89.4\%\\
+		\hline
+	\end{tabular}
+\end{center}
+	\caption{Accuracy Per Template. Template retrieval acc reports percent of templates appears in one of the top 3 templates returned by our method.}\label{tbl:accpertemplate}
+\end{table*}
+
+As we can see, our method performs better than the baselines for most dominant templates. Performance of the dominant templates can reach an accuracy level of 60\%. This proves that our template sketch and textual expressions are effective in capturing rich template information.
+
+To our surprise, some templates tend to perform better than others even with smaller template sizes. For example, $x_{1}=n_{1}-n_{2}$, which represents the subtraction problem, has 63 problems but performs not as well as $x_{1}=(n_{1}-n_{2})/(n_{3}-n_{4})$ which has 48 problems. We look into their corresponding problems and find out that $x_{1}=n_{1}-n_{2}$ are applied to more themes in natural language than $x_{1}=(n_{1}-n_{2})/(n_{3}-n_{4})$, which are almost about the theme of ``coordinate slope".
+
+In our model, there is a gap between template retrieval accuracy and final solution accuracy, which means that although we select the correct template candidates for the problem, the alignment model cannot rank the equations correctly.
+
+\subsection{Two-Stage Evaluation}
+Next, we evaluate the performance of our two-stage system. Accuracy of template retrieval and alignment ranking is shown in Table \ref{tbl:templateacc}.
+
+\begin{table*}[htb]
+\begin{center}
+	\begin{tabular}{l|c|c|c|c|c|c|c|c|c}
+        \hline
+		Hit@N & 1 & 2 & 3 & 4 & 5 & 10 & 20 & 50 & ALL\\
+        \hline
+		Template retrieval & 17.5\% & 22.4\% & 26.3\% & 27.2\% & 28.0\% & 30.2\% & 32.7\% & 35.2\% & 47.1\%\\
+            Acc            &&&&&&&&&\\
+        \hline
+        Final Acc & 24.9\% & 27.6\% & \textbf{28.4\%} & 27.9\% & 27.4\% & 25.3\% & 22.3\% & 22.1\% & 20.1\%\\
+        \hline
+        \hline
+        ZDC & 19.5\% & 20.1\% & 20.1\% & 19.9\% & 19.8\% & 19.1\% & 18.9\% & 18.6\% & 17.9\%\\
+        \hline
+	\end{tabular}
+\end{center}
+	\caption{Results of template retrieval and final accuracy with different top $N$ templates retrieved.}\label{tbl:templateacc}
+\end{table*}
+
+For template retrieval accuracy, Hit@N means the correct template for a problem is included in the top $N$ list returned by our model. We estimate the best achievable performance by using oracle template retrieval. The result is \textbf{47.1\%} (Hit@ALL), which means 47.1\% of the templates exist more than once in the problem set. Please note that our template retrieval evaluation may be underestimated, since in some cases, a test problem can be solved by different templates.
+
+We then use the top $N$ templates as input for both our alignment ranking and ZDC. From the table, we have the following observations: (1) Hit@3 performs better compared to Hit@1 for both systems. This confirms our claim that some templates are similar and we need to incorporate more fine-grained features to differentiate in the alignment step; (2) It obtains the highest accuracy when $N=3$ and decreases when $N$ gets larger. Both systems get benefits from our template retrieval which helps retrieve relevant templates and reduce the hypothesis space of equations; (3) Given the same $N$ templates input, our alignment ranking achieves better performance than ZDC. This implies that our features are more indicative.
+
+\subsection{Feature Ablation}
+This section describes our feature ablation study.
+
+\textbf{Template Retrieval} In Table \ref{tbl:templateablation}, we conduct three configurations against our model (FULL). Each ablated configuration corresponds to one category of our template sketch. From the table, we can see that all three categories of features contribute to system performance. We remove QUANTITY results in the worse performance comparing to the FULL model.
+\begin{table}[htb]
+\begin{center}
+	\begin{tabular}{l|c|c|c}
+        \hline
+		Model & Hit & Hit & Hit\\
+                &  @1   &  @3  & @10\\
+        \hline
+		FULL & 17.5\% & 26.3\% & 30.2\%\\
+        \hline
+		-TEXTUAL & 14.1\% & 24.7\% & 28.4\%\\
+        \hline
+		-QUANTITY & 11.4\% & 23.4\% & 25.9\%\\
+        \hline
+		-QUESTION & 16.9\% & 25.4\% & 29.8\%\\
+		\hline
+	\end{tabular}
+\end{center}
+	\caption{Feature ablation of template retrieval.}\label{tbl:templateablation}
+\end{table}
+
+\textbf{Alignment Ranking} In Table \ref{tbl:alignablation}, $N$ means to select the top $N$ templates in the previous stage for alignment. The column "Correct Template" represents how well the alignment model can perform given the correct template input for alignment. Our alignment model (FULL) performs the best compared to the three ablated settings, which confirms the effectiveness of template properties.
+\begin{table}[htb]
+\begin{center}
+	\begin{tabular}{l|c|c|c}
+        \hline
+		Model & Correct & $N$= & $N$=\\
+                & Template & 1  &   3\\
+        \hline
+		FULL & 34.5\% & 24.9\% & 28.4\%\\
+        \hline
+		-TEXTUAL & 31.9\% & 22.2\% & 25.1\%\\
+        \hline
+		-QUANTITY & 29.2\% & 20.9\% & 23.3\%\\
+        \hline
+        -SOLUTION & 26.3\% & 18.7\% & 21.2\%\\
+        \hline
+	\end{tabular}
+\end{center}
+	\caption{Feature ablation of alignment ranking.}\label{tbl:alignablation}
+\end{table}
+
+\subsection{Error Analysis}
+We have observed that template-based methods have difficulty solving problems with small template sizes, especially for cases that have a single problem instance (i.e. template size $=1$).
+We sample 100 problems in which our system makes mistakes in the dev set of Dolphin18K and summarize them in Table \ref{tbl:error}.
+
+\begin{table}[htb]
+\begin{center}
+	\begin{tabular}{p{0.3\columnwidth}|p{0.6\columnwidth}}
+        \hline
+		Category & Math Problem\\
+        \hline
+		Quantity Type (10\%) & The ratio of \textbf{women} to \textbf{men} in a certain club is 3 to 2. If there are 24 \textbf{male} club members, then how many female club members are there? \\
+        \hline
+		Relation/State Detection (12\%) & If I am selling something for \$25,000 and \textbf{a 7\% commission is taken out}, how much money will I \textbf{be left} with?\\
+        \hline
+        External Knowledge (23\%) & Find the probability that total score is 10 or more given at least one dice show 6 if 2 dice red \& blue thrown?\\
+        \hline
+        Equation Decomposition (55\%) & The average weight of A, B and C is 45 kg. If the average weight of A and B is 40 kg and that of B and C is 43 kg, the weight of B is?\\
+        \hline
+	\end{tabular}
+\end{center}
+	\caption{Error Categorization.}\label{tbl:error}
+\end{table}
+
+\textbf{Quantity Type} The types of quantities are difficult to determined. For the example problem in the table, if we can detect ``24 male" is the same as ``men", the problem can be solved.
+
+\textbf{Relation/State Detection} If we can identify the changed states or mathematical relations between variables, we can solve this category of problems. In the example problem, it is important to understand that ``commission is taken out'' is my money state.
+
+\textbf{External Knowledge} This requires specific mathematical models, such as permutation and combination, or commonsense knowledge, e.g. a dice has 6 sides.
+
+\textbf{Equation Decomposition} The limitation of template-based approaches is that they require test problems belonging to one of the templates seen in training. Thus, for problems corresponding to template sizes less than 2, we can decompose templates into smaller units and conduct learning more precisely. We then need to generate the equations, which is also a challenge.
+
+\section{Conclusion and Future Work}
+\label{sec:conclusion}
+In this paper, we propose a novel approach to solving math word problems with rich information of templates. We learn mappings between textual expressions and template fragments. Furthermore, we automatically construct sketches for each template. We implement a two-stage system, including template retrieval and alignment ranking. Experiments show that our method performs significantly better than two state-of-the-art systems.
+
+Based on our error analysis, we plan to improve our model by detecting quantity types more accurately, learning relations and incorporating commonsense knowledge. For long tail problems with a template size less 2, we want to utilize the fine-grained expressions we have learned and decompose equations for learning. Then we can reason with small equation units to generate a final equation in testing. We would like to leverage semantic parsing and transform math problems to a more structured representation. Additionally, we plan to apply our findings to generating math problem.
+
+\section{Acknowledgments}
+
+This work is supported by the National Natural Science Foundation of China (61472453, U1401256, U1501252, U1611264). Thanks to the anonymous reviewers for their helpful comments and suggestions.
+
+\bibliography{emnlp2017}
+\bibliographystyle{emnlp_natbib}
+
+\end{document}

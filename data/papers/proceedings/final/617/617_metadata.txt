@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#617
+FinalPaperTitle#=%=#Monolingual Phrase Alignment on Parse Forests
+ShortPaperTitle#=%=#Monolingual Phrase Alignment on Parse Forests
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yuki Arase
+JobTitle#==#
+Organization#==#
+Abstract#==#We propose an efficient method to conduct phrase alignment on parse forests for
+paraphrase detection. Unlike previous studies, our method identifies syntactic
+paraphrases under linguistically motivated grammar. In addition, it allows
+phrases to non-compositionally align to handle paraphrases with non-homographic
+phrase correspondences. 
+
+A dataset that provides gold parse trees and their phrase alignments is
+created. The experimental results confirm that the proposed method conducts
+highly accurate phrase alignment compared to human performance.
+Author{1}{Firstname}#=%=#Yuki
+Author{1}{Lastname}#=%=#Arase
+Author{1}{Email}#=%=#arase@ist.osaka-u.ac.jp
+Author{1}{Affiliation}#=%=#Osaka University
+Author{2}{Firstname}#=%=#Jun'ichi
+Author{2}{Lastname}#=%=#Tsujii
+Author{2}{Email}#=%=#j-tsujii@aist.go.jp
+Author{2}{Affiliation}#=%=#Aritificial Intelligence Research Centre at AIST
+
+==========

@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#959
+FinalPaperTitle#=%=#Speaking, Seeing, Understanding: Correlating semantic models with conceptual representation in the brain
+ShortPaperTitle#=%=#Speaking, Seeing, Understanding: Correlating semantic models with conceptual representation in the brain
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Luana Bulat
+JobTitle#==#
+Organization#==#
+Abstract#==#Research in computational semantics is increasingly guided by our understanding
+of human semantic processing. However, semantic models are typically studied in
+the context of natural language processing system performance. In this paper,
+we present a systematic evaluation and comparison of a range of widely-used,
+state-of-the-art semantic models in their ability to predict patterns of
+conceptual representation in the human brain. Our results provide new insights
+both for the design of computational semantic models and for further research
+in cognitive neuroscience.
+Author{1}{Firstname}#=%=#Luana
+Author{1}{Lastname}#=%=#Bulat
+Author{1}{Email}#=%=#ltf24@cam.ac.uk
+Author{1}{Affiliation}#=%=#University of Cambridge
+Author{2}{Firstname}#=%=#Stephen
+Author{2}{Lastname}#=%=#Clark
+Author{2}{Email}#=%=#sc609@cam.ac.uk
+Author{2}{Affiliation}#=%=#University of Cambridge
+Author{3}{Firstname}#=%=#Ekaterina
+Author{3}{Lastname}#=%=#Shutova
+Author{3}{Email}#=%=#es407@cam.ac.uk
+Author{3}{Affiliation}#=%=#University of Cambridge
+
+==========

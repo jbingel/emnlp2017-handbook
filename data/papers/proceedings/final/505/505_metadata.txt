@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#505
+FinalPaperTitle#=%=#Natural Language Does Not Emerge ‘Naturally’ in Multi-Agent Dialog
+ShortPaperTitle#=%=#Natural Language Does Not Emerge ‘Naturally’ in Multi-Agent Dialog
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Satwik Kottur
+JobTitle#==#
+Organization#==#
+Abstract#==#A number of recent works have proposed techniques for end-to-end learning of
+communication protocols among cooperative multi-agent populations, and have
+simultaneously found the emergence of grounded human-interpretable language in
+the protocols developed by the agents, learned without any human supervision!
+
+In this paper, using a Task & Talk reference game between two agents as a
+testbed,  we present a sequence of `negative' results culminating in a
+`positive' one -- showing that while most agent-invented languages are
+effective (i.e. achieve near-perfect task rewards), they are decidedly not
+interpretable or compositional. In essence, we find that natural language does
+not emerge `naturally',despite the semblance of ease of
+natural-language-emergence that one may gather from recent literature. We
+discuss how it is possible to coax the invented languages to become more and
+more human-like and compositional by increasing restrictions on how two agents
+may communicate.
+Author{1}{Firstname}#=%=#Satwik
+Author{1}{Lastname}#=%=#Kottur
+Author{1}{Email}#=%=#skottur@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#José
+Author{2}{Lastname}#=%=#Moura
+Author{2}{Email}#=%=#moura@ece.cmu.edu
+Author{2}{Affiliation}#=%=#CMU
+Author{3}{Firstname}#=%=#Stefan
+Author{3}{Lastname}#=%=#Lee
+Author{3}{Email}#=%=#steflee@vt.edu
+Author{3}{Affiliation}#=%=#Virginia Tech
+Author{4}{Firstname}#=%=#Dhruv
+Author{4}{Lastname}#=%=#Batra
+Author{4}{Email}#=%=#dbatra@vt.edu
+Author{4}{Affiliation}#=%=#Virginia Tech
+
+==========

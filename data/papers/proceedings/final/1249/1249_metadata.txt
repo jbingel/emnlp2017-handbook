@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1249
+FinalPaperTitle#=%=#A Simple Regularization-based Algorithm for Learning Cross-Domain Word Embeddings
+ShortPaperTitle#=%=#A Simple Regularization-based Algorithm for Learning Cross-Domain Word Embeddings
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Wei YANG
+JobTitle#==#
+Organization#==#
+Abstract#==#Learning word embeddings has received a significant amount of attention
+recently. Often, word embeddings are learned in an unsupervised manner from a
+large collection of text. The genre of the text typically plays an important
+role in the effectiveness of the resulting embeddings. How to effectively train
+word embedding models using data from different domains remains a problem that
+is less explored. In this paper, we present a simple yet effective method for
+learning word embeddings based on text from different domains. We demonstrate
+the effectiveness of our approach through extensive experiments on various
+down-stream NLP tasks.
+Author{1}{Firstname}#=%=#Wei
+Author{1}{Lastname}#=%=#Yang
+Author{1}{Email}#=%=#w85yang@uwaterloo.ca
+Author{1}{Affiliation}#=%=#University of Waterloo
+Author{2}{Firstname}#=%=#Wei
+Author{2}{Lastname}#=%=#Lu
+Author{2}{Email}#=%=#luwei@sutd.edu.sg
+Author{2}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{3}{Firstname}#=%=#Vincent
+Author{3}{Lastname}#=%=#Zheng
+Author{3}{Email}#=%=#vincent.zheng@adsc.com.sg
+Author{3}{Affiliation}#=%=#ADSC google
+
+==========

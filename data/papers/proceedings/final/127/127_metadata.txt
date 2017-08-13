@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#127
+FinalPaperTitle#=%=#Paradigm Completion for Derivational Morphology
+ShortPaperTitle#=%=#Paradigm Completion for Derivational Morphology
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Ryan Cotterell
+JobTitle#==#Graduate Student
+Organization#==#Johns Hopkins University
+Baltimore, MD
+21218
+Abstract#==#The generation of complex derived word forms has been an overlooked problem in
+NLP; we fill this gap by applying neural sequence-to-sequence models to the
+task. We overview the theoretical motivation for a paradigmatic treatment of
+derivational morphology, and introduce the task of derivational paradigm
+completion as a parallel to inflectional paradigm completion. State-of-the-art
+neural models adapted from the inflection task are able to learn the range of
+derivation patterns, and outperform a non-neural baseline by 16.4%. However,
+due to semantic, historical, and lexical considerations involved in
+derivational morphology, future work will be needed to achieve performance
+parity with inflection-generating systems.
+Author{1}{Firstname}#=%=#Ryan
+Author{1}{Lastname}#=%=#Cotterell
+Author{1}{Email}#=%=#ryan.cotterell@gmail.com
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Ekaterina
+Author{2}{Lastname}#=%=#Vylomova
+Author{2}{Email}#=%=#evylomova@gmail.com
+Author{2}{Affiliation}#=%=#PhD Student, University of Melbourne
+Author{3}{Firstname}#=%=#Huda
+Author{3}{Lastname}#=%=#Khayrallah
+Author{3}{Email}#=%=#huda@jhu.edu
+Author{3}{Affiliation}#=%=#The Johns Hopkins University
+Author{4}{Firstname}#=%=#Christo
+Author{4}{Lastname}#=%=#Kirov
+Author{4}{Email}#=%=#ckirov@gmail.com
+Author{4}{Affiliation}#=%=#Center for Language and Speech Processing, Johns Hopkins University
+Author{5}{Firstname}#=%=#David
+Author{5}{Lastname}#=%=#Yarowsky
+Author{5}{Email}#=%=#yarowsky@gmail.com
+Author{5}{Affiliation}#=%=#Johns Hopkins University
+
+==========

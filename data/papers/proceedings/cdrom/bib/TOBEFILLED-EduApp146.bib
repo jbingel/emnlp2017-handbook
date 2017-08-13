@@ -1,0 +1,25 @@
+@InProceedings{sperber-EtAl:0:TOBEFILLED-EduApp,
+  author    = {Sperber, Matthias  and  Neubig, Graham  and  Niehues, Jan  and  Waibel, Alex},
+  title     = {Neural Lattice-to-Sequence Models for Uncertain Inputs},
+  booktitle = {TOBEFILLED-Proceedings of the Second Workshop on Building Educational Applications Using NLP},
+  month     = {TOBEFILLED-June},
+  year      = {TOBEFILLED-1},
+  address   = {TOBEFILLED-Ann Arbor, Michigan},
+  publisher = {Association for Computational Linguistics},
+  pages     = {1389--1398},
+  abstract  = {The input to a neural sequence-to-sequence model is often determined by an
+	up-stream system, e.g. a word segmenter, part of speech tagger, or speech
+	recognizer. These up-stream models are potentially error-prone. Representing
+	inputs through word lattices allows making this uncertainty explicit by
+	capturing alternative sequences and their posterior probabilities in a compact
+	form.
+	In this work, we extend the TreeLSTM (Tai et al., 2015) into a LatticeLSTM that
+	is able to consume word lattices, and can be used as encoder in an attentional
+	encoder-decoder model. We integrate lattice posterior scores into this
+	architecture by extending the TreeLSTM's child-sum and forget gates and
+	introducing a bias term into the attention mechanism. We experiment with speech
+	translation lattices and report consistent improvements over baselines that
+	translate either the 1-best hypothesis or the lattice without posterior scores.},
+  url       = {TOBEFILLED-e.g, http://www.aclweb.org/anthology/P17-1146, http://www.aclweb.org/anthology/W17-20 0}
+}
+

@@ -1,0 +1,725 @@
+%\title{emnlp 2017 instructions}
+% File emnlp2017.tex
+%
+
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{emnlp2017}
+\usepackage{times}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{url}
+\usepackage{makecell}
+\usepackage{hhline}
+\usepackage{multirow, rotating}
+\usepackage{bbding}
+\usepackage{amsfonts, amssymb, amsmath}
+\usepackage{algorithm, algorithmic, amsthm}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{float}
+\usepackage{paralist}
+
+\usepackage{subfigure}
+\usepackage{todonotes}
+\newcommand{\textbox}[2]{{\color{#1}\fbox{\normalcolor#2}}}
+
+% Uncomment this line for the final submission:
+\emnlpfinalcopy
+
+%  Enter the EMNLP Paper ID here:
+\def\emnlppaperid{1176}
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+\title{Composite Task-Completion Dialogue Policy Learning via \\ Hierarchical Deep Reinforcement Learning}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a separate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+% If the title and author information does not fit in the area allocated,
+% place \setlength\titlebox{<new height>} right after
+% at the top, where <new height> can be something larger than 2.25in
+%\author{ \\
+%	{\tt publication@emnlp2017.net}}
+
+\author{Baolin Peng$^{\star}$\quad Xiujun Li$^{\dagger}$\quad Lihong Li$^{\dagger}$\quad Jianfeng Gao$^{\dagger}$\quad \\ 
+\textbf{Asli Celikyilmaz$^\dagger$}\quad \textbf{Sungjin Lee$^\dagger$}\quad \textbf{Kam-Fai Wong$^{\star}$}\\
+  $^{\dagger}$Microsoft Research, Redmond, WA, USA\\
+  $^{\star}$The Chinese University of Hong Kong, Hong Kong \\
+  {\tt \{blpeng, kfwong\}@se.cuhk.edu.hk} \\
+  {\tt \{xiul,lihongli,jfgao,aslicel,sule\}@microsoft.com}
+}
+
+\date{}
+
+\begin{document}
+	
+\maketitle
+	
+\begin{abstract}
+Building a dialogue agent to fulfill complex tasks, such as travel planning, is challenging because the agent has to learn to \emph{collectively} complete multiple subtasks. For example, the agent needs to reserve a hotel and book a flight so that there leaves enough time for commute between arrival and hotel check-in. This paper addresses this challenge by formulating the task in the mathematical framework of \emph{options} over Markov Decision Processes (MDPs), and proposing a hierarchical deep reinforcement learning approach to learning a dialogue manager that operates at different temporal scales. The dialogue manager consists of: (1) a top-level dialogue policy that selects among subtasks or options, (2) a low-level dialogue policy that selects primitive actions to complete the subtask given by the top-level policy, and (3) a global state tracker that helps ensure all cross-subtask constraints be satisfied. Experiments on a travel planning task with simulated and real users show that our approach leads to significant improvements over three baselines, two based on handcrafted rules and the other based on flat deep reinforcement learning.
+
+
+%In a composite-domain task-completion dialogue system, a conversation agent often switches among multiple sub-domains before it successfully completes the task. Given such a scenario, a standard deep reinforcement learning based dialogue agent may suffer to find a good policy due to the issues such as: increased state and action spaces, sparse reward, long horizon and high sample complexity demands etc.. In this paper, we propose to use a hierarchical deep reinforcement learning approach which can operate at different temporal scales and is intrinsically motivated to tackle these problems. Our hierarchical policy network consists of two levels: the top-level meta-controller for subgoal selection and the low-level controller for dialogue policy learning. Subgoals selected by meta-controller and intrinsic rewards can guide the controller to effectively explore in the state-action space and mitigate the spare reward and long horizon problems. Experiments on both simulations and human evaluation show that our model significantly outperforms flat deep reinforcement learning agents in terms of success rate, rewards and user rating.
+
+% We present a hierarchical deep reinforcement learning agent for an end-to-end, composite-domain task-completion dialogue system. In a composite-domain dialogue, a conversation often switching among multiple sub-domains before successful completion. Standard deep reinforcement learning based dialogue agents may suffer several problems in a complex, multi-domain scenario: increased state and action spaces, high sample complexity demands, sparse reward and long horizon etc., these issues will hinder the agents to find a good policy. Hence, we propose to use hierarchical deep reinforcement learning models which can operate at different temporal scales and are intrinsically motivated to attack these problems. It consists of two levels of network: the top-level meta-controller for subgoal selection and the low-level controller for dialogue policy learning. Subgoals selected by meta-controller and intrinsic rewards can guide the controller to effectively explore in the state-action space and mitigate the spare reward and long horizon problems. Experiments on both simulations and human evaluation show that our model significantly outperforms flat deep reinforcement learning agents in terms of success rate, rewards and user rating.
+
+\end{abstract}
+
+%is a special case of multi-domain setting, in which slots of different domains have joint constraints, which requires to learn dialogue policies jointly in the entire collection of domain tasks. Recent single-domain task-completion dialogue agents are usually trained with reinforcement learning algorithms to improve their performance over time with experience. However, 
+
+% This paper presents a hierarchical deep reinforcement learning agent on an end-to-end, composite-domain task-completion dialogue system. Composite-domain dialogue is a special case of multi-domain setting, in which slots of different domains have joint constraints, which requires to learn dialogue policies jointly in the entire collection of domain tasks. Recent single-domain task-completion dialogue agents are usually trained with reinforcement learning algorithms to improve their performance over time with experience. However, standard deep reinforcement learning based dialogue agents may suffer several problems in a complex, multi-domain scenario: increased state and action spaces, high sample complexity demands, sparse reward and long horizon etc. These issues will hinder the agents to find a good policy. Hence, we propose to use hierarchical deep reinforcement learning models which can operate at different temporal scales and are intrinsically motivated for this task. The hierarchical agent consists of two levels of network: the top-level meta-controller for subgoal selection and the low-level controller for dialogue policy learning. Subgoals selected by meta-controller and intrinsic rewards can aid the controller to explore in the action space and mitigate the spare reward and long horizon problems. Experiments on both simulation and human evaluation show that our model significantly outperforms flat deep reinforcement learning agent in terms of success rate, rewards and user rating.
+%\end{abstract}
+
+
+\section{Introduction}
+There is a growing demand for intelligent personal assistants, mainly in the form of dialogue agents, that can help users accomplish tasks ranging from meeting scheduling to vacation planning. However, most of the popular agents in today's market, such as Amazon Echo, Apple Siri, Google Home and Microsoft Cortana, can only handle very simple tasks, such as reporting weather and requesting songs. Building a dialogue agent to fulfill complex tasks %via human-agent interactions 
+remains one of the most fundamental challenges for the NLP community and AI in general.
+
+%Designing intelligent personal assistants that can help users to accomplish complex tasks is a highly challenging problem in NLP community. Task-completion dialogue system is a key example of such personal assistants. In today's market, many conversational agents are emerging, such as Microsoft's Cortana, Apple's Siri, Google's Home and Amazon's Echo. However, these personal assistants can only accomplish simple tasks, still far behind being able to handle complex tasks, such as multi-domain dialogue~\cite{DBLP:conf/interspeech/Young10,DBLP:journals/csl/WilliamsY07}.
+
+In this paper, we consider an important type of complex tasks, termed \emph{composite task}, which consists of a set of subtasks that need to be fulfilled collectively. For example, in order to make a travel plan, we need to book air tickets, reserve a hotel, rent a car, etc. in a collective way so as to satisfy a set of cross-subtask constraints, which we call \emph{slot constraints}. Examples of slot constraints for travel planning are: hotel check-in time should be later than the flight's arrival time, hotel check-out time may be earlier than the return flight depart time, the number of flight tickets equals to that of hotel check-in people, and so on.
+
+%In this paper, we consider a particular case of multi-domain dialogue task called composite task-completion dialogue in which there exist slot constrains across domains. For example, in a travel scenario, it may consist of three tasks: flight ticket booking, hotel reservation and car rental, with some commonsense constraints such as a hotel check-in time should be later than the departure flight time, hotel check-out time may be earlier than the return flight depart time, the number of flight tickets equals to that of hotel check-in people and so on.
+
+It is common to learn a task-completion dialogue agent using reinforcement learning (RL); see \citet{su2016continuously,cuayahuitl2017simpleds,williams2017hybrid,Dhingra17EndToEnd} and \citet{li2017end} for a few recent examples. Compared to these dialogue agents developed for individual domains, the composite task presents additional challenges to commonly used, \emph{flat} RL approaches such as DQN~\cite{DBLP:journals/nature/MnihKSRVBGRFOPB15}. The first challenge is reward sparsity. 
+%Comparing to simple tasks for which single-domain dialogue agents are developed~\cite{DBLP:conf/sigdial/ZhaoE16,cuayahuitl2017simpleds,li2017end,su2016continuously,williams2017hybrid}, 
+Dialogue policy learning for composite tasks requires exploration in a much larger state-action space, and it often takes many more conversation turns between user and agent to fulfill a task, leading to a much longer trajectory. Thus, the reward signals (usually provided by users at the end of a conversation) are delayed and sparse. As we will show in this paper, typical flat RL methods such as DQN with naive $\epsilon$-greedy exploration is rather inefficient. The second challenge is to satisfy slot constraints across subtasks. This requirement makes most of the existing methods of learning \emph{multi-domain dialogue} agents~\cite{cuayahuitl2009hierarchical,DBLP:conf/asru/GasicMSVWY15} inapplicable: these methods train a collection of policies, one for each domain, and there is no cross-domain constraints required to successfully complete a dialogue. 
+%use a set of individually trained DQNs, each for one subtask, without a global policy to ensure that all slot constraints are satisfied. 
+The third challenge is improved user experience: we find in our experiments that a flat RL agent tends to switch between different subtasks frequently when conversing with users. Such incoherent conversations lead to poor user experience, and are one of the main reasons that cause a dialogue session to fail.
+
+%This task is inherently challenging because: 1) Slot constraints require a global policy for all domains, desiring to learning dialogue policy jointly, while, local domain policies can not capture these slot constraints across domains. 2) Compared to single-domain dialogue setting, joint dialogue policy learning for composite domain, has larger state and action spaces, often contributing to further challenges such as sparse rewards or long horizon (trajectory). Typical flat reinforcement learning methods such as deep Q-Network (DQN) that follows a naive exploration strategy, might further end up with high sample complexity. 3) A flat reinforcement learning agent (i.e. DQN) may severely affect the conversation by producing non-coherent dialogues as a result of frequent transitions/switches between domains among consecutive turns. To our best knowledge, this is the first work investigating on composite task-completion dialogue. However, there are some previous works on related multi-domain dialogues~\cite{cuayahuitl2009hierarchical,DBLP:conf/asru/GasicMSVWY15}. They either used tabular methods (which is hardly scalable when state space is huge and combinatorial) or treated multi-domain dialogue as multiple independent single-domain sub-dialogues, which are trained separately.
+
+In this paper, we address the above mentioned challenges by formulating the task using the mathematical framework of \emph{options over MDPs}~\cite{DBLP:journals/ai/SuttonPS99}, and proposing a method that combines deep reinforcement learning and hierarchical task decomposition to train a composite task-completion dialogue agent. At the heart of the agent is a dialogue manager, which consists of (1) a top-level dialogue policy that selects subtasks (options), (2) a low-level dialogue policy that selects primitive actions to complete a given subtask, and (3) a global state tracker that helps ensure all cross-subtask constraints be satisfied.
+
+Conceptually, our approach exploits the structural information of composite tasks for efficient exploration. Specifically, in order to mitigate the reward sparsity issue, we equip our agent with an evaluation module (internal critic) that gives intrinsic reward signals, indicating how likely a particular subtask is completed based on its current state generated by the global state tracker. Such intrinsic rewards can be viewed as heuristics that encourage the agent to focus on solving a subtask 
+%as much as possible by taking actions suggested by the low-level dialogue policy 
+before moving on to another subtask. %chosen by the top-level dialogue policy. 
+%We will show in our experiments that the use of intrinsic rewards combined with h-DQN, compared to the baselines, not only makes the exploration more efficient because the state-action space to be explored is significantly reduced, but also leads to better user experiences because the conversations are more coherent.
+Our experiments show that such intrinsic rewards can be used inside a hierarchical RL agent to make exploration more efficient, yielding a significantly reduced state-action space for decision making. Furthermore, it leads to a better user experience, as the resulting conversations switch between subtasks less frequently.
+
+To the best of our knowledge, this is the first work that strives to develop a composite task-completion dialogue agent. Our main contributions are three-fold:
+
+%\begin{compactitem}
+\begin{itemize}
+\item We formulate the problem in the mathematical framework of options over MDPs.
+\item We propose a hierarchical deep reinforcement learning approach to efficiently learning the dialogue manager that operates at different temporal scales. 
+\item We validate the effectiveness of the proposed approach in a travel planning task on simulated as well as real users. 
+\end{itemize}
+
+%To this end, we propose a hierarchical deep reinforcement learning agent termed h-DQN for composite task-completion dialogue. It is based on the options framework~\cite{DBLP:journals/ai/SuttonPS99} but instead takes the option as part of the input rather than have several separate value functions for each option. Specifically, the model has hierarchical value functions operating at different temporal scales and is intrinsically motivated. The top-level one learns policy over subgoals like \textit{BookFlightTicket}, \textit{BookHotel} and get extrinsic rewards from the environment, and low-level DQN focuses on learning a dialogue policy to achieve the selected subgoal, and obtains intrinsic rewards if the subgoal achieved. The subgoal selected by the meta-controller guides the agent focus on a certain subgoal. Together with the intrinsic rewards, it alleviates the sparse reward and long horizon issues, reduces the sample complexity for the entire task, helping the agent explore in the large state-action space and making joint dialogue policy learning possible.
+	
+	%In addition, multi-domain task-completion dialogues are intrinsically hierarchical in structure and hence we argue that learning a multi-domain dialogue system should adopt a structural learning strategy. In fact, several work have investigated along this direction \cite{cuayahuitl2009hierarchical,DBLP:conf/asru/GasicMSVWY15}. They either used tabular methods (which is hardly scalable when state space is huge and combinatorial) or treated multi-domain dialogue as multiple independent single-domain sub-dialogues, which are trained separately. 
+	
+	
+	% Designing intelligent personal assistants that can help users to accomplish complex tasks is a long-term goal for human, and also a highly challenging problem in AI and NLP communities. Task-Completion dialogue or Goal-Oriented dialogue system is a key example of such personal assistants that can help people to accomplish certain tasks via natural language exchange, either in speech or typed form. In today's market, many conversational agents are emerging, such as Microsoft's Cortana, Apple's Siri, Google's Home and Amazon's Echo. However these personal assistants can only accomplish simple tasks, which is still far behind to be able to handle complex tasks~\cite{DBLP:conf/interspeech/Young10,DBLP:journals/csl/WilliamsY07}. 
+	
+%	Recently, history has witnessed many impressive results of deep reinforcement learning in many domains, like Atari games~\cite{DBLP:journals/nature/MnihKSRVBGRFOPB15}, the game of Go~\cite{DBLP:journals/nature/SilverHMGSDSAPL16}, text games~\cite{DBLP:conf/emnlp/NarasimhanKB15,DBLP:conf/acl/HeCHGLDO16} and robotics~\cite{schulman2015trust,levine2016end}. For dialogue tasks, reinforcement learning algorithms are a natural choice, which can improve the performance of agents over time through interactions with users. Several dialogue systems have been proposed within this paradigm, e.g. info-bot for information access~\cite{dhingra2016end}, end-to-end task completion agent~\cite{DBLP:conf/sigdial/ZhaoE16,li2017end}, and open domain dialogue generation~\cite{DBLP:conf/emnlp/LiMRJGG16}, Visual Dialog~\cite{das2017learning,strub2017end}. All these dialogue agents use either deep Q-Network~\cite{DBLP:journals/nature/MnihKSRVBGRFOPB15} or policy gradient~\cite{williams1992simple} algorithms. 
+	
+	%Nevertheless, flat reinforcement learning methods such as deep Q-Network works well on single domain dialogue but may face several potential issues when migrating to multi-domain setting in which there are large state and action spaces, and also may be complicated by sparse reward and long horizons issues, where naive exploration strategy can lead to the high sample complexity. However, one of unique properties of multi-domain task-completion dialogue is its hierarchical structure. \newcite{cuayahuitl2009hierarchical} studies this issue on a travel planning domain which uses MAXQ value function decomposition algorithm and tabular methods to solve it. However, in some tasks like multi-domain dialogue in which the state space is combinatorial and enormous, tabular methods are helpless and function approximation methods are needed.  \newcite{DBLP:conf/ijcnn/cuah} presented a divide-and-conquer approach called network of Deep Q-networks. It consists of a set of DQNs and each of them represents a specialized skill for a particular domain. The DQN is separately trained on a particular domain. In addition it requires a SVM classifier to handle domain transition. At each agent turn, the classifier firstly assigns a domain and the corresponding domain DQN is to yield system action.
+	
+	% Nevertheless, flat reinforcement learning methods such as deep Q-Network works well on single domain dialogue, they fell short when faced with issues when migrating to multi-domain setting in which there are larger state and action spaces, and also may be complicated by sparse reward and long horizon issues, where naive exploration strategy can lead to the high sample complexity. Distinguished from single-domain dialogue, multi-domain task-completion dialogue has strong hierarchical structure, and several works have investigated along this direction \cite{cuayahuitl2009hierarchical,DBLP:conf/asru/GasicMSVWY15}. However, previous works either use tabular methods which are helpless when state space is combinatorial and enormous or treats multi-domain dialogue as multiple independent single-domain subdialog trained separately.
+	% [asli:]The paragraph above is a bit fuzzily written and confusing to the reader and some sentences are too long. I revised it below. Perhaps you can look at my version below and revise yours accordingly...
+	% ###########################
+	%Compared to single-domain dialogue systems, multi-domain dialogue systems have larger state and action spaces, most often contributing to further challenges such as sparse rewards or long horizon (trajectory). These can be challenging for flat reinforcement learning methods such as deep Q-Network. A flat Q-Network that follows a naive exploration strategy, might further end up with high sample complexity. Above all, multi-domain task-completion dialogues are intrinsically hierarchical in structure and hence we argue that learning a multi-domain dialogue system should adopt a structural learning strategy. In fact, several work have investigated along this direction \cite{cuayahuitl2009hierarchical,DBLP:conf/asru/GasicMSVWY15}. They either used tabular methods (which is hardly scalable when state space is huge and combinatorial) or treated multi-domain dialogue as multiple independent single-domain sub-dialogues, which are trained separately. 
+	% ###########################
+	
+	%Nevertheless, flat reinforcement learning methods such as Deep Q-Networks works well on single domain scenario but faces scalability problems when migrating to multi-domain task in which there is large state and action spaces. Moreover, multi-domain task-completion dialogue has shown to be following hierarchical structure.  \cite{DBLP:journals/csl/CuayahuitlRLS10} studies this issue single domain dialogue system which uses MAXQ value function decomposition algorithm and tabular methods to solve it. However, in some task like multi-domain dialogue in which the state space is combinatorial and enormous, tabular methods are helpless and function approximation methods are needed.  \newcite{DBLP:conf/ijcnn/cuah} presented a divide-and-conquer approach called network of Deep Q-networks. It consists of a set of DQNs and each of them represents a specialized skill for a particular domain. The DQN is separately trained on a particular domain. In addition it requires a SVM classifier to handle domain transition. At given time, the classifier firstly assigns a domain and the according specialized DQN is then used to yield dialogue policy.
+	
+	%Inspired by these successes we tackle a composite-domain task-completion dialogue task in this work.
+	%In light of these issues, we propose to use hierarchical reinforcement learning for a tailored multi-domain dialogue, called Composite-domain dialogue. Composite-domain is a special case of multi-domain setting in which there exist slot constrains across domains. For example, in a travel scenario, it may consist of three tasks: flight ticket booking, hotel reservation and car rental. It adopts commonsense knowledge such as a hotel check-in time should be later than the departure flight time, hotel check-out time may be earlier than the return flight depart time, the number of flight tickets equals to that of hotel check-in people and so on. In this situation, network of Deep Q-Networks are not feasible since they are trained domain by domain, ignore the constraints among domains. Hence, we approach this composite-domain task-completion dialogue problem with hierarchical deep reinforcement learning. Hierarchical-DQN (h-DQN) has hierarchical value functions operating at different temporal scales, the top-level one is termed as meta-controller that learns policy over subgoals, and controller (low-level DQN) learns a dialogue policy to achieve the selected subgoal. 
+	
+%Another interesting aspect of composite-domain dialogue setting is that, different users may show differing behavior patterns. For example, some people like to book their flight tickets first, then reserve a hotel; others might prefer to reserve their hotel first, then book flight tickets. To verify that our models are robust to these different patterns, we test our agents with three different types of users. Empirical experiments in both user simulations and real-user evaluation demonstrate that the hierarchical-DQN agents significantly outperform the DQNs yielding higher task success rates, higher rewards and fewer dialogue turns, and as evaluated by human judges, a more coherence in dialogue flow. In addition, h-DQN shows strong adaptation capabilities to different types of users. Our contributions are three-fold:
+	
+%\begin{itemize}
+%\item %The proposed system is the first hierarchical deep reinforcement learning agent in composite task-completion dialogue setting.
+%This work is the first attempt in composite task-completion dialogue setting, for which we formalize as 
+%\item We demonstrate that hierarchical deep reinforcement learning models can significantly outperform flat  reinforcement learning algorithms on a composite task-completion dialogue task in both simulations and human evaluation.
+%\item Hierarchical deep reinforcement learning agents show strong adaptation capabilities to customize with different types of users in both simulations and human evaluation.
+%\end{itemize}
+
+%\begin{itemize}
+%\item This work is the first attempt in composite task-completion dialogue setting, for which we formulate the problem to learn options over MDP.
+%\item The proposed system is the first hierarchical deep reinforcement learning agent in composite task-completion dialogue.
+%\item We demonstrate that hierarchical deep reinforcement learning models can significantly outperform flat  reinforcement learning algorithms on a composite task-completion dialogue in both simulations and human evaluation. Hierarchical deep reinforcement learning agents show strong adaptation capabilities to customize with different types of users.
+%\end{itemize}
+
+
+\section{Related Work}
+Task-completion dialogue systems have attracted numerous research efforts. Reinforcement learning algorithms hold the promise for dialogue policy optimization over time with experience~\cite{DBLP:conf/icassp/SchefflerY00,DBLP:journals/taslp/LevinPE00,DBLP:journals/pieee/YoungGTW13,williams2017hybrid}. Recent advances in deep learning have inspired many deep reinforcement learning based dialogue systems that eliminate the need for feature engineering~\cite{su2016continuously,cuayahuitl2017simpleds,williams2017hybrid,Dhingra17EndToEnd,li2017end}.
+%proposed a simple deep reinforcement learning dialogue system which learns to map directly from raw text to dialogue policy. \newcite{li2017end} proposed an end-to-end task-completion dialogue system, which learned dialogue policy via deep Q-Network and demonstrated superior performance over rule-based agent. \newcite{su2016continuously} described a two-phase approach for task-oriented spoken dialogue system, first trained with supervised learning, then optimized via reinforcement learning. \newcite{williams2017hybrid} provided hybrid code networks which allow the user to input domain-specific knowledge and optimize policies with supervised learning and reinforcement learning.
+
+%Task-completion dialogue system has attracted numerous research efforts. Reinforcement learning algorithms offer possibilities to optimize dialogue policies over time with experience~\cite{DBLP:conf/icassp/SchefflerY00,DBLP:journals/taslp/LevinPE00,DBLP:journals/pieee/YoungGTW13,williams2017hybrid}. Recent advances in deep learning have inspired many deep reinforcement learning based dialogue systems: \newcite{cuayahuitl2017simpleds} proposed a simple deep reinforcement learning dialogue system which learns to map directly from raw text to dialogue policy. \newcite{li2017end} proposed an end-to-end task-completion dialogue system, which learned dialogue policy via deep Q-Network and demonstrated superior performance over rule-based agent. \newcite{su2016continuously} described a two-phase approach for task-oriented spoken dialogue system, first trained with supervised learning, then optimized via reinforcement learning. \newcite{williams2017hybrid} provided hybrid code networks which allow the user to input domain-specific knowledge and optimize policies with supervised learning and reinforcement learning.
+	
+All the work above focuses on single-domain problems. Extensions to composite-domain dialogue problems are non-trivial due to several reasons: the state and action spaces are much larger, the trajectories are much longer, and in turn reward signals are much more sparse.
+%sparse reward and long horizon, high sample complexity demands problems will
+All these challenges 
+%prevent a standard, flat RL agent from learning good policies efficiently.
+can be addressed by hierarchical reinforcement learning~\cite{DBLP:journals/ai/SuttonPS99,DBLP:conf/icml/SuttonPS98,DBLP:conf/aaai/Singh92,DBLP:journals/jair/Dietterich00,DBLP:journals/deds/BartoM03}, which decomposes a complicated task into simpler subtasks, possibly in a recursive way.  Different frameworks have been proposed, such as Hierarchies of Machines~\cite{DBLP:conf/nips/ParrR97} and MAXQ decomposition~\cite{DBLP:journals/jair/Dietterich00}.  In this paper, we choose the \emph{options framework} for its conceptual simplicity and generality~\cite{DBLP:conf/icml/SuttonPS98}; more details are found in the next section.  Our work is also motivated by hierarchical-DQN~\cite{DBLP:conf/nips/KulkarniNST16} which integrates hierarchical value functions to operate at different temporal scales. The model achieved superior performance on a complicated ATARI game ``Montezuma's Revenge'' with a hierarchical structure.
+%Compared with \cite{cuayahuitl2016deep} which performs the similar task,  our model can jointly learn dialogue policies for multiple domains considering the joint constraints between domains.
+
+A related but different extension to single-domain dialogues is multi-domain dialogues, where each domain is handled by a separate agent~\cite{DBLP:conf/sigdial/Lison11,DBLP:conf/icassp/GasicKTY15,DBLP:conf/asru/GasicMSVWY15,cuayahuitl2016deep}. In contrast to composite-domain dialogues studied in this paper, a conversation in a multi-domain dialogue normally involves one domain, so completion of a task does \textit{not} require solving sub-tasks in different domains. Consequently, work on multi-domain dialogues focuses on different technical challenges such as transfer learning across different domains~\cite{DBLP:conf/icassp/GasicKTY15} and domain selection~\cite{cuayahuitl2016deep}.
+
+\iffalse
+They have been studied by~\citet{DBLP:conf/sigdial/Lison11}, where several policies concurrently yield actions and a heuristic algorithm is used to determinate which action should be taken. \newcite{DBLP:conf/icassp/GasicKTY15} investigated a distributed architecture which firstly trains a generic policy on data from all the domains and then specializes to a domain using in-domain data. \newcite{DBLP:conf/asru/GasicMSVWY15} presented a notion of policy committee for adaptation in multi-domain dialogue systems based on the \emph{Bayesian committee machine}. It consists of a set of committee policies trained with different datasets and each committee proposes an action at each time, a data-driven combination method is then applied to make a final decision. \newcite{cuayahuitl2016deep} presented Network of Deep Q-Networks for multi-domain dialogue systems, which has a set of DQNs, and each DQN is trained individually for each domain, and an \emph{Support Vector Machine} classifier is used for domain selection, assigning the corresponding domain DQN policy.
+\fi
+
+\iffalse
+Flat reinforcement learning algorithms suffer from the curse of dimensionality when the complexity of task is increased and state representation is not compact. Hierarchical reinforcement learning methods alleviate the curse of dimensionality by leveraging hierarchies, exponentially reduce computation cost, sample complexity, leading to a better chance to find good polices \cite{DBLP:journals/ai/SuttonPS99,DBLP:conf/icml/SuttonPS98,DBLP:conf/aaai/Singh92,DBLP:journals/jair/Dietterich00,DBLP:journals/deds/BartoM03}. The options framework exploits temporal abstraction that does not necessarily make decision at each time but rather invokes temporally extended actions until termination \cite{DBLP:conf/icml/SuttonPS98}. MAXQ gives a hierarchical decomposition of value functions of the original problem into a set of value functions of subproblems~\cite{DBLP:journals/jair/Dietterich00}. \newcite{DBLP:conf/nips/ParrR97} presented \emph{Hierarchies of Machines} where policies are constrained by hierarchies of partially specified machines, allowing for the use of prior knowledge to reduce search spaces.
+\fi
+
+
+%Compared with \cite{cuayahuitl2016deep} which performs the similar task, we have two levels of DQN, the top-level one is a meta-controller for subgoal selection, the low-level DQN is a controller for dialogue policy learning to achieve the subgoal. Our model jointly learns subgoal selection and subgoal policies while their work uses a pretrained SVM domain classifier. In addition, rather than learning individual DQN policy for each domain separately, our model can jointly learn dialogue policies for multiple domains considering the joint constraints between domains.
+
+%	Moreover, another related research line is dialogue personalization. \newcite{DBLP:journals/corr/MoLZL016} presented a personalized dialogue system with transfer learning. Users' preferences are captured with personalized Q-function which estimates general rewards and personal rewards. \newcite{DBLP:conf/sigdial/CasanuevaHCMG15} proposed of initializing the dialogue system for a certain user with data from similar users. 
+
+%\section{Neural dialogue System}
+%As illustrated in Figure~\ref{fig:dialog_framework}, a typical task-completion dialogue system consists of the following components: 
+
+%\paragraph{Natural Language Understanding (NLU):}
+%given the utterances of free texts (typed or spoken), the major task of NLU is to automatically classify the domain of a user query along with domain specific intents and fill in a set of slots to form a structured semantic frame. 
+%For example, given ``\textit{my departure city is San Francisco, and destination is Seattle.}'', NLU maps it to the dialogue action form ``\textit{inform(or\_city=San Francisco, dst\_city=Seattle)}''.
+
+%\paragraph{Dialog Management (DM):}
+%The symbolic NLU output in dialogue act form (or as semantic frame) is passed onto the DM. The classic DM includes two stages, \emph{dialog state tracking} and \emph{policy learning}. Given the LU symbolic output, a query is formed to interact with the database to retrieve the available result. The state tracker keeps track of the evolving dialogue states. %It is updated based on the available result from the database, history dialogue turns, and the latest user dialogue action. Onces the state is updated, the tracker sends the current state representation to the policy learning network. The current state representation consists of the latest user action, latest agent action, database results, turn information, and history dialogue turns, etc. 
+%Given the current state representation, the policy learner's goal is to generate the next available system action $\pi(a|s)$.
+
+%\paragraph{Natural Language Generation (NLG):}
+%Given a dialogue act form, the NLG module generates natural language texts. Two common NLG approaches are rule-based and model-based ~\cite{DBLP:conf/emnlp/WenGMSVY15}. 
+%Rule-base NLGs are not beneficial as they may generate rigid responses, or cannot be scaled to multiple domains easily. Instead, current state-of-the-art NLG approaches are based on sequential deep neural network methods such as semantically conditioned LSTM-based generator~\cite{DBLP:conf/emnlp/WenGMSVY15}, such approaches take the delexicalized dialogue act form as input to generate the template-like sentence sketch, then replace the delexicalized symbols with the real slot values.
+%\todo{[A] if NLG is not used, either we need to mention that we don't as the focus is on policy learning. Same applies to NLU} 
+
+\section{Dialogue Policy Learning}
+Our composite task-completion dialogue agent consists of four components: (1) an LSTM-based language understanding module~\cite{hakkani2016multi, DBLP:conf/slt/YaoPZYZS14} for identifying user intents and extracting associated slots; (2) a state tracker for tracking the dialogue state; (3) a dialogue policy which selects the next action based on the current state; and (4) a model-based natural language generator~\cite{DBLP:conf/emnlp/WenGMSVY15} for converting agent actions to natural language responses. Typically, a dialogue manager contains a state tracker and a dialogue policy. In our implementation, we use a \emph{global} state tracker to maintain the dialogue state by accumulating information across all subtasks, thus helping ensure all inter-subtask constraints be satisfied. In the rest of this section, we will describe the dialogue policy in details.
+
+%As illustrated in Figure~\ref{fig:dialog_framework}, a typical task-completion dialogue system consists of the following components: natural language understanding, natural language generation, and dialogue manager (including a state tracker and a dialogue policy). In this work, we focus on dialogue policy learning, which consists of (1) a top-level dialogue policy that selects over subtasks (options), (2) a low-level dialogue policy that selects primitive actions to complete the given subtasks, and (3) global state tracking that helps ensure all cross-subtask constraints be satisfied. To learn dialogue policies, we apply reinforcement learning algorithms in an end-to-end fashion.
+
+%We formalize the task as a Markov Decision Process (MDP) problem, which consists of a set of states $s \in \mathcal{S}$, a set of actions $a \in \mathcal{A}$, a state transition function $T(s, a, s')$ which indicates the probability of next state $s'$ given the current state $s$ and action $a$, a reward function $R(s, a, s')$ which means the scalar reward that agent received from the environment based on choosing action $a$ from state $s$ resulting in a new state $s'$, and $\gamma\in [0,1]$ as a discount factor. The goal is to learn a policy $\pi(a|s)$ which can maximize a certain reward function over long period of time.
+
+%To learn the interaction policy of the dialogue system, we apply reinforcement learning algorithms to policy training in an end-to-end fashion. 
+
+%\subsection{Deep Q-Network}
+%First, we formalize the task as a Markov Decision Process (MDP) problem, which consists of a set of states $s \in \mathcal{S}$, a set of actions $a \in \mathcal{A}$, a state transition function $T(s, a, s')$ which indicates the probability of next state $s'$ given the current state $s$ and action $a$, a reward function $R(s, a, s')$ which means the scalar reward that agent received from the environment based on choosing action $a$ from state $s$ resulting in a new state $s'$, and $\gamma\in [0,1]$ as a discount factor. The goal is to learn a policy $\pi(a|s)$ which can maximize a certain reward function over long period of time.
+
+%First we formalize the task as a Markov Decision Process (MDP) problem, the policy is represented as a deep Q-Network (DQN)~\cite{DBLP:journals/nature/MnihKSRVBGRFOPB15}, which takes the state $s_t$ from the state tracker as input, and outputs estimated $Q(s_t, a; \theta)$ for all actions $a$. The agent aims at finding an optimal policy by maximizing following cumulative discounted reward:
+%\begin{equation}
+%\label{key}
+%Q_{\pi}(s, a) = \mathbb{E} \left\{ \sum_{k=0}^{+\infty} \gamma^k r_{t+k} | s_t=s, a_t = a \right\}
+%\end{equation}
+%where function $Q$ denotes the expected return of rewards at time $t$ by a discount factor $\gamma$ at each time step. The Q-learning algorithm solves the reinforcement learning problems by approximating the optimal Q-function $Q^*(s_t, a_t)$ using following updating.
+%\begin{equation}
+%\begin{split}
+%Q(s_t, a_t) \leftarrow Q(s_t,\ &a_t) + \\
+%\lambda_t (r_t + \gamma max_a &Q(s_{t+1}, a)-Q(s_t, a_t))
+%\end{split}
+%\end{equation}
+%where $\lambda_t$ is the learning rate at time $t$. %, $\gamma$ is the discount factor.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.7\linewidth]{figures/critic_bold.pdf}
+\vspace{-3mm}
+\caption{Overview of a composite task-completion dialogue agent.}
+\label{fig:critic}
+%\vspace{-3mm}
+\end{figure}
+
+\subsection{Options over MDPs}
+%\subsection{Hierarchical Deep Q-Network}
+%Flat reinforcement learning algorithms (i.e. deep Q-Network) suffer several issues for this composite-domain task, like larger state and action spaces, sparse reward and long horizon, high sample complexity demands problems, these often hinder the agents to find good policies, and yielding scalability issues. Specific to the composite task-completion dialogue task, a flat reinforcement learning algorithm might severely affect the conversation by producing non-coherent dialogues as a result of frequent transitions/switches between domains among consecutive turns. %Distinguished from single-domain dialogue, one of the unique characteristics of the composite-domain or multi-domain dialogue is their intrinsic domain structure information\todo{[A] not clear which information this is? Is it that 'hierarchical' information?}, which requires building models that can capture this structure as well as maintain the coherence of the conversations. Thus, inspired by the work of hierarchical deep reinforcement learning\citep{DBLP:conf/nips/KulkarniNST16}, we investigate hierarchical reinforcement learning algorithms in the composite task-completion dialogue setting.
+
+Consider the following process of completing a composite task (e.g., travel planning). An agent first selects a subtask (e.g., book-flight-ticket), then takes a sequence of actions to gather related information (e.g., departure time, number of tickets, destination, etc.) until all users' requirements are met and the subtask is completed, and finally chooses the next subtask (e.g., reserve-hotel) to complete. The composite task is fulfilled after all its subtasks are completed collectively. The above process has a natural hierarchy: a top-level process selects which subtasks to complete, and a low-level process chooses primitive actions to complete the selected subtask. Such hierarchical decision making processes can be formulated in the \emph{options} framework~\cite{DBLP:journals/ai/SuttonPS99}, where options generalize primitive actions to higher-level actions.  Different from the traditional MDP setting where an agent can only choose a primitive action at each time step, with options the agent can choose a ``multi-step" action which for example could be a sequence of primitive actions for completing a subtask. As pointed out by \newcite{DBLP:journals/ai/SuttonPS99}, options are closely related to actions in a family of decision problems known as semi-Markov decision processes.
+
+Following~\newcite{DBLP:journals/ai/SuttonPS99}, an option consists of three components: a set of states where the option can be initiated, an intra-option policy that selects primitive actions while the option is in control, and a termination condition that specifies when the option is completed.  For a composite task such as travel planning, subtasks like \textit{book-flight-ticket} and \textit{reserve-hotel} can be modeled as options. Consider, for example, the option \textit{book-flight-ticket}: its initiation state set contains states in which the tickets have not been issued or the destination of the trip is long away enough that a flight is needed; it has an intra-option policy for requesting or confirming information regarding departure date and the number of seats, etc.; it also has a termination condition for confirming that all information is gathered and correct so that it is ready to issue the tickets.
+
+%A policy in a composite task-completion dialogue naturally has a hierarchical structure: it first selects a domain (subtask), solves the user's requirements pertaining to that domain, then switches to another domain until the subtask is complete. To model this behavior, we formalize the task within the framework of \emph{options}~\cite{DBLP:journals/ai/SuttonPS99}, where options extend primitive actions to allow temporal abstractions at multiple scales.  Here, an agent chooses a primitive action at each time step as in a traditional MDP, or an option that can last multiple steps (which is a sequence of primitive actions).  When options are present, the MDP can be modeled as a Semi-Markov Decision Process (SMDP)~\cite{DBLP:journals/ai/SuttonPS99}.
+
+%By definition, options consist of three components: a policy $\pi$, a termination condition $\beta$, and an initiation set $I \subseteq S$. An option is activated in state $s_t$ if and only if $s_t \in I$. If the option is executed, the primitive actions are selected according to $\pi$ until the option terminates according to $\beta$. When an option terminates, the agent has an opportunity to select next option. In the composite task-completion dialogue setting, flight ticket booking and hotel reservation can be viewed as two options: $BookFlightTicket$ defines a policy for choosing a departure flight date, depart flight time, seat, return flight date, return flight time etc. flight related information, a termination condition that whether the flight ticket is booked can be triggered at the end of flight booking; and similarly, $BookHotel$ is another option for hotel domain.
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=1\linewidth]{figures/hdqn_crop.pdf}
+\vspace{-9mm}
+\caption{Illustration of a two-level hierarchical dialogue policy learner.}
+\label{fig:hdqn}
+%\vspace{-2mm}
+\end{figure}
+
+\subsection{Hierarchical Policy Learning}
+The intra-option is a conventional policy over primitive actions, we can consider an inter-option policy over sequences of options in much the same way as we consider the intra-option policy over sequences of actions. 
+%Independent options cannot capture slot constraints across subtasks. %Inspired by the work of hierarchical deep reinforcement learning~\cite{DBLP:conf/nips/KulkarniNST16}, we %formalize the task within the framework of the options over MDP~\cite{DBLP:journals/ai/SuttonPS99}, and 
+We propose a method that combines deep reinforcement learning and hierarchical value functions to learn a composite task-completion dialogue agent as shown in Figure~\ref{fig:critic}.
+%propose a simplified implementation of options framework for dialogue policy learning as shown in Figure~\ref{fig:critic}. 
+It is a two-level hierarchical reinforcement learning agent that consists of a top-level dialogue policy $\pi_g$ and a low-level dialogue policy $\pi_{a,g}$, as shown in Figure~\ref{fig:hdqn}. The top-level policy $\pi_g$ perceives state $s$ from the environment and selects a subtask $g \in \mathcal{G}$, where $\mathcal{G}$ is the set of all possible subtasks.  The low-level policy $\pi_{a,g}$ is shared by all options.  It takes as input a state $s$ and a subtask $g$, and outputs a primitive action $a \in \mathcal{A}$, where $\mathcal{A}$ is the set of primitive actions of all subtasks. 
+%selects a primitive dialogue action $a_t$ given state $s_t$ and subtask $g_t$. 
+The subtask $g$ remains a constant input to $\pi_{a,g}$, until a terminal state is reached to terminate $g$. The internal critic in the dialogue manager provides intrinsic reward $r^i_t(g_t)$, indicating whether the subtask $g_t$ at hand has been solved; this signal is used to optimize $\pi_{a,g}$.
+%the low-level network $Q_2$ with an appropriate intrinsic reward $r^i_t(g_t)$, indicating whether the subtask at hand has been solved. 
+Note that the state $s$ contains global information, in that it keeps track of information for all subtasks. %Details of agent-simulator interaction are illustrated in Figure \ref{fig:critic}. 
+
+Naturally, we aim to optimize the low-level policy $\pi_{a,g}$ so that it maximizes the following cumulative intrinsic reward at every step $t$:
+%The low-level Q-network is to approximate the optimal cumulative intrinsic reward for a given subtask until it is finished.  In other words, given input $(s,g)$, the network's output for action $a$ tries to approximate the following cumulative reward:
+%
+%Composite-domain task-completion dialogues can be viewed as dialogue systems with strong hierarchical structure: the model first selects a domain, and solves the user's requirements pertaining to that domain, then switches to another domain until the task is complete. To model this behavior, we propose a two-level hierarchical deep reinforcement learning agent which consists of a meta-controller and a controller as shown in Figure~\ref{fig:hdqn}. The meta-controller perceives state $s_t$ from the environment and selects a subgoal $g_t \in \mathcal{G}$, in which $\mathcal{G}$ means the set of all possible domains in this composite-domain dialogue scenario. Whereafter, the controller selects a primitive dialogue action $a_t$ given state $s_t$ and subgoal $g_t$. The subgoal $g_t$ remains as a condition until it is achieved or a terminal state is reached. The internal critics mechanism provides the controller with an appropriate intrinsic reward $r^i_t(g_t)$, indicating weather the subgoal is reached. The goal of the controller is to maximize the cumulative intrinsic reward:
+\begin{eqnarray*}
+\max_{\pi_{a,g}} \mathbb{E}\Big[\sum_{k \ge 0} \gamma^{k}r_{t+k}^i \Big| s_t=s, g_t=g,a_{t+k}=\pi_{a,g}(s_{t+k})\Big]\,,
+\end{eqnarray*}
+where $r_{t+k}^i$ denotes the reward provided by the internal critic at step $t+k$.
+%Once the network is a good approximation, the ``greedy'' policy, defined by $\arg\max_a Q_2(g,s,a)$, is guaranteed to choose a near-optimal action in state $s$ for subtask $g$.
+Similarly, we want the top-level policy $\pi_g$ to optimize the cumulative extrinsic reward at every step $t$: %which is similar to the objective above but replaces $r^i_t$ with $r^e_t$.
+%\iffalse
+\begin{eqnarray*}
+%R_t(s,g) = 
+\max_{\pi_g} \mathbb{E}\Big[\sum_{k \ge 0} \gamma^{k}r_{t+k}^e \Big| s_t=s, %g_t = g, 
+a_{t+k}=\pi_g(s_{t+k})\Big]\,,
+\end{eqnarray*}
+where $r^e_{t+k}$ is the reward received from the environment at step $t+k$ when a new subtask starts.
+%\fi
+
+Both the top-level and low-level policies can be learned with deep Q-learning methods, like DQN. Specifically, the top-level dialogue policy estimates the optimal Q-function that satisfies the following:
+\begin{eqnarray}
+\lefteqn{Q_{1}^*(s,g) = \mathbb{E} \Big[ \sum_{k=0}^{N-1} \gamma^k r^e_{t+k} +} \nonumber \\
+&\gamma^N \cdot \max_{g'} Q_{1}^*(s_{t+N},g')|s_t=s, g_t=g\Big], \label{eqn:top-level-bellman}
+\end{eqnarray}
+where $N$ is the number of steps that the low-level dialogue policy (intra-option policy) needs to accomplish the subtask. $g'$ is the agent's next subtask in state $s_{t+N}$. Similarly, the low-level dialogue policy estimates the Q-function that satisfies the following:
+\begin{eqnarray*}
+\lefteqn{Q_{2}^*(s,a, g) = \mathbb{E} \Big[ r^i_t +} \\
+&&\gamma \cdot \max_{a_{t+1}} Q_{2}^*(s_{t+1},a_{t+1}, g)|s_t=s, g_t=g\Big]\,.
+\end{eqnarray*}
+Both $Q_1^*(s, g)$ and $Q_2^*(s, a, g)$ are represented by neural networks, $Q_1(s, g; \theta_1)$ and $Q_2(s, a, g;\theta_2)$, parameterized by $\theta_1$ and $\theta_2$, respectively.
+
+The top-level dialogue policy tries to minimize the following loss function at each iteration $i$:
+\begin{align*}
+\mathcal{L}_1(\theta_{1,i}) &= \mathbb{E}_{(s,g,r^e,s')\sim \mathcal{D}_1}[(y_i - Q_1(s,g;\theta_{1,i}))^2]\, \\
+y_i &= r^e +\gamma^N \max_{g'}Q_1(s',g',\theta_{1,i-1})\,,
+\end{align*}
+where, as in Equation~(\ref{eqn:top-level-bellman}), $r^e=\sum_{k=0}^{N-1} \gamma^k r^e_{t+k}$ is the discounted sum of reward collected when subgoal $g$ is being completed, and $N$ is the number of steps $g$ is completed.
+
+The low-level dialogue policy minimizes the following loss at each iteration $i$ using:
+\begin{eqnarray*}
+\mathcal{L}_2(\theta_{2,i}) &=& \mathbb{E}_{(s,g,a,r^i,s')\sim  \mathcal{D}_2}[(y_i - \\
+&& \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \ \ \  Q_2(s,g,  a;\theta_{2,i}))^2] \\
+ y_i &=& r^i +\gamma \max_{a'}Q_2(s',g, a',\theta_{2,i-1})\,.
+\end{eqnarray*}
+We use SGD to minimize the above loss functions. The gradient for the top-level dialogue policy yields:
+\begin{equation}
+\label{eq:g1}
+\begin{split}
+\nabla_{\theta_{1,i}}L_1(\theta_{1,i}) &= \mathbb{E}_{(s,g,r^e,s')\sim \mathcal{D}_1} [(r^e + \\\gamma^N \max_{g'} & Q_2(s',g',\theta_{1,i-1}) - Q_1(s,g,\theta_{1,i})) \\ & \nabla_{\theta_{1,i}}Q_1(s,g,\theta_{1,i})]
+\end{split}
+\end{equation}
+The gradient for the low-level dialogue policy yields:
+\begin{equation}
+\label{eq:g2}
+\begin{split}
+\begin{split}
+\nabla_{\theta_{2,i}}L_2(\theta_{2,i}) &= \mathbb{E}_{(s,g,a,r^i,s')\sim \mathcal{D}_2} [(r^i + \\
+\gamma \max_{a'}  Q_2&(s',g,a',\theta_{2,i-1})  - Q_2(s,g,a,\theta_{2,i})) \\
+  & \nabla_{\theta_{2,i}}Q_2(s,g,a,\theta_{2,i})]
+\end{split}
+\end{split}
+\end{equation}
+Following previous studies, we apply two most commonly used performance boosting methods: target networks and experience replay. Experience replay tuples $(s,g,r^e,s')$ and $(s,g,a,r^i,s')$, are sampled from the experience replay buffers $\mathcal{D}_1$ and $\mathcal{D}_2$ respectively. A detailed summary of the learning algorithm for the hierarchical dialogue policy is provided in Appendix B.%~\ref{app:appendix_algo}.
+%Experience replay strategy is critical to train h-DQN well, which uses a frozen policy network to interact with environment to obtain sample trajectories. We will elaborate it in details in the following section. A full summary of the learning algorithm for h-DQN agent is given in Appendix~\ref{app:appendix_algo}.
+
+\section{Experiments and Results}
+To evaluate the proposed method, we conduct experiments on the composite task-completion dialogue task of travel planning.
+
+\begin{figure*}[htb] \centering  
+\includegraphics[width=2\columnwidth]{figures/frmend2end_v2.pdf}
+%\vspace{-4mm}
+\caption{Illustration of the Composite Task-Completion dialogue System %Policy learning in the dialogue Management can be either a deep Q-Network or a hierarchical deep Q-Network.
+} 
+\label{fig:dialog_framework} 
+%\vspace{-2mm}
+\end{figure*}
+
+
+\subsection{Dataset}
+\label{sec:dataset}
+
+In the study, we made use of a human-human conversation data derived from a publicly available multi-domain dialogue corpus\footnote{https://datasets.maluuba.com/Frames}~\cite{elframes}, which was collected using the Wizard-of-Oz approach. We made a few changes to the schema of the data set for the composite task-completion dialogue setting. Specifically, we added inter-subtask constraints as well as user preferences (soft constraints). The data was mainly used to create simulated users, as will be explained below shortly. 
+
+\subsection{Baseline Agents}
+%The proposed hierarchical dialogue agent (\textit{HRL agent}) uses the trained dialogue policy to select the next system action 
+% The job of dialogue policy is to select the next system action $a_t$ based on the current state $s_t$. 
+We benchmark the proposed \textit{HRL agent} against three baseline agents: 
+%a hand-crafted rule-based agent and a flat reinforcement learning agent.
+%\begin{enumerate}
+%\item The \textit{Rule Agent} uses sophisticated hand-crafted dialogue policies, which can request and inform the necessary slots, and then informs the user about the reserved tickets.
+%\item The \textit{RL Agent} is trained with a standard flat deep reinforcement learning model (DQN) which learns dialogue policies only with extrinsic rewards.
+%\end{enumerate}
+\begin{itemize}
+\item A \textit{Rule Agent} uses a sophisticated hand-crafted dialogue policy, which requests and informs a hand-picked subset of necessary slots, and then confirms with the user about the reserved tickets.
+\item A \textit{Rule+ Agent} requests and informs all the slots in a pre-defined order exhaustedly, and then confirms with the user about the reserved tickets.  The average turn of this agent is longer than that of the \textit{Rule} agent.
+\item A \textit{flat RL Agent} is trained with a standard flat deep reinforcement learning method (DQN) which learns a flat dialogue policy using extrinsic rewards only.
+\end{itemize}
+
+
+\subsection{User Simulator}
+%In order to learn a good policy, reinforcement learning models typically need a large amount of real conversational dialogue data to explore the policy space. Collecting such data can be time-consuming and costly ~\cite{DBLP:journals/tslp/PietquinGCF11}.
+Training reinforcement learners is challenging because they need an environment to interact with. 
+%In order to learn good policies, reinforcement learning algorithms typically need an environment to operate in. 
+In the dialogue research community, it is common to use simulated users as shown in Figure~\ref{fig:dialog_framework} for this purpose~\cite{DBLP:conf/naacl/SchatzmannTWYY07,DBLP:conf/interspeech/AsriHS16}. In this work, we adapted the publicly-available user simulator, developed by \citet{li2016user}, to the composite task-completion dialogue setting using the human-human conversation data described in Section~\ref{sec:dataset}.\footnote{A detailed description of the user simulator is presented in Appendix A.} During training, the simulator provides the agent with an (extrinsic) reward signal at the end of the dialogue. A dialogue is considered to be successful only when a travel plan is made successfully, and the information provided by the agent satisfies user's constraints. At the end of each dialogue, the agent receives a positive reward of $2*max\_turn$ ($max\_turn=60$ in our experiments) for success, or a negative reward of $-max\_turn$ for failure.  Furthermore, at each turn, the agent receives a reward of $-1$ so that shorter dialogue sessions are encouraged.
+
+\paragraph{User Goal} 
+%The first step of a user simulator is to choose a goal from a list of pre-defined user goals. A user goal is a set of constraints around which the entire dialogue takes place implicitly. 
+A user goal is represented by a set of slots, indicating the user's request, requirement and preference. For example, an \textit{inform slot}, such as \textsf{dst\_city=``Honolulu''}, indicates a user requirement, and a \textit{request slot}, such as \textsf{price=``?''}, indicates a user asking the agent for the information.
+
+In our experiment, we compiled a list of user goals using the slots collected from the human-human conversation data set described in Section~\ref{sec:dataset}, as follows. We first extracted all the slots that appear in dialogue sessions. If a slot has multiple values, like ``\textsf{or\_city=[San Francisco, San Jose]}'', we consider it as a user preference (soft constraint) which the user may later revise its value to explore different options in the course of the dialogue. If a slot has only one value, we treat it as a user requirement (hard constraint), which is unlikely negotiable. If a slot is with value \textsf{"?"}, we treat it as a user request. We removed those slots from user goals if their values do not exist in our database. The compiled set of user goals contains $759$ entries, each containing slots from at least two subtasks: \emph{book-flight-ticket} and \emph{reserve-hotel}.
+
+\paragraph{User Type} To compare different agents' ability to adapt to user preferences, we also constructed three additional user goal sets, representing three different types of (simulated) users, respectively:
+%\begin{itemize}
+%\item \textit{Type A}: Given a user goal, all of its informed slots can take a single value, and the user simulator does not have preference for which domain should be firstly solved. 	
+%\item \textit{Type B}: Given the user goal, one of informed slots of the flight domain can have multiple values, and the user simulator prefers to start with the flight domain. If the user simulator receives ``no ticket available" from the agent during the conversation, the user simulator revises the slot to explore %the possibility with 
+%alternative values.
+%\item \textit{Type C}: Similar to \emph{Type B}, one of informed slots of the hotel domain in the user goal can have multiple values, the user simulator prefers to start with the hotel domain. If the user simulator receives ``no ticket available" response from the agent, the user simulator revises the slot with an alternative value.
+%\end{itemize}
+\begin{itemize}
+%
+\item \textit{Type A}: All the informed slots in a user goal have a single value.  These users have hard constraints for both the flight and hotel, and have no preference on which subtask to accomplish first. 
+%
+\item \textit{Type B}: At least one of informed slots in the \textit{book-flight-ticket} subtask can have multiple values, and the user (simulator) prefers to start with the \textit{book-flight-ticket} subtask. If the user receives ``no ticket available" from the agent during the conversation, she is willing to explore alternative slot values.
+\item \textit{Type C}: Similar to \emph{Type B}, at least one of informed slots of the \textit{reserve-hotel} subtask in a user goal can have multiple values. The user prefers to start with the \textit{reserve-hotel} subtask. If the user receives a ``no room available" response from the agent, she is willing to explore alternative slot values.
+%
+\end{itemize}
+
+% Details about the user simulator are included in Appendix~\ref{app:appendix_us}.
+
+\begin{table*}[htbp]
+\bigskip
+\begin{center}
+\begin{tabular}{ccccccccccc}
+\Xhline{2\arrayrulewidth}
+\multirow{2}{0.1cm}{} & \multicolumn{3}{c}{Type A} & \multicolumn{3}{c}{Type B} & \multicolumn{3}{c}{Type C} \\ \hline
+Agent & Succ. & Turn & Reward & Succ. & Turn & Reward & Succ. & Turn & Reward\\ \hline \hline
+Rule & .322 & 46.2 & -24.0 & .240 & 54.2 & -42.9 & .205 & 54.3 & -49.3 \\ 
+\textit{Rule+} & \textit{.535} & \textit{82.0} & \textit{-3.7} & \textit{.385} & \textit{110.5} & \textit{-44.95} & \textit{.340} & \textit{108.1} & \textit{-51.85} \\
+RL & .437 & 45.6 & -3.3 & .340 & 52.2 & -23.8 & .348 & 49.5 & -21.1 \\
+HRL & \textbf{\textcolor{blue}{.632}} & \textbf{\textcolor{blue}{43.0}} & \textbf{\textcolor{blue}{33.2}} & \textbf{\textcolor{blue}{.600}} & \textbf{\textcolor{blue}{44.5}} & \textbf{\textcolor{blue}{26.7}} & \textbf{\textcolor{blue}{.622}} & \textbf{\textcolor{blue}{42.7}} & \textbf{\textcolor{blue}{31.7}} \\
+\hline
+\end{tabular}
+\end{center}
+\vspace{-2mm}
+\caption{Performance of three agents on different User Types. Tested on 2000 dialogues using the best model during training. Succ.: success rate, Turn: average turns, Reward: average reward. %(\textit{Rule+} is one variation of Rule agent, which requests and informs all the slots in a pre-defined order exhaustedly, and then confirms with the user about the reserved tickets, thus its \textit{average turn} will be longer.)
+}
+\vspace{-3mm}
+\label{tab:results}
+\end{table*}
+
+\begin{figure*}[htb] \centering 
+\subfigure[Success Rate of User Type A] { \label{fig:learning_curve_typeA} 
+%\includegraphics[width=0.66\columnwidth]{figures/learning_curve_type1.png}}
+\includegraphics[width=0.66\columnwidth]{figures/learning_curve_success_rate_typeA.pdf}}
+\subfigure[Success Rate of User Type B] { \label{fig:learning_curve_typeB} 
+%\includegraphics[width=0.66\columnwidth]{figures/learning_curve_type2.png}}
+\includegraphics[width=0.66\columnwidth]{figures/learning_curve_success_rate_typeB.pdf}}
+\subfigure[Success Rate of User Type C] { \label{fig:learning_curve_typeC} 
+%\includegraphics[width=0.66\columnwidth]{figures/learning_curve_type3.png}}
+\includegraphics[width=0.66\columnwidth]{figures/learning_curve_success_rate_typeC.pdf}}
+%\subfigure[Reward of User Type A] { \label{fig:learning_curve_reward_typeA}
+%\includegraphics[width=0.66\columnwidth]{figures/learning_curve_reward_typeA.pdf}}
+%\subfigure[Reward of User Type B] { \label{fig:learning_curve_reward_typeB} 
+%\includegraphics[width=0.66\columnwidth]{figures/learning_curve_reward_typeB.pdf}}
+%\subfigure[Reward of User Type C] { \label{fig:learning_curve_reward_typeC} 
+%\includegraphics[width=0.66\columnwidth]{figures/learning_curve_reward_typeC.pdf}}
+\vspace{-2mm}
+\caption{Learning curves of dialogue policies for different User Types under simulation} 
+\label{fig:learning_curve} 
+\vspace{-3mm}
+\end{figure*}
+
+%\begin{figure}[htb]
+%\centering
+%\includegraphics[width=1\linewidth]{figures/learning_curve_type3.png}
+%\vspace{-6mm}
+%\caption{Learning curves for dialogue policy}
+%\label{fig:learningcurvetype3}
+%\end{figure}
+
+\subsection{Implementation}
+For the RL agent, we set the size of hidden layer to $80$. For the HRL agent, both top-level and low-level dialogue policies had a hidden layer size of $80$. RMSprop was applied to optimize the parameters. We set batch size to $16$. During training, we used the $\epsilon$-greedy strategy for exploration. For each simulation epoch, we simulated $100$ dialogues and stored these state transition tuples in an experience replay buffer. At the end of each simulation epoch, the model was updated with all the transition tuples in the buffer in a batch manner.
+
+The experience replay strategy is critical to the success of deep reinforcement learning. In our experiments, at the beginning, we used a rule-based agent to run $N$ ($N=100$) dialogues to populate the experience replay buffer, which was an implicit way of imitation learning to initialize the RL agent. Then, the RL agent accumulated all the state transition tuples and flushes the replay buffer only when the current RL agent reached a success rate threshold no worse than that of the \textit{Rule} agent.
+
+This strategy was motivated by the following observation. The initial performance of an RL agent was often not strong enough to result in dialogue sessions with a reasonable success rate.  With such data, it was easy for the agent to learn the locally optimal policy that ``failed fast''; that is, the policy would finish the dialogue immediately, so that the agent could suffer the least amount of per-turn penalty.  Therefore, we provided some rule-based examples that succeeded reasonably often, and did not flush the buffer until the performance of the RL agent reached an acceptable level. Generally, one can set the threshold to be the success rate of the \textit{Rule} agent. To make a fair comparison, for the same type of users, we used the same \textit{Rule} agent to initialize both the RL agent and the HRL agent.
+
+	\begin{table*}[bt!]
+		\footnotesize
+		\centering
+		\caption{Sample dialogue by RL and HRL agents with real user: Left column shows the dialogue with the RL agent; Right column shows the dialogue with the HRL agent; bolded slots are the joint constraints between two subtasks.}
+		%\vspace{2mm}
+		\begin{tabular}[t]{ll}
+			\hline
+			\multicolumn{2}{c}{User Goal} \\
+			\begin{tabular}[ct]{@{}l@{}}
+							\textit{reserve-hotel} subtask:\\
+				\{\\
+				\-\hspace{1mm} ``request\_slots": \{	 \-\hspace{13mm}     ``inform\_slots": \{\\
+				\-\hspace{4mm}    ``hotel\_price": ``?"	\-\hspace{12mm}    \textbf{``hotel\_city": ``Cancun"},\\
+				\-\hspace{4mm}    ``hotel\_date\_checkout": ``?"	\-\hspace{0mm}    \textbf{``hotel\_numberofpeople": ``3"},	\\
+				\-\hspace{4mm}    ``hotel\_name": ``?"	\-\hspace{11mm}    \textbf{``hotel\_date\_checkin": ``09/20"}\\
+				\-\hspace{1mm}  \},		\-\hspace{34mm}  \}\\
+%				\-\hspace{3mm}  "inform\_slots": \{	\\
+%				\-\hspace{6mm}    \textbf{"hotel\_city": "Cancun"},	\\
+%				\-\hspace{6mm}    \textbf{"hotel\_numberofpeople": "3"}, \\
+%				\-\hspace{6mm}    \textbf{"hotel\_date\_checkin": "09/20"}	\\
+%				\-\hspace{3mm}  \}\\
+				\}
+                \\
+                \\
+				\-\hspace{3mm}
+			
+			
+			\end{tabular}  & \begin{tabular}[ct]{@{}l@{}}
+				\textit{book-flight-ticket} subtask:\\
+				\{\\
+				\-\hspace{1mm} ``request\_slots": \{ \-\hspace{8mm}     ``inform\_slots": \{\\
+				\-\hspace{4mm}    ``price": ``?"	\-\hspace{15.5mm}    ``or\_city": ``Campinas",	\\
+				\-\hspace{4mm}    ``return\_time\_dep": ``?"	\-\hspace{2mm}   \textbf{``dst\_city": ``Cancun"},\\
+				\-\hspace{4mm}    ``return\_date\_dep": ``?"	\-\hspace{2.5mm}    \textbf{``numberofpeople": ``3"},\\
+				\-\hspace{4mm}    ``depart\_time\_dep": ``?"				\-\hspace{2mm}    \textbf{``depart\_date\": "9/20"}	\\
+				\-\hspace{4mm}    ``seat": ``?"	\-\hspace{16mm}  \}\\
+				\-\hspace{1mm}  \}	\\
+%				\-\hspace{3mm}  "inform\_slots": \{	\\
+%				\-\hspace{6mm}    "or\_city": "Campinas",	\\
+%				\-\hspace{6mm}   \textbf{"dst\_city": "Cancun"},	\\
+%				\-\hspace{6mm}    \textbf{"numberofpeople": "3"},	\\
+%				\-\hspace{6mm}    \textbf{"depart\_date\_dep": "9/20"}	\\
+%				\-\hspace{3mm}  \}\\
+				\}\\
+			\end{tabular} \\
+			\hline
+			\multicolumn{1}{c|}{\textbf{RL agent}} & \multicolumn{1}{c}{\textbf{HRL agent}} \\
+			%\hline
+			\multicolumn{1}{l|}{
+				\textit{Agent}: Welcome to our travel agent. May I know your} & \textit{Agent}: Welcome to our travel agent. May I know your\\
+			\multicolumn{1}{l|}{
+				original city, destination city and departure date?} & original city, destination city and departure date? \\
+			\multicolumn{1}{l|}{
+				\textit{User}: I depart from Campinas to Cancun and prefer to} & \textit{User}: I depart from Campinas to Cancun and prefer to\\
+			\multicolumn{1}{l|}{
+				leave on 09-20.} & leave on 09-20. \\
+			\multicolumn{1}{l|}{
+				\textit{Agent}: There is a return flight on 9/26 and hotel checkout date} & \textit{Agent}: Only Business class seat is available. \\
+			\multicolumn{1}{l|}{
+				is on 9/26 too.} &  \\
+			\multicolumn{1}{l|}{
+				\textit{User}: My wife and son will travel with me, three people in total.} & \textit{User}: What is the depart time? \\
+			\multicolumn{1}{l|}{
+				\textit{Agent}: \textbox{blue}{There is a hotel called Hotel Tropic available for you.}} & \textit{Agent}:	Departure time is at 10:00AM. \\
+			\multicolumn{1}{l|}{
+				\textit{User}: What depart time is available?} & \textit{User}: My wife and son will travel with me, \\
+			\multicolumn{1}{l|}{
+				 } & three people in total. \\
+			\multicolumn{1}{l|}{
+				\textit{Agent}: Departure time is at 10:00AM.} & \textit{Agent}: There is one return flight departed at 4:00PM. \\
+			\multicolumn{1}{l|}{
+				\textit{User}: What is the departure time of return flight?} & \textit{User}: What is the date of the return flight? \\
+			\multicolumn{1}{l|}{
+				\textit{Agent}: It is 4:00PM.} & \textit{Agent}: It is on 9/26 and hotel checkout date  is also 9/26.\\
+			%\multicolumn{1}{l|}{}
+			%& is also on 9/26. \\
+			\multicolumn{1}{l|}{
+				\textit{User}: Which seat is available?} & \textit{User}:	What's the price for the flight? \\
+			\multicolumn{1}{l|}{
+				\textit{Agent}: Only Business class available.} & \textit{Agent}: Total is 1399 dollars for flight. \\
+			\multicolumn{1}{l|}{
+				\textit{User}: What's the price for the flight?} & \textit{User}: Which hotel is available? \\
+			\multicolumn{1}{l|}{
+				\textit{Agent}: Total is 1399 dollars for flight.} & \textit{Agent}: A hotel called Hotel Tropic is available for you. \\
+			\multicolumn{1}{l|}{
+				\textit{User}: What's the price for the hotel?} & \textit{User}: What's the price for the hotel? \\
+			\multicolumn{1}{l|}{
+				\textit{Agent}: It is 1091 dollars for hotel.} & \textit{Agent}: It is 1091 dollars for hotel. \\
+			\multicolumn{1}{l|}{
+				\textit{User}: Could you please help me book the tickets?} & \textit{User}: Could you please help me book the tickets? \\
+			\multicolumn{1}{l|}{
+				\textit{Agent}: Departure flight on 9/20 and hotel checkin date} & \textit{Agent}: Okay. Tickets are issued. \\
+			\multicolumn{1}{l|}{
+				on 9/20 are available.}  & \\
+			\multicolumn{1}{l|}{
+				\textit{User}: Could you please help me book the tickets?} & \textit{User}: Thanks! \\
+			\multicolumn{1}{l|}{
+				\textit{Agent}: Okay. Tickets are issued.} & \textit{Agent}: Thanks! \\
+			\multicolumn{1}{l|}{
+				\textit{User}: Thanks!} & \\
+			\multicolumn{1}{l|}{
+				\textit{Agent}: Thanks!} & \\
+			\hline
+			\multicolumn{1}{l|}{
+			\textbf{Success}: but the agent does not behave naturally \textbox{blue}{where} is an } & \multicolumn{1}{c}{\textbf{Success}}  \rule{0pt}{1.1\normalbaselineskip} \\
+			\multicolumn{1}{l|}{inter-subtask transition from \textit{book-flight-ticket} to \textit{reserve-hotel}.} &  \\ \hline
+		\end{tabular}
+        %\vspace{-3mm}
+		%\caption{Sample dialogue by RL and HRL agents with real user: Left column shows the dialogue with the RL agent; Right column shows the dialogue with the HRL agent; bolded slots are the joint constraints between two subtasks.}
+		\label{tab:sample_dialogue}
+        \vspace{-2mm}
+	\end{table*}
+
+
+\begin{figure}[htb]
+\centering
+\includegraphics[width=1\linewidth]{figures/all_user_success_combine.png}
+\vspace{-6mm}
+\caption{Performance of HRL agent versus RL agent tested with real users: success rate, number of tested dialogues and p-values are indicated on each bar; the rightmost green ones are for total (difference in mean is significant with $p <$ 0.01).}
+\label{fig:user_success_rate}
+\vspace{-3mm}
+\end{figure}
+%\begin{figure}[htb]
+%\centering
+%\includegraphics[width=1\linewidth]{figures/user_rating_bar.png}
+%\caption{Distribution of user ratings for h-DQN versus DQN, and total.}
+%\label{fig:user_rating}
+%\end{figure}
+\begin{figure}[htb]
+\centering
+\includegraphics[width=1\linewidth]{figures/user_rating_box.png}
+\vspace{-6mm}
+\caption{Distribution of user ratings for HRL agent versus RL agent, and total.}
+\label{fig:user_rating}
+\vspace{-2mm}
+\end{figure}
+
+\subsection{Simulated User Evaluation}
+
+On the composite task-completion dialogue task, we compared the HRL agent with the baseline agents in terms of three metrics: success rate\footnote{Success rate is the fraction of dialogues where the tasks are successfully accomplished within the maximum turns. 
+%A successful dialogue is defined as the tickets are booked and information provided by agents satisfies user's constrains.
+}, average rewards, and the average number of turns per dialogue session.
+
+%\todo{XL: check here}
+%\todo[color=blue!40]{BP: for type B and C, rewards read from the curve is lower than the number in tab. 1. That is because we used max\_turn 60(to align with RLagent) for testing but 80 for training.}
+
+Figure~\ref{fig:learning_curve} shows the learning curves of all four agents trained on different types of users. Each learning curve was averaged over $10$ runs. Table~\ref{tab:results} shows the performance on test data. For all types of users, the HRL-based agent yielded more robust dialogue policies outperforming the hand-crafted rule-based agents and flat RL-based agent measured on success rate.  It also needed fewer turns per dialogue session to accomplish a task than the rule-based agents and flat RL agent.
+%For all types of users, the RL-based agents find better dialogue policies than the hand-crafted rule-based agent does. The RL and HRL agents achieve higher success rate and need fewer conversation turns to achieve users' goals than the rule-based agent. %For Type B and C users who may need to go back to revise some slots during the dialogue, the performance of the \textit{flat RL Agent} drops by a large amount due to the increased complexity of the task, which requires more dialogue turns and poses a challenge for credit assignment. 
+The results across all three types of simulated users suggest the following conclusions.
+
+First, he HRL agent significantly outperformed the RL agent. This, to a large degree, was attributed to the use of the hierarchical structure of the proposed agent. Specifically, the top-level dialogue policy selected a subtask for the agent to focus on, one at a time, thus dividing a complex task into a sequence of simpler subtasks. The selected subtasks, combined with the use of intrinsic rewards, alleviated the sparse reward and long-horizon issues, and helped the agent explore more efficiently in the state-action space. As a result, as shown in Figure~\ref{fig:learning_curve} and Table~\ref{tab:results}, the performance of the HRL agent on types B and C users (who may need to go back to revise some slots during the dialogue) does not drop much compared to type A users, despite the increased search space in the former. Additionally, we observed a large drop in the performance of the RL Agent due to the increased complexity of the task, which required more dialogue turns and posed a challenge for temporal credit assignment.
+
+Second, the HRL agent learned much faster than the RL agent. The HRL agent could reach the same level of performance with a smaller number of simulation examples than the RL agent, %The HRL agent converges to a near-optimal dialogue policy with a smaller number of simulation examples than the RL agent, 
+demonstrating that the hierarchical dialogue policies were more sample-efficient than flat RL policy and could significantly reduce the sample complexity on complex tasks.
+
+Finally, we also found that the \textit{Rule}+ and \textit{flat} RL agents had comparable success rates, as shown in Figure~\ref{fig:learning_curve}. However, a closer look at the correlation between success rate and the average number of turns in Table~\ref{tab:results} suggests that the \textit{Rule}+ agent required more turns which adversely affects its success, whilst the \textit{flat} RL agent achieves similar success with much less number of turns in all the user types. It suffices to say that our hierarchical RL agent outperforms all in terms of success rate as depicted in Figure~\ref{fig:learning_curve}.
+%\todo{Need some rewording for this paragraph.}
+
+\subsection{Human Evaluation}
+
+We further evaluated the agents, which were trained on simulated users, against real human users, recruited from the authors' affiliation. We conducted the study using the HRL and RL agents, each tested against two types of users: \emph{Type A} users who had no preference for subtask, and \emph{Type B} users who preferred to complete the \textit{book-flight-ticket} subtask first. Note that \emph{Type C} users were symmetric to Type B ones, so were not included in the study.  We compared two (agent, user type) pairs: \{RL A, HRL A\} and \{RL B, HRL B\}; in other words, four agents were trained against their specific user types. In each dialogue session, one of the agents was randomly picked to converse with a user. %The users are asked to initial the dialogue by informing some slots and respond to the agent's following replies.
+The user was presented with a user goal sampled from our corpus, and was instructed to converse with the agent to complete the task. If one of the slots in the goal had multiple values, the user had multiple choices for this slot and might revise the slot value when the agent replied with a message like ``No ticket is available" during the conversation. At the end of each session, the user was asked to give a rating on a scale from $1$ to $5$ based on the naturalness and coherence of the dialogue. ($1$ is the worst rating, and $5$ the best). We collected a total of $225$ dialogue sessions from $12$ human users.
+%\todo{How many are included in the study?}
+
+Figure~\ref{fig:user_success_rate} presents the performance of these agents against real users in terms of success rate. Figure~\ref{fig:user_rating} shows the comparison in user rating. For all the cases, the HRL agent was consistently better than the RL agent in terms of success rate and user rating. Table~\ref{tab:sample_dialogue} shows a sample dialogue session. We see that the HRL agent produced a more coherent conversation, as it switched among subtasks much less frequently than the \textit{flat} RL agent.
+
+%\subsection{Sample dialogues}
+%Table~\ref{tab:sample_dialogue} shows one sample dialogue generated by DQN and h-DQN agents interacting with real user. To be informative, we explicitly show the user goal at the head of dialogue, this is to just help the user to accomplish this goal and book the right tickets; actually during the conversation the agent knows nothing about the user goal.
+
+\section{Discussion and Conclusions}
+
+This paper considers composite task-completion dialogues, where a set of subtasks need to be fulfilled collectively for the entire dialogue to be successful. We formulate the policy learning problem using the options framework, and take a hierarchical deep RL approach to optimizing the policy. Our experiments, both on simulated and real users, show that the hierarchical RL agent significantly outperforms a flat RL agent and rule-based agents. The hierarchical structure of the agent also improves the coherence of the dialogue flow.
+
+The promising results suggest several directions for future research. First, the hierarchical RL approach demonstrates strong adaptation ability to tailor the dialogue policy to different types of users. This motivates us to systematically investigate its use for dialogue \textit{personalization}. Second, our hierarchical RL agent is implemented using a two-level dialogue policy. But more complex tasks might require multiple levels of hierarchy. Thus, it is valuable to extend our approach to handle such deep hierarchies, where a subtask can invoke another subtask and so on, taking full advantage of the options framework. Finally, designing task hierarchies requires substantial domain knowledge and is time-consuming. This challenge calls for future work on automatic learning of hierarchies for complex dialogue tasks.
+
+\section*{Acknowledgments}
+Baolin Peng was in part supported by General Research Fund of Hong Kong (14232816). We would like thank anonymous reviewers for their insightful comments.
+%Furthermore, hierarchical reinforcement learning algorithms demonstrate several useful features: (1) strong capabilities in reducing the sample complexity, which accelerates the training of complicated tasks that have an intrinsic hierarchical structure; (2) strong adaptation abilities to customize the dialogue policy for different types of users, which suggests the interesting direction to use hierarchical reinforcement learning agents for personalization in a composite task-completion dialogue setting. Both flat and hierarchical deep reinforcement learning agents in this work use feedforward neural networks.  Given the observation that we found occasionally the agents might ask repeated questions, we conjecture it is helpful to use recurrent networks to alleviate this issue and save more turns in the dialogue. Moreover, the best agent on this task is a two-level dialogue policy, while a lot of complex tasks have multi-level hierarchies, it is not straightforward to extend a two-level hierarchy to multi-level one, and deriving such hierarchy usually asks for domain-specific knowledge.  This challenge leads to another exciting direction for future work, to develop a model which can automatically learn the subtask hierarchy of a complex dialogue problem.
+
+%\clearpage
+\bibliography{emnlp2017}
+\bibliographystyle{emnlp_natbib}
+
+
+\newpage
+\appendix
+
+\section{User Simulator}
+\label{app:appendix_us}
+\paragraph{User Goal} In the task-completion dialogue setting, the first step of user simulator is to generate a feasible user goal. Generally, a user goal is defined with two types of slots: \emph{request} slots that user does not know the value and expects the agent to provide it through the conversation; \emph{inform} slots is slot-value pairs that user know in the mind, serving as \emph{soft}/\emph{hard} constraints in the dialog; slots that have multiple values are termed as \emph{soft} constraints, which means user has preference, and user might change its value when there is no result returned from the agent based on the current values; otherwise, slots that have with only one value serve as \emph{hard} constraint. Table~\ref{tab:user_goal} shows an example of a user goal in the composite task-completion dialogue.
+
+\begin{table}[htbp]
+\small
+\centering
+\begin{tabular}{|c|c|c|}
+\hline 
+& \textit{book-flight-ticket} & \textit{reserve-hotel}\\ 
+\hline
+\multirow{5}{*}{\begin{sideways}inform\end{sideways}} & \textbf{dst\_city}=LA & \textbf{hotel\_city}=LA \\
+& \textbf{numberofpeople}=2 & \textbf{hotel\_numberofpeople}=2\\ 
+& \textbf{depart\_date\_dep}=09-04 & \textbf{hotel\_date\_checkin}=09-04\\
+& or\_city=Toronto &\\
+& seat=economy &\\
+\hline
+\multirow{4}{*}{\begin{sideways}request\end{sideways}}& price=?&hotel\_price=?\\
+& return\_time\_dep=?&hotel\_date\_checkout=?\\
+& return\_date\_dep=?&hotel\_name=?\\
+& depart\_time\_dep=?&\\
+\hline
+\end{tabular}
+\caption{An example of user goal}
+\label{tab:user_goal}
+\end{table}
+
+\paragraph{First User Act} 
+This work focuses on user-initiated dialogues, so we randomly generate a user action as the first turn (a user turn). To make the first user-act more reasonable, we add some constraints in the generation process. For example, the first user turn can be inform or request turn; it has at least two informable slots, if the user knows the original and destination cities, \emph{or\_city} and \emph{dst\_city} will appear in the first user turn etc.; If the intent of first turn is request, it will contain one requestable slot.
+
+During the course of a dialogue, the user simulator maintains a compact stack-like representation named as \emph{user agenda}~\cite{schatzmann2009hidden}, where the user state $s_u$ is factored into an agenda $A$ and a goal $G$, which consists of constraints $C$ and request $R$. At each time-step $t$, the user simulator will generate the next user action $a_{u,t}$ based on the its current status $s_{u,t}$ and the last agent action $a_{m,t-1}$, and then update the current status $s'_{u,t}$. Here, when training or testing a policy without natural language understanding (NLU) module, an error model~\cite{li2017investigation} 
+%\todo{LL: 2017a and 2017b have been merged into one single paper now?}
+is introduced to simulate the noise from the NLU component, and noisy communication between the user and agent.
+
+
+\section{Algorithms}
+\label{app:appendix_algo}
+Algorithm~\ref{algo:hdqn} outlines the full procedure for training hierarchical dialogue policies in this composite task-completion dialogue system.
+
+\begin{algorithm*}[!bt]
+\caption{Learning algorithm for HRL agent in composite task-completion dialogue}
+\begin{algorithmic}[1]
+\STATE Initialize experience replay buffer $\mathcal{D}_1$ for meta-controller and $\mathcal{D}_2$ for controller.
+\STATE Initialize $Q_1$ and $Q_2$ network with random weights.
+\STATE Initialize dialogue simulator and load knowledge base.
+\FOR {$episode$=1:N}
+\STATE Restart dialogue simulator and get state description $s$
+\WHILE{s is not terminal}
+\STATE $extrinsic\_reward := 0$
+\STATE $s_0 := s$
+\STATE select a subtask $g$ based on probability distribution $\pi(g|s)$ and exploration probability $\epsilon_g$
+\WHILE {s is not terminal and subtask g is not achieved}
+\STATE select an action $a$ based on the distribution $\pi(a|s,g)$ and exploration probability $\epsilon_c$
+\STATE Execute action $a$, obtain next state description $s'$, perceive extrinsic reward $r^e$ from environment
+\STATE Obtain intrinsic reward  $r^i$ from internal critic
+\STATE Sample random minibatch of transitions from $\mathcal{D}_1$
+\STATE	$y = \begin{cases} r^i &\mbox{if} s' \mbox{ is terminal} \\ r^i + \gamma * max_{a'} Q_1(\{s',g\},a';\theta_1) & \mbox{oterwise}\end{cases}$
+\STATE Perform gradient descent on loss $\mathcal{L}(\theta_1)$ according to equation \ref{eq:g1}
+\STATE Store transition(\{$s$,$g$\},a,$r^i$,\{$s'$,$g$\}) in $\mathcal{D}_1$
+\STATE Sample random minibatch of transitions from $\mathcal{D}_2$
+\STATE	$y = \begin{cases} r^e &\mbox{if} s' \mbox{ is terminal} \\ r^e + \gamma * max_{a'} Q_2(s',g',a';\theta_2) & \mbox{oterwise}\end{cases}$
+\STATE Perform gradient descent on loss $\mathcal{L}(\theta_2)$  according to equation \ref{eq:g2}
+\STATE $extrinsic\_reward$ += $r^e$
+\STATE $s = s'$
+\ENDWHILE
+\STATE Store transition ($s_0$, $g$, $extrinsic\_reward$, $s'$) in $\mathcal{D}_2$
+%\IF{s is not terminal}
+%\STATE select an action $a$ based on the distribution $\pi(a|s,g)$ and exploration probability $\epsilon_c$
+%\ENDIF
+\ENDWHILE
+\ENDFOR
+\end{algorithmic}
+\label{algo:hdqn}
+\end{algorithm*}
+    
+\end{document}

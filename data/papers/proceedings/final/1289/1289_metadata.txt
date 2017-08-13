@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#1289
+FinalPaperTitle#=%=#KGEval: Accuracy Estimation of Automatically Constructed Knowledge Graphs
+ShortPaperTitle#=%=#KGEval: Accuracy Estimation of Automatically Constructed Knowledge Graphs
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Prakhar Ojha
+JobTitle#==#
+Organization#==#Indian Institute of Science, Bangalore, India 560012
+Abstract#==#Automatic construction of large knowledge graphs (KG) by mining web-scale text
+datasets has received considerable attention recently. Estimating accuracy of
+such automatically constructed KGs is a challenging problem due to their size
+and diversity. This important problem has largely been ignored in prior
+research – we fill this gap and propose KGEval. KGEval uses coupling
+constraints to bind facts and crowdsources those few that can infer large parts
+of the graph. We demonstrate that the objective optimized by KGEval is
+submodular and NP-hard, allowing guarantees for our approximation algorithm.
+Through experiments on real-world datasets, we demonstrate that KGEval best
+estimates KG accuracy compared to other baselines, while requiring
+significantly lesser number of human evaluations.
+Author{1}{Firstname}#=%=#Prakhar
+Author{1}{Lastname}#=%=#Ojha
+Author{1}{Email}#=%=#prakharojha992@gmail.com
+Author{1}{Affiliation}#=%=#Indian Institute of Science
+Author{2}{Firstname}#=%=#Partha
+Author{2}{Lastname}#=%=#Talukdar
+Author{2}{Email}#=%=#ppt@cds.iisc.ac.in
+Author{2}{Affiliation}#=%=#Indian Institute of Science
+
+==========

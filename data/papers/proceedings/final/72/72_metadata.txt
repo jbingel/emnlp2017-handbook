@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#72
+FinalPaperTitle#=%=#Latent Space Embedding for Retrieval in Question-Answer Archives
+ShortPaperTitle#=%=#Latent Space Embedding for Retrieval in Question-Answer Archives
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#DEEPAK P
+JobTitle#==#
+Organization#==#
+Abstract#==#Community-driven Question Answering (CQA) systems such as Yahoo! Answers have
+become valuable sources of reusable information. CQA retrieval enables usage of
+historical CQA archives to solve new questions posed by users. This task has
+received much recent attention, with methods building upon literature from
+translation models, topic models, and deep learning. In this paper, we devise a
+CQA retrieval technique, LASER-QA, that embeds question-answer pairs within a
+unified latent space preserving the local neighborhood structure of question
+and answer spaces. The idea is that such a space mirrors semantic similarity
+among questions as well as answers, thereby enabling high quality retrieval.
+Through an empirical analysis on various real-world QA datasets, we illustrate
+the improved effectiveness of LASER-QA over state-of-the-art methods.
+Author{1}{Firstname}#=%=#Deepak
+Author{1}{Lastname}#=%=#P
+Author{1}{Email}#=%=#deepaksp@acm.org
+Author{1}{Affiliation}#=%=#Queen's University Belfast
+Author{2}{Firstname}#=%=#Dinesh
+Author{2}{Lastname}#=%=#Garg
+Author{2}{Email}#=%=#dgarg@iitgn.ac.in
+Author{2}{Affiliation}#=%=#Indian Institute of Technology Gandhinagar
+Author{3}{Firstname}#=%=#Shirish
+Author{3}{Lastname}#=%=#Shevade
+Author{3}{Email}#=%=#shirish@csa.iisc.ernet.in
+Author{3}{Affiliation}#=%=#Indian Institute of Science
+
+==========

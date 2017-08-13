@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1526
+FinalPaperTitle#=%=#Joint Prediction of Word Alignment with Alignment Types
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Current word alignment models do not distinguish between different types of
+alignment links. In this paper, we provide a new probabilistic model for word
+alignment where word alignments are associated with linguistically motivated
+alignment types. We propose a novel task of joint prediction of word alignment
+and alignment types and propose novel semi-supervised learning algorithms for
+this task. We also solve a sub-task of predicting the alignment type given an
+aligned word pair. In our experimental results, the generative models we
+introduce to model alignment types significantly outperform the models without
+alignment types.
+Author{1}{Firstname}#=%=#Anahita
+Author{1}{Lastname}#=%=#Mansouri Bigvand
+Author{1}{Email}#=%=#amansour@cs.sfu.ca
+Author{1}{Affiliation}#=%=#School of Computing Science, Simon Fraser University
+Author{2}{Firstname}#=%=#Te
+Author{2}{Lastname}#=%=#Bu
+Author{2}{Email}#=%=#tbu@cs.sfu.ca
+Author{2}{Affiliation}#=%=#School of Computing Science, Simon Fraser University
+Author{3}{Firstname}#=%=#Anoop
+Author{3}{Lastname}#=%=#Sarkar
+Author{3}{Email}#=%=#anoop@cs.sfu.ca
+Author{3}{Affiliation}#=%=#School of Computing Science, Simon Fraser University
+
+==========

@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#247
+FinalPaperTitle#=%=#A Novel Cascade Model for Learning Latent Similarity from Heterogeneous Sequential Data of MOOC
+ShortPaperTitle#=%=#Learning Latent Similarity from Heterogeneous MOOC Data
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Zhuoxuan Jiang
+JobTitle#==#
+Organization#==#Peking University
+Yiheyuan Road #5, Haidian District, Beijing, China
+Abstract#==#Recent years have witnessed the proliferation of Massive Open Online Courses
+(MOOCs). With massive learners being offered MOOCs, there is a demand that the
+forum contents within MOOCs need to be classified in order to facilitate both
+learners and instructors. Therefore we investigate a significant application,
+which is to associate forum threads to subtitles of video clips. This task can
+be regarded as a document ranking problem, and the key is how to learn a
+distinguishable text representation from word sequences and learners' behavior
+sequences. In this paper, we propose a novel cascade model, which can capture
+both the latent semantics and latent similarity by modeling MOOC data.
+Experimental results on two real-world datasets demonstrate that our textual
+representation outperforms state-of-the-art unsupervised counterparts for the
+application.
+Author{1}{Firstname}#=%=#Zhuoxuan
+Author{1}{Lastname}#=%=#Jiang
+Author{1}{Email}#=%=#jzhx@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Shanshan
+Author{2}{Lastname}#=%=#Feng
+Author{2}{Email}#=%=#sfeng003@e.ntu.edu.sg
+Author{2}{Affiliation}#=%=#Nanyang Technological University
+Author{3}{Firstname}#=%=#Gao
+Author{3}{Lastname}#=%=#Cong
+Author{3}{Email}#=%=#gaocong@ntu.edu.sg
+Author{3}{Affiliation}#=%=#Nanyang Technological University
+Author{4}{Firstname}#=%=#Chunyan
+Author{4}{Lastname}#=%=#Miao
+Author{4}{Email}#=%=#ASCYMiao@ntu.edu.sg
+Author{4}{Affiliation}#=%=#Nanyang Technological University
+Author{5}{Firstname}#=%=#Xiaoming
+Author{5}{Lastname}#=%=#Li
+Author{5}{Email}#=%=#lxm@pku.edu.cn
+Author{5}{Affiliation}#=%=#Peking University
+
+==========

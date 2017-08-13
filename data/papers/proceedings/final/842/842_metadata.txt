@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#842
+FinalPaperTitle#=%=#Split and Rephrase
+ShortPaperTitle#=%=#Split and Rephrase
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Shashi Narayan
+JobTitle#==#
+Organization#==#School of Informatics
+University of Edinburgh
+Abstract#==#We propose a new sentence simplification task (Split-and-Rephrase) where the
+aim is to split a complex sentence into a meaning preserving sequence of
+shorter sentences. Like sentence simplification, splitting-and-rephrasing has
+the potential of benefiting both natural language processing and societal
+applications. Because shorter sentences are generally better processed by NLP
+systems, it could be used as a preprocessing step which facilitates and
+improves the performance of parsers, semantic role labellers and machine
+translation systems. It should also be of use for people with reading
+disabilities because it allows the conversion of longer sentences into shorter
+ones. This paper makes two contributions towards this new task. First, we
+create and make available a benchmark consisting of 1,066,115 tuples mapping a
+single complex sentence to a sequence of sentences expressing the same meaning.
+Second, we propose five models (vanilla sequence-to-sequence to
+semantically-motivated models) to understand the difficulty of the proposed
+task.
+Author{1}{Firstname}#=%=#Shashi
+Author{1}{Lastname}#=%=#Narayan
+Author{1}{Email}#=%=#shashi.narayan@ed.ac.uk
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Claire
+Author{2}{Lastname}#=%=#Gardent
+Author{2}{Email}#=%=#claire.gardent@loria.fr
+Author{2}{Affiliation}#=%=#CNRS/LORIA, Nancy
+Author{3}{Firstname}#=%=#Shay B.
+Author{3}{Lastname}#=%=#Cohen
+Author{3}{Email}#=%=#scohen@inf.ed.ac.uk
+Author{3}{Affiliation}#=%=#University of Edinburgh
+Author{4}{Firstname}#=%=#Anastasia
+Author{4}{Lastname}#=%=#Shimorina
+Author{4}{Email}#=%=#anastasia.shimorina@loria.fr
+Author{4}{Affiliation}#=%=#LORIA, Nancy
+
+==========

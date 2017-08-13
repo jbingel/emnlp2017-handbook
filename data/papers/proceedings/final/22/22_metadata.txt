@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#22
+FinalPaperTitle#=%=#From Textbooks to Knowledge: A Case Study in Harvesting Axiomatic Knowledge from Textbooks to Solve Geometry Problems
+ShortPaperTitle#=%=#From Textbooks to Knowledge: A Case Study in Harvesting Axiomatic Knowledge from Textbooks to Solve Geometry Problems
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Mrinmaya Sachan
+JobTitle#==#
+Organization#==#Carnegie Mellon University
+5000 Forbes Ave
+Pittsburgh
+PA 15213
+USA
+Abstract#==#Textbooks are rich sources of information. Harvesting structured knowledge from
+textbooks is a key challenge in many educational applications. As a case study,
+we present an approach for harvesting structured axiomatic knowledge from math
+textbooks. Our approach uses rich contextual and typographical features
+extracted from raw textbooks. It leverages the redundancy and shared ordering
+across multiple textbooks to further refine the harvested axioms. These axioms
+are then parsed into rules that are used to improve the state-of-the-art in
+solving geometry problems.
+Author{1}{Firstname}#=%=#Mrinmaya
+Author{1}{Lastname}#=%=#Sachan
+Author{1}{Email}#=%=#mrinmayaster@gmail.com
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Kumar
+Author{2}{Lastname}#=%=#Dubey
+Author{2}{Email}#=%=#avinava.dubey@gmail.com
+Author{2}{Affiliation}#=%=#Carnegie Mellon University
+Author{3}{Firstname}#=%=#Eric
+Author{3}{Lastname}#=%=#Xing
+Author{3}{Email}#=%=#epxing@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+
+==========

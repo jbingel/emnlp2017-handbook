@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#392
+FinalPaperTitle#=%=#A Simple Language Model based on PMI Matrix Approximations
+ShortPaperTitle#=%=#A Simple Language Model based on PMI Matrix Approximations
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Oren Melamud
+JobTitle#==#
+Organization#==#
+Abstract#==#In this study, we introduce a new approach for learning language models by
+training them to estimate word-context pointwise mutual information (PMI), and
+then deriving the desired conditional probabilities from PMI at test time.
+Specifically, we show that with minor modifications to word2vec's algorithm, we
+get principled language models that are closely related to the well-established
+Noise Contrastive Estimation (NCE) based language models. A compelling aspect
+of our approach is that our models are trained with the same simple negative
+sampling objective function that is commonly used in word2vec to learn word
+embeddings.
+Author{1}{Firstname}#=%=#Oren
+Author{1}{Lastname}#=%=#Melamud
+Author{1}{Email}#=%=#oren@melamuds.com
+Author{1}{Affiliation}#=%=#IBM
+Author{2}{Firstname}#=%=#Ido
+Author{2}{Lastname}#=%=#Dagan
+Author{2}{Email}#=%=#dagan@cs.biu.ac.il
+Author{2}{Affiliation}#=%=#Bar-Ilan University
+Author{3}{Firstname}#=%=#Jacob
+Author{3}{Lastname}#=%=#Goldberger
+Author{3}{Email}#=%=#jacob.goldberger@biu.ac.il
+Author{3}{Affiliation}#=%=#Bar-Ilan University
+
+==========

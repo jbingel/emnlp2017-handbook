@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#1211
+FinalPaperTitle#=%=#Rotated Word Vector Representations and their Interpretability
+ShortPaperTitle#=%=#Rotated Word Vector Representations and their Interpretability
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Sungjoon Park
+JobTitle#==#
+Organization#==#
+Abstract#==#Vector representation of words improves performance in various NLP tasks, but
+the high dimensional word vectors are very difficult to interpret. We apply
+several rotation algorithms to the vector representation of words to improve
+the interpretability. Unlike previous approaches that induce sparsity, the
+rotated vectors are interpretable while preserving the expressive performance
+of the original vectors. Furthermore, any prebuilt word vector representation
+can be rotated for improved interpretability. We apply rotation to skipgrams
+and glove and compare the expressive power and interpretability with the
+original vectors and the sparse overcomplete vectors. The results show that the
+rotated vectors outperform the original and the sparse overcomplete vectors for
+interpretability and expressiveness tasks.
+Author{1}{Firstname}#=%=#Sungjoon
+Author{1}{Lastname}#=%=#Park
+Author{1}{Email}#=%=#sungjoon.park@kaist.ac.kr
+Author{1}{Affiliation}#=%=#Korea Advanced Institute of Science and Technology
+Author{2}{Firstname}#=%=#JinYeong
+Author{2}{Lastname}#=%=#Bak
+Author{2}{Email}#=%=#jy.bak@kaist.ac.kr
+Author{2}{Affiliation}#=%=#KAIST
+Author{3}{Firstname}#=%=#Alice
+Author{3}{Lastname}#=%=#Oh
+Author{3}{Email}#=%=#alice.oh@kaist.edu
+Author{3}{Affiliation}#=%=#KAIST
+
+==========

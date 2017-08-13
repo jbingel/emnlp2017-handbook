@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#1377
+FinalPaperTitle#=%=#TAG Parsing with Neural Networks and Vector Representations of Supertags
+ShortPaperTitle#=%=#TAG Parsing with Neural Networks and Vector Representations of Supertags
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Jungo Kasai
+JobTitle#==#
+Organization#==#Yale University, 51 Prospect St, New Haven, CT 06511, USA
+Abstract#==#We present supertagging-based models for Tree Adjoining Grammar parsing that
+use neural network architectures and dense vector representation of supertags
+(elementary trees) to achieve state-of-the-art performance in unlabeled and
+labeled attachment scores. The shift-reduce parsing model eschews lexical
+information entirely, and uses only the 1-best supertags to parse a sentence,
+providing further support for the claim that supertagging is "almost parsing."
+We demonstrate that the embedding vector representations the parser induces for
+supertags possess linguistically interpretable structure, supporting analogies
+between grammatical structures like those familiar from recent work in
+distributional semantics. This dense representation of supertags overcomes the
+drawbacks for statistical models of TAG as compared to CCG parsing, raising the
+possibility that TAG is a viable alternative for NLP tasks that require the
+assignment of richer structural descriptions to sentences.
+Author{1}{Firstname}#=%=#Jungo
+Author{1}{Lastname}#=%=#Kasai
+Author{1}{Email}#=%=#jungo.kasai@yale.edu
+Author{1}{Affiliation}#=%=#Yale University
+Author{2}{Firstname}#=%=#Bob
+Author{2}{Lastname}#=%=#Frank
+Author{2}{Email}#=%=#bob.frank@yale.edu
+Author{2}{Affiliation}#=%=#Yale University
+Author{3}{Firstname}#=%=#Tom
+Author{3}{Lastname}#=%=#McCoy
+Author{3}{Email}#=%=#richard.mccoy@yale.edu
+Author{3}{Affiliation}#=%=#Yale University
+Author{4}{Firstname}#=%=#Owen
+Author{4}{Lastname}#=%=#Rambow
+Author{4}{Email}#=%=#rambow@ccls.columbia.edu
+Author{4}{Affiliation}#=%=#Columbia University
+Author{5}{Firstname}#=%=#Alexis
+Author{5}{Lastname}#=%=#Nasr
+Author{5}{Email}#=%=#alexis.nasr@lif.univ-mrs.fr
+Author{5}{Affiliation}#=%=#Aix Marseille University
+
+==========

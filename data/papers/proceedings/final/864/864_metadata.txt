@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#864
+FinalPaperTitle#=%=#Sparse Communication for Distributed Gradient Descent
+ShortPaperTitle#=%=#Sparse Communication for Distributed Gradient Descent
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Alham Fikri Aji
+JobTitle#==#
+Organization#==#School of Informatics, University of Edinburgh
+10 Crichton Street
+Edinburgh EH8 9AB
+Scotland, European Union
+Abstract#==#We make distributed stochastic gradient descent faster by exchanging sparse
+updates instead of dense updates. Gradient updates are positively skewed as
+most updates are near zero, so we map the 99% smallest updates (by absolute
+value) to zero then exchange sparse matrices. This method can be combined with
+quantization to further improve the compression. We explore different
+configurations and apply them to neural machine translation and MNIST image
+classification tasks. Most configurations work on MNIST, whereas different
+configurations reduce convergence rate on the more complex translation task.
+Our experiments show that we can achieve up to 49% speed up on MNIST and 22% on
+NMT without damaging the final accuracy or BLEU.
+Author{1}{Firstname}#=%=#Alham Fikri
+Author{1}{Lastname}#=%=#Aji
+Author{1}{Email}#=%=#afaji321@gmail.com
+Author{1}{Affiliation}#=%=#University of Edinburgh
+Author{2}{Firstname}#=%=#Kenneth
+Author{2}{Lastname}#=%=#Heafield
+Author{2}{Email}#=%=#softconf@kheafield.com
+Author{2}{Affiliation}#=%=#University of Edinburgh
+
+==========

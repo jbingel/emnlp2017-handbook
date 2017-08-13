@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#142
+FinalPaperTitle#=%=#Improving Slot Filling Performance with Attentive Neural Networks on Dependency Structures
+ShortPaperTitle#=%=#Improving Slot Filling Performance with Attentive Neural Networks on Dependency Structures
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Lifu Huang
+JobTitle#==#
+Organization#==#Rensselaer Polytechnic Institute, 110 8th St, Troy, NY 12180
+Abstract#==#Slot Filling (SF) aims to extract the values of certain types of attributes (or
+slots, such as person:cities\_of\_residence) for a given entity from a large
+collection of source documents. 
+In this paper we propose an effective DNN architecture for SF with the
+following new strategies: (1). Take a regularized dependency graph instead of a
+raw sentence as input to DNN, to compress the wide contexts between query and
+candidate filler; (2). Incorporate two attention mechanisms: local attention
+learned from query and candidate filler, and global attention learned from
+external knowledge bases, to guide the model to better select indicative
+contexts to determine slot type. Experiments show that this framework
+outperforms state-of-the-art on both relation extraction (16% absolute F-score
+gain) and slot filling validation for each individual system (up to 8.5%
+absolute F-score gain).
+Author{1}{Firstname}#=%=#Lifu
+Author{1}{Lastname}#=%=#Huang
+Author{1}{Email}#=%=#warrior.fu@gmail.com
+Author{1}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{2}{Firstname}#=%=#Avirup
+Author{2}{Lastname}#=%=#Sil
+Author{2}{Email}#=%=#avi@us.ibm.com
+Author{2}{Affiliation}#=%=#IBM T.J. Watson Research Center
+Author{3}{Firstname}#=%=#Heng
+Author{3}{Lastname}#=%=#Ji
+Author{3}{Email}#=%=#jih@rpi.edu
+Author{3}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{4}{Firstname}#=%=#Radu
+Author{4}{Lastname}#=%=#Florian
+Author{4}{Email}#=%=#raduf@us.ibm.com
+Author{4}{Affiliation}#=%=#IBM Research
+
+==========

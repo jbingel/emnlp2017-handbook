@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#614
+FinalPaperTitle#=%=#Efficient Discontinuous Phrase-Structure Parsing via the Generalized Maximum Spanning Arborescence
+ShortPaperTitle#=%=#Efficient Discontinuous Phrase-Structure Parsing via the Generalized Maximum Spanning Arborescence
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Caio Corro
+JobTitle#==#Ph.D. student
+Organization#==#LIPN – UMR CNRS 7030 / ID 0148
+Université Sorbonne Paris Cité
+99, avenue J.B. Clément
+93430 Villetaneuse (France)
+Abstract#==#We present a new method for the joint task of tagging and non-projective
+dependency parsing. We demonstrate its usefulness with an application to
+discontinuous phrase-structure parsing where decoding lexicalized spines and
+syntactic derivations is performed jointly. The main contributions of this
+paper are (1) a reduction from joint tagging and non-projective dependency
+parsing to the Generalized Maximum Spanning Arborescence problem, and (2) a
+novel decoding algorithm for this problem through Lagrangian relaxation. We
+evaluate this model and obtain state-of-the-art results despite strong
+independence assumptions.
+Author{1}{Firstname}#=%=#Caio
+Author{1}{Lastname}#=%=#Corro
+Author{1}{Email}#=%=#corro@lipn.univ-paris13.fr
+Author{1}{Affiliation}#=%=#Laboratoire d'Informatique de Paris Nord
+Author{2}{Firstname}#=%=#Joseph
+Author{2}{Lastname}#=%=#Le Roux
+Author{2}{Email}#=%=#joseph.le.roux@gmail.com
+Author{2}{Affiliation}#=%=#Université Paris Nord
+Author{3}{Firstname}#=%=#Mathieu
+Author{3}{Lastname}#=%=#Lacroix
+Author{3}{Email}#=%=#mathieu.lacroix@lipn.univ-paris13.fr
+Author{3}{Affiliation}#=%=#Université Paris Nord
+
+==========

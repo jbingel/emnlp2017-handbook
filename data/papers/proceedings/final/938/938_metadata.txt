@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#938
+FinalPaperTitle#=%=#Reference-Aware Language Models
+ShortPaperTitle#=%=#Reference-Aware Language Models
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Zichao Yang
+JobTitle#==#
+Organization#==#CMU
+Abstract#==#We propose a general class of language models that treat reference as discrete
+stochastic latent variables. This decision allows for the creation of entity
+mentions by accessing external databases of referents (required by, e.g.,
+dialogue generation) or past internal state (required to explicitly model
+coreferentiality). Beyond simple copying, our coreference model can
+additionally refer to a referent using varied mention forms (e.g., a reference
+to “Jane” can be realized as “she”), a characteristic feature of
+reference in natural languages. Experiments on three representative
+applications show our model variants outperform models based on deterministic
+attention and standard language modeling baselines.
+Author{1}{Firstname}#=%=#Zichao
+Author{1}{Lastname}#=%=#Yang
+Author{1}{Email}#=%=#zichaoy@cs.cmu.edu
+Author{1}{Affiliation}#=%=#CMU
+Author{2}{Firstname}#=%=#Phil
+Author{2}{Lastname}#=%=#Blunsom
+Author{2}{Email}#=%=#pblunsom@google.com
+Author{2}{Affiliation}#=%=#Google
+Author{3}{Firstname}#=%=#Chris
+Author{3}{Lastname}#=%=#Dyer
+Author{3}{Email}#=%=#cdyer@google.com
+Author{3}{Affiliation}#=%=#Google
+Author{4}{Firstname}#=%=#Wang
+Author{4}{Lastname}#=%=#Ling
+Author{4}{Email}#=%=#lingwang@google.com
+Author{4}{Affiliation}#=%=#Google
+
+==========

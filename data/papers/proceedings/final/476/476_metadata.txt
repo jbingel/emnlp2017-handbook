@@ -1,0 +1,27 @@
+SubmissionNumber#=%=#476
+FinalPaperTitle#=%=#Zipporah: a Fast and Scalable Data Cleaning System for Noisy Web-Crawled Parallel Corpora
+ShortPaperTitle#=%=#Zipporah: Fast Scalable Data Cleaning for Noisy Parallel Corpora
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Hainan Xu
+JobTitle#==#
+Organization#==#Johns Hopkins University
+3400 N. Charles Street
+Baltimore, MD 21218, USA
+Abstract#==#We introduce Zipporah, a fast and scalable data cleaning system. We propose a
+novel type of bag-of-words translation feature, and train logistic regression
+models to classify good data and synthetic noisy data in the proposed feature
+space. The trained model is used to score parallel sentences in the data pool
+for selection. As shown in experiments, Zipporah selects a high-quality
+parallel corpus from a large, mixed quality data pool. In particular, for one
+noisy dataset, Zipporah achieves a 2.1 BLEU score improvement with using 1/5 of
+the data over using the entire corpus.
+Author{1}{Firstname}#=%=#Hainan
+Author{1}{Lastname}#=%=#Xu
+Author{1}{Email}#=%=#hainan.xv@gmail.com
+Author{1}{Affiliation}#=%=#Johns Hopkins University
+Author{2}{Firstname}#=%=#Philipp
+Author{2}{Lastname}#=%=#Koehn
+Author{2}{Email}#=%=#phi@jhu.edu
+Author{2}{Affiliation}#=%=#Johns Hopkins University
+
+==========

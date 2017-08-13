@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1131
+FinalPaperTitle#=%=#Identifying Cognate Sets Across Dictionaries of Related Languages
+ShortPaperTitle#=%=#Identifying Cognate Sets Across Dictionaries of Related Languages
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Grzegorz Kondrak
+JobTitle#==#
+Organization#==#Dept of Computing Science
+University of Alberta
+Edmonton, Canada
+Abstract#==#We present a system for identifying cognate sets across dictionaries of related
+languages. The likelihood of a cognate relationship is calculated on the basis
+of a rich set of features that capture both phonetic and semantic similarity,
+as well as the presence of regular sound correspondences. The similarity scores
+are used to cluster words from different languages that may originate from a
+common proto-word. When tested on the Algonquian language family, our system
+detects 63% of cognate sets while maintaining cluster purity of 70%.
+Author{1}{Firstname}#=%=#Adam
+Author{1}{Lastname}#=%=#St Arnaud
+Author{1}{Email}#=%=#ajstarna@ualberta.ca
+Author{1}{Affiliation}#=%=#University of Alberta
+Author{2}{Firstname}#=%=#David
+Author{2}{Lastname}#=%=#Beck
+Author{2}{Email}#=%=#dbeck@ualberta.ca
+Author{2}{Affiliation}#=%=#University of Alberta
+Author{3}{Firstname}#=%=#Grzegorz
+Author{3}{Lastname}#=%=#Kondrak
+Author{3}{Email}#=%=#gkondrak@ualberta.ca
+Author{3}{Affiliation}#=%=#University of Alberta
+
+==========

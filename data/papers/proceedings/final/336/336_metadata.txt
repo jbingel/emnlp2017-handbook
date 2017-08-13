@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#336
+FinalPaperTitle#=%=#Train-O-Matic: Large-Scale Supervised Word Sense Disambiguation in Multiple Languages without Manual Training Data
+ShortPaperTitle#=%=#Train-O-Matic: Large-Scale Supervised Word Sense Disambiguation in Multiple Languages without Manual Training Data
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Tommaso Pasini
+JobTitle#==#
+Organization#==#
+Abstract#==#Annotating large numbers of sentences with senses is the heaviest requirement
+of current Word Sense Disambiguation. We present Train-O-Matic, a
+language-independent method for generating millions of sense-annotated training
+instances for virtually all meanings of words in a language's vocabulary. The
+approach is fully automatic: no human intervention is required and the only
+type of human knowledge used is a WordNet-like resource. Train-O-Matic achieves
+consistently state-of-the-art performance across gold standard datasets and
+languages, while at the same time removing the burden of manual annotation. All
+the training data is available for research purposes at http://trainomatic.org.
+Author{1}{Firstname}#=%=#Tommaso
+Author{1}{Lastname}#=%=#Pasini
+Author{1}{Email}#=%=#pasini@di.uniroma1.it
+Author{1}{Affiliation}#=%=#Sapienza University of Rome
+Author{2}{Firstname}#=%=#Roberto
+Author{2}{Lastname}#=%=#Navigli
+Author{2}{Email}#=%=#navigli@di.uniroma1.it
+Author{2}{Affiliation}#=%=#Sapienza University of Rome
+
+==========

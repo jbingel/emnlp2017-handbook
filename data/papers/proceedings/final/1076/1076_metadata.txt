@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#1076
+FinalPaperTitle#=%=#Dynamic Entity Representations in Neural Language Models
+ShortPaperTitle#=%=#Dynamic Entity Representations in Neural Language Models
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Yangfeng Ji
+JobTitle#==#
+Organization#==#University of Washington
+185 E Stevens Way, Seattle, WA 98195
+Abstract#==#Understanding a long document requires tracking how entities are introduced and
+evolve over time. We present a new type of language model, EntityNLM, that can
+explicitly model entities, dynamically update their representations, and
+contextually generate their mentions. Our model is generative and flexible; it
+can model an arbitrary number of entities in context while generating each
+entity mention at an arbitrary length. In addition, it can be used for several
+different tasks such as language modeling, coreference resolution, and entity
+prediction. Experimental results with all these tasks demonstrate that our
+model consistently outperforms strong baselines and prior work.
+Author{1}{Firstname}#=%=#Yangfeng
+Author{1}{Lastname}#=%=#Ji
+Author{1}{Email}#=%=#jiyfeng@gmail.com
+Author{1}{Affiliation}#=%=#CSE, University of Washington
+Author{2}{Firstname}#=%=#Chenhao
+Author{2}{Lastname}#=%=#Tan
+Author{2}{Email}#=%=#chenhao@chenhaot.com
+Author{2}{Affiliation}#=%=#University of Washington
+Author{3}{Firstname}#=%=#Sebastian
+Author{3}{Lastname}#=%=#Martschat
+Author{3}{Email}#=%=#martschat@cl.uni-heidelberg.de
+Author{3}{Affiliation}#=%=#Heidelberg University
+Author{4}{Firstname}#=%=#Yejin
+Author{4}{Lastname}#=%=#Choi
+Author{4}{Email}#=%=#yejin@cs.washington.edu
+Author{4}{Affiliation}#=%=#University of Washington
+Author{5}{Firstname}#=%=#Noah A.
+Author{5}{Lastname}#=%=#Smith
+Author{5}{Email}#=%=#nasmith@cs.washington.edu
+Author{5}{Affiliation}#=%=#University of Washington
+
+==========

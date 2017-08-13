@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#1397
+FinalPaperTitle#=%=#Preserving Distributional Information in Dialogue Act Classification
+ShortPaperTitle#=%=#Preserving Distributional Information in Dialogue Act Classification
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Ingrid Zukerman
+JobTitle#==#
+Organization#==#Faculty of Information Technology
+Monash University
+Clayton, Victoria 3800
+Australia
+Abstract#==#This paper introduces a novel training/decoding strategy for sequence labeling.
+Instead of greedily choosing a label at each time step, and using it for the
+next prediction, we retain the probability distribution over the current label,
+and pass this distribution to the next prediction. This approach allows us to
+avoid the effect of label bias and error propagation in sequence
+learning/decoding. Our experiments on dialogue act classification demonstrate
+the effectiveness of this approach. Even though our underlying neural network
+model is relatively simple, it outperforms more complex neural models,
+achieving state-of-the-art results on the MapTask and Switchboard corpora.
+Author{1}{Firstname}#=%=#Quan Hung
+Author{1}{Lastname}#=%=#Tran
+Author{1}{Email}#=%=#quanthdhcn@gmail.com
+Author{1}{Affiliation}#=%=#Monash University
+Author{2}{Firstname}#=%=#Ingrid
+Author{2}{Lastname}#=%=#Zukerman
+Author{2}{Email}#=%=#Ingrid.Zukerman@monash.edu
+Author{2}{Affiliation}#=%=#Monash University
+Author{3}{Firstname}#=%=#Gholamreza
+Author{3}{Lastname}#=%=#Haffari
+Author{3}{Email}#=%=#reza.haffari@gmail.com
+Author{3}{Affiliation}#=%=#Monash University
+
+==========

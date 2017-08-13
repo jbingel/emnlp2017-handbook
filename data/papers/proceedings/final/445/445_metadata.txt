@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#445
+FinalPaperTitle#=%=#Speech segmentation with a neural encoder model of working memory
+ShortPaperTitle#=%=#Speech segmentation with a neural encoder model of working memory
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Micha Elsner
+JobTitle#==#
+Organization#==#Department of Linguistics
+The Ohio State University
+Abstract#==#We present the first unsupervised LSTM speech segmenter as a cognitive model of
+the acquisition of words from unsegmented input. Cognitive biases toward
+phonological and syntactic predictability in speech are rooted in the
+limitations of human memory (Baddeley et al., 1998); compressed representations
+are easier to acquire and retain in memory. To model the biases introduced by
+these memory limitations, our system uses an LSTM-based encoder-decoder with a
+small number of hidden units, then searches for a segmentation that minimizes
+autoencoding loss. Linguistically meaningful segments (e.g. words) should share
+regular patterns of features that facilitate decoder performance in comparison
+to random segmentations, and we show that our learner discovers these patterns
+when trained on either phoneme sequences or raw acoustics. To our knowledge,
+ours is the first fully unsupervised system to be able to segment both symbolic
+and acoustic representations of speech.
+Author{1}{Firstname}#=%=#Micha
+Author{1}{Lastname}#=%=#Elsner
+Author{1}{Email}#=%=#melsner0@gmail.com
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Cory
+Author{2}{Lastname}#=%=#Shain
+Author{2}{Email}#=%=#cory.shain@gmail.com
+Author{2}{Affiliation}#=%=#The Ohio State University
+
+==========

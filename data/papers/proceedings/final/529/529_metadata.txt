@@ -1,0 +1,55 @@
+SubmissionNumber#=%=#529
+FinalPaperTitle#=%=#Identifying Products in Online Cybercrime Marketplaces: A Dataset for Fine-grained Domain Adaptation
+ShortPaperTitle#=%=#Identifying Products in Online Marketplaces with Domain Adaptation
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Greg Durrett
+JobTitle#==#
+Organization#==#
+Abstract#==#One weakness of machine-learned NLP models is that they typically perform
+poorly on out-of-domain data. In this work, we study the task of identifying
+products being bought and sold in online cybercrime forums, which exhibits
+particularly challenging cross-domain effects. We formulate a task that
+represents a hybrid of slot-filling information extraction and named entity
+recognition and annotate data from four different forums. Each of these forums
+constitutes its own "fine-grained domain" in that the forums cover different
+market sectors with different properties, even though all forums are in the
+broad domain of cybercrime. We characterize these domain differences in the
+context of a learning-based system: supervised models see decreased accuracy
+when applied to new forums, and standard techniques for semi-supervised
+learning and domain adaptation have limited effectiveness on this data, which
+suggests the need to improve these techniques. We release a dataset of 1,938
+annotated posts from across the four forums.
+Author{1}{Firstname}#=%=#Greg
+Author{1}{Lastname}#=%=#Durrett
+Author{1}{Email}#=%=#gdurrett@cs.utexas.edu
+Author{1}{Affiliation}#=%=#UT Austin
+Author{2}{Firstname}#=%=#Jonathan K.
+Author{2}{Lastname}#=%=#Kummerfeld
+Author{2}{Email}#=%=#jkummerf@umich.edu
+Author{2}{Affiliation}#=%=#University of Michigan
+Author{3}{Firstname}#=%=#Taylor
+Author{3}{Lastname}#=%=#Berg-Kirkpatrick
+Author{3}{Email}#=%=#tberg@cs.cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Rebecca
+Author{4}{Lastname}#=%=#Portnoff
+Author{4}{Email}#=%=#rsportnoff@cs.berkeley.edu
+Author{4}{Affiliation}#=%=#UC Berkeley
+Author{5}{Firstname}#=%=#Sadia
+Author{5}{Lastname}#=%=#Afroz
+Author{5}{Email}#=%=#sadia@icsi.berkeley.edu
+Author{5}{Affiliation}#=%=#ICSI, UC Berkeley
+Author{6}{Firstname}#=%=#Damon
+Author{6}{Lastname}#=%=#McCoy
+Author{6}{Email}#=%=#mccoy@nyu.edu
+Author{6}{Affiliation}#=%=#NYU
+Author{7}{Firstname}#=%=#Kirill
+Author{7}{Lastname}#=%=#Levchenko
+Author{7}{Email}#=%=#klevchen@cs.ucsd.edu
+Author{7}{Affiliation}#=%=#UC San Diego
+Author{8}{Firstname}#=%=#Vern
+Author{8}{Lastname}#=%=#Paxson
+Author{8}{Email}#=%=#vern@berkeley.edu
+Author{8}{Affiliation}#=%=#UC Berkeley
+
+==========

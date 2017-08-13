@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#1161
+FinalPaperTitle#=%=#Learning Translations via Matrix Completion
+ShortPaperTitle#=%=#Learning Translations via Matrix Completion
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Derry Tanti Wijaya
+JobTitle#==#
+Organization#==#University of Pennsylvania
+3330 Walnut Street, Philadelphia, PA, USA 19104
+Abstract#==#Bilingual Lexicon Induction is the task of learning  word  translations 
+without  bilingual parallel corpora. We model this task as a matrix completion
+problem, and present an effective and extendable framework for completing the
+matrix. This method harnesses diverse bilingual and monolingual signals, each
+of which may be incomplete or noisy. Our model achieves state-of-the-art
+performance for both high and low resource languages.
+Author{1}{Firstname}#=%=#Derry Tanti
+Author{1}{Lastname}#=%=#Wijaya
+Author{1}{Email}#=%=#dwijaya@andrew.cmu.edu
+Author{1}{Affiliation}#=%=#University of Pennsylvania
+Author{2}{Firstname}#=%=#Brendan
+Author{2}{Lastname}#=%=#Callahan
+Author{2}{Email}#=%=#brendan.callahan@gmail.com
+Author{2}{Affiliation}#=%=#University of Pennsylvania
+Author{3}{Firstname}#=%=#John
+Author{3}{Lastname}#=%=#Hewitt
+Author{3}{Email}#=%=#johnhew@seas.upenn.edu
+Author{3}{Affiliation}#=%=#University of Pennsylvania
+Author{4}{Firstname}#=%=#Jie
+Author{4}{Lastname}#=%=#Gao
+Author{4}{Email}#=%=#jiegao@seas.upenn.edu
+Author{4}{Affiliation}#=%=#University of Pennsylvania
+Author{5}{Firstname}#=%=#Xiao
+Author{5}{Lastname}#=%=#Ling
+Author{5}{Email}#=%=#lingxiao@seas.upenn.edu
+Author{5}{Affiliation}#=%=#University of Pennsylvania
+Author{6}{Firstname}#=%=#Marianna
+Author{6}{Lastname}#=%=#Apidianaki
+Author{6}{Email}#=%=#marianna.apidianaki@limsi.fr
+Author{6}{Affiliation}#=%=#LIMSI-CNRS, University Paris-Saclay
+Author{7}{Firstname}#=%=#Chris
+Author{7}{Lastname}#=%=#Callison-Burch
+Author{7}{Email}#=%=#ccb@upenn.edu
+Author{7}{Affiliation}#=%=#University of Pennsylvania
+
+==========

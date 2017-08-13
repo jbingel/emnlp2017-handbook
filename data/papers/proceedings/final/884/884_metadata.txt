@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#884
+FinalPaperTitle#=%=#Word Embeddings based on Fixed-Size Ordinally Forgetting Encoding
+ShortPaperTitle#=%=#Word Embeddings based on Fixed-Size Ordinally Forgetting Encoding
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Joseph Sanu
+JobTitle#==#
+Organization#==#York University
+4700 Keele St, Toronto, ON M3J 1P3,
+Canada
+Abstract#==#In this paper, we propose to learn word embeddings based on the recent
+fixed-size ordinally forgetting encoding (FOFE) method, which can almost
+uniquely encode any variable-length sequence into a fixed-size representation.
+We use FOFE to fully encode the left and right context of each word in a corpus
+to construct a novel word-context matrix, which is further weighted and
+factorized using truncated SVD to generate low-dimension word embedding
+vectors. We evaluate this alternate method in encoding word-context statistics
+and show the new FOFE method has a notable effect on the resulting word
+embeddings. Experimental results on several popular word similarity tasks have
+demonstrated that the proposed method  outperforms other SVD models that use
+canonical count based techniques to generate word context matrices.
+Author{1}{Firstname}#=%=#Joseph
+Author{1}{Lastname}#=%=#Sanu
+Author{1}{Email}#=%=#cse83186@cse.yorku.ca
+Author{1}{Affiliation}#=%=#York University
+Author{2}{Firstname}#=%=#Mingbin
+Author{2}{Lastname}#=%=#Xu
+Author{2}{Email}#=%=#mingbin.xu@gmail.com
+Author{2}{Affiliation}#=%=#York University
+Author{3}{Firstname}#=%=#Hui
+Author{3}{Lastname}#=%=#Jiang
+Author{3}{Email}#=%=#hj@cse.yorku.ca
+Author{3}{Affiliation}#=%=#York University
+Author{4}{Firstname}#=%=#Quan
+Author{4}{Lastname}#=%=#Liu
+Author{4}{Email}#=%=#quanliu@mail.ustc.edu.cn
+Author{4}{Affiliation}#=%=#University of Science and Technology of China
+
+==========

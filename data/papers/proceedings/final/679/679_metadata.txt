@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#679
+FinalPaperTitle#=%=#Learning how to Active Learn: A Deep Reinforcement Learning Approach
+ShortPaperTitle#=%=#Learning how to Active Learn: A Deep Reinforcement Learning Approach
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Meng Fang
+JobTitle#==#
+Organization#==#Meng Fang, The University of Melbourne, Parkville VIC 3010, Australia
+Abstract#==#Active learning aims to select a small subset of data for annotation such that
+a classifier learned on the data is highly accurate. This is usually done using
+heuristic selection methods, however the effectiveness of such methods is
+limited and moreover, the performance of heuristics varies between datasets. To
+address these shortcomings, we introduce a novel formulation by reframing the
+active learning as a reinforcement learning problem and explicitly learning a
+data selection policy, where the policy takes the role of the active learning
+heuristic. Importantly, our method allows the selection policy learned using
+simulation to one language to be transferred to other languages. We demonstrate
+our method using cross-lingual named entity recognition, observing uniform
+improvements over traditional active learning algorithms.
+Author{1}{Firstname}#=%=#Meng
+Author{1}{Lastname}#=%=#Fang
+Author{1}{Email}#=%=#meng.fang@unimelb.edu.au
+Author{1}{Affiliation}#=%=#The University of Melbourne
+Author{2}{Firstname}#=%=#Yuan
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#yuanl4@student.unimelb.edu.au
+Author{2}{Affiliation}#=%=#The University of Melbourne
+Author{3}{Firstname}#=%=#Trevor
+Author{3}{Lastname}#=%=#Cohn
+Author{3}{Email}#=%=#tcohn@unimelb.edu.au
+Author{3}{Affiliation}#=%=#University of Melbourne
+
+==========

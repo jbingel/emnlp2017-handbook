@@ -1,0 +1,33 @@
+SubmissionNumber#=%=#117
+FinalPaperTitle#=%=#Inter-Weighted Alignment Network for Sentence Pair Modeling
+ShortPaperTitle#=%=#Inter-Weighted Alignment Network for Sentence Pair Modeling
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Gehui Shen
+JobTitle#==#
+Organization#==#
+Abstract#==#Sentence pair modeling is a crucial problem in the field of natural language
+processing. 
+In this paper, we propose a model to measure the similarity of a sentence pair
+focusing on the interaction information. We utilize the word level similarity
+matrix to discover fine-grained alignment of two sentences. It should be
+emphasized that each word in a sentence has a different importance from the
+perspective of semantic composition, so we exploit two novel and efficient
+strategies to explicitly calculate a weight for each word. Although the
+proposed model only use a sequential LSTM for sentence modeling without any
+external resource such as syntactic parser tree and additional lexicon
+features, experimental results show that our model achieves state-of-the-art
+performance on three datasets of two tasks.
+Author{1}{Firstname}#=%=#Gehui
+Author{1}{Lastname}#=%=#Shen
+Author{1}{Email}#=%=#jueliangguke@pku.edu.cn
+Author{1}{Affiliation}#=%=#Peking University
+Author{2}{Firstname}#=%=#Yunlun
+Author{2}{Lastname}#=%=#Yang
+Author{2}{Email}#=%=#incomparable-lun@pku.edu.cn
+Author{2}{Affiliation}#=%=#Peking University
+Author{3}{Firstname}#=%=#Zhi-Hong
+Author{3}{Lastname}#=%=#Deng
+Author{3}{Email}#=%=#zhdeng@cis.pku.edu.cn
+Author{3}{Affiliation}#=%=#Peking University
+
+==========

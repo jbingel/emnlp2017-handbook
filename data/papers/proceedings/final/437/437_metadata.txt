@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#437
+FinalPaperTitle#=%=#Sentence Simplification with Deep Reinforcement Learning
+ShortPaperTitle#=%=#Sentence Simplification with Deep Reinforcement Learning
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Xingxing Zhang
+JobTitle#==#
+Organization#==#Institute for Language, Cognition and Computation,
+	School of Informatics, University of Edinburgh,
+	10 Crichton Street, Edinburgh EH8 9AB
+Abstract#==#Sentence simplification aims to make sentences easier to read and
+  understand. Most recent approaches draw on insights from machine
+  translation to learn simplification rewrites from monolingual
+  corpora of complex and simple sentences. We address the
+  simplification problem with an encoder-decoder model coupled with a
+  deep reinforcement learning framework. Our model, which we call {\sc
+    Dress} (as shorthand for {\bf D}eep {\bf RE}inforcement {\bf
+    S}entence {\bf S}implification), explores the space of possible
+  simplifications while learning to optimize a reward function that
+  encourages outputs which are simple, fluent, and preserve the
+  meaning of the input. Experiments on three datasets demonstrate that
+  our model outperforms competitive simplification
+  systems.
+Author{1}{Firstname}#=%=#Xingxing
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#zxxpku@gmail.com
+Author{1}{Affiliation}#=%=#Institute for Language, Cognition and Computation, School of Informatics, University of Edinburgh
+Author{2}{Firstname}#=%=#Mirella
+Author{2}{Lastname}#=%=#Lapata
+Author{2}{Email}#=%=#mlap@inf.ed.ac.uk
+Author{2}{Affiliation}#=%=#School of Informatics, University of Edinburgh
+
+==========

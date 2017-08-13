@@ -1,0 +1,47 @@
+SubmissionNumber#=%=#286
+FinalPaperTitle#=%=#Using Argument-based Features to Predict and Analyse Review Helpfulness
+ShortPaperTitle#=%=#Using Argument-based Features to Predict and Analyse Review Helpfulness
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Haijing Liu
+JobTitle#==#
+Organization#==#Institute of Software, Chinese Academy of Sciences & University of Chinese Academy of Sciences
+Abstract#==#We study the helpful product reviews identification problem in this paper. We
+observe that the evidence-conclusion discourse relations, also known as
+arguments, often appear in product reviews, and we hypothesise that some
+argument-based features, e.g. the percentage of argumentative sentences, the
+evidences-conclusions ratios, are good indicators of helpful reviews. To
+validate this hypothesis, we manually annotate arguments in 110 hotel reviews,
+and investigate the effectiveness of several combinations of argument-based
+features. Experiments suggest that, when being used together with the
+argument-based features, the state-of-the-art baseline features can enjoy a
+performance boost (in terms of F1) of 11.01\% in average.
+Author{1}{Firstname}#=%=#Haijing
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Email}#=%=#haijing2015@iscas.ac.cn
+Author{1}{Affiliation}#=%=#Institute of Software, Chinese Academy of Sciences & University of Chinese Academy of Sciences
+Author{2}{Firstname}#=%=#Yang
+Author{2}{Lastname}#=%=#Gao
+Author{2}{Email}#=%=#gaoyang@iscas.ac.cn
+Author{2}{Affiliation}#=%=#Institute of Software, Chinese Academy of Sciences
+Author{3}{Firstname}#=%=#Pin
+Author{3}{Lastname}#=%=#Lv
+Author{3}{Email}#=%=#lvpin@iscas.ac.cn
+Author{3}{Affiliation}#=%=#Institute of Software, Chinese Academy of Sciences
+Author{4}{Firstname}#=%=#Mengxue
+Author{4}{Lastname}#=%=#Li
+Author{4}{Email}#=%=#mengxue2015@iscas.ac.cn
+Author{4}{Affiliation}#=%=#Institute of Software, Chinese Academy of Sciences & University of Chinese Academy of Sciences
+Author{5}{Firstname}#=%=#Shiqiang
+Author{5}{Lastname}#=%=#Geng
+Author{5}{Email}#=%=#gsq_study@126.com
+Author{5}{Affiliation}#=%=#School of Automation, Beijing Information Science and Technology University
+Author{6}{Firstname}#=%=#Minglan
+Author{6}{Lastname}#=%=#Li
+Author{6}{Email}#=%=#minglan2015@iscas.ac.cn
+Author{6}{Affiliation}#=%=#Institute of Software, Chinese Academy of Sciences & University of Chinese Academy of Sciences
+Author{7}{Firstname}#=%=#Hao
+Author{7}{Lastname}#=%=#Wang
+Author{7}{Email}#=%=#cashenry@126.com
+Author{7}{Affiliation}#=%=#Qihoo 360 Search Lab
+
+==========

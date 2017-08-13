@@ -1,0 +1,28 @@
+SubmissionNumber#=%=#1260
+FinalPaperTitle#=%=#A causal framework for explaining the predictions of black-box sequence-to-sequence models
+ShortPaperTitle#=%=#A causal framework for explaining the predictions of black-box sequence-to-sequence models
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#David Alvarez-Melis
+JobTitle#==#
+Organization#==#CSAIL, MIT.
+ 32 Vassar Street, 32G-484
+Cambridge, MA 02139
+Abstract#==#We interpret the predictions of any black-box structured input-structured
+output model around a specific input-output pair. Our method returns an
+"explanation" consisting of groups of input-output tokens that are causally
+related.  These dependencies are inferred by querying the model with perturbed
+inputs, generating a graph over tokens from the responses, and solving a
+partitioning problem to select the most relevant components. We focus the
+general approach on sequence-to-sequence problems, adopting a variational
+autoencoder to yield meaningful input perturbations. We test our method across
+several NLP sequence generation tasks.
+Author{1}{Firstname}#=%=#David
+Author{1}{Lastname}#=%=#Alvarez-Melis
+Author{1}{Email}#=%=#dalvmel@mit.edu
+Author{1}{Affiliation}#=%=#MIT CSAIL
+Author{2}{Firstname}#=%=#Tommi
+Author{2}{Lastname}#=%=#Jaakkola
+Author{2}{Email}#=%=#tommi@csail.mit.edu
+Author{2}{Affiliation}#=%=#MIT
+
+==========

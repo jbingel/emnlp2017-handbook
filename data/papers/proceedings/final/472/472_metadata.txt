@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#472
+FinalPaperTitle#=%=#Identifying Semantic Edit Intentions from Revisions in Wikipedia
+ShortPaperTitle#=%=#Identifying Semantic Edit Intentions from Revisions in Wikipedia
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Diyi Yang
+JobTitle#==#
+Organization#==#
+Abstract#==#Most studies on human editing focus merely on syntactic revision operations,
+failing to capture the intentions behind revision changes, which are essential
+for facilitating the single and collaborative writing process. 
+In this work, we develop in collaboration with Wikipedia editors a 13-category
+taxonomy of the semantic intention behind edits in Wikipedia articles. Using
+labeled article edits, we build a computational classifier of intentions that
+achieved a micro-averaged F1 score of 0.621. We use this model to investigate
+edit intention effectiveness: how different types of edits predict the
+retention of newcomers and changes in the quality of articles, two key concerns
+for Wikipedia today. Our analysis shows that the types of edits that users make
+in their first session predict their subsequent survival as Wikipedia editors,
+and articles in different stages need different types of edits.
+Author{1}{Firstname}#=%=#Diyi
+Author{1}{Lastname}#=%=#Yang
+Author{1}{Email}#=%=#diyiy@cs.cmu.edu
+Author{1}{Affiliation}#=%=#Carnegie Mellon University
+Author{2}{Firstname}#=%=#Aaron
+Author{2}{Lastname}#=%=#Halfaker
+Author{2}{Email}#=%=#ahalfaker@wikimedia.org
+Author{2}{Affiliation}#=%=#Wikimedia Foundation
+Author{3}{Firstname}#=%=#Robert
+Author{3}{Lastname}#=%=#Kraut
+Author{3}{Email}#=%=#robert.kraut@cmu.edu
+Author{3}{Affiliation}#=%=#Carnegie Mellon University
+Author{4}{Firstname}#=%=#Eduard
+Author{4}{Lastname}#=%=#Hovy
+Author{4}{Email}#=%=#hovy@cmu.edu
+Author{4}{Affiliation}#=%=#CMU
+
+==========

@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#1157
+FinalPaperTitle#=%=#Exploring Hyperparameter Sensitivity in Neural Machine Translation Architectures
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Neural Machine Translation (NMT) has shown remarkable progress over the past
+few years, with production systems now being deployed to end-users.
+    As the field is moving rapidly, it has become unclear which elements of NMT
+architectures have a significant impact on translation quality.
+    In this work, we present a large-scale analysis of the sensitivity of NMT
+architectures to common hyperparameters. We report empirical results and
+variance numbers for several hundred experimental runs, corresponding to over
+250,000 GPU hours on a WMT English to German translation task. Our experiments
+provide practical insights into the relative importance of factors such as
+embedding size, network depth, RNN cell type, residual connections, attention
+mechanism, and decoding heuristics. As part of this contribution, we also
+release an open-source NMT framework in TensorFlow to make it easy for others
+to reproduce our results and perform their own experiments.
+Author{1}{Firstname}#=%=#Denny
+Author{1}{Lastname}#=%=#Britz
+Author{1}{Email}#=%=#dennybritz@gmail.com
+Author{1}{Affiliation}#=%=#Google
+Author{2}{Firstname}#=%=#Anna
+Author{2}{Lastname}#=%=#Goldie
+Author{2}{Email}#=%=#agoldie@google.com
+Author{2}{Affiliation}#=%=#Google Brain
+Author{3}{Firstname}#=%=#Minh-Thang
+Author{3}{Lastname}#=%=#Luong
+Author{3}{Email}#=%=#thangluong@google.com
+Author{3}{Affiliation}#=%=#Google Brain
+Author{4}{Firstname}#=%=#Quoc
+Author{4}{Lastname}#=%=#Le
+Author{4}{Email}#=%=#qvl@google.com
+Author{4}{Affiliation}#=%=#Google Brain
+
+==========

@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#1127
+FinalPaperTitle#=%=#Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short
+ShortPaperTitle#=%=#Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#JP
+JobTitle#==#
+Organization#==#
+Abstract#==#Knowledge graph (KG) embedding techniques use structured relationships between
+entities to learn low-dimensional representations of entities and relations.
+One prominent goal of these approaches is to improve the quality of knowledge
+graphs by removing errors and adding missing facts. Surprisingly, most
+embedding techniques have been evaluated on benchmark datasets consisting of
+dense and reliable subsets of human-curated KGs, which tend to be fairly
+complete and have few errors. In this paper, we consider the problem of
+applying embedding techniques to KGs extracted from text, which are often
+incomplete and contain errors. We compare the sparsity and unreliability of
+different KGs and perform empirical experiments demonstrating how embedding
+approaches degrade as sparsity and unreliability increase.
+Author{1}{Firstname}#=%=#Jay
+Author{1}{Lastname}#=%=#Pujara
+Author{1}{Email}#=%=#jay@cs.umd.edu
+Author{1}{Affiliation}#=%=#University of California, Santa Cruz
+Author{2}{Firstname}#=%=#Eriq
+Author{2}{Lastname}#=%=#Augustine
+Author{2}{Email}#=%=#eaugusti@ucsc.edu
+Author{2}{Affiliation}#=%=#University of California, Santa Cruz
+Author{3}{Firstname}#=%=#Lise
+Author{3}{Lastname}#=%=#Getoor
+Author{3}{Email}#=%=#getoor@soe.ucsc.edu
+Author{3}{Affiliation}#=%=#University of California, Santa Cruz
+
+==========

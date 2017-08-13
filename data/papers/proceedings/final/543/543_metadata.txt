@@ -1,0 +1,36 @@
+SubmissionNumber#=%=#543
+FinalPaperTitle#=%=#Earth Mover's Distance Minimization for Unsupervised Bilingual Lexicon Induction
+ShortPaperTitle#=%=#Earth Mover's Distance Minimization for Unsupervised Bilingual Lexicon Induction
+NumberOfPages#=%=#12
+CopyrightSigned#=%=#Meng Zhang
+JobTitle#==#
+Organization#==#
+Abstract#==#Cross-lingual natural language processing hinges on the premise that there
+exists invariance across languages. At the word level, researchers have
+identified such invariance in the word embedding semantic spaces of different
+languages. However, in order to connect the separate spaces, cross-lingual
+supervision encoded in parallel data is typically required. In this paper, we
+attempt to establish the cross-lingual connection without relying on any
+cross-lingual supervision. By viewing word embedding spaces as distributions,
+we propose to minimize their earth mover's distance, a measure of divergence
+between distributions. We demonstrate the success on the unsupervised bilingual
+lexicon induction task. In addition, we reveal an interesting finding that the
+earth mover's distance shows potential as a measure of language difference.
+Author{1}{Firstname}#=%=#Meng
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#zmlarry@foxmail.com
+Author{1}{Affiliation}#=%=#Tsinghua University
+Author{2}{Firstname}#=%=#Yang
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#liuyang2011@tsinghua.edu.cn
+Author{2}{Affiliation}#=%=#Tsinghua University
+Author{3}{Firstname}#=%=#Huanbo
+Author{3}{Lastname}#=%=#Luan
+Author{3}{Email}#=%=#luanhuanbo@gmail.com
+Author{3}{Affiliation}#=%=#Tsinghua University
+Author{4}{Firstname}#=%=#Maosong
+Author{4}{Lastname}#=%=#Sun
+Author{4}{Email}#=%=#sms@tsinghua.edu.cn
+Author{4}{Affiliation}#=%=#
+
+==========

@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#1013
+FinalPaperTitle#=%=#Transition-Based Disfluency Detection using LSTMs
+ShortPaperTitle#=%=#Transition-Based Disfluency Detection using LSTMs
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Shaolei Wang
+JobTitle#==#
+Organization#==#School of Computer Science and Technology, Heilongjiang University. No.29, Jiaohua  Street, Nangang District, Harbin, Heilongjiang,China
+Abstract#==#In this paper, we model the problem of disfluency detection using a
+transition-based framework, which incrementally constructs and labels the
+disfluency chunk of input sentences using a new transition system without
+syntax information. Compared with sequence labeling methods, it can capture
+non-local chunk-level features; compared with joint parsing and disfluency
+detection methods, it is free for noise in syntax. Experiments show that our
+model achieves state-of-the-art f-score of 87.5\% on the commonly used English
+Switchboard test set, and a set of  in-house annotated Chinese data.
+Author{1}{Firstname}#=%=#Shaolei
+Author{1}{Lastname}#=%=#Wang
+Author{1}{Email}#=%=#slwang@ir.hit.edu.cn
+Author{1}{Affiliation}#=%=#Harbin Institute of Technology
+Author{2}{Firstname}#=%=#Wanxiang
+Author{2}{Lastname}#=%=#Che
+Author{2}{Email}#=%=#wanxiang@gmail.com
+Author{2}{Affiliation}#=%=#Harbin Institute of Technology
+Author{3}{Firstname}#=%=#Yue
+Author{3}{Lastname}#=%=#Zhang
+Author{3}{Email}#=%=#yue_zhang@sutd.edu.sg
+Author{3}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{4}{Firstname}#=%=#Meishan
+Author{4}{Lastname}#=%=#Zhang
+Author{4}{Email}#=%=#mason.zms@gmail.com
+Author{4}{Affiliation}#=%=#Heilongjiang University, China
+Author{5}{Firstname}#=%=#Ting
+Author{5}{Lastname}#=%=#Liu
+Author{5}{Email}#=%=#tliu72@vip.126.com
+Author{5}{Affiliation}#=%=#Harbin Institute of Technology
+
+==========

@@ -1,0 +1,30 @@
+SubmissionNumber#=%=#1324
+FinalPaperTitle#=%=#Speeding up Reinforcement Learning-based Information Extraction Training using Asynchronous Methods
+ShortPaperTitle#=%=#Speeding up Reinforcement Learning-based Information Extraction Training using Asynchronous Methods
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Aditya Sharma
+JobTitle#==#
+Organization#==#Indian Institute of Science
+Bangalore, India - 560012
+Abstract#==#RLIE-DQN is a recently proposed Reinforcement Learning-based Information
+Extraction (IE) technique which is able to incorporate external evidence during
+the extraction process. RLIE-DQN trains a single agent sequentially, training
+on one instance at a time. This results in significant training slowdown which
+is undesirable. We leverage recent advances in parallel RL training using
+asynchronous methods and propose RLIE-A3C. RLIE-A3C trains multiple agents in
+parallel and is able to achieve upto 6x training speedup over RLIE-DQN, while
+suffering no loss in average accuracy.
+Author{1}{Firstname}#=%=#Aditya
+Author{1}{Lastname}#=%=#Sharma
+Author{1}{Email}#=%=#adisharma075@gmail.com
+Author{1}{Affiliation}#=%=#Indian Institute of Science, Bangalore
+Author{2}{Firstname}#=%=#Zarana
+Author{2}{Lastname}#=%=#Parekh
+Author{2}{Email}#=%=#zaranaparekh17@gmail.com
+Author{2}{Affiliation}#=%=#Dhirubhai Ambani Institute of Information and Communication Technology
+Author{3}{Firstname}#=%=#Partha
+Author{3}{Lastname}#=%=#Talukdar
+Author{3}{Email}#=%=#ppt@cds.iisc.ac.in
+Author{3}{Affiliation}#=%=#Indian Institute of Science
+
+==========

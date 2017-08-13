@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#1011
+FinalPaperTitle#=%=#A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks
+ShortPaperTitle#=%=#A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#橋本和真
+JobTitle#==#PhD student
+Organization#==#The University of Tokyo, Tokyo, Japan
+Abstract#==#Transfer and multi-task learning have traditionally focused on either a single
+source-target pair or very few, similar tasks.
+Ideally, the linguistic levels of morphology, syntax and semantics would
+benefit each other by being trained in a single model.
+We introduce a joint many-task model together with a strategy for successively
+growing its depth to solve increasingly complex tasks.
+Higher layers include shortcut connections to lower-level task predictions to
+reflect linguistic hierarchies.
+We use a simple regularization term to allow for optimizing all model weights
+to improve one task's loss without exhibiting catastrophic interference of the
+other tasks.
+Our single end-to-end model obtains state-of-the-art or competitive results on
+five different tasks from tagging, parsing, relatedness, and entailment tasks.
+Author{1}{Firstname}#=%=#Kazuma
+Author{1}{Lastname}#=%=#Hashimoto
+Author{1}{Email}#=%=#hassy@logos.t.u-tokyo.ac.jp
+Author{1}{Affiliation}#=%=#University of Tokyo
+Author{2}{Firstname}#=%=#caiming
+Author{2}{Lastname}#=%=#xiong
+Author{2}{Email}#=%=#cxiong@salesforce.com
+Author{2}{Affiliation}#=%=#Salesforce.com
+Author{3}{Firstname}#=%=#Yoshimasa
+Author{3}{Lastname}#=%=#Tsuruoka
+Author{3}{Email}#=%=#tsuruoka@logos.t.u-tokyo.ac.jp
+Author{3}{Affiliation}#=%=#University of Tokyo
+Author{4}{Firstname}#=%=#Richard
+Author{4}{Lastname}#=%=#Socher
+Author{4}{Email}#=%=#socherr@stanford.edu
+Author{4}{Affiliation}#=%=#Stanford University
+
+==========

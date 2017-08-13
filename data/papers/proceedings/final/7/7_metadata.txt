@@ -1,0 +1,45 @@
+SubmissionNumber#=%=#7
+FinalPaperTitle#=%=#The Promise of Premise: Harnessing Question Premises in Visual Question Answering
+ShortPaperTitle#=%=#The Promise of Premise: Harnessing Question Premises in Visual Question Answering
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Aroma Mahendru
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper, we make a simple observation that questions about images often
+contain premises – objects and relationships implied by the question – and
+that reasoning about premises can help Visual Question Answering (VQA) models
+respond more intelligently to irrelevant or previously unseen questions.
+
+When presented with a question that is irrelevant to an image, state-of-the-art
+VQA models will still answer purely based on learned language biases, resulting
+in non-sensical or even misleading answers. We note that a visual question is
+irrelevant to an image if at least one of its premises is false (i.e. not
+depicted in the image). We leverage this observation to construct a dataset for
+Question Relevance Prediction and Explanation (QRPE) by searching for false
+premises. We train novel question relevance detection models and show that
+models that reason about premises consistently outperform models that do not.
+
+We also find that forcing standard VQA models to reason about premises during
+training can lead to improvements on tasks requiring compositional reasoning.
+Author{1}{Firstname}#=%=#Aroma
+Author{1}{Lastname}#=%=#Mahendru
+Author{1}{Email}#=%=#maroma@vt.edu
+Author{1}{Affiliation}#=%=#Virginia Tech
+Author{2}{Firstname}#=%=#Viraj
+Author{2}{Lastname}#=%=#Prabhu
+Author{2}{Email}#=%=#virajp@vt.edu
+Author{2}{Affiliation}#=%=#Virginia Tech
+Author{3}{Firstname}#=%=#Akrit
+Author{3}{Lastname}#=%=#Mohapatra
+Author{3}{Email}#=%=#akrit@vt.edu
+Author{3}{Affiliation}#=%=#Virginia Tech
+Author{4}{Firstname}#=%=#Dhruv
+Author{4}{Lastname}#=%=#Batra
+Author{4}{Email}#=%=#dbatra@vt.edu
+Author{4}{Affiliation}#=%=#Virginia Tech
+Author{5}{Firstname}#=%=#Stefan
+Author{5}{Lastname}#=%=#Lee
+Author{5}{Email}#=%=#steflee@vt.edu
+Author{5}{Affiliation}#=%=#Virginia Tech
+
+==========

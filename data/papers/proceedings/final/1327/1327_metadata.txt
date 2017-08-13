@@ -1,0 +1,38 @@
+SubmissionNumber#=%=#1327
+FinalPaperTitle#=%=#Connotation Frames of Power and Agency in Modern Films
+ShortPaperTitle#=%=#Connotation Frames of Power and Agency in Modern Films
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Maarten Sap
+JobTitle#==#
+Organization#==#
+Abstract#==#The framing of an action influences how we perceive its actor. We introduce
+connotation frames of power and agency, a pragmatic formalism organized using
+frame semantic representations, to model how different levels of power and
+agency are implicitly projected on actors through their actions. We use the new
+power and agency frames to measure the subtle, but prevalent, gender bias in
+the portrayal of modern film characters and provide insights that deviate from
+the well-known Bechdel test. Our contributions include an extended lexicon of
+connotation frames along with a web interface that provides a comprehensive
+analysis through the lens of connotation frames.
+Author{1}{Firstname}#=%=#Maarten
+Author{1}{Lastname}#=%=#Sap
+Author{1}{Email}#=%=#msap@cs.washington.edu
+Author{1}{Affiliation}#=%=#University of Washington
+Author{2}{Firstname}#=%=#Marcella Cindy
+Author{2}{Lastname}#=%=#Prasettio
+Author{2}{Email}#=%=#mcp21@cs.washington.edu
+Author{2}{Affiliation}#=%=#University of Washington
+Author{3}{Firstname}#=%=#Ari
+Author{3}{Lastname}#=%=#Holtzman
+Author{3}{Email}#=%=#ahai@cs.washington.edu
+Author{3}{Affiliation}#=%=#University of Washington
+Author{4}{Firstname}#=%=#Hannah
+Author{4}{Lastname}#=%=#Rashkin
+Author{4}{Email}#=%=#hrashkin@cs.washington.edu
+Author{4}{Affiliation}#=%=#University of Washington
+Author{5}{Firstname}#=%=#Yejin
+Author{5}{Lastname}#=%=#Choi
+Author{5}{Email}#=%=#yejin@cs.washington.edu
+Author{5}{Affiliation}#=%=#University of Washington
+
+==========

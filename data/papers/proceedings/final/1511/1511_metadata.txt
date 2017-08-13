@@ -1,0 +1,39 @@
+SubmissionNumber#=%=#1511
+FinalPaperTitle#=%=#Cross-Lingual Transfer Learning for POS Tagging without Cross-Lingual Resources
+ShortPaperTitle#=%=#Cross-Lingual Transfer Learning for POS Tagging without Cross-Lingual Resources
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Joo-Kyung Kim
+JobTitle#==#
+Organization#==#The Ohio State University, Columbus, Ohio 43210, USA
+Abstract#==#Training a POS tagging model with crosslingual transfer learning usually
+requires linguistic knowledge and resources about the relation between the
+source language and the target language. In this paper, we introduce a
+cross-lingual transfer learning model for POS tagging without ancillary
+resources such as parallel corpora. The proposed cross-lingual model utilizes a
+common BLSTM that enables knowledge transfer from other languages, and private
+BLSTMs for language-specific representations. The cross-lingual model is
+trained with language-adversarial training and bidirectional language modeling
+as auxiliary objectives to better represent language-general information while
+not losing the information about a specific target language. Evaluating on POS
+datasets from 14 languages in the Universal Dependencies corpus, we show that
+the proposed transfer learning model improves
+the POS tagging performance of the target languages without exploiting any
+linguistic knowledge between the source language and the target language.
+Author{1}{Firstname}#=%=#Joo-Kyung
+Author{1}{Lastname}#=%=#Kim
+Author{1}{Email}#=%=#kimjook@cse.ohio-state.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Young-Bum
+Author{2}{Lastname}#=%=#Kim
+Author{2}{Email}#=%=#stylebbum@gmail.com
+Author{2}{Affiliation}#=%=#Microsoft
+Author{3}{Firstname}#=%=#Ruhi
+Author{3}{Lastname}#=%=#Sarikaya
+Author{3}{Email}#=%=#ruhi_sarikaya@yahoo.com
+Author{3}{Affiliation}#=%=#Amazon
+Author{4}{Firstname}#=%=#Eric
+Author{4}{Lastname}#=%=#Fosler-Lussier
+Author{4}{Email}#=%=#fosler@cse.ohio-state.edu
+Author{4}{Affiliation}#=%=#The Ohio State University
+
+==========

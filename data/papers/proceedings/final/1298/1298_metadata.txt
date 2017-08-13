@@ -1,0 +1,32 @@
+SubmissionNumber#=%=#1298
+FinalPaperTitle#=%=#Effective Inference for Generative Neural Parsing
+ShortPaperTitle#=%=#Effective Inference for Generative Neural Parsing
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Mitchell Stern
+JobTitle#==#
+Organization#==#
+Abstract#==#Generative neural models have recently achieved state-of-the-art results for
+constituency parsing. However, without a feasible search procedure, their use
+has so far been limited to reranking the output of external parsers in which
+decoding is more tractable. We describe an alternative to the conventional
+action-level beam search used for discriminative neural models that enables us
+to decode directly in these generative models. We then show that by improving
+our basic candidate selection strategy and using a coarse pruning function, we
+can improve accuracy while exploring significantly less of the search space.
+Applied to the model of Choe and Charniak (2016), our inference procedure
+obtains 92.56 F1 on section 23 of the Penn Treebank, surpassing prior
+state-of-the-art results for single-model systems.
+Author{1}{Firstname}#=%=#Mitchell
+Author{1}{Lastname}#=%=#Stern
+Author{1}{Email}#=%=#mitchell@berkeley.edu
+Author{1}{Affiliation}#=%=#UC Berkeley
+Author{2}{Firstname}#=%=#Daniel
+Author{2}{Lastname}#=%=#Fried
+Author{2}{Email}#=%=#dfried@berkeley.edu
+Author{2}{Affiliation}#=%=#UC Berkeley
+Author{3}{Firstname}#=%=#Dan
+Author{3}{Lastname}#=%=#Klein
+Author{3}{Email}#=%=#klein@cs.berkeley.edu
+Author{3}{Affiliation}#=%=#UC Berkeley
+
+==========

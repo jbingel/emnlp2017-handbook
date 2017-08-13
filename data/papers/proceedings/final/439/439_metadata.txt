@@ -1,0 +1,44 @@
+SubmissionNumber#=%=#439
+FinalPaperTitle#=%=#A Question Answering Approach for Emotion Cause Extraction
+ShortPaperTitle#=%=#A Question Answering Approach for Emotion Cause Extraction
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Lin Gui
+JobTitle#==#
+Organization#==#
+Abstract#==#Emotion cause extraction aims to identify the reasons behind a certain emotion
+expressed in text. It is a much more difficult task compared to emotion
+classification. Inspired by recent advances in using deep memory networks for
+question answering (QA), we propose a new approach which considers emotion
+cause identification as a reading comprehension task in QA. Inspired by
+convolutional neural networks, we propose a new mechanism to store relevant
+context in different memory slots to model context information. Our proposed
+approach can extract both word level sequence features and lexical features.
+Performance evaluation shows that our method achieves the state-of-the-art
+performance on a recently released emotion cause dataset, outperforming a
+number of competitive baselines by at least 3.01% in F-measure.
+Author{1}{Firstname}#=%=#Lin
+Author{1}{Lastname}#=%=#Gui
+Author{1}{Email}#=%=#guilin.nlp@gmail.com
+Author{1}{Affiliation}#=%=#Key Laboratory of Network Oriented Intelligent Computation, Shenzhen Graduate School, Harbin Institute of Technology, Shenzhen 518055
+Author{2}{Firstname}#=%=#Jiannan
+Author{2}{Lastname}#=%=#Hu
+Author{2}{Email}#=%=#hujiannan0526@163.com
+Author{2}{Affiliation}#=%=#Harbin Institute of Technology, Shenzhen Graduate Schoole
+Author{3}{Firstname}#=%=#Yulan
+Author{3}{Lastname}#=%=#He
+Author{3}{Email}#=%=#y.he9@aston.ac.uk
+Author{3}{Affiliation}#=%=#Aston University
+Author{4}{Firstname}#=%=#Ruifeng
+Author{4}{Lastname}#=%=#Xu
+Author{4}{Email}#=%=#xuruifeng.hitsz@gmail.com
+Author{4}{Affiliation}#=%=#Harbin Institute of Technology, Shenzhen
+Author{5}{Firstname}#=%=#Lu
+Author{5}{Lastname}#=%=#Qin
+Author{5}{Email}#=%=#csluqin@comp.polyu.edu.hk
+Author{5}{Affiliation}#=%=#Hong Kong Polytechnic University
+Author{6}{Firstname}#=%=#Jiachen
+Author{6}{Lastname}#=%=#Du
+Author{6}{Email}#=%=#jacobvan199165@163.com
+Author{6}{Affiliation}#=%=#Harbin Institute of Technology Shenzhen Graduate School
+
+==========

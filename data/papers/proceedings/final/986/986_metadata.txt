@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#986
+FinalPaperTitle#=%=#An Empirical Analysis of Edit Importance between Document Versions
+ShortPaperTitle#=%=#An Empirical Analysis of Edit Importance between Document Versions
+NumberOfPages#=%=#5
+CopyrightSigned#=%=#Tanya Goyal
+JobTitle#==#
+Organization#==#Big Data Experience Lab, Adobe Research
+Abstract#==#In this paper, we present a novel approach to infer significance of various
+textual  edits to documents. An author may make several edits to a document;
+each edit varies in its impact to the content of the document. While some edits
+are surface changes and introduce negligible change, other edits may change the
+content/tone of the document significantly. In this paper, we perform an
+analysis on the human perceptions of edit importance while reviewing documents
+from one version to the next. We identify linguistic features that influence
+edit importance and model it in a regression based setting. We show that the
+predicted importance by our approach is highly correlated with the human
+perceived importance, established by a Mechanical Turk study.
+Author{1}{Firstname}#=%=#Tanya
+Author{1}{Lastname}#=%=#Goyal
+Author{1}{Email}#=%=#tanyagoyal.93@gmail.com
+Author{1}{Affiliation}#=%=#Adobe Research
+Author{2}{Firstname}#=%=#Sachin
+Author{2}{Lastname}#=%=#Kelkar
+Author{2}{Email}#=%=#sachinkel19@gmail.com
+Author{2}{Affiliation}#=%=#Indian Institute Of Technology Roorkee
+Author{3}{Firstname}#=%=#Manas
+Author{3}{Lastname}#=%=#Agarwal
+Author{3}{Email}#=%=#manasagarwal1993@gmail.com
+Author{3}{Affiliation}#=%=#Indian Institute of Technology Roorkee
+Author{4}{Firstname}#=%=#Jeenu
+Author{4}{Lastname}#=%=#Grover
+Author{4}{Email}#=%=#groverjeenu@gmail.com
+Author{4}{Affiliation}#=%=#IIT Kharagpur
+
+==========

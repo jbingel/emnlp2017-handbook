@@ -1,0 +1,26 @@
+SubmissionNumber#=%=#44
+FinalPaperTitle#=%=#Segmentation-Free Word Embedding for Unsegmented Languages
+ShortPaperTitle#=%=#Segmentation-Free Word Embedding for Unsegmented Languages
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Takamasa Oshikiri
+JobTitle#==#
+Organization#==#
+Abstract#==#In this paper, we propose a new pipeline of word embedding for unsegmented
+languages, called segmentation-free word embedding, which does not require word
+segmentation as a preprocessing step. Unlike space-delimited languages,
+unsegmented languages, such as Chinese and Japanese, require word segmentation
+as a preprocessing step. However, word segmentation, that often requires
+manually annotated resources, is difficult and expensive, and unavoidable
+errors in word segmentation affect downstream tasks. To avoid these problems in
+learning word vectors of unsegmented languages, we consider word co-occurrence
+statistics over all possible candidates of segmentations based on frequent
+character n-grams instead of segmented sentences provided by conventional word
+segmenters. Our experiments of noun category prediction tasks on raw Twitter,
+Weibo, and Wikipedia corpora show that the proposed method outperforms the
+conventional approaches that require word segmenters.
+Author{1}{Firstname}#=%=#Takamasa
+Author{1}{Lastname}#=%=#Oshikiri
+Author{1}{Email}#=%=#oshikiri@sigmath.es.osaka-u.ac.jp
+Author{1}{Affiliation}#=%=#Osaka University / RIKEN AIP / CyberAgent, Inc.
+
+==========

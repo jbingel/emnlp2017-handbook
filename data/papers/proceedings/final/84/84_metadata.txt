@@ -1,0 +1,37 @@
+SubmissionNumber#=%=#84
+FinalPaperTitle#=%=#Measuring Thematic Fit with Distributional Feature Overlap
+ShortPaperTitle#=%=#Measuring Thematic Fit with Distributional Feature Overlap
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Emmanuele Chersoni
+JobTitle#==#
+Organization#==#Laboratoire Parole et Langage, 5 Avenue Pasteur, 13604, Aix-en-Provence, France
+Abstract#==#In this paper, we introduce a new distributional method for modeling
+predicate-argument thematic fit judgments. 
+We use a syntax-based DSM to build a prototypical representation of
+verb-specific roles: for every verb, we extract the most salient second order
+contexts for each of its roles (i.e. the most salient dimensions of typical
+role fillers), and then we compute thematic fit as a weighted overlap between
+the top features of candidate fillers and role prototypes.
+Our experiments show that our method consistently outperforms a baseline
+re-implementing a state-of-the-art system, and achieves better or comparable
+results to those reported in the literature for the other unsupervised systems.
+Moreover, it provides an explicit representation of the features characterizing
+verb-specific semantic roles.
+Author{1}{Firstname}#=%=#Enrico
+Author{1}{Lastname}#=%=#Santus
+Author{1}{Email}#=%=#enrico_santus@sutd.edu.sg
+Author{1}{Affiliation}#=%=#Singapore University of Technology and Design
+Author{2}{Firstname}#=%=#Emmanuele
+Author{2}{Lastname}#=%=#Chersoni
+Author{2}{Email}#=%=#emmanuelechersoni@gmail.com
+Author{2}{Affiliation}#=%=#Aix-Marseille University
+Author{3}{Firstname}#=%=#Alessandro
+Author{3}{Lastname}#=%=#Lenci
+Author{3}{Email}#=%=#alessandro.lenci@unipi.it
+Author{3}{Affiliation}#=%=#University of Pisa
+Author{4}{Firstname}#=%=#Philippe
+Author{4}{Lastname}#=%=#Blache
+Author{4}{Email}#=%=#philippe.blache@univ-amu.fr
+Author{4}{Affiliation}#=%=#Aix-Marseille University
+
+==========

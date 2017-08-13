@@ -1,0 +1,31 @@
+SubmissionNumber#=%=#683
+FinalPaperTitle#=%=#Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling
+ShortPaperTitle#=%=#Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Diego Marcheggiani
+JobTitle#==#
+Organization#==#University of Amsterdam
+Abstract#==#Semantic role labeling (SRL) is the task of identifying the predicate-argument
+structure of a sentence. 
+It is typically regarded as an important step in the standard NLP pipeline.
+As the semantic representations are closely related to syntactic ones, we
+exploit syntactic information in our model.  
+We propose a version of graph convolutional networks (GCNs), a recent class of
+neural networks operating on graphs, suited to model syntactic dependency
+graphs. 
+GCNs over syntactic dependency trees are used as sentence encoders, producing
+latent feature representations of words in a sentence.
+We observe that GCN layers are complementary to LSTM ones: when we stack both
+GCN and LSTM layers, we obtain a substantial improvement over an already
+state-of-the-art LSTM SRL model, resulting in the best reported scores on the
+standard benchmark (CoNLL-2009) both for Chinese and English.
+Author{1}{Firstname}#=%=#Diego
+Author{1}{Lastname}#=%=#Marcheggiani
+Author{1}{Email}#=%=#marcheggiani@uva.nl
+Author{1}{Affiliation}#=%=#University of Amsterdam
+Author{2}{Firstname}#=%=#Ivan
+Author{2}{Lastname}#=%=#Titov
+Author{2}{Email}#=%=#titov@uva.nl
+Author{2}{Affiliation}#=%=#University of Edinburgh / University of Amsterdam
+
+==========

@@ -193,9 +193,18 @@ for date in dates:
             print >>out, '\\newpage'
             print >>out, '\\section*{Parallel Session %s}' % (session_num)
             for i, session in enumerate(parallel_sessions):
-                chair = session.chair()
+                chairs = session.chairs()
+                print session
                 print >>out, '{\\bfseries\\large %s: %s}\\\\' % (session.name, session.desc)
-                print >>out, '\\Track%cLoc\\hfill\\sessionchair{%s}{%s}' % (chr(i + 65),chair[0],chair[1])
+                if len(chairs) == 1:
+                    chair = chairs[0]
+                    print >>out, '\\Track%cLoc\\hfill Chair: \\sessionchair{%s}{%s}\\\\' % (chr(i + 65),chair[0],chair[1])
+                else: 
+                    chair = chairs[0]
+                    print >>out, '\\Track%cLoc\\hfill Chairs: \\sessionchair{%s}{%s}' % (chr(i + 65),chair[0],chair[1])
+                    for chair in chairs[1:]:
+                        print >>out, ', \\sessionchair{%s}{%s}' % (chair[0],chair[1])
+                    print >>out, '\\\\'    
                 for paper in session.papers:
                     print >>out, '\\paperabstract{\\day}{%s}{}{}{%s}' % (paper.time, paper.id)
                 print >>out, '\\clearpage'
@@ -222,11 +231,25 @@ for date in dates:
             else:
                 print >>out, '{\\bfseries\\large %s} \\hfill %s \\\\' % (session.name, session.time)
                 #print >>out, '{\\setheaders{%s}{\\daydateyear}' % (session.name)
-            chair = session.chair()
-            if chair[1] != '':
-                print >>out, '\\Track%cLoc' % (chr(i + 68))
+            chairs = session.chairs()
+            if len(chairs) == 1:
+                chair = chairs[0]
+	        print >>out, '\\Track%cLoc\\hfill Chair: \\sessionchair{%s}{%s} \\\\' % (chr(i + 65),chair[0],chair[1])
+	    elif len(chairs) > 1: 
+	        chair = chairs[0]
+	        print >>out, '\\Track%cLoc\\hfill Chairs: \\sessionchair{%s}{%s}' % (chr(i + 65),chair[0],chair[1])
+	        for chair in chairs[1:]:
+		    print >>out, ', \\sessionchair{%s}{%s}' % (chair[0],chair[1])
+                print >>out, '\\\\'
+            #if chairs[0][1]:
+            #    chair = chairs[0]
+            #    print >>out, '\\Track%cLoc\\hfill\\sessionchair{%s}{%s}' % (chr(i + 68),chair[0],chair[1])
+            #    if len(chairs) > 1: 
+            #        for chair in chairs[1:]:
+            #            print chair
+            #            print >>out, '\\hfill\\sessionchair{%s}{%s}' % (chair[0],chair[1])
             else:
-                print >>out, '\\Track%cLoc\\hfill\\sessionchair{%s}{%s}' % (chr(i + 68),chair[0],chair[1])
+                print >>out, '\\Track%cLoc' % (chr(i + 68))
             print >>out, '\\\\'
             for paper in session.papers:
                 print >>out, '\\posterabstract{%s}' % (paper.id)

@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#961
+FinalPaperTitle#=%=#PACRR: A Position-Aware Neural IR Model for Relevance Matching
+ShortPaperTitle#=%=#PACRR: A Position-Aware Neural IR Model for Relevance Matching
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Kai Hui
+JobTitle#==#
+Organization#==#Max Planck Institute for Informatics
+Saarland Informatics Campus
+Campus E1 4
+66123 Saarbrücken
+Germany
+Abstract#==#In order to adopt deep learning for information retrieval, models are needed
+that can capture all relevant information required to assess the relevance of a
+document to a given
+user query. While previous works have successfully captured unigram term
+matches, how to fully employ position-dependent information such as proximity
+and term dependencies has been insufficiently explored. In this work, we
+propose a novel neural IR model named PACRR
+aiming at better modeling position-dependent interactions between a query and a
+document.
+Extensive experiments on six years' TREC Web Track data confirm that the
+proposed model yields better results under multiple benchmarks.
+Author{1}{Firstname}#=%=#Kai
+Author{1}{Lastname}#=%=#Hui
+Author{1}{Email}#=%=#khui@mpi-inf.mpg.de
+Author{1}{Affiliation}#=%=#Max Planck Institute for Informatics
+Author{2}{Firstname}#=%=#Andrew
+Author{2}{Lastname}#=%=#Yates
+Author{2}{Email}#=%=#ayates@mpi-inf.mpg.de
+Author{2}{Affiliation}#=%=#Max Planck Institute for Informatics
+Author{3}{Firstname}#=%=#Klaus
+Author{3}{Lastname}#=%=#Berberich
+Author{3}{Email}#=%=#kberberi@mpi-inf.mpg.de
+Author{3}{Affiliation}#=%=#htw saar
+Author{4}{Firstname}#=%=#Gerard
+Author{4}{Lastname}#=%=#de Melo
+Author{4}{Email}#=%=#gdm@demelo.org
+Author{4}{Affiliation}#=%=#Rutgers University New Brunswick
+
+==========

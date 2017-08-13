@@ -1,0 +1,53 @@
+SubmissionNumber#=%=#1176
+FinalPaperTitle#=%=#Composite Task-Completion Dialogue Policy Learning via Hierarchical Deep Reinforcement Learning
+ShortPaperTitle#=%=#Composite Task-Completion Dialogue Policy Learning via Hierarchical Deep Reinforcement Learning
+NumberOfPages#=%=#10
+CopyrightSigned#=%=#Baolin Peng
+JobTitle#==#
+Organization#==#The Chinese University of Hong Kong
+Rm711, William M.M Wong Building, CUHK, Shatin, N.T. Hong Kong
+Abstract#==#Building a dialogue agent to fulfill complex tasks, such as travel planning, is
+challenging because the agent has to learn to collectively complete multiple
+subtasks. For example, the agent needs to reserve a hotel and book a flight so
+that there leaves enough time for commute between arrival and hotel check-in.
+This paper addresses this challenge by formulating the task in the mathematical
+framework of options over Markov Decision Processes (MDPs), and proposing a
+hierarchical deep reinforcement learning approach to learning a dialogue
+manager that operates at different temporal scales. The dialogue manager
+consists of: (1) a top-level dialogue policy that selects among subtasks or
+options, (2) a low-level dialogue policy that selects primitive actions to
+complete the subtask given by the top-level policy, and (3) a global state
+tracker that helps ensure all cross-subtask constraints be satisfied.
+Experiments on a travel planning task with simulated and real users show that
+our approach leads to significant improvements over three baselines, two based
+on handcrafted rules and the other based on flat deep reinforcement learning.
+Author{1}{Firstname}#=%=#Baolin
+Author{1}{Lastname}#=%=#Peng
+Author{1}{Email}#=%=#blpeng@se.cuhk.edu.hk
+Author{1}{Affiliation}#=%=#The Chinese University of Hong Kong
+Author{2}{Firstname}#=%=#Xiujun
+Author{2}{Lastname}#=%=#Li
+Author{2}{Email}#=%=#xiul@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research Redmond
+Author{3}{Firstname}#=%=#Lihong
+Author{3}{Lastname}#=%=#Li
+Author{3}{Email}#=%=#lihongli.cs@gmail.com
+Author{3}{Affiliation}#=%=#Microsoft Research
+Author{4}{Firstname}#=%=#Jianfeng
+Author{4}{Lastname}#=%=#Gao
+Author{4}{Email}#=%=#jfgao@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Research, Redmond
+Author{5}{Firstname}#=%=#Asli
+Author{5}{Lastname}#=%=#Celikyilmaz
+Author{5}{Email}#=%=#asli.ca@live.com
+Author{5}{Affiliation}#=%=#Microsoft Research
+Author{6}{Firstname}#=%=#Sungjin
+Author{6}{Lastname}#=%=#Lee
+Author{6}{Email}#=%=#sule@microsoft.com
+Author{6}{Affiliation}#=%=#Microsoft Research
+Author{7}{Firstname}#=%=#Kam-Fai
+Author{7}{Lastname}#=%=#Wong
+Author{7}{Email}#=%=#kfwong@se.cuhk.edu.hk
+Author{7}{Affiliation}#=%=#Department of Systems Engineering and Engineering Management, The Chinese University of Hong Kong, Hong Kong
+
+==========

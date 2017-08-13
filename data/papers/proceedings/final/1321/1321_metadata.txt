@@ -1,0 +1,52 @@
+SubmissionNumber#=%=#1321
+FinalPaperTitle#=%=#Heterogeneous Supervision for Relation Extraction: A Representation Learning Approach
+ShortPaperTitle#=%=#Heterogeneous Supervision for Relation Extraction: A Representation Learning Approach
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Liyuan Liu
+JobTitle#==#
+Organization#==#University of Illinois at Urbana-Champaign, Urbana, IL, USA
+Abstract#==#Relation extraction is a fundamental task in information extraction.
+Most existing methods have heavy reliance on annotations labeled by human
+experts, which are costly and time-consuming.
+To overcome this drawback, we propose a novel framework, REHession, to conduct
+relation extractor learning using annotations from heterogeneous information
+source, e.g., knowledge base and domain heuristics.
+These annotations, referred as heterogeneous supervision, often conflict with
+each other, which brings a new challenge to the original relation extraction
+task: how to infer the true label from noisy labels for a given instance.
+Identifying context information as the backbone of both relation extraction and
+true label discovery, we adopt embedding techniques to learn the distributed
+representations of context, which bridges all components with mutual
+enhancement in an iterative fashion.
+Extensive experimental results demonstrate the superiority of REHession over
+the state-of-the-art.
+Author{1}{Firstname}#=%=#Liyuan
+Author{1}{Lastname}#=%=#Liu
+Author{1}{Email}#=%=#llychinalz@gmail.com
+Author{1}{Affiliation}#=%=#University of Illinois at Urbana Champaign
+Author{2}{Firstname}#=%=#Xiang
+Author{2}{Lastname}#=%=#Ren
+Author{2}{Email}#=%=#xren7@illinois.edu
+Author{2}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{3}{Firstname}#=%=#Qi
+Author{3}{Lastname}#=%=#Zhu
+Author{3}{Email}#=%=#qiz3@illinois.edu
+Author{3}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{4}{Firstname}#=%=#Shi
+Author{4}{Lastname}#=%=#Zhi
+Author{4}{Email}#=%=#shizhi2@illinois.edu
+Author{4}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{5}{Firstname}#=%=#Huan
+Author{5}{Lastname}#=%=#Gui
+Author{5}{Email}#=%=#huangui2@illinois.edu
+Author{5}{Affiliation}#=%=#University of Illinois at Urbana-Champaign
+Author{6}{Firstname}#=%=#Heng
+Author{6}{Lastname}#=%=#Ji
+Author{6}{Email}#=%=#jih@rpi.edu
+Author{6}{Affiliation}#=%=#Rensselaer Polytechnic Institute
+Author{7}{Firstname}#=%=#Jiawei
+Author{7}{Lastname}#=%=#Han
+Author{7}{Email}#=%=#hanj@cs.uiuc.edu
+Author{7}{Affiliation}#=%=#UIUC
+
+==========

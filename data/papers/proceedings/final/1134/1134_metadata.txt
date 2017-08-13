@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#1134
+FinalPaperTitle#=%=#An End-to-End Deep Framework for Answer Triggering with a Novel Group-Level Objective
+ShortPaperTitle#=%=#An End-to-End Deep Framework for Answer Triggering with a Novel Group-Level Objective
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Huan Sun
+JobTitle#==#
+Organization#==#
+Abstract#==#Given a question and a set of answer candidates, answer triggering determines
+whether the candidate set contains any correct answers. If yes, it then outputs
+a correct one. In contrast to existing pipeline methods which first consider
+individual candidate answers separately and then make a prediction based on a
+threshold, we propose an end-to-end deep neural network framework, which is
+trained by a novel group-level objective function that directly optimizes the
+answer triggering performance. Our objective function penalizes three potential
+types of error and allows training the framework in an end-to-end manner.
+Experimental results on the WikiQA benchmark show that our framework
+outperforms the state of the arts by a 6.6% absolute gain under F1 measure.
+Author{1}{Firstname}#=%=#Jie
+Author{1}{Lastname}#=%=#Zhao
+Author{1}{Email}#=%=#zhao.1359@osu.edu
+Author{1}{Affiliation}#=%=#The Ohio State University
+Author{2}{Firstname}#=%=#Yu
+Author{2}{Lastname}#=%=#Su
+Author{2}{Email}#=%=#ysu@cs.ucsb.edu
+Author{2}{Affiliation}#=%=#University of California Santa Barbara
+Author{3}{Firstname}#=%=#Ziyu
+Author{3}{Lastname}#=%=#Guan
+Author{3}{Email}#=%=#ziyuguan@nwu.edu.cn
+Author{3}{Affiliation}#=%=#Northwest University, China
+Author{4}{Firstname}#=%=#Huan
+Author{4}{Lastname}#=%=#Sun
+Author{4}{Email}#=%=#sun.397@osu.edu
+Author{4}{Affiliation}#=%=#The Ohio State University
+
+==========

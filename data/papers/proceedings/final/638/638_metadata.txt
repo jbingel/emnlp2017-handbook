@@ -1,0 +1,41 @@
+SubmissionNumber#=%=#638
+FinalPaperTitle#=%=#Stack-based Multi-layer Attention for Transition-based Dependency Parsing
+ShortPaperTitle#=%=#Stack-based Multi-layer Attention for Transition-based Dependency Parsing
+NumberOfPages#=%=#6
+CopyrightSigned#=%=#Zhirui Zhang
+JobTitle#==#
+Organization#==#University of Science and Technology of China
+Abstract#==#Although sequence-to-sequence (seq2seq) network has achieved significant
+success in many NLP tasks such as machine translation and text summarization,
+simply applying this approach to transition-based dependency parsing cannot
+yield a comparable performance gain as in other state-of-the-art methods, such
+as stack-LSTM and head selection. In this paper, we propose a stack-based
+multi-layer attention model for seq2seq learning to better leverage structural
+linguistics information. In our method, two binary vectors are used to track
+the decoding stack in transition-based parsing, and multi-layer attention is
+introduced to capture multiple word dependencies in partial trees. We conduct
+experiments on PTB and CTB datasets, and the results show that our proposed
+model achieves state-of-the-art accuracy and significant improvement in labeled
+precision with respect to the baseline seq2seq model.
+Author{1}{Firstname}#=%=#Zhirui
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#zrustc11@gmail.com
+Author{1}{Affiliation}#=%=#University of Science and Technology of China
+Author{2}{Firstname}#=%=#Shujie
+Author{2}{Lastname}#=%=#Liu
+Author{2}{Email}#=%=#shujliu@microsoft.com
+Author{2}{Affiliation}#=%=#Microsoft Research Asia, Beijing, China
+Author{3}{Firstname}#=%=#Mu
+Author{3}{Lastname}#=%=#Li
+Author{3}{Email}#=%=#muli@microsoft.com
+Author{3}{Affiliation}#=%=#Microsoft Research Asia, Beijing, China
+Author{4}{Firstname}#=%=#Ming
+Author{4}{Lastname}#=%=#Zhou
+Author{4}{Email}#=%=#mingzhou@microsoft.com
+Author{4}{Affiliation}#=%=#Microsoft Research Asia, Beijing, China
+Author{5}{Firstname}#=%=#Enhong
+Author{5}{Lastname}#=%=#Chen
+Author{5}{Email}#=%=#cheneh@ustc.edu.cn
+Author{5}{Affiliation}#=%=#University of Science and Technology of China
+
+==========

@@ -1,0 +1,43 @@
+SubmissionNumber#=%=#1417
+FinalPaperTitle#=%=#Position-aware Attention and Supervised Data Improve Slot Filling
+ShortPaperTitle#=%=#Position-aware Attention and Supervised Data Improve Slot Filling
+NumberOfPages#=%=#11
+CopyrightSigned#=%=#Yuhao Zhang
+JobTitle#==#
+Organization#==#Stanford University
+Stanford, CA 94305
+Abstract#==#Organized relational knowledge in the form of "knowledge graphs" is important
+for many applications. However, the ability to populate knowledge bases with
+facts automatically extracted from documents has improved frustratingly slowly.
+This paper simultaneously addresses two issues that have held back prior work.
+We first propose an effective new model, which combines an LSTM sequence model
+with a form of entity position-aware attention that is better suited to
+relation extraction. Then we build TACRED, a large (119,474 examples)
+supervised relation extraction dataset obtained via crowdsourcing and targeted
+towards TAC KBP relations. The combination of better supervised data and a more
+appropriate high-capacity model enables much better relation extraction
+performance. When the model trained on this new dataset replaces the previous
+relation extraction component of the best TAC KBP 2015 slot filling system, its
+F1 score increases markedly from 22.2% to 26.7%.
+Author{1}{Firstname}#=%=#Yuhao
+Author{1}{Lastname}#=%=#Zhang
+Author{1}{Email}#=%=#yuhao@cs.stanford.edu
+Author{1}{Affiliation}#=%=#Stanford University
+Author{2}{Firstname}#=%=#Victor
+Author{2}{Lastname}#=%=#Zhong
+Author{2}{Email}#=%=#victor@victorzhong.com
+Author{2}{Affiliation}#=%=#Stanford University
+Author{3}{Firstname}#=%=#Danqi
+Author{3}{Lastname}#=%=#Chen
+Author{3}{Email}#=%=#danqi@cs.stanford.edu
+Author{3}{Affiliation}#=%=#Stanford University
+Author{4}{Firstname}#=%=#Gabor
+Author{4}{Lastname}#=%=#Angeli
+Author{4}{Email}#=%=#angeli@cs.stanford.edu
+Author{4}{Affiliation}#=%=#Eloquent Labs
+Author{5}{Firstname}#=%=#Christopher D.
+Author{5}{Lastname}#=%=#Manning
+Author{5}{Email}#=%=#manning@cs.stanford.edu
+Author{5}{Affiliation}#=%=#Stanford University
+
+==========

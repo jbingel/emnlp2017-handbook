@@ -1,0 +1,42 @@
+SubmissionNumber#=%=#1416
+FinalPaperTitle#=%=#A Multilayer Perceptron based Ensemble Technique for Fine-grained Financial Sentiment Analysis
+ShortPaperTitle#=%=#A Multilayer Perceptron based Ensemble Technique for Fine-grained Financial Sentiment Analysis
+NumberOfPages#=%=#7
+CopyrightSigned#=%=#Md Shad Akhtar
+JobTitle#==#
+Organization#==#Md Shad Akhtar, Indian Institute of Technology Patna
+Abstract#==#In this paper, we propose a novel method for combining deep learning and
+classical feature based models using a Multi-Layer Perceptron (MLP) network for
+financial sentiment analysis. We develop various deep learning models based on
+Convolutional Neural Network (CNN), Long Short Term Memory (LSTM) and Gated
+Recurrent Unit (GRU). These are trained on top of pre-trained,
+autoencoder-based, financial word embeddings and lexicon features. An ensemble
+is constructed by combining these deep learning models and a classical
+supervised model based on Support Vector Regression (SVR). We evaluate our
+proposed technique on a benchmark dataset of SemEval-2017 shared task on
+financial sentiment analysis. The propose model shows impressive results on two
+datasets, i.e. microblogs and news headlines datasets. Comparisons show that
+our proposed model performs better than the existing state-of-the-art systems
+for the above two datasets by 2.0 and 4.1 cosine points, respectively.
+Author{1}{Firstname}#=%=#Md Shad
+Author{1}{Lastname}#=%=#Akhtar
+Author{1}{Email}#=%=#shad.akhtar@gmail.com
+Author{1}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{2}{Firstname}#=%=#Abhishek
+Author{2}{Lastname}#=%=#Kumar
+Author{2}{Email}#=%=#iyamabhishek09@gmail.com
+Author{2}{Affiliation}#=%=#Indian Institute of Technology, Patna
+Author{3}{Firstname}#=%=#Deepanway
+Author{3}{Lastname}#=%=#Ghosal
+Author{3}{Email}#=%=#deepanwayedu@gmail.com
+Author{3}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{4}{Firstname}#=%=#Asif
+Author{4}{Lastname}#=%=#Ekbal
+Author{4}{Email}#=%=#asif.ekbal@gmail.com
+Author{4}{Affiliation}#=%=#Indian Institute of Technology Patna
+Author{5}{Firstname}#=%=#Pushpak
+Author{5}{Lastname}#=%=#Bhattacharyya
+Author{5}{Email}#=%=#pushpakbh@gmail.com
+Author{5}{Affiliation}#=%=#CSE Department, IIT Bombay
+
+==========

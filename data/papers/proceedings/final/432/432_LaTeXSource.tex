@@ -1,0 +1,443 @@
+
+
+%\title{emnlp 2017 instructions}
+% File emnlp2017.tex
+%
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{emnlp2017}
+\usepackage{times}
+\usepackage{latexsym}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+
+\usepackage{url}
+
+% Uncomment this line for the final submission:
+\emnlpfinalcopy
+
+%  Enter the EMNLP Paper ID here:
+\def\emnlppaperid{432}
+
+% To expand the titlebox for more authors, uncomment
+% below and set accordingly.
+% \addtolength\titlebox{.5in}    
+
+\newcommand\BibTeX{B{\sc ib}\TeX}
+
+
+\title{Beyond Sentential Semantic Parsing: Tackling the Math SAT with a Cascade of Tree Transducers}
+
+\author{Mark Hopkins, Cristian Petrescu-Prahova, Roie Levin, \\ {\bf Ronan Le Bras, Alvaro Herrasti, \and Vidur Joshi} \\
+        Allen Institute for Artificial Intelligence \\ Seattle, WA}
+
+% Author information can be set in various styles:
+% For several authors from the same institution:
+% \author{Author 1 \and ... \and Author n \\
+%         Address line \\ ... \\ Address line}
+% if the names do not fit well on one line use
+%         Author 1 \\ {\bf Author 2} \\ ... \\ {\bf Author n} \\
+% For authors from different institutions:
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \And  ... \And
+%         Author n \\ Address line \\ ... \\ Address line}
+% To start a seperate ``row'' of authors use \AND, as in
+% \author{Author 1 \\ Address line \\  ... \\ Address line
+%         \AND
+%         Author 2 \\ Address line \\ ... \\ Address line \And
+%         Author 3 \\ Address line \\ ... \\ Address line}
+% If the title and author information does not fit in the area allocated,
+% place \setlength\titlebox{<new height>} right after
+% at the top, where <new height> can be something larger than 2.25in
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  We present an approach for answering questions that span multiple sentences and exhibit sophisticated cross-sentence anaphoric phenomena, evaluating on a rich source of such questions -- the math portion of the Scholastic Aptitude Test (SAT). By using a tree transducer cascade as its basic architecture, our system (called \textsc{Euclid}) propagates uncertainty from multiple sources (e.g. coreference resolution or verb interpretation) until it can be confidently resolved. Experiments show the first-ever results ($43\%$ recall and $91\%$ precision) on SAT algebra word problems. We also apply \textsc{Euclid} to the public Dolphin algebra question set, and improve the state-of-the-art $F_1$-score from 73.9\% to 77.0\%.
+\end{abstract}
+
+
+
+\section{Introduction\label{sec:intro}}
+
+Math word problems pose questions that are challenging for current question answering (QA) systems to solve. Consider the following question originating from a study guide for the Math SAT\footnote{The Math SAT is a standardized exam administered to college-bound high school students in the United States.}:
+\begin{quote}
+\textbf{Example 1:} Suppose $3x+y=15$, where $x$ is a positive integer. What is the difference between the largest possible value of $y$ and the smallest possible value of $x$, assuming that $y$ is also a positive integer?		
+\end{quote}
+
+\noindent The correct response is 11; however its relationship with the other numbers in the question (3 and 15) is oblique and not easily mapped to an operator tree or equation template. This encourages us to build a semantic parser that produces an explicit representation of what the question is asking, if we want to make quantitative progress on the question set. However, while it is not hard to formalize the semantics:
+\begin{gather*}
+	X \times Y = \{(x,y) \mid 3x+y=15, x,y \in \mathbb{Z^+} \} \\
+	X = \{x \mid (x,y) \in X \times Y\} \\
+	Y = \{y \mid (x,y) \in X \times Y\} \\
+	\mbox{\textbf{solve: }} \max{Y} - \min{X}
+\end{gather*}
+
+\noindent it is not clear how to devise a compositional transformation from the original question to the formal semantics, since the meaning is dispersed throughout the discourse, such that neither the maximization nor the minimization can be locally derived from some subtree of the syntactic structure. 
+
+Moreover, SAT questions quickly reach the limits of preprocessing tools like anaphora resolution:
+
+\begin{quote}
+\textbf{Example 2:} $\langle r, s, t \rangle$ In the sequence above, if each term after the first is x more than the previous term, what is the average of r, s, and t in terms of r and x?	
+\end{quote}
+
+\begin{figure*}[tb]
+\centering
+\mbox{\includegraphics[width=4in]{pipeline.png}}
+\caption{\label{fig:pipeline} High-level view of \textsc{Euclid}'s architecture.}
+\end{figure*}
+
+
+\noindent Understanding this question requires a nuanced resolution of \emph{each term after the first} to the subsequence $\langle s, t \rangle$, a coreference resolution beyond the grasp of the current state of the art.
+
+Generally speaking, question discourse (with its complex cross-sentence semantics and anaphora) has not been a major focus of QA research.  In this paper, we use math SAT questions to develop an approach to handling question discourse. Our parser uses an intermediate semantic language that allows complex semantics (like those of Example 1) to be compositionally constructed from a multi-sentence question passage (Section 5.1). By architecting our semantic parser as a cascade of nondeterministic tree transducers \cite{gecseg1997tree}, we can propagate uncertainty until it can be confidently resolved -- sometimes as late as during program interpretation (Section 6). The integrated approach also allows us to handle novel classes of anaphoric phenomena by framing anaphora resolution as an operation on a parse forest decorated with implicits (Section 5.2). 
+
+
+
+
+Ultimately we produce an end-to-end system (called \textsc{Euclid}) that achieves $43\%$ recall and $91\%$ precision on SAT closed-vocabulary algebra questions, a subset (described in more detail in the next section) that constitutes approximately 45\% of a typical math SAT. We also achieve state-of-the-art results on the publicly released Dolphin question set \cite{Shi2015AutomaticallySN}, a set of more than 1500 algebra questions released by Microsoft Research.
+
+
+\section{Anatomy of a Math SAT}
+
+To assess our semantic parser, we compiled three question sets. Two question sets were created from sample SAT exams found in study guides (published by Kaplan and McGraw-Hill). We used the Kaplan set (12 exams, 648 total questions) for training/development and the McGraw-Hill set (13 exams\footnote{12 full exams + 1 PSAT}, 686 total questions) for devtest. We reserved official practice exams (8 exams, 396 total questions) released by the College Board for final testing. We did not subselect questions from the exams, rather we used them in their entirety.\footnote{One exception: we exclude the ``comparison"-style questions (discontinued in 2005) from pre-2005 exams.} We encoded mathematical formatting using \textsc{LaTeX}.
+
+During the compilation of these questions, they were split into 4 broad categories:
+
+
+\begin{enumerate}
+\item
+\textbf{Algebra (closed vocabulary)} (e.g. Examples 1 and 2) \textbf{: } Algebra questions drawn from a limited mathematical vocabulary.
+\item
+\textbf{Algebra (open vocabulary)} (e.g. ``At a basketball tournament involving 8 teams, each team played 4 games with each of the other teams. How many games were played at this tournament?") \textbf{: } Algebra questions drawn from an open-ended vocabulary.
+\item
+\textbf{Geometry:} Geometry questions, typically involving a diagram.
+\item
+\textbf{Other} A catch-all for questions that do not fall neatly into the above categories.
+\end{enumerate}
+
+\noindent In this paper, we focus our attention on closed-vocabulary algebra, which constitutes approximately 45\% of the questions.
+
+
+\section{Related Work}
+
+Most of the recent work on math questions has focused on open-vocabulary algebra problems, also known as math story problems. Benchmark datasets include Alg514 \cite{Kushman2014LearningTA}, AI2 \cite{Hosseini2014LearningTS}, Illinois and Commoncore \cite{Roy2015SolvingGA}, and DRAW \cite{Upadhyay2016AnnotatingDA}. A common property of these datasets is that they have been curated such that any given question can be solved by a limited-depth operator tree (AI2, Illinois, Commoncore) or a limited set of equation templates (Alg514 and DRAW). Because of this, it is feasible to use discriminative approaches \cite{Kushman2014LearningTA,Hosseini2014LearningTS,Roy2015SolvingGA,Zhou2015LearnTS,KoncelKedziorski2015ParsingAW,Mitra2016AddressingAQ} that extract the quantities, featurize the question, and then perform a weighted search over the space of instantiated operator trees or equation templates. However it is not clear how one can extend these discriminative techniques to handle the complex semantics found in Examples 1 and 2.
+
+
+
+Very recently, \cite{Matsuzaki2017SemanticParsing} published a paper about their semantic parsing approach to pre-university math problems (harvested from Japanese exams rather than the Math SAT). It is challenging to do a direct comparison, since they report results only on the Japanese-language exams. They report end-to-end system results of 11\% recall and 50\% precision.
+
+\begin{figure*}[tb]
+\centering
+\mbox{\includegraphics[width=6.4in]{exampleparse.png}}
+\caption{\label{fig:exampleparse} Example syntactic parse. For convenience, we show the correspondence of the nodes of our syntactic parse (top) to the original question passage (bottom). In the parse tree, ``E" stands for ``ENTITY".}
+\end{figure*}
+
+\begin{figure*}[tb]
+\centering
+\mbox{\includegraphics[width=6.4in]{examplecsp.png}}
+\caption{\label{fig:examplecsp} Example semantic program for the question ``Let $m+3<15$. If $m$ is a positive integer, what is the sum of all values of $m$?"}
+\end{figure*}
+
+\cite{Shi2015AutomaticallySN} harvested a fairly diverse set of closed-vocabulary algebra problems (called Dolphin) from the web and provided the first results on that dataset. Here, we demonstrate how to handle the more complex discourse semantics and anaphoric phenomena found in Math SAT questions, and establish a new state-of-the-art result on the Dolphin benchmark.  
+
+
+\section{System Overview\label{sec:pipeline}}
+
+\noindent Figure~\ref{fig:pipeline} shows a high-level view of our QA system. We will give a general overview in this section, and then explore more advanced concepts and examples in the subsequent section.
+
+
+
+\subsection{Intermediate Languages}
+
+Our QA system has two basic languages that mediate the transformation from the question passage to the answer: a syntactic language $\mathcal{A}$ and a semantic language $\mathcal{B}$. 
+
+
+
+Syntactic language $\mathcal{A}$ has a constituent-style syntax convenient\footnote{We experimented with adopting an existing syntax, like the Penn Treebank Syntax or the Stanford Dependency Syntax, but it turned out to be easier to develop the syntax in parallel with the needs of our system. Having said that, it is not intended to be wildly different from those formalisms.} for the tree transducers in our cascade. In Figure~\ref{fig:exampleparse}, we show an example. We have three basic node types: \emph{clauses}, \emph{entities} (these correspond to noun phrases), and \emph{details} (these correspond to adjectival and adverbial modifiers). Each node has a table of \emph{fields} (key-value pairs) that store child relationships and auxiliary information like tense and number. For brevity, this additional structure is omitted from Figure~\ref{fig:exampleparse}, but a more explicit visualization can be found in Figure~\ref{fig:exampletts} (top).
+
+
+A program in semantic language $\mathcal{B}$ is a set of constraint declarations. For instance, the question from Figure~\ref{fig:exampleparse} (``Let $m+3<15$. If $m$ is a positive integer, what is the sum of all values of $m$?") compiles to the semantic program in Figure~\ref{fig:examplecsp}. When the form of the tree is unimportant, it will be convenient to use a more legible LISP-style format, e.g.
+\begin{quote}
+($<$ ($+$ $m$ 3) 15) \\
+($>$ $m$ 0) \\
+($\mathsf{int}$ $m$) \\
+($\mathsf{proto}$ $m$ $M$) \\
+($=$ $?q$ ($\mathsf{sum}$ $M$))
+\end{quote}
+\noindent Every constraint in this program should be easily understandable, except for ($\mathsf{proto}$ $m$ $M$), which loosely means that $M$ is the set of all possible values of $m$. In Section~\ref{sec:aggregrations}, we discuss the $\mathsf{proto}$ directive in more detail.
+
+
+\subsection{Syntactic Parsing}
+
+\begin{figure}[tb]
+\centering
+\mbox{\includegraphics[width=3in]{exampletts.png}}
+\caption{\label{fig:exampletts} Example XTOPs transducer rules (bottom) used to derive a syntactic parse from the noun phrase ``a positive integer" (via backward application of the transducer).}
+\end{figure}
+
+The first stage of our QA system parses the question passage into language $\mathcal{A}$\footnote{Recall: language $\mathcal{A}$ is the syntactic language described in the previous section. An example is shown in Figure~\ref{fig:exampleparse}.}. We implemented the parser as the backward application of an extended top-down tree-to-string (XTOPs) transducer\footnote{We chose to implement the parsing step by engineering a transducer rather than using an off-the-shelf statistical parser. While we tried to retrofit a parser -- e.g. as done by \cite{Seo2015SolvingGP} -- to serve our needs, it turned out to be somewhat more robust (and relatively simple) to engineer our own.}.
+
+We refer the reader to \cite{Maletti2009ThePO} for a theoretical presentation of XTOPs, and instead give a brief intuitive presentation of the device. An XTOPs transducer defines a top-down transformation from a tree language to a string language, via a set of stateful rewrite rules. For instance, rules (i) through (v) of Figure~\ref{fig:exampletts} can generate the string ``a positive integer" from the $\mathcal{A}$-tree pictured at the top of the figure, given start state \textbf{qNP}.
+
+Given an XTOPs transducer $M$, we can parse string $s$ through \emph{backward application} of the transducer, i.e. compute the set of trees $M^{-1}(s)$ that could have generated string $s$ from the start state. Efficient backward application of XTOPs transducers is supported by packages like Tiburon \cite{May2006TiburonAW}.
+
+Our XTOPs transducer has approximately 140 states and 550 engineered rules (approximately 200 of these rules are used for parsing formal mathematics and a subset of LaTeX). Most lexical rules are automatically generated on-the-fly from WordNet \cite{miller1995wordnet}.
+
+\subsection{Compilation}
+
+We then compile the parses of the question passage, by running them forward through a cascade of bottom-up tree transducers \cite{engelfriet1975bottom}. Again we refer the reader to the literature \cite{Maletti2011HowTT,Maletti2014ThePO} for a theoretical presentation of bottom-up tree transducers, and use Figure~\ref{fig:examplembot} to provide intuition about the device. A bottom-up tree transducer defines a transformation from a tree language to a (possibly different) tree language, via a set of stateful bottom-up rewrite rules. 
+
+In Figure~\ref{fig:examplembot}, we show how this transformation works in the context of the semantic translation step, which uses a multi bottom-up transducer (MBOT) to map our syntactic language $\mathcal{A}$ into our semantic language $\mathcal{B}$. There is a single state (indicated by a gray shaded rectangle) that has two children: (i) a \emph{return value}, and (ii) a set of \emph{side-effect} statements. 
+
+The first rule application transforms ``all values of $m$" into a \emph{return value} of $M$ (a new variable introduced to indicate the set of all values of variable $m$) and a \emph{side-effect} ($\mathsf{proto}$ $m$ $M$), indicating that $M$ equals the set of all possible values of $m$. The second rule application transforms ``the sum of $M$" into a \emph{return value} of ($\mathsf{sum}$ $M$), and propagates upward the accumulated side-effects.
+ 
+\begin{figure*}[tb]
+\centering
+\mbox{\includegraphics[width=6.4in]{examplembot.png}}
+\caption{\label{fig:examplembot} Example semantic translation using an MBOT.}
+\end{figure*}
+
+We implemented all three compilation steps from Figure~\ref{fig:pipeline} (anaphora resolution, semantic translation, and semantic analysis) as the forward application of a bottom-up tree transducer. Anaphora resolution resolves any nodes that refer to other nodes in the tree. Semantic translation translates syntactic language $\mathcal{A}$ into semantic language $\mathcal{B}$. Semantic analysis type-checks the trees for internal consistency.
+
+
+%\subsection{Semantic Translation}
+
+
+
+
+%The parse trees are then processed (Figure~\ref{fig:aftertranslation}) by bottom-up transducer rules that recognize meaningful syntactic patterns and translate these into a more programmatic representation. Different rules can fire to produce multiple semantic translations of the same parse. For instance, the first parse has two  translations, since the rules support two interpretations of the subtree corresponding to ``$cd=21$'': (i) that the product of numbers $c$ and $d$ is 21, (ii) that the length of the line $cd$ is\footnote{This is its correct interpretation in the question ``Triangle bcd is equilateral. If cd=21, what is the length of bc?"} 21. The second parse has no supported semantic translations, due to the misattached prepositional phrase.
+
+
+\subsection{Interpretation}
+
+Finally, each derived $\mathcal{B}$-tree is sent to an evaluator to obtain an answer. Our main evaluator is a wrapped version of Z3 \cite{Moura2008Z3AE}, a widely used Satisfiability Modulo Theories (SMT) solver. If it does not find an answer, we fall back to a numeric optimization solver similar to one used by \cite{Seo2015SolvingGP}.
+
+\section{Spotlights}
+
+Having provided a bird's eye view in the last section, we now spotlight some key  details of our QA system.
+
+\subsection{Spotlight: Complex Aggregations\label{sec:aggregrations}}
+
+A core challenge of semantic parsing is how best to read complex semantic phenomena from a syntactic representation. Two such phenomena are superlatives and counting. GeoQuery \cite{Zelle1996LearningTP} has examples\footnote{e.g. ``What is the capital of the state that borders the most states?"} of these, as does\footnote{e.g. ``How many pets did John F. Kennedy own?"} WebQuestions \cite{Berant2013SemanticPO}. Unfortunately, it is not clear how existing strategies for dealing with aggregative constructs (e.g. \cite{Liang2011LearningDC}) can be extended to the more complex multi-sentence questions found on the SATs. For instance, the basic semantics of Example 1 (enumerated in Section 1) is dispersed throughout the question passage, such that neither the maximization nor the minimization can be locally derived from some subtree of the dependency structure. 
+
+To deal with this challenge, we designed our semantic language $\mathcal{B}$ to decompose the semantics of aggregative constructs into order-independent atoms. Consider the following restatement of the semantics of Example 1:
+\begin{gather*}
+	\mathsf{proto}(\dot{x}, X) \\
+	\mathsf{proto}(\dot{y}, Y) \\
+	3\dot{x}+\dot{y}=15 \\
+	\dot{x} > 0 \\
+	\dot{y} > 0 \\
+	\dot{x} \in \mathbb{Z} \\
+	\dot{y} \in \mathbb{Z} \\
+	\mbox{\textbf{solve: }} \max{Y} - \min{X}
+\end{gather*}
+
+\noindent where $\mathsf{proto}(\dot{z}, Z)$ designates that a variable $\dot{z}$ should be treated as the prototype variable of a statement in set-builder notation, i.e. $Z = \{\dot{z} \mid ...\}$. We treat any other statement featuring prototype variable $\dot{z}$ as a constraint appearing on the right side of the set-builder statement. If there are multiple prototype statements, they are grouped into a single set-builder statement (as occurs with $\dot{x}$ and $\dot{y}$ in our example).
+
+\begin{figure}[tb]
+\centering
+\mbox{\includegraphics[width=3in]{aggregation.png}}
+\caption{\label{fig:aggregation} Understanding complex aggregations by decomposing them into order-independent atoms.}
+\end{figure}
+
+The power of this decomposition is that it can be reconstructed piecemeal from an arbitrarily complex passage. The atomic statements can be interpreted locally in an arbitrary order, as in Figure~\ref{fig:aggregation}, then synthesized into set-builder notation during evaluation.
+
+\subsection{Spotlight: Complex Anaphoric Phenomena\label{sec:anaphora}}
+
+\begin{figure*}[tb]
+\centering
+\mbox{\includegraphics[width=6.4in]{anaphora.png}}
+\caption{\label{fig:anaphora} Bottom-up anaphora resolution in our QA system. For convenience, we show the correspondence of the nodes of our syntactic parse (top) to the original question passage (bottom). In the parse tree, ``E" is an abbreviation for ENTITY.}
+\end{figure*}
+
+The anaphora resolution task \cite{Ge1998ASA} is typically defined at the lexical level. For instance, in the sentence ``c is equal to its square," a traditional evaluation like the CoNLL-2011 Shared Task \cite{Pradhan2011CoNLL2011ST} would ask whether the string ``its" is aligned to the string ``c". These evaluations also assume that both the reference and the referent (a.k.a. antecedent) are contiguous strings in the text. 
+
+Math SAT problems exhibit a host of new challenges that fall outside traditionally studied definitions of anaphora resolution:
+
+\begin{itemize}
+\item \textbf{One-to-many coreference}\footnote{A recent ACL paper \cite{Vala2016TheMA} has provided a preliminary treatment of this phenomenon.} \textit{(One integer is 5 more than another. What is the sum of the numbers?)}: ``The numbers" refers to two discontiguous strings: ``one integer" and ``another".
+\item \textbf{Implicit set reference} \textit{(Two numbers sum to 5. If the first is 2, what is the second?)}: ``The second" implies a latent set that needs to be resolved (to ``two numbers") in order to understand the sentence. This phenomenon is shown in Figure~\ref{fig:anaphora}.
+\item \textbf{Implicit clausal reference} \textit{(If 7 is divided by 3, what is the remainder?)}: ``The remainder" implies a latent clause that needs to be resolved (to ``7 is divided by 3") in order to understand the sentence.
+\end{itemize}
+
+\noindent We address this broader class of anaphora by a two-pass process:
+
+\begin{enumerate}
+\item First, we introduce implicit sets and clauses when appropriate. For instance, implicit sets are introduced for superlative and ordinal constructions, while implicit clauses are introduced for functional nouns like ``remainder." In Figure~\ref{fig:anaphora}, these implicits are depicted as bracketed phrases (i.e. [of a set]). 
+\item Anaphora resolution then proceeds as a bottom-up tree-labeling process, shown in Figure~\ref{fig:anaphora}. For each subtree, a resolution function $\rho$ partially maps subtree entities to subtree nodes. Note that ancestors can overwrite the resolutions of their descendants. This occurs in the second example of Figure~\ref{fig:anaphora}, where the implicit set E7 is initially resolved to implicit set E4, but is later resolved to the entity E1 (``two numbers") once it comes into scope.  
+\end{enumerate}
+
+\noindent In our initial system, the resolution function $\rho$ was engineered heuristically. We later replaced this with a learned version (by using our system to generate training data). Due to space considerations, details are omitted. 
+
+\section{Results with the Unweighted Nondeterministic Cascade}
+
+In the basic cascade from Section~\ref{sec:pipeline}, the number of trees passed from module to module can expand, but it can also contract (for instance, in the semantic translation step, there can be multiple ways of translating a parse, or none at all). This allows the QA system to disambiguate question passages by eliminating parses for which there is no consistent semantics. On the subset of the Kaplan questions for which at least one parse exists, the average number of trees after the parsing step is 7.5. The average number of trees after the semantic analysis step goes down to only 2.4. At that point, obviously we need to choose some priority in which to feed these finalized programs to the evaluation module. Using a simple heuristic (process smaller programs first), we obtain 70.2\% recall and 95.8\% precision on the Kaplan closed-vocabulary algebra questions\footnote{Recall and precision numbers are computed over the entire set of questions, regardless of whether they have a valid parse.}.
+
+This high precision can be partially attributed to the fact that most SAT questions are multiple-choice (thus we can sequentially evaluate the finalized programs until we find a viable answer). We do not have that luxury on the Dolphin dataset, a set of direct-answer algebra questions curated by Microsoft Research (split into a development set of 374 questions and a test set of 1504 questions). On the subset of the development questions for which at least one parse exists (90.3\% of the questions), the average number of trees after the parsing step is 4.3. The average number of trees after the semantic analysis step goes down to 1.5. Our basic system obtains 66.3\% recall on the development questions. Naturally the precision is not as high as on the multiple choice questions, but surprisingly we still obtain 85.5\% precision, even with an unweighted cascade.
+
+\section{Introducing a Parse Ranker\label{sec:ranking}}
+
+Most of this precision loss is due to legitimate parse ambiguity that cannot be resolved through semantic interpretability alone. Rather, the disambiguation requires some additional pragmatic convention. Consider the example: ``When the reciprocal of three times a number is subtracted from the reciprocal of the number, the result is one sixth. Find the number." By interpreting ``the reciprocal of three" as $\frac{1}{3}$, the meaning of this question becomes ``When $\frac{1}{3}$ times a number is subtracted from the reciprocal of the number, the result is one sixth. Find the number." This is not however the most human-intuitive interpretation of the question. Somehow the system must identify the pragmatic cues that cause humans to disprefer this interpretation.
+
+To identify these cues, we insert a \emph{parse ranking module} between the parsing module and the anaphora resolution module (see Figure~\ref{fig:pipeline} for a reminder of the system components). The goal of the parse ranker is to associate a lower cost to ``more intuitive" interpretations when there are multiple plausible syntactic interpretations. The rest of the cascade propagates these costs. Similar to existing work, e.g. \cite{charniak2005coarse}, we implement the cost function as an $L_1$-regularized logistic regression model.
+
+Adding the trained parse ranker module improves performance on the Dolphin development set to 75.7\% recall and 97.3\% precision (from 66.3\% recall and 85.5\% precision). 
+
+\section{Final Results}
+
+\begin{table}[tb]
+\begin{center}
+\begin{tabular}{|c||c|c|c|}
+\hline
+& \textbf{recall} & \textbf{prec.} & \textbf{F1} \\
+\hline
+\textbf{Kaplan (non-blind)} & 70.2 & 95.8 & 81.0 \\
+\textbf{McGraw-Hill (blind)} & 41.0 & 91.8 & 56.7 \\
+\textbf{Official (blind)} & 43.1 & 90.8 & 58.5  \\
+\hline
+\end{tabular}
+\end{center}
+\caption{\label{tab:results} Results on the closed-vocabulary algebra subsets of our Math SAT question sets.}
+\end{table}
+
+\begin{table}[tb]
+\begin{center}
+\begin{tabular}{|c||c|c|c||c|c|c|}
+\hline
+& \multicolumn{3}{|c||}{\textsc{Euclid}} & \multicolumn{3}{|c|}{\cite{Shi2015AutomaticallySN}} \\
+\cline{2-7}
+& \textbf{rec.} & \textbf{prec.} & \textbf{F1} & \textbf{rec.} & \textbf{prec.} & \textbf{F1} \\
+\hline
+\textbf{dev} & 78.1 & 97.0 & 86.5 & - & - & - \\
+\textbf{test} & 65.1 & 94.1 & 77.0 & 60.3 & 95.4 & 73.9 \\
+\hline
+\end{tabular}
+\end{center}
+\caption{\label{tab:results2} Results on the Dolphin question sets. The increase in recall is statistically significant with a $P$-value $< 0.01$.}
+\end{table}
+
+\begin{table}[tb]
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{development (blind)} & \textbf{training} \\
+\hline
+Set $M$ consists of the & If the sum of the \\
+consecutive integers & consecutive integers \\
+from -15 to $y$, inclusive. & from -15 to $x$, \\
+If the sum of all of the & inclusive, is 51,  \\
+integers in set $M$ is 70, & what is the value \\
+how many numbers are in & of $x$? \\
+the set? & \\
+\hline
+If $a$, $b$, and $c$ are & If $x$ and $y$ are \\
+positive even integers & different positive \\
+such that $a < b < c$ & integers and \\
+and $a + b + c = 60$, & \(3x + y = 17\), the \\
+then the greatest possible & difference between \\
+value of $c$ is & the largest possible \\
+& value of $y$ \\
+& and the smallest \\
+& possible value \\
+& of $x$ is \\
+\hline
+\end{tabular}
+\end{center}
+\caption{\label{tab:correctanswers} Some correctly answered questions on the blind McGraw-Hill set, and their closest parallel (by edit distance) in the training set (Kaplan).}
+\end{table}
+
+Results from our final system are shown in Table~\ref{tab:results} (for the closed-vocabulary algebra subsets of our math SAT question sets) and Table~\ref{tab:results2} (for the Dolphin question sets). \textsc{Euclid} generalizes reasonably well to the blind SAT questions, achieving approximately 60\% of the system's recall on the training questions, at a precision of approximately 91\%. To give a sense of the extent of the generalization from training to test, Table~\ref{tab:correctanswers} offers a couple of correctly answered questions from the blind\footnote{Apart from harvesting a sample of correctly answered questions for this analysis, the McGraw-Hill set was kept completely blind. The official set was left completely untouched.} McGraw-Hill set, plus their closest analog in the training questions (by edit distance). The performance on the blind test sets (including all questions, not just closed-vocabulary algebra) corresponds to an SAT score of approximately 350 (out of 800). A random-guessing baseline has an expected score of 200.
+
+\begin{table}[tb]
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{development (blind)} & \textbf{training} \\
+\hline
+failed to parse & $50\%$ \\
+\hline
+failed to map parse & \\
+into a semantic program & $24\%$ \\
+\hline
+failed to produce an answer  & \\
+from any semantic program & $18\%$ \\
+\hline
+produced an incorrect answer & $8\%$ \\
+\hline
+\end{tabular}
+\end{center}
+\caption{\label{tab:erroranalysis} Error analysis on the blind McGraw-Hill set, surveying the first point of failure for a sample of 50 incorrectly answered questions.}
+\end{table}
+
+\begin{table*}[tb]
+\begin{center}
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+\textbf{genre} & \textbf{dataset} & \textbf{blind?} & \textbf{recall} & \textbf{precision} & \textbf{F1-score}\\
+\hline
+closed algebra & Kaplan & no & 70.2 & 95.8 & 81.0 \\
+& McGraw-Hill & yes & 41.0 & 91.8 & 56.7 \\
+& official & yes & 43.1 & 90.8 & 58.5 \\
+\hline
+geometry & Kaplan & no & 11.7 & 95.0 & 20.8  \\
+& McGraw-Hill & yes & 5.6 & 76.9 & 10.4 \\
+\hline
+open algebra & hosseini-ma2 & no & 34.7 & 57.5 & 43.3 \\
+& hosseini-ma1 & yes & 29.9 & 45.4 & 36.1 \\
+\hline
+\end{tabular}
+\end{center}
+\caption{\label{tab:fullgrid} Snapshot of early progress across several subgenres of the Math SAT. In our early stages, we are hillclimbing on the hosseini datasets from \cite{Hosseini2014LearningTS}, which are simpler than the open-vocabulary algebra questions from the Math SAT.}
+\end{table*}
+
+
+Table~\ref{tab:erroranalysis} provides a failure analysis on the McGraw-Hill data, categorizing a sample of 50 questions. Half of the questions failed to have a valid parse. Roughly a quarter of the questions had at least one valid parse, but none of these resulted in a semantic program. 18\% of the questions compiled into at least one semantic program, but none of these produced an answer when fed to the interpreter. 8\% of the questions compiled into a semantic form that produced an incorrect answer.
+
+Besides the Math SAT datasets, \textsc{Euclid} also has state-of-the-art performance on the public Dolphin question set, achieving an absolute recall improvement\footnote{This improvement is statistically significant with a P-value $< 0.01$.} of nearly 5\% with a small loss in precision. This raises the state-of-the-art $F_1$-score on this data set from 73.9\% to 77.0\%.
+
+
+
+\section{Towards a Broad-Coverage SAT solver}
+
+This paper reports on the first steps of a longer-term initiative to build a unified system that can pass the math SAT. We have made some preliminary forays into extending the system to handle the more complex subdomains described in Section 2, namely open-vocabulary algebra and geometry. Key research challenges presented by these new domains are:
+
+\begin{itemize}
+\item \textbf{Mapping into richer semantic languages: } The math story problems of open-vocabulary algebra require languages that reason about state change and can introduce assumptions not explicitly represented in the text. 
+\item \textbf{Robustly synthesizing diagram and text information: } For geometry questions, we are building on key early work in this area performed by \cite{Seo2014DiagramUI,Seo2015SolvingGP}.
+\item \textbf{Extending the system in a scalable way: } Writing new transducer rules for each new domain is not a sustainable way to extend our system. We are exploring how to use natural language to ``program" our system, e.g. by automatically inducing transducer rules for paraphrase text.
+\end{itemize}
+ 
+\noindent A snapshot of our current progress is shown in Table~\ref{tab:fullgrid}.
+
+
+\section{Discussion}
+
+In the process of creating a QA system for math SAT questions, this project has yielded several general strategies for beyond-sentential semantic parsing. For instance:
+\begin{itemize}
+	\item One can modularize the parser as a cascade of tree transducers, allowing uncertainty about anaphora resolution and lexical interpretation to be propagated until it can be confidently resolved, sometimes as late as program interpretation (see Section 6). 
+	\item One can atomize complex semantic phenomena (e.g. aggregrative constructs) into small order-independent pieces. This allows a simpler transformation from a syntactic form, because these atoms can be locally recognized, incrementally composed, and globally reconstituted into a structured semantics (see Section~\ref{sec:aggregrations}).
+	\item One can reframe bread-and-butter NLP tasks (e.g. anaphora resolution) to fit better within (and take advantage of) the context of the transducer cascade (see Section~\ref{sec:anaphora})
+\end{itemize}
+
+An important focus of this paper has been issues of representation, namely how to develop intermediate structured languages that facilitate the automatic transformation of question discourse into a response. Because we can use the resulting QA system to generate gold intermediate trees for any correctly answered question in our dataset, one way to view this work is as a data annotation project. One distinguishing advantage is that our intermediate languages come with a ``proof of usefulness." They are not designed based on speculative utility -- rather, they have already proven useful in the context of a functioning QA system.
+
+\section*{Acknowledgments}
+
+The authors would like to thank Luke Zettlemoyer, Jayant Krishnamurthy, Oren Etzioni, and the anonymous reviewers for valuable feedback on earlier drafts of the paper.
+
+
+\bibliography{references}
+\bibliographystyle{emnlp_natbib}
+
+\end{document}
+
+
+

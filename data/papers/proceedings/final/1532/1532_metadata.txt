@@ -1,0 +1,29 @@
+SubmissionNumber#=%=#1532
+FinalPaperTitle#=%=#Parsing with Traces: An O(n^4) Algorithm and a Structural Representation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#General treebank analyses are graph structured, but parsers are typically
+restricted to tree structures for efficiency and modeling reasons. We propose a
+new representation and algorithm for a class of graph structures that is
+flexible enough to cover almost all treebank structures, but still admit
+efficient learning and inference. In particular, we consider directed, acyclic,
+one-endpoint-crossing graph structures, which cover most long-distance
+dislocation, shared argumentation, and similar tree-violating linguistic
+phenomena. We describe how to convert phrase structure parses, including
+traces, to our new representation, in a reversible manner. Our dynamic program
+uniquely decomposes structures, is sound and complete, and covers 97.3% of the
+Penn English treebank. We also implement a proof-of-concept parser that
+recovers a range of null elements and trace types.
+Author{1}{Firstname}#=%=#Jonathan K.
+Author{1}{Lastname}#=%=#Kummerfeld
+Author{1}{Email}#=%=#jkk@cs.berkeley.edu
+Author{1}{Affiliation}#=%=#University of California
+Author{2}{Firstname}#=%=#Dan
+Author{2}{Lastname}#=%=#Klein
+Author{2}{Email}#=%=#klein@cs.berkeley.edu
+Author{2}{Affiliation}#=%=#University of California, Berkeley
+
+==========

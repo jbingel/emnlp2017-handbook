@@ -1,0 +1,34 @@
+SubmissionNumber#=%=#1525
+FinalPaperTitle#=%=#Nonparametric Bayesian Semi-supervised Word Segmentation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#This paper presents a novel hybrid generative/discriminative model of word
+segmentation based on nonparametric Bayesian methods. Unlike ordinary
+discriminative word segmentation which relies only on labeled data, our
+semi-supervised model also leverages a huge amount of unlabeled text to
+automatically learn new "words'', and further constrains them by using a
+labeled data to segment non-standard texts such as those found in social
+networking services. Specifically, our hybrid model combines a discriminative
+classifier (CRF; Lafferty et al. (2001)) and unsupervised word segmentation
+(NPYLM; Mochihashi et al. (2009)) with a transparent exchange of information
+between these two model structures within the semi-supervised framework
+(JESS-CM; Suzuki et al. (2008)). We confirmed that it can appropriately segment
+non-standard texts like those in Twitter and Weibo and has nearly
+state-of-the-art accuracy on standard datasets in Japanese, Chinese, and Thai.
+Author{1}{Firstname}#=%=#Daichi
+Author{1}{Lastname}#=%=#Mochihashi
+Author{1}{Email}#=%=#daichi@ism.ac.jp
+Author{1}{Affiliation}#=%=#The Institute of Statistical Mathematics
+Author{2}{Firstname}#=%=#Ryo
+Author{2}{Lastname}#=%=#Fujii
+Author{2}{Email}#=%=#ryo.b.fujii@hakuhodo.co.jp
+Author{2}{Affiliation}#=%=#Hakuhodo Inc. R&D Division
+Author{3}{Firstname}#=%=#Ryo
+Author{3}{Lastname}#=%=#Domoto
+Author{3}{Email}#=%=#ryo.domoto@hakuhodo.co.jp
+Author{3}{Affiliation}#=%=#Hakuhodo Inc. R&D Division
+
+==========
