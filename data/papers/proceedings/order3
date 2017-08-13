@@ -3,10 +3,10 @@
 * Saturday, September 9, 2017
 + 07:30--17:30 Registration Day 1
 + 08:00--08:30 Morning Coffee
-+ 08:30--09:00 Plenary Session. Opening Remarks # %room Jutland
-! 08:30--09:00 Opening Remarks %by General Chair, PC Co-Chairs
-+ 09:00--10:00 Plenary Session. Invited Talk %by Nando de Freitas # %room Jutland
-! 09:00--10:00 Physical simulation, learning and language %by Nando de Freitas
+#+ 08:30--09:00 Plenary Session. Opening Remarks # %room Jutland
+! 08:30--09:00 Opening Remarks %by General Chair, PC Co-Chairs % room Jutland
+#+ 09:00--10:00 Plenary Session. Invited Talk %by Nando de Freitas# %room Jutland
+! 09:00--10:00 Invited Talk: Physical simulation, learning and language %by Nando de Freitas % room Jutland
 + 10:00--10:30 Coffee Break
 = 10:30--12:10 Session 1A: Syntax 1 # %room Jutland %chair Joakim Nivre %aff1 Uppsala University
 617 10:30--10:55  # Monolingual Phrase Alignment on Parse Forests
@@ -141,8 +141,8 @@
 * Sunday, September 10, 2017
 + 07:30--17:30 Registration Day 2
 + 08:00--09:00 Morning Coffee
-+ 09:00--10:00 Plenary Session. Invited Talk %by Sharon Goldwater # %room Jutland
-! 09:00--10:00 Towards more universal language technology: unsupervised learning from speech %by Sharon Goldwater
+#+ 09:00--10:00 Plenary Session. Invited Talk %by Sharon Goldwater # %room Jutland
+! 09:00--10:00 Invited Talk. Towards more universal language technology: unsupervised learning from speech %by Sharon Goldwater
 + 10:00--10:30 Coffee Break
 = 10:30--12:10 Session 4A: Reading and Retrieving # %room Jutland %chair Heng Ji %aff1 Rensselaer Polytechnic Institute
 504 10:30--10:55  # A Structured Learning Approach to Temporal Relation Extraction
@@ -208,7 +208,7 @@
 1033 14:05--14:30  # Neural Semantic Parsing with Type Constraints for Semi-Structured Tables
 1255 14:30--14:55  # Joint Concept Learning and Semantic Parsing from Natural Language Explanations
 435 14:55--15:20  # Grasping the Finer Point: A Supervised Similarity Network for Metaphor Detection
-= 13:40--15:20 Session 5B: Computational Social Science 1 # %room Funen %chair Noah A. Smith %aff1 University of Washington
+= 13:40--15:20 Session 5B: Computational Social Science 1 # %room Funen %chair Smith, Noah A. %aff1 University of Washington
 869 13:40--14:05  # Identifying civilians killed by police with distantly supervised entity-event extraction
 1165 14:05--14:30  # Asking too much? The rhetorical role of questions in political discourse
 329 14:30--14:55  # Detecting Perspectives in Political Debates
@@ -312,9 +312,7 @@
 * Monday, September 11, 2017
 + 07:30--17:30 Registration Day 3
 + 08:00--09:00 Morning Coffee
-+ 09:00--10:00 Plenary Session. Invited Talk %by Dan Jurafsky # %room Jutland
-#! 09:00--10:00 "Does This Vehicle Belong to You”? 
-Processing the Language of Policing for Improving Police-Community Relations %by Dan Jurafsky
+! 09:00--10:00 Invited Talk. “Does This Vehicle Belong to You”? Processing the Language of Policing for Improving Police-Community Relations %by Dan Jurafsky# %room Jutland
 + 10:00--10:30 Coffee Break
 = 10:30--12:10 Session 7A: Machine Learning 3 # %room Jutland %chair Barbara Plank %aff1 University of Groningen
 1310 10:30--10:55  # Maximum Margin Reward Networks for Learning from Explicit and Implicit Supervision
@@ -382,7 +380,7 @@ Processing the Language of Policing for Improving Police-Community Relations %by
 644 14:40--14:55  # Image Pivoting for Learning Multilingual Multimodal Representations
 538 14:55--15:10  # Neural Machine Translation with Source Dependency Representation
 1388 15:10--15:25  # Visual Denotations for Recognizing Textual Entailment
-= 13:40--15:25 Session 8B: Machine Learning (Short) # %room Funen %chair Samuel R. Bowman %aff1 NYU
+= 13:40--15:25 Session 8B: Machine Learning (Short) # %room Funen %chair Bowman, Samuel R. %aff1 NYU
 1430 13:40--13:55  # Sequence Effects in Crowdsourced Annotations
 1017 13:55--14:10  # No Need to Pay Attention: Simple Recurrent Neural Networks Work!
 888 14:10--14:25  # The strange geometry of skip-gram with negative sampling
