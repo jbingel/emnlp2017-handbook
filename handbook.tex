@@ -18,6 +18,10 @@
 
 \usepackage{pdfpages}
 
+\usepackage{draftwatermark}
+\SetWatermarkText{DRAFT...}
+\SetWatermarkScale{0.8}
+\SetWatermarkLightness{0.9}
 
 % set paper size and margins; needs to be adapted for A5 ideally, we
 % should have a document class for conference handbooks where A5
@@ -83,7 +87,7 @@
 
 %% COVER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\fancyfoot[C]{}
+%\fancyfoot[C]{}
 \includepdf[pages={1}]{content/fmatter/EMNLP17_cover.pdf}
 
 %% INSIDE FRONT COVER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -98,7 +102,7 @@
 \emph{Printing by Frederiksbergs Bogtrykkeri A/S}
 \end{linez}
 
-\input{content/maps}
+\input{content/fmatter/maps}
 %\cleardoublepage
 
 %\newpage
@@ -107,17 +111,13 @@
 \frontmatter
 
 %% TOC %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \addcontentsline{toc}{chapter}{Table of Contents}
 \setcounter{tocdepth}{2}
 \tableofcontents
 \mainmatter
-%\pagestyle{fancy}
 
 %% PREFACE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \chapter{Conference Information}
-%
 \input{content/fmatter/preface-chair}
 \clearpage
 \input{content/fmatter/preface-pc}
@@ -126,62 +126,42 @@
 \setheaders{}{}
 \input{content/fmatter/committee}
 
-%% \clearpage
-%\input{content/fmatter/sponsors}
 \clearpage%{\thispagestyle{emptyheader}\cleardoublepage}
 \setheaders{}{}
 
 %% Venue info %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{content/location-info.tex}
+\input{content/fmatter/location-info.tex}
 %% Meal info %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{content/meal-info.tex}
+\input{content/fmatter/meal-info.tex}
 %% Welcome reception %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% \addcontentsline{toc}{chapter}{Welcome Reception: \daydate, 6:00pm}
-\input{content/tutorials/welcome_reception}
+\input{content/fmatter/welcome_reception}
 
 \clearpage
 \todo{full overview for all days}
-%\pagestyle{fancy}
-%% TUTORIALS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%% TUTORIALS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \setdaydateyear{Thursday}{September 7}{2017}
-%\input{content/tutorials/tutorials1-overview}
+\input{content/tutorials/tutorials1-overview}
 
 \setdaydateyear{Friday}{September 8}{2017}
-%\input{content/tutorials/tutorials2-overview}
+\input{content/tutorials/tutorials2-overview}
 
 %% WORKSHOPS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \setdaydateyear{Thursday--Friday}{September 7--8}{2017}
-%%\pagestyle{fancy}
-%\input{content/workshops/workshops}
+\input{content/workshops/workshops}
 
 
 %% MAIN CONFERENCE %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%\setdaydateyear{Saturday}{September 9}{2017}
-%\input{content/day1/day1}
-%
-%\setdaydateyear{Sunday}{September 10}{2017}
-%\input{content/day2/day2}
-%
-%\setdaydateyear{Monday}{September 11}{2017}
-%\input{content/day3/day3}
+\setdaydateyear{Saturday}{September 9}{2017}
+\input{content/day1/day1}
 
-%% Cultural event %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setdaydateyear{Sunday}{September 10}{2017}
+\input{content/day2/day2}
 
-%% \setdaydateyear{Thursday}{June 4}{2015}
-%% \addcontentsline{toc}{chapter}{Special Cultural Event: Thursday, June 26, 8:00 PM}
-%% \input{content/special-event}
-
-%% *SEM% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\setdaydateyear{Thursday--Friday}{June 4--5}{2015}
-%\input{content/colocated/overview}
-
+\setdaydateyear{Monday}{September 11}{2017}
+\input{content/day3/day3}
 
 %% MISC %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 % Anti-harassment policy
 \input{content/anti-harassment-policy}
 
@@ -196,18 +176,10 @@
 \setheaders{Local Guide}{Local Guide}
 \input{content/local-guide/local-guide.tex}
 \clearpage
-%% BACK COVER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%\thispagestyle{empty}
-%
-%\noindent SIGDAT gratefully acknowledges the following sponsors for
-%their support:\\
 
 
-%% ADS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%% ADS AND SPONSORS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearpage
-%\addcontentsline{toc}{chapter}{Sponsorship}
 \setheaders{}{}
 \input{content/ads/ads}
 
