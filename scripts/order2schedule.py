@@ -234,10 +234,10 @@ for date in dates:
             chairs = session.chairs()
             if len(chairs) == 1:
                 chair = chairs[0]
-	        print >>out, '\\Track%cLoc\\hfill Chair: \\sessionchair{%s}{%s} \\\\' % (chr(i + 65),chair[0],chair[1])
+	        print >>out, '\\Track%cLoc\\hfill Chair: \\sessionchair{%s}{%s} \\\\' % (chr(i + 68),chair[0],chair[1])
 	    elif len(chairs) > 1: 
 	        chair = chairs[0]
-	        print >>out, '\\Track%cLoc\\hfill Chairs: \\sessionchair{%s}{%s}' % (chr(i + 65),chair[0],chair[1])
+	        print >>out, '\\Track%cLoc\\hfill Chairs: \\sessionchair{%s}{%s}' % (chr(i + 68),chair[0],chair[1])
 	        for chair in chairs[1:]:
 		    print >>out, ', \\sessionchair{%s}{%s}' % (chair[0],chair[1])
                 print >>out, '\\\\'
