@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Matt Post, June 2014
+# Matt Post, June 2014, adapted by Joachim Bingel, Aug 2017
 
 """
 Generates the placards posted outside each room listing the sessions hosted there.
@@ -21,14 +21,17 @@ import argparse
 import jinja2
 from collections import defaultdict
 from paper_info import Paper
+import sys  
 
+reload(sys)  
+sys.setdefaultencoding('utf8')
 sys.stdout = codecs.getwriter('utf8')(sys.stdout)
 
 PARSER = argparse.ArgumentParser(description="Generate overview schedules for *ACL handbooks")
 PARSER.add_argument("subconferences", nargs='+')
 PARSER.add_argument("-template", dest="template", default='input/placard.jinja2', help="location of Jinja2 LaTeX template")
 PARSER.add_argument("-output_dir", dest="output_dir", default="auto/placards")
-PARSER.add_argument("-logo", dest="logo", default="content/fmatter/logos/harbor.png")
+PARSER.add_argument("-logo", dest="logo", default="content/fmatter/emnlp2017_logo.png")
 args = PARSER.parse_args()
 
 if not os.path.exists(args.output_dir):
@@ -65,8 +68,10 @@ for subconf in args.subconferences:
             
         elif line.startswith('='):
             session_name = line[2:]
-            match = re.match(r'Session \d([A-E])', session_name)
+            match = re.search(r'Session \d([A-C])', session_name)
+            print(match)
             if match is not None:
+                print(match.group())
                 session_track = match.group(1)
                 if not sessions[daydate][session_track].has_key(session_name):
                     sessions[daydate][session_track][session_name] = {
@@ -79,10 +84,10 @@ for subconf in args.subconferences:
         elif re.match(r'\d+ \d+:\d+', line):
             """For the overview, we don't print sessions or papers, but we do need to look at
             oral presentations in order to determine the time range of the session (if any applies)"""
+            print(line)
             if session_name is None:
                 print "* WARNING: paper without a session name"
                 continue
-
             if sessions[daydate][session_track].has_key(session_name):
                 paper_id, timerange, _ = line.split(' ', 2)
                 start, stop = timerange.split('--')
@@ -91,7 +96,25 @@ for subconf in args.subconferences:
                 if not sessions[daydate][session_track][session_name].has_key('papers'):
                     sessions[daydate][session_track][session_name]['papers'] = []
                 sessions[daydate][session_track][session_name]['papers'].append({
-                    'time': minus12range(timerange),
+                    'time': timerange,
+                    'title': p.escaped_title(),
+                    'authors': (', '.join(map(unicode, p.authors)))
+                })
+        
+        elif re.match(r'\d+ ', line):
+            """Posters"""
+            print(line)
+            if session_name is None:
+                print "* WARNING: paper without a session name"
+                continue
+            if sessions[daydate][session_track].has_key(session_name):
+                paper_id, _ = line.split(' ', 1)
+
+                p = Paper('data/%s/proceedings/final/%s/%s_metadata.txt' % (subconf, paper_id, paper_id))
+                if not sessions[daydate][session_track][session_name].has_key('papers'):
+                    sessions[daydate][session_track][session_name]['papers'] = []
+                sessions[daydate][session_track][session_name]['papers'].append({
+                    'time': '00:00--00:00',
                     'title': p.escaped_title(),
                     'authors': (', '.join(map(unicode, p.authors)))
                 })
@@ -116,11 +139,12 @@ for day, data in sessions.iteritems():
         }
 
         for session in sorted(data[track].keys()):
+            _session = session.replace(" # %room", ", Room: ").replace(" %chair", ", Chair: ").replace(" %aff1", ",").replace("&", "\&")
             all_data['sessions'].append({
-                'title': session,
+                'title': _session,
                 'papers': sorted(data[track][session]['papers'], lambda x,y: sort_times(x,y))
             })
 
-        out = codecs.open('%s/%s-%s.tex' % (args.output_dir, day, track), 'w', 'utf-8')
+        out = codecs.open('%s/%s-%s.tex' % (args.output_dir, day.replace(" ","_"), track), 'w', 'utf-8')
         out.write(template.render(all_data))
         out.close()

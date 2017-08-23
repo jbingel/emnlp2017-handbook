@@ -1,0 +1,174 @@
+% This is a template file used to generate A1-sized placards
+% summarizing all the talks that take place in a particular room.
+
+\documentclass{book}
+
+\usepackage{pdfpages}
+
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=841mm,
+  paperwidth=594mm,
+  inner=1.5in,
+  outer=1.5in,
+  bottom=2in,
+  top=2in,
+  twoside]{geometry}
+\input{../../content/special/preamble} 
+\input{../../content/special/macros}    
+\input{../../content/setup/venues}    % macros for event locations
+
+\renewcommand{\footnotesize}{\fontsize{18}{22}\selectfont}
+\renewcommand{\small}{\fontsize{24}{28}\selectfont}
+\renewcommand{\normalsize}{\fontsize{32}{36}\selectfont}
+\renewcommand{\large}{\fontsize{36}{40}\selectfont}
+\renewcommand{\Large}{\fontsize{64}{66}\selectfont}
+\renewcommand{\huge}{\fontsize{72}{80}\selectfont}
+
+\begin{document}
+
+\section{Day at a Glance --- Sunday, September 10}
+
+\begin{tabular}{p{8in}b{10in}}
+  \includegraphics[width=6in]{../../content/fmatter/emnlp17_logo.png}
+  & \huge{\bfseries Track F}\newline\TrackFLoc\vfill
+\end{tabular}
+
+\renewcommand{\arraystretch}{1.5}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
+
+
+
+\noindent {\bfseries\large 10:30--12:10 Session 4F: Poster Session. Machine Translation and Multilingual NLP 1, Room:  Copenhagen, Chair:  Anahita Mansouri Bigvand, Simon Fraser University} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	Neural Lattice-to-Sequence Models for Uncertain Inputs \newline 
+    {\itshape Matthias Sperber, Graham Neubig, Jan Niehues, Alex Waibel} \\
+    
+    \noindent	Memory-augmented Neural Machine Translation \newline 
+    {\itshape Yang Feng, Shiyue Zhang, Andi Zhang, Dong Wang, Andrew Abel} \\
+    
+    \noindent	Dynamic Data Selection for Neural Machine Translation \newline 
+    {\itshape Marlies van der Wees, Arianna Bisazza, Christof Monz} \\
+    
+    \noindent	Neural Machine Translation Leveraging Phrase-based Models in a Hybrid Search \newline 
+    {\itshape Leonard Dahlmann, Evgeny Matusov, Pavel Petrushkov, Shahram Khadivi} \\
+    
+    \noindent	Translating Phrases in Neural Machine Translation \newline 
+    {\itshape Xing Wang, Zhaopeng Tu, Deyi Xiong, Min Zhang} \\
+    
+    \noindent	Towards Bidirectional Hierarchical Representations for Attention-based Neural Machine Translation \newline 
+    {\itshape Baosong Yang, Derek F. Wong, Tong Xiao, Lidia S. Chao, Jingbo Zhu} \\
+    
+    \noindent	Exploring Hyperparameter Sensitivity in Neural Machine Translation Architectures \newline 
+    {\itshape Denny Britz, Anna Goldie, Minh-Thang Luong, Quoc Le} \\
+    
+    \noindent	Learning Translations via Matrix Completion \newline 
+    {\itshape Derry Tanti Wijaya, Brendan Callahan, John Hewitt, Jie Gao, Xiao Ling, Marianna Apidianaki, Chris Callison-Burch} \\
+    
+    \noindent	Reinforcement Learning for Bandit Neural Machine Translation with Simulated Human Feedback \newline 
+    {\itshape Khanh Nguyen, Hal Daumé III, Jordan Boyd-Graber} \\
+    
+    \noindent	Towards Compact and Fast Neural Machine Translation Using a Combined Method \newline 
+    {\itshape Xiaowei Zhang, Wei Chen, Feng Wang, Shuang Xu, Bo Xu} \\
+    
+    \noindent	Instance Weighting for Neural Machine Translation Domain Adaptation \newline 
+    {\itshape Rui Wang, Masao Utiyama, Lemao Liu, Kehai Chen, Eiichiro Sumita} \\
+    
+    \noindent	Regularization techniques for fine-tuning in neural machine translation \newline 
+    {\itshape Antonio Valerio Miceli Barone, Barry Haddow, Ulrich Germann, Rico Sennrich} \\
+    
+    \noindent	Source-Side Left-to-Right or Target-Side Left-to-Right? An Empirical Comparison of Two Phrase-Based Decoding Algorithms \newline 
+    {\itshape Yin-Wen Chang, Michael Collins} \\
+    
+    \noindent	Using Target-side Monolingual Data for Neural Machine Translation through Multi-task Learning \newline 
+    {\itshape Tobias Domhan, Felix Hieber} \\
+    
+
+
+\noindent {\bfseries\large 13:40--15:20 Session 5F: Poster Session. Language Models, Text Mining, and Crowd Sourcing, Room:  Copenhagen, Chair:  Allen Schmaltz, Harvard University} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	Dynamic Entity Representations in Neural Language Models \newline 
+    {\itshape Yangfeng Ji, Chenhao Tan, Sebastian Martschat, Yejin Choi, Noah A. Smith} \\
+    
+    \noindent	Towards Quantum Language Models \newline 
+    {\itshape Ivano Basile, Fabio Tamburini} \\
+    
+    \noindent	Reference-Aware Language Models \newline 
+    {\itshape Zichao Yang, Phil Blunsom, Chris Dyer, Wang Ling} \\
+    
+    \noindent	A Simple Language Model based on PMI Matrix Approximations \newline 
+    {\itshape Oren Melamud, Ido Dagan, Jacob Goldberger} \\
+    
+    \noindent	Syllable-aware Neural Language Models: A Failure to Beat Character-aware Ones \newline 
+    {\itshape Zhenisbek Assylbekov, Rustem Takhanov, Bagdat Myrzakhmetov, Jonathan N. Washington} \\
+    
+    \noindent	Inducing Semantic Micro-Clusters from Deep Multi-View Representations of Novels \newline 
+    {\itshape Lea Frermann, György Szarvas} \\
+    
+    \noindent	Initializing Convolutional Filters with Semantic Features for Text Classification \newline 
+    {\itshape Shen Li, Zhe Zhao, Tao Liu, Renfen Hu, Xiaoyong Du} \\
+    
+    \noindent	Shortest-Path Graph Kernels for Document Similarity \newline 
+    {\itshape Giannis Nikolentzos, Polykarpos Meladianos, Francois Rousseau, Yannis Stavrakas, Michalis Vazirgiannis} \\
+    
+    \noindent	Adapting Topic Models using Lexical Associations with Tree Priors \newline 
+    {\itshape Weiwei Yang, Jordan Boyd-Graber, Philip Resnik} \\
+    
+    \noindent	Finding Patterns in Noisy Crowds: Regression-based Annotation Aggregation for Crowdsourced Data \newline 
+    {\itshape Natalie Parde, Rodney Nielsen} \\
+    
+    \noindent	CROWD-IN-THE-LOOP: A Hybrid Approach for Annotating Semantic Roles \newline 
+    {\itshape Chenguang Wang, Alan Akbik, laura chiticariu, Yunyao Li, Fei Xia, Anbang Xu} \\
+    
+
+
+\noindent {\bfseries\large 15:50--17:30 Session 6F: Poster Session. Computational Social Science 2, Room:  Copenhagen, Chair:  Afshin Rahimi, University of Melbourne} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	All that is English may be Hindi: Enhancing language identification through automatic ranking of the likeliness of word borrowing in social media \newline 
+    {\itshape Jasabanta Patro, Bidisha Samanta, Saurabh Singh, Abhipsa Basu, Prithwish Mukherjee, Monojit Choudhury, Animesh Mukherjee} \\
+    
+    \noindent	Multi-View Unsupervised User Feature Embedding for Social Media-based Substance Use Prediction \newline 
+    {\itshape Tao Ding, Warren K. Bickel, Shimei Pan} \\
+    
+    \noindent	Demographic-aware word associations \newline 
+    {\itshape Aparna Garimella, Carmen Banea, Rada Mihalcea} \\
+    
+    \noindent	A Factored Neural Network Model for Characterizing Online Discussions in Vector Space \newline 
+    {\itshape Hao Cheng, Hao Fang, Mari Ostendorf} \\
+    
+    \noindent	Dimensions of Interpersonal Relationships: Corpus and Experiments \newline 
+    {\itshape Farzana Rashid, Eduardo Blanco} \\
+    
+    \noindent	Argument Mining on Twitter: Arguments, Facts and Sources \newline 
+    {\itshape Mihai Dusmanu, Elena Cabrio, Serena Villata} \\
+    
+    \noindent	Distinguishing Japanese Non-standard Usages from Standard Ones \newline 
+    {\itshape Tatsuya Aoki, Ryohei Sasano, Hiroya Takamura, Manabu Okumura} \\
+    
+    \noindent	Connotation Frames of Power and Agency in Modern Films \newline 
+    {\itshape Maarten Sap, Marcella Cindy Prasettio, Ari Holtzman, Hannah Rashkin, Yejin Choi} \\
+    
+    \noindent	Controlling Human Perception of Basic User Traits \newline 
+    {\itshape Daniel Preoţiuc-Pietro, Sharath Chandra Guntuku, Lyle Ungar} \\
+    
+    \noindent	Topic Signatures in Political Campaign Speeches \newline 
+    {\itshape Clément Gautrais, Peggy Cellier, René Quiniou, Alexandre Termier} \\
+    
+    \noindent	Assessing Objective Recommendation Quality through Political Forecasting \newline 
+    {\itshape H. Andrew Schwartz, Masoud Rouhizadeh, Michael Bishop, Philip Tetlock, Barbara Mellers, Lyle Ungar} \\
+    
+    \noindent	Never Abandon Minorities: Exhaustive Extraction of Bursty Phrases on Microblogs Using Set Cover Problem \newline 
+    {\itshape Masumi Shirakawa, Takahiro Hara, Takuya Maekawa} \\
+    
+
+
+\end{document}

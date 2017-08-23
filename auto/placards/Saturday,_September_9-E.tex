@@ -1,0 +1,138 @@
+% This is a template file used to generate A1-sized placards
+% summarizing all the talks that take place in a particular room.
+
+\documentclass{book}
+
+\usepackage{pdfpages}
+
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=841mm,
+  paperwidth=594mm,
+  inner=1.5in,
+  outer=1.5in,
+  bottom=2in,
+  top=2in,
+  twoside]{geometry}
+\input{../../content/special/preamble} 
+\input{../../content/special/macros}    
+\input{../../content/setup/venues}    % macros for event locations
+
+\renewcommand{\footnotesize}{\fontsize{18}{22}\selectfont}
+\renewcommand{\small}{\fontsize{24}{28}\selectfont}
+\renewcommand{\normalsize}{\fontsize{32}{36}\selectfont}
+\renewcommand{\large}{\fontsize{36}{40}\selectfont}
+\renewcommand{\Large}{\fontsize{64}{66}\selectfont}
+\renewcommand{\huge}{\fontsize{72}{80}\selectfont}
+
+\begin{document}
+
+\section{Day at a Glance --- Saturday, September 9}
+
+\begin{tabular}{p{8in}b{10in}}
+  \includegraphics[width=6in]{../../content/fmatter/emnlp17_logo.png}
+  & \huge{\bfseries Track E}\newline\TrackELoc\vfill
+\end{tabular}
+
+\renewcommand{\arraystretch}{1.5}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
+
+
+
+\noindent {\bfseries\large 13:40--15:20 Session 2E: Poster Session. Machine Learning 1, Room:  Odense, Chair:  Pontus Stenetorp, University College London} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	Reporting Score Distributions Makes a Difference: Performance Study of LSTM-networks for Sequence Tagging \newline 
+    {\itshape Nils Reimers, Iryna Gurevych} \\
+    
+    \noindent	Learning What's Easy: Fully Differentiable Neural Easy-First Taggers \newline 
+    {\itshape André F. T. Martins, Julia Kreutzer} \\
+    
+    \noindent	Incremental Skip-gram Model with Negative Sampling \newline 
+    {\itshape Nobuhiro Kaji, Hayato Kobayashi} \\
+    
+    \noindent	Learning to select data for transfer learning with Bayesian Optimization \newline 
+    {\itshape Sebastian Ruder, Barbara Plank} \\
+    
+    \noindent	Unsupervised Pretraining for Sequence to Sequence Learning \newline 
+    {\itshape Prajit Ramachandran, Peter Liu, Quoc Le} \\
+    
+    \noindent	Efficient Attention using a Fixed-Size Memory Representation \newline 
+    {\itshape Denny Britz, Melody Guan, Minh-Thang Luong} \\
+    
+    \noindent	Rotated Word Vector Representations and their Interpretability \newline 
+    {\itshape Sungjoon Park, JinYeong Bak, Alice Oh} \\
+    
+    \noindent	A causal framework for explaining the predictions of black-box sequence-to-sequence models \newline 
+    {\itshape David Alvarez-Melis, Tommi Jaakkola} \\
+    
+    \noindent	Piecewise Latent Variables for Neural Variational Text Processing \newline 
+    {\itshape Iulian Vlad Serban, Alexander G. Ororbia, Joelle Pineau, Aaron Courville} \\
+    
+    \noindent	Learning the Structure of Variable-Order CRFs: a finite-state perspective \newline 
+    {\itshape Thomas Lavergne, François Yvon} \\
+    
+    \noindent	Sparse Communication for Distributed Gradient Descent \newline 
+    {\itshape Alham Fikri Aji, Kenneth Heafield} \\
+    
+    \noindent	A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks \newline 
+    {\itshape Kazuma Hashimoto, caiming xiong, Yoshimasa Tsuruoka, Richard Socher} \\
+    
+    \noindent	Why ADAGRAD Fails for Online Topic Modeling \newline 
+    {\itshape You Lu, Jeffrey Lund, Jordan Boyd-Graber} \\
+    
+
+
+\noindent {\bfseries\large 15:50--17:30 Session 3E: Poster Session. Question Answering and Machine Comprehension, Room:  Odense, Chair:  Jay Pujara, University of Maryland} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	From Textbooks to Knowledge: A Case Study in Harvesting Axiomatic Knowledge from Textbooks to Solve Geometry Problems \newline 
+    {\itshape Mrinmaya Sachan, Kumar Dubey, Eric Xing} \\
+    
+    \noindent	RACE: Large-scale ReAding Comprehension Dataset From Examinations \newline 
+    {\itshape Guokun Lai, Qizhe Xie, Hanxiao Liu, Yiming Yang, Eduard Hovy} \\
+    
+    \noindent	Beyond Sentential Semantic Parsing: Tackling the Math SAT with a Cascade of Tree Transducers \newline 
+    {\itshape Mark Hopkins, Cristian Petrescu-Prahova, Roie Levin, Ronan Le Bras, Alvaro Herrasti, Vidur Joshi} \\
+    
+    \noindent	Learning Fine-Grained Expressions to Solve Math Word Problems \newline 
+    {\itshape Danqing Huang, Shuming Shi, Chin-Yew Lin, Jian Yin} \\
+    
+    \noindent	Structural Embedding of Syntactic Trees for Machine Comprehension \newline 
+    {\itshape Rui Liu, Junjie Hu, Wei Wei, Zi Yang, Eric Nyberg} \\
+    
+    \noindent	World Knowledge for Reading Comprehension: Rare Entity Prediction with Hierarchical LSTMs Using External Descriptions \newline 
+    {\itshape Teng Long, Emmanuel Bengio, Ryan Lowe, Jackie Chi Kit Cheung, Doina Precup} \\
+    
+    \noindent	Two-Stage Synthesis Networks for Transfer Learning in Machine Comprehension \newline 
+    {\itshape David Golub, Po-Sen Huang, Xiaodong He, Li Deng} \\
+    
+    \noindent	Deep Neural Solver for Math Word Problems \newline 
+    {\itshape Yan Wang, Xiaojiang Liu, Shuming Shi} \\
+    
+    \noindent	Latent Space Embedding for Retrieval in Question-Answer Archives \newline 
+    {\itshape Deepak P, Dinesh Garg, Shirish Shevade} \\
+    
+    \noindent	Question Generation for Question Answering \newline 
+    {\itshape Nan Duan, Duyu Tang, Peng Chen, Ming Zhou} \\
+    
+    \noindent	Learning to Paraphrase for Question Answering \newline 
+    {\itshape Li Dong, Jonathan Mallinson, Siva Reddy, Mirella Lapata} \\
+    
+    \noindent	Temporal Information Extraction for Question Answering Using Syntactic Dependencies in an LSTM-based Architecture \newline 
+    {\itshape Yuanliang Meng, Anna Rumshisky, Alexey Romanov} \\
+    
+    \noindent	Ranking Kernels for Structures and Embeddings: A Hybrid Preference and Classification Model \newline 
+    {\itshape Kateryna Tymoshenko, Daniele Bonadiman, Alessandro Moschitti} \\
+    
+    \noindent	Recovering Question Answering Errors via Query Revision \newline 
+    {\itshape Semih Yavuz, Izzeddin Gur, Yu Su, Xifeng Yan} \\
+    
+
+
+\end{document}

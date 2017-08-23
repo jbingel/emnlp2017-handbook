@@ -1,0 +1,111 @@
+% This is a template file used to generate A1-sized placards
+% summarizing all the talks that take place in a particular room.
+
+\documentclass{book}
+
+\usepackage{pdfpages}
+
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=841mm,
+  paperwidth=594mm,
+  inner=1.5in,
+  outer=1.5in,
+  bottom=2in,
+  top=2in,
+  twoside]{geometry}
+\input{../../content/special/preamble} 
+\input{../../content/special/macros}    
+\input{../../content/setup/venues}    % macros for event locations
+
+\renewcommand{\footnotesize}{\fontsize{18}{22}\selectfont}
+\renewcommand{\small}{\fontsize{24}{28}\selectfont}
+\renewcommand{\normalsize}{\fontsize{32}{36}\selectfont}
+\renewcommand{\large}{\fontsize{36}{40}\selectfont}
+\renewcommand{\Large}{\fontsize{64}{66}\selectfont}
+\renewcommand{\huge}{\fontsize{72}{80}\selectfont}
+
+\begin{document}
+
+\section{Day at a Glance --- Sunday, September 10}
+
+\begin{tabular}{p{8in}b{10in}}
+  \includegraphics[width=6in]{../../content/fmatter/emnlp17_logo.png}
+  & \huge{\bfseries Track C}\newline\TrackCLoc\vfill
+\end{tabular}
+
+\renewcommand{\arraystretch}{1.5}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
+
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 10:30--12:10 Session 4C: Human Centered NLP and Linguistic Theory, Room:  Zealand, Chair:  Alan Ritter, Ohio State University} \\\hline
+
+    
+    10:30--10:55
+    &	ConStance: Modeling Annotation Contexts to Improve Stance Classification \newline 
+    {\itshape Kenneth Joseph, Lisa Friedland, William Hobbs, David Lazer, Oren Tsur} \\
+    
+    10:55--11:20
+    &	Deeper Attention to Abusive User Content Moderation \newline 
+    {\itshape John Pavlopoulos, Prodromos Malakasiotis, Ion Androutsopoulos} \\
+    
+    11:20--11:45
+    &	Outta Control: Laws of Semantic Change and Inherent Biases in Word Representation Models \newline 
+    {\itshape haim dubossarsky, Daphna Weinshall, Eitan Grossman} \\
+    
+    11:45--12:10
+    &	Human Centered NLP with User-Factor Adaptation \newline 
+    {\itshape Veronica Lynn, Youngseo Son, Vivek Kulkarni, Niranjan Balasubramanian, H. Andrew Schwartz} \\
+    
+\end{tabular}
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 13:40--15:20 Session 5C: Sentiment Analysis 2, Room:  Zealand, Chair:  Pascale Fung, Hong Kong University of Science \& Technology} \\\hline
+
+    
+    13:40--14:05
+    &	A Question Answering Approach for Emotion Cause Extraction \newline 
+    {\itshape Lin Gui, Jiannan Hu, Yulan He, Ruifeng Xu, Lu Qin, Jiachen Du} \\
+    
+    14:05--14:30
+    &	Story Comprehension for Predicting What Happens Next \newline 
+    {\itshape Snigdha Chaturvedi, Haoruo Peng, Dan Roth} \\
+    
+    14:30--14:55
+    &	Using millions of emoji occurrences to learn any-domain representations for detecting sentiment, emotion and sarcasm \newline 
+    {\itshape Bjarke Felbo, Alan Mislove, Anders Søgaard, Iyad Rahwan, Sune Lehmann} \\
+    
+    14:55--15:20
+    &	Opinion Recommendation Using A Neural Model \newline 
+    {\itshape Zhongqing Wang, Yue Zhang} \\
+    
+\end{tabular}
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 15:50--17:30 Session 6C: Machine Comprehension, Room:  Zealand, Chair:  Ndapa Nakashole, University of California, San Diego} \\\hline
+
+    
+    15:50--16:15
+    &	Accurate Supervised and Semi-Supervised Machine Reading for Long Documents \newline 
+    {\itshape Daniel Hewlett, Llion Jones, Alexandre Lacoste, izzeddin gur} \\
+    
+    16:15--16:40
+    &	Adversarial Examples for Evaluating Reading Comprehension Systems \newline 
+    {\itshape Robin Jia, Percy Liang} \\
+    
+    16:40--17:05
+    &	Reasoning with Heterogeneous Knowledge for Commonsense Machine Comprehension \newline 
+    {\itshape Hongyu Lin, Le Sun, Xianpei Han} \\
+    
+    17:05--17:30
+    &	Document-Level Multi-Aspect Sentiment Classification as Machine Comprehension \newline 
+    {\itshape Yichun Yin, Yangqiu Song, Ming Zhang} \\
+    
+\end{tabular}
+
+
+\end{document}

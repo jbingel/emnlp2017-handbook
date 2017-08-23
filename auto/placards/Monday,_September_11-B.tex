@@ -1,0 +1,101 @@
+% This is a template file used to generate A1-sized placards
+% summarizing all the talks that take place in a particular room.
+
+\documentclass{book}
+
+\usepackage{pdfpages}
+
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=841mm,
+  paperwidth=594mm,
+  inner=1.5in,
+  outer=1.5in,
+  bottom=2in,
+  top=2in,
+  twoside]{geometry}
+\input{../../content/special/preamble} 
+\input{../../content/special/macros}    
+\input{../../content/setup/venues}    % macros for event locations
+
+\renewcommand{\footnotesize}{\fontsize{18}{22}\selectfont}
+\renewcommand{\small}{\fontsize{24}{28}\selectfont}
+\renewcommand{\normalsize}{\fontsize{32}{36}\selectfont}
+\renewcommand{\large}{\fontsize{36}{40}\selectfont}
+\renewcommand{\Large}{\fontsize{64}{66}\selectfont}
+\renewcommand{\huge}{\fontsize{72}{80}\selectfont}
+
+\begin{document}
+
+\section{Day at a Glance --- Monday, September 11}
+
+\begin{tabular}{p{8in}b{10in}}
+  \includegraphics[width=6in]{../../content/fmatter/emnlp17_logo.png}
+  & \huge{\bfseries Track B}\newline\TrackBLoc\vfill
+\end{tabular}
+
+\renewcommand{\arraystretch}{1.5}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
+
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 10:30--12:10 Session 7B: Syntax 4, Room:  Funen, Chair:  Zeljko Agic, IT University of Copenhagen} \\\hline
+
+    
+    10:30--10:55
+    &	Part-of-Speech Tagging for Twitter with Adversarial Neural Networks \newline 
+    {\itshape Tao Gui, Qi Zhang, Haoran Huang, Minlong Peng, Xuanjing Huang} \\
+    
+    10:55--11:20
+    &	Investigating Different Syntactic Context Types and Context Representations for Learning Word Embeddings \newline 
+    {\itshape Bofang Li, Tao Liu, Zhe Zhao, Buzhou Tang, Aleksandr Drozd, Anna Rogers, Xiaoyong Du} \\
+    
+    11:20--11:45
+    &	Does syntax help discourse segmentation? Not so much \newline 
+    {\itshape Chloé Braud, Ophélie Lacroix, Anders Søgaard} \\
+    
+    11:45--12:10
+    &	Nonparametric Bayesian Semi-supervised Word Segmentation \newline 
+    {\itshape Daichi Mochihashi, Ryo Fujii, Ryo Domoto} \\
+    
+\end{tabular}
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 13:40--15:25 Session 8B: Machine Learning (Short), Room:  Funen, Chair:  Bowman, Samuel R., NYU} \\\hline
+
+    
+    13:40--13:55
+    &	Sequence Effects in Crowdsourced Annotations \newline 
+    {\itshape Nitika Mathur, Timothy Baldwin, Trevor Cohn} \\
+    
+    13:55--14:10
+    &	No Need to Pay Attention: Simple Recurrent Neural Networks Work! \newline 
+    {\itshape Ferhan Ture, Oliver Jojic} \\
+    
+    14:10--14:25
+    &	The strange geometry of skip-gram with negative sampling \newline 
+    {\itshape David Mimno, Laure Thompson} \\
+    
+    14:25--14:40
+    &	Natural Language Processing with Small Feed-Forward Networks \newline 
+    {\itshape Jan A. Botha, Emily Pitler, Ji Ma, Anton Bakalov, Alex Salcianu, David Weiss, Ryan McDonald, Slav Petrov} \\
+    
+    14:40--14:55
+    &	Deep Multi-Task Learning for Aspect Term Extraction with Memory Interaction \newline 
+    {\itshape Xin Li, Wai Lam} \\
+    
+    14:55--15:10
+    &	Analogs of Linguistic Structure in Deep Representations \newline 
+    {\itshape Jacob Andreas, Dan Klein} \\
+    
+    15:10--15:25
+    &	A Simple Regularization-based Algorithm for Learning Cross-Domain Word Embeddings \newline 
+    {\itshape Wei Yang, Wei Lu, Vincent Zheng} \\
+    
+\end{tabular}
+
+
+\end{document}

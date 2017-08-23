@@ -1,0 +1,111 @@
+% This is a template file used to generate A1-sized placards
+% summarizing all the talks that take place in a particular room.
+
+\documentclass{book}
+
+\usepackage{pdfpages}
+
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=841mm,
+  paperwidth=594mm,
+  inner=1.5in,
+  outer=1.5in,
+  bottom=2in,
+  top=2in,
+  twoside]{geometry}
+\input{../../content/special/preamble} 
+\input{../../content/special/macros}    
+\input{../../content/setup/venues}    % macros for event locations
+
+\renewcommand{\footnotesize}{\fontsize{18}{22}\selectfont}
+\renewcommand{\small}{\fontsize{24}{28}\selectfont}
+\renewcommand{\normalsize}{\fontsize{32}{36}\selectfont}
+\renewcommand{\large}{\fontsize{36}{40}\selectfont}
+\renewcommand{\Large}{\fontsize{64}{66}\selectfont}
+\renewcommand{\huge}{\fontsize{72}{80}\selectfont}
+
+\begin{document}
+
+\section{Day at a Glance --- Saturday, September 9}
+
+\begin{tabular}{p{8in}b{10in}}
+  \includegraphics[width=6in]{../../content/fmatter/emnlp17_logo.png}
+  & \huge{\bfseries Track B}\newline\TrackBLoc\vfill
+\end{tabular}
+
+\renewcommand{\arraystretch}{1.5}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
+
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 10:30--12:10 Session 1B: Information Extraction 1, Room:  Funen, Chair:  Ming-Wei Chang, Google} \\\hline
+
+    
+    10:30--10:55
+    &	Position-aware Attention and Supervised Data Improve Slot Filling \newline 
+    {\itshape Yuhao Zhang, Victor Zhong, Danqi Chen, Gabor Angeli, Christopher D. Manning} \\
+    
+    10:55--11:20
+    &	Heterogeneous Supervision for Relation Extraction: A Representation Learning Approach \newline 
+    {\itshape Liyuan Liu, Xiang Ren, Qi Zhu, Shi Zhi, Huan Gui, Heng Ji, Jiawei Han} \\
+    
+    11:20--11:45
+    &	Integrating Order Information and Event Relation for Script Event Prediction \newline 
+    {\itshape Zhongqing Wang, Yue Zhang, Ching-Yun Chang} \\
+    
+    11:45--12:10
+    &	Entity Linking for Queries by Searching Wikipedia Sentences \newline 
+    {\itshape Chuanqi Tan, Furu Wei, Pengjie Ren, Weifeng Lv, Ming Zhou} \\
+    
+\end{tabular}
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 13:40--15:20 Session 2B: Language Grounding, Room:  Funen, Chair:  Yejin Choi, University of Washington} \\\hline
+
+    
+    13:40--14:05
+    &	Where is Misty? Interpreting Spatial Descriptors by Modeling Regions in Space \newline 
+    {\itshape Nikita Kitaev, Dan Klein} \\
+    
+    14:05--14:30
+    &	Continuous Representation of Location for Geolocation and Lexical Dialectology using Mixture Density Networks \newline 
+    {\itshape Afshin Rahimi, Timothy Baldwin, Trevor Cohn} \\
+    
+    14:30--14:55
+    &	Colors in Context: A Pragmatic Neural Model for Grounded Language Understanding \newline 
+    {\itshape Will Monroe, Robert X. D. Hawkins, Noah D. Goodman, Christopher Potts} \\
+    
+    14:55--15:20
+    &	Obj2Text: Generating Visually Descriptive Language from Object Layouts \newline 
+    {\itshape Xuwang Yin, Vicente Ordonez} \\
+    
+\end{tabular}
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 15:50--17:30 Session 3B: Generation, Room:  Funen, Chair:  Wei Xu, Ohio State University} \\\hline
+
+    
+    15:50--16:15
+    &	Split and Rephrase \newline 
+    {\itshape Shashi Narayan, Claire Gardent, Shay B. Cohen, Anastasia Shimorina} \\
+    
+    16:15--16:40
+    &	Neural Response Generation via GAN with an Approximate Embedding Layer \newline 
+    {\itshape Zhen Xu, Bingquan Liu, Baoxun Wang, Chengjie SUN, Xiaolong Wang, Zhuoran Wang, Chao Qi} \\
+    
+    16:40--17:05
+    &	A Hybrid Convolutional Variational Autoencoder for Text Generation \newline 
+    {\itshape Stanislau Semeniuta, Aliaksei Severyn, Erhardt Barth} \\
+    
+    17:05--17:30
+    &	Filling the Blanks (hint: plural noun) for Mad Libs Humor \newline 
+    {\itshape Nabil Hossain, John Krumm, Lucy Vanderwende, Eric Horvitz, Henry Kautz} \\
+    
+\end{tabular}
+
+
+\end{document}

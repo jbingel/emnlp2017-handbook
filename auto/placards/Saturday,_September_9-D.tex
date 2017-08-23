@@ -1,0 +1,192 @@
+% This is a template file used to generate A1-sized placards
+% summarizing all the talks that take place in a particular room.
+
+\documentclass{book}
+
+\usepackage{pdfpages}
+
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=841mm,
+  paperwidth=594mm,
+  inner=1.5in,
+  outer=1.5in,
+  bottom=2in,
+  top=2in,
+  twoside]{geometry}
+\input{../../content/special/preamble} 
+\input{../../content/special/macros}    
+\input{../../content/setup/venues}    % macros for event locations
+
+\renewcommand{\footnotesize}{\fontsize{18}{22}\selectfont}
+\renewcommand{\small}{\fontsize{24}{28}\selectfont}
+\renewcommand{\normalsize}{\fontsize{32}{36}\selectfont}
+\renewcommand{\large}{\fontsize{36}{40}\selectfont}
+\renewcommand{\Large}{\fontsize{64}{66}\selectfont}
+\renewcommand{\huge}{\fontsize{72}{80}\selectfont}
+
+\begin{document}
+
+\section{Day at a Glance --- Saturday, September 9}
+
+\begin{tabular}{p{8in}b{10in}}
+  \includegraphics[width=6in]{../../content/fmatter/emnlp17_logo.png}
+  & \huge{\bfseries Track D}\newline\TrackDLoc\vfill
+\end{tabular}
+
+\renewcommand{\arraystretch}{1.5}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
+
+
+
+\noindent {\bfseries\large 10:30--12:10 Session 1D: Demo Session (Posters), Chair:  Paul, Michael} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	The NLTK FrameNet API: Designing for Discoverability with a Rich Linguistic Resource \newline 
+    {\itshape Nathan Schneider, Chuck Wooters} \\
+    
+    \noindent	Argotario: Computational Argumentation Meets Serious Games \newline 
+    {\itshape Ivan Habernal, Raffael Hannemann, Christian Pollak, Christopher Klamm, Patrick Pauli, Iryna Gurevych} \\
+    
+    \noindent	An Analysis and Visualization Tool for Case Study Learning of Linguistic Concepts \newline 
+    {\itshape Cecilia Ovesdotter Alm, Benjamin Meyers, Emily Prud'hommeaux} \\
+    
+    \noindent	GraphDocExplore: A Framework for the Experimental Comparison of Graph-based Document Exploration Techniques \newline 
+    {\itshape Tobias Falke, Iryna Gurevych} \\
+    
+    \noindent	SGNMT -- A Flexible NMT Decoding Platform for Quick Prototyping of New Models and Search Strategies \newline 
+    {\itshape Felix Stahlberg, Eva Hasler, Danielle Saunders, Bill Byrne} \\
+    
+    \noindent	StruAP: A Tool for Bundling Linguistic Trees through Structure-based Abstract Pattern \newline 
+    {\itshape Kohsuke Yanai, Misa Sato, Toshihiko Yanase, Kenzo Kurotsuchi, Yuta Koreeda, Yoshiki Niwa} \\
+    
+    \noindent	KnowYourNyms? A Game of Semantic Relationships \newline 
+    {\itshape Ross Mechanic, Dean Fulgoni, Hannah Cutler, Sneha Rajana, Zheyuan Liu, Bradley Jackson, Anne Cocos, Chris Callison-Burch, Marianna Apidianaki} \\
+    
+    \noindent	The Projector: An Interactive Annotation Projection Visualization Tool \newline 
+    {\itshape Alan Akbik, Roland Vollgraf} \\
+    
+    \noindent	Interactive Visualization for Linguistic Structure \newline 
+    {\itshape Aaron Sarnat, Vidur Joshi, Cristian Petrescu-Prahova, Alvaro Herrasti, Brandon Stilson, Mark Hopkins} \\
+    
+    \noindent	DLATK: Differential Language Analysis ToolKit \newline 
+    {\itshape H. Andrew Schwartz, Salvatore Giorgi, Maarten Sap, Patrick Crutchley, Lyle Ungar, Johannes Eichstaedt} \\
+    
+    \noindent	QUINT: Interpretable Question Answering over Knowledge Bases \newline 
+    {\itshape Abdalghani Abujabal, Rishiraj Saha Roy, Mohamed Yahya, Gerhard Weikum} \\
+    
+    \noindent	Function Assistant: A Tool for NL Querying of APIs \newline 
+    {\itshape Kyle Richardson, Jonas Kuhn} \\
+    
+    \noindent	MoodSwipe: A Soft Keyboard that Suggests MessageBased on User-Specified Emotions \newline 
+    {\itshape Chieh-Yang Huang, Tristan Labetoulle, Ting-Hao Huang, Yi-Pei Chen, Hung-Chen Chen, Vallari Srivastava, Lun-Wei Ku} \\
+    
+    \noindent	ParlAI: A Dialog Research Software Platform \newline 
+    {\itshape Alexander Miller, Will Feng, Dhruv Batra, Antoine Bordes, Adam Fisch, Jiasen Lu, Devi Parikh, Jason Weston} \\
+    
+    \noindent	HeidelPlace: An Extensible Framework for Geoparsing \newline 
+    {\itshape Ludwig Richter, Johanna Geiß, Andreas Spitz, Michael Gertz} \\
+    
+    \noindent	Unsupervised, Knowledge-Free, and Interpretable Word Sense Disambiguation \newline 
+    {\itshape Alexander Panchenko, Fide Marten, Eugen Ruppert, Stefano Faralli, Dmitry Ustalov, Simone Paolo Ponzetto, Chris Biemann} \\
+    
+    \noindent	NeuroNER: an easy-to-use program for named-entity recognition based on neural networks \newline 
+    {\itshape Franck Dernoncourt, Ji Young Lee, Peter Szolovits} \\
+    
+    \noindent	SupWSD: A Flexible Toolkit for Supervised Word Sense Disambiguation \newline 
+    {\itshape Simone Papandrea, Alessandro Raganato, Claudio Delli Bovi} \\
+    
+    \noindent	Interactive Abstractive Summarization for Event News Tweets \newline 
+    {\itshape Ori Shapira, Hadar Ronen, Meni Adler, Yael Amsterdamer, Judit Bar-Ilan, Ido Dagan} \\
+    
+    \noindent	LangPro: Natural Language Theorem Prover \newline 
+    {\itshape Lasha Abzianidze} \\
+    
+    \noindent	Interactive Visualization and Manipulation of Attention-based Neural Machine Translation \newline 
+    {\itshape Jaesong Lee, Joong-Hwi Shin, Jun-Seok Kim} \\
+    
+
+
+\noindent {\bfseries\large 13:40--15:20 Session 2D: Poster Session. Embeddings, Room:  Aarhus, Chair:  Heike Adel, LMU Munich} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	Hierarchical Embeddings for Hypernymy Detection and Directionality \newline 
+    {\itshape Kim Anh Nguyen, Maximilian Köper, Sabine Schulte im Walde, Ngoc Thang Vu} \\
+    
+    \noindent	Ngram2vec: Learning Improved Word Representations from Ngram Co-occurrence Statistics \newline 
+    {\itshape Zhe Zhao, Tao Liu, Shen Li, Bofang Li, Xiaoyong Du} \\
+    
+    \noindent	Dict2vec : Learning Word Embeddings using Lexical Dictionaries \newline 
+    {\itshape Julien Tissier, Christopher Gravier, Amaury Habrard} \\
+    
+    \noindent	Learning Chinese Word Representations From Glyphs Of Characters \newline 
+    {\itshape Tzu-ray Su, Hung-yi Lee} \\
+    
+    \noindent	Learning Paraphrastic Sentence Embeddings from Back-Translated Bitext \newline 
+    {\itshape John Wieting, Jonathan Mallinson, Kevin Gimpel} \\
+    
+    \noindent	Joint Embeddings of Chinese Words, Characters, and Fine-grained Subcharacter Components \newline 
+    {\itshape Jinxing Yu, Xun Jian, Hao Xin, Yangqiu Song} \\
+    
+    \noindent	Exploiting Morphological Regularities in Distributional Word Representations \newline 
+    {\itshape Arihant Gupta, Syed Sarfaraz Akhtar, Avijit Vajpayee, Arjit Srivastava, Madan Gopal Jhanwar, Manish Shrivastava} \\
+    
+    \noindent	Exploiting Word Internal Structures for Generic Chinese Sentence Representation \newline 
+    {\itshape Shaonan Wang, Jiajun Zhang, Chengqing Zong} \\
+    
+    \noindent	High-risk learning: acquiring new word vectors from tiny data \newline 
+    {\itshape Aurélie Herbelot, Marco Baroni} \\
+    
+    \noindent	Word Embeddings based on Fixed-Size Ordinally Forgetting Encoding \newline 
+    {\itshape Joseph Sanu, Mingbin Xu, Hui Jiang, Quan Liu} \\
+    
+    \noindent	VecShare: A Framework for Sharing Word Representation Vectors \newline 
+    {\itshape Jared Fernandez, Zhaocheng Yu, Doug Downey} \\
+    
+    \noindent	Word Re-Embedding via Manifold Dimensionality Retention \newline 
+    {\itshape Souleiman Hasan, Edward Curry} \\
+    
+    \noindent	MUSE: Modularizing Unsupervised Sense Embeddings \newline 
+    {\itshape Guang-He Lee, Yun-Nung Chen} \\
+    
+
+
+\noindent {\bfseries\large 15:50--17:30 Session 3D: Poster Session. Syntax 2, Room:  Aarhus, Chair:  Yuval Pinter, Georgia Tech} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	Multi-Grained Chinese Word Segmentation \newline 
+    {\itshape Chen Gong, Zhenghua Li, Min Zhang, Xinzhou Jiang} \\
+    
+    \noindent	Don't Throw Those Morphological Analyzers Away Just Yet: Neural Morphological Disambiguation for Arabic \newline 
+    {\itshape Nasser Zalmout, Nizar Habash} \\
+    
+    \noindent	Paradigm Completion for Derivational Morphology \newline 
+    {\itshape Ryan Cotterell, Ekaterina Vylomova, Huda Khayrallah, Christo Kirov, David Yarowsky} \\
+    
+    \noindent	A Sub-Character Architecture for Korean Language Processing \newline 
+    {\itshape Karl Stratos} \\
+    
+    \noindent	Do LSTMs really work so well for PoS tagging? -- A replication study \newline 
+    {\itshape Tobias Horsmann, Torsten Zesch} \\
+    
+    \noindent	The Labeled Segmentation of Printed Books \newline 
+    {\itshape Lara McConnaughey, Jennifer Dai, David Bamman} \\
+    
+    \noindent	Cross-lingual Character-Level Neural Morphological Tagging \newline 
+    {\itshape Ryan Cotterell, Georg Heigold} \\
+    
+    \noindent	Word-Context Character Embeddings for Chinese Word Segmentation \newline 
+    {\itshape Hao Zhou, Zhenting Yu, Yue Zhang, Shujian Huang, XIN-YU DAI, Jiajun Chen} \\
+    
+    \noindent	Segmentation-Free Word Embedding for Unsegmented Languages \newline 
+    {\itshape Takamasa Oshikiri} \\
+    
+
+
+\end{document}

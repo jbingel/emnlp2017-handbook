@@ -1,0 +1,111 @@
+% This is a template file used to generate A1-sized placards
+% summarizing all the talks that take place in a particular room.
+
+\documentclass{book}
+
+\usepackage{pdfpages}
+
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=841mm,
+  paperwidth=594mm,
+  inner=1.5in,
+  outer=1.5in,
+  bottom=2in,
+  top=2in,
+  twoside]{geometry}
+\input{../../content/special/preamble} 
+\input{../../content/special/macros}    
+\input{../../content/setup/venues}    % macros for event locations
+
+\renewcommand{\footnotesize}{\fontsize{18}{22}\selectfont}
+\renewcommand{\small}{\fontsize{24}{28}\selectfont}
+\renewcommand{\normalsize}{\fontsize{32}{36}\selectfont}
+\renewcommand{\large}{\fontsize{36}{40}\selectfont}
+\renewcommand{\Large}{\fontsize{64}{66}\selectfont}
+\renewcommand{\huge}{\fontsize{72}{80}\selectfont}
+
+\begin{document}
+
+\section{Day at a Glance --- Saturday, September 9}
+
+\begin{tabular}{p{8in}b{10in}}
+  \includegraphics[width=6in]{../../content/fmatter/emnlp17_logo.png}
+  & \huge{\bfseries Track C}\newline\TrackCLoc\vfill
+\end{tabular}
+
+\renewcommand{\arraystretch}{1.5}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
+
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 10:30--12:10 Session 1C: Multilingual NLP, Room:  Zealand, Chair:  Ivan Titov, University of Edinburgh} \\\hline
+
+    
+    10:30--10:55
+    &	Train-O-Matic: Large-Scale Supervised Word Sense Disambiguation in Multiple Languages without Manual Training Data \newline 
+    {\itshape Tommaso Pasini, Roberto Navigli} \\
+    
+    10:55--11:20
+    &	Universal Semantic Parsing \newline 
+    {\itshape Siva Reddy, Oscar Täckström, Slav Petrov, Mark Steedman, Mirella Lapata} \\
+    
+    11:20--11:45
+    &	Mimicking Word Embeddings using Subword RNNs \newline 
+    {\itshape Yuval Pinter, Robert Guthrie, Jacob Eisenstein} \\
+    
+    11:45--12:10
+    &	Past, Present, Future: A Computational Investigation of the Typology of Tense in 1000 Languages \newline 
+    {\itshape Ehsaneddin Asgari, Hinrich Schütze} \\
+    
+\end{tabular}
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 13:40--15:20 Session 2C: Discourse and Summarization, Room:  Zealand, Chair:  Lu Wang, Northeastern University} \\\hline
+
+    
+    13:40--14:05
+    &	End-to-end Neural Coreference Resolution \newline 
+    {\itshape Kenton Lee, Luheng He, Mike Lewis, Luke Zettlemoyer} \\
+    
+    14:05--14:30
+    &	Neural Net Models of Open-domain Discourse Coherence \newline 
+    {\itshape Jiwei Li, Dan Jurafsky} \\
+    
+    14:30--14:55
+    &	Affinity-Preserving Random Walk for Multi-Document Summarization \newline 
+    {\itshape Kexiang Wang, Tianyu Liu, Zhifang Sui, Baobao Chang} \\
+    
+    14:55--15:20
+    &	A Mention-Ranking Model for Abstract Anaphora Resolution \newline 
+    {\itshape Ana Marasovic, Leo Born, Juri Opitz, Anette Frank} \\
+    
+\end{tabular}
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 15:50--17:30 Session 3C: Semantics 1, Room:  Zealand, Chair:  Felix Hill, DeepMind} \\\hline
+
+    
+    15:50--16:15
+    &	Measuring Thematic Fit with Distributional Feature Overlap \newline 
+    {\itshape Enrico Santus, Emmanuele Chersoni, Alessandro Lenci, Philippe Blache} \\
+    
+    16:15--16:40
+    &	SCDV : Sparse Composite Document Vectors using soft clustering over distributional representations \newline 
+    {\itshape Dheeraj Mekala, Vivek Gupta, Bhargavi Paranjape, Harish Karnick} \\
+    
+    16:40--17:05
+    &	Supervised Learning of Universal Sentence Representations from Natural Language Inference Data \newline 
+    {\itshape Alexis Conneau, Douwe Kiela, Holger Schwenk, Loïc Barrault, Antoine Bordes} \\
+    
+    17:05--17:30
+    &	Determining Semantic Textual Similarity using Natural Deduction Proofs \newline 
+    {\itshape Hitomi Yanaka, Koji Mineshima, Pascual Martínez-Gómez, Daisuke Bekki} \\
+    
+\end{tabular}
+
+
+\end{document}

@@ -1,0 +1,90 @@
+% This is a template file used to generate A1-sized placards
+% summarizing all the talks that take place in a particular room.
+
+\documentclass{book}
+
+\usepackage{pdfpages}
+
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=841mm,
+  paperwidth=594mm,
+  inner=1.5in,
+  outer=1.5in,
+  bottom=2in,
+  top=2in,
+  twoside]{geometry}
+\input{../../content/special/preamble} 
+\input{../../content/special/macros}    
+\input{../../content/setup/venues}    % macros for event locations
+
+\renewcommand{\footnotesize}{\fontsize{18}{22}\selectfont}
+\renewcommand{\small}{\fontsize{24}{28}\selectfont}
+\renewcommand{\normalsize}{\fontsize{32}{36}\selectfont}
+\renewcommand{\large}{\fontsize{36}{40}\selectfont}
+\renewcommand{\Large}{\fontsize{64}{66}\selectfont}
+\renewcommand{\huge}{\fontsize{72}{80}\selectfont}
+
+\begin{document}
+
+\section{Day at a Glance --- Monday, September 11}
+
+\begin{tabular}{p{8in}b{10in}}
+  \includegraphics[width=6in]{../../content/fmatter/emnlp17_logo.png}
+  & \huge{\bfseries Track D}\newline\TrackDLoc\vfill
+\end{tabular}
+
+\renewcommand{\arraystretch}{1.5}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
+
+
+
+\noindent {\bfseries\large 10:30--12:10 Session 7D: Poster Session. Machine Translation and Multilingual NLP 2, Room:  Aarhus, Chair:  Marianna Apidianaki, LIMSI, CNRS and University of Pennsylvania} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	Joint Prediction of Word Alignment with Alignment Types \newline 
+    {\itshape Anahita Mansouri Bigvand, Te Bu, Anoop Sarkar} \\
+    
+    \noindent	Further Investigation into Reference Bias in Monolingual Evaluation of Machine Translation \newline 
+    {\itshape Qingsong Ma, Yvette Graham, Timothy Baldwin, Qun Liu} \\
+    
+    \noindent	A Challenge Set Approach to Evaluating Machine Translation \newline 
+    {\itshape Pierre Isabelle, Colin Cherry, George Foster} \\
+    
+    \noindent	Knowledge Distillation for Bilingual Dictionary Induction \newline 
+    {\itshape Ndapandula Nakashole, Raphael Flauger} \\
+    
+    \noindent	Machine Translation, it's a question of style, innit? The case of English tag questions \newline 
+    {\itshape Rachel Bawden} \\
+    
+    \noindent	Deciphering Related Languages \newline 
+    {\itshape Nima Pourdamghani, Kevin Knight} \\
+    
+    \noindent	Identifying Cognate Sets Across Dictionaries of Related Languages \newline 
+    {\itshape Adam St Arnaud, David Beck, Grzegorz Kondrak} \\
+    
+    \noindent	Learning Language Representations for Typology Prediction \newline 
+    {\itshape Chaitanya Malaviya, Graham Neubig, Patrick Littell} \\
+    
+    \noindent	Cheap Translation for Cross-Lingual Named Entity Recognition \newline 
+    {\itshape Stephen Mayhew, Chen-Tse Tsai, Dan Roth} \\
+    
+    \noindent	Cross-Lingual Induction and Transfer of Verb Classes Based on Word Vector Space Specialisation \newline 
+    {\itshape Ivan Vulić, Nikola Mrkšić, Anna Korhonen} \\
+    
+    \noindent	Classification of telicity using cross-linguistic annotation projection \newline 
+    {\itshape Annemarie Friedrich, Damyana Gateva} \\
+    
+    \noindent	Semantic Specialisation of Distributional Word Vector Spaces using Monolingual and Cross-Lingual Constraints \newline 
+    {\itshape Nikola Mrkšić, Ivan Vulić, Diarmuid Ó Séaghdha, Roi Reichart, Ira Leviant, Milica Gašić, Anna Korhonen, Steve Young} \\
+    
+    \noindent	Counterfactual Learning from Bandit Feedback under Deterministic Logging : A Case Study in Statistical Machine Translation \newline 
+    {\itshape Carolin Lawrence, Artem Sokolov, Stefan Riezler} \\
+    
+
+
+\end{document}

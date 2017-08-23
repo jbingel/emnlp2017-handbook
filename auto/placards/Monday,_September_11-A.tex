@@ -1,0 +1,101 @@
+% This is a template file used to generate A1-sized placards
+% summarizing all the talks that take place in a particular room.
+
+\documentclass{book}
+
+\usepackage{pdfpages}
+
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=841mm,
+  paperwidth=594mm,
+  inner=1.5in,
+  outer=1.5in,
+  bottom=2in,
+  top=2in,
+  twoside]{geometry}
+\input{../../content/special/preamble} 
+\input{../../content/special/macros}    
+\input{../../content/setup/venues}    % macros for event locations
+
+\renewcommand{\footnotesize}{\fontsize{18}{22}\selectfont}
+\renewcommand{\small}{\fontsize{24}{28}\selectfont}
+\renewcommand{\normalsize}{\fontsize{32}{36}\selectfont}
+\renewcommand{\large}{\fontsize{36}{40}\selectfont}
+\renewcommand{\Large}{\fontsize{64}{66}\selectfont}
+\renewcommand{\huge}{\fontsize{72}{80}\selectfont}
+
+\begin{document}
+
+\section{Day at a Glance --- Monday, September 11}
+
+\begin{tabular}{p{8in}b{10in}}
+  \includegraphics[width=6in]{../../content/fmatter/emnlp17_logo.png}
+  & \huge{\bfseries Track A}\newline\TrackALoc\vfill
+\end{tabular}
+
+\renewcommand{\arraystretch}{1.5}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
+
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 10:30--12:10 Session 7A: Machine Learning 3, Room:  Jutland, Chair:  Barbara Plank, University of Groningen} \\\hline
+
+    
+    10:30--10:55
+    &	Maximum Margin Reward Networks for Learning from Explicit and Implicit Supervision \newline 
+    {\itshape Haoruo Peng, Ming-Wei Chang, Wen-tau Yih} \\
+    
+    10:55--11:20
+    &	The Impact of Modeling Overall Argumentation with Tree Kernels \newline 
+    {\itshape Henning Wachsmuth, Giovanni Da San Martino, Dora Kiesel, Benno Stein} \\
+    
+    11:20--11:45
+    &	Learning Generic Sentence Representations Using Convolutional Neural Networks \newline 
+    {\itshape Zhe Gan, Yunchen Pu, Ricardo Henao, Chunyuan Li, Xiaodong He, Lawrence Carin} \\
+    
+    11:45--12:10
+    &	Repeat before Forgetting: Spaced Repetition for Efficient and Effective Training of Neural Networks \newline 
+    {\itshape Hadi Amiri, Timothy Miller, Guergana Savova} \\
+    
+\end{tabular}
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 13:40--15:25 Session 8A: Machine Translation and Multilingual/Multimodal NLP (Short), Room:  Jutland, Chair:  Yulia Tsvetkov, Carnegie Mellon University} \\\hline
+
+    
+    13:40--13:55
+    &	A Study of Style in Machine Translation: Controlling the Formality of Machine Translation Output \newline 
+    {\itshape Xing Niu, Marianna Martindale, Marine Carpuat} \\
+    
+    13:55--14:10
+    &	Sharp Models on Dull Hardware: Fast and Accurate Neural Machine Translation Decoding on the CPU \newline 
+    {\itshape Jacob Devlin} \\
+    
+    14:10--14:25
+    &	Exploiting Cross-Sentence Context for Neural Machine Translation \newline 
+    {\itshape Longyue Wang, Zhaopeng Tu, Andy Way, Qun Liu} \\
+    
+    14:25--14:40
+    &	Cross-Lingual Transfer Learning for POS Tagging without Cross-Lingual Resources \newline 
+    {\itshape Joo-Kyung Kim, Young-Bum Kim, Ruhi Sarikaya, Eric Fosler-Lussier} \\
+    
+    14:40--14:55
+    &	Image Pivoting for Learning Multilingual Multimodal Representations \newline 
+    {\itshape Spandana Gella, Rico Sennrich, Frank Keller, Mirella Lapata} \\
+    
+    14:55--15:10
+    &	Neural Machine Translation with Source Dependency Representation \newline 
+    {\itshape Kehai Chen, Rui Wang, Masao Utiyama, Lemao Liu, Akihiro Tamura, Eiichiro Sumita, Tiejun Zhao} \\
+    
+    15:10--15:25
+    &	Visual Denotations for Recognizing Textual Entailment \newline 
+    {\itshape Dan Han, Pascual Martínez-Gómez, Koji Mineshima} \\
+    
+\end{tabular}
+
+
+\end{document}

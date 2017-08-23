@@ -1,0 +1,111 @@
+% This is a template file used to generate A1-sized placards
+% summarizing all the talks that take place in a particular room.
+
+\documentclass{book}
+
+\usepackage{pdfpages}
+
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=841mm,
+  paperwidth=594mm,
+  inner=1.5in,
+  outer=1.5in,
+  bottom=2in,
+  top=2in,
+  twoside]{geometry}
+\input{../../content/special/preamble} 
+\input{../../content/special/macros}    
+\input{../../content/setup/venues}    % macros for event locations
+
+\renewcommand{\footnotesize}{\fontsize{18}{22}\selectfont}
+\renewcommand{\small}{\fontsize{24}{28}\selectfont}
+\renewcommand{\normalsize}{\fontsize{32}{36}\selectfont}
+\renewcommand{\large}{\fontsize{36}{40}\selectfont}
+\renewcommand{\Large}{\fontsize{64}{66}\selectfont}
+\renewcommand{\huge}{\fontsize{72}{80}\selectfont}
+
+\begin{document}
+
+\section{Day at a Glance --- Sunday, September 10}
+
+\begin{tabular}{p{8in}b{10in}}
+  \includegraphics[width=6in]{../../content/fmatter/emnlp17_logo.png}
+  & \huge{\bfseries Track B}\newline\TrackBLoc\vfill
+\end{tabular}
+
+\renewcommand{\arraystretch}{1.5}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
+
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 10:30--12:10 Session 4B: Multimodal NLP 2, Room:  Funen, Chair:  Brian Roark, Google} \\\hline
+
+    
+    10:30--10:55
+    &	Speech segmentation with a neural encoder model of working memory \newline 
+    {\itshape Micha Elsner, Cory Shain} \\
+    
+    10:55--11:20
+    &	Speaking, Seeing, Understanding: Correlating semantic models with conceptual representation in the brain \newline 
+    {\itshape Luana Bulat, Stephen Clark, Ekaterina Shutova} \\
+    
+    11:20--11:45
+    &	Multi-modal Summarization for Asynchronous Collection of Text, Image, Audio and Video \newline 
+    {\itshape Haoran Li, Junnan Zhu, Cong Ma, Jiajun Zhang, Chengqing Zong} \\
+    
+    11:45--12:10
+    &	Tensor Fusion Network for Multimodal Sentiment Analysis \newline 
+    {\itshape Amir Zadeh, Minghai Chen, Soujanya Poria, Erik Cambria, Louis-Philippe Morency} \\
+    
+\end{tabular}
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 13:40--15:20 Session 5B: Computational Social Science 1, Room:  Funen, Chair:  Smith, Noah A., University of Washington} \\\hline
+
+    
+    13:40--14:05
+    &	Identifying civilians killed by police with distantly supervised entity-event extraction \newline 
+    {\itshape Katherine Keith, Abram Handler, Michael Pinkham, Cara Magliozzi, Joshua McDuffie, Brendan O'Connor} \\
+    
+    14:05--14:30
+    &	Asking too much? The rhetorical role of questions in political discourse \newline 
+    {\itshape Justine Zhang, Arthur Spirling, Cristian Danescu-Niculescu-Mizil} \\
+    
+    14:30--14:55
+    &	Detecting Perspectives in Political Debates \newline 
+    {\itshape David Vilares, Yulan He} \\
+    
+    14:55--15:20
+    &	''i have a feeling trump will win..................'': Forecasting Winners and Losers from User Predictions on Twitter \newline 
+    {\itshape Sandesh Swamy, Alan Ritter, Marie-Catherine de Marneffe} \\
+    
+\end{tabular}
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 15:50--17:30 Session 6B: Text Mining and NLP applications, Room:  Funen, Chair:  Jill Burstein, ETS} \\\hline
+
+    
+    15:50--16:15
+    &	Satirical News Detection and Analysis using Attention Mechanism and Linguistic Features \newline 
+    {\itshape Fan Yang, Arjun Mukherjee, Eduard Dragut} \\
+    
+    16:15--16:40
+    &	Fine Grained Citation Span for References in Wikipedia \newline 
+    {\itshape Besnik Fetahu, Katja Markert, Avishek Anand} \\
+    
+    16:40--17:05
+    &	Joint Modeling of Topics, Citations, and Topical Authority in Academic Corpora \newline 
+    {\itshape Jooyeon Kim, Dongwoo Kim, Alice Oh} \\
+    
+    17:05--17:30
+    &	Identifying Semantic Edit Intentions from Revisions in Wikipedia \newline 
+    {\itshape Diyi Yang, Aaron Halfaker, Robert Kraut, Eduard Hovy} \\
+    
+\end{tabular}
+
+
+\end{document}

@@ -1,0 +1,90 @@
+% This is a template file used to generate A1-sized placards
+% summarizing all the talks that take place in a particular room.
+
+\documentclass{book}
+
+\usepackage{pdfpages}
+
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=841mm,
+  paperwidth=594mm,
+  inner=1.5in,
+  outer=1.5in,
+  bottom=2in,
+  top=2in,
+  twoside]{geometry}
+\input{../../content/special/preamble} 
+\input{../../content/special/macros}    
+\input{../../content/setup/venues}    % macros for event locations
+
+\renewcommand{\footnotesize}{\fontsize{18}{22}\selectfont}
+\renewcommand{\small}{\fontsize{24}{28}\selectfont}
+\renewcommand{\normalsize}{\fontsize{32}{36}\selectfont}
+\renewcommand{\large}{\fontsize{36}{40}\selectfont}
+\renewcommand{\Large}{\fontsize{64}{66}\selectfont}
+\renewcommand{\huge}{\fontsize{72}{80}\selectfont}
+
+\begin{document}
+
+\section{Day at a Glance --- Monday, September 11}
+
+\begin{tabular}{p{8in}b{10in}}
+  \includegraphics[width=6in]{../../content/fmatter/emnlp17_logo.png}
+  & \huge{\bfseries Track F}\newline\TrackFLoc\vfill
+\end{tabular}
+
+\renewcommand{\arraystretch}{1.5}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
+
+
+
+\noindent {\bfseries\large 10:30--12:10 Session 7F: Poster Session. NLP Applications, Room:  Copenhagen, Chair:  Courtney Napoles, Johns Hopkins University} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	Word Etymology as Native Language Interference \newline 
+    {\itshape Vivi Nastase, Carlo Strapparava} \\
+    
+    \noindent	A Simpler and More Generalizable Story Detector using Verb and Character Features \newline 
+    {\itshape Joshua Eisenberg, Mark Finlayson} \\
+    
+    \noindent	Multi-modular domain-tailored OCR post-correction \newline 
+    {\itshape Sarah Schulz, Jonas Kuhn} \\
+    
+    \noindent	Learning to Predict Charges for Criminal Cases with Legal Basis \newline 
+    {\itshape Bingfeng Luo, Yansong Feng, Jianbo Xu, Xiang Zhang, Dongyan Zhao} \\
+    
+    \noindent	Quantifying the Effects of Text Duplication on Semantic Models \newline 
+    {\itshape Alexandra Schofield, Laure Thompson, David Mimno} \\
+    
+    \noindent	Identifying Semantically Deviating Outlier Documents \newline 
+    {\itshape Honglei Zhuang, Chi Wang, Fangbo Tao, Lance Kaplan, Jiawei Han} \\
+    
+    \noindent	Detecting and Explaining Causes From Text For a Time Series Event \newline 
+    {\itshape Dongyeop Kang, Varun Gangal, Ang Lu, Zheng Chen, Eduard Hovy} \\
+    
+    \noindent	A Novel Cascade Model for Learning Latent Similarity from Heterogeneous Sequential Data of MOOC \newline 
+    {\itshape Zhuoxuan Jiang, Shanshan Feng, Gao Cong, Chunyan Miao, Xiaoming Li} \\
+    
+    \noindent	Identifying the Provision of Choices in Privacy Policy Text \newline 
+    {\itshape Kanthashree Mysore Sathyendra, Shomir Wilson, Florian Schaub, Sebastian Zimmeck, Norman Sadeh} \\
+    
+    \noindent	An Empirical Analysis of Edit Importance between Document Versions \newline 
+    {\itshape Tanya Goyal, Sachin Kelkar, Manas Agarwal, Jeenu Grover} \\
+    
+    \noindent	Transition-Based Disfluency Detection using LSTMs \newline 
+    {\itshape Shaolei Wang, Wanxiang Che, Yue Zhang, Meishan Zhang, Ting Liu} \\
+    
+    \noindent	Neural Sequence-Labelling Models for Grammatical Error Correction \newline 
+    {\itshape Helen Yannakoudakis, Marek Rei, Øistein E. Andersen, Zheng Yuan} \\
+    
+    \noindent	Adapting Sequence Models for Sentence Correction \newline 
+    {\itshape Allen Schmaltz, Yoon Kim, Alexander Rush, Stuart Shieber} \\
+    
+
+
+\end{document}

@@ -1,0 +1,90 @@
+% This is a template file used to generate A1-sized placards
+% summarizing all the talks that take place in a particular room.
+
+\documentclass{book}
+
+\usepackage{pdfpages}
+
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=841mm,
+  paperwidth=594mm,
+  inner=1.5in,
+  outer=1.5in,
+  bottom=2in,
+  top=2in,
+  twoside]{geometry}
+\input{../../content/special/preamble} 
+\input{../../content/special/macros}    
+\input{../../content/setup/venues}    % macros for event locations
+
+\renewcommand{\footnotesize}{\fontsize{18}{22}\selectfont}
+\renewcommand{\small}{\fontsize{24}{28}\selectfont}
+\renewcommand{\normalsize}{\fontsize{32}{36}\selectfont}
+\renewcommand{\large}{\fontsize{36}{40}\selectfont}
+\renewcommand{\Large}{\fontsize{64}{66}\selectfont}
+\renewcommand{\huge}{\fontsize{72}{80}\selectfont}
+
+\begin{document}
+
+\section{Day at a Glance --- Monday, September 11}
+
+\begin{tabular}{p{8in}b{10in}}
+  \includegraphics[width=6in]{../../content/fmatter/emnlp17_logo.png}
+  & \huge{\bfseries Track E}\newline\TrackELoc\vfill
+\end{tabular}
+
+\renewcommand{\arraystretch}{1.5}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
+
+
+
+\noindent {\bfseries\large 10:30--12:10 Session 7E: Poster Session. Information Extraction 2, Room:  Odense, Chair:  Isabelle Augenstein, University of Copenhagen} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	Learning Fine-grained Relations from Chinese User Generated Categories \newline 
+    {\itshape Chengyu Wang, Yan Fan, Xiaofeng He, Aoying Zhou} \\
+    
+    \noindent	Improving Slot Filling Performance with Attentive Neural Networks on Dependency Structures \newline 
+    {\itshape Lifu Huang, Avirup Sil, Heng Ji, Radu Florian} \\
+    
+    \noindent	Identifying Products in Online Cybercrime Marketplaces: A Dataset for Fine-grained Domain Adaptation \newline 
+    {\itshape Greg Durrett, Jonathan K. Kummerfeld, Taylor Berg-Kirkpatrick, Rebecca Portnoff, Sadia Afroz, Damon McCoy, Kirill Levchenko, Vern Paxson} \\
+    
+    \noindent	Labeling Gaps Between Words: Recognizing Overlapping Mentions with Mention Separators \newline 
+    {\itshape Aldrian Obaja Muis, Wei Lu} \\
+    
+    \noindent	Deep Joint Entity Disambiguation with Local Neural Attention \newline 
+    {\itshape Octavian-Eugen Ganea, Thomas Hofmann} \\
+    
+    \noindent	MinIE: Minimizing Facts in Open Information Extraction \newline 
+    {\itshape Kiril Gashteovski, Rainer Gemulla, Luciano Del Corro} \\
+    
+    \noindent	Scientific Information Extraction with Semi-supervised Neural Tagging \newline 
+    {\itshape Yi Luan, Mari Ostendorf, Hannaneh Hajishirzi} \\
+    
+    \noindent	NITE: A Neural Inductive Teaching Framework for Domain Specific NER \newline 
+    {\itshape Siliang Tang, Ning Zhang, Jinjiang Zhang, Fei Wu, Yueting Zhuang} \\
+    
+    \noindent	Speeding up Reinforcement Learning-based Information Extraction Training using Asynchronous Methods \newline 
+    {\itshape Aditya Sharma, Zarana Parekh, Partha Talukdar} \\
+    
+    \noindent	Leveraging Linguistic Structures for Named Entity Recognition with Bidirectional Recursive Neural Networks \newline 
+    {\itshape Peng-Hsuan Li, Ruo-Ping Dong, Yu-Siang Wang, Ju-Chieh Chou, Wei-Yun Ma} \\
+    
+    \noindent	Fast and Accurate Entity Recognition with Iterated Dilated Convolutions \newline 
+    {\itshape Emma Strubell, Patrick Verga, David Belanger, Andrew McCallum} \\
+    
+    \noindent	Entity Linking via Joint Encoding of Types, Descriptions, and Context \newline 
+    {\itshape Nitish Gupta, Sameer Singh, Dan Roth} \\
+    
+    \noindent	An Insight Extraction System on BioMedical Literature with Deep Neural Networks \newline 
+    {\itshape Hua He, Kris Ganjam, Navendu Jain, Jessica Lundin, Ryen White, Jimmy Lin} \\
+    
+
+
+\end{document}

@@ -1,0 +1,111 @@
+% This is a template file used to generate A1-sized placards
+% summarizing all the talks that take place in a particular room.
+
+\documentclass{book}
+
+\usepackage{pdfpages}
+
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=841mm,
+  paperwidth=594mm,
+  inner=1.5in,
+  outer=1.5in,
+  bottom=2in,
+  top=2in,
+  twoside]{geometry}
+\input{../../content/special/preamble} 
+\input{../../content/special/macros}    
+\input{../../content/setup/venues}    % macros for event locations
+
+\renewcommand{\footnotesize}{\fontsize{18}{22}\selectfont}
+\renewcommand{\small}{\fontsize{24}{28}\selectfont}
+\renewcommand{\normalsize}{\fontsize{32}{36}\selectfont}
+\renewcommand{\large}{\fontsize{36}{40}\selectfont}
+\renewcommand{\Large}{\fontsize{64}{66}\selectfont}
+\renewcommand{\huge}{\fontsize{72}{80}\selectfont}
+
+\begin{document}
+
+\section{Day at a Glance --- Sunday, September 10}
+
+\begin{tabular}{p{8in}b{10in}}
+  \includegraphics[width=6in]{../../content/fmatter/emnlp17_logo.png}
+  & \huge{\bfseries Track A}\newline\TrackALoc\vfill
+\end{tabular}
+
+\renewcommand{\arraystretch}{1.5}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
+
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 10:30--12:10 Session 4A: Reading and Retrieving, Room:  Jutland, Chair:  Heng Ji, Rensselaer Polytechnic Institute} \\\hline
+
+    
+    10:30--10:55
+    &	A Structured Learning Approach to Temporal Relation Extraction \newline 
+    {\itshape Qiang Ning, Zhili Feng, Dan Roth} \\
+    
+    10:55--11:20
+    &	Importance sampling for unbiased on-demand evaluation of knowledge base population \newline 
+    {\itshape Arun Chaganty, Ashwin Paranjape, Percy Liang, Christopher D. Manning} \\
+    
+    11:20--11:45
+    &	PACRR: A Position-Aware Neural IR Model for Relevance Matching \newline 
+    {\itshape Kai Hui, Andrew Yates, Klaus Berberich, Gerard de Melo} \\
+    
+    11:45--12:10
+    &	Globally Normalized Reader \newline 
+    {\itshape Jonathan Raiman, John Miller} \\
+    
+\end{tabular}
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 13:40--15:20 Session 5A: Semantics 3, Room:  Jutland, Chair:  Roberto Navigli, Sapienza University of Rome} \\\hline
+
+    
+    13:40--14:05
+    &	Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling \newline 
+    {\itshape Diego Marcheggiani, Ivan Titov} \\
+    
+    14:05--14:30
+    &	Neural Semantic Parsing with Type Constraints for Semi-Structured Tables \newline 
+    {\itshape Jayant Krishnamurthy, Pradeep Dasigi, Matt Gardner} \\
+    
+    14:30--14:55
+    &	Joint Concept Learning and Semantic Parsing from Natural Language Explanations \newline 
+    {\itshape Shashank Srivastava, Igor Labutov, Tom Mitchell} \\
+    
+    14:55--15:20
+    &	Grasping the Finer Point: A Supervised Similarity Network for Metaphor Detection \newline 
+    {\itshape Marek Rei, Luana Bulat, Douwe Kiela, Ekaterina Shutova} \\
+    
+\end{tabular}
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 15:50--17:30 Session 6A: Machine Translation 2, Room:  Jutland, Chair:  Timothy Baldwin, University of Melbourne} \\\hline
+
+    
+    15:50--16:15
+    &	Earth Mover's Distance Minimization for Unsupervised Bilingual Lexicon Induction \newline 
+    {\itshape Meng Zhang, Yang Liu, Huanbo Luan, Maosong Sun} \\
+    
+    16:15--16:40
+    &	Unfolding and Shrinking Neural Machine Translation Ensembles \newline 
+    {\itshape Felix Stahlberg, Bill Byrne} \\
+    
+    16:40--17:05
+    &	Graph Convolutional Encoders for Syntax-aware Neural Machine Translation \newline 
+    {\itshape Joost Bastings, Ivan Titov, Wilker Aziz, Diego Marcheggiani, Khalil Simaan} \\
+    
+    17:05--17:30
+    &	Trainable Greedy Decoding for Neural Machine Translation \newline 
+    {\itshape Jiatao Gu, Kyunghyun Cho, Victor O.K. Li} \\
+    
+\end{tabular}
+
+
+\end{document}

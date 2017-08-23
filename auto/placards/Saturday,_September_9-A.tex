@@ -1,0 +1,111 @@
+% This is a template file used to generate A1-sized placards
+% summarizing all the talks that take place in a particular room.
+
+\documentclass{book}
+
+\usepackage{pdfpages}
+
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=841mm,
+  paperwidth=594mm,
+  inner=1.5in,
+  outer=1.5in,
+  bottom=2in,
+  top=2in,
+  twoside]{geometry}
+\input{../../content/special/preamble} 
+\input{../../content/special/macros}    
+\input{../../content/setup/venues}    % macros for event locations
+
+\renewcommand{\footnotesize}{\fontsize{18}{22}\selectfont}
+\renewcommand{\small}{\fontsize{24}{28}\selectfont}
+\renewcommand{\normalsize}{\fontsize{32}{36}\selectfont}
+\renewcommand{\large}{\fontsize{36}{40}\selectfont}
+\renewcommand{\Large}{\fontsize{64}{66}\selectfont}
+\renewcommand{\huge}{\fontsize{72}{80}\selectfont}
+
+\begin{document}
+
+\section{Day at a Glance --- Saturday, September 9}
+
+\begin{tabular}{p{8in}b{10in}}
+  \includegraphics[width=6in]{../../content/fmatter/emnlp17_logo.png}
+  & \huge{\bfseries Track A}\newline\TrackALoc\vfill
+\end{tabular}
+
+\renewcommand{\arraystretch}{1.5}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
+
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 10:30--12:10 Session 1A: Syntax 1, Room:  Jutland, Chair:  Joakim Nivre, Uppsala University} \\\hline
+
+    
+    10:30--10:55
+    &	Monolingual Phrase Alignment on Parse Forests \newline 
+    {\itshape Yuki Arase, Jun'ichi Tsujii} \\
+    
+    10:55--11:20
+    &	Fast(er) Exact Decoding and Global Training for Transition-Based Dependency Parsing via a Minimal Feature Set \newline 
+    {\itshape Tianze Shi, Liang Huang, Lillian Lee} \\
+    
+    11:20--11:45
+    &	Parsing with Traces: An $O(n^4)$ Algorithm and a Structural Representation \newline 
+    {\itshape Jonathan K. Kummerfeld, Dan Klein} \\
+    
+    11:45--12:10
+    &	Quasi-Second-Order Parsing for 1-Endpoint-Crossing, Pagenumber-2 Graphs \newline 
+    {\itshape Junjie Cao, Sheng Huang, Weiwei Sun, Xiaojun Wan} \\
+    
+\end{tabular}
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 13:40--15:20 Session 2A: Machine Translation 1, Room:  Jutland, Chair:  Graham Neubig, Carnegie Mellon University} \\\hline
+
+    
+    13:40--14:05
+    &	Neural Machine Translation with Source-Side Latent Graph Parsing \newline 
+    {\itshape Kazuma Hashimoto, Yoshimasa Tsuruoka} \\
+    
+    14:05--14:30
+    &	Neural Machine Translation with Word Predictions \newline 
+    {\itshape Rongxiang Weng, Shujian Huang, Zaixiang Zheng, XIN-YU DAI, Jiajun CHEN} \\
+    
+    14:30--14:55
+    &	Towards Decoding as Continuous Optimisation in Neural Machine Translation \newline 
+    {\itshape Cong Duy Vu Hoang, Gholamreza Haffari, Trevor Cohn} \\
+    
+    14:55--15:20
+    &	Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation \newline 
+    {\itshape Melvin Johnson, Mike Schuster, Quoc V. Le, Maxim Krikun, Yonghui Wu, Zhifeng Chen, Nikhil Thorat, Fernanda Viégas, Martin Wattenberg, Greg Corrado, Macduff Hughes, Jeffrey Dean} \\
+    
+\end{tabular}
+
+\begin{tabular}{p{3in}p{16in}}
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large 15:50--17:30 Session 3A: Machine Learning 2, Room:  Jutland, Chair:  Karl Moritz Hermann, DeepMind} \\\hline
+
+    
+    15:50--16:15
+    &	DeepPath: A Reinforcement Learning Method for Knowledge Graph Reasoning \newline 
+    {\itshape Wenhan Xiong, Thien Hoang, William Yang Wang} \\
+    
+    16:15--16:40
+    &	Task-Oriented Query Reformulation with Reinforcement Learning \newline 
+    {\itshape Rodrigo Nogueira, Kyunghyun Cho} \\
+    
+    16:40--17:05
+    &	Sentence Simplification with Deep Reinforcement Learning \newline 
+    {\itshape Xingxing Zhang, Mirella Lapata} \\
+    
+    17:05--17:30
+    &	Learning how to Active Learn: A Deep Reinforcement Learning Approach \newline 
+    {\itshape Meng Fang, Yuan Li, Trevor Cohn} \\
+    
+\end{tabular}
+
+
+\end{document}

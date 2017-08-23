@@ -1,0 +1,66 @@
+[0] Config.pm:327> INFO - This is Biber 2.3
+[0] Config.pm:330> INFO - Logfile is 'workshops.blg'
+[46] biber:287> INFO - === Wed Aug 23, 2017, 13:21:45
+[208] Biber.pm:347> INFO - Reading 'workshops.bcf'
+[422] Biber.pm:690> INFO - Found 350 citekeys in bib section 0
+[427] Biber.pm:3067> INFO - Processing section 0
+[436] Biber.pm:3207> INFO - Looking for bibtex format file '../../content/workshops/papers2.bib' for section 0
+[458] bibtex.pm:1051> INFO - Decoding LaTeX character macros into UTF-8
+[470] bibtex.pm:912> INFO - Found BibTeX data source '../../content/workshops/papers2.bib'
+[528] Biber.pm:3207> INFO - Looking for bibtex format file '../../auto/argmining2017/papers.bib' for section 0
+[548] bibtex.pm:1051> INFO - Decoding LaTeX character macros into UTF-8
+[564] bibtex.pm:912> INFO - Found BibTeX data source '../../auto/argmining2017/papers.bib'
+[621] Biber.pm:3207> INFO - Looking for bibtex format file '../../auto/bea2017/papers.bib' for section 0
+[687] bibtex.pm:1051> INFO - Decoding LaTeX character macros into UTF-8
+[745] bibtex.pm:912> INFO - Found BibTeX data source '../../auto/bea2017/papers.bib'
+[885] Biber.pm:3207> INFO - Looking for bibtex format file '../../auto/DiscoMT2017/papers.bib' for section 0
+[901] bibtex.pm:1051> INFO - Decoding LaTeX character macros into UTF-8
+[911] bibtex.pm:912> INFO - Found BibTeX data source '../../auto/DiscoMT2017/papers.bib'
+[952] Biber.pm:3207> INFO - Looking for bibtex format file '../../auto/GenNLP/papers.bib' for section 0
+[965] bibtex.pm:1051> INFO - Decoding LaTeX character macros into UTF-8
+[975] bibtex.pm:912> INFO - Found BibTeX data source '../../auto/GenNLP/papers.bib'
+[1010] Biber.pm:3207> INFO - Looking for bibtex format file '../../auto/NewSum/papers.bib' for section 0
+[1028] bibtex.pm:1051> INFO - Decoding LaTeX character macros into UTF-8
+[1039] bibtex.pm:912> INFO - Found BibTeX data source '../../auto/NewSum/papers.bib'
+[1087] Biber.pm:3207> INFO - Looking for bibtex format file '../../auto/nlp-journ/papers.bib' for section 0
+[1119] bibtex.pm:1051> INFO - Decoding LaTeX character macros into UTF-8
+[1137] bibtex.pm:912> INFO - Found BibTeX data source '../../auto/nlp-journ/papers.bib'
+[1215] Biber.pm:3207> INFO - Looking for bibtex format file '../../auto/repeval/papers.bib' for section 0
+[1228] bibtex.pm:1051> INFO - Decoding LaTeX character macros into UTF-8
+[1237] bibtex.pm:912> INFO - Found BibTeX data source '../../auto/repeval/papers.bib'
+[1272] Biber.pm:3207> INFO - Looking for bibtex format file '../../auto/sclem/papers.bib' for section 0
+[1310] bibtex.pm:1051> INFO - Decoding LaTeX character macros into UTF-8
+[1333] bibtex.pm:912> INFO - Found BibTeX data source '../../auto/sclem/papers.bib'
+[1406] Biber.pm:3207> INFO - Looking for bibtex format file '../../auto/scnlp/papers.bib' for section 0
+[1418] bibtex.pm:1051> INFO - Decoding LaTeX character macros into UTF-8
+[1427] bibtex.pm:912> INFO - Found BibTeX data source '../../auto/scnlp/papers.bib'
+[1460] Biber.pm:3207> INFO - Looking for bibtex format file '../../auto/SPNLP/papers.bib' for section 0
+[1474] bibtex.pm:1051> INFO - Decoding LaTeX character macros into UTF-8
+[1480] bibtex.pm:912> INFO - Found BibTeX data source '../../auto/SPNLP/papers.bib'
+[1500] Biber.pm:3207> INFO - Looking for bibtex format file '../../auto/StyVa/papers.bib' for section 0
+[1520] bibtex.pm:1051> INFO - Decoding LaTeX character macros into UTF-8
+[1529] bibtex.pm:912> INFO - Found BibTeX data source '../../auto/StyVa/papers.bib'
+[1570] Biber.pm:3207> INFO - Looking for bibtex format file '../../auto/wassa2017/papers.bib' for section 0
+[1625] bibtex.pm:1051> INFO - Decoding LaTeX character macros into UTF-8
+[1668] bibtex.pm:912> INFO - Found BibTeX data source '../../auto/wassa2017/papers.bib'
+[1760] Utils.pm:147> WARN - Couldn't determine Last Name for name "b, premjith" - ignoring name
+[1760] Utils.pm:147> WARN - Couldn't determine Last Name for name "s, sachin kumar" - ignoring name
+[1760] Utils.pm:147> WARN - Couldn't determine Last Name for name "kp, soman" - ignoring name
+[1761] Utils.pm:147> WARN - Couldn't determine Last Name for name "b, premjith" - ignoring name
+[1761] Utils.pm:147> WARN - Couldn't determine Last Name for name "s, sachin kumar" - ignoring name
+[1762] Utils.pm:147> WARN - Couldn't determine Last Name for name "kp, soman" - ignoring name
+[1762] Biber.pm:3207> INFO - Looking for bibtex format file '../../auto/wmt/papers.bib' for section 0
+[1878] bibtex.pm:1051> INFO - Decoding LaTeX character macros into UTF-8
+[1978] bibtex.pm:912> INFO - Found BibTeX data source '../../auto/wmt/papers.bib'
+[2100] Utils.pm:147> WARN - Couldn't determine Last Name for name "shi, xiaodong" - ignoring name
+[2102] Utils.pm:147> WARN - Couldn't determine Last Name for name "shi, xiaodong" - ignoring name
+[2263] Biber.pm:3207> INFO - Looking for bibtex format file '../../auto/w-nut/papers.bib' for section 0
+[2297] bibtex.pm:1051> INFO - Decoding LaTeX character macros into UTF-8
+[2316] bibtex.pm:912> INFO - Found BibTeX data source '../../auto/w-nut/papers.bib'
+[4458] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[4458] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[4458] Biber.pm:2944> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-US'
+[4458] Biber.pm:2948> INFO - No sort tailoring available for locale 'en-US'
+[5569] bbl.pm:505> INFO - Writing 'workshops.bbl' with encoding 'UTF-8'
+[6305] bbl.pm:596> INFO - Output to workshops.bbl
+[6305] Biber.pm:108> INFO - WARNINGS: 8

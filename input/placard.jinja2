@@ -32,17 +32,17 @@
 \section{Day at a Glance --- {{ date }}}
 
 \begin{tabular}{p{8in}b{10in}}
-  \includegraphics[width=6in]{../../content/fmatter/logos/harbor.png}
+  \includegraphics[width=6in]{../../content/fmatter/emnlp17_logo.png}
   & \huge{\bfseries Track {{ track }}}\newline\Track{{ track }}Loc\vfill
 \end{tabular}
 
 \renewcommand{\arraystretch}{1.5}
-\fancyfoot[L]{ {\small The 52nd Annual Meeting of the Association for Computational
-    Linguistics\hfill\url{aclweb.org}}}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
 
 {% for session in sessions %}
 \begin{tabular}{p{3in}p{16in}}
-  \multicolumn{2}{l}{\bfseries\large {{ session.title }}} \\\hline
+  \multicolumn{2}{p{\textwidth}}{\bfseries\large {{ session.title }}} \\\hline
 
     {% for paper in session.papers %}
     {{ paper.time }}
