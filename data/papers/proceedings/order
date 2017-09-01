@@ -66,7 +66,6 @@
 1462   # Piecewise Latent Variables for Neural Variational Text Processing
 690   # Learning the Structure of Variable-Order CRFs: a finite-state perspective
 864   # Sparse Communication for Distributed Gradient Descent
-1011   # A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks
 1229   # Why ADAGRAD Fails for Online Topic Modeling
 = 13:40--15:20 Session 2F: Poster Session. Sentiment Analysis 1 # %room Copenhagen %chair Diyi Yang %aff1 Carnegie Mellon University
 215   # Recurrent Attention Network on Memory for Aspect Sentiment Analysis
@@ -253,6 +252,7 @@
 629   # Inducing Semantic Micro-Clusters from Deep Multi-View Representations of Novels
 179   # Initializing Convolutional Filters with Semantic Features for Text Classification
 330   # Shortest-Path Graph Kernels for Document Similarity
+1011   # A Joint Many-Task Model: Growing a Neural Network for Multiple NLP Tasks
 1075   # Adapting Topic Models using Lexical Associations with Tree Priors
 1079   # Finding Patterns in Noisy Crowds: Regression-based Annotation Aggregation for Crowdsourced Data
 539   # CROWD-IN-THE-LOOP: A Hybrid Approach for Annotating Semantic Roles
