@@ -1,0 +1,35 @@
+SubmissionNumber#=%=#35
+FinalPaperTitle#=%=#EXTENDED ABSTRACT Align and Copy: Hard Attention Models for Morphological Inflection Generation
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#The morphological inflection generation task is to predict the inflected form
+given a lemma and a set of morpho-syntactic features. We focus on neural
+network approaches that can tackle the task in a limited-resource setting. As
+the transduction of the lemma into the inflected form is dominated by copying
+over lemma characters, we propose two recurrent neural network architectures
+with monotonic hard attention that are strong at copying and, yet,
+substantially different in how they achieve this. In the first approach we
+integrate a copy mechanism to the character-level encoder-decoder model with
+hard monotonic attention. The second approach is a neural state-transition
+system over a set of explicit edit actions, including a designated COPY action.
+We experiment with hard character alignment and find that greedy and eager
+alignment consistently produces strong results for some languages. Our best
+system combination is an overall winner in the Task 1 of the SIGMORPHON 2017 in
+the basic setting (without external resources).
+Author{1}{Firstname}#=%=#Tatyana
+Author{1}{Lastname}#=%=#Ruzsics
+Author{1}{Email}#=%=#tatiana.ruzsics@uzh.ch
+Author{1}{Affiliation}#=%=#University of Zurich
+Author{2}{Firstname}#=%=#Peter
+Author{2}{Lastname}#=%=#Makarov
+Author{2}{Email}#=%=#makarov@cl.uzh.ch
+Author{2}{Affiliation}#=%=#University of Zurich
+Author{3}{Firstname}#=%=#Simon
+Author{3}{Lastname}#=%=#Clematide
+Author{3}{Email}#=%=#simon.clematide@uzh.ch
+Author{3}{Affiliation}#=%=#University of Zurich
+
+==========

@@ -1,5 +1,5 @@
 SubmissionNumber#=%=#26
-FinalPaperTitle#=%=#Patterns versus Characters in Subword-aware Neural Language Modeling
+FinalPaperTitle#=%=#(EXTENDED ABSTRACT) Patterns versus Characters in Subword-aware Neural Language Modeling
 ShortPaperTitle#=%=#
 NumberOfPages#=%=#
 CopyrightSigned#=%=#

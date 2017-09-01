@@ -1,0 +1,186 @@
+% This is a template file used to generate A1-sized placards
+% summarizing all the talks that take place in a particular room.
+
+\documentclass{book}
+
+\usepackage{pdfpages}
+\usepackage{tabularx}
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=370cm,
+  paperwidth=100cm,
+  inner=1.5in,
+  outer=1.5in,
+  bottom=2in,
+  top=2in,
+  twoside]{geometry}
+\input{../../content/special/preamble}
+\input{../../content/special/macros}
+\input{../../content/setup/venues}    % macros for event locations
+
+\renewcommand{\footnotesize}{\fontsize{36}{44}\selectfont}
+\renewcommand{\small}{\fontsize{48}{56}\selectfont}
+\renewcommand{\normalsize}{\fontsize{64}{72}\selectfont}
+\renewcommand{\normalsize}{\fontsize{60}{64}\selectfont}
+\renewcommand{\large}{\fontsize{72}{80}\selectfont}
+\renewcommand{\Large}{\fontsize{128}{132}\selectfont}
+\renewcommand{\huge}{\fontsize{144}{160}\selectfont}
+
+
+%\renewcommand{\footnotesize}{\fontsize{46}{54}\selectfont}
+%\renewcommand{\small}{\fontsize{58}{66}\selectfont}
+%\renewcommand{\normalsize}{\fontsize{74}{82}\selectfont}
+%\renewcommand{\large}{\fontsize{82}{90}\selectfont}
+%\renewcommand{\Large}{\fontsize{138}{142}\selectfont}
+%\renewcommand{\huge}{\fontsize{154}{170}\selectfont}
+
+
+\begin{document}
+
+\section{Day at a Glance --- Sunday, September 10}
+
+
+
+\vspace{0.5em}
+%\begin{tabularx}{\textwidth}{p{0.3\textwidth}XX}
+\begin{tabular*}{\textwidth}{c@{\extracolsep{\fill}} cc}
+  %\includegraphics[width=0.25\textwidth]{../../content/fmatter/emnlp17_logo.png} &
+  \multicolumn{1}{m{0.25\textwidth}}{\includegraphics[width=0.25\textwidth]{../../content/fmatter/emnlp17_logo.png}} &
+  \huge{\bfseries Track D} & \huge{ \TrackDLoc }
+\end{tabular*}
+\vspace*{\fill}
+
+
+
+\renewcommand{\arraystretch}{1.5}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
+
+
+
+\noindent {\bfseries\large 10:30--12:10 Session 4D: Poster Session. Semantics 2, Room:  Aarhus, Chair:  Ivan Vulić, University of Cambridge} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	Neural Sequence Learning Models for Word Sense Disambiguation \newline 
+    {\itshape Alessandro Raganato, Claudio Delli Bovi, Roberto Navigli} \\
+    
+    \noindent	Learning Word Relatedness over Time \newline 
+    {\itshape Guy D. Rosin, Eytan Adar, Kira Radinsky} \\
+    
+    \noindent	Inter-Weighted Alignment Network for Sentence Pair Modeling \newline 
+    {\itshape Gehui Shen, Yunlun Yang, Zhi-Hong Deng} \\
+    
+    \noindent	A Short Survey on Taxonomy Learning from Text Corpora: Issues, Resources and Recent Advances \newline 
+    {\itshape Chengyu Wang, Xiaofeng He, Aoying Zhou} \\
+    
+    \noindent	Idiom-Aware Compositional Distributed Semantics \newline 
+    {\itshape Pengfei Liu, Kaiyu Qian, Xipeng Qiu, Xuanjing Huang} \\
+    
+    \noindent	Macro Grammars and Holistic Triggering for Efficient Semantic Parsing \newline 
+    {\itshape Yuchen Zhang, Panupong Pasupat, Percy Liang} \\
+    
+    \noindent	A Continuously Growing Dataset of Sentential Paraphrases \newline 
+    {\itshape Wuwei Lan, Siyu Qiu, Hua He, Wei Xu} \\
+    
+    \noindent	Cross-domain Semantic Parsing via Paraphrasing \newline 
+    {\itshape Yu Su, Xifeng Yan} \\
+    
+    \noindent	A Joint Sequential and Relational Model for Frame-Semantic Parsing \newline 
+    {\itshape Bishan Yang, Tom Mitchell} \\
+    
+    \noindent	Getting the Most out of AMR Parsing \newline 
+    {\itshape Chuan Wang, Nianwen Xue} \\
+    
+    \noindent	AMR Parsing using Stack-LSTMs \newline 
+    {\itshape Miguel Ballesteros, Yaser Al-Onaizan} \\
+    
+    \noindent	An End-to-End Deep Framework for Answer Triggering with a Novel Group-Level Objective \newline 
+    {\itshape Jie Zhao, Yu Su, Ziyu Guan, Huan Sun} \\
+    
+    \noindent	Predicting Word Association Strengths \newline 
+    {\itshape Andrew Cattle, Xiaojuan Ma} \\
+    
+\vspace*{\fill}
+
+
+\noindent {\bfseries\large 13:40--15:20 Session 5D: Poster Session. Syntax 3, Room:  Aarhus, Chair:  Ryan Cotterell, Johns Hopkins University} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	CRF Autoencoder for Unsupervised Dependency Parsing \newline 
+    {\itshape Jiong Cai, Yong Jiang, Kewei Tu} \\
+    
+    \noindent	Efficient Discontinuous Phrase-Structure Parsing via the Generalized Maximum Spanning Arborescence \newline 
+    {\itshape Caio Corro, Joseph Le Roux, Mathieu Lacroix} \\
+    
+    \noindent	Incremental Graph-based Neural Dependency Parsing \newline 
+    {\itshape Xiaoqing Zheng} \\
+    
+    \noindent	Neural Discontinuous Constituency Parsing \newline 
+    {\itshape Miloš Stanojević, Raquel Garrido Alhama} \\
+    
+    \noindent	Stack-based Multi-layer Attention for Transition-based Dependency Parsing \newline 
+    {\itshape Zhirui Zhang, Shujie Liu, Mu Li, Ming Zhou, Enhong Chen} \\
+    
+    \noindent	Dependency Grammar Induction with Neural Lexicalization and Big Training Data \newline 
+    {\itshape Wenjuan Han, Yong Jiang, Kewei Tu} \\
+    
+    \noindent	Combining Generative and Discriminative Approaches to Unsupervised Dependency Parsing via Dual Decomposition \newline 
+    {\itshape Yong Jiang, Wenjuan Han, Kewei Tu} \\
+    
+    \noindent	Effective Inference for Generative Neural Parsing \newline 
+    {\itshape Mitchell Stern, Daniel Fried, Dan Klein} \\
+    
+    \noindent	Semi-supervised Structured Prediction with Neural CRF Autoencoder \newline 
+    {\itshape Xiao Zhang, Yong Jiang, Hao Peng, Kewei Tu, Dan Goldwasser} \\
+    
+    \noindent	TAG Parsing with Neural Networks and Vector Representations of Supertags \newline 
+    {\itshape Jungo Kasai, Bob Frank, Tom McCoy, Owen Rambow, Alexis Nasr} \\
+    
+\vspace*{\fill}
+
+
+\noindent {\bfseries\large 15:50--17:30 Session 6D: Poster Session. Summarization, Generation, Dialog, and Discourse 1, Room:  Aarhus, Chair:  Yangfeng Ji, University of Washington} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	What is the Essence of a Claim? Cross-Domain Claim Identification \newline 
+    {\itshape Johannes Daxenberger, Steffen Eger, Ivan Habernal, Christian Stab, Iryna Gurevych} \\
+    
+    \noindent	Identifying Where to Focus in Reading Comprehension for Neural Question Generation \newline 
+    {\itshape Xinya Du, Claire Cardie} \\
+    
+    \noindent	Break it Down for Me: A Study in Automated Lyric Annotation \newline 
+    {\itshape Lucas Sterckx, Jason Naradowsky, Bill Byrne, Thomas Demeester, Chris Develder} \\
+    
+    \noindent	Cascaded Attention based Unsupervised Information Distillation for Compressive Summarization \newline 
+    {\itshape Piji Li, Wai Lam, Lidong Bing, Weiwei Guo, Hang Li} \\
+    
+    \noindent	Deep Recurrent Generative Decoder for Abstractive Text Summarization \newline 
+    {\itshape Piji Li, Wai Lam, Lidong Bing, Zihao Wang} \\
+    
+    \noindent	Extractive Summarization Using Multi-Task Learning with Document Classification \newline 
+    {\itshape Masaru Isonuma, Toru Fujino, Junichiro Mori, Yutaka Matsuo, Ichiro Sakata} \\
+    
+    \noindent	Towards Automatic Construction of News Overview Articles by News Synthesis \newline 
+    {\itshape Jianmin Zhang, Xiaojun Wan} \\
+    
+    \noindent	Joint Syntacto-Discourse Parsing and the Syntacto-Discourse Treebank \newline 
+    {\itshape Kai Zhao, Liang Huang} \\
+    
+    \noindent	Event Coreference Resolution by Iteratively Unfolding Inter-dependencies among Events \newline 
+    {\itshape Prafulla Kumar Choubey, Ruihong Huang} \\
+    
+    \noindent	When to Finish? Optimal Beam Search for Neural Text Generation (modulo beam size) \newline 
+    {\itshape Liang Huang, Kai Zhao, Mingbo Ma} \\
+    
+    \noindent	Steering Output Style and Topic in Neural Response Generation \newline 
+    {\itshape Di Wang, Nebojsa Jojic, Chris Brockett, Eric Nyberg} \\
+    
+\vspace*{\fill}
+
+
+\end{document}

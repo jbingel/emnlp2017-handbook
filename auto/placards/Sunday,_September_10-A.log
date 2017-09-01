@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.30)  23 AUG 2017 11:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.23)  28 AUG 2017 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -113,6 +113,25 @@ File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count92
 \AM@templatesizebox=\box27
 )
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen109
+\extrarowheight=\dimen110
+\NC@list=\toks16
+\extratabsurround=\skip46
+\backup@length=\skip47
+)
+\TX@col@width=\dimen111
+\TX@old@table=\dimen112
+\TX@old@col=\dimen113
+\TX@target=\dimen114
+\TX@delta=\dimen115
+\TX@cols=\count93
+\TX@ftn=\toks17
+)
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -123,18 +142,18 @@ Package ifvtex Info: VTeX not detected.
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count93
-\Gm@cntv=\count94
-\c@Gm@tempcnt=\count95
-\Gm@bindingoffset=\dimen109
-\Gm@wd@mp=\dimen110
-\Gm@odd@mp=\dimen111
-\Gm@even@mp=\dimen112
-\Gm@layoutwidth=\dimen113
-\Gm@layoutheight=\dimen114
-\Gm@layouthoffset=\dimen115
-\Gm@layoutvoffset=\dimen116
-\Gm@dimlist=\toks16
+\Gm@cnth=\count94
+\Gm@cntv=\count95
+\c@Gm@tempcnt=\count96
+\Gm@bindingoffset=\dimen116
+\Gm@wd@mp=\dimen117
+\Gm@odd@mp=\dimen118
+\Gm@even@mp=\dimen119
+\Gm@layoutwidth=\dimen120
+\Gm@layoutheight=\dimen121
+\Gm@layouthoffset=\dimen122
+\Gm@layoutvoffset=\dimen123
+\Gm@dimlist=\toks18
 )
 (../../content/special/preamble.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
@@ -196,14 +215,14 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen117
-\Hy@linkcounter=\count96
-\Hy@pagecounter=\count97
+\@linkdim=\dimen124
+\Hy@linkcounter=\count97
+\Hy@pagecounter=\count98
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count98
+\Hy@SavedSpaceFactor=\count99
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -215,17 +234,17 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count99
+\c@Hy@tempcnt=\count100
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
-\XeTeXLinkMargin=\dimen118
-\Fld@menulength=\count100
-\Field@Width=\dimen119
-\Fld@charsize=\dimen120
+\XeTeXLinkMargin=\dimen125
+\Fld@menulength=\count101
+\Field@Width=\dimen126
+\Fld@charsize=\dimen127
 Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
@@ -235,29 +254,29 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count101
-\c@Item=\count102
-\c@Hfootnote=\count103
+\Hy@abspage=\count102
+\c@Item=\count103
+\c@Hfootnote=\count104
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count104
-\c@bookmark@seq@number=\count105
+\Fld@listcount=\count105
+\c@bookmark@seq@number=\count106
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip46
+\Hy@SectionHShift=\skip48
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
@@ -724,16 +743,7 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen121
-\extrarowheight=\dimen122
-\NC@list=\toks19
-\extratabsurround=\skip47
-\backup@length=\skip48
-)
-\everycr=\toks20
+\everycr=\toks21
 \minrowclearance=\skip49
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
@@ -763,27 +773,17 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip67
 \LTpre=\skip68
 \LTpost=\skip69
-\LTchunksize=\count106
-\LTcapwidth=\dimen123
+\LTchunksize=\count107
+\LTcapwidth=\dimen128
 \LT@head=\box28
 \LT@firsthead=\box29
 \LT@foot=\box30
 \LT@lastfoot=\box31
-\LT@cols=\count107
-\LT@rows=\count108
-\c@LT@tables=\count109
-\c@LT@chunks=\count110
-\LT@p@ftn=\toks21
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
-\TX@col@width=\dimen124
-\TX@old@table=\dimen125
-\TX@old@col=\dimen126
-\TX@target=\dimen127
-\TX@delta=\dimen128
-\TX@cols=\count111
-\TX@ftn=\toks22
+\LT@cols=\count108
+\LT@rows=\count109
+\c@LT@tables=\count110
+\c@LT@chunks=\count111
+\LT@p@ftn=\toks22
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
@@ -1348,28 +1348,28 @@ File: english.lbx 2015/12/22 v3.2 biblatex localization (PK/JW/AB)
 (./Sunday,_September_10-A.aux)
 \openout1 = `Sunday,_September_10-A.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 39.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 30.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 39.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
@@ -1416,15 +1416,15 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(108.405pt, 1473.28369pt, 108.405pt)
-* v-part:(T,H,B)=(144.54pt, 2103.79678pt, 144.54pt)
-* \paperwidth=1690.09369pt
-* \paperheight=2392.87677pt
-* \textwidth=1473.28369pt
-* \textheight=2103.79678pt
-* \oddsidemargin=36.13501pt
-* \evensidemargin=36.13501pt
-* \topmargin=42.20251pt
+* h-part:(L,W,R)=(113.81102pt, 2617.65355pt, 113.81102pt)
+* v-part:(T,H,B)=(113.81102pt, 10299.89764pt, 113.81102pt)
+* \paperwidth=2845.27559pt
+* \paperheight=10527.51968pt
+* \textwidth=2617.65355pt
+* \textheight=10299.89764pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=41.54103pt
+* \topmargin=11.47354pt
 * \headheight=12.0pt
 * \headsep=18.06749pt
 * \topskip=10.0pt
@@ -1442,7 +1442,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 39.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1451,9 +1451,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count357
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 39.
+LaTeX Info: Redefining \pageref on input line 39.
+LaTeX Info: Redefining \nameref on input line 39.
 
 (./Sunday,_September_10-A.out) (./Sunday,_September_10-A.out)
 \@outlinefile=\write5
@@ -1468,40 +1468,40 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Sunday,_September_10-A.bbl' not found.
 
 No file Sunday,_September_10-A.bbl.
-Package biblatex Info: Reference section=0 on input line 30.
-Package biblatex Info: Reference segment=0 on input line 30.
+Package biblatex Info: Reference section=0 on input line 39.
+Package biblatex Info: Reference segment=0 on input line 39.
 Package marginnote Info: \pdfoutput not 0 and \pdflastxpos available.
 (marginnote)             Extended position detection mode activated.
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 30.
+LaTeX Info: Redefining \selectfont on input line 39.
 \big@size=\dimen193
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <64> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 32.
-LaTeX Font Info:    Calculating math sizes for size <32> on input line 32.
-LaTeX Font Info:    Try loading font information for OT1+ppl on input line 32.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <138> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 41.
+LaTeX Font Info:    Calculating math sizes for size <74> on input line 41.
+LaTeX Font Info:    Try loading font information for OT1+ppl on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 32.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 41.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 32.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 41.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 32.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 41.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 41.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -1512,39 +1512,49 @@ File: ../../content/fmatter/emnlp17_logo.png Graphic file (type png)
 
 <use ../../content/fmatter/emnlp17_logo.png>
 Package pdftex.def Info: ../../content/fmatter/emnlp17_logo.png used on input l
-ine 35.
-(pdftex.def)             Requested size: 433.62pt x 107.56244pt.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <72> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 36.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <32> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 45.
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <36> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 45.
+ine 47.
+(pdftex.def)             Requested size: 654.41338pt x 162.33388pt.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <154> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 48.
 
-Overfull \hbox (14.30206pt too wide) in paragraph at lines 44--65
-[][] 
+Overfull \hbox (9.99756pt too wide) in paragraph at lines 45--51
+[][]
+ []
+
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <74> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <82> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 58.
+
+Overfull \hbox (14.30206pt too wide) in paragraph at lines 57--79
+[][]
  []
 
 
-Overfull \hbox (14.30206pt too wide) in paragraph at lines 66--87
-[][] 
+Overfull \hbox (14.30206pt too wide) in paragraph at lines 80--102
+[][]
  []
 
 
-Overfull \hbox (14.30206pt too wide) in paragraph at lines 88--109
-[][] 
+Underfull \hbox (badness 2478) in paragraph at lines 108--110
+[]|\T1/ppl/m/n/74 Earth Mover's Dis-tance Min-i-miza-tion for Un-su-per-vised
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 111.
+
+Overfull \hbox (14.30206pt too wide) in paragraph at lines 103--125
+[][]
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 127.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 127.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-LaTeX Font Info:    Calculating math sizes for size <24> on input line 111.
+LaTeX Font Info:    Calculating math sizes for size <58> on input line 127.
 
 
 Package Fancyhdr Warning: \footskip is too small (25.29494pt): 
- Make it at least 26.20908pt.
+ Make it at least 50.80783pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
@@ -1559,32 +1569,32 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <..
 /../content/fmatter/emnlp17_logo.png (PNG copy)>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 127.
  (./Sunday,_September_10-A.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 127.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 127.
 Package rerunfilecheck Info: File `Sunday,_September_10-A.out' has not changed.
 
 (rerunfilecheck)             Checksum: 09EBC8D14692E4202D5E8AF0DD339DF0;78.
 Package logreq Info: Writing requests to 'Sunday,_September_10-A.run.xml'.
 \openout1 = `Sunday,_September_10-A.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 111.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 127.
  ) 
 Here is how much of TeX's memory you used:
  21550 strings out of 494910
- 359821 string characters out of 6179836
- 827092 words of memory out of 5000000
+ 359827 string characters out of 6179836
+ 827315 words of memory out of 5000000
  24477 multiletter control sequences out of 15000+600000
  31356 words of font info for 66 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,14n,50p,1147b,1436s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,15n,50p,1167b,1436s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb>
-Output written on Sunday,_September_10-A.pdf (1 page, 77919 bytes).
+Output written on Sunday,_September_10-A.pdf (1 page, 77985 bytes).
 PDF statistics:
  37 PDF objects out of 1000 (max. 8388607)
  28 compressed objects within 1 object stream

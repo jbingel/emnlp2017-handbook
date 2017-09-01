@@ -1,0 +1,195 @@
+% This is a template file used to generate A1-sized placards
+% summarizing all the talks that take place in a particular room.
+
+\documentclass{book}
+
+\usepackage{pdfpages}
+\usepackage{tabularx}
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=370cm,
+  paperwidth=100cm,
+  inner=1.5in,
+  outer=1.5in,
+  bottom=2in,
+  top=2in,
+  twoside]{geometry}
+\input{../../content/special/preamble}
+\input{../../content/special/macros}
+\input{../../content/setup/venues}    % macros for event locations
+
+\renewcommand{\footnotesize}{\fontsize{36}{44}\selectfont}
+\renewcommand{\small}{\fontsize{48}{56}\selectfont}
+\renewcommand{\normalsize}{\fontsize{64}{72}\selectfont}
+\renewcommand{\normalsize}{\fontsize{60}{64}\selectfont}
+\renewcommand{\large}{\fontsize{72}{80}\selectfont}
+\renewcommand{\Large}{\fontsize{128}{132}\selectfont}
+\renewcommand{\huge}{\fontsize{144}{160}\selectfont}
+
+
+%\renewcommand{\footnotesize}{\fontsize{46}{54}\selectfont}
+%\renewcommand{\small}{\fontsize{58}{66}\selectfont}
+%\renewcommand{\normalsize}{\fontsize{74}{82}\selectfont}
+%\renewcommand{\large}{\fontsize{82}{90}\selectfont}
+%\renewcommand{\Large}{\fontsize{138}{142}\selectfont}
+%\renewcommand{\huge}{\fontsize{154}{170}\selectfont}
+
+
+\begin{document}
+
+\section{Day at a Glance --- Sunday, September 10}
+
+
+
+\vspace{0.5em}
+%\begin{tabularx}{\textwidth}{p{0.3\textwidth}XX}
+\begin{tabular*}{\textwidth}{c@{\extracolsep{\fill}} cc}
+  %\includegraphics[width=0.25\textwidth]{../../content/fmatter/emnlp17_logo.png} &
+  \multicolumn{1}{m{0.25\textwidth}}{\includegraphics[width=0.25\textwidth]{../../content/fmatter/emnlp17_logo.png}} &
+  \huge{\bfseries Track E} & \huge{ \TrackELoc }
+\end{tabular*}
+\vspace*{\fill}
+
+
+
+\renewcommand{\arraystretch}{1.5}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
+
+
+
+\noindent {\bfseries\large 10:30--12:10 Session 4E: Poster Session. Discourse, Room:  Odense, Chair:  Sam Wiseman, Harvard University} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	Learning Contextually Informed Representations for Linear-Time Discourse Parsing \newline 
+    {\itshape Yang Liu, Mirella Lapata} \\
+    
+    \noindent	Multi-task Attention-based Neural Networks for Implicit Discourse Relationship Representation and Identification \newline 
+    {\itshape Man Lan, Jianxiang Wang, Yuanbin Wu, Zheng-Yu Niu, Haifeng Wang} \\
+    
+    \noindent	Chinese Zero Pronoun Resolution with Deep Memory Network \newline 
+    {\itshape Qingyu Yin, Yu Zhang, Weinan Zhang, Ting Liu} \\
+    
+    \noindent	How much progress have we made on RST discourse parsing? A replication study of recent results on the RST-DT \newline 
+    {\itshape Mathieu Morey, Philippe Muller, Nicholas Asher} \\
+    
+    \noindent	What is it? Disambiguating the different readings of the pronoun ‘it' \newline 
+    {\itshape Sharid Loáiciga, Liane Guillou, Christian Hardmeier} \\
+    
+    \noindent	Revisiting Selectional Preferences for Coreference Resolution \newline 
+    {\itshape Benjamin Heinzerling, Nafise Sadat Moosavi, Michael Strube} \\
+    
+    \noindent	Learning to Rank Semantic Coherence for Topic Segmentation \newline 
+    {\itshape Liang Wang, Sujian Li, Yajuan Lv, Houfeng WANG} \\
+    
+    \noindent	GRASP: Rich Patterns for Argumentation Mining \newline 
+    {\itshape Eyal Shnarch, Ran Levy, Vikas Raykar, Noam Slonim} \\
+    
+    \noindent	Patterns of Argumentation Strategies across Topics \newline 
+    {\itshape Khalid Al Khatib, Henning Wachsmuth, Matthias Hagen, Benno Stein} \\
+    
+    \noindent	Using Argument-based Features to Predict and Analyse Review Helpfulness \newline 
+    {\itshape Haijing Liu, Yang Gao, Pin Lv, Mengxue Li, Shiqiang Geng, Minglan Li, Hao Wang} \\
+    
+    \noindent	Here's My Point: Joint Pointer Architecture for Argument Mining \newline 
+    {\itshape Peter Potash, Alexey Romanov, Anna Rumshisky} \\
+    
+    \noindent	Identifying attack and support argumentative relations using deep learning \newline 
+    {\itshape Oana Cocarascu, Francesca Toni} \\
+    
+\vspace*{\fill}
+
+
+\noindent {\bfseries\large 13:40--15:20 Session 5E: Poster Session. Relations, Room:  Odense, Chair:  Bishan Yang, Carnegie Mellon University} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	Global Normalization of Convolutional Neural Networks for Joint Entity and Relation Classification \newline 
+    {\itshape Heike Adel, Hinrich Schütze} \\
+    
+    \noindent	End-to-End Neural Relation Extraction with Global Optimization \newline 
+    {\itshape Meishan Zhang, Yue Zhang, Guohong Fu} \\
+    
+    \noindent	KGEval: Accuracy Estimation of Automatically Constructed Knowledge Graphs \newline 
+    {\itshape Prakhar Ojha, Partha Talukdar} \\
+    
+    \noindent	Sparsity and Noise: Where Knowledge Graph Embeddings Fall Short \newline 
+    {\itshape Jay Pujara, Eriq Augustine, Lise Getoor} \\
+    
+    \noindent	Dual Tensor Model for Detecting Asymmetric Lexico-Semantic Relations \newline 
+    {\itshape Goran Glavaš, Simone Paolo Ponzetto} \\
+    
+    \noindent	Incorporating Relation Paths in Neural Relation Extraction \newline 
+    {\itshape Wenyuan Zeng, Yankai Lin, Zhiyuan Liu, Maosong Sun} \\
+    
+    \noindent	Adversarial Training for Relation Extraction \newline 
+    {\itshape Yi Wu, David Bamman, Stuart Russell} \\
+    
+    \noindent	Context-Aware Representations for Knowledge Base Relation Extraction \newline 
+    {\itshape Daniil Sorokin, Iryna Gurevych} \\
+    
+    \noindent	A Soft-label Method for Noise-tolerant Distantly Supervised Relation Extraction \newline 
+    {\itshape Tianyu Liu, Kexiang Wang, Baobao Chang, Zhifang Sui} \\
+    
+    \noindent	A Sequential Model for Classifying Temporal Relations between Intra-Sentence Events \newline 
+    {\itshape Prafulla Kumar Choubey, Ruihong Huang} \\
+    
+    \noindent	Deep Residual Learning for Weakly-Supervised Relation Extraction \newline 
+    {\itshape YiYao Huang, William Yang Wang} \\
+    
+    \noindent	Noise-Clustered Distant Supervision for Relation Extraction: A Nonparametric Bayesian Perspective \newline 
+    {\itshape Qing Zhang, Houfeng Wang} \\
+    
+    \noindent	Exploring Vector Spaces for Semantic Relations \newline 
+    {\itshape Kata Gábor, Haifa Zargayouna, Isabelle Tellier, Davide Buscaldi, Thierry Charnois} \\
+    
+    \noindent	Temporal dynamics of semantic relations in word embeddings: an application to predicting armed conflict participants \newline 
+    {\itshape Andrey Kutuzov, Erik Velldal, Lilja Øvrelid} \\
+    
+\vspace*{\fill}
+
+
+\noindent {\bfseries\large 15:50--17:30 Session 6E: Poster Session. Summarization, Generation, Dialog, and Discourse 2, Room:  Odense, Chair:  Natalie Schluter, IT University of Copenhagen, Chair: 2 Elkin Dario Gutierrez} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	Preserving Distributional Information in Dialogue Act Classification \newline 
+    {\itshape Quan Hung Tran, Ingrid Zukerman, Gholamreza Haffari} \\
+    
+    \noindent	Adversarial Learning for Neural Dialogue Generation \newline 
+    {\itshape Jiwei Li, Will Monroe, Tianlin Shi, S\'ebastien Jean, Alan Ritter, Dan Jurafsky} \\
+    
+    \noindent	Using Context Information for Dialog Act Classification in DNN Framework \newline 
+    {\itshape Yang Liu, Kun Han, Zhao Tan, Yun Lei} \\
+    
+    \noindent	Modeling Dialogue Acts with Content Word Filtering and Speaker Preferences \newline 
+    {\itshape Yohan Jo, Michael Yoder, Hyeju Jang, Carolyn Rose} \\
+    
+    \noindent	Towards Implicit Content-Introducing for Generative Short-Text Conversation Systems \newline 
+    {\itshape Lili Yao, Yaoyuan Zhang, Yansong Feng, Dongyan Zhao, Rui Yan} \\
+    
+    \noindent	Affordable On-line Dialogue Policy Learning \newline 
+    {\itshape Cheng Chang, Runzhe Yang, Lu Chen, Xiang Zhou, Kai Yu} \\
+    
+    \noindent	Generating High-Quality and Informative Conversation Responses with Sequence-to-Sequence Models \newline 
+    {\itshape Yuanlong Shao, Stephan Gouws, Denny Britz, Anna Goldie, Brian Strope, Ray Kurzweil} \\
+    
+    \noindent	Bootstrapping incremental dialogue systems from minimal data: the generalisation power of dialogue grammars \newline 
+    {\itshape Arash Eshghi, Igor Shalyminov, Oliver Lemon} \\
+    
+    \noindent	Composite Task-Completion Dialogue Policy Learning via Hierarchical Deep Reinforcement Learning \newline 
+    {\itshape Baolin Peng, Xiujun Li, Lihong Li, Jianfeng Gao, Asli Celikyilmaz, Sungjin Lee, Kam-Fai Wong} \\
+    
+    \noindent	Why We Need New Evaluation Metrics for NLG \newline 
+    {\itshape Jekaterina Novikova, Ondřej Dušek, Amanda Cercas Curry, Verena Rieser} \\
+    
+    \noindent	Challenges in Data-to-Document Generation \newline 
+    {\itshape Sam Wiseman, Stuart Shieber, Alexander Rush} \\
+    
+\vspace*{\fill}
+
+
+\end{document}

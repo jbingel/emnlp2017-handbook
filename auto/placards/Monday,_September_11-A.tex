@@ -4,44 +4,57 @@
 \documentclass{book}
 
 \usepackage{pdfpages}
-
+\usepackage{tabularx}
 % set paper size and margins; needs to be adapted for A5 ideally, we
 % should have a document class for conference handbooks where A5
 % vs. letter-halved is a class option
 \usepackage[
-  paperheight=841mm,
-  paperwidth=594mm,
-  inner=1.5in,
-  outer=1.5in,
-  bottom=2in,
-  top=2in,
+  paperheight=370cm,
+  paperwidth=100cm,
+  inner=4cm,
+  outer=4cm,
+  bottom=4cm,
+  top=4cm,
   twoside]{geometry}
 \input{../../content/special/preamble} 
 \input{../../content/special/macros}    
 \input{../../content/setup/venues}    % macros for event locations
 
-\renewcommand{\footnotesize}{\fontsize{18}{22}\selectfont}
-\renewcommand{\small}{\fontsize{24}{28}\selectfont}
-\renewcommand{\normalsize}{\fontsize{32}{36}\selectfont}
-\renewcommand{\large}{\fontsize{36}{40}\selectfont}
-\renewcommand{\Large}{\fontsize{64}{66}\selectfont}
-\renewcommand{\huge}{\fontsize{72}{80}\selectfont}
+\renewcommand{\footnotesize}{\fontsize{36}{44}\selectfont}
+\renewcommand{\small}{\fontsize{48}{56}\selectfont}
+\renewcommand{\normalsize}{\fontsize{64}{72}\selectfont}
+\renewcommand{\large}{\fontsize{72}{80}\selectfont}
+\renewcommand{\Large}{\fontsize{128}{132}\selectfont}
+\renewcommand{\huge}{\fontsize{144}{160}\selectfont}
+
+
+\renewcommand{\footnotesize}{\fontsize{46}{54}\selectfont}
+\renewcommand{\small}{\fontsize{58}{66}\selectfont}
+\renewcommand{\normalsize}{\fontsize{74}{82}\selectfont}
+\renewcommand{\large}{\fontsize{82}{90}\selectfont}
+\renewcommand{\Large}{\fontsize{138}{142}\selectfont}
+\renewcommand{\huge}{\fontsize{154}{170}\selectfont}
+
 
 \begin{document}
 
 \section{Day at a Glance --- Monday, September 11}
 
-\begin{tabular}{p{8in}b{10in}}
-  \includegraphics[width=6in]{../../content/fmatter/emnlp17_logo.png}
-  & \huge{\bfseries Track A}\newline\TrackALoc\vfill
-\end{tabular}
+\vspace{0.5em}
+%\begin{tabularx}{\textwidth}{p{0.3\textwidth}XX}
+\begin{tabular*}{\textwidth}{c@{\extracolsep{\fill}} cc}
+  %\includegraphics[width=0.25\textwidth]{../../content/fmatter/emnlp17_logo.png} &
+  \multicolumn{1}{m{0.25\textwidth}}{\includegraphics[width=0.25\textwidth]{../../content/fmatter/emnlp17_logo.png}} &
+  \huge{\bfseries Track A} & \huge{ \TrackALoc }
+\end{tabular*}
+\vspace*{\fill}
 
 \renewcommand{\arraystretch}{1.5}
 \fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
  \hfill\url{aclweb.org}}}
 
 
-\begin{tabular}{p{3in}p{16in}}
+\begin{tabular}{p{20cm}p{70cm}}
   \multicolumn{2}{p{\textwidth}}{\bfseries\large 10:30--12:10 Session 7A: Machine Learning 3, Room:  Jutland, Chair:  Barbara Plank, University of Groningen} \\\hline
 
     
@@ -62,8 +75,9 @@
     {\itshape Hadi Amiri, Timothy Miller, Guergana Savova} \\
     
 \end{tabular}
+\vspace*{\fill}
 
-\begin{tabular}{p{3in}p{16in}}
+\begin{tabular}{p{20cm}p{70cm}}
   \multicolumn{2}{p{\textwidth}}{\bfseries\large 13:40--15:25 Session 8A: Machine Translation and Multilingual/Multimodal NLP (Short), Room:  Jutland, Chair:  Yulia Tsvetkov, Carnegie Mellon University} \\\hline
 
     
@@ -96,6 +110,7 @@
     {\itshape Dan Han, Pascual Martínez-Gómez, Koji Mineshima} \\
     
 \end{tabular}
+\vspace*{\fill}
 
 
 \end{document}

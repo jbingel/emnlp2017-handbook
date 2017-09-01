@@ -1,5 +1,5 @@
 SubmissionNumber#=%=#35
-FinalPaperTitle#=%=#EXTENDED ABSTRACT Align and Copy: Hard Attention Models for Morphological Inflection Generation
+FinalPaperTitle#=%=#(EXTENDED ABSTRACT) Align and Copy: Hard Attention Models for Morphological Inflection Generation
 ShortPaperTitle#=%=#
 NumberOfPages#=%=#
 CopyrightSigned#=%=#

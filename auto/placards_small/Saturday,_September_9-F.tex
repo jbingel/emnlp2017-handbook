@@ -1,0 +1,158 @@
+% This is a template file used to generate A1-sized placards
+% summarizing all the talks that take place in a particular room.
+
+\documentclass{book}
+
+\usepackage{pdfpages}
+\usepackage{tabularx}
+% set paper size and margins; needs to be adapted for A5 ideally, we
+% should have a document class for conference handbooks where A5
+% vs. letter-halved is a class option
+\usepackage[
+  paperheight=370cm,
+  paperwidth=100cm,
+  inner=1.5in,
+  outer=1.5in,
+  bottom=2in,
+  top=2in,
+  twoside]{geometry}
+\input{../../content/special/preamble}
+\input{../../content/special/macros}
+\input{../../content/setup/venues}    % macros for event locations
+
+\renewcommand{\footnotesize}{\fontsize{36}{44}\selectfont}
+\renewcommand{\small}{\fontsize{48}{56}\selectfont}
+\renewcommand{\normalsize}{\fontsize{64}{72}\selectfont}
+\renewcommand{\normalsize}{\fontsize{60}{64}\selectfont}
+\renewcommand{\large}{\fontsize{72}{80}\selectfont}
+\renewcommand{\Large}{\fontsize{128}{132}\selectfont}
+\renewcommand{\huge}{\fontsize{144}{160}\selectfont}
+
+
+%\renewcommand{\footnotesize}{\fontsize{46}{54}\selectfont}
+%\renewcommand{\small}{\fontsize{58}{66}\selectfont}
+%\renewcommand{\normalsize}{\fontsize{74}{82}\selectfont}
+%\renewcommand{\large}{\fontsize{82}{90}\selectfont}
+%\renewcommand{\Large}{\fontsize{138}{142}\selectfont}
+%\renewcommand{\huge}{\fontsize{154}{170}\selectfont}
+
+
+\begin{document}
+
+\section{Day at a Glance --- Saturday, September 9}
+
+
+
+\vspace{0.5em}
+%\begin{tabularx}{\textwidth}{p{0.3\textwidth}XX}
+\begin{tabular*}{\textwidth}{c@{\extracolsep{\fill}} cc}
+  %\includegraphics[width=0.25\textwidth]{../../content/fmatter/emnlp17_logo.png} &
+  \multicolumn{1}{m{0.25\textwidth}}{\includegraphics[width=0.25\textwidth]{../../content/fmatter/emnlp17_logo.png}} &
+  \huge{\bfseries Track F} & \huge{ \TrackFLoc }
+\end{tabular*}
+\vspace*{\fill}
+
+
+
+\renewcommand{\arraystretch}{1.5}
+\fancyfoot[L]{ {\small EMNLP 2017: Conference on Empirical Methods in Natural Language Processing
+ \hfill\url{aclweb.org}}}
+
+
+
+\noindent {\bfseries\large 13:40--15:20 Session 2F: Poster Session. Sentiment Analysis 1, Room:  Copenhagen, Chair:  Diyi Yang, Carnegie Mellon University} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	Recurrent Attention Network on Memory for Aspect Sentiment Analysis \newline 
+    {\itshape Peng Chen, Zhongqian Sun, Lidong Bing, Wei Yang} \\
+    
+    \noindent	A Cognition Based Attention Model for Sentiment Analysis \newline 
+    {\itshape Yunfei Long, Lu Qin, Rong Xiang, Minglei Li, Chu-Ren Huang} \\
+    
+    \noindent	Author-aware Aspect Topic Sentiment Model to Retrieve Supporting Opinions from Reviews \newline 
+    {\itshape Lahari Poddar, Wynne Hsu, Mong Li Lee} \\
+    
+    \noindent	Magnets for Sarcasm: Making Sarcasm Detection Timely, Contextual and Very Personal \newline 
+    {\itshape Aniruddha Ghosh, Tony Veale} \\
+    
+    \noindent	Identifying Humor in Reviews using Background Text Sources \newline 
+    {\itshape Alex Morales, Chengxiang Zhai} \\
+    
+    \noindent	Sentiment Lexicon Construction with Representation Learning Based on Hierarchical Sentiment Supervision \newline 
+    {\itshape Leyi Wang, Rui Xia} \\
+    
+    \noindent	Towards a Universal Sentiment Classifier in Multiple languages \newline 
+    {\itshape Kui Xu, Xiaojun Wan} \\
+    
+    \noindent	Capturing User and Product Information for Document Level Sentiment Analysis with Deep Memory Network \newline 
+    {\itshape Zi-Yi Dou} \\
+    
+    \noindent	Identifying and Tracking Sentiments and Topics from Social Media Texts during Natural Disasters \newline 
+    {\itshape Min Yang, Jincheng Mei, Heng Ji, zhao wei, Zhou Zhao, Xiaojun Chen} \\
+    
+    \noindent	Refining Word Embeddings for Sentiment Analysis \newline 
+    {\itshape Liang-Chih Yu, Jin Wang, K. Robert Lai, Xuejie Zhang} \\
+    
+    \noindent	A Multilayer Perceptron based Ensemble Technique for Fine-grained Financial Sentiment Analysis \newline 
+    {\itshape Md Shad Akhtar, Abhishek Kumar, Deepanway Ghosal, Asif Ekbal, Pushpak Bhattacharyya} \\
+    
+    \noindent	Sentiment Intensity Ranking among Adjectives Using Sentiment Bearing Word Embeddings \newline 
+    {\itshape Raksha Sharma, Arpan Somani, Lakshya Kumar, Pushpak Bhattacharyya} \\
+    
+    \noindent	Sentiment Lexicon Expansion Based on Neural PU Learning, Double Dictionary Lookup, and Polarity Association \newline 
+    {\itshape Yasheng Wang, Yang Zhang, Bing Liu} \\
+    
+\vspace*{\fill}
+
+
+\noindent {\bfseries\large 15:50--17:30 Session 3F: Poster Session. Multimodal NLP 1, Room:  Copenhagen, Chair:  Tianze Shi, Cornell University} \\
+\noindent\rule{\textwidth}{0.4pt}
+
+    
+    \noindent	An empirical study on the effectiveness of images in Multimodal Neural Machine Translation \newline 
+    {\itshape Jean-Benoit Delbrouck, Stéphane Dupont} \\
+    
+    \noindent	Sound-Word2Vec: Learning Word Representations Grounded in Sounds \newline 
+    {\itshape Ashwin Vijayakumar, Ramakrishna Vedantam, Devi Parikh} \\
+    
+    \noindent	The Promise of Premise: Harnessing Question Premises in Visual Question Answering \newline 
+    {\itshape Aroma Mahendru, Viraj Prabhu, Akrit Mohapatra, Dhruv Batra, Stefan Lee} \\
+    
+    \noindent	Guided Open Vocabulary Image Captioning with Constrained Beam Search \newline 
+    {\itshape Peter Anderson, Basura Fernando, Mark Johnson, Stephen Gould} \\
+    
+    \noindent	Zero-Shot Activity Recognition with Verb Attribute Induction \newline 
+    {\itshape Rowan Zellers, Yejin Choi} \\
+    
+    \noindent	Deriving continous grounded meaning representations from referentially structured multimodal contexts \newline 
+    {\itshape Sina Zarrieß, David Schlangen} \\
+    
+    \noindent	Hierarchically-Attentive RNN for Album Summarization and Storytelling \newline 
+    {\itshape Licheng Yu, Mohit Bansal, Tamara Berg} \\
+    
+    \noindent	Video Highlight Prediction Using Audience Chat Reactions \newline 
+    {\itshape Cheng-Yang Fu, Joon Lee, Mohit Bansal, Alexander Berg} \\
+    
+    \noindent	Reinforced Video Captioning with Entailment Rewards \newline 
+    {\itshape Ramakanth Pasunuru, Mohit Bansal} \\
+    
+    \noindent	Evaluating Hierarchies of Verb Argument Structure with Hierarchical Clustering \newline 
+    {\itshape Jesse Mu, Joshua K. Hartshorne, Timothy O'Donnell} \\
+    
+    \noindent	Incorporating Global Visual Features into Attention-based Neural Machine Translation. \newline 
+    {\itshape Iacer Calixto, Qun Liu} \\
+    
+    \noindent	Mapping Instructions and Visual Observations to Actions with Reinforcement Learning \newline 
+    {\itshape Dipendra Misra, John Langford, Yoav Artzi} \\
+    
+    \noindent	An analysis of eye-movements during reading for the detection of mild cognitive impairment \newline 
+    {\itshape Kathleen C. Fraser, Kristina Lundholm Fors, Dimitrios Kokkinakis, Arto Nordlund} \\
+    
+    \noindent	Evaluating Low-Level Speech Features Against Human Perceptual Data \newline 
+    {\itshape Naomi H Feldman, Caitlin Richter, Harini Salgado, Aren Jansen} \\
+    
+\vspace*{\fill}
+
+
+\end{document}

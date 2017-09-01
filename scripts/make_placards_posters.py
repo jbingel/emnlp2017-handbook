@@ -132,7 +132,6 @@ def sort_times(a, b):
 
 for day, data in sessions.iteritems():
     for track in data.keys():
-
         all_data = {
             'date': day,
             'sessions': [],

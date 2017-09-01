@@ -1,0 +1,40 @@
+SubmissionNumber#=%=#40
+FinalPaperTitle#=%=#(EXTENDED ABSTRACT) Language Generation with Recurrent Generative Adversarial Networks without Pre-training
+ShortPaperTitle#=%=#
+NumberOfPages#=%=#
+CopyrightSigned#=%=#
+JobTitle#==#
+Organization#==#
+Abstract#==#Generative Adversarial Networks (GANs) have shown great promise recently in
+image generation. Training GANs for language generation has proven to be more
+difficult, because of the non-differentiable nature of generating text with
+recurrent neural networks. Consequently, past work has either resorted to
+pre-training with maximum-likelihood or used convolutional networks for
+generation.
+In this work, we show that recurrent neural networks can be trained to generate
+text with GANs from scratch using curriculum learning, by slowly teaching the
+model to generate sequences of increasing and variable length.
+We empirically show that our approach vastly improves the quality of generated
+sequences compared to a convolutional baseline.
+Author{1}{Firstname}#=%=#Ofir
+Author{1}{Lastname}#=%=#Press
+Author{1}{Email}#=%=#ofirpress@gmail.com
+Author{1}{Affiliation}#=%=#Tel-Aviv University
+Author{2}{Firstname}#=%=#Amir
+Author{2}{Lastname}#=%=#Bar
+Author{2}{Email}#=%=#amirb4r@gmail.com
+Author{2}{Affiliation}#=%=#Tel-Aviv University
+Author{3}{Firstname}#=%=#Ben
+Author{3}{Lastname}#=%=#Bogin
+Author{3}{Email}#=%=#benb969@gmail.com
+Author{3}{Affiliation}#=%=#Tel-Aviv University
+Author{4}{Firstname}#=%=#Jonathan
+Author{4}{Lastname}#=%=#Berant
+Author{4}{Email}#=%=#joberant@cs.tau.ac.il
+Author{4}{Affiliation}#=%=#Tel Aviv University
+Author{5}{Firstname}#=%=#Lior
+Author{5}{Lastname}#=%=#Wolf
+Author{5}{Email}#=%=#liorwolf@gmail.com
+Author{5}{Affiliation}#=%=#Tel-Aviv University
+
+==========
